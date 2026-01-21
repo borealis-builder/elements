@@ -16,18 +16,22 @@
     },
     "files": [
         {
+            "type": "index",
             "name": "core.index",
             "url": "https://raw.githubusercontent.com/borealis/elements/main/core.index"
         },
         {
+            "type": "index",
             "name": "supplements.index",
             "url": "https://raw.githubusercontent.com/borealis/elements/main/supplements.index"
         },
         {
+            "type": "index",
             "name": "unearthed-arcana.index",
             "url": "https://raw.githubusercontent.com/borealis/elements/main/unearthed-arcana.index"
         },
         {
+            "type": "index",
             "name": "collaborations.index",
             "url": "https://raw.githubusercontent.com/borealis/elements/main/collaborations.index"
         }
