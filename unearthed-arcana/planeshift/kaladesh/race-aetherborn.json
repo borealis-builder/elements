@@ -1,0 +1,266 @@
+{
+  "element": [
+    {
+      "description": "<p class=\"flavor\">“A day not spent indulging the senses is a day wasted.”</p> <p>When the events of a lifetime are compressed down to almost nothing, each fleeting moment must be savored—drained of every drop of enjoyment it can offer. This is the philosophy that informs the lives and minds of the aetherborn. Given just a few short years—or sometimes only a few months—to live, each aetherborn views time as exceedingly precious. Each moment spent in a way that does not bring delight is a wasted moment. And though aetherborn differ in their drives and pleasures, nearly all of them share this desire to squeeze the most out of the brief time they are given.</p> <p class=\"indent\">Aetherborn come into being spontaneously as part of the aether refinement process. Their bodies and minds are apparently formed out of some interaction between the volatile elements of aether that are removed during refinement and the psychic impressions created by the people involved in the process. But each aetherborn is a unique individual, not a mere copy of some other person's mind and shape. This race is little understood, and few aetherborn are willing to waste any of their short lives allowing vedalken scholars to study their biological and psychological characteristics.</p> <h4>AETHERBORN AND GENDER</h4> <p>Aetherborn are a strange living by-product of the process of aether refinement, cast in humanoid form but lacking any of the biological qualities of other races. They don't eat or sleep, and they don't reproduce—nor do they have any physical sexual characteristics. Language that categorizes people into male or female categories thus breaks down when it comes to aetherborn. Most aetherborn prefer that others use the pronoun “they” to refer to them, since it doesn't attribute a gender that they don't possess. Only a relative few prefer “he” or “she,” having chosen to adopt a gender.</p> <h4>AETHERBORN POLITICS</h4> <p>The relationship between aetherborn and the Consulate is complicated. On the one hand, aetherborn understand that their race wouldn't exist without the Consulate's aether refining operations, so they feel at least some motivation to ensure that those operations continue to run smoothly. On the other hand, few aetherborn have any patience for the tedious and cumbersome politics and regulations of the Consulate, which gives them at least a little sympathy with renegade philosophy. Typically, aetherborn are drawn to one side or the other more by the lure of excitement and entertainment than by any serious political beliefs.</p> <h4>AETHERBORN TRAITS</h4> <p>Your aetherborn character has certain traits deriving from your unusual nature</p> <p class=\"indent\"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.</p> <p class=\"indent\"><b><i>Age. </i></b>Aetherborn come into being as adults and live no more than a few years.</p> <p class=\"indent\"><b><i>Alignment. </i></b>As a rule, aetherborn are driven by hedonism and self-interest, making them neutral at best and thoroughly evil at worst. Neutral aetherborn might devote much of their time (and wealth) to parties and social activity, while evil aetherborn are usually involved in the criminal underworld.</p> <p class=\"indent\"><b><i>Size. </i></b>Aetherborn are about the same size as humans, ranging from 5 to 6 feet tall. They are quite light—only about 100 pounds—and their weight diminishes as they age and more and more of their substance returns to the aethersphere. Your size is Medium.</p> <p class=\"indent\"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p> <p class=\"indent\"><b><i>Darkvision. </i></b>Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray</p> <p class=\"indent\"><b><i>Born of Aether </i></b>You have resistance to necrotic damage.</p> <p class=\"indent\"><b><i>Menacing. </i></b>You gain proficiency in the Intimidation skill.</p> <p class=\"indent\"><b><i>Languages. </i></b>You can speak, read, and write Common and two other languages of your choice.</p>",
+      "id": "ID_WOCT_PSK_RACE_AETHERBORN",
+      "name": "Aetherborn",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_WOTC_PSK_RACIAL_TRAIT_AETHERBORN_BORN_OF_AETHER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_PSK_RACIAL_TRAIT_AETHERBORN_MENACING",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Increase (Aetherborn)",
+            "number": "2",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Ability Score Improvement, Aetherborn",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +2 (Aetherborn)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Aetherborn)",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Aetherborn)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "charisma",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Yivti, Xithrel, Zawaka, Iqua, Sav, Riztho, Poxla, Kyth, Ux, Zisyas, Ganti",
+            "name": "names",
+            "type": "name"
+          },
+          {
+            "description": "Wivaana, Toyzithu, Oixlequ, Vivithez, Crotal, Yahenni",
+            "name": "names",
+            "type": "surname"
+          },
+          {
+            "description": "{{name}} {{surname}}",
+            "name": "names-format"
+          },
+          {
+            "description": "4'8\"",
+            "modifier": "2d10",
+            "name": "height"
+          },
+          {
+            "description": "90 lb.",
+            "modifier": "2d4",
+            "name": "weight"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Kaladesh",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You have resistance to necrotic damage.</p>",
+      "id": "ID_WOTC_PSK_RACIAL_TRAIT_AETHERBORN_BORN_OF_AETHER",
+      "name": "Born of Aether",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC",
+          "type": "Condition"
+        }
+      },
+      "sheet": "You have resistance to necrotic damage.",
+      "source": "Plane Shift: Kaladesh",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You gain proficiency in the Intimidation skill.</p>",
+      "id": "ID_WOTC_PSK_RACIAL_TRAIT_AETHERBORN_MENACING",
+      "name": "Menacing",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_INTIMIDATION",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Customized Skill Proficiency",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You gain proficiency in the Intimidation skill.",
+        "display": "false"
+      },
+      "source": "Plane Shift: Kaladesh",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Strength increases by 1.</p>",
+      "id": "ID_WOTC_PSK_ASI_AETHERBORN_STRENGTH",
+      "name": "Strength",
+      "rules": {
+        "stat": {
+          "name": "strength",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Kaladesh",
+      "supports": "Ability Score Improvement, Aetherborn",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Dexterity increases by 1.</p>",
+      "id": "ID_WOTC_PSK_ASI_AETHERBORN_DEXTERITY",
+      "name": "Dexterity",
+      "rules": {
+        "stat": {
+          "name": "dexterity",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Kaladesh",
+      "supports": "Ability Score Improvement, Aetherborn",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Constitution increases by 1.</p>",
+      "id": "ID_WOTC_PSK_ASI_AETHERBORN_CONSTITUTION",
+      "name": "Constitution",
+      "rules": {
+        "stat": {
+          "name": "constitution",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Kaladesh",
+      "supports": "Ability Score Improvement, Aetherborn",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Intelligence increases by 1.</p>",
+      "id": "ID_WOTC_PSK_ASI_AETHERBORN_INTELLIGENCE",
+      "name": "Intelligence",
+      "rules": {
+        "stat": {
+          "name": "intelligence",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Kaladesh",
+      "supports": "Ability Score Improvement, Aetherborn",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Wisdom increases by 1.</p>",
+      "id": "ID_WOTC_PSK_ASI_AETHERBORN_WISDOM",
+      "name": "Wisdom",
+      "rules": {
+        "stat": {
+          "name": "wisdom",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Kaladesh",
+      "supports": "Ability Score Improvement, Aetherborn",
+      "type": "Ability Score Improvement"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "https://media.wizards.com/2017/downloads/magic/Plane-Shift_Kaladesh.pdf"
+    },
+    "description": "Aetherborn",
+    "name": "Aetherborn",
+    "update": {
+      "file": {
+        "name": "race-aetherborn.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/race-aetherborn.json"
+      },
+      "version": "0.0.7"
+    }
+  }
+}

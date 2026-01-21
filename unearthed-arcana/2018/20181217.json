@@ -1,0 +1,58 @@
+{
+  "element": {
+    "description": "<p>If you've ever wanted an animal, a town guard, or another creature to join you on your adventures, this month's Unearthed Arcana is for you. It gives you a straightforward way to turn a creature into your sidekick and have that companion level up with you.</p>",
+    "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20181217",
+    "name": "Unearthed Arcana: Sidekicks",
+    "setters": {
+      "set": [
+        {
+          "description": "UA20181217",
+          "name": "abbreviation"
+        },
+        {
+          "description": "http://dnd.wizards.com/articles/unearthed-arcana/sidekicks",
+          "name": "url"
+        },
+        {
+          "abbreviation": "WOTC",
+          "description": "Wizards of the Coast",
+          "name": "author",
+          "url": "http://dnd.wizards.com"
+        },
+        {
+          "description": "true",
+          "name": "official"
+        },
+        {
+          "description": "true",
+          "name": "playtest"
+        },
+        {
+          "description": "The content from this source is not included.",
+          "name": "information"
+        },
+        {
+          "description": "20181217",
+          "name": "release"
+        }
+      ]
+    },
+    "source": "Core",
+    "type": "Source"
+  },
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana/sidekicks"
+    },
+    "description": "If you've ever wanted an animal, a town guard, or another creature to join you on your adventures, this month's Unearthed Arcana is for you. It gives you a straightforward way to turn a creature into your sidekick and have that companion level up with you.",
+    "name": "Unearthed Arcana: Sidekicks",
+    "update": {
+      "file": {
+        "name": "20181217.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20181217.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "element": [
+    {
+      "description": "<p>Mainly spoken by the people of Sarlona.</p>",
+      "id": "ID_WOTC_ERLW_LANGUAGE_RIEDRAN",
+      "name": "Riedran",
+      "setters": {
+        "set": {
+          "description": "true",
+          "name": "standard"
+        }
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Mainly spoken by aberrations and denizens of Khyber.</p>",
+      "id": "ID_WOTC_ERLW_LANGUAGE_DAELKYR",
+      "name": "Daelkyr",
+      "setters": {
+        "set": {
+          "description": "true",
+          "name": "exotic"
+        }
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Mainly spoken by inspired, kalashtar, and quori.</p>",
+      "id": "ID_WOTC_ERLW_LANGUAGE_QUORI",
+      "name": "Quori",
+      "setters": {
+        "set": {
+          "description": "true",
+          "name": "exotic"
+        }
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Exotic",
+      "type": "Language"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "languages.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/languages.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

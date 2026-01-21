@@ -1,0 +1,136 @@
+{
+  "element": [
+    {
+      "description": "<p>Centaurs gallop throughout the multiverse and trace their origins to many different realms. The centaurs presented here hail from the Feywild and mystically resonate with the natural world. From the waist up, they resemble elves, displaying all the elf varieties of skin tone. From the waist down, they have the bodies of horses.</p> <h4>CENTAUR TRAITS</h4> <p>As an centaur, you have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Fey.</p> <p class=\"indent\"><strong><em>Size.</em></strong> Your size is Medium.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 40 feet.</p> <p class=\"indent\"><strong><em>Charge.</em></strong> If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.</p> <p class=\"indent\"><strong><em>Equine Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p> <p class=\"indent\">In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.</p> <p class=\"indent\"><strong><em>Hooves.</em></strong> You have hooves that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.</p> <p class=\"indent\"><strong><em>Natural Affinity.</em></strong> Your fey connection to nature gives you an intuitive connection to the natural world and the animals within it. You therefore have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</p>",
+      "id": "ID_WOTC_MOTM_RACE_CENTAUR",
+      "name": "Centaur",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_FEY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_CENTAUR_CHARGE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_CENTAUR_HOOVES",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_CENTAUR_NATURAL_AFFINITY",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Improvement Option (Centaur)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language (Centaur)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Centaur)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed",
+          "value": "40"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Race"
+    },
+    {
+      "description": "<p>If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_CENTAUR_CHARGE",
+      "name": "Charge",
+      "sheet": "If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p> <p class=\"indent\">In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD",
+      "name": "Equine Build",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER",
+          "type": "Grants"
+        }
+      },
+      "sheet": "You count as one size larger when determining your carrying capacity and the weight you can push or drag.&#13; In addition, any climb that requires hands and feet is especially difficult for you. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have hooves that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_CENTAUR_HOOVES",
+      "name": "Hooves",
+      "sheet": "You can use hooves for unarmed strikes. When you hit with them, the strike deals 1d6 + {{strength:modifier}} bludgeoning damage.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your fey connection to nature gives you an intuitive connection to the natural world and the animals within it. You therefore have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_CENTAUR_NATURAL_AFFINITY",
+      "name": "Natural Affinity",
+      "rules": {
+        "select": [
+          {
+            "name": "Skill Proficiency (Natural Affinity)",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Customized Skill Proficiency (Natural Affinity)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "Skill",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "name": "Centaur from Monsters of the Multiverse",
+    "update": {
+      "file": {
+        "name": "race-centaur.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-centaur.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

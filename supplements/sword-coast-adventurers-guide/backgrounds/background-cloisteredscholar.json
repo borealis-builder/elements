@@ -1,0 +1,204 @@
+{
+  "element": [
+    {
+      "description": "<p>As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to one of Faerûn's great institutes of learning , where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home- not to abandon it, but to quest for new lore to add to its storehouse of knowledge.</p> <p class=\"indent\">The most well known of Faerûn's fonts of knowledge is Candlekeep. The great library is always in need of workers and attendants, some of whom rise through the ranks to assume roles of greater responsibility and prominence. You might be one of Candlekeep's own, dedicated to the curatorship of what is likely the most complete body of lore and history in all the world.</p> <p class=\"indent\">Perhaps instead you were taken in by the scholars of the Vault of the Sages or the Map House in Silverymoon, and now you have struck out to increase your knowledge and to make yourself available to help those in other places who seek your expertise. You might be one of the few who aid Herald's Holdfast, helping to catalogue and maintain records of the information that arrives daily from across Faerûn.</p> <ul class=\"unstyled\"> <li> <strong>Skill Proficiencies:</strong> History, plus your choice of one from among Arcana, Nature, and Religion</li> <li> <strong>Languages:</strong> Two of your choice</li> <li> <strong>Equipment:</strong> The scholar's robes of your cloister, a writing kit (small pouch with a quill, ink, folded parchment, and a small penknife), a borrowed book on the subject of your current study, and a pouch containing 10 gp</li> </ul> <div element=\"ID_SCAG_BACKGROUND_CLOISTERED_SCHOLAR_LIBRARY_ACCESS\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Use the tables for the sage background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a cloistered scholar.</p> <p class=\"indent\">Your bond is almost certainly associated either with the place where you grew up or with the knowledge you hope to acquire through adventuring. Your ideal is no doubt related to how you view the quest for knowledge and truth- perhaps as a worthy goal in itself, or maybe as a means to a desirable end.</p>",
+      "id": "ID_SCAG_BACKGROUND_CLOISTERED_SCHOLAR",
+      "name": "Cloistered Scholar",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_HISTORY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_SCAG_BACKGROUND_CLOISTERED_SCHOLAR_LIBRARY_ACCESS",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Skill Proficiency (Cloistered Scholar)",
+            "supports": "ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language (Cloistered Scholar)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I use polysyllabic words that convey the impression of great erudition.",
+                "id": "1"
+              },
+              {
+                "description": "I've read every book in the world's greatest libraries— or I like to boast that I have.",
+                "id": "2"
+              },
+              {
+                "description": "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others.",
+                "id": "3"
+              },
+              {
+                "description": "There's nothing I like more than a good mystery.",
+                "id": "4"
+              },
+              {
+                "description": "I'm willing to listen to every side of an argument before I make my own judgment.",
+                "id": "5"
+              },
+              {
+                "description": "I ... speak ... slowly ... when talking ... to idiots, ... which ... almost ... everyone ... is .. compared ... to me.",
+                "id": "6"
+              },
+              {
+                "description": "I am horribly, horribly awkward in social situations.",
+                "id": "7"
+              },
+              {
+                "description": "I'm convinced that people are always trying to steal my secrets.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Knowledge. The path to power and self-improvement is through knowledge. (Neutral)",
+                "id": "1"
+              },
+              {
+                "description": "Beauty. What is beautiful points us beyond itself toward what is true. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Logic. Emotions must not cloud our logical thinking. (Lawful)",
+                "id": "3"
+              },
+              {
+                "description": "No Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)",
+                "id": "4"
+              },
+              {
+                "description": "Power. Knowledge is the path to power and domination. (Evil)",
+                "id": "5"
+              },
+              {
+                "description": "Self-Improvement. The goal of a life of study is the betterment of oneself. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "It is my duty to protect my students.",
+                "id": "1"
+              },
+              {
+                "description": "I have an ancient text that holds terrible secrets that must not fall into the wrong hands.",
+                "id": "2"
+              },
+              {
+                "description": "I work to preserve a library, university, scriptorium, or monastery.",
+                "id": "3"
+              },
+              {
+                "description": "My life's work is a series of tomes related to a specific field of lore.",
+                "id": "4"
+              },
+              {
+                "description": "I've been searching my whole life for the answer to a certain question.",
+                "id": "5"
+              },
+              {
+                "description": "I sold my soul for knowledge. I hope to do great deeds and win it back.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am easily distracted by the promise of information.",
+                "id": "1"
+              },
+              {
+                "description": "Most people scream and run when they see a demon. I stop and take notes on its anatomy.",
+                "id": "2"
+              },
+              {
+                "description": "Unlocking an ancient mystery is worth the price of a civilization.",
+                "id": "3"
+              },
+              {
+                "description": "I overlook obvious solutions in favor of complicated ones.",
+                "id": "4"
+              },
+              {
+                "description": "I speak without really thinking through my words, invariably insulting others.",
+                "id": "5"
+              },
+              {
+                "description": "I can't keep a secret to save my life, or anyone else's.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "History, 1 Arcana / Nature / Religion, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Though others must often endure extensive interviews and significant fees to gain access to even the most common archives in your library, you have free and easy access to the majority of the library, though it might also have repositories of lore that are too valuable, magical, or secret to permit anyone immediate access. You have a working knowledge of your cloister's personnel and bureaucracy, and you know how to navigate those connections with some ease.</p> <p class=\"indent\">Additionally, you are likely to gain preferential treatment at other libraries across the Realms, as professional courtesy shown to a fellow scholar.</p>",
+      "id": "ID_SCAG_BACKGROUND_CLOISTERED_SCHOLAR_LIBRARY_ACCESS",
+      "name": "Feature: Library Access",
+      "sheet": {
+        "name": "Library Access"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "Cloistered Scholar Background",
+    "name": "Cloistered Scholar",
+    "update": {
+      "file": {
+        "name": "background-cloisteredscholar.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-cloisteredscholar.json"
+      },
+      "version": "0.1.4"
+    }
+  }
+}

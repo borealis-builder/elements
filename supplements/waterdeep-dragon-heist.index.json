@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Waterdeep: Dragon Heist",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.2",
+      "file": {
+        "name": "waterdeep-dragon-heist.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dragon-heist.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dragon-heist/source.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dragon-heist/items.json"
+    }
+  ]
+}

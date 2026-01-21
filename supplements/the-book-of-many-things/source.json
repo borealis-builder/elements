@@ -1,0 +1,52 @@
+{
+  "element": {
+    "description": "<p><strong>Discover startling – but delightful – new content in this reimagined version of the Deck of Many Things.</strong></p> <p>Introduce more magical whimsy into your game with <i>The Book of Many Things</i>. Dive deeper than ever before into the lore behind the beloved magic item, the <i>Deck of Many Things</i>. How did it come to be? What is the significance of one baneful figure depicted in the cards? The answers you seek – and more – will be revealed for the first time ever.</p> <p><i>The Book of Many Things</i> Illuminates the deck's mysteries and provides everything Dungeon Masters &amp; players need to use them in their campaigns. This book includes cosmic character options, adventure locations, mysterious organizations, mystic monsters, and more; all inspired by the deck.</p> <ul> <li>Create mystic characters with 2 new backgrounds, 1 feat, and 3 mystical spells</li> <li>Clash with over 30 new mystical monsters</li> <li>Uncover 50+ new magic items inspired by the cards</li> <li>Offers tools for DMs like traps, location maps, &amp; more</li> </ul>",
+    "id": "ID_WOTC_SOURCE_THE_BOOK_OF_MANY_THINGS",
+    "name": "The Book of Many Things",
+    "setters": {
+      "set": [
+        {
+          "description": "BOMT",
+          "name": "abbreviation"
+        },
+        {
+          "description": "https://dndstore.wizards.com/us/product/865604/the-deck-of-many-things-digital-plus-physical-bundle",
+          "name": "url"
+        },
+        {
+          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/BOMT.png",
+          "name": "image"
+        },
+        {
+          "abbreviation": "WOTC",
+          "description": "Wizards of the Coast",
+          "name": "author",
+          "url": "http://dnd.wizards.com"
+        },
+        {
+          "description": "true",
+          "name": "official"
+        },
+        {
+          "description": "true",
+          "name": "supplement"
+        },
+        {
+          "description": "20231114",
+          "name": "release"
+        }
+      ]
+    },
+    "source": "Core",
+    "type": "Source"
+  },
+  "info": {
+    "update": {
+      "file": {
+        "name": "source.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/source.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

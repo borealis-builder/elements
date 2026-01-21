@@ -1,0 +1,248 @@
+{
+  "element": [
+    {
+      "description": "<p>Gods of light—including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.</p> <h5 class=\"caption\">LIGHT DOMAIN SPELLS</h5> <table> <thead> <tr><td>Cleric Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>burning hands, faerie fire</em></td></tr> <tr><td>3rd</td><td><em>flaming sphere, scorching ray</em></td></tr> <tr><td>5th</td><td><em>daylight, fireball</em></td></tr> <tr><td>7th</td><td><em>guardian of faith, wall of fire</em></td></tr> <tr><td>9th</td><td><em>flame strike, scrying</em></td></tr> </table> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_POTENT_SPELLCASTING\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_CLERIC_LIGHT_DOMAIN",
+      "name": "Light Domain",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_BURNING_HANDS",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FAERIE_FIRE",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FLAMING_SPHERE",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SCORCHING_RAY",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_DAYLIGHT",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FIREBALL",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_GUARDIAN_OF_FAITH",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_WALL_OF_FIRE",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FLAME_STRIKE",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SCRYING",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_POTENT_SPELLCASTING",
+            "level": "8",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Gods of light promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Divine Domain",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>When you choose this domain at 1st level, you gain the <i>light</i> cantrip if you don't already know it. This cantrip doesn't count against the number of cleric cantrips you know.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP",
+      "name": "Bonus Cantrip",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_BONUS_CANTRIP",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_LIGHT",
+          "spellcasting": "Cleric",
+          "type": "Spell"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.</p> <p class=\"indent\">You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE",
+      "name": "Warding Flare",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_WARDING_FLARE",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "warding flare:count",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "warding flare:count",
+            "value": "wisdom:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses.",
+        "usage": "{{warding flare:count}}/Long Rest"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.</p> <p class=\"indent\">As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN",
+      "name": "Channel Divinity: Radiance of the Dawn",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN",
+      "sheet": {
+        "action": "Action",
+        "alt": "Radiance of the Dawn",
+        "content": "You present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes 2d10+{{level:cleric}} radiant damage on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE",
+      "name": "Improved Flare",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_IMPROVED_FLARE",
+      "sheet": "You can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_POTENT_SPELLCASTING",
+      "name": "Potent Spellcasting",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING",
+      "sheet": "+{{wisdom:modifier}} to the damage you deal with any cleric cantrip.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT",
+      "name": "Corona of Light",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CORONA_OF_LIGHT",
+      "sheet": {
+        "action": "Action",
+        "content": "You can activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage."
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_BONUS_CANTRIP",
+      "name": "Bonus Cantrip Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_WARDING_FLARE",
+      "name": "Warding Flare Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN",
+      "name": "Channel Divinity: Radiance of the Dawn Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_IMPROVED_FLARE",
+      "name": "Improved Flare Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CORONA_OF_LIGHT",
+      "name": "Corona of Light Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "cleric-light.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-light.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

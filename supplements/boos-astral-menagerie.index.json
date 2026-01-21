@@ -1,0 +1,33 @@
+{
+  "info": {
+    "name": "Boo's Astral Menagerie",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "boos-astral-menagerie.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "companions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie/companions.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie/items.json"
+    },
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie/source.json"
+    }
+  ]
+}

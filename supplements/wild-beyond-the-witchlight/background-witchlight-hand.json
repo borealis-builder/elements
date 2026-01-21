@@ -1,0 +1,270 @@
+{
+  "append": {
+    "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT",
+    "supports": "Disguise Kit"
+  },
+  "element": [
+    {
+      "description": "<p>You crept into the Witchlight Carnival as a child or youth and never looked back, earning a place among those who work behind the scenes to keep the carnival in business. As a hand, you work hard and party hard. The carnival has borne you to many fantastic worlds, circling back around to your home world once every eight years, but you know almost nothing about these worlds because you spend all your time in the carnival. You know the other hands well, but the carnival's owners—Mister Witch and Mister Light—remain mysterious to you even after all these years.</p> <p class=\"indent\">Maybe you joined the carnival to escape a dismal life at home, or maybe you were enchanted by the idea of visiting new places or the dream of becoming one of the carnival's star attractions. Now that you're older, carnival life has lost some of its appeal. The daily routine has grown tedious, the cyclical nature of the carnival's journey monotonous. The carnival no longer fills your heart with a sense of wonder. Perhaps greater adventures await you beyond the carnival's gates.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Performance, Sleight of Hand</li> <li><strong>Tool Proficiencies:</strong> Disguise kit or one type of musical instrument</li> <li><strong>Languages:</strong> One of your choice</li> <li><strong>Equipment:</strong> A disguise kit or a musical instrument of your choice, a deck of cards, a carnival uniform or costume, one trinket (determined by rolling on the Feywild Trinkets), and a pouch containing 8 gp.</li> </ul> <h5>CARNIVAL COMPANION</h5> <p>Over the years, you have earned the friendship of another carnival fixture. Roll a d8 and consult the Carnival Companion table to determine whom or what you've befriended, or you can choose an option that you like. Work with your DM to flesh out this friendship. This companion hangs around you while you're in the carnival, but it won't voluntarily leave the carnival.</p> <p class=\"indent\">The DM can use the Witchlight hand stat block (found in chapter 1 of <i>The Wild Beyond the Witchlight</i>) to represent hands, performers, and animal trainers who serve as carnival companions. Statistics for the other companions appear in the <i>Monster Manual</i>.</p> <h5>Carnival Companion</h5> <table> <thead> <tr><td class=\"col-10\" style=\"text-align:center\">d8</td><td>Companion</td></tr> </thead> <tr><td style=\"text-align:center\">1</td><td>Old, cantankerous Witchlight hand</td></tr> <tr><td style=\"text-align:center\">2</td><td>Young, impressionable Witchlight hand.</td></tr> <tr><td style=\"text-align:center\">3</td><td>Performer (such as an acrobat, a clown, or a musician)</td></tr> <tr><td style=\"text-align:center\">4</td><td>Retired performer</td></tr> <tr><td style=\"text-align:center\">5</td><td>Seasoned animal trainer</td></tr> <tr><td style=\"text-align:center\">6</td><td>Old blink dog</td></tr> <tr><td style=\"text-align:center\">7</td><td>Cheery sprite</td></tr> <tr><td style=\"text-align:center\">8</td><td>Harmless, magical wisp of light (no stat block required) that has a flying speed of 30 feet, can hover, and sheds bright light in a 5-foot radius and dim light for an additional 5 feet</td></tr> </table> <div element=\"ID_WOTC_WBW_BACKGROUND_FEATURE_CARNIVAL_FIXTURE\" />",
+      "id": "ID_WOTC_WBW_BACKGROUND_WITCHLIGHT_HAND",
+      "name": "Witchlight Hand",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERFORMANCE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SLEIGHTOFHAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_WBW_BACKGROUND_FEATURE_CARNIVAL_FIXTURE",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Tool Proficiency (Witchlight Hand)",
+            "supports": "Musical Instrument||Disguise Kit",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language (Witchlight Hand)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm haunted by fey laughter that only I can hear, though I know it's just my mind playing tricks on me.",
+                "id": "1"
+              },
+              {
+                "description": "Like a nomad, I can't settle down in one place for very long.",
+                "id": "2"
+              },
+              {
+                "description": "Good music makes me weep like a baby.",
+                "id": "3"
+              },
+              {
+                "description": "Wherever I go, I try to bring a little of the warmth and tranquility of home with me.",
+                "id": "4"
+              },
+              {
+                "description": "I have never lost my childlike sense of wonder.",
+                "id": "5"
+              },
+              {
+                "description": "When I have a new idea, I get wildly excited about it until I come up with another, better idea.",
+                "id": "6"
+              },
+              {
+                "description": "I live by my own set of weird and wonderful rules.",
+                "id": "7"
+              },
+              {
+                "description": "I can't bring myself to trust most adults.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Friendship. I never leave a friend behind. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Empathy. No creature should be made to suffer. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Wanderlust. I prefer to take the less traveled path. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)",
+                "id": "4"
+              },
+              {
+                "description": "Honor. A deal is a deal, and I would never break one. (Lawful)",
+                "id": "5"
+              },
+              {
+                "description": "Rule of Three. Everything in the multiverse happens in threes. I see the “rule of three” everywhere. (Lawful)",
+                "id": "6"
+              },
+              {
+                "description": "Obsession. I won't let go of a grudge. (Evil)",
+                "id": "7"
+              },
+              {
+                "description": "Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)",
+                "id": "8"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I would never break my word.",
+                "id": "1"
+              },
+              {
+                "description": "I find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it.",
+                "id": "2"
+              },
+              {
+                "description": "I do what I can to protect the natural world.",
+                "id": "3"
+              },
+              {
+                "description": "A trusted friend is the most important thing in the multiverse to me.",
+                "id": "4"
+              },
+              {
+                "description": "I can't bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions.",
+                "id": "5"
+              },
+              {
+                "description": "The Witchlight Carnival feels like home to me.",
+                "id": "6"
+              },
+              {
+                "description": "I'm drawn to the Feywild and long to return there, if only for a short while.",
+                "id": "7"
+              },
+              {
+                "description": "I feel indebted to Mister Witch and Mister Light for giving me a home and a purpose.",
+                "id": "8"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I easily lose track of time. My poor sense of time means I'm always late.",
+                "id": "1"
+              },
+              {
+                "description": "I think the whole multiverse is out to get me.",
+                "id": "2"
+              },
+              {
+                "description": "I'm always operating under a tight timeline, and I'm obsessed with keeping everything on schedule.",
+                "id": "3"
+              },
+              {
+                "description": "I'm a kleptomaniac who covets shiny, sparkling treasure.",
+                "id": "4"
+              },
+              {
+                "description": "I'm forgetful. Sometimes I can't remember even the simplest things.",
+                "id": "5"
+              },
+              {
+                "description": "I never give away anything for free and always expect something in return.",
+                "id": "6"
+              },
+              {
+                "description": "I have many vices and tend to indulge them.",
+                "id": "7"
+              },
+              {
+                "description": "I'm always changing my mind—well, almost always.",
+                "id": "8"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Old, cantankerous Witchlight hand",
+                "id": "1"
+              },
+              {
+                "description": "Young, impressionable Witchlight hand",
+                "id": "2"
+              },
+              {
+                "description": "Performer (such as an acrobat, a clown, or a musician)",
+                "id": "3"
+              },
+              {
+                "description": "Retired performer",
+                "id": "4"
+              },
+              {
+                "description": "Seasoned animal trainer",
+                "id": "5"
+              },
+              {
+                "description": "Old blink dog",
+                "id": "6"
+              },
+              {
+                "description": "Cheery sprite",
+                "id": "7"
+              },
+              {
+                "description": "Harmless, magical wisp of light (no stat block required) that has a flying speed of 30 feet, can hover, and sheds bright light in a 5-foot radius and dim light for an additional 5 feet",
+                "id": "8"
+              }
+            ],
+            "name": "Carnival Companion",
+            "optional": "true",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Performance, Sleight of Hand, Disguise kit or Instrument, Language",
+          "name": "short"
+        }
+      },
+      "source": "The Wild Beyond The Witchlight",
+      "type": "Background"
+    },
+    {
+      "description": "<p>The Witchlight Carnival provides you with free, modest lodging and food. In addition, you may wander about the carnival and partake of its many wonders at no cost to you, provided you don't disrupt its shows or cause any other trouble.</p>",
+      "id": "ID_WOTC_WBW_BACKGROUND_FEATURE_CARNIVAL_FIXTURE",
+      "name": "Feature: Carnival Fixture",
+      "sheet": {
+        "alt": "Feywild Connection",
+        "content": "The Witchlight Carnival provides you with free, modest lodging and food. In addition, you may wander about the carnival and partake of its many wonders at no cost to you, provided you don't disrupt its shows or cause any other trouble."
+      },
+      "source": "The Wild Beyond The Witchlight",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "name": "Witchlight Hand Background",
+    "update": {
+      "file": {
+        "name": "background-witchlight-hand.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight/background-witchlight-hand.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "element": [
+    {
+      "description": "<p>Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons—amethyst, crystal, emerald, sapphire, and topaz—gleam in these dragonborn's scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discovery—but also the desiccation of despair.</p> <h4>GEM DRAGONBORN TRAITS</h4> <p>You have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p> <p class=\"indent\"><strong><em>Size.</em></strong> You are Medium.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p> <p class=\"indent\"><strong><em>Gem Ancestry.</em></strong> You have a gem dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Gem Ancestry table. This determines the damage type for your other traits, as shown in the table.</p> <p class=\"indent\"><strong><em>Breath Weapon.</em></strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p> <p class=\"indent\">You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p class=\"indent\"><strong><em>Draconic Resistance.</em></strong> You have resistance to the damage type associated with your Gem Ancestry.</p> <p class=\"indent\"><strong><em>Psionic Mind.</em></strong> You can send telepathic messages to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p> <p class=\"indent\"><strong><em>Gem Flight.</em></strong> Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can't do so again until you finish a long rest.</p> <h5>Gem Ancestry</h5> <table> <thead> <tr><td>Dragon</td><td>Damage Type</td></tr> </thead> <tr><td>Amethyst</td><td>Force</td></tr> <tr><td>Crystal</td><td>Radiant</td></tr> <tr><td>Emerald</td><td>Psychic</td></tr> <tr><td>Sapphire</td><td>Thunder</td></tr> <tr><td>Topaz</td><td>Necrotic</td></tr> </table>",
+      "id": "ID_WOTC_FTOD_RACE_GEM_DRAGONBORN",
+      "name": "Dragonborn (Gem)",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_INTERNAL_GRANT_RACE_DRAGONBORN",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_BREATH_WEAPON",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_DRACONIC_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_PSIONIC_MIND",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_FLIGHT",
+            "level": "5",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Improvement Option (Gem Dragonborn)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Gem Dragonborn)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed",
+          "value": "30"
+        }
+      },
+      "sheet": {
+        "alt": "Gem Dragonborn",
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You trace your ancestry to a gem dragon, granting you a special magical affinity. Choose one type of dragon from the Gem Ancestry table. This determines the damage type for your other traits as shown in the table.</p> <h5>Gem Ancestry</h5> <table> <thead> <tr><td>Dragon</td><td>Damage Type</td></tr> </thead> <tr><td>Amethyst</td><td>Force</td></tr> <tr><td>Crystal</td><td>Radiant</td></tr> <tr><td>Emerald</td><td>Psychic</td></tr> <tr><td>Sapphire</td><td>Thunder</td></tr> <tr><td>Topaz</td><td>Necrotic</td></tr> </table>",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY",
+      "name": "Gem Ancestry",
+      "rules": {
+        "select": {
+          "name": "Gem Ancestry",
+          "supports": "Gem Ancestry",
+          "type": "Racial Trait"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_AMETHYST",
+      "name": "Amethyst",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "gem ancestry:damage type",
+          "value": "Force"
+        }
+      },
+      "sheet": {
+        "alt": "Gem Ancestry",
+        "content": "Your ancestor was a amethyst dragon. Your Gem Ancestry damage type is force."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Gem Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_CRYSTAL",
+      "name": "Crystal",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "gem ancestry:damage type",
+          "value": "Radiant"
+        }
+      },
+      "sheet": {
+        "alt": "Gem Ancestry",
+        "content": "Your ancestor was a crystal dragon. Your Gem Ancestry damage type is radiant."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Gem Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_EMERALD",
+      "name": "Emerald",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "gem ancestry:damage type",
+          "value": "Psychic"
+        }
+      },
+      "sheet": {
+        "alt": "Gem Ancestry",
+        "content": "Your ancestor was a emerald dragon. Your Gem Ancestry damage type is psychic."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Gem Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_SAPPHIRE",
+      "name": "Sapphire",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "gem ancestry:damage type",
+          "value": "Thunder"
+        }
+      },
+      "sheet": {
+        "alt": "Gem Ancestry",
+        "content": "Your ancestor was a sapphire dragon. Your Gem Ancestry damage type is thunder."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Gem Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_TOPAZ",
+      "name": "Topaz",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "gem ancestry:damage type",
+          "value": "Necrotic"
+        }
+      },
+      "sheet": {
+        "alt": "Gem Ancestry",
+        "content": "Your ancestor was a topaz dragon. Your Gem Ancestry damage type is necrotic."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Gem Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p> <p class=\"indent\">You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_BREATH_WEAPON",
+      "name": "Breath Weapon",
+      "rules": {
+        "stat": [
+          {
+            "name": "breath weapon:dc",
+            "value": "8"
+          },
+          {
+            "name": "breath weapon:dc",
+            "value": "constitution:modifier"
+          },
+          {
+            "name": "breath weapon:dc",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base",
+            "level": "1",
+            "name": "breath weapon:dice count",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "level": "5",
+            "name": "breath weapon:dice count",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "level": "11",
+            "name": "breath weapon:dice count",
+            "value": "3"
+          },
+          {
+            "bonus": "base",
+            "level": "17",
+            "name": "breath weapon:dice count",
+            "value": "4"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Attack",
+        "content": "You can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC{{breath weapon:dc}}. A creature takes {{breath weapon:dice count}}d10 {{gem ancestry:damage type}} damage on a failed save, and half as much damage on a successful one.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have resistance to the damage type associated with your Gem Ancestry.</p>",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_DRACONIC_RESISTANCE",
+      "name": "Draconic Resistance",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE",
+            "requirements": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_AMETHYST",
+            "type": "Condition"
+          },
+          {
+            "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT",
+            "requirements": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_CRYSTAL",
+            "type": "Condition"
+          },
+          {
+            "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC",
+            "requirements": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_EMERALD",
+            "type": "Condition"
+          },
+          {
+            "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER",
+            "requirements": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_SAPPHIRE",
+            "type": "Condition"
+          },
+          {
+            "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC",
+            "requirements": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY_TOPAZ",
+            "type": "Condition"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You have resistance to {{gem ancestry:damage type}} damage.",
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can send telepathic messages to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p>",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_PSIONIC_MIND",
+      "name": "Psionic Mind",
+      "sheet": "You can send telepathic messages to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.",
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can't do so again until you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_FLIGHT",
+      "name": "Gem Flight",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "For 1 minute you manifest spectral wings. For the duration, you gain a flying speed equal to {{speed}} and can hover.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Fizban's Treasury of Dragons",
+      "url": "https://dnd.wizards.com/products/treasury-dragons"
+    },
+    "description": "The Gem Dragonborn from Fizban's Treasury of Dragons",
+    "name": "Gem Dragonborn",
+    "update": {
+      "file": {
+        "name": "race-gem-dragonborn.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/races/race-gem-dragonborn.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

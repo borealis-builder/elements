@@ -1,0 +1,3187 @@
+{
+  "element": [
+    {
+      "description": "<p class=\"flavor\">goddess of air</p>",
+      "id": "ID_WOTC_SCAG_DEITY_AKADI",
+      "name": "Akadi",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Cloud",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian goddess of air",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of the sun</p>",
+      "id": "ID_WOTC_SCAG_DEITY_AMAUNATOR",
+      "name": "Amaunator",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Golden sun",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian god of the sun",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of indulgence</p>",
+      "id": "ID_WOTC_SCAG_DEITY_ASMODEUS",
+      "name": "Asmodeus",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Three inverted triangles arranged in a long triangle",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian god of indulgence",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of winter</p>",
+      "id": "ID_WOTC_SCAG_DEITY_AURIL",
+      "name": "Auril",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Six-pointed snowflake",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of winter",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of wizardry</p>",
+      "id": "ID_WOTC_SCAG_DEITY_AZUTH",
+      "name": "Azuth",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana, Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Left hand pointing upward, outlined in fire",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of wizardry",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of tyranny</p>",
+      "id": "ID_WOTC_SCAG_DEITY_BANE",
+      "name": "Bane",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Upright black right hand, thumb and fingers together",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of tyranny",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of misfortune</p>",
+      "id": "ID_WOTC_SCAG_DEITY_BESHABA",
+      "name": "Beshaba",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Black antlers",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of misfortune",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of murder</p>",
+      "id": "ID_WOTC_SCAG_DEITY_BHAAL",
+      "name": "Bhaal",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Skull surrounded by a ring of blood droplets",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of murder",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of agriculture</p>",
+      "id": "ID_WOTC_SCAG_DEITY_CHAUNTEA",
+      "name": "Chauntea",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Sheaf of grain or a blooming rose over grain",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of agriculture",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of lies</p>",
+      "id": "ID_WOTC_SCAG_DEITY_CYRIC",
+      "name": "Cyric",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "White jawless skull on black or purple sunburst",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of lies",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of writing</p>",
+      "id": "ID_WOTC_SCAG_DEITY_DENEIR",
+      "name": "Deneir",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana, Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Lit candle above an open eye",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of writing",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of peace</p>",
+      "id": "ID_WOTC_SCAG_DEITY_ELDATH",
+      "name": "Eldath",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Waterfall plunging into still pool",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of peace",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of craft</p>",
+      "id": "ID_WOTC_SCAG_DEITY_GOND",
+      "name": "Gond",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Toothed cog with four spokes",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of craft",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of earth</p>",
+      "id": "ID_WOTC_SCAG_DEITY_GRUMBAR",
+      "name": "Grumbar",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Mountain",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian god of earth",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of tracking</p>",
+      "id": "ID_WOTC_SCAG_DEITY_GWAERON_WINDSTROM",
+      "name": "Gwaeron Windstrom",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Paw print with a five-pointed star in its center",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian god of tracking",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of watchfulness</p>",
+      "id": "ID_WOTC_SCAG_DEITY_HELM",
+      "name": "Helm",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Staring eye on upright left gauntlet",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian god of watchfulness",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of revenge and retribution</p>",
+      "id": "ID_WOTC_SCAG_DEITY_HOAR",
+      "name": "Hoar",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "A coin with a two-faced head",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian god of revenge and retribution",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of endurance</p>",
+      "id": "ID_WOTC_SCAG_DEITY_ILMATER",
+      "name": "Ilmater",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Hands bound at the wrist with red cord",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of endurance",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of water</p>",
+      "id": "ID_WOTC_SCAG_DEITY_ISTISHIA",
+      "name": "Istishia",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Wave",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian god of water",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">scribe of the dead</p>",
+      "id": "ID_WOTC_SCAG_DEITY_JERGAL",
+      "name": "Jergal",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Death",
+            "name": "domains"
+          },
+          {
+            "description": "A skull biting a scroll",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian scribe of the dead",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of the dead</p>",
+      "id": "ID_WOTC_SCAG_DEITY_KELEMVOR",
+      "name": "Kelemvor",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Upright skeletal arm holding balanced scales",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of the dead",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of fire</p>",
+      "id": "ID_WOTC_SCAG_DEITY_KOSSUTH",
+      "name": "Kossuth",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Light",
+            "name": "domains"
+          },
+          {
+            "description": "Flame",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian god of fire",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of dawn and renewal</p>",
+      "id": "ID_WOTC_SCAG_DEITY_LATHANDER",
+      "name": "Lathander",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Road traveling into a sunrise",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of dawn and renewal",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of illusion</p>",
+      "id": "ID_WOTC_SCAG_DEITY_LEIRA",
+      "name": "Leira",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Point-down triangle containing a swirl of mist",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of illusion",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of joy</p>",
+      "id": "ID_WOTC_SCAG_DEITY_LLIIRA",
+      "name": "Lliira",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Triangle of three six-pointed stars",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of joy",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of pain</p>",
+      "id": "ID_WOTC_SCAG_DEITY_LOVIATAR",
+      "name": "Loviatar",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Nine-tailed barbed scourge",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of pain",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of the hunt</p>",
+      "id": "ID_WOTC_SCAG_DEITY_MALAR",
+      "name": "Malar",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Clawed paw",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of the hunt",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of thieves</p>",
+      "id": "ID_WOTC_SCAG_DEITY_MASK",
+      "name": "Mask",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Black mask",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of thieves",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of forests</p>",
+      "id": "ID_WOTC_SCAG_DEITY_MIELIKKI",
+      "name": "Mielikki",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Unicorn's head",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of forests",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of poetry and song</p>",
+      "id": "ID_WOTC_SCAG_DEITY_MILIL",
+      "name": "Milil",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Light",
+            "name": "domains"
+          },
+          {
+            "description": "Five-stringed harp made of leaves",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of poetry and song",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of death</p>",
+      "id": "ID_WOTC_SCAG_DEITY_MYRKUL",
+      "name": "Myrkul",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "White human skull",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of death",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of magic</p>",
+      "id": "ID_WOTC_SCAG_DEITY_MYSTRA",
+      "name": "Mystra",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana, Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Circle of seven stars, or nine stars encircling a flowing red mist, or a single star",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of magic",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of knowledge</p>",
+      "id": "ID_WOTC_SCAG_DEITY_OGHMA",
+      "name": "Oghma",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Blank scroll",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of knowledge",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of strategy</p>",
+      "id": "ID_WOTC_SCAG_DEITY_THE_RED_KNIGHT",
+      "name": "The Red Knight",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Red knight lanceboard piece with stars for eyes",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian goddess of strategy",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of divination and fate</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SAVRAS",
+      "name": "Savras",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana, Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Crystal ball containing many kinds of eyes",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of divination and fate",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of the moon</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SELUNE",
+      "name": "Selune",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Life",
+            "name": "domains"
+          },
+          {
+            "description": "Pair of eyes surrounded by seven stars",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of the moon",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of darkness and loss</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SHAR",
+      "name": "Shar",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Black disk encircled with a purple border",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of darkness and loss",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of wild nature</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SILVANUS",
+      "name": "Silvanus",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Oak leaf",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of wild nature",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of love and beauty</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SUNE",
+      "name": "Sune",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Face of a beautiful red-haired woman",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of love and beauty",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of poison and disease</p>",
+      "id": "ID_WOTC_SCAG_DEITY_TALONA",
+      "name": "Talona",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Three teardrops on a triangle",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of poison and disease",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of storms</p>",
+      "id": "ID_WOTC_SCAG_DEITY_TALOS",
+      "name": "Talos",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Three lightning bolts radiating from a central point",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of storms",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of war</p>",
+      "id": "ID_WOTC_SCAG_DEITY_TEMPUS",
+      "name": "Tempus",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Upright flaming sword",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of war",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of courage and self-sacrifice</p>",
+      "id": "ID_WOTC_SCAG_DEITY_TORM",
+      "name": "Torm",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "White right gauntlet",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of courage and self-sacrifice",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of good fortune</p>",
+      "id": "ID_WOTC_SCAG_DEITY_TYMORA",
+      "name": "Tymora",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Face-up coin",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of good fortune",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of justice</p>",
+      "id": "ID_WOTC_SCAG_DEITY_TYR",
+      "name": "Tyr",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Balanced scales resting on a warhammer",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of justice",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of the sea</p>",
+      "id": "ID_WOTC_SCAG_DEITY_UMBERLEE",
+      "name": "Umberlee",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Wave curling left and right",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of the sea",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">northlander god of sailors</p>",
+      "id": "ID_WOTC_SCAG_DEITY_VALKUR",
+      "name": "Valkur",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest, War",
+            "name": "domains"
+          },
+          {
+            "description": "A cloud and three lightning bolts",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "Faerunian northlander god of sailors",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of trade</p>",
+      "id": "ID_WOTC_SCAG_DEITY_WAUKEEN",
+      "name": "Waukeen",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Upright coin with Waukeen's profile facing left",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of trade",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of greed</p>",
+      "id": "ID_WOTC_SCAG_DEITY_ABBATHOR",
+      "name": "Abbathor",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Jeweled dagger, point-down",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of greed",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of hearth and home</p>",
+      "id": "ID_WOTC_SCAG_DEITY_BERRONAR_TRUESILVER",
+      "name": "Berronar Truesilver",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Intertwined silver rings",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of of hearth and home",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of war</p>",
+      "id": "ID_WOTC_SCAG_DEITY_CLANGEDDIN_SILVERBEARD",
+      "name": "Clangeddin Silverbeard",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Crossed silver battleaxes",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of war",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">duergar goddess of conquest and psionics</p>",
+      "id": "ID_WOTC_SCAG_DEITY_DEEP_DUERRA",
+      "name": "Deep Duerra",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana, War",
+            "name": "domains"
+          },
+          {
+            "description": "Mind flayer skull",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "duergar goddess of conquest and psionics",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of discovery</p>",
+      "id": "ID_WOTC_SCAG_DEITY_DUGMAREN_BRIGHTMANTLE",
+      "name": "Dugmaren Brightmantle",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Open book",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of discovery",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of buried secrets</p>",
+      "id": "ID_WOTC_SCAG_DEITY_DUMATHOIN",
+      "name": "Dumathoin",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Mountain silhouette with a central gemstone",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of buried secrets",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of vigilance</p>",
+      "id": "ID_WOTC_SCAG_DEITY_GORM_GULTHYN",
+      "name": "Gorm Gulthyn",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Bronze half-mask",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of vigilance",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of war-luck</p>",
+      "id": "ID_WOTC_SCAG_DEITY_HAELA_BRIGHTAXE",
+      "name": "Haela Brightaxe",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Upright sword whose blade is spiraled in flame",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": ">goddess of war-luck",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">duergar god of magic and slavery</p>",
+      "id": "ID_WOTC_SCAG_DEITY_LADUGUER",
+      "name": "Laduguer",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana, Death",
+            "name": "domains"
+          },
+          {
+            "description": "Broken arrow",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "duergar god of magic and slavery",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of wanderers</p>",
+      "id": "ID_WOTC_SCAG_DEITY_MARTHAMMOR_DUIN",
+      "name": "Marthammor Duin",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Upright mace in front of a tall boot",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of wanderers",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of creation</p>",
+      "id": "ID_WOTC_SCAG_DEITY_MORADIN",
+      "name": "Moradin",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Hammer and anvil",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of creation",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of healing</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SHARINDLAR",
+      "name": "Sharindlar",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Burning needle",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of healing",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of luck and wealth</p>",
+      "id": "ID_WOTC_SCAG_DEITY_VERGADAIN",
+      "name": "Vergadain",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Gold coin with the face of a dwarf",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of luck and wealth",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of the sky</p>",
+      "id": "ID_WOTC_SCAG_DEITY_AERDRIE_FAENYA",
+      "name": "Aerdrie Faenya",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Bird silhouetted against a cloud",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of the sky",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">triple goddess of wisdom and protection</p>",
+      "id": "ID_WOTC_SCAG_DEITY_ANGHARRADH",
+      "name": "Angharradh",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Life",
+            "name": "domains"
+          },
+          {
+            "description": "Triangle with three interlocking circles within",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "triple goddess of wisdom and protection",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of art and magic</p>",
+      "id": "ID_WOTC_SCAG_DEITY_CORELLON_LARETHIAN",
+      "name": "Corellon Larethian",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Crescent moon",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of art and magic",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of the sea</p>",
+      "id": "ID_WOTC_SCAG_DEITY_DEEP_SASHELAS",
+      "name": "Deep Sashelas",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Dolphin",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of the sea",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of mischief</p>",
+      "id": "ID_WOTC_SCAG_DEITY_EREVAN_ILESERE",
+      "name": "Erevan Ilesere",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Asymmetrical eight-armed star",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of mischief",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of outcasts</p>",
+      "id": "ID_WOTC_SCAG_DEITY_FENMAREL_MESTARINE",
+      "name": "Fenmarel Mestarine",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Two peering elven eyes",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of outcasts",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of love and beauty</p>",
+      "id": "ID_WOTC_SCAG_DEITY_HANALI_CELANIL",
+      "name": "Hanali Celanil",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Golden heart",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of love and beauty",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of time, history, and philosophy</p>",
+      "id": "ID_WOTC_SCAG_DEITY_LABELAS_ENORETH",
+      "name": "Labelas Enoreth",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana, Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Setting sun",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of time, history, and philosophy",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of nature</p>",
+      "id": "ID_WOTC_SCAG_DEITY_RILLIFANE_RALLATHIL",
+      "name": "Rillifane Rallathil",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Oak",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of nature",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of divination, dreams, travel, and death</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SEHANINE_MOONBOW",
+      "name": "Sehanine Moonbow",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Full moon under a moonbow",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of divination, dreams, travel, and death",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of vengeance</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SHEVARASH",
+      "name": "Shevarash",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Broken arrow over a tear",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of vengeance",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of archery</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SOLONOR_THELANDIRA",
+      "name": "Solonor Thelandira",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Silver arrow with green fletching",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of archery",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of song and moonlight</p>",
+      "id": "ID_WOTC_SCAG_DEITY_EILISTRAEE",
+      "name": "Eilistraee",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Light, Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Sword-wielding dancing drow female silhouetted against the full moon",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of song and moonlight",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of necromancy</p>",
+      "id": "ID_WOTC_SCAG_DEITY_KIARANSALEE",
+      "name": "Kiaransalee",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana",
+            "name": "domains"
+          },
+          {
+            "description": "Female drow hand wearing many silver rings",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of necromancy",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of spiders</p>",
+      "id": "ID_WOTC_SCAG_DEITY_LOLTH",
+      "name": "Lolth",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Spider",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of spiders",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of warriors</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SELVETARM",
+      "name": "Selvetarm",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Spider over crossed sword-and-mace",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of warriors",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of thieves</p>",
+      "id": "ID_WOTC_SCAG_DEITY_VHAERAUN",
+      "name": "Vhaeraun",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Black mask with blue glass lenses inset over eyes",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of thieves",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of vigilance and war</p>",
+      "id": "ID_WOTC_SCAG_DEITY_ARVOREEN",
+      "name": "Arvoreen",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Crossed short swords",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of vigilance and war",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of thievery and adventure</p>",
+      "id": "ID_WOTC_SCAG_DEITY_BRANDOBARIS",
+      "name": "Brandobaris",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Halfling footprint",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of thievery and adventure",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of hearth and home</p>",
+      "id": "ID_WOTC_SCAG_DEITY_CYRROLLALEE",
+      "name": "Cyrrollalee",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "An open door",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of hearth and home",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of agriculture and weather</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SHEELA_PERYROYL",
+      "name": "Sheela Peryroyl",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Flower",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of agriculture and weather",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of earth and death</p>",
+      "id": "ID_WOTC_SCAG_DEITY_UROGALAN",
+      "name": "Urogalan",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Silhouette of a dog's head",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of earth and death",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of fertility and protection</p>",
+      "id": "ID_WOTC_SCAG_DEITY_YONDALLA",
+      "name": "Yondalla",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Cornucopia on a shield",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of fertility and protection",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of woodlands</p>",
+      "id": "ID_WOTC_SCAG_DEITY_BAERVAN_WILDWANDERER",
+      "name": "Baervan Wildwanderer",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Face of a raccoon",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of woodlands",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of illusion and deception</p>",
+      "id": "ID_WOTC_SCAG_DEITY_BARAVAR_CLOAKSHADOW",
+      "name": "Baravar Cloakshadow",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Arcana, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Dagger against a hooded cloak",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of illusion and deception",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of mining and carving stone</p>",
+      "id": "ID_WOTC_SCAG_DEITY_CALLARDURAN_SMOOTHHANDS",
+      "name": "Callarduran Smoothhands",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Golden signet ring with six-pointed star",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of mining and carving stone",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of metalwork</p>",
+      "id": "ID_WOTC_SCAG_DEITY_FLANDAL_STEELSKIN",
+      "name": "Flandal Steelskin",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Flamming hammer",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of metalwork",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of protection</p>",
+      "id": "ID_WOTC_SCAG_DEITY_GAERDAL_IRONHAND",
+      "name": "Gaerdal Ironhand",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Iron band",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of protection",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of trickery and gems</p>",
+      "id": "ID_WOTC_SCAG_DEITY_GARL_GLITTERGOLD",
+      "name": "Garl Glittergold",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Gold nugget",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of trickery and gems",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of invention and luck</p>",
+      "id": "ID_WOTC_SCAG_DEITY_NEBELUN",
+      "name": "Nebelun",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Bellows and a lizard tail",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of invention and luck",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of earth and the dead</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SEGOJAN_EARTHCALLER",
+      "name": "Segojan Earthcaller",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Light",
+            "name": "domains"
+          },
+          {
+            "description": "Glowing gemstone",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of earth and the dead",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of greed and murder</p>",
+      "id": "ID_WOTC_SCAG_DEITY_URDLEN",
+      "name": "Urdlen",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, War",
+            "name": "domains"
+          },
+          {
+            "description": "White clawed mole emerging from ground",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of greed and murder",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of strength</p>",
+      "id": "ID_WOTC_SCAG_DEITY_BAHGTRU",
+      "name": "Bahgtru",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Broken thigh bone",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of strength",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of storms and war</p>",
+      "id": "ID_WOTC_SCAG_DEITY_GRUUMSH",
+      "name": "Gruumsh",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest, War",
+            "name": "domains"
+          },
+          {
+            "description": "Unblinking eye",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of storms and war",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of strategy and hordes</p>",
+      "id": "ID_WOTC_SCAG_DEITY_ILNEVAL",
+      "name": "Ilneval",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Upright blood-spattered sword",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of strategy and hordes",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">mother-goddess of fertility and healing</p>",
+      "id": "ID_WOTC_SCAG_DEITY_LUTHIC",
+      "name": "Luthic",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Orcish rune meaning \"cave entrance\"",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "mother-goddess of fertility and healing",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of stealth and darkness</p>",
+      "id": "ID_WOTC_SCAG_DEITY_SHARGAAS",
+      "name": "Shargaas",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Red crescent moon with a skull between the moon's horns",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of stealth and darkness",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of death and disease</p>",
+      "id": "ID_WOTC_SCAG_DEITY_YURTRUS",
+      "name": "Yurtrus",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "White hand, palm outward",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of death and disease",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Deity"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "Deities from the Sword Coast Adventurer's Guide.",
+    "name": "Deities",
+    "update": {
+      "file": {
+        "name": "deities.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/deities.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

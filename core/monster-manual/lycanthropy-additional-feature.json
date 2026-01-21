@@ -1,0 +1,815 @@
+{
+  "element": [
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire , features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark. </p>",
+      "id": "ID_WOTC_MM_LYCANTHROPY",
+      "name": "Lycanthropy",
+      "rules": {
+        "select": {
+          "name": "Lycanthropy",
+          "optional": "true",
+          "supports": "Lycanthropy",
+          "type": "Racial Trait"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Monster Manual",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Werebears are powerful lycanthropes with the ability to temper their monstrous natures and reject their violent impulses. In humanoid form, they are large, muscular, and covered in hair matching the color of their ursine form's fur. A were bear is a loner by nature, fearing what might happen to innocent creatures around it when its bestial nature takes over. </p> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_SHAPESHIFTER\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_SPEED\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_STRENGTH\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_RESISTANCE\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_ARMOR\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_KEEN_SMELL\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_WEAPONS\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_MULTIATTACK\" />",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR",
+      "name": "Werebear",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_SHAPESHIFTER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_SPEED",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_STRENGTH",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_ARMOR",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_KEEN_SMELL",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_WEAPONS",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_MULTIATTACK",
+            "type": "Racial Trait"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monster Manual",
+      "supports": "Lycanthropy",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can use its action to polymorph into a Large bear-humanoid hybrid or into a Large bear, or back into your true form, which is humanoid. Your statistics, other than size and AC, are the same in each form. Any equipment you are wearing or carrying isn't transformed. You reverts to its true form if it dies. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_SHAPESHIFTER",
+      "name": "Shapeshifter",
+      "sheet": {
+        "action": "Action",
+        "content": "You can transform into a large bear or your hybrid form. End the transformation if you die."
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have a walking speed of 40 ft and climb speed of 30 ft in bear or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_SPEED",
+      "name": "Werebear Speed",
+      "sheet": {
+        "content": "You have a walking speed of 40 ft and a climb speed of 30 ft.",
+        "usage": "Bear or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your Strength score minimum is 19 while in bear or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_STRENGTH",
+      "name": "Werebear Strength",
+      "sheet": {
+        "content": "Your minimum Strength is 19.",
+        "usage": "Bear or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered in bear or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_RESISTANCE",
+      "name": "Werebear Resistance",
+      "sheet": {
+        "content": "You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered.",
+        "usage": "Bear or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You gain a +1 bonus to AC while in bear or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_ARMOR",
+      "name": "Werebear Armor",
+      "sheet": {
+        "content": "You gain a +1 bonus to AC.",
+        "usage": "Bear or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "You have advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>In your bear or hybrid form you gain two natural weapons which you are considered proficienct with:</p> <ul> <li>Bite: Melee Weapon Attack, 2d10 + Strength piercing damage.</li> <li>Claw: Melee Weapon Attack, 2d8 + Strength slashing damage.</li> </ul>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_WEAPONS",
+      "name": "Natural Weapons",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "werebear strength",
+            "name": "werebear weapon:modifier",
+            "value": "strength:modifier"
+          },
+          {
+            "bonus": "werebear strength",
+            "name": "werebear weapon:modifier",
+            "value": "4"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You gain the following natural weapons: &#x2022; Bite: Melee Weapon Attack, 2d10 + {{werebear weapon:modifier}} piercing damage. &#x2022; Claw: Melee Weapon Attack, 2d8 + {{werebear weapon:modifier}} slashing damage.",
+        "usage": "Bear or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>In bear form, you makes two claw attacks. In humanoid form, you attack normally. In hybrid form, you can attack like a bear or a humanoid. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBEAR_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": {
+        "action": "Action",
+        "content": "In bear form, you makes two claw attacks. In humanoid form, you attack normally. In hybrid form, you can attack like a bear or a humanoid."
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Wereboars are ill-tempered and vulgar brutes. As humanoids, they are stocky and muscular, with short, stiff hair. In their humanoid and hybrid forms, they use heavy weapons, while in hybrid or animal form, they gain a devastating goring attack through which their curse is spread. A wereboar infects other creatures indiscriminately, relishing the fact that the more its victims resist the curse, the more savage and bestial they become. </p> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SHAPESHIFTER\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SPEED\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_STRENGTH\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RESISTANCE\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_ARMOR\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_CHARGE\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_WEAPON\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_MULTIATTACK\" />",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR",
+      "name": "Wereboar",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SHAPESHIFTER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SPEED",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_STRENGTH",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_ARMOR",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_CHARGE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_WEAPON",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_MULTIATTACK",
+            "type": "Racial Trait"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monster Manual",
+      "supports": "Lycanthropy",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can use its action to polymorph into a Large boar-humanoid hybrid or into a boar, or back into your true form, which is humanoid. Your statistics, other than size and AC, are the same in each form. Any equipment you are wearing or carrying isn't transformed. You reverts to its true form if it dies. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SHAPESHIFTER",
+      "name": "Shapeshifter",
+      "sheet": {
+        "action": "Action",
+        "content": "You can transform into a boar or your hybrid form. End the transformation if you die."
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have a walking speed of 40 ft.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SPEED",
+      "name": "Wereboar Speed",
+      "sheet": {
+        "content": "You have a walking speed of 40 ft.",
+        "usage": "Boar or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your Strength score minimum is 17 while in boar or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_STRENGTH",
+      "name": "Wereboar Strength",
+      "sheet": {
+        "content": "Your minimum Strength is 17.",
+        "usage": "Boar or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered in boar or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RESISTANCE",
+      "name": "Wereboar Resistance",
+      "sheet": {
+        "content": "You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered.",
+        "usage": "Boar or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You gain a +1 bonus to AC while in boar or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_ARMOR",
+      "name": "Wereboar Armor",
+      "sheet": {
+        "content": "You gain a +1 bonus to AC.",
+        "usage": "Boar or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>if you move at least 15 feet straight toward a target and then hits it with your tusks on the same turn, the target takes an extra 2d6 slashing damage. If the target is a creature, it must succeed on a DC (8 + Proficiency + Strength Modifier) Strength saving throw or be knocked prone.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_CHARGE",
+      "name": "Charge",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "wereboar strength",
+            "name": "wereboar charge:dc",
+            "value": "3"
+          },
+          {
+            "bonus": "wereboar strength",
+            "name": "wereboar charge:dc",
+            "value": "strength:modifier"
+          },
+          {
+            "name": "wereboar charge:dc",
+            "value": "8"
+          },
+          {
+            "name": "wereboar charge:dc",
+            "value": "proficiency"
+          }
+        ]
+      },
+      "sheet": "if you move at least 15 feet straight toward a target and then hits it with your tusks on the same turn, the target takes an extra 2d6 slashing damage. If the target is a creature, it must succeed on a DC {{wereboar charge:dc}} Strength saving throw or be knocked prone.",
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>If you take 14 damage or less that would reduce you to 0 hit points, you are reduced to 1 hit point instead. This can be done once per short or long rest. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS",
+      "name": "Relentless",
+      "sheet": {
+        "content": "If you take 14 damage or less that would reduce you to 0 hit points, you are reduced to 1 hit point instead.",
+        "usage": "1/Long or Short Rest"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>In your boar or hybrid form you gain a natural weapon which you are considered proficienct with:</p> <ul> <li>Tusks: Melee Weapon Attack, 2d6 + Strength piercing damage.</li> </ul>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_WEAPON",
+      "name": "Natural Weapon",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "Wereboar strength",
+            "name": "Wereboar weapon:modifier",
+            "value": "strength:modifier"
+          },
+          {
+            "bonus": "Wereboar strength",
+            "name": "Wereboar weapon:modifier",
+            "value": "3"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You gain the following natural weapons: &#x2022; Tusks: Melee Weapon Attack, 2d6 + {{Wereboar weapon:modifier}} piercing damage.",
+        "usage": "Boar or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You make two attacks, only one of which can be with its tusks. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": {
+        "action": "Action",
+        "content": "You make two attacks, only one of which can be with its tusks.",
+        "usage": "Humanoid or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Wererats are cunning lycanthropes with sly, avaricious personalities. They are wiry and twitchy in humanoid form, with thin hair and darting eyes. In their humanoid and hybrid forms, wererats prefer light weapons and use ambush tactics rather than fighting as a pack. Although a wererat can deliver a nasty bite in its rat form, it favors that form for stealthy infiltration and escape rather than combat. </p> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERERAT_SHAPESHIFTER\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERERAT_SPEED\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERERAT_DEXTERITY\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERERAT_RESISTANCE\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERERAT_KEEN_SMELL\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERERAT_WEAPON\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERERAT_MULTIATTACK\" />",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT",
+      "name": "Wererat",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_SHAPESHIFTER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_SPEED",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_DEXTERITY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_KEEN_SMELL",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_WEAPON",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_MULTIATTACK",
+            "type": "Racial Trait"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monster Manual",
+      "supports": "Lycanthropy",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into your true form, which is humanoid. Your statistics, other than size and AC, are the same in each form. Any equipment you are wearing or carrying isn't transformed. You reverts to its true form if it dies. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_SHAPESHIFTER",
+      "name": "Shapeshifter",
+      "sheet": {
+        "action": "Action",
+        "content": "You can transform into a rat or your hybrid form. End the transformation if you die."
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have a walking speed of 30 ft.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_SPEED",
+      "name": "Wererat Speed",
+      "sheet": {
+        "content": "You have a walking speed of 30 ft.",
+        "usage": "Rat or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your Dexterity score minimum is 15 while in rat or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_DEXTERITY",
+      "name": "Wererat Dexterity",
+      "sheet": {
+        "content": "Your minimum Strength is 15.",
+        "usage": "Rat or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered in bear or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_RESISTANCE",
+      "name": "Wererat Resistance",
+      "sheet": {
+        "content": "You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered.",
+        "usage": "Rat or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "You have advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>In your rat or hybrid form you gain a natural weapon which you are considered proficienct with:</p> <ul> <li>Bite: Melee Weapon Attack, 1d4 + Strength piercing damage.</li> </ul>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_WEAPON",
+      "name": "Natural Weapon",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "Wererat strength",
+            "name": "Wererat weapon:modifier",
+            "value": "strength:modifier"
+          },
+          {
+            "bonus": "Wererat strength",
+            "name": "Wererat weapon:modifier",
+            "value": "4"
+          },
+          {
+            "bonus": "Wererat strength",
+            "name": "Wererat weapon:modifier",
+            "value": "dexterity:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You gain the following natural weapon: &#x2022; Bite: Melee Weapon Attack, 1d4 + {{Wererat weapon:modifier}} piercing damage.",
+        "usage": "Rat or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You make two attacks, only one of which can be a bite. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERERAT_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": {
+        "action": "Action",
+        "content": "You make two attacks, only one of which can be a bite.",
+        "usage": "Humanoid or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Wererats are cunning lycanthropes with sly, avaricious personalities. They are wiry and twitchy in humanoid form, with thin hair and darting eyes. In their humanoid and hybrid forms, wererats prefer light weapons and use ambush tactics rather than fighting as a pack. Although a wererat can deliver a nasty bite in its rat form, it favors that form for stealthy infiltration and escape rather than combat. </p> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_SHAPESHIFTER\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_SPEED\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_STRENGTH\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_RESISTANCE\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_KEEN_HEARING_AND_SMELL\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_POUNCE\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_WEAPONS\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_MULTIATTACK\" />",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER",
+      "name": "Weretiger",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_SHAPESHIFTER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_SPEED",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_STRENGTH",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_KEEN_HEARING_AND_SMELL",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_POUNCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_WEAPONS",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_MULTIATTACK",
+            "type": "Racial Trait"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monster Manual",
+      "supports": "Lycanthropy",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into your true form, which is humanoid. Your statistics, other than size and AC, are the same in each form. Any equipment you are wearing or carrying isn't transformed. You reverts to its true form if it dies. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_SHAPESHIFTER",
+      "name": "Shapeshifter",
+      "sheet": {
+        "action": "Action",
+        "content": "You can transform into a tiger or your hybrid form. End the transformation if you die."
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have a walking speed of 30 ft in hybrid form, 40 ft in tiger form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_SPEED",
+      "name": "Weretiger Speed",
+      "sheet": {
+        "content": "You have a walking speed of 30 ft in hybrid form, 40 ft in tiger form.",
+        "usage": "Tiger or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your Strength score minimum is 17 while in tiger or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_STRENGTH",
+      "name": "Weretiger Strength",
+      "sheet": {
+        "content": "Your minimum Strength is 17.",
+        "usage": "Tiger or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered in tiger or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_RESISTANCE",
+      "name": "Weretiger Resistance",
+      "sheet": {
+        "content": "You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered.",
+        "usage": "Tiger or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_KEEN_HEARING_AND_SMELL",
+      "name": "Keen Hearing and Smell",
+      "sheet": "You have advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>If you move at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC (8 + Proficiency + Strength Modifier) Strength saving throw or be knocked prone. If the target is prone, you can make one bite attack against it as a bonus action.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_POUNCE",
+      "name": "Pounce",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "Weretiger strength",
+            "name": "Weretiger Pounce:dc",
+            "value": "3"
+          },
+          {
+            "bonus": "Weretiger strength",
+            "name": "Weretiger Pounce:dc",
+            "value": "strength:modifier"
+          },
+          {
+            "name": "Weretiger Pounce:dc",
+            "value": "8"
+          },
+          {
+            "name": "Weretiger Pounce:dc",
+            "value": "proficiency"
+          }
+        ]
+      },
+      "sheet": "If you move at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC {{Weretiger Pounce:dc}} Strength saving throw or be knocked prone. If the target is prone, you can make one bite attack against it as a bonus action.",
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>In your tiger or hybrid form you gain two natural weapons which you are considered proficienct with:</p> <ul> <li>Bite: Melee Weapon Attack, 1d10 + Strength piercing damage.</li> <li>Claw: Melee Weapon Attack, 1d8 + Strength slashing damage.</li> </ul>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_WEAPONS",
+      "name": "Natural Weapons",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "weretiger strength",
+            "name": "weretiger weapon:modifier",
+            "value": "strength:modifier"
+          },
+          {
+            "bonus": "weretiger strength",
+            "name": "weretiger weapon:modifier",
+            "value": "3"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You gain the following natural weapons: &#x2022; Bite: Melee Weapon Attack, 1d10 + {{weretiger weapon:modifier}} piercing damage. &#x2022; Claw: Melee Weapon Attack, 1d8 + {{weretiger weapon:modifier}} slashing damage.",
+        "usage": "Tiger or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You attack normally as a humanoid, in the hybrid form you can attack as a humanoid or make two claw attacks. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": {
+        "action": "Action",
+        "content": "You attack normally as a humanoid, in the hybrid form you can attack as a humanoid or make two claw attacks.",
+        "usage": "Humanoid or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tenqency to eat rare meat. Its wolf form is a fears9me predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite. </p> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_SHAPESHIFTER\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_SPEED\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_STRENGTH\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_RESISTANCE\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_KEEN_HEARING_AND_SMELL\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_WEAPONS\" /> <div element=\"ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_MULTIATTACK\" />",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF",
+      "name": "Werewolf",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_SHAPESHIFTER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_SPEED",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_STRENGTH",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_KEEN_HEARING_AND_SMELL",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_WEAPONS",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_MULTIATTACK",
+            "type": "Racial Trait"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monster Manual",
+      "supports": "Lycanthropy",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into your true form, which is humanoid. Your statistics, other than size and AC, are the same in each form. Any equipment you are wearing or carrying isn't transformed. You reverts to its true form if it dies. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_SHAPESHIFTER",
+      "name": "Shapeshifter",
+      "sheet": {
+        "action": "Action",
+        "content": "You can transform into a wolf or your hybrid form. End the transformation if you die."
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have a walking speed of 30 ft in hybrid form, 40 ft in wolf form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_SPEED",
+      "name": "Werewolf Speed",
+      "sheet": {
+        "content": "You have a walking speed of 30 ft in hybrid form, 40 ft in wolf form.",
+        "usage": "Wolf or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your Strength score minimum is 15 while in wolf or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_STRENGTH",
+      "name": "Werewolf Strength",
+      "sheet": {
+        "content": "Your minimum Strength is 15.",
+        "usage": "Wolf or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered in wolf or hybrid form.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_RESISTANCE",
+      "name": "Werewolf Resistance",
+      "sheet": {
+        "content": "You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered.",
+        "usage": "Wolf or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_KEEN_HEARING_AND_SMELL",
+      "name": "Keen Hearing and Smell",
+      "sheet": "You have advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>In your wolf or hybrid form you gain two natural weapons which you are considered proficienct with:</p> <ul> <li>Bite: Melee Weapon Attack, 1d10 + Strength piercing damage.</li> <li>Claw: Melee Weapon Attack, 1d8 + Strength slashing damage.</li> </ul>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_WEAPONS",
+      "name": "Natural Weapons",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "Werewolf strength",
+            "name": "Werewolf weapon:modifier",
+            "value": "strength:modifier"
+          },
+          {
+            "bonus": "Werewolf strength",
+            "name": "Werewolf weapon:modifier",
+            "value": "2"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You gain the following natural weapons: &#x2022; Bite: Melee Weapon Attack, 1d8 + {{Werewolf weapon:modifier}} piercing damage. &#x2022; Claw: Melee Weapon Attack, 2d4 + {{Werewolf weapon:modifier}} slashing damage.",
+        "usage": "Wolf or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You make two attacks: one with your bite and one with your claws. </p>",
+      "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": {
+        "action": "Action",
+        "content": "You make two attacks: one with your bite and one with your claws.",
+        "usage": "Humanoid or Hybrid Form"
+      },
+      "source": "Monster Manual",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/monster-manual"
+    },
+    "description": "Lycanthropy rules from the Monster Manual.",
+    "name": "Lycanthropy",
+    "update": {
+      "file": {
+        "name": "lycanthropy-additional-feature.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/lycanthropy-additional-feature.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

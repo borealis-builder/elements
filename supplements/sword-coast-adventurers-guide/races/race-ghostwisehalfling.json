@@ -1,0 +1,55 @@
+{
+  "element": [
+    {
+      "description": "<p>Ghostwise halflings trace their ancestry back to a war among halfling tribes that sent their ancestors into flight from Luiren. Ghostwise halflings are the rarest of the hin, found only in the Chondalwood and a few other isolated forests, clustered in tight-knit clans.</p> <p class=\"indent\">Many ghostwise clans select a natural landmark as the center of their territory, and members carry a piece of that landmark with them at all times. Clan warriors known as nightglid ers bond with and ride giant owls as mounts.</p> <p class=\"indent\">Because these folk are clannish and mistrustful of outsiders, ghostwise halfling adventurers are rare.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p> <p class=\"indent\"><strong><em>Silent Speech.</em></strong> You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.</p>",
+      "id": "ID_WOTC_SCAG_SUB_RACE_GHOSTWISE_HALFLING",
+      "name": "Ghostwise Halfling",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_SCAG_RACIAL_TRAIT_SILENT_SPEECH",
+          "type": "Racial Trait"
+        },
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Ghostwise Halfling)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "wisdom",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Halfling",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.</p>",
+      "id": "ID_WOTC_SCAG_RACIAL_TRAIT_SILENT_SPEECH",
+      "name": "Silent Speech",
+      "sheet": "You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "Ghostwise Halfling Subrace from the Sword Coast Adventurer's Guide.",
+    "name": "Ghostwise",
+    "update": {
+      "file": {
+        "name": "race-ghostwisehalfling.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/race-ghostwisehalfling.json"
+      },
+      "version": "0.1.2"
+    }
+  }
+}

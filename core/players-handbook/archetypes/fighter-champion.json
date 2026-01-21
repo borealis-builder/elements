@@ -1,0 +1,173 @@
+{
+  "element": [
+    {
+      "description": "<p>The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.</p> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPROVEDCRITICAL\"/> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_REMARKABLEATHLETE\"/> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_ADDITIONALFIGHTINGSTYLE\"/> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_SUPERIORCRITICAL\"/> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_SURVIVOR\"/>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_CHAMPION",
+      "name": "Champion",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPROVEDCRITICAL",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_REMARKABLEATHLETE",
+            "level": "7",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ADDITIONALFIGHTINGSTYLE",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_SUPERIORCRITICAL",
+            "level": "15",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_SURVIVOR",
+            "level": "18",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "The archetypal Champion focuses on the development of raw physical power honed to deadly perfection.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Martial Archetype",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPROVEDCRITICAL",
+      "name": "Improved Critical",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_IMPROVED_CRITICAL",
+      "sheet": "Your weapon attacks score a critical hit on a roll of 19 or 20.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.</p> <p class=\"indent\">In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_REMARKABLEATHLETE",
+      "name": "Remarkable Athlete",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_REMARKABLE_ATHLETE",
+      "rules": {
+        "stat": [
+          {
+            "name": "acrobatics:misc",
+            "requirements": "!ID_PROFICIENCY_SKILL_ACROBATICS",
+            "value": "proficiency:half:up"
+          },
+          {
+            "name": "athletics:misc",
+            "requirements": "!ID_PROFICIENCY_SKILL_ATHLETICS",
+            "value": "proficiency:half:up"
+          },
+          {
+            "name": "sleight of hand:misc",
+            "requirements": "!ID_PROFICIENCY_SKILL_SLEIGHTOFHAND",
+            "value": "proficiency:half:up"
+          },
+          {
+            "name": "stealth:misc",
+            "requirements": "!ID_PROFICIENCY_SKILL_STEALTH",
+            "value": "proficiency:half:up"
+          }
+        ]
+      },
+      "sheet": "When you make a running long jump, the distance you can cover increases by {{strength:modifier}} feet.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 10th level, you can choose a second option from the Fighting Style class feature.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ADDITIONALFIGHTINGSTYLE",
+      "name": "Additional Fighting Style",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_ADDITIONAL_FIGHTING_STYLE",
+      "rules": {
+        "select": {
+          "level": "10",
+          "name": "Additional Fighting Style",
+          "supports": "Fighting Style, Fighter",
+          "type": "Class Feature"
+        }
+      },
+      "sheet": "You adopt a second style of fighting as your specialty.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 15th level, your weapon attacks score a critical hit on a roll of 18–20.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_SUPERIORCRITICAL",
+      "name": "Superior Critical",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_SUPERIOR_CRITICAL",
+      "sheet": "Your weapon attacks score a critical hit on a roll of 18–20.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_SURVIVOR",
+      "name": "Survivor",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_SURVIVOR",
+      "rules": {
+        "stat": [
+          {
+            "name": "survivor:hp",
+            "value": "5"
+          },
+          {
+            "name": "survivor:hp",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": "At the start of each of your turns, you regain {{survivor:hp}} hp if you have no more than half of your hp left. You don't gain this benefit if you have 0 hp.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_IMPROVED_CRITICAL",
+      "name": "Improved Critical Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_REMARKABLE_ATHLETE",
+      "name": "Remarkable Athlete Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_ADDITIONAL_FIGHTING_STYLE",
+      "name": "Additional Fighting Style Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_SUPERIOR_CRITICAL",
+      "name": "Superior Critical Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_SURVIVOR",
+      "name": "Survivor Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "fighter-champion.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/fighter-champion.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

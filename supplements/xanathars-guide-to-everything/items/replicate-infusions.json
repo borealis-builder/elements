@@ -1,0 +1,445 @@
+{
+  "element": [
+    {
+      "description": "<p>Using this infusion, you can replicate an Armor of Gleaming.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_ARMOR_OF_GLEAMINGT\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ARMOR_OF_GLEAMING",
+      "name": "Armor of Gleaming",
+      "sheet": "Using this infusion, you can replicate an Armor of Gleaming.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Bead of Nourishment.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_BEAD_OF_NOURISHMENT\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BEAD_OF_NOURISHMENT",
+      "name": "Bead of Nourishment",
+      "sheet": "Using this infusion, you can replicate a Bead of Nourishment.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Bead of Refreshment.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_BEAD_OF_REFRESHMENT\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BEAD_OF_REFRESHMENT",
+      "name": "Bead of Refreshment",
+      "sheet": "Using this infusion, you can replicate a Bead of Refreshment.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate Boots of False Tracks.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_BOOTS_OF_FALSE_TRACKS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_FALSE_TRACKS",
+      "name": "Boots of False Tracks",
+      "sheet": "Using this infusion, you can replicate Boots of False Tracks.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Candle of the Deep.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_CANDLE_OF_THE_DEEP\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CANDLE_OF_THE_DEEP",
+      "name": "Candle of the Deep",
+      "sheet": "Using this infusion, you can replicate a Candle of the Deep.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Cast-Off Armor.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_CAST_OFF_ARMOR\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CAST_OFF_ARMOR",
+      "name": "Cast-Off Armor",
+      "sheet": "Using this infusion, you can replicate a Cast-Off Armor.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Charlatan's Die.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_CHARLATANS_DIE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CHARLATANS_DIE",
+      "name": "Charlatan's Die",
+      "sheet": "Using this infusion, you can replicate a Charlatan's Die.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Cloak of Billowing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_CLOAK_OF_BILLOWING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_BILLOWING",
+      "name": "Cloak of Billowing",
+      "sheet": "Using this infusion, you can replicate a Cloak of Billowing.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Cloak of Many Fashions.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_CLOAK_OF_MANY_FASHIONS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_MANY_FASHIONS",
+      "name": "Cloak of Many Fashions",
+      "sheet": "Using this infusion, you can replicate a Cloak of Many Fashions.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Clockwork Amulet.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_CLOCKWORK_AMULET\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOCKWORK_AMULET",
+      "name": "Clockwork Amulet",
+      "sheet": "Using this infusion, you can replicate a Clockwork Amulet.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate Clothes of Mending.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_CLOTHES_OF_MENDING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOTHES_OF_MENDING",
+      "name": "Clothes of Mending",
+      "sheet": "Using this infusion, you can replicate Clothes of Mending.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Dark Shard Amulet.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_DARK_SHARD_AMULET\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_DARK_SHARD_AMULET",
+      "name": "Dark Shard Amulet",
+      "sheet": "Using this infusion, you can replicate a Dark Shard Amulet.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Dread Helm.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_DREAD_HELM\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_DREAD_HELM",
+      "name": "Dread Helm",
+      "sheet": "Using this infusion, you can replicate a Dread Helm.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Ear Horn of Hearing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_EAR_HORN_OF_HEARING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EAR_HORN_OF_HEARING",
+      "name": "Ear Horn of Hearing",
+      "sheet": "Using this infusion, you can replicate an Ear Horn of Hearing.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Enduring Spellbook.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_ENDURING_SPELLBOOK\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ENDURING_SPELLBOOK",
+      "name": "Enduring Spellbook",
+      "sheet": "Using this infusion, you can replicate an Enduring Spellbook.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Ersatz Eye.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_ERSATZ_EYE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ERSATZ_EYE",
+      "name": "Ersatz Eye",
+      "sheet": "Using this infusion, you can replicate an Ersatz Eye.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Hat of Vermin.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_HAT_OF_VERMIN\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HAT_OF_VERMIN",
+      "name": "Hat of Vermin",
+      "sheet": "Using this infusion, you can replicate a Hat of Vermin.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Hat of Wizardry.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_HAT_OF_WIZARDRY\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HAT_OF_WIZARDRY",
+      "name": "Hat of Wizardry",
+      "sheet": "Using this infusion, you can replicate a Hat of Wizardry.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Heward's Handy Spice Pouch.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_HEWARDS_HANDY_SPICE_POUCH\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HEWARDS_HANDY_SPICE_POUCH",
+      "name": "Heward's Handy Spice Pouch",
+      "sheet": "Using this infusion, you can replicate a Heward's Handy Spice Pouch.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Horn of Silent Alarm.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_HORN_OF_SILENT_ALARM\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HORN_OF_SILENT_ALARM",
+      "name": "Horn of Silent Alarm",
+      "sheet": "Using this infusion, you can replicate a Horn of Silent Alarm.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Instrument of Illusions.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_INSTRUMENT_OF_ILLUSIONS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_INSTRUMENT_OF_ILLUSIONS",
+      "name": "Instrument of Illusions",
+      "sheet": "Using this infusion, you can replicate an Instrument of Illusions.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Instrument of Scribing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_INSTRUMENT_OF_SCRIBING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_INSTRUMENT_OF_SCRIBING",
+      "name": "Instrument of Scribing",
+      "sheet": "Using this infusion, you can replicate an Instrument of Scribing.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Lock of Trickery.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_LOCK_OF_TRICKERY\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_LOCK_OF_TRICKERY",
+      "name": "Lock of Trickery",
+      "sheet": "Using this infusion, you can replicate a Lock of Trickery.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Moon-Touched Sword.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_MOONTOUCHED_SWORD\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MOONTOUCHED_SWORD",
+      "name": "Moon-Touched Sword",
+      "sheet": "Using this infusion, you can replicate a Moon-Touched Sword.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Mystery Key.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_MYSTERY_KEY\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MYSTERY_KEY",
+      "name": "Mystery Key",
+      "sheet": "Using this infusion, you can replicate a Mystery Key.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Orb of Direction.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_ORB_OF_DIRECTION\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_DIRECTION",
+      "name": "Orb of Direction",
+      "sheet": "Using this infusion, you can replicate an Orb of Direction.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Orb of Time.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_ORB_OF_TIME\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_TIME",
+      "name": "Orb of Time",
+      "sheet": "Using this infusion, you can replicate an Orb of Time.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate Perfume of Bewitching.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_PERFUME_OF_BEWITCHING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PERFUME_OF_BEWITCHING",
+      "name": "Perfume of Bewitching",
+      "sheet": "Using this infusion, you can replicate Perfume of Bewitching.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Pipe of Smoke Monsters.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_PIPE_OF_SMOKE_MONSTERS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPE_OF_SMOKE_MONSTERS",
+      "name": "Pipe of Smoke Monsters",
+      "sheet": "Using this infusion, you can replicate a Pipe of Smoke Monsters.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Pole of Angling.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_POLE_OF_ANGLING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_POLE_OF_ANGLING",
+      "name": "Pole of Angling",
+      "sheet": "Using this infusion, you can replicate a Pole of Angling.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Pole of Collapsing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_POLE_OF_COLLAPSING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_POLE_OF_COLLAPSING",
+      "name": "Pole of Collapsing",
+      "sheet": "Using this infusion, you can replicate a Pole of Collapsing.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Pot of Awakening.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_POT_OF_AWAKENING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_POT_OF_AWAKENING",
+      "name": "Pot of Awakening",
+      "sheet": "Using this infusion, you can replicate a Pot of Awakening.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Rope of Mending.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_ROPE_OF_MENDING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ROPE_OF_MENDING",
+      "name": "Rope of Mending",
+      "sheet": "Using this infusion, you can replicate a Rope of Mending.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Ruby of the War Mage.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_RUBY_OF_THE_WAR_MAGE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RUBY_OF_THE_WAR_MAGE",
+      "name": "Ruby of the War Mage",
+      "sheet": "Using this infusion, you can replicate a Ruby of the War Mage.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Shield of Expression.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_SHIELD_OF_EXPRESSION\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SHIELD_OF_EXPRESSION",
+      "name": "Shield of Expression",
+      "sheet": "Using this infusion, you can replicate a Shield of Expression.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Smoldering Armor.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_SMOLDERING_ARMOR\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SMOLDERING_ARMOR",
+      "name": "Smoldering Armor",
+      "sheet": "Using this infusion, you can replicate a Smoldering Armor.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Staff of Adornment.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_STAFF_OF_ADORNMENT\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_STAFF_OF_ADORNMENT",
+      "name": "Staff of Adornment",
+      "sheet": "Using this infusion, you can replicate a Staff of Adornment.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Staff of Birdcalls.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_STAFF_OF_BIRDCALLS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_STAFF_OF_BIRDCALLS",
+      "name": "Staff of Birdcalls",
+      "sheet": "Using this infusion, you can replicate a Staff of Birdcalls.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Staff of Flowers.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_STAFF_OF_FLOWERS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_STAFF_OF_FLOWERS",
+      "name": "Staff of Flowers",
+      "sheet": "Using this infusion, you can replicate a Staff of Flowers.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Talking Doll.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_TALKING_DOLL\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_TALKING_DOLL",
+      "name": "Talking Doll",
+      "sheet": "Using this infusion, you can replicate a Talking Doll.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Tankard of Sobriety.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_TANKARD_OF_SOBRIETY\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_TANKARD_OF_SOBRIETY",
+      "name": "Tankard of Sobriety",
+      "sheet": "Using this infusion, you can replicate a Tankard of Sobriety.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Unbreakable Arrow.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_UNBREAKABLE_ARROW\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_UNBREAKABLE_ARROW",
+      "name": "Unbreakable Arrow",
+      "sheet": "Using this infusion, you can replicate an Unbreakable Arrow.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Veteran's Cane.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_VETERANS_CANE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_VETERANS_CANE",
+      "name": "Veteran's Cane",
+      "sheet": "Using this infusion, you can replicate a Veteran's Cane.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Walloping Ammunition.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_WALLOPING_AMMUNITION\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WALLOPING_AMMUNITION",
+      "name": "Walloping Ammunition",
+      "sheet": "Using this infusion, you can replicate a Walloping Ammunition.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Wand of Conducting.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_WAND_OF_CONDUCTING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_CONDUCTING",
+      "name": "Wand of Conducting",
+      "sheet": "Using this infusion, you can replicate a Wand of Conducting.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Wand of Pyrotechnics.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_WAND_OF_PYROTECHNICS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_PYROTECHNICS",
+      "name": "Wand of Pyrotechnics",
+      "sheet": "Using this infusion, you can replicate a Wand of Pyrotechnics.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Wand of Scowls.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_WAND_OF_SCOWLS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_SCOWLS",
+      "name": "Wand of Scowls",
+      "sheet": "Using this infusion, you can replicate a Wand of Scowls.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Wand of Smiles.</p> <div class=\"reference\"> <div element=\"ID_WOTC_XGTE_MAGIC_ITEM_WAND_OF_SMILES\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_SMILES",
+      "name": "Wand of Smiles",
+      "sheet": "Using this infusion, you can replicate a Wand of Smiles.",
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "replicate-infusions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/items/replicate-infusions.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

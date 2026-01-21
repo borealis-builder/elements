@@ -1,0 +1,166 @@
+{
+  "element": [
+    {
+      "description": "<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</p> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST\"/> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING\"/> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK\"/> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE\"/> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL\"/>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_FIEND",
+      "name": "The Fiend",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You have made a pact with a fiend from the lower planes of existence.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Otherworldly Patron",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p> <h5 class=\"caption\">FIEND EXPANDED SPELLS</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>burning hands, command</em></td></tr> <tr><td>2nd</td><td><em>blindness/deafness, scorching ray</em></td></tr> <tr><td>3rd</td><td><em>fireball, stinking cloud</em></td></tr> <tr><td>4th</td><td><em>fire shield, wall of fire</em></td></tr> <tr><td>5th</td><td><em>flame strike, hallow</em></td></tr> </table>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST",
+      "name": "Expanded Spell List",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_EXPANDED_SPELL_LIST",
+      "sheet": {
+        "content": "The Fiend lets you choose from an expanded list of spells when you learn a warlock spell.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_BURNING_HANDS",
+          "ID_PHB_SPELL_COMMAND",
+          "ID_PHB_SPELL_BLINDNESS_DEAFNESS",
+          "ID_PHB_SPELL_SCORCHING_RAY",
+          "ID_PHB_SPELL_FIREBALL",
+          "ID_PHB_SPELL_STINKING_CLOUD",
+          "ID_PHB_SPELL_FIRE_SHIELD",
+          "ID_PHB_SPELL_WALL_OF_FIRE",
+          "ID_PHB_SPELL_FLAME_STRIKE",
+          "ID_PHB_SPELL_HALLOW"
+        ],
+        "name": "Warlock"
+      },
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING",
+      "name": "Dark One's Blessing",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_BLESSING",
+      "rules": {
+        "stat": [
+          {
+            "name": "dark ones blessing:temp hp",
+            "value": "charisma:modifier"
+          },
+          {
+            "name": "dark ones blessing:temp hp",
+            "value": "level:warlock"
+          }
+        ]
+      },
+      "sheet": "When you reduce a hostile creature to 0 hit points, you gain {{dark ones blessing:temp hp}} temporary hp.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.</p> <p class=\"indent\">Once you use this feature, you can't use it again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK",
+      "name": "Dark One's Own Luck",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_OWN_LUCK",
+      "sheet": {
+        "content": "When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE",
+      "name": "Fiendish Resilience",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_FIENDISH_RESILIENCE",
+      "sheet": "You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.</p> <p class=\"indent\">At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.</p> <p class=\"indent\">Once you use this feature, you can't use it again until you finish a long rest.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL",
+      "name": "Hurl Through Hell",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_HURL_THROUGH_HELL",
+      "sheet": {
+        "content": "When you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears. At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_EXPANDED_SPELL_LIST",
+      "name": "Expanded Spell List Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_BLESSING",
+      "name": "Dark One's Blessing Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_OWN_LUCK",
+      "name": "Dark One's Own Luck Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_FIENDISH_RESILIENCE",
+      "name": "Fiendish Resilience Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_HURL_THROUGH_HELL",
+      "name": "Hurl Through Hell Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "warlock-fiend.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/warlock-fiend.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

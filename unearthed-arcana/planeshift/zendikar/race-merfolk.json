@@ -1,0 +1,409 @@
+{
+  "element": [
+    {
+      "description": "<p>Curious, thoughtful, and analytical, the merfolk of Zendikar are natural scholars and explorers. In the past, merfolk society was organized around their belief in three deities. But in the wake of the reappearance of the Eldrazi, the merfolk have realized that their faith was a web of lies, built on a corrupted memory of the Eldrazi titans handed down from generation to generation. In peaceful times, the merfolk might have fought over the ultimate meaning of this revelation. But faced with the danger presented by the Eldrazi broods, the merfolk have largely set aside their differences and joined together in a united force. Old grudges still linger, but the well-being of the merfolk race—and the world—far outweigh any ancient conflicts between creeds.</p> <p class=\"indent\">Merfolk are associated with blue mana, though the traditional merfolk creeds express this connection in different ways.</p> <h4>BORN OF THE SEA</h4> <p>Merfolk are an amphibious race, born and at home in the water but comfortable on dry land. Humanoid in form, they have skin of ivory, silver, russet, blue, or deep purple. Long fins extend from the backs of their forearms and calves, and their fingers and toes are webbed. The hairlike growths on their heads are either thick and bristly like the needles of a sea urchin, or long and wavy, resembling fine seaweed. In either case, these growths typically range in color from red to warm brown to black. Male merfolk have similar growths extending down from their cheekbones.</p> <p class=\"indent\">Merfolk wear little clothing unless they are armored for battle. Even then, they drape themselves with nets and a minimum of cloth, wearing armor crafted of large, bleached seashells and augmented with leather.</p> <h4>MERFOLK TRAITS</h4> <p>Your merfolk character has a number of traits in common with other members of this race.</p> <p class=\"indent\"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 1.</p> <p class=\"indent\"><b><i>Age. </i></b>Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.</p> <p class=\"indent\"><b><i>Alignment. </i></b>Most merfolk are neutral, though merfolk of the Emeria and Cosi creeds have chaotic leanings.</p> <p class=\"indent\"><b><i>Size. </i></b>Merfolk are about the same size and build as humans. Your size is Medium.</p> <p class=\"indent\"><b><i>Speed. </i></b>Your base walking speed is 30 feet. You also have a swimming speed of 30 feet.</p> <p class=\"indent\"><b><i>Amphibious. </i></b>You can breathe air and water.</p> <p class=\"indent\"><b><i>Languages. </i></b>You can speak, read, and write Common, Merfolk, and one extra language of your choice</p> <p class=\"indent\"><b><i>Creeds. </i></b>The merfolk race is divided into three creeds, founded on the principles of Emeria (wind), Ula (water), and Cosi (the trickster). A merfolk isn't born into a creed but chooses it upon reaching adulthood, and it is rare for a merfolk not to choose a creed. Merfolk of the wind and water creeds aren't hostile to each other, but members of each creed regard the other creed with a vague disdain. Members of both those creeds regard the Cosi creed with suspicion and some degree of fear, and Cosi-creed adherents tend to keep their affiliation secret. Choose one of these creeds for your character.</p>",
+      "id": "ID_WOCT_PSZ_RACE_MERFOLK",
+      "name": "Merfolk",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_PSZ_LANGUAGE_MERFOLK",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_PSZ_RACIAL_TRAIT_MERFOLK_AMPHIBIOUS",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_PSZ_RACIAL_TRAIT_MERFOLK_CREED",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +1 (Merfolk)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language||Merfolk Language",
+            "type": "Language"
+          },
+          {
+            "name": "Extra Language (Merfolk)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "charisma",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed:swim",
+            "value": "30"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "type": "Race"
+    },
+    {
+      "description": "<p>The merfolk race is divided into three creeds, founded on the principles of Emeria (wind), Ula (water), and Cosi (the trickster). A merfolk isn't born into a creed but chooses it upon reaching adulthood, and it is rare for a merfolk not to choose a creed. Merfolk of the wind and water creeds aren't hostile to each other, but members of each creed regard the other creed with a vague disdain. Members of both those creeds regard the Cosi creed with suspicion and some degree of fear, and Cosi-creed adherents tend to keep their affiliation secret. Choose one of these creeds for your character.</p>",
+      "id": "ID_WOTC_PSZ_RACIAL_TRAIT_MERFOLK_CREED",
+      "name": "Merfolk Creed",
+      "rules": {
+        "select": {
+          "name": "Merfolk Creed",
+          "supports": "Merfolk Creed",
+          "type": "Sub Race"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "supports": "Merfolk",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can breathe air and water.</p>",
+      "id": "ID_WOTC_PSZ_RACIAL_TRAIT_MERFOLK_AMPHIBIOUS",
+      "name": "Amphibious",
+      "sheet": "You can breathe air and water.",
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Merfolk who followed Emeria's creed seek wisdom and truth in the Wind Realm, exploring the mystical forces—rather than natural causes—behind historical events. They are evasive and intentionally enigmatic in their interactions with others, and are often described as manipulative and deceptive.</p> <p class=\"indent\"><b><i>Ability Score Increase. </i></b>Your Wisdom score increases by 2.</p> <p class=\"indent\"><b><i>Wind Creed Manipulation. </i></b>You have proficiency in the Deception and Persuasion skills.</p> <p class=\"indent\"><b><i>Cantrip.</i></b>You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.</p>",
+      "id": "ID_WOTC_PSZ_CREED_EMERIA_WIND_CREED",
+      "name": "Merfolk (Emeria)",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_PSZ_RACIAL_TRAIT_WIND_CREED_MANIPULATION",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_PSZ_RACIAL_TRAIT_WIND_CREED_CANTRIP",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": {
+          "name": "Custom Ability Score Improvement +2 (Emeria)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 2",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "wisdom",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "supports": "Merfolk Creed",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>You have proficiency in the Deception and Persuasion skills.</p>",
+      "id": "ID_WOTC_PSZ_RACIAL_TRAIT_WIND_CREED_MANIPULATION",
+      "name": "Wind Creed Manipulation",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_DECEPTION",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERSUASION",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "type": "Proficiency"
+          }
+        ],
+        "select": {
+          "name": "Customized Skill Proficiency",
+          "number": "2",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You have proficiency in the Deception and Persuasion skills.",
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.</p>",
+      "id": "ID_WOTC_PSZ_RACIAL_TRAIT_WIND_CREED_CANTRIP",
+      "name": "Cantrip",
+      "rules": {
+        "select": {
+          "name": "Druid Cantrip (Emeria Creed)",
+          "supports": "Druid,0",
+          "type": "Spell"
+        }
+      },
+      "sheet": {
+        "content": "You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.",
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Ula-creed merfolk emphasize intellectual pursuits, stressing hard evidence and reason over passion. They are analytical scholars, chroniclers, explorers, and navigators who pride themselves on being blunt and straightforward.</p> <p class=\"indent\"><b><i>Ability Score Increase.</i></b>Your Intelligence increases by 2.</p> <p class=\"indent\"><b><i>Water Creed Navigation.</i></b>You have proficiency with navigator's tools and in the Survival skill.</p> <p class=\"indent\"><b><i>Cantrip.</i></b>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>",
+      "id": "ID_WOTC_PSZ_CREED_ULA_WATER_CREED",
+      "name": "Merfolk (Ula)",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_PSZ_RACIAL_TRAIT_WATER_CREED_NAVIGATION",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_PSZ_RACIAL_TRAIT_WATER_CREED_CANTRIP",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": {
+          "name": "Custom Ability Score Improvement +2 (Ula)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 2",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "intelligence",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "supports": "Merfolk Creed",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>You have proficiency with navigator's tools and in the Survival skill.</p>",
+      "id": "ID_WOTC_PSZ_RACIAL_TRAIT_WATER_CREED_NAVIGATION",
+      "name": "Water Creed Navigation",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "type": "Proficiency"
+          }
+        ],
+        "select": [
+          {
+            "name": "Customized Skill Proficiency",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "Skill",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Simple Weapon or Tool, Martial Training",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "Simple||Tool",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You have proficiency with navigator's tools and in the Survival skill.",
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>",
+      "id": "ID_WOTC_PSZ_RACIAL_TRAIT_WATER_CREED_CANTRIP",
+      "name": "Cantrip",
+      "rules": {
+        "select": {
+          "name": "Wizard Cantrip (Ula Creed)",
+          "supports": "Wizard,0",
+          "type": "Spell"
+        }
+      },
+      "sheet": {
+        "content": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>No merfolk will openly admit to following the creed of the trickster, but those who do view Cosi as an ally who can grant them control over the chaotic forces of the world.</p> <p class=\"indent\"><b><i>Ability Score Increase.</i></b>Your Charisma score increases by an additional 1 (for a total of 2), and your Intelligence score increases by 1.</p> <p class=\"indent\"><b><i>Creed of the Trickster.</i></b>You have proficiency in the Sleight of Hand and Stealth skills.</p> <p class=\"indent\"><b><i>Cantrip.</i></b>You know one cantrip of your choice from the bard spell list. Charisma is your spellcasting ability for it.</p>",
+      "id": "ID_WOTC_PSZ_CREED_COSI_CREED",
+      "name": "Merfolk (Cosi)",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_PSZ_RACIAL_TRAIT_CREED_OF_THE_TRICKSTER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_PSZ_RACIAL_TRAIT_TRICKSTER_CREED_CANTRIP",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Cosi)",
+          "number": "2",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": [
+          {
+            "name": "charisma",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "name": "intelligence",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "supports": "Merfolk Creed",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>You have proficiency in the Sleight of Hand and Stealth skills.</p>",
+      "id": "ID_WOTC_PSZ_RACIAL_TRAIT_CREED_OF_THE_TRICKSTER",
+      "name": "Water Creed Navigation",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_SLEIGHTOFHAND",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_STEALTH",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "type": "Proficiency"
+          }
+        ],
+        "select": {
+          "name": "Customized Skill Proficiency",
+          "number": "2",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You have proficiency in the Sleight of Hand and Stealth skills.",
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You know one cantrip of your choice from the bard spell list. Charisma is your spellcasting ability for it.</p>",
+      "id": "ID_WOTC_PSZ_RACIAL_TRAIT_TRICKSTER_CREED_CANTRIP",
+      "name": "Cantrip",
+      "rules": {
+        "select": {
+          "name": "Bard Cantrip (Cosi Creed)",
+          "supports": "Bard,0",
+          "type": "Spell"
+        }
+      },
+      "sheet": {
+        "content": "You know one cantrip of your choice from the bard spell list. Charisma is your spellcasting ability for it.",
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>The language of the Merfolk race from Zendikar.</p>",
+      "id": "ID_WOTC_PSZ_LANGUAGE_MERFOLK",
+      "name": "Merfolk",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Merfolk",
+            "name": "speakers"
+          },
+          {
+            "description": "Merfolk",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Plane Shift: Zendikar",
+      "supports": "Merfolk Language",
+      "type": "Language"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "https://media.wizards.com/2016/downloads/magic/Plane%20Shift%20Zendikar.pdf"
+    },
+    "description": "Merfolk",
+    "name": "Merfolk",
+    "update": {
+      "file": {
+        "name": "race-merfolk.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/zendikar/race-merfolk.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

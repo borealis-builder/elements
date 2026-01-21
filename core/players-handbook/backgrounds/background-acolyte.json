@@ -1,0 +1,203 @@
+{
+  "element": [
+    {
+      "description": "<p>You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.</p> <p class=\"indent\">Choose a god, a pantheon of gods, or some other quasi-divine being, and work with your DM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong>Insight, Religion</li> <li><strong>Languages:</strong>Two of your choice</li> <li><strong>Equipment:</strong>A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a belt pouch containing 15 gp</li> </ul> <div element=\"ID_BACKGROUND_FEATURE_SHELTER_OF_THE_FAITHFUL\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.</p>",
+      "id": "ID_BACKGROUND_ACOLYTE",
+      "name": "Acolyte",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_INSIGHT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_RELIGION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_BACKGROUND_FEATURE_SHELTER_OF_THE_FAITHFUL",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language (Acolyte)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.",
+                "id": "1"
+              },
+              {
+                "description": "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.",
+                "id": "2"
+              },
+              {
+                "description": "I see omens in every event and action. The gods try to speak to us, we just need to listen",
+                "id": "3"
+              },
+              {
+                "description": "Nothing can shake my optimistic attitude.",
+                "id": "4"
+              },
+              {
+                "description": "I quote (or misquote) sacred texts and proverbs in almost every situation.",
+                "id": "5"
+              },
+              {
+                "description": "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.",
+                "id": "6"
+              },
+              {
+                "description": "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.",
+                "id": "7"
+              },
+              {
+                "description": "I've spent so long in the temple that I have little practical experience dealing with people in the outside world.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Charity. I always try to help those in need, no matter what the personal cost. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)",
+                "id": "4"
+              },
+              {
+                "description": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)",
+                "id": "5"
+              },
+              {
+                "description": "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I would die to recover an ancient relic of my faith that was lost long ago.",
+                "id": "1"
+              },
+              {
+                "description": "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
+                "id": "2"
+              },
+              {
+                "description": "I owe my life to the priest who took me in when my parents died.",
+                "id": "3"
+              },
+              {
+                "description": "Everything I do is for the common people.",
+                "id": "4"
+              },
+              {
+                "description": "I will do anything to protect the temple where I served.",
+                "id": "5"
+              },
+              {
+                "description": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I judge others harshly, and myself even more severely.",
+                "id": "1"
+              },
+              {
+                "description": "I put too much trust in those who wield power within my temple's hierarchy.",
+                "id": "2"
+              },
+              {
+                "description": "My piety sometimes leads me to blindly trust those that profess faith in my god.",
+                "id": "3"
+              },
+              {
+                "description": "I am inflexible in my thinking.",
+                "id": "4"
+              },
+              {
+                "description": "I am suspicious of strangers and expect the worst of them.",
+                "id": "5"
+              },
+              {
+                "description": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Insight, Religion, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "description": "<p>As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.</p> <p class=\"indent\">You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.</p>",
+      "id": "ID_BACKGROUND_FEATURE_SHELTER_OF_THE_FAITHFUL",
+      "name": "Feature: Shelter of the Faithful",
+      "sheet": {
+        "alt": "Shelter of the Faithful"
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Acolyte Background",
+    "name": "Acolyte",
+    "update": {
+      "file": {
+        "name": "background-acolyte.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-acolyte.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

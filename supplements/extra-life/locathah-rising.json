@@ -1,0 +1,232 @@
+{
+  "append": {
+    "id": "ID_MM_LANGUAGE_AQUAN",
+    "supports": "Locathah Language"
+  },
+  "element": [
+    {
+      "description": "<p>A SUCCESSFUL adventure is REALLY more about the FRIENDS you make along the way, than it is the monsters you slay while you PLAY!</p> <p>A fifth edition D&amp;D adventure for 9th level locathah characters. Rules for creating locathah characters are contained herein.</p>",
+      "id": "ID_SOURCE_LOCATHAH_RISING",
+      "name": "Locathah Rising",
+      "setters": {
+        "set": [
+          {
+            "description": "LR",
+            "name": "abbreviation"
+          },
+          {
+            "description": "https://www.dmsguild.com/product/289261/Locathah-Rising-5e",
+            "name": "url"
+          },
+          {
+            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/EL-LR.jpg",
+            "name": "image"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "supplement"
+          },
+          {
+            "description": "20190915",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>Featured in Ghosts of Saltmarsh, these resilient and proud fish-folk have endured war, slavery, and mistreatment at the hands of other aquatic creatures. They dwell in submerged tribal communities along seacoasts, and hunt both above and below the water.</p> <h4>LOCATHAH TRAITS</h4> <p>Your locathah character has an assortment of inborn abilities, part and parcel of locathah nature.</p> <p class=\"indent\"><b><i>Ability Score Increase. </i></b>Your Strength score increases by 2 and your Dexterity score increases by 1.</p> <p class=\"indent\"><b><i>Age. </i></b>Locathah mature to adulthood by the age of 10 but have been known to live up to 80 years.</p> <p class=\"indent\"><b><i>Alignment. </i></b>Most locathah are true neutral or have some aspect of neutrality in their alignment. They tend toward good, coming from a culture where compassion for the downtrodden is a commonality.</p> <p class=\"indent\"><b><i>Size. </i></b>Locathah stand between 5 and 6 feet tall and average about 150 pounds. Your size is Medium.</p> <p class=\"indent\"><b><i>Speed. </i></b> Your base walking speed is 30 feet, and you have a swim speed of 30 feet.</p> <p class=\"indent\"><b><i>Natural Armor. </i></b>You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p> <p class=\"indent\"><b><i>Observant &amp; Athletic. </i></b>You have proficiency in the Athletics and Perception skills.</p> <p class=\"indent\"><b><i>Leviathan Will. </i></b>You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.</p> <p class=\"indent\"><b><i>Limited Amphibiousness. </i></b>You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating.</p> <p class=\"indent\"><b><i>Languages. </i></b>You can speak, read, and write Aquan and Common.</p>",
+      "id": "ID_WOTC_LR_RACE_LOCATHAH",
+      "name": "Locathah",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_MM_LANGUAGE_AQUAN",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_NATURAL_ARMOR",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_OBSERVANT_AND_ATHLETIC",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_LEVIATHAN_WILL",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_LIMITED_AMPHIBIOUSNESS",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Locathah)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Locathah)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language||Locathah Language",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "strength",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "name": "dexterity",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed:swim",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Barnacle, Bubbles, Gl'ulp, Sandlot, Shanty, Undertow",
+            "name": "names",
+            "type": "locathah"
+          },
+          {
+            "description": "{{locathah}}",
+            "name": "names-format"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Locathah Rising",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>",
+      "id": "ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_NATURAL_ARMOR",
+      "name": "Natural Armor",
+      "rules": {
+        "stat": [
+          {
+            "name": "locathah:natural armor",
+            "value": "12"
+          },
+          {
+            "name": "locathah:natural armor",
+            "value": "dexterity:modifier"
+          },
+          {
+            "alt": "Natural Armor (Locathah)",
+            "bonus": "calculation",
+            "name": "ac:calculation",
+            "value": "locathah:natural armor"
+          }
+        ]
+      },
+      "sheet": "You have tough, scaly skin. When you aren't wearing armor, your AC is {{locathah:natural armor}}. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+      "source": "Locathah Rising",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have proficiency in the Athletics and Perception skills.</p>",
+      "id": "ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_OBSERVANT_AND_ATHLETIC",
+      "name": "Observant & Athletic",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERCEPTION",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "type": "Proficiency"
+          }
+        ],
+        "select": {
+          "name": "Customized Skill Proficiency (Observant & Athletic)",
+          "number": "2",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Locathah Rising",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.</p>",
+      "id": "ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_LEVIATHAN_WILL",
+      "name": "Leviathan Will",
+      "sheet": "You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.",
+      "source": "Locathah Rising",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating.</p>",
+      "id": "ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_LIMITED_AMPHIBIOUSNESS",
+      "name": "Limited Amphibiousness",
+      "sheet": "You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating.",
+      "source": "Locathah Rising",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "name": "Locathah",
+    "update": {
+      "file": {
+        "name": "locathah-rising.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/locathah-rising.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

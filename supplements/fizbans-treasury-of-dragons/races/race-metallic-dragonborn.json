@@ -1,0 +1,329 @@
+{
+  "element": [
+    {
+      "description": "<p>Dragonborn with metallic ancestry lay claim to the tenacity of metallic dragons—brass, bronze, copper, gold, and silver—whose hues glint in their scales. Theirs is the fire of hearth and forge, the cold of high mountain air, the spark of inspiration, and the scouring touch of acid that purifies.</p> <h4>METALLIC DRAGONBORN TRAITS</h4> <p>You have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p> <p class=\"indent\"><strong><em>Size.</em></strong> You are Medium.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p> <p class=\"indent\"><strong><em>Metallic Ancestry.</em></strong> You have a metallic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Metallic Ancestry table. This determines the damage type for your other traits, as shown in the table.</p> <p class=\"indent\"><strong><em>Breath Weapon.</em></strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Metallic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p> <p class=\"indent\">You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p class=\"indent\"><strong><em>Draconic Resistance.</em></strong> You have resistance to the damage type associated with your Metallic Ancestry.</p> <p class=\"indent\"><strong><em>Metallic Breath Weapon.</em></strong> At 5th level, you gain a second breath weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. Whenever you use this trait, choose one:</p> <p style=\"text-indent: -1em; margin-left: 1em\"><b>Enervating Breath.</b> Each creature in the cone must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</p> <p class=\"indent\" style=\"text-indent: -1em; margin-left: 1em\"><b>Repulsion Breath.</b> Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.</p> <p>Once you use your Metallic Breath Weapon, you can't do so again until you finish a long rest.</p> <h5>Metallic Ancestry</h5> <table> <thead> <tr><td>Dragon</td><td>Damage Type</td></tr> </thead> <tr><td>Brass</td><td>Fire</td></tr> <tr><td>Bronze</td><td>Lightning</td></tr> <tr><td>Copper</td><td>Acid</td></tr> <tr><td>Gold</td><td>Fire</td></tr> <tr><td>Silver</td><td>Cold</td></tr> </table>",
+      "id": "ID_WOTC_FTOD_RACE_METALLIC_DRAGONBORN",
+      "name": "Dragonborn (Metallic)",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_INTERNAL_GRANT_RACE_DRAGONBORN",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_BREATH_WEAPON",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_DRACONIC_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_BREATH_WEAPON",
+            "level": "5",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Improvement Option (Metallic Dragonborn)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Metallic Dragonborn)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed",
+          "value": "30"
+        }
+      },
+      "sheet": {
+        "alt": "Metallic Dragonborn",
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You have a metallic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Metallic Ancestry table. This determines the damage type for your other traits, as shown in the table.</p> <h5>Metallic Ancestry</h5> <table> <thead> <tr><td>Dragon</td><td>Damage Type</td></tr> </thead> <tr><td>Brass</td><td>Fire</td></tr> <tr><td>Bronze</td><td>Lightning</td></tr> <tr><td>Copper</td><td>Acid</td></tr> <tr><td>Gold</td><td>Fire</td></tr> <tr><td>Silver</td><td>Cold</td></tr> </table>",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY",
+      "name": "Metallic Ancestry",
+      "rules": {
+        "select": {
+          "name": "Metallic Ancestry",
+          "supports": "Metallic Ancestry",
+          "type": "Racial Trait"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_BRASS",
+      "name": "Brass",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "metallic ancestry:damage type",
+          "value": "Fire"
+        }
+      },
+      "sheet": {
+        "alt": "Metallic Ancestry",
+        "content": "Your ancestor was a brass dragon. Your Metallic Ancestry damage type is fire."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Metallic Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_BRONZE",
+      "name": "Bronze",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "metallic ancestry:damage type",
+          "value": "Lightning"
+        }
+      },
+      "sheet": {
+        "alt": "Metallic Ancestry",
+        "content": "Your ancestor was a bronze dragon. Your Metallic Ancestry damage type is lightning."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Metallic Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_COPPER",
+      "name": "Copper",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "metallic ancestry:damage type",
+          "value": "Acid"
+        }
+      },
+      "sheet": {
+        "alt": "Metallic Ancestry",
+        "content": "Your ancestor was a copper dragon. Your Metallic Ancestry damage type is acid."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Metallic Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_GOLD",
+      "name": "Gold",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "metallic ancestry:damage type",
+          "value": "Fire"
+        }
+      },
+      "sheet": {
+        "alt": "Metallic Ancestry",
+        "content": "Your ancestor was a gold dragon. Your Metallic Ancestry damage type is fire."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Metallic Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div element=\"ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY\" />",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_SILVER",
+      "name": "Silver",
+      "rules": {
+        "stat": {
+          "inline": "true",
+          "name": "metallic ancestry:damage type",
+          "value": "Cold"
+        }
+      },
+      "sheet": {
+        "alt": "Metallic Ancestry",
+        "content": "Your ancestor was a silver dragon. Your Metallic Ancestry damage type is cold."
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Metallic Ancestry",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Metallic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p> <p class=\"indent\">You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_BREATH_WEAPON",
+      "name": "Breath Weapon",
+      "rules": {
+        "stat": [
+          {
+            "name": "breath weapon:dc",
+            "value": "8"
+          },
+          {
+            "name": "breath weapon:dc",
+            "value": "constitution:modifier"
+          },
+          {
+            "name": "breath weapon:dc",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base",
+            "level": "1",
+            "name": "breath weapon:dice count",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "level": "5",
+            "name": "breath weapon:dice count",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "level": "11",
+            "name": "breath weapon:dice count",
+            "value": "3"
+          },
+          {
+            "bonus": "base",
+            "level": "17",
+            "name": "breath weapon:dice count",
+            "value": "4"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Attack",
+        "content": "You can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC{{breath weapon:dc}}. A creature takes {{breath weapon:dice count}}d10 {{metallic ancestry:damage type}} damage on a failed save, and half as much damage on a successful one.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have resistance to the damage type associated with your Metallic Ancestry.</p>",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_DRACONIC_RESISTANCE",
+      "name": "Draconic Resistance",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID",
+            "requirements": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_COPPER",
+            "type": "Condition"
+          },
+          {
+            "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING",
+            "requirements": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_BRONZE",
+            "type": "Condition"
+          },
+          {
+            "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE",
+            "requirements": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_BRASS||ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_GOLD",
+            "type": "Condition"
+          },
+          {
+            "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD",
+            "requirements": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_ANCESTRY_SILVER",
+            "type": "Condition"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You have resistance to {{metallic ancestry:damage type}} damage.",
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>At 5th level, you gain a second breath weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. Whenever you use this trait, choose one:</p> <p style=\"text-indent: -1em; margin-left: 1em\"><b>Enervating Breath.</b> Each creature in the cone must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</p> <p class=\"indent\" style=\"text-indent: -1em; margin-left: 1em\"><b>Repulsion Breath.</b> Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.</p> <p>Once you use your Metallic Breath Weapon, you can't do so again until you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_RACIAL_TRAIT_METALLIC_DRAGONBORN_METALLIC_BREATH_WEAPON",
+      "name": "Metallic Breath Weapon",
+      "rules": {
+        "stat": [
+          {
+            "name": "metallic breath weapon:dc",
+            "value": "8"
+          },
+          {
+            "name": "metallic breath weapon:dc",
+            "value": "constitution:modifier"
+          },
+          {
+            "name": "metallic breath weapon:dc",
+            "value": "proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Attack",
+        "content": "You gain a second breath weapon. You can replace one of your attacks with an exhalation in a 15-foot cone. Whenever you use this trait, choose one: &#13; • Enervating Breath. Each creature in the cone must succeed on a Constitution saving throw against DC{{metallic breath weapon:dc}} or become incapacitated until the start of your next turn.&#13; • Repulsion Breath. Each creature in the cone must succeed on a Strength saving throw against DC{{metallic breath weapon:dc}} or be pushed 20 feet away from you and be knocked prone.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Fizban's Treasury of Dragons",
+      "url": "https://dnd.wizards.com/products/treasury-dragons"
+    },
+    "description": "The Metallic Dragonborn from Fizban's Treasury of Dragons",
+    "name": "Metallic Dragonborn",
+    "update": {
+      "file": {
+        "name": "race-metallic-dragonborn.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/races/race-metallic-dragonborn.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

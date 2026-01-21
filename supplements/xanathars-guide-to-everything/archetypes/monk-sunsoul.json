@@ -1,0 +1,134 @@
+{
+  "element": [
+    {
+      "description": "<p>Monks of the Way of the Sun Soul learn to channel their life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.</p> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_RADIANT_SUN_BOLT\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_SEARING_ARC_STRIKE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_SEARING_SUNBURST\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_SUN_SHIELD\" />",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_WAY_OF_THE_SUN_SOUL",
+      "name": "Way of the Sun Soul",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_RADIANT_SUN_BOLT",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_SEARING_ARC_STRIKE",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_SEARING_SUNBURST",
+            "level": "11",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_SUN_SHIELD",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Monks of the Way of the Sun Soul learn to channel their own life energy into searing bolts of light.",
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Monastic Tradition",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.</p> <p class=\"indent\">You gain a new attack option that you can use with the Attack action. This special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.</p> <p class=\"indent\">When you take the Attack action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action.</p> <p class=\"indent\">When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the Attack action.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_RADIANT_SUN_BOLT",
+      "name": "Radiant Sun Bolt",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "proficiency",
+            "name": "radiant sun bolt:attack",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "ability",
+            "name": "radiant sun bolt:attack",
+            "value": "dexterity:modifier"
+          },
+          {
+            "name": "radiant sun bolt:range",
+            "value": "30"
+          },
+          {
+            "name": "radiant sun bolt:die:count",
+            "value": "1"
+          },
+          {
+            "name": "radiant sun bolt:die:size",
+            "value": "martial arts:dice"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Attack",
+        "content": "You gain a new ranged spell attack: +{{radiant sun bolt:attack}} to hit, range {{radiant sun bolt:range}}ft. Hit: {{radiant sun bolt:die:count}}d{{radiant sun bolt:die:size}}+{{dexterity:modifier}} radiant damage. When you use this attack, spend 1 ki point to make it twice as a bonus action."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the <i>burning hands</i> spell as a bonus action.</p> <p class=\"indent\">You can spend additional ki points to cast burning hands as a higher-level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_SEARING_ARC_STRIKE",
+      "name": "Searing Arc Strike",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "After an attack, spend 2 ki point to cast burning hands. Each additional ki point you spend increases the spell's level by 1. You can spent on this spell a maximum of {{level:monk:half}} ki points."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you magically create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.</p> <p class=\"indent\">Each creature in that 20-foot-radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn't need to make the save if the creature is behind total cover that is opaque.</p> <p class=\"indent\">You can increase the spheres damage by spending ki points. Each point you spend, to a maximum of 3, increases the damage by 2d6.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_SEARING_SUNBURST",
+      "name": "Searing Sunburst",
+      "sheet": {
+        "action": "Action",
+        "content": "Create an orb and hurl it up to 150ft, where it erupts into a 20ft radius sphere of radiant light. Each creature within it must succeed on a DC{{ki:dc}} Constitution saving throw or take 2d6 radiant damage. Spend up to 3 ki point to increase the damage by 2d6 per ki point spent."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 17th level, you become wreathed in a luminous, magical aura. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.</p> <p class=\"indent\">If a creature hits you with a melee attack while this light shines, you can use your reaction to deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SUN_SOUL_SUN_SHIELD",
+      "name": "Sun Shield",
+      "rules": {
+        "stat": [
+          {
+            "name": "sun shield:damage",
+            "value": "5"
+          },
+          {
+            "name": "sun shield:damage",
+            "value": "wisdom:modifier"
+          }
+        ]
+      },
+      "sheet": "You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action. If a creature hits you with a melee attack while this light shines, you can use your reaction to deal {{sun shield:damage}} radiant damage to the creature.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The Sun Soul archetype from Xanathar's Guide to Everything",
+    "name": "Sun Soul",
+    "update": {
+      "file": {
+        "name": "monk-sunsoul.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-sunsoul.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "element": [
+    {
+      "description": "<p>You create a spectral globe around the head of a willing creature you can see within range. The globe is filled with fresh air that lasts until the spell ends. If the creature has more than one head, the globe of air appears around only one of its heads (which is all the creature needs to avoid suffocation, assuming that all its heads share the same respiratory system).</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, you can create two additional globes of fresh air for each slot level above 2nd.</p>",
+      "id": "ID_WOTC_AAG_SPELL_AIR_BUBBLE",
+      "name": "Air Bubble",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "2",
+            "name": "level"
+          },
+          {
+            "description": "Conjuration",
+            "name": "school"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "60 feet",
+            "name": "range"
+          },
+          {
+            "description": "false",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "false",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "name": "materialComponent"
+          },
+          {
+            "description": "24 hours",
+            "name": "duration"
+          },
+          {
+            "description": "false",
+            "name": "isConcentration"
+          }
+        ]
+      },
+      "source": "Astral Adventurer's Guide",
+      "supports": "Artificer, Druid, Ranger, Sorcerer, Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>Holding the rod used in the casting of the spell, you touch a Large or smaller chair that is unoccupied. The rod disappears, and the chair is transformed into a spelljamming helm (see “Magic Items” in the <i>Astral Adventurer's Guide</i>).</p>",
+      "id": "ID_WOTC_AAG_SPELL_CREATE_SPELLJAMMING_HELM",
+      "name": "Create Spelljamming Helm",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "5",
+            "name": "level"
+          },
+          {
+            "description": "Transmutation",
+            "name": "school"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "Touch",
+            "name": "range"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a crystal rod worth at least 5,000 gp, which the spell consumes",
+            "name": "materialComponent"
+          },
+          {
+            "description": "Instantaneous",
+            "name": "duration"
+          },
+          {
+            "description": "false",
+            "name": "isConcentration"
+          }
+        ]
+      },
+      "source": "Astral Adventurer's Guide",
+      "supports": "Artificer, Wizard",
+      "type": "Spell"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "spells.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/spells.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

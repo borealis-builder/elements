@@ -1,0 +1,173 @@
+{
+  "info": {
+    "name": "",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "monsters-of-the-multiverse.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "race-aarakocra.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-aarakocra.json"
+    },
+    {
+      "name": "race-aasimar.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-aasimar.json"
+    },
+    {
+      "name": "race-bugbear.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-bugbear.json"
+    },
+    {
+      "name": "race-centaur.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-centaur.json"
+    },
+    {
+      "name": "race-changeling.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-changeling.json"
+    },
+    {
+      "name": "race-deep-gnome.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-deep-gnome.json"
+    },
+    {
+      "name": "race-duergar.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-duergar.json"
+    },
+    {
+      "name": "race-eladrin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-eladrin.json"
+    },
+    {
+      "name": "race-fairy.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-fairy.json"
+    },
+    {
+      "name": "race-firbolg.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-firbolg.json"
+    },
+    {
+      "name": "race-genasi.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-genasi.json"
+    },
+    {
+      "name": "race-githyanki.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-githyanki.json"
+    },
+    {
+      "name": "race-githzerai.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-githzerai.json"
+    },
+    {
+      "name": "race-goblin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-goblin.json"
+    },
+    {
+      "name": "race-goliath.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-goliath.json"
+    },
+    {
+      "name": "race-harengon.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-harengon.json"
+    },
+    {
+      "name": "race-hobgoblin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-hobgoblin.json"
+    },
+    {
+      "name": "race-kenku.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-kenku.json"
+    },
+    {
+      "name": "race-kobold.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-kobold.json"
+    },
+    {
+      "name": "race-lizardfolk.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-lizardfolk.json"
+    },
+    {
+      "name": "race-minotaur.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-minotaur.json"
+    },
+    {
+      "name": "race-orc.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-orc.json"
+    },
+    {
+      "name": "race-satyr.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-satyr.json"
+    },
+    {
+      "name": "race-sea-elf.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-sea-elf.json"
+    },
+    {
+      "name": "race-shadarkai.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-shadarkai.json"
+    },
+    {
+      "name": "race-shifter.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-shifter.json"
+    },
+    {
+      "name": "race-tabaxi.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-tabaxi.json"
+    },
+    {
+      "name": "race-tortle.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-tortle.json"
+    },
+    {
+      "name": "race-triton.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-triton.json"
+    },
+    {
+      "name": "race-yuanti.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-yuanti.json"
+    },
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/source.json"
+    }
+  ]
+}

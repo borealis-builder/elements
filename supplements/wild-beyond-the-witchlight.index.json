@@ -1,0 +1,48 @@
+{
+  "info": {
+    "name": "The Wild Beyond the Witchlight",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "wild-beyond-the-witchlight.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "background-feylost.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight/background-feylost.json"
+    },
+    {
+      "name": "background-witchlight-hand.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight/background-witchlight-hand.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight/items.json"
+    },
+    {
+      "name": "race-fairy.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight/race-fairy.json"
+    },
+    {
+      "name": "race-harengon.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight/race-harengon.json"
+    },
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight/source.json"
+    }
+  ]
+}

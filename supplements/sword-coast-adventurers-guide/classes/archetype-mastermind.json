@@ -1,0 +1,128 @@
+{
+  "element": [
+    {
+      "description": "<p>Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.</p> <div element=\"ID_WOTC_SCAG_ARCHETYPEFEATURE_MASTER_OF_INTRIGUE\" /> <div element=\"ID_WOTC_SCAG_ARCHETYPEFEATURE_MASTEROFTACTICS\" /> <div element=\"ID_WOTC_SCAG_ARCHETYPEFEATURE_INSIGHTFUL_MANIPULATOR\" /> <div element=\"ID_WOTC_SCAG_ARCHETYPEFEATURE_MISDIRECTION\" /> <div element=\"ID_WOTC_SCAG_ARCHETYPEFEATURE_SOUL_OF_DECEIT\" />",
+      "id": "ID_WOTC_SCAG_ARCHETYPE_MASTERMIND",
+      "name": "Mastermind",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_MASTER_OF_INTRIGUE",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_MASTEROFTACTICS",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_INSIGHTFUL_MANIPULATOR",
+            "level": "9",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_MISDIRECTION",
+            "level": "13",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_SOUL_OF_DECEIT",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Your focus is on people and on the influence and secrets they have.",
+        "display": "false"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Roguish Archetype",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice.</p> <p class=\"indent\">Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</p>",
+      "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_MASTER_OF_INTRIGUE",
+      "name": "Master of Intrigue",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT",
+            "type": "Proficiency"
+          }
+        ],
+        "select": [
+          {
+            "name": "Gaming Set (Master of Intrigue)",
+            "supports": "Gaming Set",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language (Master of Intrigue)",
+            "number": "2",
+            "supports": "Standard||Exotic||Secret",
+            "type": "Language"
+          }
+        ]
+      },
+      "sheet": "You can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 3rd level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the target can see or hear you.</p>",
+      "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_MASTEROFTACTICS",
+      "name": "Master of Tactics",
+      "sheet": "You can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the target can see or hear you.",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:</p> <ul> <li>Intelligence score</li> <li>Wisdom score</li> <li>Charisma score</li> <li>Class levels (if any)</li> </ul> <p>At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any.</p>",
+      "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_INSIGHTFUL_MANIPULATOR",
+      "name": "Insightful Manipulator",
+      "sheet": "If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn following information about it: Intelligence, Wisdom, Charisma scores, and Class levels (if any).",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you.</p>",
+      "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_MISDIRECTION",
+      "name": "Misdirection",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can have the attack target that creature instead of you."
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 17th level, your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</p> <p class=\"indent\">Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</p>",
+      "id": "ID_WOTC_SCAG_ARCHETYPEFEATURE_SOUL_OF_DECEIT",
+      "name": "Soul of Deceit",
+      "sheet": "Your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Deception check contested by the mind reader's Insight check. Additionally, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "The mastermind, a roguish archetype from the Sword Coast Adventurer's Guide.",
+    "name": "Mastermind (Roguish Archetype)",
+    "update": {
+      "file": {
+        "name": "archetype-mastermind.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/archetype-mastermind.json"
+      },
+      "version": "0.1.5"
+    }
+  }
+}

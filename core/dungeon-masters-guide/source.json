@@ -1,0 +1,56 @@
+{
+  "element": {
+    "description": "<p><strong>Everything a Dungeon Master needs to weave legendary stories for the world's greatest roleplaying game.</strong></p> <p>The <i>Dungeon Master's Guide</i> provides the inspiration and the guidance you need to spark your imagination and create worlds of adventure for your players to explore and enjoy.</p> <p>Inside you'll find world-building tools, tips and tricks for creating memorable dungeons and adventures, optional game rules, hundreds of classic D&amp;D magic items, and much more!</p>",
+    "id": "ID_WOTC_SOURCE_DUNGEON_MASTERS_GUIDE",
+    "name": "Dungeon Master's Guide",
+    "setters": {
+      "set": [
+        {
+          "description": "DMG",
+          "name": "abbreviation"
+        },
+        {
+          "description": "http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide",
+          "name": "url"
+        },
+        {
+          "description": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/DMG.png",
+          "name": "image"
+        },
+        {
+          "description": "https://media.wizards.com/2018/dnd/downloads/DMG-Errata.pdf",
+          "name": "errata"
+        },
+        {
+          "abbreviation": "WOTC",
+          "description": "Wizards of the Coast",
+          "name": "author",
+          "url": "http://dnd.wizards.com"
+        },
+        {
+          "description": "true",
+          "name": "official"
+        },
+        {
+          "description": "true",
+          "name": "core"
+        },
+        {
+          "description": "20140930",
+          "name": "release"
+        }
+      ]
+    },
+    "source": "Core",
+    "type": "Source"
+  },
+  "info": {
+    "update": {
+      "file": {
+        "name": "sources.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/source.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

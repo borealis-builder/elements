@@ -1,0 +1,1300 @@
+{
+  "element": [
+    {
+      "description": "<p>When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_CLIMBING",
+      "name": "Potion of Climbing",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Common",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>You regain 2d4 + 2 hit points when you drink this potion. Whatever its potency, the potion's red liquid glimmers when agitated.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_HEALING",
+      "name": "Potion of Healing",
+      "setters": {
+        "set": [
+          {
+            "description": "healing",
+            "name": "keywords"
+          },
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Common",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>You regain 4d4 + 4 hit points when you drink this potion. Whatever its potency, the potion's red liquid glimmers when agitated.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_GREATER_HEALING",
+      "name": "Potion of Greater Healing",
+      "setters": {
+        "set": [
+          {
+            "description": "healing",
+            "name": "keywords"
+          },
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>You regain 8d4 + 8 hit points when you drink this potion. Whatever its potency, the potion's red liquid glimmers when agitated.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_SUPERIOR_HEALING",
+      "name": "Potion of Superior Healing",
+      "setters": {
+        "set": [
+          {
+            "description": "healing",
+            "name": "keywords"
+          },
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>You regain 10d4 + 20 hit points when you drink this potion. Whatever its potency, the potion's red liquid glimmers when agitated.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_SUPREME_HEALING",
+      "name": "Potion of Supreme Healing",
+      "setters": {
+        "set": [
+          {
+            "description": "healing",
+            "name": "keywords"
+          },
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Very rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>The next time you see a creature within 10 minutes after drinking this philter, you become charmed by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are charmed. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_PHILTER_OF_LOVE",
+      "name": "Philter of Love",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you can cast the <em>animal friendship</em> spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_ANIMAL_FRIENDSHIP",
+      "name": "Potion of Animal Friendship",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>After drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one. The effect tends after you exhale the fire three times or when 1 hour has passed.</p> <p class=\"indent\">This potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_FIRE_BREATH",
+      "name": "Potion of Fire Breath",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain the \"enlarge\" effect of the <em>enlarge/reduce</em> spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_GROWTH",
+      "name": "Potion of Growth",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p> <p class=\"indent\">This potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The <em>potion of frost giant strength</em> and the <em>potion of stone giant strength</em> have the same effect.</p> <table> <thead> <tr> <td>Type of Giant</td> <td>Strength</td> <td>Rarity</td> </tr> </thead> <tbody> <tr> <td>Hill giant</td> <td>21</td> <td>Uncommon</td> </tr> <tr> <td>Frost/stone giant</td> <td>23</td> <td>Rare</td> </tr> <tr> <td>Fire giant</td> <td>25</td> <td>Rare</td> </tr> <tr> <td>Cloud giant</td> <td>27</td> <td>Very rare</td> </tr> <tr> <td>Storm giant</td> <td>29</td> <td>Legendary</td> </tr> </tbody> </table>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_HILL_GIANT_STRENGTH",
+      "name": "Potion of Hill Giant Strength",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This concoction looks, smells, and tastes like a Potion of Healing or other beneficial potion. However, it is actually poison masked by illusion magic. An <em>identify</em> spell reveals its true nature.</p> <p class=\"indent\">If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_POISON",
+      "name": "Potion of Poison",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to acid damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_ACID",
+      "name": "Potion of Resistance, Acid",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to cold damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_COLD",
+      "name": "Potion of Resistance, Cold",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to fire damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_FIRE",
+      "name": "Potion of Resistance, Fire",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to force damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_FORCE",
+      "name": "Potion of Resistance, Force",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to lightning damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_LIGHTNING",
+      "name": "Potion of Resistance, Lightning",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to necrotic damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_NECROTIC",
+      "name": "Potion of Resistance, Necrotic",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to poison damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_POISON",
+      "name": "Potion of Resistance, Poison",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to psychic damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_PSYCHIC",
+      "name": "Potion of Resistance, Psychic",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to radiant damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_RADIANT",
+      "name": "Potion of Resistance, Radiant",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain resistance to thunder damage for 1 hour.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_RESISTANCE_THUNDER",
+      "name": "Potion of Resistance, Thunder",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_WATER_BREATHING",
+      "name": "Potion of Water Breathing",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, it cures any disease afflicting you, and it removes the blinded, deafened, paralyzed, and poisoned conditions. The clear red liquid has tiny bubbles of light in it.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_ELIXIR_OF_HEALTH",
+      "name": "Elixir of Health",
+      "setters": {
+        "set": [
+          {
+            "description": "disease",
+            "name": "keywords"
+          },
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain the effect of the <em>clairvoyance</em> spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_CLAIRVOYANCE",
+      "name": "Potion of Clairvoyance",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain the \"reduce\" effect of the <em>enlarge/reduce</em> spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_DIMINUTION",
+      "name": "Potion of Diminution",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p> <p class=\"indent\">This potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The <em>potion of frost giant strength</em> and the <em>potion of stone giant strength</em> have the same effect.</p> <table> <thead> <tr> <td>Type of Giant</td> <td>Strength</td> <td>Rarity</td> </tr> </thead> <tbody> <tr> <td>Hill giant</td> <td>21</td> <td>Uncommon</td> </tr> <tr> <td>Frost/stone giant</td> <td>23</td> <td>Rare</td> </tr> <tr> <td>Fire giant</td> <td>25</td> <td>Rare</td> </tr> <tr> <td>Cloud giant</td> <td>27</td> <td>Very rare</td> </tr> <tr> <td>Storm giant</td> <td>29</td> <td>Legendary</td> </tr> </tbody> </table>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_FIRE_GIANT_STRENGTH",
+      "name": "Potion of Fire Giant Strength",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p> <p class=\"indent\">This potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The <em>potion of frost giant strength</em> and the <em>potion of stone giant strength</em> have the same effect.</p> <table> <thead> <tr> <td>Type of Giant</td> <td>Strength</td> <td>Rarity</td> </tr> </thead> <tbody> <tr> <td>Hill giant</td> <td>21</td> <td>Uncommon</td> </tr> <tr> <td>Frost/stone giant</td> <td>23</td> <td>Rare</td> </tr> <tr> <td>Fire giant</td> <td>25</td> <td>Rare</td> </tr> <tr> <td>Cloud giant</td> <td>27</td> <td>Very rare</td> </tr> <tr> <td>Storm giant</td> <td>29</td> <td>Legendary</td> </tr> </tbody> </table>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_FROST_GIANT_STRENGTH",
+      "name": "Potion of Frost Giant Strength",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain the effect of the<em>gaseous form</em> spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_GASEOUS_FORM",
+      "name": "Potion of Gaseous Form",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no concentration required). This blue potion bubbles and steams as if boiling.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_HEROISM",
+      "name": "Potion of Heroism",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>For 1 minute after you drink this potion, you have resistance to all damage. The potion's syrupy liquid looks like liquified iron.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_INVULNERABILITY",
+      "name": "Potion of Invulnerability",
+      "setters": {
+        "set": [
+          {
+            "description": "resistance",
+            "name": "keywords"
+          },
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain the effect of the<em>detect thoughts</em> spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_MIND_READING",
+      "name": "Potion of Mind Reading",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p> <p class=\"indent\">This potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The <em>potion of frost giant strength</em> and the <em>potion of stone giant strength</em> have the same effect.</p> <table> <thead> <tr> <td>Type of Giant</td> <td>Strength</td> <td>Rarity</td> </tr> </thead> <tbody> <tr> <td>Hill giant</td> <td>21</td> <td>Uncommon</td> </tr> <tr> <td>Frost/stone giant</td> <td>23</td> <td>Rare</td> </tr> <tr> <td>Fire giant</td> <td>25</td> <td>Rare</td> </tr> <tr> <td>Cloud giant</td> <td>27</td> <td>Very rare</td> </tr> <tr> <td>Storm giant</td> <td>29</td> <td>Legendary</td> </tr> </tbody> </table>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_STONE_GIANT_STRENGTH",
+      "name": "Potion of Stone Giant Strength",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p> <p class=\"indent\">This potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The <em>potion of frost giant strength</em> and the <em>potion of stone giant strength</em> have the same effect.</p> <table> <thead> <tr> <td>Type of Giant</td> <td>Strength</td> <td>Rarity</td> </tr> </thead> <tbody> <tr> <td>Hill giant</td> <td>21</td> <td>Uncommon</td> </tr> <tr> <td>Frost/stone giant</td> <td>23</td> <td>Rare</td> </tr> <tr> <td>Fire giant</td> <td>25</td> <td>Rare</td> </tr> <tr> <td>Cloud giant</td> <td>27</td> <td>Very rare</td> </tr> <tr> <td>Storm giant</td> <td>29</td> <td>Legendary</td> </tr> </tbody> </table>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_CLOUD_GIANT_STRENGTH",
+      "name": "Potion of Cloud Giant Strength",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_FLYING",
+      "name": "Potion of Flying",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This potion's container looks empty but feels as though it holds liquid. When you drink it, you become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_INVISIBILITY",
+      "name": "Potion of Invisibility",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, your physical age is reduced by 1d6 + 6 years, to a minimum of 13 years. Each time you subsequently drink a <em>potion of longevity</em>, there is 10 percent cumulative chance that you instead age by 1d6 + 6 years. Suspended in this amber liquid are a scorpion's tail, an adder's fang, a dead spider, and a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_LONGEVITY",
+      "name": "Potion of Longevity",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, you gain the effect of the <em>haste</em> spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_SPEED",
+      "name": "Potion of Speed",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, it removes any exhaustion you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.</p>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_VITALITY",
+      "name": "Potion of Vitality",
+      "setters": {
+        "set": [
+          {
+            "description": "disease, poison",
+            "name": "keywords"
+          },
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p> <p class=\"indent\">This potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The <em>potion of frost giant strength</em> and the <em>potion of stone giant strength</em> have the same effect.</p> <table> <thead> <tr> <td>Type of Giant</td> <td>Strength</td> <td>Rarity</td> </tr> </thead> <tbody> <tr> <td>Hill giant</td> <td>21</td> <td>Uncommon</td> </tr> <tr> <td>Frost/stone giant</td> <td>23</td> <td>Rare</td> </tr> <tr> <td>Fire giant</td> <td>25</td> <td>Rare</td> </tr> <tr> <td>Cloud giant</td> <td>27</td> <td>Very rare</td> </tr> <tr> <td>Storm giant</td> <td>29</td> <td>Legendary</td> </tr> </tbody> </table>",
+      "id": "ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_STORM_GIANT_STRENGTH",
+      "name": "Potion of Storm Giant Strength",
+      "setters": {
+        "set": [
+          {
+            "description": "Potions",
+            "name": "category"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "Potion",
+            "name": "type"
+          },
+          {
+            "description": "Legendary",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Magic Item"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "",
+    "name": "Potions",
+    "update": {
+      "file": {
+        "name": "items-potions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-potions.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

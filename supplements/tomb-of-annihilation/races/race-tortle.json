@@ -1,0 +1,17 @@
+{
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/tomb-annihilation"
+    },
+    "description": "The Tortle race from the Tortle Package, a Tomb of Annihilation Supplement",
+    "name": "Tortle",
+    "update": {
+      "file": {
+        "name": "race-tortle.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation/races/race-tortle.json"
+      },
+      "version": "0.1.5"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "element": [
+    {
+      "description": "<p>The Golden Grin began in the far-off land of Tal'Dorei, trading secret messages through a network of bards and minstrels to undermine an iron-fisted king's authoritarian rule. Today, Tal'Dorei is a relatively peaceful republic, and some Grinners have grown restless while waiting for tyranny to raise its ugly head again. A contingent of such Grinners traveled to the Menagerie Coast and set up a network of secret bases in the cities of the Clovis Concord, from which they are presently working their way into the highest echelons of the Dwendalian Empire.</p> <p class=\"indent\">You are a Grinner. Your goals are to spread freedom and inspire hope—or, in time, revolution—in the hearts of the oppressed.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Deception, Performance</li> <li><strong>Tool Proficiencies:</strong> One type of musical instrument, thieves' tools</li> <li><strong>Equipment:</strong> A set of fine clothes, a disguise kit, a musical instrument of your choice, a gold-plated ring depicting a smiling face, and a pouch containing 15 gp</li> </ul> <h5>FAVORITE CODE-SONGS</h5> <p>All members of the Golden Grin have learned a handful of folk songs in their travels, and use those songs to send secret codes and alert fellow Grinners to danger. Choose a favorite song or roll on the Favorite Code-Songs table.</p> <h5 class=\"caption\">Favorite Code-Songs</h5> <table> <thead> <tr><td>d6</td><td>Favorite Code-Song</td></tr> </thead> <tr><td>1</td><td>Zan's Comin' Back. This hopeful Tal'Dorei folk song declares the inevitable return of a just ruler. Use it to seek out potential allies.</td></tr> <tr><td>2</td><td>Blow Fire Down the Coast. A rowdy fighting song from the Clovis Concord, this ditty talks of blasting up pirate ships. Use it to encourage battle.</td></tr> <tr><td>3</td><td>Hush! Onward Come the Dragons. This Tal'Dorei folk song recounts the terror in the days after the invasion of the red dragon called the Cinder King. Use it to encourage caution in speech and deed.</td></tr> <tr><td>4</td><td>Let the Sword Grow Rust. An antiwar anthem from Marquet, this song has uncertain origins. Use it to help quell violent encounters.</td></tr> <tr><td>5</td><td>Drink Deep, Li'l Hummingbird. A drinking rondo from the Menagerie Coast. this song tells the tale of a young person who drinks so heavily that they awaken to find they've stowed away on a ship. Use it to encourage alertness in social situations.</td></tr> <tr><td>6</td><td>Dirge for the Emerald Fire. This elven song supposedly has thousands of obscure verses. Use the first two verses to spread news of death or defeat.</td></tr> </table> <div element=\"ID_WOTC_EGTW_BACKGROUND_FEATURE_BALLAD_OF_THE_GRINNING_FOOL\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Grinners are trained in the art of secrecy and innuendo, and are skilled at hiding in plain sight by being the loudest and brightest person in the room. Their skills in subterfuge and combat lend themselves well to an adventuring lifestyle, and traveling with mercenaries and treasure hunters creatures a convenient excuse to journey through lands bent under tyranny.</p>",
+      "id": "ID_WOTC_EGTW_BACKGROUND_GRINNER",
+      "name": "Grinner",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_DECEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERFORMANCE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_EGTW_BACKGROUND_FEATURE_BALLAD_OF_THE_GRINNING_FOOL",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Tool Proficiency, Grinner",
+            "supports": "Musical Instrument",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I love the spotlight. Everyone, look at me!",
+                "id": "1"
+              },
+              {
+                "description": "Give me a drink and I'm your friend.",
+                "id": "2"
+              },
+              {
+                "description": "Talk to me about yourself. I'm a hell of a listener.",
+                "id": "3"
+              },
+              {
+                "description": "I hate to start fights, but I love to finish them.",
+                "id": "4"
+              },
+              {
+                "description": "I can't sit still.",
+                "id": "5"
+              },
+              {
+                "description": "I'm always humming an old tune from my past.",
+                "id": "6"
+              },
+              {
+                "description": "When I don't have a reason to smile, I'm miserable.",
+                "id": "7"
+              },
+              {
+                "description": "I'm lucky like you wouldn't believe.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Revolution. Tyrants must fall, no matter the cost. (Chaotic}",
+                "id": "1"
+              },
+              {
+                "description": "Compassion. The only way to make a better world is to perform small kindnesses. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Justice. A nation built upon just foundations will uphold freedom for all. (Law)",
+                "id": "3"
+              },
+              {
+                "description": "Expression. Music, joy, and laughter are the keys to freedom. (Good)",
+                "id": "4"
+              },
+              {
+                "description": "Self-Determination. People should be free to do as they please. (Chaotic)",
+                "id": "5"
+              },
+              {
+                "description": "Vigilance. A free people must be carefully taught, lest they be misled. (Neutral)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I lost someone important to an agent of the Dwendalian Empire. That regime will fall.",
+                "id": "1"
+              },
+              {
+                "description": "The first people to be hurt by this war will be the common folk. I need to protect them.",
+                "id": "2"
+              },
+              {
+                "description": "Music helped me through a dark time in my life. Now, I'll use music to change the world.",
+                "id": "3"
+              },
+              {
+                "description": "I will be known as the greatest spy who ever lived.",
+                "id": "4"
+              },
+              {
+                "description": "All life is precious to me. I know i can change the world without taking a humanoid life.",
+                "id": "5"
+              },
+              {
+                "description": "The elite in their ivory towers don't understand how we suffer. I intend to show them.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I've never lied once in my life. What? No, I'm not crossing my fingers!",
+                "id": "1"
+              },
+              {
+                "description": "I do everything big! Subtlety? I don't know the meaning of subtlety! Oh, that's a problem?",
+                "id": "2"
+              },
+              {
+                "description": "Being a spy in wartime is painful. I've seen so much suffering, I think I'm losing my mind.",
+                "id": "3"
+              },
+              {
+                "description": "I can't focus on my mission. I just want to carouse and sing and play!",
+                "id": "4"
+              },
+              {
+                "description": "Yeah, that's my name. Yeah, I'm a Grinner spy. Who cares about staying undercover?",
+                "id": "5"
+              },
+              {
+                "description": "I can't afford to trust anyone. Not. Anyone.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Deception, Performance, Musical Instrument, Thieves' Tools",
+          "name": "short"
+        }
+      },
+      "source": "Explorer's Guide to Wildemount",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Like every Grinner, you know how to find a hideout. In any city of 10,000 people or more on the Menagerie Coast or in the lands of the Dwendalian Empire, you can play the “Ballad of the Grinning Fool” in a major tavern of inn. A member of the Golden Grin will find you and give shelter to you and any companions you vouch for. This shelter might be discontinued if it becomes too dangerous to hide you, at the DM's Discretion.</p> <p class=\"indent\">This feature must be used with caution, for not all who know the ballad are your friends. Some are traitors, counterspies, or agents of tyranny.</p>",
+      "id": "ID_WOTC_EGTW_BACKGROUND_FEATURE_BALLAD_OF_THE_GRINNING_FOOL",
+      "name": "Feature: Ballad of the Grinning Fool",
+      "sheet": {
+        "alt": "Ballad of the Grinning Fool"
+      },
+      "source": "Explorer's Guide to Wildemount",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "grinner.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/backgrounds/grinner.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

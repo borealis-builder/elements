@@ -1,0 +1,141 @@
+{
+  "element": [
+    {
+      "id": "ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF",
+      "name": "Half-Elf Variant",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Grants"
+    },
+    {
+      "description": "<p>Some half-elves in Faerûn have a racial trait in place of the Skill Versatility trait. If your DM allows it, your half-elf character can forgo Skill Versatility and instead choose the wood elf's Elf Weapon Training, Fleet of Foot, or Mask of the Wild.</p> <div element=\"ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING\" /> <div element=\"ID_RACIAL_TRAIT_FLEET_OF_FOOT\" /> <div element=\"ID_RACIAL_TRAIT_MASK_OF_THE_WILD\" />",
+      "id": "ID_WOTC_SCAG_RACE_VARIANT_HALF_ELF_WOOD_ELF_DESCENT",
+      "name": "Wood Elf Descent",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF",
+          "type": "Grants"
+        },
+        "select": {
+          "name": "Racial Trait, Wood Elf Descent",
+          "supports": "ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING|ID_RACIAL_TRAIT_FLEET_OF_FOOT|ID_RACIAL_TRAIT_MASK_OF_THE_WILD",
+          "type": "Racial Trait"
+        }
+      },
+      "sheet": {
+        "alt": "Half-Elf (Wood Elf)",
+        "display": "false"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Half-Elf Variant",
+      "type": "Race Variant"
+    },
+    {
+      "description": "<p>Some half-elves in Faerûn have a racial trait in place of the Skill Versatility trait. If your DM allows it, your half-elf character can forgo Skill Versatility and instead choose the high-elf's elf's Elf Weapon Training or Cantrip.</p> <div element=\"ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING\" /> <div element=\"ID_RACIAL_TRAIT_CANTRIP\" />",
+      "id": "ID_WOTC_SCAG_RACE_VARIANT_HALF_ELF_MOON_ELF_DESCENT",
+      "name": "Moon Elf Descent",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF",
+          "type": "Grants"
+        },
+        "select": {
+          "name": "Racial Trait, Moon Elf Descent",
+          "supports": "ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING|ID_RACIAL_TRAIT_CANTRIP",
+          "type": "Racial Trait"
+        }
+      },
+      "sheet": {
+        "alt": "Half-Elf (Moon Elf)",
+        "display": "false"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Half-Elf Variant",
+      "type": "Race Variant"
+    },
+    {
+      "description": "<p>Some half-elves in Faerûn have a racial trait in place of the Skill Versatility trait. If your DM allows it, your half-elf character can forgo Skill Versatility and instead choose the high-elf's elf's Elf Weapon Training or Cantrip.</p> <div element=\"ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING\" /> <div element=\"ID_RACIAL_TRAIT_CANTRIP\" />",
+      "id": "ID_WOTC_SCAG_RACE_VARIANT_HALF_ELF_SUN_ELF_DESCENT",
+      "name": "Sun Elf Descent",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF",
+          "type": "Grants"
+        },
+        "select": {
+          "name": "Racial Trait, Sun Elf Descent",
+          "supports": "ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING|ID_RACIAL_TRAIT_CANTRIP",
+          "type": "Racial Trait"
+        }
+      },
+      "sheet": {
+        "alt": "Half-Elf (Sun Elf)",
+        "display": "false"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Half-Elf Variant",
+      "type": "Race Variant"
+    },
+    {
+      "description": "<p>Some half-elves in Faerûn have a racial trait in place of the Skill Versatility trait. If your DM allows it, your half-elf character can forgo Skill Versatility and instead choose the drow's Drow Magic.</p> <div class=\"reference\"> <div element=\"ID_RACIAL_TRAIT_DROW_MAGIC\" /> </div>",
+      "id": "ID_WOTC_SCAG_RACE_VARIANT_HALF_ELF_DROW_DESCENT",
+      "name": "Drow Descent",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_RACIAL_TRAIT_DROW_MAGIC",
+            "type": "Racial Trait"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Half-Elf (Drow)",
+        "display": "false"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Half-Elf Variant",
+      "type": "Race Variant"
+    },
+    {
+      "description": "<p>Some half-elves in Faerûn have a racial trait in place of the Skill Versatility trait. If your DM allows it, your half-elf character can forgo Skill Versatility and instead choose a swimming speed of 30 feet.</p>",
+      "id": "ID_WOTC_SCAG_RACE_VARIANT_HALF_ELF_AQUATIC_HERITAGE",
+      "name": "Aquatic Heritage",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF",
+          "type": "Grants"
+        },
+        "stat": {
+          "bonus": "base",
+          "name": "speed:swim",
+          "value": "30"
+        }
+      },
+      "sheet": {
+        "alt": "Half-Elf (Aquatic)",
+        "display": "false"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Half-Elf Variant",
+      "type": "Race Variant"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Variant Half-Elf from the Sword Coast Adventurer's Guide",
+    "name": "Half-Elf Variant",
+    "update": {
+      "file": {
+        "name": "variant-half-elf.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/variant-half-elf.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

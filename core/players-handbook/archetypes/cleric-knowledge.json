@@ -1,0 +1,312 @@
+{
+  "element": [
+    {
+      "description": "<p>The gods of knowledge—including Oghma, Boccob, Gilean, Aureon, and Thoth—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.</p> <h5 class=\"caption\">KNOWLEDGE DOMAIN SPELLS</h5> <table> <thead> <tr><td>Cleric Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>command, identify</em></td></tr> <tr><td>3rd</td><td><em>augury, suggestion</em></td></tr> <tr><td>5th</td><td><em>nondetection, speak with dead</em></td></tr> <tr><td>7th</td><td><em>arcane eye, confusion</em></td></tr> <tr><td>9th</td><td><em>legend lore, scrying</em></td></tr> </table> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_CLERIC_KNOWLEDGE_DOMAIN",
+      "name": "Knowledge Domain",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_COMMAND",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_IDENTIFY",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_AUGURY",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SUGGESTION",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_NONDETECTION",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SPEAK_WITH_DEAD",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_ARCANE_EYE",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_CONFUSION",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_LEGEND_LORE",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SCRYING",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING",
+            "level": "8",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "The gods of knowledge value learning and understanding above all.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Divine Domain",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion.</p> <p class=\"indent\">Your proficiency bonus is doubled for any ability check you make that uses either of those skills.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE",
+      "name": "Blessings of Knowledge",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE",
+      "rules": {
+        "select": [
+          {
+            "name": "Blessings of Knowledge",
+            "number": "2",
+            "supports": "Standard||Exotic||Secret",
+            "type": "Language"
+          },
+          {
+            "name": "Blessings of Knowledge",
+            "number": "2",
+            "supports": "Blessings of Knowledge",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You become proficient in Arcana.</p> <p class=\"indent\">Your proficiency bonus is doubled for any ability check you make that uses Arcana.</p> <div element=\"ID_PROFICIENCY_SKILL_ARCANA\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_ARCANA",
+      "name": "Blessings of Knowledge (Arcana)",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_ARCANA",
+          "type": "Proficiency"
+        },
+        "stat": {
+          "bonus": "double",
+          "name": "arcana:proficiency",
+          "value": "proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Blessings of Knowledge",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You become proficient in History.</p> <p class=\"indent\">Your proficiency bonus is doubled for any ability check you make that uses History.</p> <div element=\"ID_PROFICIENCY_SKILL_HISTORY\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_HISTORY",
+      "name": "Blessings of Knowledge (History)",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_HISTORY",
+          "type": "Proficiency"
+        },
+        "stat": {
+          "bonus": "double",
+          "name": "history:proficiency",
+          "value": "proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Blessings of Knowledge",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You become proficient in Nature.</p> <p class=\"indent\">Your proficiency bonus is doubled for any ability check you make that uses Nature.</p> <div element=\"ID_PROFICIENCY_SKILL_NATURE\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_NATURE",
+      "name": "Blessings of Knowledge (Nature)",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_NATURE",
+          "type": "Proficiency"
+        },
+        "stat": {
+          "bonus": "double",
+          "name": "nature:proficiency",
+          "value": "proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Blessings of Knowledge",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You become proficient in Religion.</p> <p class=\"indent\">Your proficiency bonus is doubled for any ability check you make that uses Religion.</p> <div element=\"ID_PROFICIENCY_SKILL_RELIGION\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_RELIGION",
+      "name": "Blessings of Knowledge (Religion)",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_RELIGION",
+          "type": "Proficiency"
+        },
+        "stat": {
+          "bonus": "double",
+          "name": "religion:proficiency",
+          "value": "proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Blessings of Knowledge",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES",
+      "name": "Channel Divinity: Knowledge of the Ages",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES",
+      "sheet": {
+        "action": "Action",
+        "alt": "Knowledge of the Ages",
+        "content": "You choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Player's Handbook",
+      "supports": "Channel Divinity",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 6th level, you can use your Channel Divinity to read a creature's thoughts. You can then use your access to the creature's mind to command it.</p> <p class=\"indent\">As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest.</p> <p class=\"indent\">If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.</p> <p class=\"indent\">During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS",
+      "name": "Read Thoughts",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS",
+      "rules": "",
+      "sheet": {
+        "action": "Action",
+        "content": "Choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature fails its save, you can read its surface thoughts when it is within 60 feet of you. This effect lasts for 1 minute. During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell."
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING",
+      "name": "Potent Spellcasting",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING",
+      "sheet": "+{{wisdom:modifier}} to the damage you deal with any cleric cantrip.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.</p> <p class=\"indent\">Once you use this feature, you can't use it again until you finish a short or long rest.</p> <p class=\"indent\"><strong><em>Object Reading.</em></strong> Holding an object as you meditate, you can see visions of the object's previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.</p> <p class=\"indent\"><strong><em>Area Reading.</em></strong> As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST",
+      "name": "Visions of the Past",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST",
+      "sheet": {
+        "content": "You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for {{wisdom:score}} minutes and must maintain concentration during that time, as if you were casting a spell. Object Reading. Holding an object as you meditate, you can see visions of the object's previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within {{wisdom:score}} days), you can spend 1 additional minute for each owner to learn the same information about that creature. Area Reading. As you meditate, you see visions of recent events in your immediate vicinity, going back {{wisdom:score}} days. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE",
+      "name": "Blessings of Knowledge Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES",
+      "name": "Channel Divinity: Knowledge of the Ages Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS",
+      "name": "Read Thoughts Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST",
+      "name": "Visions of the Past Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "cleric-knowledge.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-knowledge.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

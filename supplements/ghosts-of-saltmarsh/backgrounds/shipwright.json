@@ -1,0 +1,200 @@
+{
+  "element": [
+    {
+      "description": "<p>You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. You once helped build a fishing vessel that single-handedly saved a town from starvation. You have seen a majestic prow in your dreams that you have not been able to replicate in wood. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> History, Perception</li> <li><strong>Tool Proficiencies:</strong> Carpenter's tools, vehicles (water)</li> <li><strong>Equipment:</strong> A set of well-loved carpenter's tools, a blank book, 1 ounce of ink, and ink pen, a set of traveler's clothes, and a leather pouch with 10 gp</li> </ul> <div element=\"ID_WOTC_GOS_BACKGROUND_FEATURE_ILL_PATCH_IT\" /> <h5>LIFE AT SEA</h5> <p>Your life at sea and in port has shaped you; you can roll on the following table to determine its impact or choose and element that best fits your character.</p> <table> <thead> <tr><td>d6</td><td>Sea's Influence</td></tr> </thead> <tr><td>1</td><td><strong>Grand Designs.</strong> You are working on plans and schematics for a new, very fast ship. You must examine as many different kinds of vessels as possible to help ensure the success of your design.</td></tr> <tr><td>2</td><td><strong>Solid and Sound.</strong> You patched up a war gallery and prevented it from sinking. The local navy regards you as a friend.</td></tr> <tr><td>3</td><td><strong>Favored.</strong> You insisted on thicker planking for a merchant vessel's hull, which saved it from sinking when it smashed against a reef. You have a standing invitation to visit the merchant's distant mansion.</td></tr> <tr><td>4</td><td><strong>Master of Armaments.</strong> You specialized in designing and mounting defenses for the navy. You easily recognize and determine the quality of such items.</td></tr> <tr><td>5</td><td><strong>Low Places.</strong> You have contacts in the smuggling outfits along the coast, you occasionally repear the criminals' ships in exchange for coin and favors.</td></tr> <tr><td>6</td><td><strong>Mysteries of the Deep.</strong> You experienced as encounter with possibly divine being while sailing alone. Work with your DM to determine the secret about the deep waters of the sea that this entity revealed to you.</td></tr> </table> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Shipwrights are resourceful carpenters and designers. They often have a dedicated spot at the local tavern, since shipwrights are invaluable to coastal communities. Some travel with navel fleets and might serve as officers if their temperament suits it. Shipwrights have an affinity for working with their hands and often perform feats of carpentry that others might deem miraculous.</p>",
+      "id": "ID_WOTC_GOS_BACKGROUND_SHIPWRIGHT",
+      "name": "Shipwright",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_HISTORY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERCEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_GOS_BACKGROUND_FEATURE_ILL_PATCH_IT",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I love talking and being heard more than I like to listen.",
+                "id": "1"
+              },
+              {
+                "description": "I'm extremely fond of puzzles.",
+                "id": "2"
+              },
+              {
+                "description": "I thrive under pressure.",
+                "id": "3"
+              },
+              {
+                "description": "I love sketching and designing objects, especially boats.",
+                "id": "4"
+              },
+              {
+                "description": "I'm not afraid of hard work—in fact, I prefer it.",
+                "id": "5"
+              },
+              {
+                "description": "A pipe, an ale, and the smell of the sea; paradise.",
+                "id": "6"
+              },
+              {
+                "description": "I have an endless supply of cautionary tales related to the sea.",
+                "id": "7"
+              },
+              {
+                "description": "I don't mind getting my hands dirty.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Crew. If everyone on deck pitches in, we'll never sink. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Careful Lines. A ship must be balanced according to the laws of the universe. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Invention. Make what you need out of whatever is at hand. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Perfection. To measure a being and find it lacking in the greatest disappointment. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Reflection. Muddled water always clears in time. (Any)",
+                "id": "5"
+              },
+              {
+                "description": "Hope. The horizon at sea holds the greatest promise. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I must visit all the oceans of the world and behold the ships that sail there.",
+                "id": "1"
+              },
+              {
+                "description": "Much of the treasure I claim will be used to enrich my community.",
+                "id": "2"
+              },
+              {
+                "description": "I must find a kind of wood rumored to possess magical qualities.",
+                "id": "3"
+              },
+              {
+                "description": "I repair broken things to redeem what's broken in myself.",
+                "id": "4"
+              },
+              {
+                "description": "I will craft a boat capable of sailing through the most dangerous of storms.",
+                "id": "5"
+              },
+              {
+                "description": "A kraken destroyed my masterpiece; its teeth shall adorn my hearth.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I don't know when to throw something away. You never know when it might be useful again.",
+                "id": "1"
+              },
+              {
+                "description": "I get frustrated to the point of distraction by shoddy craftsmanship.",
+                "id": "2"
+              },
+              {
+                "description": "Though I am an excellent crafter, my work tends to look as though it belongs on a ship.",
+                "id": "3"
+              },
+              {
+                "description": "I am so obsessed with sketching my ideas for elaborate inventions that i sometimes forget little things like eating and sleeping",
+                "id": "4"
+              },
+              {
+                "description": "I'm judgemental of those who are not skilled with tools of some kind.",
+                "id": "5"
+              },
+              {
+                "description": "I sometimes take things that don't belong to me, especially if they are very well made.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "History, Perception, Carpenter's Tools, Vehicles (Water)",
+          "name": "short"
+        }
+      },
+      "source": "Ghosts of Saltmarsh",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Provided you have carpenter's tools and wood, you can perform repairs on a water vehicle. When you use this ability, you restore a number of hit points to the hull of a water vehicle equal to 5 + your proficiency modifier. A vehicle cannot be patched by you in this way again until after it has been pulled ashore and fully repaired.</p>",
+      "id": "ID_WOTC_GOS_BACKGROUND_FEATURE_ILL_PATCH_IT",
+      "name": "Feature: I'll Patch It!",
+      "sheet": {
+        "alt": "I'll Patch It!"
+      },
+      "source": "Ghosts of Saltmarsh",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "name": "Shipwright Background",
+    "update": {
+      "file": {
+        "name": "shipwright.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/shipwright.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

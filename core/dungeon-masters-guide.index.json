@@ -1,0 +1,114 @@
+{
+  "info": {
+    "name": "Dungeon Master's Guide",
+    "description": "The Dungeon Master's Guide provides the inspiration and the guidance you need to spark your imagination and create worlds of adventure for your players to explore and enjoy.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide"
+    },
+    "update": {
+      "version": "0.1.5",
+      "file": {
+        "name": "dungeon-masters-guide.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/source.json"
+    },
+    {
+      "name": "cleric-deathdomain.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/classes/cleric-deathdomain.json"
+    },
+    {
+      "name": "class-oathbreaker.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/classes/class-oathbreaker.json"
+    },
+    {
+      "name": "race-aasimar.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/races/race-aasimar.json"
+    },
+    {
+      "name": "subrace-eladrin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/races/subrace-eladrin.json"
+    },
+    {
+      "name": "items-armor.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-armor.json"
+    },
+    {
+      "name": "items-weapons.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-weapons.json"
+    },
+    {
+      "name": "items-firearms.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-firearms.json"
+    },
+    {
+      "name": "items-potions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-potions.json"
+    },
+    {
+      "name": "items-poison.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-poison.json"
+    },
+    {
+      "name": "items-rings.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-rings.json"
+    },
+    {
+      "name": "items-rods.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-rods.json"
+    },
+    {
+      "name": "items-staffs.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-staffs.json"
+    },
+    {
+      "name": "items-wands.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-wands.json"
+    },
+    {
+      "name": "items-wondrous.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-wondrous.json"
+    },
+    {
+      "name": "items-vehicle.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-vehicle.json"
+    },
+    {
+      "name": "items-gifts.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-gifts.json"
+    },
+    {
+      "name": "items-treasure.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-treasure.json"
+    },
+    {
+      "name": "replicate-infusions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/replicate-infusions.json"
+    }
+  ]
+}

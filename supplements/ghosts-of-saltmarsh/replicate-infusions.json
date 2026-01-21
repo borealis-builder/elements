@@ -1,0 +1,40 @@
+{
+  "element": [
+    {
+      "description": "<p>Using this infusion, you can replicate a Pipe of Remembrance.</p> <div class=\"reference\"> <div element=\"ID_WOTC_GOS_MAGIC_ITEM_PIPE_OF_REMEMBRANCE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPE_OF_REMEMBRANCE",
+      "name": "Pipe of Remembrance",
+      "sheet": "Using this infusion, you can replicate a Pipe of Remembrance.",
+      "source": "Ghosts of Saltmarsh",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Pressure Capsule.</p> <div class=\"reference\"> <div element=\"ID_WOTC_GOS_MAGIC_ITEM_PRESSURE_CAPSULE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PRESSURE_CAPSULEE",
+      "name": "Pressure Capsule",
+      "sheet": "Using this infusion, you can replicate a Pressure Capsule.",
+      "source": "Ghosts of Saltmarsh",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Sekolahian Worshiping Statuette.</p> <div class=\"reference\"> <div element=\"ID_WOTC_GOS_MAGIC_ITEM_PRESSURE_CAPSULE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SEKOLAHIAN_WORSHIPING_STATUETTE",
+      "name": "Sekolahian Worshiping Statuette",
+      "sheet": "Using this infusion, you can replicate a Sekolahian Worshiping Statuette.",
+      "source": "Ghosts of Saltmarsh",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "replicate-infusions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/replicate-infusions.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

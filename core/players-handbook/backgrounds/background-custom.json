@@ -1,0 +1,145 @@
+{
+  "element": [
+    {
+      "description": "<p>You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, and choose a total of two tool proficiencies or languages from the sample backgrounds. You can either use the equipment package from your background or spend coin on gear as described in chapter 5. (If you spend coin, you can't also take the equipment package suggested for your class.) Finally, choose two personality traits, one ideal, one bond, and one flaw. If you can't find a feature that matches your desired background, work with your DM to create one.</p> <ul> <li><strong>Skill Proficiencies:</strong> You can select any two skills to be proficient with.</li> <li><strong>Tool Proficiencies and Languages:</strong> You can select up to 2 tool proficiencies or languages.</li> <li><strong>Background Feature:</strong> You can pick any background feature.</li> <li><strong>Equipment:</strong> Use the equipment package from another background.</li> </ul> <p class=\"indent\"><i><b><u>Note:</u></b></i> Some Backgrounds, for example <i>Azorius Functionary</i>, grant a second Background Feature, if you play in a campaign where similar Backgrounds are used, you can choose a second Background Feature from an optional selection. Otherwise, make sure to ask your DM if secondary Background Feature is available to your character as part of the Custom Background.</p> <p class=\"indent\"><i><b><u>Note 2:</u></b></i> Custom Background doesn't include any selections for personality traits, ideals, bonds or flaws, you can input them manually in <b>Backstory</b> tab of <b>Manage</b> menu.</p>",
+      "id": "ID_WOTC_PHB_BACKGROUND_CUSTOM",
+      "name": "Custom Background",
+      "rules": {
+        "select": [
+          {
+            "name": "Skill Proficiency (Custom Background)",
+            "number": "2",
+            "supports": "Skill",
+            "type": "Proficiency"
+          },
+          {
+            "name": "1st Tool Proficiency or Language",
+            "optional": "true",
+            "supports": "Tool Language Select",
+            "type": "Background Feature"
+          },
+          {
+            "name": "2nd Tool Proficiency or Language",
+            "optional": "true",
+            "supports": "Tool Language Select 2",
+            "type": "Background Feature"
+          },
+          {
+            "name": "Background Feature",
+            "supports": "Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "name": "2nd Background Feature",
+            "optional": "true",
+            "supports": "2nd Background Feature",
+            "type": "Background Feature"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "2 Skills, and up to 2 Tool Proficiencies or Languages",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "id": "ID_WOTC_PHB_BACKGROUND_CUSTOM_TOOL_SELECT",
+      "name": "Tool Proficiency",
+      "rules": {
+        "select": {
+          "name": "Tool Proficiency (Custom Background)",
+          "supports": "Tool",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Tool Language Select",
+      "type": "Background Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "id": "ID_WOTC_PHB_BACKGROUND_CUSTOM_LANGUAGE_SELECT",
+      "name": "Additional Language",
+      "rules": {
+        "select": {
+          "name": "Language (Custom Background)",
+          "supports": "Standard||Exotic",
+          "type": "Language"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Tool Language Select",
+      "type": "Background Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "id": "ID_WOTC_PHB_BACKGROUND_CUSTOM_TOOL_SELECT_2",
+      "name": "Tool Proficiency",
+      "rules": {
+        "select": {
+          "name": "Tool Proficiency (Custom Background)",
+          "supports": "Tool",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Tool Language Select 2",
+      "type": "Background Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "id": "ID_WOTC_PHB_BACKGROUND_CUSTOM_LANGUAGE_SELECT_2",
+      "name": "Additional Language",
+      "rules": {
+        "select": {
+          "name": "Language (Custom Background)",
+          "supports": "Standard||Exotic",
+          "type": "Language"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Tool Language Select 2",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Custom Background",
+    "name": "Custom Background",
+    "update": {
+      "file": {
+        "name": "background-custom.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-custom.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

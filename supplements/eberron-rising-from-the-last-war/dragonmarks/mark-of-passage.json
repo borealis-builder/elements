@@ -1,0 +1,137 @@
+{
+  "element": [
+    {
+      "description": "<p>The Mark of Passage governs motion, allowing its bearer to move with uncanny speed. The bearer of the mark can even slip through space in the blink of an eye.</p> <p>If your human character has the Mark of Passage, the following traits replace the human's Ability Score Increase trait in the Player's Handbook.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2, and one other ability score of your choice increases by 1.</p> <p class=\"indent\"><strong><em>Courier's Speed.</em></strong> Your base walking speed increases to 35 feet.</p> <p class=\"indent\"><strong><em>Intuitive Motion.</em></strong> When you make a Dexterity (Acrobatics) check or any ability check to operate or maintain a land vehicle, you can roll a d4 and add the number rolled to the ability check.</p> <p class=\"indent\"><strong><em>Magical Passage.</em></strong> You can cast the misty step spell once with this trait, and you regain the ability to cast it when you finish a long rest. Dexterity is your spellcasting ability for this spell.</p> <p class=\"indent\"><strong><em>Spells of the Mark.</em></strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Passage Spells table are added to the spell list of your spellcasting class.</p> <p><strong>MARK OF PASSAGE SPELLS</strong></p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>expeditious retreat, jump</em></td></tr> <tr><td>2nd</td><td><em>misty step, pass without trace</em></td></tr> <tr><td>3rd</td><td><em>blink, phantom steed</em></td></tr> <tr><td>4th</td><td><em>dimension door, freedom of movement</em></td></tr> <tr><td>5th</td><td><em>teleportation circle</em></td></tr> </table>",
+      "id": "ID_WOTC_ERLW_RACE_VARIANT_MARK_OF_PASSAGE",
+      "name": "Mark of Passage",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_ERLW_DRAGONMARK_MARK_OF_PASSAGE",
+            "type": "Dragonmark"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_PASSAGE_COURIERS_SPEED",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_PASSAGE_INTUITIVE_MOTION",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_PASSAGE_MAGICAL_PASSAGE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_PASSAGE_SPELLS_OF_THE_MARK",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Mark of Passage)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Ability Score Increase, Mark of Detection",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Ability Score Increase,Dragonmark,!Dexterity",
+            "type": "Racial Trait"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Mark of Passage)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          }
+        ],
+        "stat": {
+          "name": "dexterity",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "alt": "Human (Mark of Passage)",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Human",
+      "type": "Race Variant"
+    },
+    {
+      "description": "<p>Your base walking speed increases to 35 feet.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_PASSAGE_COURIERS_SPEED",
+      "name": "Courier's Speed",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed",
+          "value": "35"
+        }
+      },
+      "sheet": {
+        "content": "Your base walking speed increases to 35 feet.",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>When you make a Dexterity (Acrobatics) check or any ability check to operate or maintain a land vehicle, you can roll a d4 and add the number rolled to the ability check.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_PASSAGE_INTUITIVE_MOTION",
+      "name": "Intuitive Motion",
+      "sheet": "When you make a Acrobatics check or any ability check to operate or maintain a land vehicle, you can roll a d4 and add the number rolled to the ability check.",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can cast the misty step spell once with this trait, and you regain the ability to cast it when you finish a long rest. Dexterity is your spellcasting ability for this spell.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_PASSAGE_MAGICAL_PASSAGE",
+      "name": "Magical Passage",
+      "sheet": {
+        "content": "You can cast the misty step spell once with this trait using Dexterity as your spellcasting ability.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Passage Spells table are added to the spell list of your spellcasting class.</p> <h5>Mark of Passage Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>expeditious retreat, jump</em></td></tr> <tr><td>2nd</td><td><em>misty step, pass without trace</em></td></tr> <tr><td>3rd</td><td><em>blink, phantom steed</em></td></tr> <tr><td>4th</td><td><em>dimension door, freedom of movement</em></td></tr> <tr><td>5th</td><td><em>teleportation circle</em></td></tr> </table>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_PASSAGE_SPELLS_OF_THE_MARK",
+      "name": "Spells of the Mark",
+      "sheet": {
+        "content": "The spells on the Mark of Passage Spells table are added to the spell list of your spellcasting class.",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_EXPEDITIOUS_RETREAT",
+          "ID_PHB_SPELL_JUMP",
+          "ID_PHB_SPELL_MISTY_STEP",
+          "ID_PHB_SPELL_PASS_WITHOUT_TRACE",
+          "ID_PHB_SPELL_BLINK",
+          "ID_PHB_SPELL_PHANTOM_STEED",
+          "ID_PHB_SPELL_DIMENSION_DOOR",
+          "ID_PHB_SPELL_FREEDOM_OF_MOVEMENT",
+          "ID_PHB_SPELL_TELEPORTATION_CIRCLE"
+        ]
+      },
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "mark-of-passage.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-passage.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

@@ -1,0 +1,996 @@
+{
+  "element": [
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p><em>Item: A pair of boots (requires attunement)</em></p> <p>While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.</p> <!-- <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_BOOTS_OF_THE_WINDING_PATH\" /> </div> -->",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_BOOTS_OF_THE_WINDING_PATH",
+      "name": "Boots of the Winding Path",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "You can infuse a pair of boots into Boots of the Winding Path.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Item: A rod, staff, or wand (requires attunement)</em></p> <p>While holding this item, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</p> <p class=\"indent\">The bonus increases to +2 when you reach 10th level in this class.</p>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_ENHANCED_ARCANE_FOCUS",
+      "name": "Enhanced Arcane Focus",
+      "sheet": "You can infuse a rod, staff, or wand into an enhanced arcane focus. <!-- Item: A rod, staff, or wand (requires attunement) While holding this item, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack. Item: A rod, staff, or wand (requires attunement) While holding this item, a creature gains a +2 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack. -->",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Item: A suit of armor or a shield</em></p> <p>A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.</p> <p class=\"indent\">The bonus increases to +2 when you reach 10th level in this class.</p>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_ENHANCED_DEFENSE",
+      "name": "Enhanced Defense",
+      "sheet": "You can infuse a suit of armor or a shield into a +1 armor or a +1 shield. You can infuse a suit of armor or a shield into a +2 armor or a +2 shield. <!-- A suit of armor or a shield A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item. A suit of armor or a shield A creature gains a + 2 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item. -->",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Item: A simple or martial weapon</em></p> <p>This magic weapon grants a +1 bonus to attack and damage rolls made with it.</p> <p class=\"indent\">The bonus increases to +2 when you reach 10th level in this class.</p>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_ENHANCED_WEAPON",
+      "name": "Enhanced Weapon",
+      "sheet": "You can infuse a simple or martial weapon into a +1 weapon. You can infuse a simple or martial weapon into a +2 weapon. <!-- Item: A simple or martial weapon This magic weapon grants a +1 bonus to attack and damage rolls made with it. Item: A simple or martial weapon This magic weapon grants a + 2 bonus to attack and damage rolls made with it. -->",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Item: A gem or crystal worth at least 100 gp</em></p> <p>You learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creature's heart, around which the creature's body instantly forms.</p> <p class=\"indent\">You determine the homunculus's appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.</p> <p class=\"indent\">The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Homunculus Servant stat block, which uses your proficiency bonus (PB) in several places.</p> <p class=\"indent\">In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the homunculus can take any action of its choice, not just Dodge.</p> <p class=\"indent\">The homunculus regains 2d6 hit points if the mending spell is cast on it. If you or the homunculus dies, it vanishes, leaving its heart in its space. </p> <div class=\"reference\"> <h3 style=\"margin-bottom:-20px;margin-top:-5px\">Homunculus Servant</h3> <p style=\"margin-bottom:-5px\"><em>Tiny construct</em></p> <h4 style=\"margin-top:5px\" /> <ul class=\"unstyled\"> <li><strong>Armor Class</strong> 13 (natural armor)</li> <li><strong>Hit Points</strong> 1 + your Intelligence modifier + your artificer level (the homunculus servant has a number of Hit Dice [d4s] equal to your artificer level)</li> <li><strong>Speed</strong> 20 ft., fly 30 ft.</li> </ul> <table style=\"text-align:center;margin-top:10px;margin-bottom:10px\"> <thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead> <tr><td>4 (-3)</td><td>15 (+2)</td><td>12 (+1)</td><td>10 (+0)</td><td>10 (+0)</td><td>7 (-2)</td></tr> </table> <ul class=\"unstyled\"> <li><strong>Saving Throws</strong> Dex +2 plus PB</li> <li><strong>Skills</strong> Perception +0 plus PB x 2, Stealth +2 plus PB</li> <li><strong>Damage Immunities</strong> poison</li> <li><strong>Condition Immunities</strong> exhaustion, poisoned</li> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 10 + (PB x 2)</li> <li><strong>Languages</strong> understands the language you speak</li> <li><strong>Challenge</strong> —</li> <li><strong>Proficiency Bonus (PB)</strong> equals your bonus</li> </ul> <h4 style=\"margin-top:5px; margin-bottom:10px\" /> <ul class=\"unstyled\"> <li><strong><em>Evasion.</em></strong> If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.</li> </ul> <h4 style=\"margin-top:10px\">Actions</h4> <ul class=\"unstyled\"> <li><strong><em>Force Strike. </em></strong><em>Ranged Weapon Attack:</em> your spell attack modifier to hit, range 30 ft., one target you can see. <em>Hit:</em> 1d4 + PB force damage.</li> </ul> <h4 style=\"margin-top:10px\">Reactions</h4> <ul class=\"unstyled\"> <li><strong><em>Channel Magic. </em></strong>The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.</li> </ul> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_HOMUNCULUS_SERVANT",
+      "name": "Homunculus Servant",
+      "rules": {
+        "select": {
+          "name": "Homunculus Servant",
+          "supports": "Homunculus Servant",
+          "type": "Companion"
+        }
+      },
+      "sheet": "You can infuse a gem or crystal worth at least 100 gp into a homunculus servant. &#13; In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the homunculus can take any action of its choice, not just Dodge. &#13; The homunculus regains 2d6 hit points if the mending spell is cast on it. If you or the homunculus dies, it vanishes, leaving its heart in its space.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p><em>Item: A simple or martial weapon (requires attunement)</em></p> <p>This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.</p> <p class=\"indent\">The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.</p>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_RADIANT_WEAPON",
+      "name": "Radiant Weapon",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "You can infuse a simple or martial weapon into a radiant weapon. <!-- Item: A simple or martial weapon (requires attunement) This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action. The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn -->",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Item: A simple or martial weapon with the ammunition property (requires attunement)</em></p> <p>This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.</p> <p class=\"indent\">If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.</p>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPEATING_SHOT",
+      "name": "Repeating Shot",
+      "sheet": "You can infuse a simple or martial weapon with the ammunition property into a repeating weapon. <!-- Item: A simple or martial weapon with the ammunition property (requires attunement) This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it. If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target. -->",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the appropriate book for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM",
+      "name": "Replicate Magic Item",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_2",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_3",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_2",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_4",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_3",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_5",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_4",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_6",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_5",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_7",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_6",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_8",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_7",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_9",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_8",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_10",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_9",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_11",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_10",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p> <p class=\"indent\">In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</p> <div element=\"ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES\" />",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_12",
+      "name": "Replicate Magic Item",
+      "requirements": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_11",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p><em>Item: A shield (requires attunement)</em></p> <p>A creature gains a +1 bonus to Armor Class while wielding this shield.</p> <p class=\"indent\">The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.</p>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPULSION_SHIELD",
+      "name": "Repulsion Shield",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "You can infuse a shield into a repulsion shield. <!-- Item: A shield (requires attunement) A creature gains a +1 bonus to Armor Class while wielding this shield. The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn. -->",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p><em>Item: A suit of armor (requires attunement)</em></p> <p>While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.</p>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_RESISTANT_ARMOR",
+      "name": "Resistant Armor",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "You can infuse a suit of armor into a resistant armor. <!-- Item: A suit of armor (requires attunement) While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder. -->",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Item: A simple or martial weapon with the thrown property</em></p> <p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</p>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_RETURNING_WEAPON",
+      "name": "Returning Weapon",
+      "sheet": "You can infuse a simple or martial weapon with the thrown property into a returning weapon. <!-- Item: A simple or martial weapon with the thrown property This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack. -->",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Artificer Infusion, ERLW Version",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><strong>REPLICABLE ITEMS (2nd-level Artificer)</strong></p> <table> <thead> <tr><td>Magic Item</td><td class=\"col-20\">Attunement</td></tr> </thead> <tr><td>Alchemy jug</td><td>No</td></tr> <tr><td>Bag of holding</td><td>No</td></tr> <tr><td>Cap of water breathing</td><td>No</td></tr> <tr><td>Goggles of night</td><td>No</td></tr> <tr><td>Rope of climbing</td><td>No</td></tr> <tr><td>Sending stones</td><td>No</td></tr> <tr><td>Wand of magic detection</td><td>No</td></tr> <tr><td>Wand of secrets</td><td>No</td></tr> </table> <p><strong>REPLICABLE ITEMS (6th-level Artificer)</strong></p> <table> <thead> <tr><td>Magic Item</td><td class=\"col-20\">Attunement</td></tr> </thead> <tr><td>Boots of elvenkind</td><td>No</td></tr> <tr><td>Cloak of elvenkind</td><td>Yes</td></tr> <tr><td>Cloak of the manta ray</td><td>No</td></tr> <tr><td>Eyes of charming</td><td>Yes</td></tr> <tr><td>Gloves of thievery</td><td>No</td></tr> <tr><td>Lantern of revealing</td><td>No</td></tr> <tr><td>Pipes of haunting</td><td>No</td></tr> <tr><td>Ring of water walking</td><td>No</td></tr> </table> <p><strong>REPLICABLE ITEMS (10th-level Artificer)</strong></p> <table> <thead> <tr><td>Magic Item</td><td class=\"col-20\">Attunement</td></tr> </thead> <tr><td>Boots of striding and springing</td><td>Yes</td></tr> <tr><td>Boots of the winterlands</td><td>Yes</td></tr> <tr><td>Bracers of archery</td><td>Yes</td></tr> <tr><td>Brooch of shielding</td><td>Yes</td></tr> <tr><td>Cloak of protection</td><td>Yes</td></tr> <tr><td>Eyes of the eagle</td><td>Yes</td></tr> <tr><td>Gauntlets of ogre power</td><td>Yes</td></tr> <tr><td>Gloves of missile snaring</td><td>Yes</td></tr> <tr><td>Gloves of swimming and climbing</td><td>Yes</td></tr> <tr><td>Hat of disguise</td><td>Yes</td></tr> <tr><td>Headband of intellect</td><td>Yes</td></tr> <tr><td>Helm of telepathy</td><td>Yes</td></tr> <tr><td>Medallion of thoughts</td><td>Yes</td></tr> <tr><td>Necklace of adaptation</td><td>Yes</td></tr> <tr><td>Peria pt of wound closure</td><td>Yes</td></tr> <tr><td>Pipes of the sewers</td><td>Yes</td></tr> <tr><td>Quiver of Ehlonna</td><td>No</td></tr> <tr><td>Ring of jumping</td><td>Yes</td></tr> <tr><td>Ring of mind shielding</td><td>Yes</td></tr> <tr><td>Slippers of spider climbing</td><td>Yes</td></tr> <tr><td>Ventilating lung</td><td>Yes</td></tr> <tr><td>Winged boots</td><td>Yes</td></tr> </table> <p><strong>REPLICABLE ITEMS (14th-level Artificer)</strong></p> <table> <thead> <tr><td>Magic Item</td><td class=\"col-20\">Attunement</td></tr> </thead> <tr><td>Amulet of health</td><td>Yes</td></tr> <tr><td>Arcane propulsion arm</td><td>Yes</td></tr> <tr><td>Belt of hill giant strength</td><td>Yes</td></tr> <tr><td>Boots of levitation</td><td>Yes</td></tr> <tr><td>Boots of speed</td><td>Yes</td></tr> <tr><td>Bracers of defense</td><td>Yes</td></tr> <tr><td>Cloak of the bat</td><td>Yes</td></tr> <tr><td>Dimensional shackles</td><td>No</td></tr> <tr><td>Gem of seeing</td><td>Yes</td></tr> <tr><td>Horn of blasting</td><td>No</td></tr> <tr><td>Ring of free action</td><td>Yes</td></tr> <tr><td>Ring of protection</td><td>Yes</td></tr> <tr><td>Ring of the ram</td><td>Yes</td></tr> </table>",
+      "id": "ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES",
+      "name": "Replicate Magic Item Tables",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Information"
+    },
+    {
+      "description": "<p>While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_BOOTS_OF_THE_WINDING_PATH",
+      "name": "Boots of the Winding Path",
+      "setters": {
+        "set": [
+          {
+            "description": "artificer infusion,teleport,bonus action",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Artificer Infusion",
+            "name": "type"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>While holding this rod, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_ENHANCED_ARCANE_FOCUS_1",
+      "name": "Enhanced Arcane Rod, +1",
+      "rules": {
+        "stat": {
+          "name": "spellcasting:attack",
+          "value": "1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "artificer infusion",
+            "name": "keywords"
+          },
+          {
+            "description": "Rods",
+            "name": "category"
+          },
+          {
+            "description": "2 lb.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "addition": "artificer infusion",
+            "description": "Rod",
+            "name": "type"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>While holding this rod, a creature gains a +2 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_ENHANCED_ARCANE_FOCUS_2",
+      "name": "Enhanced Arcane Rod, +2",
+      "rules": {
+        "stat": {
+          "name": "spellcasting:attack",
+          "value": "2"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "artificer infusion",
+            "name": "keywords"
+          },
+          {
+            "description": "Rods",
+            "name": "category"
+          },
+          {
+            "description": "2 lb.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "addition": "artificer infusion",
+            "description": "Rod",
+            "name": "type"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>While holding this wand, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_ENHANCED_WAND_1",
+      "name": "Enhanced Arcane Wand, +1",
+      "rules": {
+        "stat": {
+          "name": "spellcasting:attack",
+          "value": "1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "artificer infusion",
+            "name": "keywords"
+          },
+          {
+            "description": "Wands",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "1 lb.",
+            "lb": "1",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "addition": "artificer infusion",
+            "description": "Wand",
+            "name": "type"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>While holding this wand, a creature gains a +2 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_ENHANCED_WAND_2",
+      "name": "Enhanced Arcane Wand, +2",
+      "rules": {
+        "stat": {
+          "name": "spellcasting:attack",
+          "value": "2"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "artificer infusion",
+            "name": "keywords"
+          },
+          {
+            "description": "Wands",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "1 lb.",
+            "lb": "1",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "addition": "artificer infusion",
+            "description": "Wand",
+            "name": "type"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>While holding this staff, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_ENHANCED_ARCANE_STAFF_1",
+      "name": "Enhanced Arcane Staff, +1",
+      "rules": {
+        "stat": {
+          "name": "spellcasting:attack",
+          "value": "1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Staffs",
+            "name": "category"
+          },
+          {
+            "description": "4 lb.",
+            "lb": "4",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Quarterstaff",
+            "name": "weapon"
+          },
+          {
+            "addition": "artificer infusion",
+            "description": "Staff",
+            "name": "type"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>While holding this staff, a creature gains a +2 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_ENHANCED_ARCANE_STAFF_2",
+      "name": "Enhanced Arcane Staff, +2",
+      "rules": {
+        "stat": {
+          "name": "spellcasting:attack",
+          "value": "2"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Staffs",
+            "name": "category"
+          },
+          {
+            "description": "4 lb.",
+            "lb": "4",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Quarterstaff",
+            "name": "weapon"
+          },
+          {
+            "addition": "artificer infusion",
+            "description": "Staff",
+            "name": "type"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.</p> <p class=\"indent\">The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_RADIANT_WEAPON",
+      "name": "Radiant Weapon",
+      "setters": {
+        "set": [
+          {
+            "description": "artificer infusion",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "addition": "simple or martial weapon",
+            "description": "Weapon",
+            "name": "type"
+          },
+          {
+            "description": "Artificer Infusion",
+            "name": "rarity"
+          },
+          {
+            "description": "1",
+            "name": "enhancement"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          },
+          {
+            "description": "ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED",
+            "name": "weapon"
+          },
+          {
+            "description": "Radiant {{parent}} +{{enhancement}}",
+            "name": "name-format"
+          },
+          {
+            "description": "4",
+            "name": "charges"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it. If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_REPEATING_SHOT",
+      "name": "Repeating Shot",
+      "setters": {
+        "set": [
+          {
+            "description": "artificer infusion",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "addition": "a simple or martial weapon with the ammunition property",
+            "description": "Weapon",
+            "name": "type"
+          },
+          {
+            "description": "Artificer Infusion",
+            "name": "rarity"
+          },
+          {
+            "description": "1",
+            "name": "enhancement"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          },
+          {
+            "description": "(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED),(ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION||ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION)",
+            "name": "weapon"
+          },
+          {
+            "description": "Repeating {{parent}} +{{enhancement}}",
+            "name": "name-format"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>A creature gains a +1 bonus to Armor Class while wielding this shield.</p> <p class=\"indent\">The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_SHIELD_REPULSION_SHIELD",
+      "name": "Repulsion Shield",
+      "rules": {
+        "stat": {
+          "bonus": "enhancement",
+          "name": "ac:shield",
+          "value": "1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "artificer infusion",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost",
+            "override": "false"
+          },
+          {
+            "description": "0 lb.",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "addition": "shield",
+            "description": "Armor",
+            "name": "type"
+          },
+          {
+            "description": "Artificer Infusion",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          },
+          {
+            "description": "1",
+            "name": "enhancement"
+          },
+          {
+            "description": "ID_INTERNAL_ARMOR_GROUP_SHIELD",
+            "name": "armor"
+          },
+          {
+            "description": "Repulsion Shield +{{enhancement}}",
+            "name": "name-format"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</p>",
+      "id": "ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_RETURNING_WEAPON",
+      "name": "Returning Weapon",
+      "setters": {
+        "set": [
+          {
+            "description": "artificer infusion",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "addition": "a simple or martial weapon with the thrown property",
+            "description": "Weapon",
+            "name": "type"
+          },
+          {
+            "description": "Artificer Infusion",
+            "name": "rarity"
+          },
+          {
+            "description": "1",
+            "name": "enhancement"
+          },
+          {
+            "description": "(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED),ID_INTERNAL_WEAPON_PROPERTY_THROWN",
+            "name": "weapon"
+          },
+          {
+            "description": "Returning {{parent}} +{{enhancement}}",
+            "name": "name-format"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Magic Item"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_ERLW_COMPANION_ARTIFICER_HOMUNCULUS_SERVANT ",
+      "name": "Homunculus Servant",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "ability",
+            "name": "companion:hp:max",
+            "value": "intelligence:modifier"
+          },
+          {
+            "bonus": "level",
+            "name": "companion:hp:max",
+            "value": "level:artificer"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:proficiency",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "companion:stealths:proficiency",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "companion:perception:proficiency",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "double",
+            "name": "companion:perception:proficiency",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "companion:dexterity:save:proficiency",
+            "value": "proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "Construct",
+            "name": "type"
+          },
+          {
+            "description": "neutral",
+            "name": "alignment"
+          },
+          {
+            "description": "13 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "1 + your Intelligence modifier + your artificer level (the Homunculus has a number of Hit Dice [d4s] equal to your artificer level)",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft., fly 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "4",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "12",
+            "name": "constitution"
+          },
+          {
+            "description": "10",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "Dex +2 plus PB",
+            "name": "saves"
+          },
+          {
+            "description": "Perception +0 plus PB x 2, Stealth +2 plus PB",
+            "name": "skills"
+          },
+          {
+            "description": "poison",
+            "name": "immunities"
+          },
+          {
+            "description": "exhaustion, poisoned",
+            "name": "conditionImmunities"
+          },
+          {
+            "description": "darkvision 60 ft., passive Perception 10 + (PB x 2)",
+            "name": "senses"
+          },
+          {
+            "description": "understands the languages you speak",
+            "name": "languages"
+          },
+          {
+            "description": "-",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_ERLW_COMPANION_TRAIT_HOMUNCULUS_SERVANT_EVASION",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_ERLW_COMPANION_ACTION_HOMUNCULUS_SERVANT_FORCE_STRIKE",
+            "name": "actions"
+          },
+          {
+            "description": "ID_WOTC_ERLW_COMPANION_REACTION_HOMUNCULUS_SERVANT_CHANNEL_MAGIC",
+            "name": "reactions"
+          }
+        ]
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Homunculus Servant",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated. </p>",
+      "id": "ID_WOTC_ERLW_COMPANION_TRAIT_HOMUNCULUS_SERVANT_EVASION",
+      "name": "Evasion",
+      "sheet": "If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p><i>Ranged Weapon Attack:</i> your spell attack modifier to hit, range 30 ft., one target you can see. <i>Hit:</i> 1d4 + PB force damage. </p>",
+      "id": "ID_WOTC_ERLW_COMPANION_ACTION_HOMUNCULUS_SERVANT_FORCE_STRIKE",
+      "name": "Force Strike",
+      "sheet": "<i>Ranged Weapon Attack:</i> your spell attack modifier to hit, range 30 ft., one target you can see. <i>Hit:</i> 1d4 + PB force damage.",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p> The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you. </p>",
+      "id": "ID_WOTC_ERLW_COMPANION_REACTION_HOMUNCULUS_SERVANT_CHANNEL_MAGIC",
+      "name": "Channel Magic",
+      "sheet": "The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Companion Reaction"
+    }
+  ],
+  "info": {
+    "name": "Artificer Infusions",
+    "update": {
+      "file": {
+        "name": "artificer-infusions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/artificer-infusions.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

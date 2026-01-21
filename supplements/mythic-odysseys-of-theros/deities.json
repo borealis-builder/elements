@@ -1,0 +1,418 @@
+{
+  "element": [
+    {
+      "description": "<p>God of Passage</p>",
+      "id": "ID_WOTC_MOOT_DEITY_ATHREOS",
+      "name": "Athreos",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, Grave*",
+            "name": "domains"
+          },
+          {
+            "description": "Crescent moon",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of The polis</p>",
+      "id": "ID_WOTC_MOOT_DEITY_EPHARA",
+      "name": "Ephara",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Urn pouring water",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of The dead</p>",
+      "id": "ID_WOTC_MOOT_DEITY_EREBOS",
+      "name": "Erebos",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Serene face",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of The sun</p>",
+      "id": "ID_WOTC_MOOT_DEITY_HELIOD",
+      "name": "Heliod",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Light",
+            "name": "domains"
+          },
+          {
+            "description": "Laurel crown",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of Victory</p>",
+      "id": "ID_WOTC_MOOT_DEITY_IROAS",
+      "name": "Iroas",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Four-winged helmet",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of Harvests</p>",
+      "id": "ID_WOTC_MOOT_DEITY_KARAMETRA",
+      "name": "Karametra",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Cornucopia",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of Storms</p>",
+      "id": "ID_WOTC_MOOT_DEITY_KERANOS",
+      "name": "Keranos",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Blue eye",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of Destiny</p>",
+      "id": "ID_WOTC_MOOT_DEITY_KLOTHYS",
+      "name": "Klothys",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, War",
+            "name": "domains"
+          },
+          {
+            "description": "Drop spindle",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of Horizons</p>",
+      "id": "ID_WOTC_MOOT_DEITY_KRUPHIX",
+      "name": "Kruphix",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Eight-pointed star",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of Slaughter</p>",
+      "id": "ID_WOTC_MOOT_DEITY_MOGIS",
+      "name": "Mogis",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Four-horned bull's head",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of The hunt</p>",
+      "id": "ID_WOTC_MOOT_DEITY_NYLEA",
+      "name": "Nylea",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Four arrows",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of Affliction</p>",
+      "id": "ID_WOTC_MOOT_DEITY_PHARIKA",
+      "name": "Pharika",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, Knowledge, Life",
+            "name": "domains"
+          },
+          {
+            "description": "Snakes",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of Deception</p>",
+      "id": "ID_WOTC_MOOT_DEITY_PHENAX",
+      "name": "Phenax",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Winged golden mask",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of The forge</p>",
+      "id": "ID_WOTC_MOOT_DEITY_PURPHOROS",
+      "name": "Purphoros",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Forge,* Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Double crest",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    },
+    {
+      "description": "<p>God of The sea</p>",
+      "id": "ID_WOTC_MOOT_DEITY_THASSA",
+      "name": "Thassa",
+      "setters": {
+        "set": [
+          {
+            "description": "Theros",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Waves",
+            "name": "symbol"
+          }
+        ]
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Deity"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "deities.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/deities.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "element": [
+    {
+      "description": "<p>Though you might have only recently arrived in civilized lands, you are no stranger to the values of cooperation and group effort when striving for supremacy. You learned these principles, and much more, as a member of an Uthgardt tribe.</p> <p class=\"indent\">Your people have always tried to hold to the old ways. Tradition and taboo have kept the Uthgardt strong while the kingdoms of others have collapsed into chaos and ruin. But for the last few generations, some bands among the tribes were tempted to settle, make peace, trade, and even to build towns. Perhaps this is why Uthgar chose to raise up the totems among the people as living embodiments of his power. Perhaps they needed a reminder of who they were and from whence they came. The Chosen of Uthgar led bands back to the old ways, and most of your people abandoned the soft ways of civilization.</p> <p class=\"indent\">You might have grown up in one of the tribes that had decided to settle down, and now that they have abandoned that path, you find yourself adrift. Or you might come from a segment of the Uthgardt that adheres to tradition, but you seek to bring glory to your tribe by achieving great things as a formidable adventurer.</p> <p class=\"indent\">See the \"Uthgardt Lands\" section of chapter 2 for details on each tribe's territory and its activities that will help you choose your affiliation.</p> <ul class=\"unstyled\"> <li> <strong>Skill Proficiencies:</strong> Athletics, Survival</li> <li> <strong>Tool Proficiencies:</strong> One type of musical instrument or artisan's tools</li> <li> <strong>Languages:</strong> One of your choice</li> <li> <strong>Equipment:</strong> A hunting trap, a totemic token or set of tattoos marking your loyalty to Uthgar and your tribal totem, a set of traveler's clothes, and a pouch containing 10 gp</li> </ul> <div element=\"ID_SCAG_BACKGROUND_FEATURE_UTHGARDT_HERITAGE\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Use the tables for the outlander background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of an Uthgardt tribe.</p> <p class=\"indent\">Even if you have left your tribe behind (at least for now), you hold to the traditions of your people. You will never cut down a still-living tree, and you may not countenance such an act being done in your presence. The Uthgardt ancestral mounds- great hills where the totem spirits were defeated by Uthgar and where the heroes of the tribes are interred- are sacred to you.</p> <p class=\"indent\">Your bond is undoubtedly associated with your tribe or some aspect of Uthgardt philosophy or culture (perhaps even Uthgar himself). Your ideal is a personal choice that probably hews closely to the ethos of your people and certainly doesn't contradict or compromise what being an Uthgardt stands for.</p>",
+      "id": "ID_SCAG_BACKGROUND_UTHGARDT_TRIBE_MEMBER",
+      "name": "Uthgardt Tribe Member",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_SCAG_BACKGROUND_FEATURE_UTHGARDT_HERITAGE",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Musical Instrument or Artisan's Tools (Uthgardt Tribe Member)",
+            "supports": "Musical Instrument||Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language (Uthgardt Tribe Member)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm driven by a wanderlust that led me away from home.",
+                "id": "1"
+              },
+              {
+                "description": "I watch over my friends as if they were a litter of newborn pups.",
+                "id": "2"
+              },
+              {
+                "description": "I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to.",
+                "id": "3"
+              },
+              {
+                "description": "I have a lesson for every situation, drawn from observing nature.",
+                "id": "4"
+              },
+              {
+                "description": "I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.",
+                "id": "5"
+              },
+              {
+                "description": "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.",
+                "id": "6"
+              },
+              {
+                "description": "I feel far more comfortable around animals than people.",
+                "id": "7"
+              },
+              {
+                "description": "I was, in fact, raised by wolves.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
+                "id": "1"
+              },
+              {
+                "description": "Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)",
+                "id": "3"
+              },
+              {
+                "description": "Might. The strongest are meant to rule. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Nature. The natural world is more important than all the constructs of civilization. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Glory. I must earn glory in battle, for myself and my clan. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My family, clan, or tribe is the most important thing in my life, even when they are far from me.",
+                "id": "1"
+              },
+              {
+                "description": "An injury to the unspoiled wilderness of my home is an injury to me.",
+                "id": "2"
+              },
+              {
+                "description": "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
+                "id": "3"
+              },
+              {
+                "description": "I am the last of my tribe, and it is up to me to ensure their names enter legend.",
+                "id": "4"
+              },
+              {
+                "description": "I suffer awful visions of a coming disaster and will do anything to prevent it.",
+                "id": "5"
+              },
+              {
+                "description": "It is my duty to provide children to sustain my tribe.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am too enamored of ale, wine, and other intoxicants.",
+                "id": "1"
+              },
+              {
+                "description": "There's no room for caution in a life lived to the fullest.",
+                "id": "2"
+              },
+              {
+                "description": "I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.",
+                "id": "3"
+              },
+              {
+                "description": "I am slow to trust members of other races, tribes, and societies.",
+                "id": "4"
+              },
+              {
+                "description": "Violence is my answer to almost any challenge.",
+                "id": "5"
+              },
+              {
+                "description": "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Survival, Instrument or Artisan's Tool, Language",
+          "name": "short"
+        }
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You have an excellent knowledge of not only your tribe's territory, but also the terrain and natural resources of the rest of the North. You are familiar enough with any wilderness area that you find twice as much food and water as you normally would when you forage there.</p> <p class=\"indent\">Additionally, you can call upon the hospitality of your people, and those folk allied with your tribe, often including members of druid circles, tribes of nomadic elves, the Harpers, and the priesthoods devoted to the gods of the First Circle.</p>",
+      "id": "ID_SCAG_BACKGROUND_FEATURE_UTHGARDT_HERITAGE",
+      "name": "Feature: Uthgardt Heritage",
+      "sheet": {
+        "name": "Uthgardt Heritage"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "The Uthgardt Tribe Member background from the Sword Coast Adventurer's Guide.",
+    "name": "Uthgardt Tribe Member",
+    "update": {
+      "file": {
+        "name": "background-uthgardttribemember.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-uthgardttribemember.json"
+      },
+      "version": "0.1.3"
+    }
+  }
+}

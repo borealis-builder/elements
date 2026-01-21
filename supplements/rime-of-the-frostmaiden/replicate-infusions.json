@@ -1,0 +1,31 @@
+{
+  "element": [
+    {
+      "description": "<p>Using this infusion, you can replicate a Lantern of Tracking.</p> <div class=\"reference\"> <div element=\"ID_WOTC_IDROTF_MAGIC_ITEM_LANTERN_OF_TRACKING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_LANTERN_OF_TRACKING",
+      "name": "Lantern of Tracking",
+      "sheet": "Using this infusion, you can replicate a Lantern of Tracking.",
+      "source": "Icewind Dale: Rime of the Frostmaiden",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Thermal Cube.</p> <div class=\"reference\"> <div element=\"ID_WOTC_IDROTF_MAGIC_ITEM_THERMAL_CUBE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_THERMAL_CUBE",
+      "name": "Thermal Cube",
+      "sheet": "Using this infusion, you can replicate a Thermal Cube.",
+      "source": "Icewind Dale: Rime of the Frostmaiden",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "replicate-infusions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/rime-of-the-frostmaiden/replicate-infusions.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

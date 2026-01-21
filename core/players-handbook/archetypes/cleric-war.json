@@ -1,0 +1,255 @@
+{
+  "element": [
+    {
+      "description": "<p>War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri- Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.</p> <h5 class=\"caption\">WAR DOMAIN SPELLS</h5> <table> <thead> <tr><td>Cleric Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>divine favor, shield of faith</em></td></tr> <tr><td>3rd</td><td><em>magic weapon, spiritual weapon</em></td></tr> <tr><td>5th</td><td><em>crusader's mantle, spirit guardians</em></td></tr> <tr><td>7th</td><td><em>freedom of movement, stoneskin</em></td></tr> <tr><td>9th</td><td><em>flame strike, hold monster</em></td></tr> </table> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_BONUS_PROFICIENCIES\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_STRIKE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_CLERIC_WAR_DOMAIN",
+      "name": "War Domain",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_DIVINE_FAVOR",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SHIELD_OF_FAITH",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_MAGIC_WEAPON",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SPIRITUAL_WEAPON",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_CRUSADERS_MANTLE",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SPIRIT_GUARDIANS",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FREEDOM_OF_MOVEMENT",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_STONESKIN",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FLAME_STRIKE",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_HOLD_MONSTER",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_BONUS_PROFICIENCIES",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_STRIKE",
+            "level": "8",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "The gods of war watch over warriors and reward them for their great deeds.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Divine Domain",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>At 1st level, you gain proficiency with martial weapons and heavy armor.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_BONUS_PROFICIENCIES",
+      "name": "Bonus Proficiencies",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_BONUS_PROFICIENCIES",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You gain proficiency with martial weapons and heavy armor.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action.</p> <p class=\"indent\">You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST",
+      "name": "War Priest",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_PRIEST",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "war priest",
+            "name": "war priest:count",
+            "value": "1"
+          },
+          {
+            "bonus": "war priest",
+            "name": "war priest:count",
+            "value": "wisdom:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "When you use the Attack action, you can make one weapon attack.",
+        "usage": "{{war priest:count}}/Long Rest"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE",
+      "name": "Channel Divinity: Guided Strike",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_CD_GUIDED_STRIKE",
+      "sheet": {
+        "alt": "Guided Strike",
+        "content": "When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING",
+      "name": "Channel Divinity: War God's Blessing",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_CD_WAR_GODS_BLESSING",
+      "sheet": {
+        "action": "Reaction",
+        "alt": "War God's Blessing",
+        "content": "When a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_STRIKE",
+      "name": "Divine Strike",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING",
+      "sheet": "Once on each of your turn +1d8 damage of the same type dealt by the weapon with a weapon attack. Once on each of your turn +2d8 damage of the same type dealt by the weapon with a weapon attack.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE",
+      "name": "Avatar of Battle",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_AVATAR_OF_BATTLE",
+      "sheet": "You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_BONUS_PROFICIENCIES",
+      "name": "Bonus Proficiencies Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_PRIEST",
+      "name": "War Priest Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_CD_GUIDED_STRIKE",
+      "name": "Channel Divinity: Guided Strike Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_CD_WAR_GODS_BLESSING",
+      "name": "Channel Divinity: War God's Blessing Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_AVATAR_OF_BATTLE",
+      "name": "Avatar of Battle Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "cleric-war.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-war.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

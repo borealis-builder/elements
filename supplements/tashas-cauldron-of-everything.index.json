@@ -1,0 +1,223 @@
+{
+  "info": {
+    "name": "Tasha's Cauldron of Everything",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.1.6",
+      "file": {
+        "name": "tashas-cauldron-of-everything.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "eldritch-invocations.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/eldritch-invocations.json"
+    },
+    {
+      "name": "feats.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/feats.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/items.json"
+    },
+    {
+      "name": "optional-class-features.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/optional-class-features.json"
+    },
+    {
+      "name": "options.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/options.json"
+    },
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/source.json"
+    },
+    {
+      "name": "spells.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/spells.json"
+    },
+    {
+      "name": "artificer-infusions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/artificer-infusions.json"
+    },
+    {
+      "name": "race-custom-lineage.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/race-custom-lineage.json"
+    },
+    {
+      "name": "class-artificer.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/class-artificer.json"
+    },
+    {
+      "name": "pact-boon-talisman.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/pact-boon-talisman.json"
+    },
+    {
+      "name": "artificer-alchemist.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-alchemist.json"
+    },
+    {
+      "name": "artificer-armorer.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-armorer.json"
+    },
+    {
+      "name": "artificer-artillerist.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-artillerist.json"
+    },
+    {
+      "name": "artificer-battlesmith.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-battlesmith.json"
+    },
+    {
+      "name": "barbarian-beast.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/barbarian-beast.json"
+    },
+    {
+      "name": "barbarian-magic.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/barbarian-magic.json"
+    },
+    {
+      "name": "bard-creation.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/bard-creation.json"
+    },
+    {
+      "name": "bard-eloquence.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/bard-eloquence.json"
+    },
+    {
+      "name": "cleric-order.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-order.json"
+    },
+    {
+      "name": "cleric-peace.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-peace.json"
+    },
+    {
+      "name": "cleric-twilight.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-twilight.json"
+    },
+    {
+      "name": "druid-spores.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/druid-spores.json"
+    },
+    {
+      "name": "druid-stars.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/druid-stars.json"
+    },
+    {
+      "name": "druid-wildfire.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/druid-wildfire.json"
+    },
+    {
+      "name": "fighter-psi.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/fighter-psi.json"
+    },
+    {
+      "name": "fighter-rune.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/fighter-rune.json"
+    },
+    {
+      "name": "monk-astral.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/monk-astral.json"
+    },
+    {
+      "name": "monk-mercy.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/monk-mercy.json"
+    },
+    {
+      "name": "paladin-glory.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/paladin-glory.json"
+    },
+    {
+      "name": "paladin-watcher.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/paladin-watcher.json"
+    },
+    {
+      "name": "ranger-fey.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-fey.json"
+    },
+    {
+      "name": "ranger-swarmkeeper.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-swarmkeeper.json"
+    },
+    {
+      "name": "rogue-phantom.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/rogue-phantom.json"
+    },
+    {
+      "name": "rogue-soulknife.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/rogue-soulknife.json"
+    },
+    {
+      "name": "sorcerer-aberrant.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-aberrant.json"
+    },
+    {
+      "name": "sorcerer-clockwork.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-clockwork.json"
+    },
+    {
+      "name": "warlock-fathomless.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/warlock-fathomless.json"
+    },
+    {
+      "name": "warlock-genie.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/warlock-genie.json"
+    },
+    {
+      "name": "wizard-bladesinging.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/wizard-bladesinging.json"
+    },
+    {
+      "name": "wizard-scribes.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/wizard-scribes.json"
+    }
+  ]
+}

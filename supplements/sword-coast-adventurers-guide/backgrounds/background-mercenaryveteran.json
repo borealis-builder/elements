@@ -1,0 +1,206 @@
+{
+  "element": [
+    {
+      "description": "<p>As a sell-sword who fought battles for coin, you're well acquainted with risking life and limb for a chance at a share of treasure. Now, you look forward to fighting foes and reaping even greater rewards as an adventurer. Your experience makes you familiar with the ins and outs of mercenary life, and you likely have harrowing stories of events on the battlefield. You might have served with a large outfit such as the Zhentarim or the soldiers of Mintarn, or a smaller band of sell-swords, maybe even more than one. (See the \"Mercenaries of the North\" sidebar for a collection of possibilities.)</p> <p class=\"indent\">Now you're looking for something else, perhaps greater reward for the risks you take, or the freedom to choose your own activities. For whatever reason, you're leaving behind the life of a soldier for hire, but your skills are undeniably suited for battle, so now you fight on in a different way.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Athletics, Persuasion</li> <li><strong>Tool Proficiencies:</strong> One type of gaming set, vehicles (land)</li> <li><strong>Equipment:</strong> A uniform of your company (traveler's clothes in quality), an insignia of your rank, a gaming set of your choice, and a pouch containing the remainder of your last wages (10 gp)</li> </ul> <div element=\"ID_SCAG_BACKGROUND_FEATURE_MERCENARY_VETERAN_MERCENARY_LIFE\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Use the tables for the soldier background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a mercenary.</p> <p>Your bond could be associated with the company you traveled with previously, or with some of the comrades you served with. The ideal you embrace largely depends on your worldview and your motivation for fighting.</p> <div class=\"sidebar\"> <h5>MERCENARIES OF THE NORTH</h5> <p>Countless mercenary companies operate up and down the Sword Coast and throughout the North. Most are small scale operations that employ a dozen to a hundred folk who offer security services, hunt monsters and brigands, or go to war in exchange for gold. Some organizations, such as the Zhentarim, Flaming Fist, and the nation of Mintarn have hundreds or thousands of members and can provide private armies to those with enough funds. A few organizations operating in the North are described below.</p> <p class=\"indent\"><strong><em>The Chill.</em></strong> The cold and mysterious Lurkwood serves as the home of numerous groups of goblinoids that have banded together into one tribe called the Chill. Unlike most of their kind, the Chill refrains from raiding the people of the North and maintains relatively good relations so that they can hire themselves out as warriors. Few city states in the North are willing to field an army alongside the Chill, but several are happy to quietly pay the Chill to battle the Uthgardt, orcs, trolls of the Evermoors, and other threats to civilization.</p> <p class=\"indent\"><strong><em>Silent Rain.</em></strong> Consisting solely of elves, Silent Rain is a legendary mercenary company operating out of Evereska. Caring little for gold or fame, Silent Rain agrees only to jobs that either promote elven causes or involve destroying orcs, gnolls, and the like. Prospective employers must leave written word (in Elvish) near Evereska, and the Silent Rain sends a representative if interested.</p> <p class=\"indent\"><strong><em>The Bloodaxes.</em></strong> Founded in Sundabar nearly two centuries ago, the Bloodaxes were originally a group of dwarves outcast from their clans for crimes against the teachings of Moradin Soulforger. They began hiring out as mercenaries to whoever in the North would pay them. Since then the mercenary company has broadened its membership to other races, but every member is an exile, criminal, or misfit of some sort looking for a fresh start and a new family among the bold Bloodaxes.</p> </div>",
+      "id": "ID_SCAG_BACKGROUND_MERCENARY_VETERAN",
+      "name": "Mercenary Veteran",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERSUASION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_SCAG_BACKGROUND_FEATURE_MERCENARY_VETERAN_MERCENARY_LIFE",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Gaming Set (Mercenary Veteran)",
+            "supports": "Gaming Set",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm always polite and respectful.",
+                "id": "1"
+              },
+              {
+                "description": "I'm haunted by memories of war. I can't get the images of violence out of my mind.",
+                "id": "2"
+              },
+              {
+                "description": "I've lost too many friends, and I'm slow to make new ones.",
+                "id": "3"
+              },
+              {
+                "description": "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation",
+                "id": "4"
+              },
+              {
+                "description": "I can stare down a hell hound without flinching.",
+                "id": "5"
+              },
+              {
+                "description": "I enjoy being strong and like breaking things.",
+                "id": "6"
+              },
+              {
+                "description": "I have a crude sense of humor.",
+                "id": "7"
+              },
+              {
+                "description": "I face problems head-on. A simple, direct solution is the best path to success.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Greater Good. Our lot is to lay down our lives in defense of others. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Responsibility. I do what I must and obey just authority. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Might. In life as in war, the stronger force wins. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Nation. My city, nation, or people are all that matter. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I would still lay down my life for the people I served with.",
+                "id": "1"
+              },
+              {
+                "description": "Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",
+                "id": "2"
+              },
+              {
+                "description": "My honor is my life.",
+                "id": "3"
+              },
+              {
+                "description": "I'll never forget the crushing defeat my company suffered or the enemies who dealt it.",
+                "id": "4"
+              },
+              {
+                "description": "Those who fight beside me are those worth dying for.",
+                "id": "5"
+              },
+              {
+                "description": "I fight for those who cannot fight for themselves.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "The monstrous enemy we faced in battle still leaves me quivering with fear.",
+                "id": "1"
+              },
+              {
+                "description": "I have little respect for anyone who is not a proven warrior.",
+                "id": "2"
+              },
+              {
+                "description": "I made a terrible mistake in battle cost many lives— and I would do anything to keep that mistake secret.",
+                "id": "3"
+              },
+              {
+                "description": "My hatred of my enemies is blind and unreasoning.",
+                "id": "4"
+              },
+              {
+                "description": "I obey the law, even if the law causes misery.",
+                "id": "5"
+              },
+              {
+                "description": "I'd rather eat my armor than admit when I'm wrong.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Persuasion, Gaming Set, Vehicles (Land)",
+          "name": "short"
+        }
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You know the mercenary life as only someone who has experienced it can. You are able to identify mercenary companies by their emblems, and you know a little about any such company, including the names and reputations of its commanders and leaders, and who has hired them recently. You can find the taverns and festhalls where mercenaries abide in any area, as long as you speak the language. You can find mercenary work between adventures sufficient to maintain a comfortable lifestyle (see \"Practicing a Profession\" under \"Downtime Activities\" in chapter 8 of the Player's Handbook).</p>",
+      "id": "ID_SCAG_BACKGROUND_FEATURE_MERCENARY_VETERAN_MERCENARY_LIFE",
+      "name": "Feature: Mercenary Life",
+      "sheet": {
+        "name": "Mercenary Life"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "Mercenary Veteran Background",
+    "name": "Mercenary Veteran",
+    "update": {
+      "file": {
+        "name": "background-mercenaryveteran.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-mercenaryveteran.json"
+      },
+      "version": "0.1.4"
+    }
+  }
+}

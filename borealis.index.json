@@ -1,0 +1,35 @@
+{
+    "info": {
+        "name": "Borealis",
+        "description": "All indexs managed by the Borealis Team.",
+        "author": {
+            "name": "Borealis Team",
+            "url": "https://github.com/borealis/elements"
+        },
+        "update": {
+            "version": "0.0.1",
+            "file": {
+                "name": "borealis.index",
+                "url": "https://raw.githubusercontent.com/borealis/elements/main/AuroraLegacy.index"
+            }
+        }
+    },
+    "files": [
+        {
+            "name": "core.index",
+            "url": "https://raw.githubusercontent.com/borealis/elements/main/core.index"
+        },
+        {
+            "name": "supplements.index",
+            "url": "https://raw.githubusercontent.com/borealis/elements/main/supplements.index"
+        },
+        {
+            "name": "unearthed-arcana.index",
+            "url": "https://raw.githubusercontent.com/borealis/elements/main/unearthed-arcana.index"
+        },
+        {
+            "name": "collaborations.index",
+            "url": "https://raw.githubusercontent.com/borealis/elements/main/collaborations.index"
+        }
+    ]
+}

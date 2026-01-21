@@ -1,0 +1,243 @@
+{
+  "element": [
+    {
+      "description": "<p>You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them.</p> <p class=\"indent\">Work with your DM to come up with an appropriate title and determine how much authority that title carries. A noble title doesn't stand on its own—it's connected to an entire family, and whatever title you hold, you will pass it down to your own children. Not only do you need to determine your noble title, but you should also work with the DM to describe your family and their influence on you.</p> <p class=\"indent\">Is your family old and established, or was your title only recently bestowed? How much influence do they wield, and over what area? What kind of reputation does your family have among the other aristocrats of the region? How do the common people regard them?</p> <p class=\"indent\">What's your position in the family? Are you the heir to the head of the family? Have you already inherited the title? How do you feel about that responsibility? Or are you so far down the line of inheritance that no one cares what you do, as long as you don't embarrass the family? How does the head of your family feel about your adventuring career? Are you in your family's good graces, or shunned by the rest of your family?</p> <p class=\"indent\">Does your family have a coat of arms? An insignia you might wear on a signet ring? Particular colors you wear all the time? An animal you regard as a symbol of your line or even a spiritual member of the family?</p> <p class=\"indent\">These details help establish your family and your title as features of the world of the campaign.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> History, Persuasion</li> <li><strong>Tool Proficiencies:</strong> One type of gaming set</li> <li><strong>Languages:</strong> One of your choice</li> <li><strong>Equipment:</strong> A set of fine clothes, a signet ring, a scroll of pedigree, and a purse containing 25 gp</li> </ul> <div element=\"ID_BACKGROUND_FEATURE_POSITIONOFPRIVILEGE\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Nobles are born and raised to a very different lifestyle than most people ever experience, and their personalities reflect that upbringing. A noble title comes with a plethora of bonds—responsibilities to family, to other nobles (including the sovereign), to the people entrusted to the family's care, or even to the title itself. But this responsibility is often a good way to undermine a noble.</p> <h4>VARIANT NOBLE: KNIGHT</h4> <p>A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature (see the sidebar) instead of the Position of Privilege feature. One of your commoner retainers is replaced by a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood. Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).</p> <p class=\"indent\">As an emblem of chivalry and the ideals of courtly love, you might include among your equipment a banner or other token from a noble lord or lady to whom you have given your heart—in a chaste sort of devotion. (This person could be your bond.)</p> <h4>VARIANT FEATURE: RETAINERS</h4> <p>If your character has a noble background, you may select this background feature instead of Position of Privilege. You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused.</p>",
+      "id": "ID_BACKGROUND_NOBLE",
+      "name": "Noble",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_HISTORY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERSUASION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_BACKGROUND_FEATURE_POSITIONOFPRIVILEGE",
+            "requirements": "!ID_WOTC_PHB_BACKGROUND_FEATURE_KNIGHT_RETAINERS,!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Gaming Set (Noble)",
+            "supports": "Gaming Set",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language (Noble)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Noble",
+            "optional": "true",
+            "supports": "Variant Noble",
+            "type": "Background Variant"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "requirements": "!ID_WOTC_PHB_BACKGROUND_VARIANT_NOBLE_KNIGHT",
+            "supports": "Background Feature, Noble || Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.",
+                "id": "1"
+              },
+              {
+                "description": "The common folk love me for my kindness and generosity.",
+                "id": "2"
+              },
+              {
+                "description": "No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.",
+                "id": "3"
+              },
+              {
+                "description": "I take great pains to always look my best and follow the latest fashions.",
+                "id": "4"
+              },
+              {
+                "description": "I don't like to get my hands dirty, and I won't be caught dead in unsuitable accommodations.",
+                "id": "5"
+              },
+              {
+                "description": "Despite my noble birth, I do not place myself above other folk. We all have the same blood.",
+                "id": "6"
+              },
+              {
+                "description": "My favor, once lost, is lost forever.",
+                "id": "7"
+              },
+              {
+                "description": "If you do me an injury, I will crush you, ruin your name, and salt your fields.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Independence. I must prove that I can handle myself without the coddling of my family. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Power. If I can attain more power, no one will tell me what to do. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Family. Blood runs thicker than water. (Any)",
+                "id": "5"
+              },
+              {
+                "description": "Noble Obligation. It is my duty to protect and care for the people beneath me. (Good)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I will face any challenge to win the approval of my family.",
+                "id": "1"
+              },
+              {
+                "description": "My house's alliance with another noble family must be sustained at all costs.",
+                "id": "2"
+              },
+              {
+                "description": "Nothing is more important than the other members of my family.",
+                "id": "3"
+              },
+              {
+                "description": "I am in love with the heir of a family that my family despises.",
+                "id": "4"
+              },
+              {
+                "description": "My loyalty to my sovereign is unwavering.",
+                "id": "5"
+              },
+              {
+                "description": "The common folk must see me as a hero of the people.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I secretly believe that everyone is beneath me.",
+                "id": "1"
+              },
+              {
+                "description": "I hide a truly scandalous secret that could ruin my family forever.",
+                "id": "2"
+              },
+              {
+                "description": "I too often hear veiled insults and threats in every word addressed to me, and I'm quick to anger.",
+                "id": "3"
+              },
+              {
+                "description": "I have an insatiable desire for carnal pleasures.",
+                "id": "4"
+              },
+              {
+                "description": "In fact, the world does revolve around me.",
+                "id": "5"
+              },
+              {
+                "description": "By my words and actions, I often bring shame to my family.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "History, Persuasion, Gaming Set, Language",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to.</p>",
+      "id": "ID_BACKGROUND_FEATURE_POSITIONOFPRIVILEGE",
+      "name": "Feature: Position of Privilege",
+      "sheet": {
+        "alt": "Position of Privilege"
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature, Noble",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature (see the sidebar) instead of the Position of Privilege feature. One of your commoner retainers is replaced by a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood. Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).</p> <p class=\"indent\">As an emblem of chivalry and the ideals of courtly love, you might include among your equipment a banner or other token from a noble lord or lady to whom you have given your heart—in a chaste sort of devotion. (This person could be your bond.)</p>",
+      "id": "ID_WOTC_PHB_BACKGROUND_VARIANT_NOBLE_KNIGHT",
+      "name": "Variant Noble: Knight",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_PHB_BACKGROUND_FEATURE_KNIGHT_RETAINERS",
+          "type": "Background Feature"
+        }
+      },
+      "sheet": {
+        "alt": "Knight"
+      },
+      "source": "Player's Handbook",
+      "supports": "Variant Noble",
+      "type": "Background Variant"
+    },
+    {
+      "description": "<p>If your character has a noble background, you may select this background feature instead of Position of Privilege. You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused.</p>",
+      "id": "ID_WOTC_PHB_BACKGROUND_FEATURE_KNIGHT_RETAINERS",
+      "name": "Feature: Retainers",
+      "sheet": {
+        "alt": "Retainers",
+        "content": "You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature, Noble",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Noble Background",
+    "name": "Noble",
+    "update": {
+      "file": {
+        "name": "background-noble.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-noble.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

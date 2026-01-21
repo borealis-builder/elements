@@ -1,0 +1,5916 @@
+{
+  "element": [
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_APE",
+      "name": "Ape",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "19"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:athletics:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "16",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "14",
+            "name": "constitution"
+          },
+          {
+            "description": "6",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "19 (3d8+6)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., climb 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Athletics +5, Perception +3",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/2",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_APE_MULTIATTACK,ID_WOTC_PHB_COMPANION_ACTION_APE_FIST,ID_WOTC_PHB_COMPANION_ACTION_APE_ROCK",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The ape makes two fist attacks.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_APE_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": "The ape makes two fist attacks.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_APE_FIST",
+      "name": "Fist",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_APE_ROCK",
+      "name": "Rock",
+      "sheet": "Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_BABOON",
+      "name": "Baboon",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "3"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "8",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "4",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "3 (1d6)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., climb 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_BABOON_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_BABOON_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_BABOON_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 ft. of the creature and the ally isn't incapacitated.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_BABOON_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_BADGER",
+      "name": "Badger",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "3"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:burrow",
+            "value": "5"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "4",
+            "name": "strength"
+          },
+          {
+            "description": "11",
+            "name": "dexterity"
+          },
+          {
+            "description": "12",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "10",
+            "name": "ac"
+          },
+          {
+            "description": "3 (1d4+1)",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft., burrow 5 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_BADGER_KEEN_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_BADGER_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The badger has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_BADGER_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "The badger has advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_BADGER_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_BAT",
+      "name": "Bat",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "5"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "2",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "4",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "5 ft., fly 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 60 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_BAT_ECHOLOCATION,ID_WOTC_PHB_COMPANION_TRAIT_BAT_KEEN_HEARING",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_BAT_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The bat can't use its blindsight while deafened.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_BAT_ECHOLOCATION",
+      "name": "Echolocation",
+      "sheet": "The bat can't use its blindsight while deafened.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The bat has advantage on Wisdom (Perception) checks that rely on hearing.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_BAT_KEEN_HEARING",
+      "name": "Keen Hearing",
+      "sheet": "The bat has advantage on Wisdom (Perception) checks that rely on hearing.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_BAT_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_BLACK_BEAR",
+      "name": "Black Bear",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "19"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "15",
+            "name": "strength"
+          },
+          {
+            "description": "10",
+            "name": "dexterity"
+          },
+          {
+            "description": "14",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "11 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "19 (3d8+6)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft., climb 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/2",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_BLACK_BEAR_KEEN_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_BLACK_BEAR_MULTIATTACK,ID_WOTC_PHB_COMPANION_ACTION_BLACK_BEAR_BITE,ID_WOTC_PHB_COMPANION_ACTION_BLACK_BEAR_CLAWS",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The bear has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_BLACK_BEAR_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The bear makes two attacks: one with its bite and one with its claws.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_BLACK_BEAR_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": "The bear makes two attacks: one with its bite and one with its claws.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_BLACK_BEAR_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_BLACK_BEAR_CLAWS",
+      "name": "Claws",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_BLOOD_HAWK",
+      "name": "Blood Hawk",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "7"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "60"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "6",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "14",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "7 (2d6)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 60 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +4",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_BLOOD_HAWK_KEEN_SIGHT,ID_WOTC_PHB_COMPANION_TRAIT_BLOOD_HAWK_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_BLOOD_HAWK_BEAK",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The hawk has advantage on Wisdom (Perception) checks that rely on sight.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_BLOOD_HAWK_KEEN_SIGHT",
+      "name": "Keen Sight",
+      "sheet": "The hawk has advantage on Wisdom (Perception) checks that rely on sight.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_BLOOD_HAWK_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 ft. of the creature and the ally isn't incapacitated.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_BLOOD_HAWK_BEAK",
+      "name": "Beak",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_BOAR",
+      "name": "Boar",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "13",
+            "name": "strength"
+          },
+          {
+            "description": "11",
+            "name": "dexterity"
+          },
+          {
+            "description": "12",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "9",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "11 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "11 (2d8+2)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_BOAR_CHARGE,ID_WOTC_PHB_COMPANION_TRAIT_BOAR_RELENTLESS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_BOAR_TUSK",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_BOAR_CHARGE",
+      "name": "Charge",
+      "sheet": "If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_BOAR_RELENTLESS",
+      "name": "Relentless",
+      "sheet": {
+        "content": "If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.",
+        "usage": "Recharges after a Short or Long Rest"
+      },
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_BOAR_TUSK",
+      "name": "Tusk",
+      "sheet": "Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_CAT",
+      "name": "Cat",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "3",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "2 (1d4)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft., climb 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3, Stealth +4",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_CAT_KEEN_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_CAT_CLAWS",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The cat has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_CAT_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "The cat has advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_CAT_CLAWS",
+      "name": "Claws",
+      "sheet": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_CRAB",
+      "name": "Crab",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "2",
+            "name": "strength"
+          },
+          {
+            "description": "11",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "8",
+            "name": "wisdom"
+          },
+          {
+            "description": "2",
+            "name": "charisma"
+          },
+          {
+            "description": "11 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "2 (1d4)",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft., swim 20 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Stealth +2",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_CRAB_AMPHIBIOUS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_CRAB_CLAW",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The crab can breathe air and water.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_CRAB_AMPHIBIOUS",
+      "name": "Amphibious",
+      "sheet": "The crab can breathe air and water.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_CRAB_CLAW",
+      "name": "Claw",
+      "sheet": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_DEER",
+      "name": "Deer",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "4"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "50"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "11",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "14",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "4 (1d8)",
+            "name": "hp"
+          },
+          {
+            "description": "50 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_DEER_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_DEER_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_EAGLE",
+      "name": "Eagle",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "3"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "60"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "6",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "14",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "3 (1d6)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 60 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +4",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_EAGLE_KEEN_SIGHT",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_EAGLE_TALONS",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The eagle has advantage on Wisdom (Perception) checks that rely on sight.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_EAGLE_KEEN_SIGHT",
+      "name": "Keen Sight",
+      "sheet": "The eagle has advantage on Wisdom (Perception) checks that rely on sight.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_EAGLE_TALONS",
+      "name": "Talons",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_FLYING_SNAKE",
+      "name": "Flying Snake",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "14"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "5"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "60"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "4",
+            "name": "strength"
+          },
+          {
+            "description": "18",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "14",
+            "name": "ac"
+          },
+          {
+            "description": "5 (2d4)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., fly 60 ft., swim 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 10 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_FLYING_SNAKE_FLYBY",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_FLYING_SNAKE_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_FLYING_SNAKE_FLYBY",
+      "name": "Flyby",
+      "sheet": "The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_FLYING_SNAKE_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_FROG",
+      "name": "Frog",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "1",
+            "name": "strength"
+          },
+          {
+            "description": "13",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "8",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "11",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft., swim 20 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +1, Stealth +3",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_FROG_AMPHIBIOUS,ID_WOTC_PHB_COMPANION_TRAIT_FROG_STANDING_LEAP",
+            "name": "traits"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The frog can breathe air and water</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_FROG_AMPHIBIOUS",
+      "name": "Amphibious",
+      "sheet": "The frog can breathe air and water",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_FROG_STANDING_LEAP",
+      "name": "Standing Leap",
+      "sheet": "The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_BADGER",
+      "name": "Giant Badger",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:burrow",
+            "value": "10"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "13",
+            "name": "strength"
+          },
+          {
+            "description": "10",
+            "name": "dexterity"
+          },
+          {
+            "description": "15",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "10",
+            "name": "ac"
+          },
+          {
+            "description": "13 (2d8+4)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., burrow 10 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_BADGER_KEEN_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_BADGER_MULTIATTACK,ID_WOTC_PHB_COMPANION_ACTION_GIANT_BADGER_BITE,ID_WOTC_PHB_COMPANION_ACTION_GIANT_BADGER_CLAWS",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The badger has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_BADGER_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "The badger has advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The badger makes two attacks: one with its bite and one with its claws.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_BADGER_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": "The badger makes two attacks: one with its bite and one with its claws.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_BADGER_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_BADGER_CLAWS",
+      "name": "Claws",
+      "sheet": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_CENTIPEDE",
+      "name": "Giant Centipede",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "4"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "5",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "12",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "7",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "13 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "4 (1d6+1)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., climb 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_CENTIPEDE_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_CENTIPEDE_BITE",
+      "name": "Bite",
+      "sheet": "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_CRAB",
+      "name": "Giant Crab",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "15"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "13",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "9",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "15 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "13 (3d8)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., swim 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Stealth +4",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_CRAB_AMPHIBIOUS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_CRAB_CLAW",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The crab can breathe air and water.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_CRAB_AMPHIBIOUS",
+      "name": "Amphibious",
+      "sheet": "The crab can breathe air and water.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_CRAB_CLAW",
+      "name": "Claw",
+      "sheet": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_FIRE_BEETLE",
+      "name": "Giant Fire Beetle",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "4"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "8",
+            "name": "strength"
+          },
+          {
+            "description": "10",
+            "name": "dexterity"
+          },
+          {
+            "description": "12",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "7",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "13 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "4 (1d6+1)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_FIRE_BEETLE_ILLUMINATION",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_FIRE_BEETLE_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 ft..</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_FIRE_BEETLE_ILLUMINATION",
+      "name": "Illumination",
+      "sheet": "The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 ft..",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_FIRE_BEETLE_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_FROG",
+      "name": "Giant Frog",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "18"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "12",
+            "name": "strength"
+          },
+          {
+            "description": "13",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "11",
+            "name": "ac"
+          },
+          {
+            "description": "18 (4d8)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., swim 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +2, Stealth +3",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_FROG_AMPHIBIOUS,ID_WOTC_PHB_COMPANION_TRAIT_GIANT_FROG_STANDING_LEAP",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_FROG_BITE,ID_WOTC_PHB_COMPANION_ACTION_GIANT_FROG_SWALLOW",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The frog can breathe air and water</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_FROG_AMPHIBIOUS",
+      "name": "Amphibious",
+      "sheet": "The frog can breathe air and water",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The frog's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_FROG_STANDING_LEAP",
+      "name": "Standing Leap",
+      "sheet": "The frog's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_FROG_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_FROG_SWALLOW",
+      "name": "Swallow",
+      "sheet": "The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_POISONOUS_SNAKE",
+      "name": "Giant Poisonous Snake",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "14"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "10",
+            "name": "strength"
+          },
+          {
+            "description": "18",
+            "name": "dexterity"
+          },
+          {
+            "description": "13",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "14",
+            "name": "ac"
+          },
+          {
+            "description": "11 (2d8+2)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., swim 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 10 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +2",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_POISONOUS_SNAKE_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_POISONOUS_SNAKE_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_RAT",
+      "name": "Giant Rat",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "7"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "7",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "4",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "7 (2d6)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 60 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_RAT_KEEN_SMELL,ID_WOTC_PHB_COMPANION_TRAIT_GIANT_RAT_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_RAT_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The rat has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_RAT_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "The rat has advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_RAT_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 ft. of the creature and the ally isn't incapacitated.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_RAT_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_RAT__DISEASED",
+      "name": "Giant Rat (Diseased)",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "7"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "7",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "4",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "7 (2d6)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 60 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_RAT__DISEASED_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_RAT__DISEASED_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_WASP",
+      "name": "Giant Wasp",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "50"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "50"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "10",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "13 (3d8)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 50 ft., swim 50 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/2",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_WASP_STING",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_WASP_STING",
+      "name": "Sting",
+      "sheet": "Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_WEASEL",
+      "name": "Giant Weasel",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "9"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "11",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "4",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "9 (2d8)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 60 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3, Stealth +5",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_WEASEL_KEEN_HEARING_AND_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_WEASEL_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_WEASEL_KEEN_HEARING_AND_SMELL",
+      "name": "Keen Hearing and Smell",
+      "sheet": "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_WEASEL_BITE",
+      "name": "Bite",
+      "sheet": "Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GIANT_WOLF_SPIDER",
+      "name": "Giant Wolf Spider",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "double",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "12",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "13",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "4",
+            "name": "charisma"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "11 (2d8+2)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft., climb 40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 10 ft., darkvision 60 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3, Stealth +7",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_WOLF_SPIDER_SPIDER_CLIMB,ID_WOTC_PHB_COMPANION_TRAIT_GIANT_WOLF_SPIDER_WEB_SENSE,ID_WOTC_PHB_COMPANION_TRAIT_GIANT_WOLF_SPIDER_WEB_WALKER",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_WOLF_SPIDER_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_WOLF_SPIDER_SPIDER_CLIMB",
+      "name": "Spider Climb",
+      "sheet": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_WOLF_SPIDER_WEB_SENSE",
+      "name": "Web Sense",
+      "sheet": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The spider ignores movement restrictions caused by webbing.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GIANT_WOLF_SPIDER_WEB_WALKER",
+      "name": "Web Walker",
+      "sheet": "The spider ignores movement restrictions caused by webbing.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GIANT_WOLF_SPIDER_BITE",
+      "name": "Bite",
+      "sheet": "Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_GOAT",
+      "name": "Goat",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "4"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "12",
+            "name": "strength"
+          },
+          {
+            "description": "10",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "10",
+            "name": "ac"
+          },
+          {
+            "description": "4 (1d8)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_GOAT_CHARGE,ID_WOTC_PHB_COMPANION_TRAIT_GOAT_SURE_FOOTED",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_GOAT_RAM",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GOAT_CHARGE",
+      "name": "Charge",
+      "sheet": "If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_GOAT_SURE_FOOTED",
+      "name": "Sure-Footed",
+      "sheet": "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_GOAT_RAM",
+      "name": "Ram",
+      "sheet": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_HAWK",
+      "name": "Hawk",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "60"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "5",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "14",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 60 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +4",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_HAWK_KEEN_SIGHT",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_HAWK_TALONS",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The hawk has advantage on Wisdom (Perception) checks that rely on sight.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_HAWK_KEEN_SIGHT",
+      "name": "Keen Sight",
+      "sheet": "The hawk has advantage on Wisdom (Perception) checks that rely on sight.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_HAWK_TALONS",
+      "name": "Talons",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_HYENA",
+      "name": "Hyena",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "5"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "50"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "11",
+            "name": "strength"
+          },
+          {
+            "description": "13",
+            "name": "dexterity"
+          },
+          {
+            "description": "12",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "11",
+            "name": "ac"
+          },
+          {
+            "description": "5 (1d8+1)",
+            "name": "hp"
+          },
+          {
+            "description": "50 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_HYENA_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_HYENA_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_HYENA_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 ft. of the creature and the ally isn't incapacitated.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_HYENA_BITE",
+      "name": "Bite",
+      "sheet": "Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_JACKAL",
+      "name": "Jackal",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "3"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "8",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "3 (1d6)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_JACKAL_KEEN_HEARING_AND_SMELL,ID_WOTC_PHB_COMPANION_TRAIT_JACKAL_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_JACKAL_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_JACKAL_KEEN_HEARING_AND_SMELL",
+      "name": "Keen Hearing and Smell",
+      "sheet": "The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_JACKAL_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 ft. of the creature and the ally isn't incapacitated.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_JACKAL_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_LIZARD",
+      "name": "Lizard",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "20"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "2",
+            "name": "strength"
+          },
+          {
+            "description": "11",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "8",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "10",
+            "name": "ac"
+          },
+          {
+            "description": "2 (1d4)",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft., climb 20 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_LIZARD_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_LIZARD_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_MASTIFF",
+      "name": "Mastiff",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "5"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "13",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "12",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "5 (1d8+1)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_MASTIFF_KEEN_HEARING_AND_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_MASTIFF_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_MASTIFF_KEEN_HEARING_AND_SMELL",
+      "name": "Keen Hearing and Smell",
+      "sheet": "The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_MASTIFF_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_MULE",
+      "name": "Mule",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "14",
+            "name": "strength"
+          },
+          {
+            "description": "10",
+            "name": "dexterity"
+          },
+          {
+            "description": "13",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "10",
+            "name": "ac"
+          },
+          {
+            "description": "11 (2d8+2)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_MULE_BEAST_OF_BURDEN,ID_WOTC_PHB_COMPANION_TRAIT_MULE_SURE_FOOTED",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_MULE_HOOVES",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The mule is considered to be a Large animal for the purpose of determining its carrying capacity.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_MULE_BEAST_OF_BURDEN",
+      "name": "Beast of Burden",
+      "sheet": "The mule is considered to be a Large animal for the purpose of determining its carrying capacity.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_MULE_SURE_FOOTED",
+      "name": "Sure-Footed",
+      "sheet": "The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_MULE_HOOVES",
+      "name": "Hooves",
+      "sheet": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_OCTOPUS",
+      "name": "Octopus",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "3"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "5"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "4",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "4",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "3 (1d6)",
+            "name": "hp"
+          },
+          {
+            "description": "5 ft., swim 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +2, Stealth +4",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_OCTOPUS_HOLD_BREATH,ID_WOTC_PHB_COMPANION_TRAIT_OCTOPUS_UNDERWATER_CAMOUFLAGE,ID_WOTC_PHB_COMPANION_TRAIT_OCTOPUS_WATER_BREATHING",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_OCTOPUS_TENTACLES,ID_WOTC_PHB_COMPANION_ACTION_OCTOPUS_INK_CLOUD",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>While out of water, the octopus can hold its breath for 30 minutes.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_OCTOPUS_HOLD_BREATH",
+      "name": "Hold Breath",
+      "sheet": "While out of water, the octopus can hold its breath for 30 minutes.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The octopus has advantage on Dexterity (Stealth) checks made while underwater.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_OCTOPUS_UNDERWATER_CAMOUFLAGE",
+      "name": "Underwater Camouflage",
+      "sheet": "The octopus has advantage on Dexterity (Stealth) checks made while underwater.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The octopus can breathe only underwater.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_OCTOPUS_WATER_BREATHING",
+      "name": "Water Breathing",
+      "sheet": "The octopus can breathe only underwater.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_OCTOPUS_TENTACLES",
+      "name": "Tentacles",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_OCTOPUS_INK_CLOUD",
+      "name": "Ink Cloud",
+      "sheet": {
+        "content": "A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.",
+        "usage": "Recharges after a Short or Long Rest"
+      },
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_OWL",
+      "name": "Owl",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "5"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "60"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "3",
+            "name": "strength"
+          },
+          {
+            "description": "13",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "11",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "5 ft., fly 60 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 120 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3, Stealth +3",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_OWL_FLYBY,ID_WOTC_PHB_COMPANION_TRAIT_OWL_KEEN_HEARING_AND_SIGHT",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_OWL_TALONS",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_OWL_FLYBY",
+      "name": "Flyby",
+      "sheet": "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_OWL_KEEN_HEARING_AND_SIGHT",
+      "name": "Keen Hearing and Sight",
+      "sheet": "The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_OWL_TALONS",
+      "name": "Talons",
+      "sheet": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_PANTHER",
+      "name": "Panther",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "50"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "double",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "14",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "14",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "13 (3d8)",
+            "name": "hp"
+          },
+          {
+            "description": "50 ft., climb 40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +4, Stealth +6",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_PANTHER_KEEN_SMELL,ID_WOTC_PHB_COMPANION_TRAIT_PANTHER_POUNCE",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_PANTHER_BITE,ID_WOTC_PHB_COMPANION_ACTION_PANTHER_CLAW",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The panther has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_PANTHER_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "The panther has advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_PANTHER_POUNCE",
+      "name": "Pounce",
+      "sheet": "If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_PANTHER_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_PANTHER_CLAW",
+      "name": "Claw",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_POISONOUS_SNAKE",
+      "name": "Poisonous Snake",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "2",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "2 (1d4)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., swim 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 10 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_POISONOUS_SNAKE_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_POISONOUS_SNAKE_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_PONY",
+      "name": "Pony",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "15",
+            "name": "strength"
+          },
+          {
+            "description": "10",
+            "name": "dexterity"
+          },
+          {
+            "description": "13",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "11",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "10",
+            "name": "ac"
+          },
+          {
+            "description": "11 (2d8+2)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_PONY_HOOVES",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_PONY_HOOVES",
+      "name": "Hooves",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_PTERANODON",
+      "name": "Pteranodon",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "60"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "12",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "9",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "13 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "13 (3d8)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 60 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +1",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_PTERANODON_FLYBY",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_PTERANODON_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The pteranodon doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_PTERANODON_FLYBY",
+      "name": "Flyby",
+      "sheet": "The pteranodon doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_PTERANODON_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_QUIPPER",
+      "name": "Quipper",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "swim 40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "40"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "2",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "9",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "7",
+            "name": "wisdom"
+          },
+          {
+            "description": "2",
+            "name": "charisma"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "swim 40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 60 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_QUIPPER_BLOOD_FRENZY,ID_WOTC_PHB_COMPANION_TRAIT_QUIPPER_WATER_BREATHING",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_QUIPPER_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_QUIPPER_BLOOD_FRENZY",
+      "name": "Blood Frenzy",
+      "sheet": "The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The quipper can breathe only underwater.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_QUIPPER_WATER_BREATHING",
+      "name": "Water Breathing",
+      "sheet": "The quipper can breathe only underwater.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_QUIPPER_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_RAT",
+      "name": "Rat",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "2",
+            "name": "strength"
+          },
+          {
+            "description": "11",
+            "name": "dexterity"
+          },
+          {
+            "description": "9",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "4",
+            "name": "charisma"
+          },
+          {
+            "description": "10",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_RAT_KEEN_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_RAT_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The rat has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_RAT_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "The rat has advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_RAT_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_RAVEN",
+      "name": "Raven",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "50"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "2",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 50 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_RAVEN_MIMICRY",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_RAVEN_BEAK",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_RAVEN_MIMICRY",
+      "name": "Mimicry",
+      "sheet": "The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_RAVEN_BEAK",
+      "name": "Beak",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_REEF_SHARK",
+      "name": "Reef Shark",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "22"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "swim 40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "14",
+            "name": "strength"
+          },
+          {
+            "description": "13",
+            "name": "dexterity"
+          },
+          {
+            "description": "13",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "4",
+            "name": "charisma"
+          },
+          {
+            "description": "12 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "22 (4d8+4)",
+            "name": "hp"
+          },
+          {
+            "description": "swim 40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +2",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/2",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_REEF_SHARK_PACK_TACTICS,ID_WOTC_PHB_COMPANION_TRAIT_REEF_SHARK_WATER_BREATHING",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_REEF_SHARK_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_REEF_SHARK_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 ft. of the creature and the ally isn't incapacitated.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The shark can breathe only underwater.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_REEF_SHARK_WATER_BREATHING",
+      "name": "Water Breathing",
+      "sheet": "The shark can breathe only underwater.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_REEF_SHARK_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_SCORPION",
+      "name": "Scorpion",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "2",
+            "name": "strength"
+          },
+          {
+            "description": "11",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "8",
+            "name": "wisdom"
+          },
+          {
+            "description": "2",
+            "name": "charisma"
+          },
+          {
+            "description": "11 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 10 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_SCORPION_STING",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_SCORPION_STING",
+      "name": "Sting",
+      "sheet": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_SEA_HORSE",
+      "name": "Sea Horse",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "swim 20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "20"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "1",
+            "name": "strength"
+          },
+          {
+            "description": "12",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "2",
+            "name": "charisma"
+          },
+          {
+            "description": "11",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "swim 20 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_SEA_HORSE_WATER_BREATHING",
+            "name": "traits"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The sea horse can breathe only underwater.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_SEA_HORSE_WATER_BREATHING",
+      "name": "Water Breathing",
+      "sheet": "The sea horse can breathe only underwater.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_SPIDER",
+      "name": "Spider",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "2",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "1",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "2",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft., climb 20 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 30 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Stealth +4",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_SPIDER_SPIDER_CLIMB,ID_WOTC_PHB_COMPANION_TRAIT_SPIDER_WEB_SENSE,ID_WOTC_PHB_COMPANION_TRAIT_SPIDER_WEB_WALKER",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_SPIDER_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_SPIDER_SPIDER_CLIMB",
+      "name": "Spider Climb",
+      "sheet": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_SPIDER_WEB_SENSE",
+      "name": "Web Sense",
+      "sheet": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The spider ignores movement restrictions caused by webbing.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_SPIDER_WEB_WALKER",
+      "name": "Web Walker",
+      "sheet": "The spider ignores movement restrictions caused by webbing.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_SPIDER_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_STIRGE",
+      "name": "Stirge",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "14"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "40"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "4",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "8",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "14 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "2 (1d4)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 60 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_STIRGE_BLOOD_DRAIN",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.</p> <p class=\"indent\">The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_STIRGE_BLOOD_DRAIN",
+      "name": "Blood Drain",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_VULTURE",
+      "name": "Vulture",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "5"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "50"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "7",
+            "name": "strength"
+          },
+          {
+            "description": "10",
+            "name": "dexterity"
+          },
+          {
+            "description": "13",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "4",
+            "name": "charisma"
+          },
+          {
+            "description": "10",
+            "name": "ac"
+          },
+          {
+            "description": "5 (1d8+1)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 50 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_VULTURE_KEEN_SIGHT_AND_SMELL,ID_WOTC_PHB_COMPANION_TRAIT_VULTURE_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_VULTURE_BEAK",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_VULTURE_KEEN_SIGHT_AND_SMELL",
+      "name": "Keen Sight and Smell",
+      "sheet": "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_VULTURE_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft. of the creature and the ally isn't incapacitated.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_VULTURE_BEAK",
+      "name": "Beak",
+      "sheet": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_WEASEL",
+      "name": "Weasel",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "3",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4-1)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3, Stealth +5",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_WEASEL_KEEN_HEARING_AND_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_WEASEL_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_WEASEL_KEEN_HEARING_AND_SMELL",
+      "name": "Keen Hearing and Smell",
+      "sheet": "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_WEASEL_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_PHB_COMPANION_WOLF",
+      "name": "Wolf",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "12",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "12",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "13 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "11 (2d8+2)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3, Stealth +4",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_TRAIT_WOLF_KEEN_HEARING_AND_SMELL,ID_WOTC_PHB_COMPANION_TRAIT_WOLF_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_PHB_COMPANION_ACTION_WOLF_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_WOLF_KEEN_HEARING_AND_SMELL",
+      "name": "Keen Hearing and Smell",
+      "sheet": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_TRAIT_WOLF_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.",
+      "source": "Player's Handbook",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>",
+      "id": "ID_WOTC_PHB_COMPANION_ACTION_WOLF_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
+      "source": "Player's Handbook",
+      "type": "Companion Action"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Companion creatures from the Player's Handbook.",
+    "name": "Companions",
+    "update": {
+      "file": {
+        "name": "companions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/companions.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

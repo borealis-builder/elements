@@ -1,0 +1,237 @@
+{
+  "element": [
+    {
+      "description": "<p>The prospect of immense wealth is the promise of membership in the Orzhov Syndicate. All of the guild's endeavors channel wealth from Ravoican society into the ranks of the Orzhov- and concentrates the spoils at the top of the hierarchy. As a functionary in that system, your best hope is to claim as much as possible of the money that passes through your hands on its way up, so that you can work your way into a more prominent position.</p> <p class=\"indent\">Regardless of your past and the wealth of your family. your initial status with the guild is near the bottom, until you have proven your value.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Intimidation, Religion</li> <li><strong>Languages:</strong> Two of your choice</li> <li><strong>Equipment:</strong> An Orzhov insignia, a foot-long chain made of ten gold coins, vestments, a set of fine clothes, and a belt pouch containing 1 pp (an Orzhov-minted 10-zino coin)</li> </ul> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_ORZHOV_REPRESENTATIVE_LEVERAGE\" /> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_ORZHOV_REPRESENTATIVE_ORZHOV_GUILD_SPELLS\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Members of the Orzhov Syndicate range from the decadent nobility at the top of the oligarchy to the debt-ridden wretches at the bottom. You fall somewhere between those extremes, so you might behave with the arrogance of the very rich or the humility of the impoverished.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_ORZHOV_REPRESENTATIVE",
+      "name": "Orzhov Representative",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_INTIMIDATION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_RELIGION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_ORZHOV_REPRESENTATIVE_LEVERAGE",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_ORZHOV_REPRESENTATIVE_ORZHOV_GUILD_SPELLS",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language, Orzhov Representative",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I am always willing to act in acco rdance with the financial incentive offered.",
+                "id": "1"
+              },
+              {
+                "description": "Debts are never meant to be forgiven.",
+                "id": "2"
+              },
+              {
+                "description": "I am accustomed to enjoy ing the finest pleasures money can buy.",
+                "id": "3"
+              },
+              {
+                "description": "No one could doubt that I am a cut above the masses of pitiful peasants that infest the city.",
+                "id": "4"
+              },
+              {
+                "description": "I can't stand to spend a zib more than necessary to purchase what I need.",
+                "id": "5"
+              },
+              {
+                "description": "I hate it when people try to make light of a serious situation.",
+                "id": "6"
+              },
+              {
+                "description": "I want to make sure everyone is aware of how wealthy, powerful, and important I am.",
+                "id": "7"
+              },
+              {
+                "description": "I can't think of anything to look forward to.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Guild. My guild is all that really matters. (Any)",
+                "id": "1"
+              },
+              {
+                "description": "Wealth. I will do whatever it takes to become as rich as the oligarchs. (Evil)",
+                "id": "2"
+              },
+              {
+                "description": "Power. One day, I will be the one giving orders. (Evil)",
+                "id": "3"
+              },
+              {
+                "description": "Prestige. I want to be admired, respected, feared, or even hated for my position and wealth. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Stability. The economy functions best when chaos is kept under control and everyone knows their place. (lawful)",
+                "id": "5"
+              },
+              {
+                "description": "Eternity. I want to live forever-in the flesh as long as possible, and as a spirit afterward. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "The unbearable weight of my debt has driven me to desperation.",
+                "id": "1"
+              },
+              {
+                "description": "I'm duty-bound to obey the dictates of an ancestor on the Ghost Council.",
+                "id": "2"
+              },
+              {
+                "description": "I value my worldly goods more highly than my mortal life.",
+                "id": "3"
+              },
+              {
+                "description": "An oligarch publicly humiliated me, and I will exact revenge on that whole family.",
+                "id": "4"
+              },
+              {
+                "description": "My faith in the Obzedat never wavers.",
+                "id": "5"
+              },
+              {
+                "description": "I want to prove myself more worthy than an older sibling and thereby ensure that I inherit a greater share of my parents' wealth.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I hold a scandalous secret that could ruin my family forever-but could also earn me the favor of the Ghost Council.",
+                "id": "1"
+              },
+              {
+                "description": "I'm convinced that everyone I know is plotting against me.",
+                "id": "2"
+              },
+              {
+                "description": "I'll brave any risk if the monetary reward is great enough.",
+                "id": "3"
+              },
+              {
+                "description": "I am convinced that I am far more important than anyone else is willing to acknowledge.",
+                "id": "4"
+              },
+              {
+                "description": "I have little respect for anyone who isn't wealthy.",
+                "id": "5"
+              },
+              {
+                "description": "I'll take any opportunity to steal from wealthier people, even for worthless trinkets.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Intimidation, Religion, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You can exert leverage over one or more individuals below you in the guild's hierarchy and demand their help as needs warrant. For example, you can have a message carried across a neighborhood, procure a short carriage ride without paying, or have others clean up a bloody mess you left in an alley. The OM decides if your demands are reasonable and if there are subordinates available to fulfill them. As your status in the guild improves, you gain influence over more people, including ones in greater positions of power.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_ORZHOV_REPRESENTATIVE_LEVERAGE",
+      "name": "Feature: Leverage",
+      "sheet": {
+        "alt": "Leverage",
+        "content": "You can exert leverage over one or more individuals below you in the guild's hierarchy and demand their help as needs warrant. For example, you can have a message carried across a neighborhood, procure a short carriage ride without paying, or have others clean up a bloody mess you left in an alley. The OM decides if your demands are reasonable and if there are subordinates available to fulfill them. As your status in the guild improves, you gain influence over more people, including ones in greater positions of power."
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p> <p>For you, the spells on the Orzhov Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p> <h5>Orzhov Guild Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>Cantrip</td><td><em>friends, guidance</em></td></tr> <tr><td>1st</td><td><em>command, illusory script</em></td></tr> <tr><td>2nd</td><td><em>enthrall, ray of enfeeblement, zone of truth</em></td></tr> <tr><td>3rd</td><td><em>bestow curse, speak with dead, spirit guardians</em></td></tr> <tr><td>4th</td><td><em>blight, death ward, Leomund's secret chest</em></td></tr> <tr><td>5th</td><td><em>geas</em></td></tr> </table> <p class=\"indent\">Your magic tends to manifest as swirling shadows, brilliant light, or sometimes the momentary appearance of shadowy spirit forms. Your spells might draw the blood of your enemies, or even directly touch their souls.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_ORZHOV_REPRESENTATIVE_ORZHOV_GUILD_SPELLS",
+      "name": "Orzhov Guild Spells",
+      "sheet": "Your magic tends to manifest as swirling shadows, brilliant light, or sometimes the momentary appearance of shadowy spirit forms. Your spells might draw the blood of your enemies, or even directly touch their souls.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_FRIENDS",
+          "ID_PHB_SPELL_GUIDANCE",
+          "ID_PHB_SPELL_COMMAND",
+          "ID_PHB_SPELL_ILLUSORY_SCRIPT",
+          "ID_PHB_SPELL_ENTHRALL",
+          "ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT",
+          "ID_PHB_SPELL_ZONE_OF_TRUTH",
+          "ID_PHB_SPELL_BESTOW_CURSE",
+          "ID_PHB_SPELL_SPEAK_WITH_DEAD",
+          "ID_PHB_SPELL_SPIRIT_GUARDIANS",
+          "ID_PHB_SPELL_BLIGHT",
+          "ID_PHB_SPELL_DEATH_WARD",
+          "ID_PHB_SPELL_LEOMUNDS_SECRET_CHEST",
+          "ID_PHB_SPELL_GEAS"
+        ]
+      },
+      "supports": "2nd Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Guildmasters' Guide to Ravnica",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica"
+    },
+    "description": "",
+    "name": "Orzhov Representative",
+    "update": {
+      "file": {
+        "name": "orzhov-representative.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/orzhov-representative.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}

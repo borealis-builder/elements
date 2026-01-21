@@ -1,0 +1,201 @@
+{
+  "element": [
+    {
+      "description": "<p>Historically, inquisitors were cathar detectives who investigated crimes both mundane and supernatural. They were known for traveling to remote parishes plagued by unexplained murders, and for exposing werewolves living among normal humans. During Avacyn's absence, when the archangel was trapped within the demonic prison known as the Helvault, the inquisitors led a series of brutal forays into Kessig and the Gavony Moorland. They executed suspected lycanthropes with little or no proof, and punished accused heretics in unsanctioned trials. With Avacyn's madness, this savage form of inquisition has become the norm, and inquisitors who still pry into dark mysteries have become a minority.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Investigation, Religion</li> <li><strong>Tool Proficiencies:</strong> Thieves' Tools, one set of artisan tools of your choice</li> <li><strong>Equipment:</strong> A holy symbol, a set of traveler's clothes, and a belt pouch containing 15 gp</li> </ul> <div element=\"ID_WOTC_PSI_BACKGROUND_FEATURE_LEGAL_AUTHORITY\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Inquisitors are often driven by zeal, plagued with suspicion, and haunted by self-doubt. They are all too susceptible to human failings, and their judgment is not always divinely inspired.</p>",
+      "id": "ID_WOTC_PSI_BACKGROUND_INQUISITOR",
+      "name": "Inquisitor",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_INVESTIGATION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_RELIGION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_PSI_BACKGROUND_FEATURE_LEGAL_AUTHORITY",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Artisan Tools (Inquisitor)",
+            "supports": "Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "item": [
+              {
+                "description": "It will all go smoothly if everyone just does as I say.",
+                "id": "1"
+              },
+              {
+                "description": "Despair is an extravagance we can ill afford.",
+                "id": "2"
+              },
+              {
+                "description": "I know the writings of Saint Raban backward and forward.",
+                "id": "3"
+              },
+              {
+                "description": "I try to see the bright side in the very worst situations.",
+                "id": "4"
+              },
+              {
+                "description": "It helps me feel better when others show sympathy or appreciation for the horrors I've endured.",
+                "id": "5"
+              },
+              {
+                "description": "I prefer to face evil with a strong group of friends in front of me.",
+                "id": "6"
+              },
+              {
+                "description": "I want to see the wicked burn for the evil they've brought on us.",
+                "id": "7"
+              },
+              {
+                "description": "I feel the sin being purged from me as I help cleanse the world.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Honesty. The smallest deception paves the way to grievous sin. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Piety. Devotion to the angels and the rites of the church is all that keeps the world from destruction. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Order. The laws of Avacyn are meant to preserve the social order—everything in its proper place. (Lawful)",
+                "id": "3"
+              },
+              {
+                "description": "Humanity. Human life is to be cherished and preserved against the horrors of the night. (Good)",
+                "id": "4"
+              },
+              {
+                "description": "Knowledge. The path to holiness comes through understanding of the world. (Any)",
+                "id": "5"
+              },
+              {
+                "description": "Punishment. It is better for the innocent to suffer than for the guilty to escape their due. (Evil)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Thraben is the heart of the world. The cathedral must stand even if the hinterlands are lost.",
+                "id": "1"
+              },
+              {
+                "description": "One day, I will claim vengeance against the monster that took my family from me.",
+                "id": "2"
+              },
+              {
+                "description": "My weapon is all I have to remember my beloved mentor by.",
+                "id": "3"
+              },
+              {
+                "description": "The geist of my beloved speaks to me sometimes.",
+                "id": "4"
+              },
+              {
+                "description": "My dear sibling is now a werewolf.",
+                "id": "5"
+              },
+              {
+                "description": "A small crossways chapel is my spiritual home.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am troubled by the wild rage and bloodlust that lurks in my own heart.",
+                "id": "1"
+              },
+              {
+                "description": "I have come to believe that I executed an innocent person.",
+                "id": "2"
+              },
+              {
+                "description": "I enjoy the prestige of my position more than service to the angels.",
+                "id": "3"
+              },
+              {
+                "description": "I drink to forget the horrors I've seen.",
+                "id": "4"
+              },
+              {
+                "description": "I might have made a promise to a demon that I can't keep.",
+                "id": "5"
+              },
+              {
+                "description": "I'll do whatever grim task must be done, for my soul is already lost.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Investigation, Religion, Thieves' Tools, Artisan's Tools",
+          "name": "short"
+        }
+      },
+      "source": "Plane Shift: Innistrad",
+      "type": "Background"
+    },
+    {
+      "description": "<p>As an inquisitor of the church, you have the authority to arrest criminals. In the absence of other authorities, you are authorized to pass judgment and even carry out sentencing. If you abuse this power, however, your superiors in the church might strip it from you.</p>",
+      "id": "ID_WOTC_PSI_BACKGROUND_FEATURE_LEGAL_AUTHORITY",
+      "name": "Feature: Legal Authority",
+      "sheet": {
+        "alt": "Legal Authority",
+        "content": "As an inquisitor of the church, you have the authority to arrest criminals. In the absence of other authorities, you are authorized to pass judgment and even carry out sentencing. If you abuse this power, however, your superiors in the church might strip it from you."
+      },
+      "source": "Plane Shift: Innistrad",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "https://media.wizards.com/2016/dnd/downloads/Plane_Shift_Innistrad.pdf"
+    },
+    "description": "Inquisitor Background",
+    "name": "Inquisitor",
+    "update": {
+      "file": {
+        "name": "background-inquisitor.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/innistrad/background-inquisitor.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

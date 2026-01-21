@@ -1,0 +1,52 @@
+{
+  "element": {
+    "description": "<h5 style=\"margin-top:-1em\">GREAT BOOKS HIDE THEIR SECRETS WELL</h5> <p><strong><em>An anthology of seventeen mystery-themed adventures for the world's greatest roleplaying game.</em></strong></p> <p>Candlekeep attracts scholars like a flame attracts moths. Historians, sages, and others who crave knowledge flock to this library fortress to peruse its vast collection of books, scribbled into which are the answers to the mysteries that bedevil them. Many of these books contain their own mysteries—each one a doorway to adventure. Dare you cross that threshold?</p> <p>Candlekeep Mysteries is a collection of seventeen short, stand-alone D&amp;D adventures designed for characters of levels 1-16. Each adventure begins with the discovery of a book, and each book is the key to a door behind which danger and glory await. These adventures can be run as one-shot games, plugged into an existing Forgotten Realms campaign, or adapted for other campaign settings.</p> <p>This book also includes a poster map of the library fortress and detailed descriptions of Candlekeep and its inhabitants.</p> <p>Adventure authors include: Graeme Barber, Kelly Lynne D'angelo, Alison Huang, Mark Hulmes, Jennifer Kretchmer, Daniel Kwan, Adam Lee, Ari Levitch, Sarah Madsen, Christopher Perkins, Michael Polkinghorn, Taymoor Rehman, Derek Ruiz, Kienna Shaw, Brandes Stoddard, Amy Vorpahl, and Toni Winslow-Brill.</p>",
+    "id": "ID_WOTC_SOURCE_CANDLEKEEP_MYSTERIES",
+    "name": "Candlekeep Mysteries",
+    "setters": {
+      "set": [
+        {
+          "description": "CM",
+          "name": "abbreviation"
+        },
+        {
+          "description": "https://dnd.wizards.com/products/candlekeep-mysteries",
+          "name": "url"
+        },
+        {
+          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/candlekeep-mysteries/CM.png",
+          "name": "image"
+        },
+        {
+          "abbreviation": "WOTC",
+          "description": "Wizards of the Coast",
+          "name": "author",
+          "url": "http://dnd.wizards.com"
+        },
+        {
+          "description": "true",
+          "name": "official"
+        },
+        {
+          "description": "true",
+          "name": "supplement"
+        },
+        {
+          "description": "20210316",
+          "name": "release"
+        }
+      ]
+    },
+    "source": "Core",
+    "type": "Source"
+  },
+  "info": {
+    "update": {
+      "file": {
+        "name": "source.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/candlekeep-mysteries/source.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

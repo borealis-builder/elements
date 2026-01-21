@@ -1,0 +1,83 @@
+{
+  "element": [
+    {
+      "description": "<p><em>Prerequisite: Dragonlance Campaign</em></p> <p>You have trained to be a valorous warrior known as a Knight of Solamnia. Strict rules guide your every action, and you work to uphold them as you strive to defend the weak and oppose all forms of evil. Your honor is as important to you as your life.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Athletics, Survival</li> <li><strong>Languages:</strong> Two of your choice</li> <li><strong>Equipment:</strong> An insignia of rank, a deck of cards, a set of common clothes, and a pouch containing 10 gp</li> </ul> <div element=\"ID_WOTC_DSDQ_BACKGROUND_FEATURE_SQUIRE_OF_SOLAMNIA\" /> <h5>BUILDING A KNIGHT OF SOLAMNIA CHARACTER</h5> <p>Any class or subclass that has martial prowess can be a good fit in the Knights of Solamnia. Fighters and paladins make up the bulk of the knighthood's forces. Clerics (often with the War domain) can also be found among the knights' ranks.</p> <p class=\"indent\">For a more unusual take on a Knight of Solamnia character, consider playing a bard of the College of Valor (or the College of Swords from <i>Xanathar's Guide to Everything</i>) or a barbarian devoted to the ideals of the nature god Habbakuk (perhaps adopting the Path of the Zealot from <i>Xanathar's Guide to Everything</i>)</p> <p class=\"indent\"><strong><em>Knight of Solamnia Trinkets.</em></strong> When you make your character, roll once on the Knight of Solamnia Trinkets table, instead of on the Trinkets table in the <i>Player's Handbook</i>, for your starting trinket.</p> <h5>Knight of Solamnia Trinkets</h5> <table> <thead> <tr><td>d6</td><td>Trinket</td></tr> </thead> <tr><td>1</td><td>A flat silver disk you record your heroics upon</td></tr> <tr><td>2</td><td>A piece of a fallen knight's armor</td></tr> <tr><td>3</td><td>A pendant featuring a crown, a rose, a sword, or combination of all three</td></tr> <tr><td>4</td><td>The pommel of your mentor's sword</td></tr> <tr><td>5</td><td>A meaningful favor from someone you defended perhaps a handkerchief or glove</td></tr> <tr><td>6</td><td>A brass locket with a sketch of a silver dragon inside</td></tr> </table> <div class=\"reference\"> <div element=\"ID_WOTC_DSDQ_FEAT_SQUIRE_OF_SOLAMNIA\" /> </div>",
+      "id": "ID_WOTC_DSDQ_BACKGROUND_KNIGHT_OF_SOLAMNIA",
+      "name": "Knight of Solamnia",
+      "prerequisite": "Dragonlance Campaign",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_DSDQ_BACKGROUND_FEATURE_SQUIRE_OF_SOLAMNIA",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          }
+        ],
+        "select": [
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "name": "Language (Knight of Solamnia)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Survival, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Dragonlance: Shadow of the Dragon Queen",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You gain the Squire of Solamnia feat.</p> <p class=\"indent\">In addition, the Knights of Solamnia provide you free, modest lodging and food at any of their fortresses or encampments.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DSDQ_FEAT_SQUIRE_OF_SOLAMNIA\" /> </div>",
+      "id": "ID_WOTC_DSDQ_BACKGROUND_FEATURE_SQUIRE_OF_SOLAMNIA",
+      "name": "Feature: Squire of Solamnia",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_DSDQ_FEAT_SQUIRE_OF_SOLAMNIA",
+            "type": "Feat"
+          },
+          {
+            "id": "ID_INTERNAL_GRANTS_BACKGROUND_WITH_A_FEAT",
+            "type": "Grants"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Squire of Solamnia",
+        "content": "The Knights of Solamnia provide you free, modest lodging and food at any of their fortresses or encampments."
+      },
+      "source": "Dragonlance: Shadow of the Dragon Queen",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "name": "Knight of Solamnia Background",
+    "update": {
+      "file": {
+        "name": "background-knight-of-solamnia.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/backgrounds/background-knight-of-solamnia.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "element": [
+    {
+      "description": "<p>Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. Though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.</p> <p class=\"indent\">Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade's talent for the excitement it adds to a performance, but few entertainers fully trust a blade in their ranks.</p> <p class=\"indent\">Blades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.</p> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_BONUS_PROFICIENCIES\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_FIGHTING_STYLE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_BLADE_FLOURISH\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_EXTRA_ATTACK\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_MASTERS_FLOURISH\" />",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_COLLEGE_OF_SWORDS",
+      "name": "College of Swords",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_BONUS_PROFICIENCIES",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_FIGHTING_STYLE",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_BLADE_FLOURISH",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_EXTRA_ATTACK",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_MASTERS_FLOURISH",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Bard College",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>When you join the College of Swords at 3rd level, you gain proficiency with medium armor and the scimitar.</p> <p class=\"indent\">If you‘re proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your bard spells.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_BONUS_PROFICIENCIES",
+      "name": "Bonus Proficiencies",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": "If you‘re proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your bard spells.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.</p> <h5>DUELING</h5> <p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p> <h5>TWO-WEAPON FIGHTING</h5> <p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_FIGHTING_STYLE",
+      "name": "Fighting Style",
+      "rules": {
+        "select": {
+          "level": "3",
+          "name": "Fighting Style (College of Swords)",
+          "supports": "ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING|ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING",
+          "type": "Class Feature"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 3rd level, you learn to perform impressive displays of martial prowess and speed.</p> <p class=\"indent\">Whenever you take the Attack action on your turn, your walking speed increases by 10 feet until the end of the turn, and if a weapon attack that you make as part of this action hits a creature, you can use one of the following Blade Flourish options of your choice. You can use only one Blade Flourish option per turn.</p> <p class=\"indent\"><b><i>Defensive Flourish. </i></b>You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You also add the number rolled to your AC until the start of your next turn.</p> <p class=\"indent\"><b><i>Slashing Flourish. </i></b>You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit and to any other creature of your choice that you can see within 5 feet of you. The damage equals the number you roll on the Bardic Inspiration die.</p> <p class=\"indent\"><b><i>Mobile Flourish. </i></b>You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You can also push the target up to 5 feet away from you, plus a number of feet equal to the number you roll on that die. You can then immediately use your reaction to move up to your walking speed to an unoccupied space within 5 feet of the target.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_BLADE_FLOURISH",
+      "name": "Blade Flourish",
+      "sheet": {
+        "action": "Attack",
+        "content": "Your speed increases by 10ft until the end of the turn. On a hit with a weapon attack, you can expend one of your Bardic Inspirations to use one of the following Blade Flourish options: &#13; • Defensive Flourish. Roll a d{{bardic-inspiration:dice}}, the number you rolled is added to the damage of the hit and to your AC until the start of your next turn. &#13; • Slashing Flourish. Roll a d{{bardic-inspiration:dice}}, the number you rolled is an additional damage dealt to the target of your hit and to any other creature of your choice that you can see within 5 feet of you. &#13; • Mobile Flourish. Roll a d{{bardic-inspiration:dice}}, the number you rolled is added to the damage of the hit, and you can push the target up to the number you rolled + 5 feet away from you. You can then move up to your walking speed towards the target as a reaction.",
+        "usage": "1/Turn"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_EXTRA_ATTACK",
+      "name": "Extra Attack",
+      "rules": {
+        "stat": {
+          "bonus": "extra attack",
+          "level": "5",
+          "name": "extra attack:count",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 14th level, whenever you use a Blade Flourish option, you can roll a d6 and use it instead of expending a Bardic Inspiration die.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_BARD_SWORDS_MASTERS_FLOURISH",
+      "name": "Master's Flourish",
+      "sheet": {
+        "action": "Blade Flourish",
+        "content": "Instead of expending a Bardic Inspiration die, you can roll a d6 for a Blade Flourish option."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The College of Swords from Xanathar's Guide to Everything",
+    "name": "College of Swords",
+    "update": {
+      "file": {
+        "name": "bard-swords.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-swords.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

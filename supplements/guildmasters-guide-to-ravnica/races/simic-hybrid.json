@@ -1,0 +1,263 @@
+{
+  "append": {
+    "id": "ID_GGTR_LANGUAGE_VEDALKEN",
+    "supports": "Simic Hybrid Language"
+  },
+  "element": [
+    {
+      "description": "<p>The Simic Combine uses magic to fuse different life forms together. In recent years, the Simic Combine has extended this research to humanoid subjects, magically transferring the traits of various animals into humans, elves, and vedalken. The goal of the Guardian Project is to build a Simic army of soldiers perfectly adapted to a variety of combat situations. These hyper-evolved specimens are called Simic hybrids, though they sometimes refer to themselves as guardians.</p> <h4>EXTENSIVE ADAPTATION</h4> <p>A hybrid's biological en hancements can change its appearance drastically, though most hybrids retain their basic physical form. All are augmented with characteristics of animals, mostly aquatic, reptilian, or amphibian creatures. These include crab claws, squid tentacles, wings or fins like those of manta rays, translucent or camouflaged skin, or shark-like maws filled with sharp teeth.</p> <p class=\"indent\">Hybrids are the product of Simic magic. It's not impossible for a hybrid to leave the Simic Combine and join another guild, but the Simic would consider the individual a deserter. And the new guild might never fully welcome a hybrid who could easily be a Simic spy.</p> <h4>SIMIC HYBRID NAMES</h4> <p>hybrid usually bears the name given by their human, elf, or vedalken parents. Some hybrids assume a new name after their transformation - a name chosen personally or by those who transformed them.</p> <h4>SIMIC HYBRID TRAITS</h4> <p>Your hybrid character has the following racial traits.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</p> <p class=\"indent\"><strong><em>Age.</em></strong> Hybrids begin their lives as adult humans, elves, or vedalken. They age at a slightly accelerated rate, so their maximum life spans are probably reduced somewhat. The Guardian Project has not been operating long enough to observe the full effect of this phenomenon.</p> <p class=\"indent\"><strong><em>Alignment.</em></strong> Most hybrids share the generally neutral outlook of the Simic Combine. They are more interested in scientific research and the standing of their guild than in moral or ethical questions. Those who leave the Combine, however, often do so because their philosophical outlook and alignment are more in line with a different guild's.</p> <p class=\"indent\"><strong><em>Size.</em></strong> Your size is Medium, within the normal range of your humanoid base race.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p> <p class=\"indent\"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p> <p class=\"indent\"><strong><em>Languages.</em></strong> You can speak, read, and write Common and your choice of Elvish or Vedalken.</p> <p class=\"indent\"><strong><em>Animal Enhancement.</em></strong> Your body has been altered to incorporate certain animal characteristics. You choose one animal enhancement now and a second enhancement at 5th level.</p> <p class=\"indent\">At 1st level, choose one of the following options:</p> <p><strong>Manta Glide.</strong> You have ray-like fins that you can use as wings to slow your fall or allow you to glide. When you fall and aren't incapacitated, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 2 feet horizontally for every 1 foot you descend.</p> <p><strong>Nimble Climber.</strong> You have a climbing speed equal to your walking speed.</p> <p><strong>Underwater Adaptation.</strong> You can breathe air and water, and you have a swimming speed equal to your walking speed.</p> <p class=\"indent\">At 5th level, your body evolves further, developing new characteristics. Choose one of the options you didn't take at 1st level, or one of the following options:</p> <p><strong>Grappling Appendages.</strong> You have two special appendages growing alongside your arms. Choose whether they're both claws or tentacles. As an action, you can use one of them to try to grapple a creature. Each one is also a natural weapon, which you can use to make an unarmed strike. If you hit with it, the target takes bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages can't precisely manipulate anything and can't wield weapons, magic items, or other specialized equipment.</p> <p><strong>Carapace.</strong> Your skin in places is covered by a thick shell. You gain a +1 bonus to AC when you're not wearing heavy armor.</p> <p><strong>Acid Spit.</strong> As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target takes 2d10 acid damage unless it succeeds on a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. This damage increases by 1d10 when you reach 11th level (3d10) and 17th level (4d10). You can use this trait a number of times equal to your Consitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>",
+      "id": "ID_WOTC_GGTR_RACE_SIMIC_HYBRID",
+      "name": "Simic Hybrid",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_GGTR_RACIAL_TRAIT_SIMIC_HYBRID_ANIMAL_ENHANCEMENT",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Increase (Simic Hybrid)",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +2 (Simic Hybrid)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Simic Hybrid)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Language (Simic Hybrid)",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "ID_LANGUAGE_ELVISH|ID_GGTR_LANGUAGE_VEDALKEN",
+            "type": "Language"
+          },
+          {
+            "name": "Customized Language",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language||Simic Hybrid Language",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "constitution",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "name": "names",
+            "type": "male"
+          },
+          {
+            "name": "names",
+            "type": "female"
+          },
+          {
+            "description": "{{name}}",
+            "name": "names-format"
+          },
+          {
+            "description": "5'0\"",
+            "modifier": "1d10",
+            "name": "height"
+          },
+          {
+            "description": "100 lb.",
+            "modifier": "1d10",
+            "name": "weight"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Race"
+    },
+    {
+      "description": "<p>Your body has been altered to incorporate certain animal characteristics. You choose one animal enhancement now and a second enhancement at 5th level.</p> <p class=\"indent\">At 1st level, choose one of the following options:</p> <p><strong>Manta Glide.</strong> You have ray-like fins that you can use as wings to slow your fall or allow you to glide. When you fall and aren't incapacitated, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 2 feet horizontally for every 1 foot you descend.</p> <p><strong>Nimble Climber.</strong> You have a climbing speed equal to your walking speed.</p> <p><strong>Underwater Adaptation.</strong> You can breathe air and water, and you have a swimming speed equal to your walking speed.</p> <p class=\"indent\">At 5th level, your body evolves further, developing new characteristics. Choose one of the options you didn't take at 1st level, or one of the following options:</p> <p><strong>Grappling Appendages.</strong> You have two special appendages growing alongside your arms. Choose whether they're both claws or tentacles. As an action, you can use one of them to try to grapple a creature. Each one is also a natural weapon, which you can use to make an unarmed strike. If you hit with it, the target takes bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages can't precisely manipulate anything and can't wield weapons, magic items, or other specialized equipment.</p> <p><strong>Carapace.</strong> Your skin in places is covered by a thick shell. You gain a +1 bonus to AC when you're not wearing heavy armor.</p> <p><strong>Acid Spit.</strong> As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target takes 2d10 acid damage unless it succeeds on a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. This damage increases by 1d10 when you reach 11th level (3d10) and 17th level (4d10). You can use this trait a number of times equal to your Consitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_SIMIC_HYBRID_ANIMAL_ENHANCEMENT",
+      "name": "Animal Enhancement",
+      "rules": {
+        "select": [
+          {
+            "name": "Animal Enhancement, Level 1",
+            "supports": "Animal Enhancement,1",
+            "type": "Racial Trait"
+          },
+          {
+            "level": "5",
+            "name": "Animal Enhancement, Level 5",
+            "supports": "Animal Enhancement,(1||5)",
+            "type": "Racial Trait"
+          }
+        ]
+      },
+      "sheet": "Your body has been altered to incorporate certain animal characteristics.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have ray-like fins that you can use as wings to slow your fall or allow you to glide. When you fall and aren't incapacitated, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 2 feet horizontally for every 1 foot you descend.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_SIMIC_HYBRID_ENHANCEMENT_MANTA_GLIDE",
+      "name": "Manta Glide",
+      "sheet": "You have ray-like fins that you can use as wings to slow your fall or allow you to glide. When you fall and aren't incapacitated, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 2 feet horizontally for every 1 foot you descend.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Animal Enhancement, 1",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have a climbing speed equal to your walking speed.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_SIMIC_HYBRID_ENHANCEMENT_NIMBLE_CLIMBER",
+      "name": "Nimble Climber",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "speed:climb",
+          "value": "speed"
+        }
+      },
+      "sheet": "You have a climbing speed equal to your walking speed.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Animal Enhancement, 1",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can breathe air and water, and you have a swimming speed equal to your walking speed.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_SIMIC_HYBRID_ENHANCEMENT_UNDERWATER_ADAPTATION",
+      "name": "Underwater Adaptation",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "speed:swim",
+          "value": "speed"
+        }
+      },
+      "sheet": "You can breathe air and water, and you have a swimming speed equal to your walking speed.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Animal Enhancement, 1",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have two special appendages growing alongside your arms. Choose whether they're both claws or tentacles. As an action, you can use one of them to try to grapple a creature. Each one is also a natural weapon, which you can use to make an unarmed strike. If you hit with it, the target takes bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages can't precisely manipulate anything and can't wield weapons, magic items, or other specialized equipment.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_SIMIC_HYBRID_ENHANCEMENT_GRAPPLING_APPENDAGES",
+      "name": "Grappling Appendages",
+      "sheet": "As an action, you can use one of your special appendages to try to grapple a creature. Each one is also a natural weapon, which you can use to make an unarmed strike. If you hit with it, the target takes bludgeoning damage equal to 1d6+{{strength:modifier}}. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages can't precisely manipulate anything and can't wield weapons, magic items, or other specialized equipment.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Animal Enhancement, 5",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your skin in places is covered by a thick shell. You gain a +1 bonus to AC when you're not wearing heavy armor.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_SIMIC_HYBRID_ENHANCEMENT_CARAPACE",
+      "name": "Carapace",
+      "rules": {
+        "stat": {
+          "equipped": "![armor:heavy]",
+          "name": "ac:misc",
+          "value": "1"
+        }
+      },
+      "sheet": "Your skin in places is covered by a thick shell. You gain a +1 bonus to AC when you're not wearing heavy armor.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Animal Enhancement, 5",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target takes 2d10 acid damage unless it succeeds on a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. This damage increases by 1d10 when you reach 11th level (3d10) and 17th level (4d10). You can use this trait a number of times equal to your Consitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_SIMIC_HYBRID_ENHANCEMENT_ACID_SPIT",
+      "name": "Acid Spit",
+      "rules": {
+        "stat": [
+          {
+            "name": "acid spit:dc",
+            "value": "8"
+          },
+          {
+            "name": "acid spit:dc",
+            "value": "proficiency"
+          },
+          {
+            "name": "acid spit:dc",
+            "value": "constitution:modifier"
+          },
+          {
+            "bonus": "usage",
+            "name": "acid spit:usage",
+            "value": "1"
+          },
+          {
+            "bonus": "usage",
+            "name": "acid spit:usage",
+            "value": "constitution:modifier"
+          },
+          {
+            "name": "acid spit:dice count",
+            "value": "2"
+          },
+          {
+            "level": "11",
+            "name": "acid spit:dice count",
+            "value": "1"
+          },
+          {
+            "level": "17",
+            "name": "acid spit:dice count",
+            "value": "1"
+          }
+        ]
+      },
+      "sheet": "As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target takes {{acid spit:dice count}}d10 acid damage unless it succeeds on a DC {{acid spit:dc}} Dexterity saving throw. You can use this trait {{acid spit:usage}} times, and you regain all expended uses of it when you finish a long rest.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Animal Enhancement, 5",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Guildmasters' Guide to Ravnica",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica"
+    },
+    "description": "",
+    "name": "Simic Hybrid",
+    "update": {
+      "file": {
+        "name": "simic-hybrid.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/simic-hybrid.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}

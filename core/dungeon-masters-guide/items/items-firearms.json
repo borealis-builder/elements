@@ -1,0 +1,1009 @@
+{
+  "append": {
+    "id": "ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS",
+    "rules": {
+      "grant": {
+        "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS",
+        "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+        "type": "Proficiency"
+      }
+    }
+  },
+  "element": [
+    {
+      "description": "<p>If you want to model the swashbuckling style of The Three Musketeers and similar tales, you can introduce gunpowder weapons to your campaign that are associated with the Renaissance. Similarly, in a campaign where a spaceship has crashed or elements of modern-day Earth are present, futuristic or modern firearms might appear.</p>",
+      "id": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "name": "Firearms",
+      "setters": {
+        "set": {
+          "description": "You can introduce gunpowder, futuristic, or modern firearms to your campaign.",
+          "name": "short"
+        }
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Option"
+    },
+    {
+      "description": "<p>As an action, a character can light this bomb and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take 3d6 fire damage.</p>",
+      "id": "ID_WOTC_DMG_ITEM_BOMB",
+      "name": "Bomb",
+      "setters": {
+        "set": [
+          {
+            "description": "Explosives",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "150",
+            "name": "cost"
+          },
+          {
+            "description": "1 lb.",
+            "lb": "1",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Gunpowder is chiefly used to propel a bu 11et out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs and in waterresistant powder horns.</p> <p class=\"indent\">Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it (3d6 for a powder horn, 7d6 for a keg). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, s hedding br ight light in a 30-foot radius and dim light for an add itional 30 feet.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GUNPOWDER_KEG",
+      "name": "Gunpowder, Keg",
+      "setters": {
+        "set": [
+          {
+            "description": "Explosives",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "20 lb.",
+            "lb": "20",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Gunpowder is chiefly used to propel a bu 11et out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs and in waterresistant powder horns.</p> <p class=\"indent\">Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it (3d6 for a powder horn, 7d6 for a keg). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, s hedding br ight light in a 30-foot radius and dim light for an add itional 30 feet.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GUNPOWDER_POWDER_HORN",
+      "name": "Gunpowder, Powder Horn",
+      "setters": {
+        "set": [
+          {
+            "description": "Explosives",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "35",
+            "name": "cost"
+          },
+          {
+            "description": "2 lb.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>As an action, a creature can light a s tick of dynamite and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must make a DC 12 Dexterity saving throw, taking 3d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</p> <p class=\"indent\">A character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by 1d6 (to a maximum of 10d6) and the burst radius by 5 feet (to a maximum of 20 feet).</p> <p class=\"indent\">Dynamite can be rigged with a longer fuse to explode after a set amount of time, usually 1 to 6 rounds. Roll initiative for the dynamite. After the set number of rounds goes by, the dynamite explodes on that initiative.</p>",
+      "id": "ID_WOTC_DMG_ITEM_DYNAMITE",
+      "name": "Dynamite (stick)",
+      "setters": {
+        "set": [
+          {
+            "description": "Explosives",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "1 lb.",
+            "lb": "1",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>As an action, a character can throw a grenade at a point up to 60 feet away.</p> <p class=\"indent\">Each creature within 20 feet of an exploding fragmentation grenade must make a DC 15 Dexterity saving throw, taking 5d6 piercing damage on a failed save, or half as much damage on a successful one.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GRENADE_FRAGMENTATION",
+      "name": "Grenade, Fragmentation",
+      "setters": {
+        "set": [
+          {
+            "description": "Explosives",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "1 lb.",
+            "lb": "1",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>As an action, a character can throw a grenade at a point up to 60 feet away.</p> <p class=\"indent\">One round after a smoke grenade lands, it emits a cloud of smoke that creates a heavily obscured area in a 20-foot radius. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GRENADE_SMOKE",
+      "name": "Grenade, Smoke",
+      "setters": {
+        "set": [
+          {
+            "description": "Explosives",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "2 lb.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>With a grenade launcher, the character can propel the grenade up to 120 feet away. </p>",
+      "id": "ID_WOTC_DMG_ITEM_GRENADE_LAUNCHER",
+      "name": "Grenade Launcher",
+      "setters": {
+        "set": [
+          {
+            "description": "Explosives",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "7 lb.",
+            "lb": "7",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_PISTOL",
+      "name": "Pistol",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "3 lb.",
+            "lb": "3",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "30/90",
+            "name": "range"
+          },
+          {
+            "description": "1d10",
+            "name": "damage",
+            "type": "piercing"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING",
+      "type": "Weapon"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_MUSKET",
+      "name": "Musket",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "500",
+            "name": "cost"
+          },
+          {
+            "description": "10 lb.",
+            "lb": "10",
+            "name": "weight"
+          },
+          {
+            "description": "twohand",
+            "name": "slot"
+          },
+          {
+            "description": "40/120",
+            "name": "range"
+          },
+          {
+            "description": "1d12",
+            "name": "damage",
+            "type": "piercing"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Weapon"
+    },
+    {
+      "description": "<p>The ammunition of a renaissance firearm is destroyed upon use.</p>",
+      "id": "ID_WOTC_DMG_ITEM_BULLET",
+      "name": "Bullet",
+      "setters": {
+        "set": [
+          {
+            "description": "Ammunition",
+            "name": "category"
+          },
+          {
+            "currency": "sp",
+            "description": "3",
+            "name": "cost"
+          },
+          {
+            "description": "1/5 lb.",
+            "lb": "0.2",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_PISTOL_AUTOMATIC",
+      "name": "Pistol, Automatic",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "3 lb.",
+            "lb": "3",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "50/150",
+            "name": "range"
+          },
+          {
+            "description": "2d6",
+            "name": "damage",
+            "type": "piercing"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_PISTOL_AUTOMATIC",
+            "name": "proficiency"
+          },
+          {
+            "description": "15",
+            "name": "reload"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_15_SHOTS",
+      "type": "Weapon"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_REVOLVER",
+      "name": "Revolver",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "3 lb.",
+            "lb": "3",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "40/120",
+            "name": "range"
+          },
+          {
+            "description": "2d8",
+            "name": "damage",
+            "type": "piercing"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_REVOLVER",
+            "name": "proficiency"
+          },
+          {
+            "description": "6",
+            "name": "reload"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_6_SHOTS",
+      "type": "Weapon"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_RIFLE_HUNTING",
+      "name": "Rifle, Hunting",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "8 lb.",
+            "lb": "8",
+            "name": "weight"
+          },
+          {
+            "description": "twohand",
+            "name": "slot"
+          },
+          {
+            "description": "80/240",
+            "name": "range"
+          },
+          {
+            "description": "2d10",
+            "name": "damage",
+            "type": "piercing"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE_HUNTING",
+            "name": "proficiency"
+          },
+          {
+            "description": "5",
+            "name": "reload"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_5_SHOTS, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Weapon"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_RIFLE_AUTOMATIC",
+      "name": "Rifle, Automatic",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "8 lb.",
+            "lb": "8",
+            "name": "weight"
+          },
+          {
+            "description": "twohand",
+            "name": "slot"
+          },
+          {
+            "description": "80/240",
+            "name": "range"
+          },
+          {
+            "description": "2d8",
+            "name": "damage",
+            "type": "piercing"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE_AUTOMATIC",
+            "name": "proficiency"
+          },
+          {
+            "description": "30",
+            "name": "reload"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_30_SHOTS, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_BURST_FIRE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Weapon"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_SHOTGUN",
+      "name": "Shotgun",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "7 lb.",
+            "lb": "7",
+            "name": "weight"
+          },
+          {
+            "description": "twohand",
+            "name": "slot"
+          },
+          {
+            "description": "30/90",
+            "name": "range"
+          },
+          {
+            "description": "2d8",
+            "name": "damage",
+            "type": "piercing"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_SHOTGUN",
+            "name": "proficiency"
+          },
+          {
+            "description": "2",
+            "name": "reload"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_2_SHOTS, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Weapon"
+    },
+    {
+      "description": "<p>The ammunition of a modern firearm is destroyed upon use.</p>",
+      "id": "ID_WOTC_DMG_ITEM_BULLET_MODERN",
+      "name": "Bullet",
+      "setters": {
+        "set": [
+          {
+            "description": "Ammunition",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "1/10 lb.",
+            "lb": "0.1",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_LASER_PISTOL",
+      "name": "Laser Pistol",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "2 lb.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "40/120",
+            "name": "range"
+          },
+          {
+            "description": "3d6",
+            "name": "damage",
+            "type": "radiant"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_LASTER_PISTOL",
+            "name": "proficiency"
+          },
+          {
+            "description": "50",
+            "name": "reload"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_50_SHOTS",
+      "type": "Weapon"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_ANTIMATTER_RIFLE",
+      "name": "Antimatter Rifle",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "10 lb.",
+            "lb": "10",
+            "name": "weight"
+          },
+          {
+            "description": "twohand",
+            "name": "slot"
+          },
+          {
+            "description": "120/360",
+            "name": "range"
+          },
+          {
+            "description": "6d8",
+            "name": "damage",
+            "type": "necrotic"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_ANTIMATTER_RIFLE",
+            "name": "proficiency"
+          },
+          {
+            "description": "2",
+            "name": "reload"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_2_SHOTS, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Weapon"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_DMG_WEAPON_LASER_RIFLE",
+      "name": "Laser Rifle",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "7 lb.",
+            "lb": "7",
+            "name": "weight"
+          },
+          {
+            "description": "twohand",
+            "name": "slot"
+          },
+          {
+            "description": "100/300",
+            "name": "range"
+          },
+          {
+            "description": "3d8",
+            "name": "damage",
+            "type": "radiant"
+          },
+          {
+            "description": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_LASER_RIFLE",
+            "name": "proficiency"
+          },
+          {
+            "description": "30",
+            "name": "reload"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_30_SHOTS, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Weapon"
+    },
+    {
+      "description": "<p>Futuristic firearms are powered by a special type of ammunition called energy cells. An energy cell contains enough power for all the shots its firearm can make.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ENERGY_CELL",
+      "name": "Energy Cell",
+      "setters": {
+        "set": [
+          {
+            "description": "Ammunition",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "5 oz.",
+            "lb": "0.3125",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS",
+      "name": "Weapon Proficiency (Firearms)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_PISTOL_AUTOMATIC",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_REVOLVER",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE_HUNTING",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE_AUTOMATIC",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_SHOTGUN",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_LASTER_PISTOL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_ANTIMATTER_RIFLE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_LASER_RIFLE",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Firearms"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL",
+      "name": "Weapon Proficiency (Pistol)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Pistol"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET",
+      "name": "Weapon Proficiency (Musket)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Musket"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_PISTOL_AUTOMATIC",
+      "name": "Weapon Proficiency (Pistol, Automatic)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Automatic Pistol"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_15_SHOTS",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_REVOLVER",
+      "name": "Weapon Proficiency (Revolver)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Revolver"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_6_SHOTS",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE_AUTOMATIC",
+      "name": "Weapon Proficiency (Rifle, Automatic)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Rifle"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_30_SHOTS, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE_HUNTING",
+      "name": "Weapon Proficiency (Rifle, Hunting)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Rifle"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_5_SHOTS, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_SHOTGUN",
+      "name": "Weapon Proficiency (Shotgun)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Shotgun"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_2_SHOTS, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_LASTER_PISTOL",
+      "name": "Weapon Proficiency (Laster Pistol)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Laster Pistol"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_50_SHOTS",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_ANTIMATTER_RIFLE",
+      "name": "Weapon Proficiency (Antimatter Rifle)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Antimatter Rifle"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_2_SHOTS, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Proficiency"
+    },
+    {
+      "id": "ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_LASER_RIFLE",
+      "name": "Weapon Proficiency (Laser Rifle)",
+      "requirements": "ID_WOTC_DMG_OPTION_FIREARMS",
+      "sheet": {
+        "alt": "Laser Rifle"
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_30_SHOTS, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED",
+      "type": "Proficiency"
+    },
+    {
+      "description": "<p>The ammunition of a firearm is destroyed upon use. Renaissance and modern firearms use bullets. Futuristic firearms are powered by a special type of ammunition called energy cells. An energy cell contains enough power for all the shots its firearm can make.</p>",
+      "id": "ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION",
+      "name": "Ammunition",
+      "source": "Internal",
+      "type": "Weapon Property"
+    },
+    {
+      "description": "<p>A weapon that has the burst fire property can make a normal single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition.</p>",
+      "id": "ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_BURST_FIRE",
+      "name": "Burst Fire",
+      "source": "Internal",
+      "type": "Weapon Property"
+    },
+    {
+      "description": "<p>A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</p>",
+      "id": "ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_2_SHOTS",
+      "name": "Reload (2 shots)",
+      "source": "Internal",
+      "type": "Weapon Property"
+    },
+    {
+      "description": "<p>A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</p>",
+      "id": "ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_5_SHOTS",
+      "name": "Reload (5 shots)",
+      "source": "Internal",
+      "type": "Weapon Property"
+    },
+    {
+      "description": "<p>A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</p>",
+      "id": "ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_6_SHOTS",
+      "name": "Reload (6 shots)",
+      "source": "Internal",
+      "type": "Weapon Property"
+    },
+    {
+      "description": "<p>A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</p>",
+      "id": "ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_15_SHOTS",
+      "name": "Reload (15 shots)",
+      "source": "Internal",
+      "type": "Weapon Property"
+    },
+    {
+      "description": "<p>A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</p>",
+      "id": "ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_30_SHOTS",
+      "name": "Reload (30 shots)",
+      "source": "Internal",
+      "type": "Weapon Property"
+    },
+    {
+      "description": "<p>A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</p>",
+      "id": "ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD_50_SHOTS",
+      "name": "Reload (50 shots)",
+      "source": "Internal",
+      "type": "Weapon Property"
+    }
+  ],
+  "info": {
+    "name": "Firearms",
+    "update": {
+      "file": {
+        "name": "items-firearms.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-firearms.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

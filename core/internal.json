@@ -1,0 +1,1989 @@
+{
+  "append": [
+    {
+      "id": "ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET",
+      "supports": "Tool"
+    },
+    {
+      "id": "ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET",
+      "supports": "Tool"
+    },
+    {
+      "id": "ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET",
+      "supports": "Tool"
+    },
+    {
+      "id": "ID_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET",
+      "supports": "Tool"
+    }
+  ],
+  "element": [
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_INTERNAL_INFORMATION_ASI_STRENGTH_DECREASE_1\" /> </div>",
+      "id": "ID_INTERNAL_ITEM_ASI_STRENGTH_DECREASE_1",
+      "name": "Additional Ability Score Diminishment, Strength",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "strength",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Ability Score Improvement",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_INTERNAL_INFORMATION_ASI_DEXTERITY_DECREASE_1\" /> </div>",
+      "id": "ID_INTERNAL_ITEM_ASI_DEXTERITY_DECREASE_1",
+      "name": "Additional Ability Score Diminishment, Dexterity",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "dexterity",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Ability Score Improvement",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_INTERNAL_INFORMATION_ASI_CONSTITUTION_DECREASE_1\" /> </div>",
+      "id": "ID_INTERNAL_ITEM_ASI_CONSTITUTION_DECREASE_1",
+      "name": "Additional Ability Score Diminishment, Constitution",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "constitution",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Ability Score Improvement",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_INTERNAL_INFORMATION_ASI_INTELLIGENCE_DECREASE_1\" /> </div>",
+      "id": "ID_INTERNAL_ITEM_ASI_INTELLIGENCE_DECREASE_1",
+      "name": "Additional Ability Score Diminishment, Intelligence",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "intelligence",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Ability Score Improvement",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_INTERNAL_INFORMATION_ASI_WISDOM_DECREASE_1\" /> </div>",
+      "id": "ID_INTERNAL_ITEM_ASI_WISDOM_DECREASE_1",
+      "name": "Additional Ability Score Diminishment, Wisdom",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "wisdom",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Ability Score Improvement",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_INTERNAL_INFORMATION_ASI_CHARISMA_DECREASE_1\" /> </div>",
+      "id": "ID_INTERNAL_ITEM_ASI_CHARISMA_DECREASE_1",
+      "name": "Additional Ability Score Diminishment, Charisma",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "charisma",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Ability Score Improvement",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Strength decreases by 1.</p>",
+      "id": "ID_INTERNAL_INFORMATION_ASI_STRENGTH_DECREASE_1",
+      "name": "Strength",
+      "source": "Internal",
+      "type": "Information"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Dexterity decreases by 1.</p>",
+      "id": "ID_INTERNAL_INFORMATION_ASI_DEXTERITY_DECREASE_1",
+      "name": "Dexterity",
+      "source": "Internal",
+      "type": "Information"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Constitution decreases by 1.</p>",
+      "id": "ID_INTERNAL_INFORMATION_ASI_CONSTITUTION_DECREASE_1",
+      "name": "Constitution",
+      "source": "Internal",
+      "type": "Information"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Intelligence decreases by 1.</p>",
+      "id": "ID_INTERNAL_INFORMATION_ASI_INTELLIGENCE_DECREASE_1",
+      "name": "Intelligence",
+      "source": "Internal",
+      "type": "Information"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Wisdom decreases by 1.</p>",
+      "id": "ID_INTERNAL_INFORMATION_ASI_WISDOM_DECREASE_1",
+      "name": "Wisdom",
+      "source": "Internal",
+      "type": "Information"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your Charisma decreases by 1.</p>",
+      "id": "ID_INTERNAL_INFORMATION_ASI_CHARISMA_DECREASE_1",
+      "name": "Charisma",
+      "source": "Internal",
+      "type": "Information"
+    },
+    {
+      "description": "<p>Your Strength increases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1",
+      "name": "Strength",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "strength",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Dexterity increases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1",
+      "name": "Dexterity",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "dexterity",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Constitution increases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1",
+      "name": "Constitution",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "constitution",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Intelligence increases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1",
+      "name": "Intelligence",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "intelligence",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Wisdom increases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1",
+      "name": "Wisdom",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "wisdom",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Charisma increases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1",
+      "name": "Charisma",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "charisma",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Strength increases by 2.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2",
+      "name": "Strength",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "strength",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 2",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Dexterity increases by 2.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2",
+      "name": "Dexterity",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "dexterity",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 2",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Constitution increases by 2.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2",
+      "name": "Constitution",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "constitution",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 2",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Intelligence increases by 2.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2",
+      "name": "Intelligence",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "intelligence",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 2",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Wisdom increases by 2.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2",
+      "name": "Wisdom",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "wisdom",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 2",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Charisma increases by 2.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2",
+      "name": "Charisma",
+      "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Increase",
+          "name": "charisma",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Increase 2",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Strength decreases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_DECREASE_1",
+      "name": "Strength",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "strength",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": {
+          "description": "true",
+          "name": "allow duplicate"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Decrease 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Dexterity decreases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_DECREASE_1",
+      "name": "Dexterity",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "dexterity",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": {
+          "description": "true",
+          "name": "allow duplicate"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Decrease 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Constitution decreases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_DECREASE_1",
+      "name": "Constitution",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "constitution",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": {
+          "description": "true",
+          "name": "allow duplicate"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Decrease 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Intelligence decreases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_DECREASE_1",
+      "name": "Intelligence",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "intelligence",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": {
+          "description": "true",
+          "name": "allow duplicate"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Decrease 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Wisdom decreases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_DECREASE_1",
+      "name": "Wisdom",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "wisdom",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": {
+          "description": "true",
+          "name": "allow duplicate"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Decrease 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>Your Charisma decreases by 1.</p>",
+      "id": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_DECREASE_1",
+      "name": "Charisma",
+      "rules": {
+        "stat": {
+          "alt": "Ability Score Decrease",
+          "name": "charisma",
+          "value": "-1"
+        }
+      },
+      "setters": {
+        "set": {
+          "description": "true",
+          "name": "allow duplicate"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Decrease 1",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>You can increase one of the scores by 2 and increase a different score by 1.</p>",
+      "id": "ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_1",
+      "name": "Ability Score Improvement +2, +1",
+      "rules": {
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Improvement Option",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "description": "<p>You can increase three different scores by 1.</p>",
+      "id": "ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_2",
+      "name": "Ability Score Improvement +1, +1, +1",
+      "rules": {
+        "select": {
+          "name": "Custom Ability Score Improvement +1",
+          "number": "3",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "supports": "Custom Ability Score Improvement Option",
+      "type": "Ability Score Improvement"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your size is Tiny.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TINY",
+      "name": "Tiny",
+      "rules": {
+        "grant": {
+          "id": "ID_SIZE_TINY",
+          "type": "Size"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your size is Small.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_SMALL",
+      "name": "Small",
+      "rules": {
+        "grant": {
+          "id": "ID_SIZE_SMALL",
+          "type": "Size"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your size is Medium.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_MEDIUM",
+      "name": "Medium",
+      "rules": {
+        "grant": {
+          "id": "ID_SIZE_MEDIUM",
+          "type": "Size"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your size is Large.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_LARGE",
+      "name": "Large",
+      "rules": {
+        "grant": {
+          "id": "ID_SIZE_LARGE",
+          "type": "Size"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your size is Huge.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_HUGE",
+      "name": "Huge",
+      "rules": {
+        "grant": {
+          "id": "ID_SIZE_HUGE",
+          "type": "Size"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your size is Gargantuan.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_GARGANTUAN",
+      "name": "Gargantuan",
+      "rules": {
+        "grant": {
+          "id": "ID_SIZE_GARGANTUAN",
+          "type": "Size"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your size is Colossal.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_COLOSSAL",
+      "name": "Colossal",
+      "rules": {
+        "grant": {
+          "id": "ID_SIZE_COLOSSAL",
+          "type": "Size"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Racial Trait"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF_UP",
+      "name": "Multiclass Spellcasting Slots Half Up",
+      "rules": {
+        "stat": [
+          {
+            "level": "1",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          },
+          {
+            "level": "3",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          },
+          {
+            "level": "5",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          },
+          {
+            "level": "7",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          },
+          {
+            "level": "9",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          },
+          {
+            "level": "11",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          },
+          {
+            "level": "13",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          },
+          {
+            "level": "15",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          },
+          {
+            "level": "17",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          },
+          {
+            "level": "19",
+            "name": "multiclass:spellcasting:level",
+            "value": "1"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "description": "<p>Every creature in D&amp;D, including every player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type. A race option presented here tells you what your character's creature type is.</p> <p class=\"indent\"><strong><em>List of Types.</em></strong> Here's a list of the game's creature types in alphabetical order: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Undead. These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the text of the <i>cure wounds</i> spell specifies that the spell doesn't work on a creature that has the Construct or Undead type.</p> <p class=\"indent\"><strong><em>Having More Than One Type.</em></strong> Some creatures are of more than one creature type. If an effect works on at least one of a creature's types, that effect can work on that creature. For example, if you are both a Humanoid and an Undead, <i>cure wounds</i> works on you, since the spell works on a Humanoid.</p>",
+      "id": "ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE",
+      "name": "Creature Type",
+      "source": "Internal",
+      "type": "Information"
+    },
+    {
+      "description": "<p>Your creature type is Aberration.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_ABERRATION",
+      "name": "Aberration",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Aberration."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Beast.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_BEAST",
+      "name": "Beast",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Beast."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Celestial.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_CELESTIAL",
+      "name": "Celestial",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Celestial."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Construct.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_CONSTRUCT",
+      "name": "Construct",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Construct."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Dragon.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_DRAGON",
+      "name": "Dragon",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Dragon."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Elemental.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_ELEMENTAL",
+      "name": "Elemental",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Elemental."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Fey.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_FEY",
+      "name": "Fey",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Fey."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Fiend.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_FIEND",
+      "name": "Fiend",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Fiend."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Giant.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_GIANT",
+      "name": "Giant",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Giant."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Humanoid.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID",
+      "name": "Humanoid",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Humanoid."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are a Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_DWARF",
+      "name": "Humanoid Dwarf",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANT_RACE_DWARF",
+          "type": "Grants"
+        }
+      },
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF",
+      "name": "Humanoid Elf",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANT_RACE_ELF",
+          "type": "Grants"
+        }
+      },
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_GOBLINOID",
+      "name": "Humanoid Goblinoid",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANT_RACE_GOBLINOID",
+          "type": "Grants"
+        }
+      },
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are a Humanoid. You are also considered a gnome for any prerequisite or effect that requires you to be a gnome.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_GNOME",
+      "name": "Humanoid Gnome",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANT_RACE_GNOME",
+          "type": "Grants"
+        }
+      },
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Humanoid. You are also considered a gnome for any prerequisite or effect that requires you to be a gnome."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Monstrosity.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_MONSTROSITY",
+      "name": "Monstrosity",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Monstrosity."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Ooze.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_OOZE",
+      "name": "Ooze",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Ooze."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Plant.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_PLANT",
+      "name": "Plant",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Plant."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your creature type is Undead.</p> <div class=\"reference\"> <div element=\"ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE\" /> </div>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_UNDEAD",
+      "name": "Undead",
+      "sheet": {
+        "alt": "Creature Type",
+        "content": "Undead."
+      },
+      "source": "Internal",
+      "supports": "Creature Type",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have a climbing speed equal to your walking speed.</p>",
+      "id": "ID_INTERNAL_ITEM_CLIMB_WALKING",
+      "name": "Speed: Climb Equals Walking",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed:climb",
+          "value": "innate speed"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>YYou have an additional 5 feet of climbing speed.</p>",
+      "id": "ID_INTERNAL_ITEM_CLIMB_5",
+      "name": "Speed: Climb +5 Feet",
+      "rules": {
+        "stat": {
+          "name": "innate speed:climb",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 10 feet of climbing speed.</p>",
+      "id": "ID_INTERNAL_ITEM_CLIMB_10",
+      "name": "Speed: Climb +10 Feet",
+      "rules": {
+        "stat": {
+          "name": "innate speed:climb",
+          "value": "10"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have a swiming speed equal to your walking speed.</p>",
+      "id": "ID_INTERNAL_ITEM_SWIM_WALKING",
+      "name": "Speed: Swim Equals Walking",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed:swim",
+          "value": "innate speed"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 5 feet of smiming speed.</p>",
+      "id": "ID_INTERNAL_ITEM_SWIM_5",
+      "name": "Speed: Swim +5 Feet",
+      "rules": {
+        "stat": {
+          "name": "innate speed:swim",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 10 feet of smiming speed.</p>",
+      "id": "ID_INTERNAL_ITEM_SWIM_10",
+      "name": "Speed: Swim +10 Feet",
+      "rules": {
+        "stat": {
+          "name": "innate speed:swim",
+          "value": "10"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have a flying speed equal to your walking speed.</p>",
+      "id": "ID_INTERNAL_ITEM_FLY_WALKING",
+      "name": "Speed: Fly Equals Walking",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed:fly",
+          "value": "innate speed"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 5 feet of flying speed.</p>",
+      "id": "ID_INTERNAL_ITEM_FLY_5",
+      "name": "Speed: Fly +5 Feet",
+      "rules": {
+        "stat": {
+          "name": "innate speed:fly",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 10 feet of flying speed.</p>",
+      "id": "ID_INTERNAL_ITEM_FLY_10",
+      "name": "Speed: Fly +10 Feet",
+      "rules": {
+        "stat": {
+          "name": "innate speed:fly",
+          "value": "10"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 5 feet of walking speed.</p>",
+      "id": "ID_INTERNAL_ITEM_WALK_5",
+      "name": "Speed: Walk +5 Feet",
+      "rules": {
+        "stat": {
+          "name": "innate speed",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 10 feet of walking speed.</p>",
+      "id": "ID_INTERNAL_ITEM_WALK_10",
+      "name": "Speed: Walk +10 Feet",
+      "rules": {
+        "stat": {
+          "name": "innate speed",
+          "value": "10"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Many creatures in the worlds of D&amp;D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.</p>",
+      "id": "ID_VISION_DARKVISION",
+      "name": "Darkvision",
+      "requirements": "!ID_VISION_SUPERIORDARKVISION",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "darkvision:range",
+          "value": "60"
+        }
+      },
+      "sheet": "You can see in dim light within {{darkvision:range}} feet of you as if it were bright light, and in darkness as if it were dim light.",
+      "source": "Player's Handbook",
+      "type": "Vision"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Many creatures in the worlds of D&amp;D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.</p>",
+      "id": "ID_VISION_LESSER_DARKVISION",
+      "name": "Darkvision",
+      "requirements": "!(ID_VISION_SUPERIORDARKVISION || ID_VISION_DARKVISION)",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "darkvision:range",
+          "value": "0"
+        }
+      },
+      "sheet": "You can see in dim light within {{darkvision:range}} feet of you as if it were bright light, and in darkness as if it were dim light.",
+      "source": "Player's Handbook",
+      "type": "Vision"
+    },
+    {
+      "description": "<p>Many creatures in the worlds of D&amp;D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.</p>",
+      "id": "ID_VISION_SUPERIORDARKVISION",
+      "name": "Superior Darkvision",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "darkvision:range",
+          "value": "120"
+        }
+      },
+      "sheet": "You can see in dim light within {{darkvision:range}} feet of you as if it were bright light, and in darkness as if it were dim light.",
+      "source": "Player's Handbook",
+      "type": "Vision"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 10 feet of darkvision.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_DARKVISION_10",
+      "name": "Vision: Darkvision +10 Feet",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_LESSER_DARKVISION",
+          "type": "Vision"
+        },
+        "stat": {
+          "name": "darkvision:range",
+          "value": "10"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 5 feet of darkvision.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_DARKVISION_5",
+      "name": "Vision: Darkvision +5 Feet",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_LESSER_DARKVISION",
+          "type": "Vision"
+        },
+        "stat": {
+          "name": "darkvision:range",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A creature with blindsight can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense.</p>",
+      "id": "ID_VISION_BLINDSIGHT",
+      "name": "Blindsight",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "blindsight:range",
+          "value": "0"
+        }
+      },
+      "sheet": "You perceive your surroundings within {{blindsight:range}} feet without relying on sight.",
+      "source": "Player's Handbook",
+      "type": "Vision"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 10 feet of blindsight.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_BLINDSIGHT_10",
+      "name": "Vision: Blindsight +10 Feet",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_BLINDSIGHT",
+          "type": "Vision"
+        },
+        "stat": {
+          "name": "blindsight:range",
+          "value": "10"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 5 feet of blindsight.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_BLINDSIGHT_5",
+      "name": "Vision: Blindsight +5 Feet",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_BLINDSIGHT",
+          "type": "Vision"
+        },
+        "stat": {
+          "name": "blindsight:range",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.</p>",
+      "id": "ID_VISION_TRUESIGHT",
+      "name": "Truesight",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "truesight:range",
+          "value": "0"
+        }
+      },
+      "sheet": "You can see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic within {{truesight:range}} feet. Furthermore, the creature can see into the Ethereal Plane.",
+      "source": "Player's Handbook",
+      "type": "Vision"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 10 feet of truesight.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TRUESIGHT_10",
+      "name": "Vision: Truesight +10 Feet",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_TRUESIGHT",
+          "type": "Vision"
+        },
+        "stat": {
+          "name": "truesight:range",
+          "value": "10"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 5 feet of truesight.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TRUESIGHT_5",
+      "name": "Vision: Truesight +5 Feet",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_TRUESIGHT",
+          "type": "Vision"
+        },
+        "stat": {
+          "name": "truesight:range",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A monster with tremorsense can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance.</p> <p class=\"indent\">Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs, have this special sense.</p>",
+      "id": "ID_VISION_TREMORSENSE",
+      "name": "Tremorsense",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "tremorsense:range",
+          "value": "0"
+        }
+      },
+      "sheet": "You can detect and pinpoint the origin of vibrations within {{tremorsense:range}} feet, provided that the monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures.",
+      "source": "Player's Handbook",
+      "type": "Vision"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 10 feet of tremorsense.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TREMORSENSE_10",
+      "name": "Vision: Tremorsense +10 Feet",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_TREMORSENSE",
+          "type": "Vision"
+        },
+        "stat": {
+          "name": "tremorsense:range",
+          "value": "10"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <p>You have an additional 5 feet of tremorsense.</p>",
+      "id": "ID_INTERNAL_RACIAL_TRAIT_TREMORSENSE_5",
+      "name": "Vision: Tremorsense +5 Feet",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_TREMORSENSE",
+          "type": "Vision"
+        },
+        "stat": {
+          "name": "tremorsense:range",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Internal",
+      "type": "Item"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_DRAGONBORN",
+      "name": "Race Dragonborn",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_DWARF",
+      "name": "Race Dwarf",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_ELF",
+      "name": "Race Elf",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_DARK_ELF",
+      "name": "Race Dark Elf",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_HIGH_ELF",
+      "name": "Race High Elf",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_WOOD_ELF",
+      "name": "Race Wood Elf",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_GNOME",
+      "name": "Race Gnome",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_GOBLINOID",
+      "name": "Race Goblinoid",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_HALF_ELF",
+      "name": "Race Half Elf",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_HALF_ORC",
+      "name": "Race Half Orc",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_HALFLING",
+      "name": "Race Halfling",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_HUMAN",
+      "name": "Race Human",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_RACE_TIEFLING",
+      "name": "Race Tiefling",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT",
+      "name": "Armor Ignore Strength Requirement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_GRANTS_BACKGROUND_WITH_A_FEAT",
+      "name": "Background with a Feat",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "description": "<p>The boomerang is a ranged weapon, and any creature proficient with the javelin is also proficient with this weapon.</p> <p class=\"indent\">On a miss, a boomerang returns to the thrower's hand.</p>",
+      "id": "ID_INTERNAL_WEAPON_BOOMERANG",
+      "name": "Boomerang",
+      "setters": {
+        "set": [
+          {
+            "description": "Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "2 lb.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "60/120",
+            "name": "range"
+          },
+          {
+            "description": "1d4",
+            "name": "damage",
+            "type": "bludgeoning"
+          },
+          {
+            "description": "ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN",
+            "name": "proficiency"
+          },
+          {
+            "description": "https://www.dndbeyond.com/equipment/boomerang",
+            "name": "sourceUrl"
+          }
+        ]
+      },
+      "source": "Internal",
+      "supports": "ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_THROWN",
+      "type": "Weapon"
+    }
+  ],
+  "info": {
+    "description": "Elements that should've been part of the app itself",
+    "name": "Internal",
+    "update": {
+      "file": {
+        "name": "internal.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/internal.json"
+      },
+      "version": "0.1.4"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "info": {
+    "name": "Astral Adventurer's Guide",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.2",
+      "file": {
+        "name": "astral-adventurers-guide.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "background-astral-drifter.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/backgrounds/background-astral-drifter.json"
+    },
+    {
+      "name": "background-wildspacer.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/backgrounds/background-wildspacer.json"
+    },
+    {
+      "name": "race-astral-elf.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-astral-elf.json"
+    },
+    {
+      "name": "race-autognome.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-autognome.json"
+    },
+    {
+      "name": "race-giff.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-giff.json"
+    },
+    {
+      "name": "race-hadozee.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-hadozee.json"
+    },
+    {
+      "name": "race-plasmoid.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-plasmoid.json"
+    },
+    {
+      "name": "race-thri-kreen.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-thri-kreen.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/items.json"
+    },
+    {
+      "name": "spells.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/spells.json"
+    },
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/source.json"
+    }
+  ]
+}

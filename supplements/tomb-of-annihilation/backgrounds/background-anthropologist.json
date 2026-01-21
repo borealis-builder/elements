@@ -1,0 +1,234 @@
+{
+  "element": [
+    {
+      "description": "<p>You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations. By studying other cultures' customs, philosophies, laws, rituals, religious beliefs, languages, and art, you have learned how tribes, empires, and all forms of society in between craft their own destinies and doom. This knowledge came to you not only through books and scrolls, but also through firsthand observation- by visiting far-flung settlements and exploring local histories and customs.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Insight, Religion</li> <li><strong>Languages:</strong> Two of your choice</li> <li><strong>Equipment:</strong> A leather-bound diary, a bottle of ink, an ink pen, a set of traveler's clothes, one trinket of special significance, and a pouch containing 10 gp</li> </ul> <h5>CULTURAL CHAMELEON</h5> <p>Before becoming an adventurer, you spent much of your adult life away from your homeland, living among people different from your kin. You came to understand these foreign cultures and the ways of their people, who eventually treated you as one of their own. One culture had more of an influence on you than any other, shaping your beliefs and customs. Choose a race whose culture you've adopted, or roll on the Adopted Culture table.</p> <table> <thead> <tr><td>d8</td><td>Adopted Culture</td></tr> </thead> <tr><td>1</td><td>Aarakocra</td></tr> <tr><td>2</td><td>Dwarf</td></tr> <tr><td>3</td><td>Elf</td></tr> <tr><td>4</td><td>Goblin</td></tr> <tr><td>5</td><td>Halfling</td></tr> <tr><td>6</td><td>Human</td></tr> <tr><td>1</td><td>Lizardfolk</td></tr> <tr><td>8</td><td>Orc</td></tr> </table> <div element=\"ID_WOTC_TOA_BACKGROUND_ANTHROPOLOGIST_FEATURE_ADEPT_LINGUIST\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Anthropologists leave behind the societies into which they were born to discover what life ls like in other parts of the world. They seek to see how other races and civilizations survive-or why they did not. Some anthropologists are driven by intellectual curiosity, while others want the fame and recognition that comes with being the first to discover a new people, a lost tribe, or the truth about an ancient empire's downfall.</p>",
+      "id": "ID_WOTC_TOA_BACKGROUND_ANTHROPOLOGIST",
+      "name": "Anthropologist",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_INSIGHT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_RELIGION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_TOA_BACKGROUND_ANTHROPOLOGIST_FEATURE_ADEPT_LINGUIST",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language (Anthropologist)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Aarakocra",
+                "id": "1"
+              },
+              {
+                "description": "Dwarf",
+                "id": "2"
+              },
+              {
+                "description": "Elf",
+                "id": "3"
+              },
+              {
+                "description": "Goblin",
+                "id": "4"
+              },
+              {
+                "description": "Halfling",
+                "id": "5"
+              },
+              {
+                "description": "Human",
+                "id": "6"
+              },
+              {
+                "description": "Lizardfolk",
+                "id": "7"
+              },
+              {
+                "description": "Orc",
+                "id": "8"
+              }
+            ],
+            "name": "Adopted Culture",
+            "optional": "true",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I prefer the company of those who aren't like me, including people of other races.",
+                "id": "1"
+              },
+              {
+                "description": "I'm a stickler when it comes to observing proper etiquette and local customs.",
+                "id": "2"
+              },
+              {
+                "description": "I would rather observe than meddle.",
+                "id": "3"
+              },
+              {
+                "description": "By living among violent people, I have become desensitized to violence.",
+                "id": "4"
+              },
+              {
+                "description": "I would risk life and limb to discover a new culture or unravel the secrets of a dead one.",
+                "id": "5"
+              },
+              {
+                "description": "When I arrive at a new settlement for the first time, I must learn all its customs.",
+                "id": "6"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Discovery. I want to be the first person to discover a lost culture. (Any)",
+                "id": "1"
+              },
+              {
+                "description": "Distance. One must not interfere with the affairs of another culture-even one in need of aid. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Knowledge. By understanding other races and cultures, we learn to understand ourselves. (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Power. Common people crave strong leadership, and I do my utmost to provide it. (lawful)",
+                "id": "4"
+              },
+              {
+                "description": "Protection. I must do everything possible to save a society facing extinction. (Good)",
+                "id": "5"
+              },
+              {
+                "description": "Indifferent. Life is cruel. What's the point in saving people if they're going to die anyway? (Chaotic)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me.",
+                "id": "1"
+              },
+              {
+                "description": "Having lived among the people of a primeval tribe or clan, I long to return and see how they are faring.",
+                "id": "2"
+              },
+              {
+                "description": "Years ago, tragedy struck the members of an isolated society I befriended, and I will honor them.",
+                "id": "3"
+              },
+              {
+                "description": "I want to learn more about a particular humanoid culture that fascinates me.",
+                "id": "4"
+              },
+              {
+                "description": "I seek to avenge a clan, tribe, kingdom, or empire that was wiped out.",
+                "id": "5"
+              },
+              {
+                "description": "I have a trinket that I believe is the key to finding a long-lost society.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Boats make me seasick.",
+                "id": "1"
+              },
+              {
+                "description": "I talk to myself, and I don't make friends easily.",
+                "id": "2"
+              },
+              {
+                "description": "I believe that I'm intellectually superior to people from other cultures and have much to teach them.",
+                "id": "3"
+              },
+              {
+                "description": "I've picked up some unpleasant habits living among goblins, lizardfolk, or orcs.",
+                "id": "4"
+              },
+              {
+                "description": "I complain about everything.",
+                "id": "5"
+              },
+              {
+                "description": "I wear a tribal mask and never take it off.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Insight, Religion, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Tomb of Annihilation",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You can communicate with humanoids who don't speak any language you know. You must observe the humanoids interacting with one another for at least 1 day, after which you learn a handful of important words, expressions, and gestures-enough to communicate on a rudimentary level.</p>",
+      "id": "ID_WOTC_TOA_BACKGROUND_ANTHROPOLOGIST_FEATURE_ADEPT_LINGUIST",
+      "name": "Feature: Adept Linguist",
+      "sheet": {
+        "alt": "Adept Linguist"
+      },
+      "source": "Tomb of Annihilation",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/tomb-annihilation"
+    },
+    "description": "Anthropologist Background",
+    "name": "Anthropologist",
+    "update": {
+      "file": {
+        "name": "background-anthropologist.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation/backgrounds/background-anthropologist.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

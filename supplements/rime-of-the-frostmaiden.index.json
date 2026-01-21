@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "Icewind Dale: Rime of the Frostmaiden",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.1.2",
+      "file": {
+        "name": "rime-of-the-frostmaiden.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/rime-of-the-frostmaiden.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/rime-of-the-frostmaiden/source.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/rime-of-the-frostmaiden/items.json"
+    },
+    {
+      "name": "spells.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/rime-of-the-frostmaiden/spells.json"
+    },
+    {
+      "name": "replicate-infusions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/rime-of-the-frostmaiden/replicate-infusions.json"
+    }
+  ]
+}

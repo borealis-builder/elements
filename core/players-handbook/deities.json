@@ -1,0 +1,4109 @@
+{
+  "element": [
+    {
+      "description": "<p class=\"flavor\">goddess of winter</p>",
+      "id": "ID_WOTC_PHB_DEITY_AURIL",
+      "name": "Auril",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Six-pointed snowflake",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of winter",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of wizards</p>",
+      "id": "ID_WOTC_PHB_DEITY_AZUTH",
+      "name": "Azuth",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Left hand pointing upward, outlined in fire",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of wizards",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of tyranny</p>",
+      "id": "ID_WOTC_PHB_DEITY_BANE",
+      "name": "Bane",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Upright black right hand, thumb and fingers together",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of tyranny",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of misfortune</p>",
+      "id": "ID_WOTC_PHB_DEITY_BESHABA",
+      "name": "Beshaba",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Black antlers",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of misfortune",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of murder</p>",
+      "id": "ID_WOTC_PHB_DEITY_BHAAL",
+      "name": "Bhaal",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Skull surrounded by a ring of blood droplets",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of murder",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of agriculture</p>",
+      "id": "ID_WOTC_PHB_DEITY_CHAUNTEA",
+      "name": "Chauntea",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Sheaf of grain or a blooming rose over grain",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of agriculture",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of lies</p>",
+      "id": "ID_WOTC_PHB_DEITY_CYRIC",
+      "name": "Cyric",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "White jawless skull on black or purple sunburst",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of lies",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of writing</p>",
+      "id": "ID_WOTC_PHB_DEITY_DENEIR",
+      "name": "Deneir",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Lit candle above an open eye",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of writing",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of peace</p>",
+      "id": "ID_WOTC_PHB_DEITY_ELDATH",
+      "name": "Eldath",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Waterfall plunging into still pool",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of peace",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of craft</p>",
+      "id": "ID_WOTC_PHB_DEITY_GOND",
+      "name": "Gond",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Toothed cog with four spokes",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of craft",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of protection</p>",
+      "id": "ID_WOTC_PHB_DEITY_HELM",
+      "name": "Helm",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Staring eye on upright left gauntlet",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of protection",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of endurance</p>",
+      "id": "ID_WOTC_PHB_DEITY_ILMATER",
+      "name": "Ilmater",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Hands bound at the wrist with red cord",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of endurance",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of the dead</p>",
+      "id": "ID_WOTC_PHB_DEITY_KELEMVOR",
+      "name": "Kelemvor",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Upright skeletal arm holding balanced scales",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of the dead",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of birth and renewal</p>",
+      "id": "ID_WOTC_PHB_DEITY_LATHANDER",
+      "name": "Lathander",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Road traveling into a sunrise",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of birth and renewal",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of illusion</p>",
+      "id": "ID_WOTC_PHB_DEITY_LEIRA",
+      "name": "Leira",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Point-down triangle containing a swirl of mist",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of illusion",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of joy</p>",
+      "id": "ID_WOTC_PHB_DEITY_LLIIRA",
+      "name": "Lliira",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Triangle of three six-pointed stars",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of joy",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of pain</p>",
+      "id": "ID_WOTC_PHB_DEITY_LOVIATAR",
+      "name": "Loviatar",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Nine-tailed barbed scourge",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of pain",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of the hunt</p>",
+      "id": "ID_WOTC_PHB_DEITY_MALAR",
+      "name": "Malar",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Clawed paw",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of the hunt",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of thieves</p>",
+      "id": "ID_WOTC_PHB_DEITY_MASK",
+      "name": "Mask",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Black mask",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of thieves",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of forests</p>",
+      "id": "ID_WOTC_PHB_DEITY_MIELIKKI",
+      "name": "Mielikki",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Unicorn's head",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of forests",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of poetry and song</p>",
+      "id": "ID_WOTC_PHB_DEITY_MILIL",
+      "name": "Milil",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Light",
+            "name": "domains"
+          },
+          {
+            "description": "Five-stringed harp made of leaves",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of poetry and song",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of death</p>",
+      "id": "ID_WOTC_PHB_DEITY_MYRKUL",
+      "name": "Myrkul",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "White human skull",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of death",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of magic</p>",
+      "id": "ID_WOTC_PHB_DEITY_MYSTRA",
+      "name": "Mystra",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Circle of seven stars, or nine stars encircling a flowing red mist, or a single star",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of magic",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of knowledge</p>",
+      "id": "ID_WOTC_PHB_DEITY_OGHMA",
+      "name": "Oghma",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Blank scroll",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of knowledge",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of divination and fate</p>",
+      "id": "ID_WOTC_PHB_DEITY_SAVRAS",
+      "name": "Savras",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Crystal ball containing many kinds of eyes",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of divination and fate",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of the moon</p>",
+      "id": "ID_WOTC_PHB_DEITY_SELUNE",
+      "name": "Selune",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Life",
+            "name": "domains"
+          },
+          {
+            "description": "Pair of eyes surrounded by seven stars",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of the moon",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of darkness and loss</p>",
+      "id": "ID_WOTC_PHB_DEITY_SHAR",
+      "name": "Shar",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Black disk encircled with a border",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of darkness and loss",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of wild nature</p>",
+      "id": "ID_WOTC_PHB_DEITY_SILVANUS",
+      "name": "Silvanus",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Oak leaf",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of wild nature",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of love and beauty</p>",
+      "id": "ID_WOTC_PHB_DEITY_SUNE",
+      "name": "Sune",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Face of a beautiful red-haired woman",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of love and beauty",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of disease and poison</p>",
+      "id": "ID_WOTC_PHB_DEITY_TALONA",
+      "name": "Talona",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Three teardrops on a triangle",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of disease and poison",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of storms</p>",
+      "id": "ID_WOTC_PHB_DEITY_TALOS",
+      "name": "Talos",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Three lightning bolts radiating from a central point",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of storms",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of war</p>",
+      "id": "ID_WOTC_PHB_DEITY_TEMPUS",
+      "name": "Tempus",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Upright flaming sword",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of war",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of courage and self-sacrifice</p>",
+      "id": "ID_WOTC_PHB_DEITY_TORM",
+      "name": "Torm",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "White right gauntlet",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of courage and self-sacrifice",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of good fortune</p>",
+      "id": "ID_WOTC_PHB_DEITY_TYMORA",
+      "name": "Tymora",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Face-up coin",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of good fortune",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of justice</p>",
+      "id": "ID_WOTC_PHB_DEITY_TYR",
+      "name": "Tyr",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Balanced scales resting on a warhammer",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of justice",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of the sea</p>",
+      "id": "ID_WOTC_PHB_DEITY_UMBERLEE",
+      "name": "Umberlee",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Wave curling left and right",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of the sea",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of trade</p>",
+      "id": "ID_WOTC_PHB_DEITY_WAUKEEN",
+      "name": "Waukeen",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Upright coin with Waukeen's profile facing left",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of trade",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of nature</p>",
+      "id": "ID_WOTC_PHB_DEITY_BEORY",
+      "name": "Beory",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Green disk",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of nature",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of magic</p>",
+      "id": "ID_WOTC_PHB_DEITY_BOCCOB",
+      "name": "Boccob",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Eye within a pentagram",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of magic",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of stars and wanderers</p>",
+      "id": "ID_WOTC_PHB_DEITY_CELESTIAN",
+      "name": "Celestian",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Arc of seven stars inside a circle",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of stars and wanderers",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of woodlands</p>",
+      "id": "ID_WOTC_PHB_DEITY_EHLONNA",
+      "name": "Ehlonna",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Unicorn horn",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of woodlands",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of envy and slaughter</p>",
+      "id": "ID_WOTC_PHB_DEITY_ERYTHNUL",
+      "name": "Erythnul",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Blood drop",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of envy and slaughter",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of horizons and travel</p>",
+      "id": "ID_WOTC_PHB_DEITY_FHARLANGHN",
+      "name": "Fharlanghn",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Circle crossed by a curved horizon line",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of horizons and travel",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of chivalry and valor</p>",
+      "id": "ID_WOTC_PHB_DEITY_HEIRONEOUS",
+      "name": "Heironeous",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Lightning bolt",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of chivalry and valor",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of war and discord</p>",
+      "id": "ID_WOTC_PHB_DEITY_HEXTOR",
+      "name": "Hextor",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Six arrows facing downward in a fan",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of war and discord",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of athletics and sport</p>",
+      "id": "ID_WOTC_PHB_DEITY_KORD",
+      "name": "Kord",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest, War",
+            "name": "domains"
+          },
+          {
+            "description": "Four spears and four maces radiating out from a central point",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of athletics and sport",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of plague and famine</p>",
+      "id": "ID_WOTC_PHB_DEITY_INCABULOS",
+      "name": "Incabulos",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Reptilian eye with a horizontal diamond",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of plague and famine",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of fate and destiny</p>",
+      "id": "ID_WOTC_PHB_DEITY_ISTUS",
+      "name": "Istus",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Weaver's spindle with three strands",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of fate and destiny",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of pain and oppression</p>",
+      "id": "ID_WOTC_PHB_DEITY_LUZ",
+      "name": "luz",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Grinning human skull",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of pain and oppression",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of death</p>",
+      "id": "ID_WOTC_PHB_DEITY_NERULL",
+      "name": "Nerull",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Skull with either a sickle or a scythe",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of death",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of nature</p>",
+      "id": "ID_WOTC_PHB_DEITY_OBAD_HAI",
+      "name": "Obad-Hai",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Oak leaf and acorn",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of nature",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of revelry</p>",
+      "id": "ID_WOTC_PHB_DEITY_OLIDAMMARA",
+      "name": "Olidammara",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Laughing mask",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of revelry",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of the sun and healing</p>",
+      "id": "ID_WOTC_PHB_DEITY_PELOR",
+      "name": "Pelor",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Sun",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of the sun and healing",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of light and law</p>",
+      "id": "ID_WOTC_PHB_DEITY_PHOLTUS",
+      "name": "Pholtus",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Light",
+            "name": "domains"
+          },
+          {
+            "description": "Silver sun or full moon partially eclipsed by a smaller crescent moon",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of light and law",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of ill luck and insanity</p>",
+      "id": "ID_WOTC_PHB_DEITY_RALISHAZ",
+      "name": "Ralishaz",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Three bone fate-casting sticks",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of ill luck and insanity",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of peace and reason</p>",
+      "id": "ID_WOTC_PHB_DEITY_RAO",
+      "name": "Rao",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "White heart",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of peace and reason",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of common sense and zeal</p>",
+      "id": "ID_WOTC_PHB_DEITY_ST_CUTHBERT",
+      "name": "St. Cuthbert",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Circle at the center of a starburst of lines",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of common sense and zeal",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of eternal darkness</p>",
+      "id": "ID_WOTC_PHB_DEITY_THARIZDUN",
+      "name": "Tharizdun",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Dark spiral or inverted ziggurat",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of eternal darkness",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of liberty and retribution</p>",
+      "id": "ID_WOTC_PHB_DEITY_TRITHEREON",
+      "name": "Trithereon",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Triskelion",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of liberty and retribution",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of hills and mountains</p>",
+      "id": "ID_WOTC_PHB_DEITY_ULAA",
+      "name": "Ulaa",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, War",
+            "name": "domains"
+          },
+          {
+            "description": "Mountain with a circle at its heart",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of hills and mountains",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of evil secrets</p>",
+      "id": "ID_WOTC_PHB_DEITY_VECNA",
+      "name": "Vecna",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Hand with eye in the palm",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of evil secrets",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of magic and death</p>",
+      "id": "ID_WOTC_PHB_DEITY_WEE_JAS",
+      "name": "Wee Jas",
+      "setters": {
+        "set": [
+          {
+            "description": "Greyhawk",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Red skull in front of fireball",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of magic and death",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of rulers and guardians</p>",
+      "id": "ID_WOTC_PHB_DEITY_PALADINE",
+      "name": "Paladine",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Silver triangle",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of rulers and guardians",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of music</p>",
+      "id": "ID_WOTC_PHB_DEITY_BRANCHALA",
+      "name": "Branchala",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Light",
+            "name": "domains"
+          },
+          {
+            "description": "Bard's harp",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of music",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of animal life and the sea</p>",
+      "id": "ID_WOTC_PHB_DEITY_HABBAKUK",
+      "name": "Habbakuk",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Blue bird",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of animal life and the sea",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of honor and war</p>",
+      "id": "ID_WOTC_PHB_DEITY_KIRI_JOLITH",
+      "name": "Kiri-Jolith",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Bison's horns",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of honor and war",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of meditation and order</p>",
+      "id": "ID_WOTC_PHB_DEITY_MAJERE",
+      "name": "Majere",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Copper spider",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of meditation and order",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of healing</p>",
+      "id": "ID_WOTC_PHB_DEITY_MISHAKAL",
+      "name": "Mishakal",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Life",
+            "name": "domains"
+          },
+          {
+            "description": "Blue infinity sign",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of healing",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of good magic</p>",
+      "id": "ID_WOTC_PHB_DEITY_SOLINARI",
+      "name": "Solinari",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "no clerics",
+            "name": "domains"
+          },
+          {
+            "description": "White circle or sphere",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of good magic",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of knowledge</p>",
+      "id": "ID_WOTC_PHB_DEITY_GILEAN",
+      "name": "Gilean",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Open book",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of knowledge",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of nature</p>",
+      "id": "ID_WOTC_PHB_DEITY_CHISLEV",
+      "name": "Chislev",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Feather",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of nature",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of craft</p>",
+      "id": "ID_WOTC_PHB_DEITY_REORX",
+      "name": "Reorx",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Forging hammer",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of craft",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of wealth and trade</p>",
+      "id": "ID_WOTC_PHB_DEITY_SHINARE",
+      "name": "Shinare",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Griffon's wing",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of wealth and trade",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of fire and change</p>",
+      "id": "ID_WOTC_PHB_DEITY_SIRRION",
+      "name": "Sirrion",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Multi-colored fire",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of fire and change",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of wisdom</p>",
+      "id": "ID_WOTC_PHB_DEITY_ZIVILYN",
+      "name": "Zivilyn",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Great green or gold tree",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of wisdom",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of neutral magic</p>",
+      "id": "ID_WOTC_PHB_DEITY_LUNITARI",
+      "name": "Lunitari",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "no clerics",
+            "name": "domains"
+          },
+          {
+            "description": "Red circle or sphere",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of neutral magic",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of night and hatred</p>",
+      "id": "ID_WOTC_PHB_DEITY_TAKHISIS",
+      "name": "Takhisis",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Black crescent",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of night and hatred",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of the undead</p>",
+      "id": "ID_WOTC_PHB_DEITY_CHEMOSH",
+      "name": "Chemosh",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Yellow skull",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of the undead",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of lies and greed</p>",
+      "id": "ID_WOTC_PHB_DEITY_HIDDUKEL",
+      "name": "Hiddukel",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Broken merchant's scales",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of lies and greed",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of disease and secrecy</p>",
+      "id": "ID_WOTC_PHB_DEITY_MORGION",
+      "name": "Morgion",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Hood with two red eyes",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of disease and secrecy",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of vengeance and fire</p>",
+      "id": "ID_WOTC_PHB_DEITY_SARGONNAS",
+      "name": "Sargonnas",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Stylized red condor",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of vengeance and fire",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of the sea and storms</p>",
+      "id": "ID_WOTC_PHB_DEITY_ZEBOIM",
+      "name": "Zeboim",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Turtle shell",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of the sea and storms",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of evil magic</p>",
+      "id": "ID_WOTC_PHB_DEITY_NUITARI",
+      "name": "Nuitari",
+      "setters": {
+        "set": [
+          {
+            "description": "Dragonlance",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "no clerics",
+            "name": "domains"
+          },
+          {
+            "description": "Black circle or sphere",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of evil magic",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of fertility</p>",
+      "id": "ID_WOTC_PHB_DEITY_ARAWAI",
+      "name": "Arawai",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Sheaf of wheat tied with green ribbon",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of fertility",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of law and knowledge</p>",
+      "id": "ID_WOTC_PHB_DEITY_AUREON",
+      "name": "Aureon",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Open tome",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of law and knowledge",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of beasts and the hunt</p>",
+      "id": "ID_WOTC_PHB_DEITY_BALINOR",
+      "name": "Balinor",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Pair of antlers",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of beasts and the hunt",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of community and home</p>",
+      "id": "ID_WOTC_PHB_DEITY_BOLDREI",
+      "name": "Boldrei",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Fire in a stone hearth",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of community and home",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of sunlight and honor</p>",
+      "id": "ID_WOTC_PHB_DEITY_DOL_ARRAH",
+      "name": "Dol Arrah",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Light, War",
+            "name": "domains"
+          },
+          {
+            "description": "Rising sun",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of sunlight and honor",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of strength at arms</p>",
+      "id": "ID_WOTC_PHB_DEITY_DOL_DORN",
+      "name": "Dol Dorn",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Longsword crossed over a shield",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of strength at arms",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of trade and wealth</p>",
+      "id": "ID_WOTC_PHB_DEITY_KOL_KORRAN",
+      "name": "Kol Korran",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Nine-sided gold coin",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of trade and wealth",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of good fortune</p>",
+      "id": "ID_WOTC_PHB_DEITY_OLLADRA",
+      "name": "Olladra",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Domino",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of good fortune",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of craft</p>",
+      "id": "ID_WOTC_PHB_DEITY_ONATAR",
+      "name": "Onatar",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Crossed hammer and tongs",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of craft",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of nature's wrath</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_DEVOURER",
+      "name": "The Devourer",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Bundle of five sharpened bones",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of nature's wrath",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goddess of wrath and madness</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_FURY",
+      "name": "The Fury",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Winged wyrm with woman's head and upper body",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goddess of wrath and madness",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of greed and death</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_KEEPER",
+      "name": "The Keeper",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Dragonshard stone in the shape of a fang",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of greed and death",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of violence and treachery</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_MOCKERY",
+      "name": "The Mockery",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Five blood-spattered tools",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of violence and treachery",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of dark magic</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_SHADOW",
+      "name": "The Shadow",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Obsidian tower",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of dark magic",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">deity of chaos and change</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_TRAVELER",
+      "name": "The Traveler",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "CN",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Four crossed, rune-inscribed bones",
+            "name": "symbol"
+          },
+          {
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "deity of chaos and change",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">deity of protection and good</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_SILVER_FLAME",
+      "name": "The Silver Flame",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light, War",
+            "name": "domains"
+          },
+          {
+            "description": "Flame drawn on silver or molded from silver",
+            "name": "symbol"
+          },
+          {
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "deity of protection and good",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">philosophy of immortality and undeath</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_BLOOD_OF_VOL",
+      "name": "The Blood of Vol",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Death, Life",
+            "name": "domains"
+          },
+          {
+            "description": "Stylized dragon skull on red teardrop gem",
+            "name": "symbol"
+          },
+          {
+            "description": "philosophy of immortality and undeath",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "philosophy of immortality and undeath",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">deities of madness</p>",
+      "id": "ID_WOTC_PHB_DEITY_CULTS_OF_THE_DRAGON_BELOW",
+      "name": "Cults of the Dragon Below",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Varies",
+            "name": "symbol"
+          },
+          {
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "deities of madness",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">philosophy of light and self-improvement</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_PATH_OF_LIGHT",
+      "name": "The Path of Light",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "LN",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, Light",
+            "name": "domains"
+          },
+          {
+            "description": "Brilliant crystal",
+            "name": "symbol"
+          },
+          {
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "philosophy of light and self-improvement",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">elven ancestors</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_UNDYING_COURT",
+      "name": "The Undying Court",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "NG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, Life",
+            "name": "domains"
+          },
+          {
+            "description": "Varies",
+            "name": "symbol"
+          },
+          {
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "elven ancestors",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">elven ancestors</p>",
+      "id": "ID_WOTC_PHB_DEITY_THE_SPIRITS_OF_THE_PAST",
+      "name": "The Spirits of the Past",
+      "setters": {
+        "set": [
+          {
+            "description": "Eberron",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Varies",
+            "name": "symbol"
+          },
+          {
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "elven ancestors",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">dragon god of good</p>",
+      "id": "ID_WOTC_PHB_DEITY_BAHAMUT",
+      "name": "Bahamut",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life, War",
+            "name": "domains"
+          },
+          {
+            "description": "Dragon's head in profile",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "dragon god of good",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">kuo-toa goddess</p>",
+      "id": "ID_WOTC_PHB_DEITY_BLIBDOOLPOOLP",
+      "name": "Blibdoolpoolp",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "NE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Lobster head or black pearl",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "kuo-toa goddess",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">elf deity of art and magic</p>",
+      "id": "ID_WOTC_PHB_DEITY_CORELLON_LARETHIAN",
+      "name": "Corellon Larethian",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Light",
+            "name": "domains"
+          },
+          {
+            "description": "Quarter moon or starburst",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "elf deity of art and magic",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">elf god of the sea</p>",
+      "id": "ID_WOTC_PHB_DEITY_DEEP_SASHELAS",
+      "name": "Deep Sashelas",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Dolphin",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "elf god of the sea",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">merfolk deity of the sea</p>",
+      "id": "ID_WOTC_PHB_DEITY_EADRO",
+      "name": "Eadro",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Spiral design",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "merfolk deity of the sea",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">gnome god of trickery and wiles</p>",
+      "id": "ID_WOTC_PHB_DEITY_GARL_GLITTERGOLD",
+      "name": "Garl Glittergold",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Gold nugget",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "gnome god of trickery and wiles",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">hill giant god of war</p>",
+      "id": "ID_WOTC_PHB_DEITY_GROLANTOR",
+      "name": "Grolantor",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Wooden club",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "hill giant god of war",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">orc god of storms and war</p>",
+      "id": "ID_WOTC_PHB_DEITY_GRUUMSH",
+      "name": "Gruumsh",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Tempest, War",
+            "name": "domains"
+          },
+          {
+            "description": "Unblinking eye",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "orc god of storms and war",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">bugbear god of violence</p>",
+      "id": "ID_WOTC_PHB_DEITY_HRUGGEK",
+      "name": "Hruggek",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Morningstar",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "bugbear god of violence",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">kobold god of war and mining</p>",
+      "id": "ID_WOTC_PHB_DEITY_KURTULMAK",
+      "name": "Kurtulmak",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Gnome skull",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "kobold god of war and mining",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">troglodyte god of hunger</p>",
+      "id": "ID_WOTC_PHB_DEITY_LAOGZED",
+      "name": "Laogzed",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Death",
+            "name": "domains"
+          },
+          {
+            "description": "Image of the lizard/toad god",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "troglodyte god of hunger",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">drow goddess of spiders</p>",
+      "id": "ID_WOTC_PHB_DEITY_LOLTH",
+      "name": "Lolth",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Spider",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "drow goddess of spiders",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">goblinoid god of war</p>",
+      "id": "ID_WOTC_PHB_DEITY_MAGLUBIYET",
+      "name": "Maglubiyet",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "Bloody axe",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "goblinoid god of war",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">dwarf god of creation</p>",
+      "id": "ID_WOTC_PHB_DEITY_MORADIN",
+      "name": "Moradin",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Hammer and anvil",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "dwarf god of creation",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">wood elf god of nature</p>",
+      "id": "ID_WOTC_PHB_DEITY_RILLIFANE_RALLATHIL",
+      "name": "Rillifane Rallathil",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Oak",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "wood elf god of nature",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">elf goddess of the moon</p>",
+      "id": "ID_WOTC_PHB_DEITY_SEHANINE_MOONBOW",
+      "name": "Sehanine Moonbow",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CG",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Crescent moon",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "elf goddess of the moon",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">sahuagin god of the hunt</p>",
+      "id": "ID_WOTC_PHB_DEITY_SEKOLAH",
+      "name": "Sekolah",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature, Tempest",
+            "name": "domains"
+          },
+          {
+            "description": "Shark",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "sahuagin god of the hunt",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">lizardfolk deity of survival</p>",
+      "id": "ID_WOTC_PHB_DEITY_SEMUANYA",
+      "name": "Semuanya",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Egg",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "lizardfolk deity of survival",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">centaur and satyr god of nature</p>",
+      "id": "ID_WOTC_PHB_DEITY_SKERRIT",
+      "name": "Skerrit",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Nature",
+            "name": "domains"
+          },
+          {
+            "description": "Oak growing from acorn",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "centaur and satyr god of nature",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of stone giants and art</p>",
+      "id": "ID_WOTC_PHB_DEITY_SKORAEUS_STONEBONES",
+      "name": "Skoraeus Stonebones",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "N",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge",
+            "name": "domains"
+          },
+          {
+            "description": "Stalactite",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of stone giants and art",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of fire giants and craft</p>",
+      "id": "ID_WOTC_PHB_DEITY_SURTUR",
+      "name": "Surtur",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Knowledge, War",
+            "name": "domains"
+          },
+          {
+            "description": "Flaming sword",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of fire giants and craft",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">god of frost giants and strength</p>",
+      "id": "ID_WOTC_PHB_DEITY_THRYM",
+      "name": "Thrym",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "CE",
+            "name": "alignment"
+          },
+          {
+            "description": "War",
+            "name": "domains"
+          },
+          {
+            "description": "White double-bladed axe",
+            "name": "symbol"
+          },
+          {
+            "description": "male",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "god of frost giants and strength",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">dragon goddess of evil</p>",
+      "id": "ID_WOTC_PHB_DEITY_TIAMAT",
+      "name": "Tiamat",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LE",
+            "name": "alignment"
+          },
+          {
+            "description": "Trickery",
+            "name": "domains"
+          },
+          {
+            "description": "Dragon head with five claw marks",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "dragon goddess of evil",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    },
+    {
+      "description": "<p class=\"flavor\">halfling goddess of fertility and protection</p>",
+      "id": "ID_WOTC_PHB_DEITY_YONDALLA",
+      "name": "Yondalla",
+      "setters": {
+        "set": [
+          {
+            "description": "Forgotten Realms",
+            "name": "setting"
+          },
+          {
+            "description": "LG",
+            "name": "alignment"
+          },
+          {
+            "description": "Life",
+            "name": "domains"
+          },
+          {
+            "description": "Shield",
+            "name": "symbol"
+          },
+          {
+            "description": "female",
+            "name": "gender"
+          }
+        ]
+      },
+      "sheet": "halfling goddess of fertility and protection",
+      "source": "Player's Handbook",
+      "type": "Deity"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Deities from the Player's Handbook.",
+    "name": "Deities",
+    "update": {
+      "file": {
+        "name": "deities.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/deities.json"
+      },
+      "version": "0.2"
+    }
+  }
+}

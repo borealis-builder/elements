@@ -1,0 +1,47 @@
+{
+  "element": [
+    {
+      "description": "<p>You have infiltrated the ranks of the Cult of the Dragon. Having spied on the organization for quite sometime, you are familiar with its inner workings and customs. You have a second identity as an initiate of the cult, enough of a facade to blend in as a simple grunt or servant.</p>",
+      "id": "ID_WOCT_HOTDQ_BACKGROUND_FEATURE_DRAGON_CULT_INFILTRATOR",
+      "name": "Optional Feature: Cult of the Dragon Infiltrator",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+          "type": "Grants"
+        }
+      },
+      "sheet": {
+        "alt": "Cult of the Dragon Infiltrator"
+      },
+      "source": "Hoard of the Dragon Queen",
+      "supports": "Background Feature, Optional Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You have studied dragons and their lore for many years. You can automatically identify locations built or used by dragons and can identify dragon eggs and scales by sight. If you fail an Intelligence check to recall lore related to dragons, you know someone or some book you can consult for the answer unless the DM rules that the lore is unknown.</p>",
+      "id": "ID_WOCT_HOTDQ_BACKGROUND_FEATURE_DRAGON_SCHOLAR",
+      "name": "Optional Feature: Dragon Scholar",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+          "type": "Grants"
+        }
+      },
+      "sheet": {
+        "alt": "Dragon Scholar"
+      },
+      "source": "Hoard of the Dragon Queen",
+      "supports": "Background Feature, Optional Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "background-options.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/hoard-of-the-dragon-queen/background-options.json"
+      },
+      "version": "0.1"
+    }
+  }
+}

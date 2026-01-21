@@ -1,0 +1,399 @@
+{
+  "element": [
+    {
+      "description": "<p>If you have proficiency with the bagpipes, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_BAGPIPES",
+      "name": "Bagpipes",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "30",
+            "name": "cost"
+          },
+          {
+            "description": "6 lbs.",
+            "lb": "6",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you have proficiency with the drum, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_DRUM",
+      "name": "Drum",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "6",
+            "name": "cost"
+          },
+          {
+            "description": "3 lbs.",
+            "lb": "3",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_DRUM",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you have proficiency with the dulcimer, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_DULCIMER",
+      "name": "Dulcimer",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "10 lbs.",
+            "lb": "10",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_DULCIMER",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you have proficiency with the flute, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_FLUTE",
+      "name": "Flute",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2",
+            "name": "cost"
+          },
+          {
+            "description": "1 lbs.",
+            "lb": "1",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you have proficiency with the lute, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_LUTE",
+      "name": "Lute",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "35",
+            "name": "cost"
+          },
+          {
+            "description": "2 lbs.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_LUTE",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you have proficiency with the lyre, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_LYRE",
+      "name": "Lyre",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "30",
+            "name": "cost"
+          },
+          {
+            "description": "2 lbs.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you have proficiency with the horn, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_HORN",
+      "name": "Horn",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "3",
+            "name": "cost"
+          },
+          {
+            "description": "2 lbs.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_HORN",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you have proficiency with the pan flute, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_PANFLUTE",
+      "name": "Pan flute",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "12",
+            "name": "cost"
+          },
+          {
+            "description": "2 lbs.",
+            "lb": "2",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_PAN_FLUTE",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you have proficiency with the shawm, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_SHAWM",
+      "name": "Shawm",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2",
+            "name": "cost"
+          },
+          {
+            "description": "1 lbs.",
+            "lb": "1",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_SHAWM",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you have proficiency with the viol, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+      "id": "ID_WOTC_SRD_INSTRUMENT_VIOL",
+      "name": "Viol",
+      "setters": {
+        "set": [
+          {
+            "description": "Musical Instruments",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "30",
+            "name": "cost"
+          },
+          {
+            "description": "1 lbs.",
+            "lb": "1",
+            "name": "weight"
+          },
+          {
+            "description": "onehand",
+            "name": "slot"
+          },
+          {
+            "description": "Tool",
+            "name": "type"
+          },
+          {
+            "description": "ID_PROFICIENCY_TOOL_PROFICIENCY_VIOL",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT",
+      "type": "Item"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "",
+    "name": "Instruments",
+    "update": {
+      "file": {
+        "name": "items-instrument.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-instrument.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

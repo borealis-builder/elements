@@ -1,0 +1,669 @@
+{
+  "element": [
+    {
+      "description": "<p><strong><em>Speed.</em></strong> 50 ft.<br/><strong><em>Carrying Capacity.</em></strong> 480 lb.</p>",
+      "id": "ID_WOTC_PHB_ITEM_CAMEL",
+      "name": "Camel",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "excludeEncumbrance": "true",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Mount",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 420 lb.</p>",
+      "id": "ID_WOTC_PHB_ITEM_DONKEY",
+      "name": "Donkey",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "8",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Mount",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 420 lb.</p>",
+      "id": "ID_WOTC_PHB_ITEM_MULE",
+      "name": "Mule",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "8",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Mount",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 1320 lb.</p>",
+      "id": "ID_WOTC_PHB_ITEM_ELEPHANT",
+      "name": "Elephant",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "200",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Mount",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 540 lb.</p>",
+      "id": "ID_WOTC_PHB_ITEM_HORSE_DRAFT",
+      "name": "Horse, Draft",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Mount",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p><strong><em>Speed.</em></strong> 60 ft.<br/><strong><em>Carrying Capacity.</em></strong> 480 lb.</p>",
+      "id": "ID_WOTC_PHB_ITEM_HORSE_RIDING",
+      "name": "Horse, Riding",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "75",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Mount",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 195 lb.</p>",
+      "id": "ID_WOTC_PHB_ITEM_MASTIFF",
+      "name": "Mastiff",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Mount",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 225 lb.</p>",
+      "id": "ID_WOTC_PHB_ITEM_PONY",
+      "name": "Pony",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "30",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Mount",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p><strong><em>Speed.</em></strong> 60 ft.<br/><strong><em>Carrying Capacity.</em></strong> 540 lb.</p>",
+      "id": "ID_WOTC_PHB_ITEM_WARHORSE",
+      "name": "Warhorse",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "400",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Mount",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table in this chapter can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.</p>",
+      "id": "ID_WOTC_PHB_ITEM_BARDING",
+      "name": "Barding",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_PHB_ITEM_BIT_AND_BRIDLE",
+      "name": "Bit and Bridle",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2",
+            "name": "cost"
+          },
+          {
+            "description": "1 lb.",
+            "lb": "1",
+            "name": "weight"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_PHB_ITEM_CARRIAGE",
+      "name": "Carriage",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "100",
+            "name": "cost"
+          },
+          {
+            "description": "600 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "600",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_PHB_ITEM_CART",
+      "name": "Cart",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "15",
+            "name": "cost"
+          },
+          {
+            "description": "200 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "200",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_PHB_ITEM_CHARIOT",
+      "name": "Chariot",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "100 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "100",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_PHB_ITEM_FEED_PER_DAY",
+      "name": "Feed (per day)",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "cp",
+            "description": "5",
+            "name": "cost"
+          },
+          {
+            "description": "10 lb.",
+            "lb": "10",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.</p>",
+      "id": "ID_WOTC_PHB_ITEM_SADDLE_EXOTIC",
+      "name": "Saddle, Exotic",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "60",
+            "name": "cost"
+          },
+          {
+            "description": "40 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "40",
+            "name": "weight"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.</p>",
+      "id": "ID_WOTC_PHB_ITEM_SADDLE_MILITARY",
+      "name": "Saddle, Military",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "20",
+            "name": "cost"
+          },
+          {
+            "description": "30 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "30",
+            "name": "weight"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.</p>",
+      "id": "ID_WOTC_PHB_ITEM_SADDLE_PACK",
+      "name": "Saddle, Pack",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "5",
+            "name": "cost"
+          },
+          {
+            "description": "15 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "15",
+            "name": "weight"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.</p>",
+      "id": "ID_WOTC_PHB_ITEM_SADDLE_RIDING",
+      "name": "Saddle, Riding",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "25 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "25",
+            "name": "weight"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_PHB_ITEM_SADDLEBAGS",
+      "name": "Saddlebags",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "4",
+            "name": "cost"
+          },
+          {
+            "description": "8 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "8",
+            "name": "weight"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_PHB_ITEM_SLED",
+      "name": "Sled",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "20",
+            "name": "cost"
+          },
+          {
+            "description": "300 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "300",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_PHB_ITEM_STABLING",
+      "name": "Stabling (per day)",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "sp",
+            "description": "5",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_PHB_ITEM_WAGON",
+      "name": "Wagon",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "35",
+            "name": "cost"
+          },
+          {
+            "description": "400 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "400",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "type": "Item"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "",
+    "name": "Mounts & Vehicles",
+    "update": {
+      "file": {
+        "name": "items-mounts.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-mounts.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

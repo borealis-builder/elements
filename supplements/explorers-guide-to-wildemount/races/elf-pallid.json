@@ -1,0 +1,69 @@
+{
+  "element": [
+    {
+      "description": "<p>The pallid elves are a mystical and insightful people with skin as pale as the surface of Exandria's largest moon. They emerged from the Pallid Grove this century and wander the world with childlike curiosity.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p> <p class=\"indent\"><strong><em>Incisive Sense.</em></strong> You have advantage on Intelligence (Investigation) and Wisdom (Insight) checks.</p> <p class=\"indent\"><strong><em>Blessing of the Moon Weaver.</em></strong> You know the <em>light</em> cantrip. When you reach 3rd level, you can cast the <em>sleep</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>invisibility</em> spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.</p>",
+      "id": "ID_WOTC_EGTW_SUB_RACE_PALLID_ELF",
+      "name": "Pallid Elf",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_EGTW_RACIAL_TRAIT_PALLID_INCISIVE_SENSE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_EGTW_RACIAL_TRAIT_PALLID_BLESSING_OF_THE_MOON_WEAVER",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Pallid Elf)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "wisdom",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Explorer's Guide to Wildemount",
+      "supports": "Elf",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>You have advantage on Intelligence (Investigation) and Wisdom (Insight) checks.</p>",
+      "id": "ID_WOTC_EGTW_RACIAL_TRAIT_PALLID_INCISIVE_SENSE",
+      "name": "Incisive Sense",
+      "sheet": "You have advantage on Investigation and Insight checks.",
+      "source": "Explorer's Guide to Wildemount",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You know the <em>light</em> cantrip. When you reach 3rd level, you can cast the <em>sleep</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>invisibility</em> spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.</p>",
+      "id": "ID_WOTC_EGTW_RACIAL_TRAIT_PALLID_BLESSING_OF_THE_MOON_WEAVER",
+      "name": "Blessing of the Moon Weaver",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_LIGHT",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You know the light cantrip. You know the light cantrip. You can cast the sleep spell without material components (1/long rest). (Wisdom) You know the light cantrip. You can cast the sleep spell and the invisibility spell (targeting yourself only) without material components (1/long rest). (Wisdom)",
+      "source": "Explorer's Guide to Wildemount",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "elf-pallid.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/races/elf-pallid.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "element": [
+    {
+      "description": "<p>You've dedicated your life to studying runecraft. Whether you were taught by a master rune carver or learned by poring over ancient engravings, you can tap into the supernatural power held within runes.</p> <p class=\"indent\">The art of runecraft was initially created by giants, but over time, the practice has been adopted by many peoples. As such, though Giant runes are the most commonly used, many rune carvers incorporate symbols from their native languages into the craft.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> History, Perception</li> <li><strong>Tool Proficiencies:</strong> One set of artisan's tools</li> <li><strong>Languages:</strong> Giant</li> <li><strong>Equipment:</strong> A set of artisan's tools (one of your choice), a small knife, a whetstone, a set of common clothes, and a pouch containing 10 gp</li> </ul> <h5>RUNE STYLES</h5> <p>Each rune carver has a unique style and preferred medium. To determine how you make your runes, you can roll on the Rune Style table.</p> <p><strong>Rune Style</strong></p> <table> <thead> <tr><td class=\"col-10\">d6</td><td>Style</td></tr> </thead> <tr><td>1</td><td>You inscribe runes in wax or clay with a fine metal needle.</td></tr> <tr><td>2</td><td>You whittle pieces of wood into small figurines you mark with runes.</td></tr> <tr><td>3</td><td>You engrave runes onto glass beads and thread them onto necklaces and bracelets.</td></tr> <tr><td>4</td><td>You stitch runes into the hems of clothing.</td></tr> <tr><td>5</td><td>You carve runes on a set of animal bones you can throw in different formations.</td></tr> <tr><td>6</td><td>You draw runes into candles, melting the wax to smooth over the engravings.</td></tr> </table> <h5>BUILDING A RUNE CARVER CHARACTER</h5> <p>Scholarly pursuits, ancient mysteries, or a fateful encounter might inspire a character to pursue the secrets of a rune carver.</p> <div element=\"ID_WOTC_GOTG_BACKGROUND_FEATURE_RUNE_CARVER_RUNE_SHAPER\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>The Rune Carver Personality Traits table suggests a variety of traits you might adopt for your character.</p> <table> <thead> <tr><td class=\"col-10\">d6</td><td>Personality Trait</td></tr> </thead> <tr><td>1</td><td>Is it practical to learn an ancient language that is rarely spoken? No. But is it fun? Very.</td></tr> <tr><td>2</td><td>I learned one of my ancestors was a lauded rune carver whose story was lost to time. I seek to rekindle that legacy.</td></tr> <tr><td>3</td><td>The old, traditional markings of runecraft look so boring. Why not give my runes some flair?</td></tr> <tr><td>4</td><td>In my studies of runes, I strive to understand how great civilizations of the past fell, so I can prevent it from happening to societies of the present.</td></tr> <tr><td>5</td><td>Life may be a whirlwind of chaos, but whenever I create my runes, I feel at peace.</td></tr> <tr><td>6</td><td>My brain struggles to process words written in ink, but the feeling of carved runes makes my mind sing.</td></tr> </table>",
+      "id": "ID_WOTC_GOTG_BACKGROUND_RUNE_CARVER",
+      "name": "Rune Carver",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_HISTORY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERCEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_LANGUAGE_GIANT",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_GOTG_BACKGROUND_FEATURE_RUNE_CARVER_RUNE_SHAPER",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Tool Proficiency (Rune Carver)",
+            "supports": "Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Is it practical to learn an ancient language that is rarely spoken? No. But is it fun? Very.",
+                "id": "1"
+              },
+              {
+                "description": "I learned one of my ancestors was a lauded rune carver whose story was lost to time. I seek to rekindle that legacy.",
+                "id": "2"
+              },
+              {
+                "description": "The old, traditional markings of runecraft look so boring. Why not give my runes some flair?",
+                "id": "3"
+              },
+              {
+                "description": "In my studies of runes, I strive to understand how great civilizations of the past fell, so I can prevent it from happening to societies of the present.",
+                "id": "4"
+              },
+              {
+                "description": "Life may be a whirlwind of chaos, but whenever I create my runes, I feel at peace.",
+                "id": "5"
+              },
+              {
+                "description": "My brain struggles to process words written in ink, but the feeling of carved runes makes my mind sing.",
+                "id": "6"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "History, Perception, Artisan's Tool, Giant Language",
+          "name": "short"
+        }
+      },
+      "source": "Bigby Presents: Glory of the Giants",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You gain the Rune Shaper feat.</p>",
+      "id": "ID_WOTC_GOTG_BACKGROUND_FEATURE_RUNE_CARVER_RUNE_SHAPER",
+      "name": "Feature: Rune Shaper",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_GOTG_FEAT_RUNE_SHAPER",
+          "type": "Feat"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Bigby Presents: Glory of the Giants",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "background-rune-carver.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/backgrounds/background-rune-carver.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

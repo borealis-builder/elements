@@ -1,0 +1,252 @@
+{
+  "element": [
+    {
+      "description": "<p>The God-Pharaoh expects those he welcomes into the afterlife to desire it above all other pleasures and achievements, and for them to show their dedication, passion, and fervor through their actions. Hazoret is charged with cultivating this Solidarity in the initiates who come under her care, and she has undertaken the task with appropriate enthusiasm. She recognizes, however, that the best way to teach Solidarity is by demonstrating it.</p> <div element=\"ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_DOMAIN_SPELLS\" /> <div element=\"ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_BONUS_PROFICIENCIES\" /> <div element=\"ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_SOLIDARITYS_ACTION\" /> <div element=\"ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_CD_PRESERVE_LIFE\" /> <div element=\"ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_CD_OKETRAS_BLESSING\" /> <div element=\"ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_DIVINE_STRIKE\" /> <div element=\"ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_SUPREME_HEALING\" />",
+      "id": "ID_WOTC_PSA_CLERIC_SOLIDARITY",
+      "name": "Solidarity Domain",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_DOMAIN_SPELLS",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_BONUS_PROFICIENCIES",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_SOLIDARITYS_ACTION",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_CD_PRESERVE_LIFE",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_CD_OKETRAS_BLESSING",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_DIVINE_STRIKE",
+            "level": "8",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_SUPREME_HEALING",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "http://dnd.wizards.com/articles/features/plane-shift-amonkhet",
+          "name": "sourceUrl"
+        }
+      },
+      "sheet": "The Solidarity domain is granted to those who follow the teachings of the God-Pharaoh Oketra.",
+      "source": "Plane Shift: Amonkhet",
+      "supports": "Divine Domain",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>You gain domain spells at the cleric levels listed in the Solidarity Domain Spells table. See the Divine Domain class feature for how domain spells work.</p> <h5>Solidarity Domain Spells</h5> <table> <thead> <tr><td>Cleric Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>bless, guiding bolt</em></td></tr> <tr><td>3rd</td><td><em>aid, warding bond</em></td></tr> <tr><td>5th</td><td><em>beacon of hope, crusader's mantle</em></td></tr> <tr><td>7th</td><td><em>aura of life, guardian of faith</em></td></tr> <tr><td>9th</td><td><em>circle of power, mass cure wounds</em></td></tr> </table>",
+      "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_DOMAIN_SPELLS",
+      "name": "Domain Spells",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_BLESS",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_GUIDING_BOLT",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_AID",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_WARDING_BOND",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_BEACON_OF_HOPE",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_CRUSADERS_MANTLE",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_AURA_OF_LIFE",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_GUARDIAN_OF_FAITH",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_CIRCLE_OF_POWER",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_MASS_CURE_WOUNDS",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Amonkhet",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>When you choose this domain at 1st level, you gain proficiency with heavy armor.</p>",
+      "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_BONUS_PROFICIENCIES",
+      "name": "Bonus Proficiencies",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You gain proficiency with martial weapons and heavy armor.",
+        "display": "false"
+      },
+      "source": "Plane Shift: Amonkhet",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, when you take the Help action to aid an ally's attack, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain expended uses when you finish a long rest.</p> <p class=\"indent\"></p>",
+      "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_SOLIDARITYS_ACTION",
+      "name": "Solidarity's Action",
+      "sheet": {
+        "content": "When you take the help action you can make one attack as a bonus action.",
+        "usage": "wisdom:modifier}}/Long Rest"
+      },
+      "source": "Plane Shift: Amonkhet",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.</p> <p class=\"indent\">As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.</p>",
+      "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_CD_PRESERVE_LIFE",
+      "name": "Channel Divinity: Preserve Life",
+      "rules": {
+        "stat": [
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          },
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          },
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          },
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          },
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Action",
+        "alt": "Preserve Life",
+        "content": "You present your holy symbol and evoke healing energy that can restore {{preserve life:hp}} hit points. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Plane Shift: Amonkhet",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>",
+      "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_CD_OKETRAS_BLESSING",
+      "name": "Channel Divinity: Oketra's Blessing",
+      "sheet": {
+        "action": "Reaction",
+        "alt": "Oketra's Blessing",
+        "content": "When a creature within 30 feet of you makes an attack roll you can use your reaction to add +10 to that roll this can be done after the roll but before the results are revealed.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Plane Shift: Amonkhet",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 of the same damage type to the target. When you reach 14th level, the extra damage increases to 2d8.</p>",
+      "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_DIVINE_STRIKE",
+      "name": "Divine Strike",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING",
+      "sheet": "Once per turn when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 of the same damage type to the target. Once per turn when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 of the same damage type to the target.",
+      "source": "Plane Shift: Amonkhet",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die.</p>",
+      "id": "ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_SUPREME_HEALING",
+      "name": "Supreme Healing",
+      "sheet": "Healing spells that require dice rolls now heal for the maximum amount.",
+      "source": "Plane Shift: Amonkhet",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "https://media.wizards.com/2017/downloads/magic/plane-shift_amonkhet.pdf"
+    },
+    "description": "Hazoret: Solidarity Domain for Clerics from Planeshift Amonkhet",
+    "name": "Planeshift Amonkhet: Solidarity Domain",
+    "update": {
+      "file": {
+        "name": "cleric-solidarity.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/cleric-solidarity.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

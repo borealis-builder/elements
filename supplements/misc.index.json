@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "miscellaneous",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.3",
+      "file": {
+        "name": "misc.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/misc.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "dragon-plus.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/misc/dragon-plus.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "element": {
+    "description": "<p>Ships, officers, crew, and hazards on the high seas—those are the focus of this month's Unearthed Arcana.</p>",
+    "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20181112",
+    "name": "Unearthed Arcana: Of Ships and the Sea",
+    "setters": {
+      "set": [
+        {
+          "description": "UA20181112",
+          "name": "abbreviation"
+        },
+        {
+          "description": "http://dnd.wizards.com/articles/unearthed-arcana/ships-and-sea",
+          "name": "url"
+        },
+        {
+          "abbreviation": "WOTC",
+          "description": "Wizards of the Coast",
+          "name": "author",
+          "url": "http://dnd.wizards.com"
+        },
+        {
+          "description": "true",
+          "name": "official"
+        },
+        {
+          "description": "true",
+          "name": "playtest"
+        },
+        {
+          "description": "The content from this source is not included.",
+          "name": "information"
+        },
+        {
+          "description": "20181112",
+          "name": "release"
+        }
+      ]
+    },
+    "source": "Core",
+    "type": "Source"
+  },
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana/ships-and-sea"
+    },
+    "description": "Ships, officers, crew, and hazards on the high seas—those are the focus of this month's Unearthed Arcana.",
+    "name": "Unearthed Arcana: Of Ships and the Sea",
+    "update": {
+      "file": {
+        "name": "20181112.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20181112.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

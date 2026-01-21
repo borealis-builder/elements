@@ -1,0 +1,1698 @@
+{
+  "element": [
+    {
+      "description": "<p>Conjure forth new magic in your D&amp;D games with the spells and tattoos introduced in today's Unearthed Arcana. Many of the spells focus on summoning, and the tattoos allow you to ink magic onto your very skin.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20200326",
+      "name": "Unearthed Arcana: Spells and Magic Tattoos",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20200326",
+            "name": "abbreviation"
+          },
+          {
+            "description": "https://dnd.wizards.com/articles/unearthed-arcana/spells-magic-tattoos",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "20200326",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 3d4 acid damage at start of each of its turns.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.</p>",
+      "id": "ID_WOTC_UA20200326_SPELL_ACID_STREAM",
+      "name": "Acid Stream",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "1",
+            "name": "level"
+          },
+          {
+            "description": "Evocation",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "Self (30-foot line)",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 minute",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a bit of rotten food",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Sorcerer,Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:</p> <ul> <li>You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).</li> <li>You are immune to the poisoned condition (Lower Planes) or the charmed condition (Upper Planes).</li> <li>Spectral wings appear on your back, giving you a flying speed of 40 feet.</li> <li>You have a +2 bonus to AC.</li> <li>All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.</li> <li>You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</li> </ul>",
+      "id": "ID_WOTC_UA20200326_SPELL_OTHERWORLDLY_FORM",
+      "name": "Otherworldly Form",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "6",
+            "name": "level"
+          },
+          {
+            "description": "Transmutation",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 minute",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "an object engraved with a symbol of the Outer Planes, worth at least 500 gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Cleric,Sorcerer,Warlock,Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable, and they are good or evil (your choice).</p> <p class=\"indent\">Until the spell ends, any attack you make deals 1d8 extra damage when you hit a creature within 10 feet of you. This damage is radiant if the spirits are good and necrotic if they are evil. Any creature that takes this damage can't regain hit points until the start of your next turn.</p> <p class=\"indent\">In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the extra damage increases by 1d8 for each slot level above 3rd.</p>",
+      "id": "ID_WOTC_UA20200326_SPELL_SPIRIT_SHROUD",
+      "name": "Spirit Shroud",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "3",
+            "name": "level"
+          },
+          {
+            "description": "Necromancy",
+            "name": "school"
+          },
+          {
+            "description": "1 bonus action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 minute",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "false",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Cleric,Paladin,Warlock,Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You call forth a spirit from the Far Realm or another alien realm of madness. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Aberrant Spirit stat block below. When you cast the spell, choose Beholderkin, Slaadi, or Star Spawn. The creature physically resembles your choice, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p> <p class=\"indent\">The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block.</p> <div class=\"reference\"> <div element=\"ID_WOTC_UA20200326_INFORMATION_SUMMON_ABERRANT_SPIRIT_STATBLOCK\" /> </div>",
+      "id": "ID_WOTC_UA20200326_SPELL_SUMMON_ABERRANT_SPIRIT",
+      "name": "Summon Aberrant Spirit",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "4",
+            "name": "level"
+          },
+          {
+            "description": "Conjuration",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 hour",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a pickled tentacle and an eyeball in a crystal vial worth at least 400 gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Sorcerer,Warlock,Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You call forth the spirit of a beast. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Bestial Spirit stat block below. When you cast the spell, choose an environment: Air, Land, or Water. The creature physically resembles an animal of your choice that is native to the chosen environment, which also determines one of the movement modes in the creature's stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p> <p class=\"indent\">The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block.</p> <div class=\"reference\"> <div element=\"ID_WOTC_UA20200326_INFORMATION_SUMMON_BESTIAL_SPIRIT_STATBLOCK\" /> </div>",
+      "id": "ID_WOTC_UA20200326_SPELL_SUMMON_BESTIAL_SPIRIT",
+      "name": "Summon Bestial Spirit",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "2",
+            "name": "level"
+          },
+          {
+            "description": "Conjuration",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 hour",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Druid,Ranger",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You call forth a spirit from the Upper Planes. The spirit manifests physically in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the Celestial Spirit stat block below. When you cast the spell, choose Avenger or Defender. Your choice determines the creature's attack in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p> <p class=\"indent\">The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 6th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block.</p> <div class=\"reference\"> <div element=\"ID_WOTC_UA20200326_INFORMATION_SUMMON_CELESTIAL_SPIRIT_STATBLOCK\" /> </div>",
+      "id": "ID_WOTC_UA20200326_SPELL_SUMMON_CELESTIAL_SPIRIT",
+      "name": "Summon Celestial Spirit",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "5",
+            "name": "level"
+          },
+          {
+            "description": "Conjuration",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 hour",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a golden reliquary worth at least 500 gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Cleric,Paladin",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You call forth a spirit from the Elemental Planes. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Elemental Spirit stat block below. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature physically resembles a vaguely humanoid form wreathed in the chosen element, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p> <p class=\"indent\">The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block.</p> <div class=\"reference\"> <div element=\"ID_WOTC_UA20200326_INFORMATION_SUMMON_ELEMENTAL_SPIRIT_STATBLOCK\" /> </div>",
+      "id": "ID_WOTC_UA20200326_SPELL_SUMMON_ELEMENTAL_SPIRIT",
+      "name": "Summon Elemental Spirit",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "4",
+            "name": "level"
+          },
+          {
+            "description": "Conjuration",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 hour",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "air, a pebble, ash, and water inside a crystal vial worth at least 400 gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Druid,Sorcerer,Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You call forth a spirit from the Feywild. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block below. When you cast the spell, choose a mood: Deceitful, Furious, or Joyful. The creature physically resembles a satyr, a dryad, or an elf (your choice) marked by the chosen mood, which also determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p> <p class=\"indent\">The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block.</p> <div class=\"reference\"> <div element=\"ID_WOTC_UA20200326_INFORMATION_SUMMON_FEY_SPIRIT_STATBLOCK\" /> </div>",
+      "id": "ID_WOTC_UA20200326_SPELL_SUMMON_FEY_SPIRIT",
+      "name": "Summon Fey Spirit",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "3",
+            "name": "level"
+          },
+          {
+            "description": "Conjuration",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 hour",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a gilded flower worth at least 300 gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Bard,Druid,Sorcerer,Warlock,Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You call forth a fiendish spirit from the Lower Planes. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Fiendish Spirit stat block below. When you cast the spell, choose Demon, Devil, or Yugoloth. The creature physically resembles a fiend of the chosen type, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p> <p class=\"indent\">The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 7th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block.</p> <div class=\"reference\"> <div element=\"ID_WOTC_UA20200326_INFORMATION_SUMMON_FIENDISH_SPIRIT_STATBLOCK\" /> </div>",
+      "id": "ID_WOTC_UA20200326_SPELL_SUMMON_FIENDISH_SPIRIT",
+      "name": "Summon Fiendish Spirit",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "6",
+            "name": "level"
+          },
+          {
+            "description": "Conjuration",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 hour",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "humanoid blood inside a ruby vial worth at least 600 gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Warlock,Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You call forth a shadowy spirit from the Shadowfell. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Shadow Spirit stat block below. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature physically resembles a misshapen humanoid marked by the chosen emotion, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p> <p class=\"indent\">The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block.</p> <div class=\"reference\"> <div element=\"ID_WOTC_UA20200326_INFORMATION_SUMMON_SHADOW_SPIRIT_STATBLOCK\" /> </div>",
+      "id": "ID_WOTC_UA20200326_SPELL_SUMMON_SHADOW_SPIRIT",
+      "name": "Summon Shadow Spirit",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "3",
+            "name": "level"
+          },
+          {
+            "description": "Conjuration",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 hour",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "tears inside a crystal vial worth at least 300 gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Sorcerer,Warlock,Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You call forth a restless spirit from beyond the grave. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Undead Spirit stat block below. When you cast the spell, choose the creature's form: Ghostly, Putrid, or Skeletal. The creature physically resembles a humanoid with the chosen form, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p> <p class=\"indent\">The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action.</p> <p class=\"indent\"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block.</p> <div class=\"reference\"> <div element=\"ID_WOTC_UA20200326_INFORMATION_SUMMON_UNDEAD_SPIRIT_STATBLOCK\" /> </div>",
+      "id": "ID_WOTC_UA20200326_SPELL_SUMMON_UNDEAD_SPIRIT",
+      "name": "Summon Undead Spirit",
+      "setters": {
+        "set": [
+          {
+            "name": "keywords"
+          },
+          {
+            "description": "3",
+            "name": "level"
+          },
+          {
+            "description": "Necromancy",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 hour",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a gilded humanoid skull worth at least 300 gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          },
+          {
+            "description": "false",
+            "name": "isRitual"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "supports": "Warlock,Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize green more than others. While the tattoo is on your skin, you have resistance to acid damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take acid damage, you can use your reaction to gain immunity against acid damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_ACID",
+      "name": "Absorbing Tattoo, Acid",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,acid",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize blue more than others. While the tattoo is on your skin, you have resistance to cold damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take cold damage, you can use your reaction to gain immunity against cold damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_COLD",
+      "name": "Absorbing Tattoo, Cold",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,cold",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize red more than others. While the tattoo is on your skin, you have resistance to fire damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take fire damage, you can use your reaction to gain immunity against fire damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_FIRE",
+      "name": "Absorbing Tattoo, Fire",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,fire",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize white more than others. While the tattoo is on your skin, you have resistance to force damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take force damage, you can use your reaction to gain immunity against force damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_FORCE",
+      "name": "Absorbing Tattoo, Force",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,force",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize yellow more than others. While the tattoo is on your skin, you have resistance to lightning damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take lightning damage, you can use your reaction to gain immunity against lightning damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_LIGHTNING",
+      "name": "Absorbing Tattoo, Lightning",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,lightning",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize black more than others. While the tattoo is on your skin, you have resistance to necrotic damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take necrotic damage, you can use your reaction to gain immunity against necrotic damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_NECROTIC",
+      "name": "Absorbing Tattoo, Necrotic",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,necrotic",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize violet more than others. While the tattoo is on your skin, you have resistance to poison damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take poison damage, you can use your reaction to gain immunity against poison damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_POISON",
+      "name": "Absorbing Tattoo, Poison",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,poison",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize silver more than others. While the tattoo is on your skin, you have resistance to psychic damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take psychic damage, you can use your reaction to gain immunity against psychic damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_PSYCHIC",
+      "name": "Absorbing Tattoo, Psychic",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,psychic",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize gold more than others. While the tattoo is on your skin, you have resistance to radiant damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take radiant damage, you can use your reaction to gain immunity against radiant damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_RADIANT",
+      "name": "Absorbing Tattoo, Radiant",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,radiant",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo incorporates designs that emphasize orange more than others. While the tattoo is on your skin, you have resistance to thunder damage.</p> <p class=\"indent\"><strong><em>Damage Absorption.</em></strong> When you take thunder damage, you can use your reaction to gain immunity against thunder damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ABSORBING_TATTOO_THUNDER",
+      "name": "Absorbing Tattoo, Thunder",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,thunder",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo depicts protective imagery and uses ink that resembles liquid metal. While you aren't wearing armor, the tattoo grants you an Armor Class of 12 + your Dexterity modifier. You can use a shield and still gain this benefit.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_BARRIER_TATTOO_UNCOMMON",
+      "name": "Barrier Tattoo",
+      "rules": {
+        "stat": [
+          {
+            "name": "ac:uncommon barrier tattoo",
+            "value": "12"
+          },
+          {
+            "name": "ac:uncommon barrier tattoo",
+            "value": "dexterity:modifier"
+          },
+          {
+            "bonus": "calculation",
+            "name": "ac:calculation",
+            "value": "ac:uncommon barrier tattoo"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo, ac, armor class",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo depicts protective imagery and uses ink that resembles liquid metal. While you aren't wearing armor, the tattoo grants you an Armor Class of 15 + your Dexterity modifier (maximum of +2). You can use a shield and still gain this benefit.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_BARRIER_TATTOO_RARE",
+      "name": "Barrier Tattoo",
+      "rules": {
+        "stat": [
+          {
+            "name": "ac:rare barrier tattoo",
+            "value": "15"
+          },
+          {
+            "max": "2",
+            "name": "ac:rare barrier tattoo",
+            "value": "dexterity:modifier"
+          },
+          {
+            "bonus": "calculation",
+            "name": "ac:calculation",
+            "value": "ac:rare barrier tattoo"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo, ac, armor class",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo depicts protective imagery and uses ink that resembles liquid metal. While you aren't wearing armor, the tattoo grants you an Armor Class of 18. You can use a shield and still gain this benefit.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_BARRIER_TATTOO_VERY_RARE",
+      "name": "Barrier Tattoo",
+      "rules": {
+        "stat": [
+          {
+            "name": "ac:very rare barrier tattoo",
+            "value": "18"
+          },
+          {
+            "bonus": "calculation",
+            "name": "ac:calculation",
+            "value": "ac:very rare barrier tattoo"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo, ac, armor class",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo has long intertwining designs. While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take 3d6 force damage and be grappled by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength (Athletics) or Dexterity (Acrobatics) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_COILING_GRASP_TATTOO",
+      "name": "Coiling Grasp Tattoo",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,force,grappled",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo depicts clawlike forms and other jagged shapes. While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes.</p> <p class=\"indent\"><strong><em>Eldritch Maul.</em></strong> As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks can reach a target up to 30 feet away from you, as tendrils of ink launch from your weapon or unarmed strike toward the target. In addition, your melee weapon attacks deal an extra 1d6 force damage on a hit. Once used, this bonus action can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ELDRITCH_CLAW_TATTOO",
+      "name": "Eldritch Claw Tattoo",
+      "rules": {
+        "stat": [
+          {
+            "name": "unarmed strike:attack",
+            "value": "1"
+          },
+          {
+            "name": "unarmed strike:damage",
+            "value": "1"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,unarmed strike,force",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo evokes fury in its form and colors. While this tattoo is on your skin, you gain the following benefits:</p> <ul> <li>Your attack rolls score a critical hit on a d20 roll of 19 or 20.</li> <li>When you score a critical hit against a creature, that target takes an extra 4d6 necrotic damage, and you gain a number of temporary hit points equal to the necrotic damage dealt.</li> <li>When a creature you can see damages you, you can use your reaction to make a melee attack against that creature, with advantage on your attack roll.</li> </ul> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_BLOOD_FURY_TATTOO",
+      "name": "Blood Fury Tattoo",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,necrotic,hp,reaction",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Legendary",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo contains beautiful calligraphy, images of writing implements, and the like. While this tattoo is on your skin, you can write with your fingertip as if it were an ink pen that never runs out of ink.</p> <p class=\"indent\">As an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes invisible to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_ILLUMINATORS_TATTOO",
+      "name": "Illuminator's Tattoo",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Common",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo comprises symbols of life and rebirth. While this tattoo is on your skin, you have resistance to necrotic damage.</p> <p class=\"indent\"><strong><em>Death Ward.</em></strong> When you would be reduced to 0 hit points, you drop to 1 hit point instead. Once used, this benefit can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_LIFEWELL_TATTOO",
+      "name": "Lifewell Tattoo",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC",
+          "type": "Condition"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,necrotic,resistance",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo shifts and wavers on the skin, parts of it appearing blurred. The tattoo has 3 charges, and it regains all expended charges daily at dawn.</p> <p class=\"indent\">As a bonus action while the tattoo is on your skin, you can expend 1 of the tattoo's charges to become incorporeal until the end of your next turn. For the duration, you gain the following benefits:</p> <ul> <li>You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</li> <li>You can't be grappled or restrained.</li> <li>You can move through creatures and solid objects as if they were difficult terrain. If you end your turn in a solid object, you take 1d10 force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take 1d10 force damage for every 5 feet traveled.</li> </ul> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_GHOST_STEP_TATTOO",
+      "name": "Ghost Step Tattoo",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,resistance",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          },
+          {
+            "description": "3",
+            "name": "charges"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo appears on your skin as whatever you desire. As a bonus action, you can shape the tattoo into any color or pattern and move it to any area of your skin. Whatever form it takes, it is always obviously a tattoo. It can range in size from no smaller than a copper piece to an intricate work of art that covers all your skin.</p> <p class=\"indent\"><strong><em>Disguise Self.</em></strong> As an action, you can use the tattoo to cast the <em>disguise self</em> spell. Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_DISGUISE_SELF\" /> </div>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_MASQUERADE_TATTOO",
+      "name": "Masquerade Tattoo",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,disguise self",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Common",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo contains a single cantrip, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p> <p class=\"indent\">The spell's saving throw DC is 13, attack bonus is +5, and the spellcasting ability modifier is +3.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_SPELLWROUGHT_TATTOO_CANTRIP",
+      "name": "Spellwrought Tattoo, Cantrip",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Common",
+            "name": "rarity"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo contains a single 1st-level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p> <p class=\"indent\">The spell's saving throw DC is 13, attack bonus is +5, and the spellcasting ability modifier is +3.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_SPELLWROUGHT_TATTOO_1",
+      "name": "Spellwrought Tattoo, 1st-level",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Common",
+            "name": "rarity"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo contains a single 2nd-level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p> <p class=\"indent\">The spell's saving throw DC is 13, attack bonus is +5, and the spellcasting ability modifier is +3.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_SPELLWROUGHT_TATTOO_2",
+      "name": "Spellwrought Tattoo, 2nd-level",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo contains a single 3rd-level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p> <p class=\"indent\">The spell's saving throw DC is 15, attack bonus is +7, and the spellcasting ability modifier is +4.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_SPELLWROUGHT_TATTOO_3",
+      "name": "Spellwrought Tattoo, 3rd-level",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo contains a single 4th-level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p> <p class=\"indent\">The spell's saving throw DC is 15, attack bonus is +7, and the spellcasting ability modifier is +4.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_SPELLWROUGHT_TATTOO_4",
+      "name": "Spellwrought Tattoo, 4th-level",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo contains a single 5th-level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p> <p class=\"indent\">The spell's saving throw DC is 17, attack bonus is +9, and the spellcasting ability modifier is +5.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_SPELLWROUGHT_TATTOO_5",
+      "name": "Spellwrought Tattoo, 5th-level",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Rare",
+            "name": "rarity"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This tattoo is dark in color and abstract. While it's on your skin, you have advantage on Dexterity (Stealth) checks.</p> <p class=\"indent\"><strong><em>Shadowy Defense.</em></strong> When you take damage, you can use your reaction to become shadowy and insubstantial for a moment, reducing the damage you take by half. Once used, this reaction can't be used again until the next dawn.</p> <p class=\"indent\"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.</p> <p class=\"indent\">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you.</p>",
+      "id": "ID_WOTC_UA20200326_MAGIC_ITEM_SHADOWFELL_BRAND_TATTOO",
+      "name": "Shadowfell Brand Tattoo",
+      "setters": {
+        "set": [
+          {
+            "description": "tattoo,stealth",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Tattoo",
+            "name": "type"
+          },
+          {
+            "description": "Very Rare",
+            "name": "rarity"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p><em>Medium aberration, neutral evil</em></p> <ul class=\"unstyled mb\"> <li><strong>Armor Class</strong> 11 + the level of the spell (natural armor)</li> <li><strong>Hit Points</strong> equal the aberration's Constitution modifier + your spellcasting ability modifier + ten times the spell's level</li> <li><strong>Speed</strong> 30 ft., fly 30 ft. (Beholderkin only; hover)</li> </ul> <table style=\"text-align:center\"> <thead> <tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr> </thead> <tr><td>16 (+3)</td><td>10 (+0)</td><td>15 (+2)</td><td>16 (+3)</td><td>10 (+0)</td><td>6 (-2)</td></tr> </table> <ul class=\"unstyled mb\"> <li><strong>Damage Immunities</strong> psychic</li> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li> <li><strong>Languages</strong> Deep Speech, understands the languages you speak</li> </ul> <p><strong><em>Regeneration (Slaadi Only).</em></strong> The aberration regains 10 hit points at the start of its turn if it has at least 1 hit point.</p> <p><strong><em>Whispering Aura (Star Spawn Only).</em></strong> At the start of each of the aberration's turns, each creature within 5 feet of it must succeed on a Wisdom saving throw against your spell save DC or take 3d6 psychic damage, provided that the aberration isn't incapacitated.</p> <h5 class=\"caption\">ACTIONS</h5> <p><strong><em>Multiattack.</em></strong> The aberration makes a number of attacks equal to half this spell's level (rounded down).</p> <p><strong><em>Eye Ray (Beholderkin Only).</em></strong> Ranged Spell Attack: +3 + the spell's level to hit, range 30 ft., one creature. Hit: 1d8 + 3 + the spell's level psychic damage.</p> <p><strong><em>Claws (Slaadi Only).</em></strong> Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. Hit: 1d10 + 3 + the spell's level slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn.</p> <p><strong><em>Psychic Slam (Star Spawn Only).</em></strong> Melee Spell Attack: +3 + the spell's level to hit, reach 5 ft., one creature. Hit: 1d6 + 3 + the spell's level psychic damage.</p>",
+      "id": "ID_WOTC_UA20200326_INFORMATION_SUMMON_ABERRANT_SPIRIT_STATBLOCK",
+      "name": "Aberrant Spirit",
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Information"
+    },
+    {
+      "description": "<p><em>Small beast, unaligned</em></p> <ul class=\"unstyled mb\"> <li><strong>Armor Class</strong> 11 + the level of the spell (natural armor)</li> <li><strong>Hit Points</strong> equal the beast's Constitution modifier + your spellcasting ability modifier + ten times the spell's level</li> <li><strong>Speed</strong> 30 ft., climb 30 ft. (Land only), fly 60 ft. (Air only), swim 30 ft. (Water only)</li> </ul> <table style=\"text-align:center\"> <thead> <tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr> </thead> <tr><td>18 (+4)</td><td>11 (+0)</td><td>16 (+3)</td><td>4 (-4)</td><td>14 (+2)</td><td>5 (-3)</td></tr> </table> <ul class=\"unstyled mb\"> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 12</li> <li><strong>Languages</strong> understands the languages you speak</li> </ul> <p><strong><em>Amphibious (Water Only).</em></strong> The beast can breathe air and water.</p> <p><strong><em>Flyby (Air Only).</em></strong> The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p> <p><strong><em>Pack Tactics (Land and Water Only).</em></strong> The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't incapacitated.</p> <h5 class=\"caption\">ACTIONS</h5> <p><strong><em>Multiattack.</em></strong> The beast makes a number of attacks equal to half this spell's level (rounded down).</p> <p><strong><em>Maul.</em></strong> Melee Weapon Attack: +4 + the spell's level to hit, reach 5 ft., one target. Hit: 1d8 + 4 + the spell's level piercing damage.</p>",
+      "id": "ID_WOTC_UA20200326_INFORMATION_SUMMON_BESTIAL_SPIRIT_STATBLOCK",
+      "name": "Bestial Spirit",
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Information"
+    },
+    {
+      "description": "<p><em>Large celestial, neutral good</em></p> <ul class=\"unstyled mb\"> <li><strong>Armor Class</strong> 11 + the level of the spell (natural armor)</li> <li><strong>Hit Points</strong> equal the celestial's Constitution modifier + your spellcasting ability modifier + ten times the spell's level</li> <li><strong>Speed</strong> 30 ft., fly 40 ft.</li> </ul> <table style=\"text-align:center\"> <thead> <tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr> </thead> <tr><td>16 (+3)</td><td>14 (+2)</td><td>16 (+3)</td><td>10 (+0)</td><td>14 (+2)</td><td>16 (+3)</td></tr> </table> <ul class=\"unstyled mb\"> <li><strong>Damage Resistances</strong> radiant</li> <li><strong>Condition Immunities</strong> charmed, frightened</li> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li> <li><strong>Languages</strong> Celestial, understands the languages you speak</li> </ul> <h5 class=\"caption\">ACTIONS</h5> <p><strong><em>Multiattack.</em></strong> The celestial makes a number of attacks equal to half this spell's level (rounded down).</p> <p><strong><em>Radiant Bow (Avenger Only).</em></strong> Ranged Weapon Attack: +2 + the spell's level to hit, range 150/600 ft., one target. Hit: 2d6 + 2 + the spell's level radiant damage.</p> <p><strong><em>Radiant Mace (Defender Only).</em></strong> Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. Hit: 1d10 + 3 + the spell's level radiant damage, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains temporary hit points equal to the damage dealt, provided it doesn't already have temporary hit points.</p> <p><strong><em>Healing Touch (1/Day).</em></strong> The celestial touches another creature. The target magically regains hit points equal to 2d8 + the spell's level.</p>",
+      "id": "ID_WOTC_UA20200326_INFORMATION_SUMMON_CELESTIAL_SPIRIT_STATBLOCK",
+      "name": "Celestial Spirit",
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Information"
+    },
+    {
+      "description": "<p><em>Medium elemental, neutral</em></p> <ul class=\"unstyled mb\"> <li><strong>Armor Class</strong> 11 + the level of the spell (natural armor)</li> <li><strong>Hit Points</strong> equal the elemental's Constitution modifier + your spellcasting ability modifier + ten times the spell's level</li> <li><strong>Speed</strong> 40 ft., fly 40 ft. (Air only, hover), burrow 40 ft. (Earth only), swim 40 ft. (Water only)</li> </ul> <table style=\"text-align:center\"> <thead> <tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr> </thead> <tr><td>18 (+4)</td><td>15 (+2)</td><td>17 (+3)</td><td>4 (-4)</td><td>10 (+0)</td><td>16 (+3)</td></tr> </table> <ul class=\"unstyled mb\"> <li><strong>Damage Resistances</strong> lightning, thunder (Air only); piercing, slashing (Earth only); acid (Water only)</li> <li><strong>Damage Immunities</strong> poison; fire (Fire only)</li> <li><strong>Condition Immunities</strong> exhaustion, paralyzed, petrified, poisoned, unconscious</li> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li> <li><strong>Languages</strong> Primordial, understands the languages you speak</li> </ul> <p><strong><em>Amorphous Form (Air, Fire, and Water Only).</em></strong> The elemental can move through a space as narrow as 1 inch wide without squeezing.</p> <h5 class=\"caption\">ACTIONS</h5> <p><strong><em>Multiattack.</em></strong> The elemental makes a number of attacks equal to half this spell's level (rounded down).</p> <p><strong><em>Slam.</em></strong> Melee Weapon Attack: +4 + the spell's level to hit, reach 5 ft., one target. Hit: 1d10 + 4 + the spell's level bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only).</p>",
+      "id": "ID_WOTC_UA20200326_INFORMATION_SUMMON_ELEMENTAL_SPIRIT_STATBLOCK",
+      "name": "Elemental Spirit",
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Information"
+    },
+    {
+      "description": "<p><em>Small fey, chaotic good</em></p> <ul class=\"unstyled mb\"> <li><strong>Armor Class</strong> 11 + the level of the spell (natural armor)</li> <li><strong>Hit Points</strong> equal the fey's Constitution modifier + your spellcasting ability modifier + ten times the spell's level</li> <li><strong>Speed</strong> 40 ft.</li> </ul> <table style=\"text-align:center\"> <thead> <tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr> </thead> <tr><td>13 (+1)</td><td>16 (+3)</td><td>14 (+2)</td><td>14 (+2)</td><td>11 (+0)</td><td>16 (+3)</td></tr> </table> <ul class=\"unstyled mb\"> <li><strong>Condition Immunities</strong> charmed</li> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li> <li><strong>Languages</strong> Sylvan, understands the languages you speak</li> </ul> <p><strong><em>Fey Step.</em></strong> As a bonus action, the fey can magically teleport up to 30 feet to an unoccupied space it can see.</p> <p><strong><em>Darkening Step (Deceitful Only).</em></strong> Immediately after using its Fey Step, the fey can fill a 5-foot cube within 5 feet of it with magical darkness, which remains until the end of the fey's next turn.</p> <p><strong><em>Ecstatic Step (Joyful Only).</em></strong> Immediately after using its Fey Step, the fey can choose a creature it can see within 10 feet of it and force it to succeed on a Wisdom saving throw against your spell save DC or be charmed by the fey for 1 minute. The charm ends if the fey or any of its companions deals any damage to the target.</p> <p><strong><em>Impassioned Step (Furious Only).</em></strong> Immediately after using its Fey Step, the fey has advantage on the next attack roll it makes before the end of its turn.</p> <h5 class=\"caption\">ACTIONS</h5> <p><strong><em>Multiattack.</em></strong> The fey makes a number of attacks equal to half this spell's level (rounded down).</p> <p><strong><em>Shortsword.</em></strong> Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. Hit: 1d6 + 3 + the spell's level piercing damage + 1d6 force damage.</p>",
+      "id": "ID_WOTC_UA20200326_INFORMATION_SUMMON_FEY_SPIRIT_STATBLOCK",
+      "name": "Fey Spirit",
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Information"
+    },
+    {
+      "description": "<p><em>Large fiend, chaotic evil (Demon only), lawful evil (Devil only), or neutral evil (Yugoloth only)</em></p> <ul class=\"unstyled mb\"> <li><strong>Armor Class</strong> 11 + the level of the spell (natural armor)</li> <li><strong>Hit Points</strong> equal the fiend's Constitution modifier + your spellcasting ability modifier + ten times the spell's level</li> <li><strong>Speed</strong> 40 ft., climb 40 ft. (Demon only), fly 60 ft. (Devil only)</li> </ul> <table style=\"text-align:center\"> <thead> <tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr> </thead> <tr><td>13 (+1)</td><td>16 (+3)</td><td>15 (+2)</td><td>10 (+0)</td><td>10 (+0)</td><td>16 (+3)</td></tr> </table> <ul class=\"unstyled mb\"> <li><strong>Damage Resistances</strong> fire</li> <li><strong>Damage Immunities</strong> poison</li> <li><strong>Condition Immunities</strong> poisoned</li> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li> <li><strong>Languages</strong> Abyssal, Infernal, telepathy 60 ft.</li> </ul> <p><strong><em>Magic Resistance.</em></strong> The fiend has advantage on saving throws against spells and other magical effects.</p> <p><strong><em>Death Throes (Demon Only).</em></strong> When the fiend drops to 0 hit points or the spell ends, the fiend explodes, and each creature within 10 feet of it must make a Dexterity saving throw against your spell save DC. A creature takes 2d10 + this spell's level fire damage on a failed save, or half as much damage on a successful one.</p> <p><strong><em>Devil's Sight (Devil Only).</em></strong> Magical darkness doesn't impede the fiend's darkvision.</p> <h5 class=\"caption\">ACTIONS</h5> <p><strong><em>Multiattack.</em></strong> The fiend makes a number of attacks equal to half this spell's level (rounded down).</p> <p><strong><em>Bite (Demon Only).</em></strong> Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the spell's level necrotic damage.</p> <p><strong><em>Claws (Yugoloth Only).</em></strong> Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. Hit: 1d8 + 3 + the spell's level slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see.</p> <p><strong><em>Hurl Flame (Devil Only).</em></strong> Ranged Spell Attack: +3 + the spell's level to hit, range 150 ft., one target. Hit: 2d6 + 3 + the spell's level fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.</p>",
+      "id": "ID_WOTC_UA20200326_INFORMATION_SUMMON_FIENDISH_SPIRIT_STATBLOCK",
+      "name": "Fiendish Spirit",
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Information"
+    },
+    {
+      "description": "<p><em>Medium monstrosity, neutral evil</em></p> <ul class=\"unstyled mb\"> <li><strong>Armor Class</strong> 11 + the level of the spell (natural armor)</li> <li><strong>Hit Points</strong> equal the shadow's Constitution modifier + your spellcasting ability modifier + ten times the spell's level</li> <li><strong>Speed</strong> 40 ft.</li> </ul> <table style=\"text-align:center\"> <thead> <tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr> </thead> <tr><td>13 (+1)</td><td>16 (+3)</td><td>15 (+2)</td><td>4 (-4)</td><td>10 (+0)</td><td>16 (+3)</td></tr> </table> <ul class=\"unstyled mb\"> <li><strong>Damage Resistances</strong> necrotic</li> <li><strong>Condition Immunities</strong> frightened</li> <li><strong>Senses</strong> darkvision 120 ft., passive Perception 10</li> <li><strong>Languages</strong> Common, understands the languages you speak</li> </ul> <p><strong><em>Bloodthirsty Frenzy (Fury Only).</em></strong> The spirit has advantage on attack rolls against frightened creatures.</p> <p><strong><em>Shadow Stealth (Fear Only).</em></strong> While in dim light or darkness, the spirit can take the Hide action as a bonus action.</p> <p><strong><em>Weight of Ages (Despair Only).</em></strong> Any beast or humanoid, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 feet until the start of that beast or humanoid's next turn.</p> <h5 class=\"caption\">ACTIONS</h5> <p><strong><em>Multiattack.</em></strong> The spirit makes a number of attacks equal to half this spell's level (rounded down).</p> <p><strong><em>Chilling Rend.</em></strong> Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. Hit: 2d8 + 3 + the spell's level cold damage.</p> <p><strong><em>Dreadful Scream (1/Day).</em></strong> The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be frightened of the spirit for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+      "id": "ID_WOTC_UA20200326_INFORMATION_SUMMON_SHADOW_SPIRIT_STATBLOCK",
+      "name": "Shadow Spirit",
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Information"
+    },
+    {
+      "description": "<p><em>Medium undead, neutral evil</em></p> <ul class=\"unstyled mb\"> <li><strong>Armor Class</strong> 11 + the level of the spell (natural armor)</li> <li><strong>Hit Points</strong> equal the undead's Constitution modifier + your spellcasting ability modifier + ten times the spell's level</li> <li><strong>Speed</strong> 30 ft., fly 40 ft. (Ghostly only; hover)</li> </ul> <table style=\"text-align:center\"> <thead> <tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr> </thead> <tr><td>12 (+1)</td><td>16 (+3)</td><td>15 (+2)</td><td>4 (-4)</td><td>10 (+0)</td><td>9 (-1)</td></tr> </table> <ul class=\"unstyled mb\"> <li><strong>Damage Immunities</strong> necrotic, poison</li> <li><strong>Condition Immunities</strong> exhaustion, frightened, paralyzed, poisoned</li> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li> <li><strong>Languages</strong> Common, understands the languages you speak</li> </ul> <p><strong><em>Incorporeal Movement (Ghostly Only).</em></strong> The undead can become incorporeal while moving and pass through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 force damage for every 5 feet traveled.</p> <p><strong><em>Festering Aura (Putrid Only).</em></strong> Any creature, other than you, that starts its turn within 5 feet of the undead must succeed on a Constitution saving throw against your spell save DC or be poisoned until the start of its next turn.</p> <h5 class=\"caption\">ACTIONS</h5> <p><strong><em>Multiattack.</em></strong> The spirit makes a number of attacks equal to half this spell's level (rounded down).</p> <p><strong><em>Deathly Touch (Ghostly Only).</em></strong> Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one creature. Hit: 1d8 + 3 + the spell's level necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of the undead until the end of the target's next turn.</p> <p><strong><em>Grave Bolt (Skeletal Only).</em></strong> Ranged Spell Attack: +3 + the spell's level to hit, range 150 ft., one target. Hit: 2d8 + 3 + the spell's level necrotic damage.</p> <p><strong><em>Rotting Claw (Putrid Only).</em></strong> Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. Hit: 1d6 + 3 + the spell's level slashing damage. If the target is poisoned, it must succeed on a Constitution saving throw against your spell save DC or be paralyzed until the end of its next turn.</p>",
+      "id": "ID_WOTC_UA20200326_INFORMATION_SUMMON_UNDEAD_SPIRIT_STATBLOCK",
+      "name": "Undead Spirit",
+      "source": "Unearthed Arcana: Spells and Magic Tattoos",
+      "type": "Information"
+    }
+  ],
+  "info": {
+    "name": "Unearthed Arcana: Spells and Magic Tattoos",
+    "update": {
+      "file": {
+        "name": "20200326.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20200326.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

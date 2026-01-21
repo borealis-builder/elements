@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Light of Xaryxis",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "light-of-xaryxis.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/light-of-xaryxis.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/light-of-xaryxis/source.json"
+    }
+  ]
+}

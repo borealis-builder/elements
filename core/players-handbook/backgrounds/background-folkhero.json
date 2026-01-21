@@ -1,0 +1,252 @@
+{
+  "element": [
+    {
+      "description": "<p>You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Animal Handling, Survival</li> <li><strong>Tool Proficiencies:</strong> One type of artisan's tools, vehicles (land)</li> <li><strong>Equipment:</strong> A set of artisan's tools (one of your choice), a shovel, an iron pot, a set of common clothes, and a belt pouch containing 10 gp</li> </ul> <h5>DEFINING EVENT</h5> <p>You previously pursued a simple profession among the peasantry, perhaps as a farmer, miner, servant, shepherd, woodcutter, or gravedigger. But something happened that set you on a different path and marked you for greater things. Choose or randomly determine a defining event that marked you as a hero of the people.</p> <table> <thead> <tr><td class=\"col-20\">d10</td><td>Defining Event</td></tr> </thead> <tr><td>1</td><td>I stood up to a tyrant's agents.</td></tr> <tr><td>2</td><td>I saved people during a natural disaster.</td></tr> <tr><td>3</td><td>I stood alone against a terrible monster.</td></tr> <tr><td>4</td><td>I stole from a corrupt merchant to help the poor.</td></tr> <tr><td>5</td><td>I led a militia to fight off an invading army.</td></tr> <tr><td>6</td><td>I broke into a tyrant's castle and stole weapons to arm the people.</td></tr> <tr><td>7</td><td>I trained the peasantry to use farm implements as weapons against a tyrant's soldiers.</td></tr> <tr><td>8</td><td>A lord rescinded an unpopular decree after I led a symbolic act of protect against it.</td></tr> <tr><td>9</td><td>A celestial, fey, or similar creature gave me a blessing or revealed my secret origin.</td></tr> <tr><td>10</td><td>Recruited into a lord's army, I rose to leadership and was commended for my heroism.</td></tr> </table> <div element=\"ID_BACKGROUND_FEATURE_RUSTIC_HOSPITALITY\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>A folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.</p>",
+      "id": "ID_BACKGROUND_FOLK_HERO",
+      "name": "Folk Hero",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ANIMALHANDLING",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_BACKGROUND_FEATURE_RUSTIC_HOSPITALITY",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "name": "Artisan's Tool",
+            "supports": "Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "item": [
+              {
+                "description": "I stood up to a tyrant's agents.",
+                "id": "1"
+              },
+              {
+                "description": "I saved people during a natural disaster.",
+                "id": "2"
+              },
+              {
+                "description": "I stood alone against a terrible monster.",
+                "id": "3"
+              },
+              {
+                "description": "I stole from a corrupt merchant to help the poor.",
+                "id": "4"
+              },
+              {
+                "description": "I led a militia to fight off an invading army.",
+                "id": "5"
+              },
+              {
+                "description": "I broke into a tyrant's castle and stole weapons to arm the people.",
+                "id": "6"
+              },
+              {
+                "description": "I trained the peasantry to use farm implements as weapons against a tyrant's soldiers.",
+                "id": "7"
+              },
+              {
+                "description": "A lord rescinded an unpopular decree after I led a symbolic act of protect against it.",
+                "id": "8"
+              },
+              {
+                "description": "A celestial, fey, or similar creature gave me a blessing or revealed my secret origin.",
+                "id": "9"
+              },
+              {
+                "description": "Recruited into a lord's army, I rose to leadership and was commended for my heroism.",
+                "id": "10"
+              }
+            ],
+            "name": "Defining Event",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I judge people by their actions, not their words.",
+                "id": "1"
+              },
+              {
+                "description": "If someone is in trouble, I'm always ready to lend help.",
+                "id": "2"
+              },
+              {
+                "description": "When I set my mind to something, I follow through no matter what gets in my way.",
+                "id": "3"
+              },
+              {
+                "description": "I have a strong sense of fair play and always try to find the most equitable solution to arguments.",
+                "id": "4"
+              },
+              {
+                "description": "I'm confident in my own abilities and do what I can to instill confidence in others.",
+                "id": "5"
+              },
+              {
+                "description": "Thinking is for other people. I prefer action.",
+                "id": "6"
+              },
+              {
+                "description": "I misuse long words in an attempt to sound smarter.",
+                "id": "7"
+              },
+              {
+                "description": "I get bored easily. When am I going to get on with my destiny?",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Respect. People deserve to be treated with dignity and respect. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Might. If I become strong, I can take what I want— what I deserve. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Sincerity. There's no good in pretending to be something I'm not. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Destiny. Nothing and no one can steer me away from my higher calling. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I have a family, but I have no idea where they are. One day, I hope to see them again.",
+                "id": "1"
+              },
+              {
+                "description": "I worked the land, I love the land, and I will protect the land.",
+                "id": "2"
+              },
+              {
+                "description": "A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.",
+                "id": "3"
+              },
+              {
+                "description": "My tools are symbols of my past life, and I carry them so that I will never forget my roots.",
+                "id": "4"
+              },
+              {
+                "description": "I protect those who cannot protect themselves.",
+                "id": "5"
+              },
+              {
+                "description": "I wish my childhood sweetheart had come with me to pursue my destiny.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "The tyrant who rules my land will stop at nothing to see me killed.",
+                "id": "1"
+              },
+              {
+                "description": "I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.",
+                "id": "2"
+              },
+              {
+                "description": "The people who knew me when I was young know my shameful secret, so I can never go home again.",
+                "id": "3"
+              },
+              {
+                "description": "I have a weakness for the vices of the city, especially hard drink.",
+                "id": "4"
+              },
+              {
+                "description": "Secretly, I believe that things would be better if I were a tyrant lording over the land.",
+                "id": "5"
+              },
+              {
+                "description": "I have trouble trusting in my allies.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Animal Handling, Survival, Artisan's Tool, Vehicles (Land)",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.</p>",
+      "id": "ID_BACKGROUND_FEATURE_RUSTIC_HOSPITALITY",
+      "name": "Feature: Rustic Hospitality",
+      "sheet": {
+        "alt": "Rustic Hospitality"
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Folk Hero Background",
+    "name": "Folk Hero",
+    "update": {
+      "file": {
+        "name": "background-folkhero.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-folkhero.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}

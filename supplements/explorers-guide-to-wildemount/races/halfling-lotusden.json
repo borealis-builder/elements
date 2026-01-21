@@ -1,0 +1,69 @@
+{
+  "element": [
+    {
+      "description": "<p>Long tied to the natural heart of the Lotusden Greenwood, these halflings have adapted to live synergistically with the chaotic laws of the wilds.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p> <p class=\"indent\"><strong><em>Child of the Wood.</em></strong> You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>entangle</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>spike growth</em> spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.</p> <p class=\"indent\"><strong><em>Timberwalk.</em></strong> Ability checks made to track you have disadvantage, and you can move across difficult terrain made of nonmagical plants and undergrowth without expending extra movement.</p>",
+      "id": "ID_WOTC_EGTW_SUB_RACE_LOTUSDEN_HALFLING",
+      "name": "Lotusden Halfling",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_EGTW_RACIAL_TRAIT_LOTUSDEN_CHILD_OF_THE_WOOD",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_EGTW_RACIAL_TRAIT_LOTUSDEN_TIMBERWALK",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Lotusden Halfling)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "wisdom",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Explorer's Guide to Wildemount",
+      "supports": "Halfling",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>entangle</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>spike growth</em> spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.</p>",
+      "id": "ID_WOTC_EGTW_RACIAL_TRAIT_LOTUSDEN_CHILD_OF_THE_WOOD",
+      "name": "Child of the Wood",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_DRUIDCRAFT",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You know the druidcraft cantrip. You know the druidcraft cantrip. You can cast the entangle spell without material components (1/long rest). (Wisdom) You know the druidcraft cantrip. You can cast the entangle spell and the spike growth spell without material components (1/long rest). (Wisdom)",
+      "source": "Explorer's Guide to Wildemount",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Ability checks made to track you have disadvantage, and you can move across difficult terrain made of nonmagical plants and undergrowth without expending extra movement.</p>",
+      "id": "ID_WOTC_EGTW_RACIAL_TRAIT_LOTUSDEN_TIMBERWALK",
+      "name": "Timberwalk",
+      "sheet": "Ability checks made to track you have disadvantage, and you can move across difficult terrain made of nonmagical plants and undergrowth without expending extra movement.",
+      "source": "Explorer's Guide to Wildemount",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "halfling-lotusden.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/races/halfling-lotusden.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

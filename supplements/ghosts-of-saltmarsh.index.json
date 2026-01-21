@@ -1,0 +1,53 @@
+{
+  "info": {
+    "name": "Ghosts of Saltmarsh",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.3",
+      "file": {
+        "name": "ghosts-of-saltmarsh.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/source.json"
+    },
+    {
+      "name": "fisher.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/fisher.json"
+    },
+    {
+      "name": "marine.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/marine.json"
+    },
+    {
+      "name": "shipwright.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/shipwright.json"
+    },
+    {
+      "name": "smuggler.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/smuggler.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/items.json"
+    },
+    {
+      "name": "replicate-infusions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/replicate-infusions.json"
+    }
+  ]
+}

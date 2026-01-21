@@ -1,0 +1,40 @@
+{
+  "element": [
+    {
+      "description": "<p>Using this infusion, you can replicate a Breathing Bubble.</p> <div class=\"reference\"> <div element=\"ID_WOTC_EGTW_MAGIC_ITEM_BREATHING_BUBBLE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BREATHING_BUBBLE",
+      "name": "Breathing Bubble",
+      "sheet": "Using this infusion, you can replicate a Breathing Bubble.",
+      "source": "Explorer's Guide to Wildemount",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Coin of Delving.</p> <div class=\"reference\"> <div element=\"ID_WOTC_EGTW_MAGIC_ITEM_COIN_OF_DELVING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_COIN_OF_DELVING",
+      "name": "Coin of Delving",
+      "sheet": "Using this infusion, you can replicate a Vox Seeker.",
+      "source": "Explorer's Guide to Wildemount",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Vox Seeker.</p> <div class=\"reference\"> <div element=\"ID_WOTC_EGTW_MAGIC_ITEM_VOX_SEEKER\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_VOX_SEEKER",
+      "name": "Vox Seeker",
+      "sheet": "Using this infusion, you can replicate a Vox Seeker.",
+      "source": "Explorer's Guide to Wildemount",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "replicate-infusions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/replicate-infusions.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

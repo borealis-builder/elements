@@ -1,0 +1,158 @@
+{
+  "element": [
+    {
+      "description": "<p>You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Scouts serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter—these are just a few of the roles that Scouts assume as they range the world.</p> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SKIRMISHER\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SURVIVALIST\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SUPERIOR_MOBILITY\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_AMBUSH_MASTER\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SUDDEN_STRIKE\" />",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_SCOUT",
+      "name": "Scout",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SKIRMISHER",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SURVIVALIST",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SUPERIOR_MOBILITY",
+            "level": "9",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_AMBUSH_MASTER",
+            "level": "13",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SUDDEN_STRIKE",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Roguish Archetype",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Starting at 3rd level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn't provoke opportunity attacks.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SKIRMISHER",
+      "name": "Skirmisher",
+      "sheet": {
+        "action": "Reaction",
+        "content": "Move up to half your speed when an enemy ends its turn within 5ft. This doesn't provoke opportunity attacks."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>When you choose this archetype at 3rd level, you gain proficiency in the Nature and Survival skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SURVIVALIST",
+      "name": "Survivalist",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_NATURE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          }
+        ],
+        "stat": [
+          {
+            "bonus": "double",
+            "name": "nature:proficiency",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "double",
+            "name": "survival:proficiency",
+            "value": "proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 9th level, your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SUPERIOR_MOBILITY",
+      "name": "Superior Mobility",
+      "rules": {
+        "stat": [
+          {
+            "name": "innate speed:misc",
+            "value": "10"
+          },
+          {
+            "name": "innate speed:climb:misc",
+            "requirements": "[innate speed:climb:1]",
+            "value": "10"
+          },
+          {
+            "name": "innate speed:swim:misc",
+            "requirements": "[innate speed:swim:1]",
+            "value": "10"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well.",
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 13th level, you excel at leading ambushes and acting first in a fight.</p> <p class=\"indent\">You have advantage on initiative rolls. In addition, the first creature you hit during the first round of a combat becomes easier for you and others to strike; attack rolls against that target have advantage until the start of your next turn.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_AMBUSH_MASTER",
+      "name": "Ambush Master",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE",
+          "type": "Grants"
+        }
+      },
+      "sheet": "You gain advantage on initiative. The first creature you hit during the first round of combat becomes easier to hit. Attacks against it have advantage until the start of your next turn.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 17th level, you can strike with deadly speed. If you take the Attack action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SUDDEN_STRIKE",
+      "name": "Sudden Strike",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "If you take the Attack action, make one additional attack. This attack can gain Sneak Attack even if you already used it this turn, but not on the same target."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The Scout from Xanathar's Guide to Everything",
+    "name": "Scout",
+    "update": {
+      "file": {
+        "name": "rogue-scout.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-scout.json"
+      },
+      "version": "0.0.7"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "info": {
+    "name": "Curse of Strahd",
+    "description": "Under raging storm clouds, the vampire Count Strahd von Zarovich stands silhouetted against the ancient walls of Castle Ravenloft. Rumbling thunder pounds the castle spires. The wind's howling increases as he turns his gaze down toward the village of Barovia. A lightning flash rips through the darkness, but Strahd is gone. Only the howling of the wind fills the midnight air. The master of Castle Ravenloft is having guests for dinner—and you are invited.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/curse-strahd"
+    },
+    "update": {
+      "version": "0.0.7",
+      "file": {
+        "name": "curse-of-strahd.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/curse-of-strahd.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/curse-of-strahd/source.json"
+    },
+    {
+      "name": "background-hauntedone.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/curse-of-strahd/backgrounds/background-hauntedone.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/curse-of-strahd/items.json"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "element": [
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Ventilating Lungs.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_VENTILATING_LUNGS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_VENTILATING_LUNGS",
+      "name": "Ventilating Lungs",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Ventilating Lungs.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate an Arcane Propulsion Arm.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_ARCANE_PROPULSION_ARM\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ARCANE_PROPULSION_ARM",
+      "name": "Arcane Propulsion Arm",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate an Arcane Propulsion Arm.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Armblade.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_ARMBLADE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ARMBLADE",
+      "name": "Armblade",
+      "sheet": "Using this infusion, you can replicate an Armblade.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Prosthetic Limb.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_PROSTHETIC_LIMB\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PROSTHETIC_LIMB",
+      "name": "Prosthetic Limb",
+      "sheet": "Using this infusion, you can replicate a Prosthetic Limb.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Wand Sheath.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_WAND_SHEATH\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_SHEATH",
+      "name": "Wand Sheath",
+      "sheet": "Using this infusion, you can replicate a Wand Sheath.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Cleansing Stone.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_CLEANSING_STONE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLEANSING_STONE",
+      "name": "Cleansing Stone",
+      "sheet": "Using this infusion, you can replicate a Cleansing Stone.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Glamerweave.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_GLAMERWEAVE_COMMON\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLAMERWEAVE",
+      "name": "Glamerweave",
+      "sheet": "Using this infusion, you can replicate a Glammerweave.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Everbright Lantern.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_EVERBRIGHT_LANTERN\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EVERBRIGHT_LANTERN",
+      "name": "Everbright Lantern",
+      "sheet": "Using this infusion, you can replicate an Everbright Lantern.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Feather Token.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_FEATHER_TOKEN\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_FEATHER_TOKEN",
+      "name": "Feather Token",
+      "sheet": "Using this infusion, you can replicate a Feather Token.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Imbued Wood Focus.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_IMBUED_WOOD_FOCUS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_IMBUED_WOOD_FOCUS",
+      "name": "Imbued Wood Focus",
+      "sheet": "Using this infusion, you can replicate an Imbued Wood Focus.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Keycharm.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_KEYCHARM\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_KEYCHARM",
+      "name": "Keycharm",
+      "sheet": "Using this infusion, you can replicate a Keycharm.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Orb of Shielding.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_SHIELDING",
+      "name": "Orb of Shielding",
+      "sheet": "Using this infusion, you can replicate an Orb of Shielding.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Scribe's Pen.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_SCRIBES_PEN\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SCRIBES_PEN",
+      "name": "Scribe's Pen",
+      "sheet": "Using this infusion, you can replicate a Scribe's Pen.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Shiftweave.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_SHIFTWEAVE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SHIFTWEAVE",
+      "name": "Shiftweave",
+      "sheet": "Using this infusion, you can replicate a Shiftweave.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Spellshard.</p> <div class=\"reference\"> <div element=\"ID_WOTC_ERLW_MAGIC_ITEM_SPELLSHARD\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SPELLSHARD",
+      "name": "Spellshard",
+      "sheet": "Using this infusion, you can replicate a Spellshard.",
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "replicate-infusions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/replicate-infusions.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

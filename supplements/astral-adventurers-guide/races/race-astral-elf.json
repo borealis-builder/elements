@@ -1,0 +1,227 @@
+{
+  "element": [
+    {
+      "description": "<p>Long ago, groups of elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes.</p> <p class=\"indent\">Because nothing ages in the Astral Plane, astral elves from that plane are thousands of years old, and their longevity gives them an unusual perspective on time. Some are prone to melancholy, while others display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, they tend to see things through the lens of time as having little or no meaning to them. Astral elves who don't dwell on the Astral Plane can live to be over 750 years old.</p> <h4>ASTRAL ELF TRAITS</h4> <p>You have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf.</p> <p class=\"indent\"><strong><em>Size.</em></strong> You are Medium.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p> <p class=\"indent\"><strong><em>Astral Fire.</em></strong> You know one of the following cantrips of your choice: <i>dancing lights, light,</i> or <i>sacred flame</i>. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).</p> <p class=\"indent\"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray. </p> <p class=\"indent\"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself. </p> <p class=\"indent\"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p> <p class=\"indent\"><strong><em>Starlight Step.</em></strong> As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p class=\"indent\"><strong><em>Astral Trance.</em></strong> You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.</p> <p class=\"indent\">Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the <i>Player's Handbook</i>. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest.</p>",
+      "id": "ID_WOTC_AAG_RACE_ASTRAL_ELF",
+      "name": "Astral Elf",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_INTERNAL_GRANT_RACE_ELF",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_FEY_ANCESTRY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_KEEN_SENSES",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_STARLIGHT_STEP",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_TRANCE",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Improvement Option (Astral Elf)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Language (Astral Elf)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Customized Language (Astral Elf)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          }
+        ],
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed",
+          "value": "30"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Astral Adventurer's Guide",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You know one of the following cantrips of your choice: <i>dancing lights, light,</i> or <i>sacred flame</i>. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).</p>",
+      "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE",
+      "name": "Astral Fire",
+      "rules": {
+        "select": [
+          {
+            "name": "Cantrip (Astral Fire)",
+            "supports": "ID_PHB_SPELL_DANCING_LIGHTS|ID_PHB_SPELL_LIGHT|ID_PHB_SPELL_SACRED_FLAME",
+            "type": "Spell"
+          },
+          {
+            "name": "Spellcasting Ability (Astral Fire)",
+            "supports": "AAG Astral Fire",
+            "type": "Racial Trait"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Astral Adventurer's Guide",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for chosen cantrip is Intelligence.</p>",
+      "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE_INTELLIGENCE",
+      "name": "Intelligence",
+      "sheet": {
+        "alt": "Astral Fire",
+        "content": "Your spellcasting ability for chosen cantrip is Intelligence."
+      },
+      "source": "Astral Adventurer's Guide",
+      "supports": "AAG Astral Fire",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for chosen cantrip is Wisdom.</p>",
+      "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE_WISDOM",
+      "name": "Wisdom",
+      "sheet": {
+        "alt": "Astral Fire",
+        "content": "Your spellcasting ability for chosen cantrip is Wisdom."
+      },
+      "source": "Astral Adventurer's Guide",
+      "supports": "AAG Astral Fire",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for chosen cantrip is Charisma.</p>",
+      "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE_CHARISMA",
+      "name": "Charisma",
+      "sheet": {
+        "alt": "Astral Fire",
+        "content": "Your spellcasting ability for chosen cantrip is Charisma."
+      },
+      "source": "Astral Adventurer's Guide",
+      "supports": "AAG Astral Fire",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>",
+      "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_FEY_ANCESTRY",
+      "name": "Fey Ancestry",
+      "sheet": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself.",
+      "source": "Astral Adventurer's Guide",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have proficiency in the Perception skill.</p>",
+      "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_KEEN_SENSES",
+      "name": "Keen Senses",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_PERCEPTION",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You have proficiency in the Perception skill.",
+        "display": "false"
+      },
+      "source": "Astral Adventurer's Guide",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_STARLIGHT_STEP",
+      "name": "Starlight Step",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can magically teleport up to 30 feet to an unoccupied space you can see.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Astral Adventurer's Guide",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.</p> <p class=\"indent\">Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or a tool of your choice, selected from the “Equipment” chapter of the <i>Player's Handbook</i>. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences on the Astral Plane, and you retain them until you finish your next long rest.</p>",
+      "id": "ID_WOTC_AAG_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_TRANCE",
+      "name": "Astral Trance",
+      "rules": {
+        "select": [
+          {
+            "name": "Skill Proficiency (Astral Trance)",
+            "optional": "true",
+            "supports": "Skill",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Weapon or Tool Proficiency (Astral Trance)",
+            "optional": "true",
+            "supports": "Weapon||Tool",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious. Whenever you finish such trance, you gain proficiency in one skill and one weapon or a tool. You retain them until you finish your next long rest.",
+      "source": "Astral Adventurer's Guide",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Astral Adventurer's Guide",
+      "url": "https://dnd.wizards.com/products/spelljammer"
+    },
+    "description": "",
+    "name": "Astral Elf",
+    "update": {
+      "file": {
+        "name": "race-astral-elf.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-astral-elf.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

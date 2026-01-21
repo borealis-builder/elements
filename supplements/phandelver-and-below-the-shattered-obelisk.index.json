@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Phandelver and Below: The Shattered Obelisk",
+    "description": "",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/outoftheabyss"
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "phandelver-and-below-the-shattered-obelisk.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/phandelver-and-below-the-shattered-obelisk.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/phandelver-and-below-the-shattered-obelisk/source.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/phandelver-and-below-the-shattered-obelisk/items.json"
+    }
+  ]
+}

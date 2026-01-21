@@ -1,0 +1,246 @@
+{
+  "element": [
+    {
+      "description": "<p>An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains -their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> History, Survival</li> <li><strong>Tool Proficiencies:</strong> Cartographer's tools or navigator's tools</li> <li><strong>Languages:</strong> One of your choice</li> <li><strong>Equipment:</strong> A wooden case containing a map to a ruin or dungeon, a bullseye lantern, a miner's pick, a set of traveler's clothes, a shovel, a two-person tent, a trinket recovered from a dig site, and a pouch containing 25 gp</li> </ul> <h5>DUST DIGGER</h5> <p>Prior to becoming an adventurer, you spent most of your young life crawling around in the dust, pilfering relics of questionable value from crypts and ruins. Though you managed to sell a few of your discoveries and earn enough coin to buy proper adventuring gear, you have held onto an item that has great emotional value to you. Roll on the Signature Item table to see what you have, or choose an item from the table.</p> <table> <thead> <tr> <td>d8</td> <td>Signature Item</td> </tr> </thead> <tr> <td>1</td> <td>10-foot pole</td> </tr> <tr> <td>2</td> <td>Crowbar</td> </tr> <tr> <td>3</td> <td>Hat</td> </tr> <tr> <td>4</td> <td>Hooded lantern</td> </tr> <tr> <td>5</td> <td>Medallion</td> </tr> <tr> <td>6</td> <td>Shovel</td> </tr> <tr> <td>1</td> <td>Sledgehammer</td> </tr> <tr> <td>8</td> <td>Whip</td> </tr> </table> <div element=\"ID_WOTC_TOA_BACKGROUND_ARCHAEOLOGIST_FEATURE_HISTORICAL_KNOWLEDGE\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Few archaeologists can resist the lure of an unexplored ruin or dungeon, particularly if such a site is the source of legends or is rumored to contain the treasures and relics of wizards, warlords, or royalty. Some archaeologists plunder for wealth or fame, while others consider it their calling to illuminate the past or keep the world's greatest treasures from falling into the wrong hands. Whatever their motivations, archaeologists combine the qualities of a scrappy historian with the self-made heroism of a treasure-hunting scoundrel.</p>",
+      "id": "ID_WOTC_TOA_BACKGROUND_ARCHAEOLOGIST",
+      "name": "Archaeologist",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_HISTORY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_TOA_BACKGROUND_ARCHAEOLOGIST_FEATURE_HISTORICAL_KNOWLEDGE",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Tool Proficiency (Archaeologist)",
+            "supports": "ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language (Archaeologist)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "10-foot pole",
+                "id": "1"
+              },
+              {
+                "description": "Crowbar",
+                "id": "2"
+              },
+              {
+                "description": "Hat",
+                "id": "3"
+              },
+              {
+                "description": "Hooded lantern",
+                "id": "4"
+              },
+              {
+                "description": "Medallion",
+                "id": "5"
+              },
+              {
+                "description": "Shovel",
+                "id": "6"
+              },
+              {
+                "description": "Sledgehammer",
+                "id": "7"
+              },
+              {
+                "description": "Whip",
+                "id": "8"
+              }
+            ],
+            "name": "Signature Item",
+            "optional": "true",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I love a good puzzle or mystery.",
+                "id": "1"
+              },
+              {
+                "description": "I'm a pack rat who never throws anything away.",
+                "id": "2"
+              },
+              {
+                "description": "Fame is more important to me than money.",
+                "id": "3"
+              },
+              {
+                "description": "I have no qualms about stealing from the dead.",
+                "id": "4"
+              },
+              {
+                "description": "I'm happier in a dusty old tomb than I am in the centers of civilization.",
+                "id": "5"
+              },
+              {
+                "description": "Traps don't make me nervous, idiots who trigger traps make me nervous.",
+                "id": "6"
+              },
+              {
+                "description": "I might fail, but I will never give up.",
+                "id": "7"
+              },
+              {
+                "description": "You might think I'm a scholar, but I love a good brawl. These fists were made for punching.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Preservation. That artifact belongs in a museum. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Greed. I won't risk my life for nothing. I expect some kind of payment. (Any)",
+                "id": "2"
+              },
+              {
+                "description": "Death Wish. Nothing is more exhilarating than a narrow escape from the jaws of death. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Dignity. The dead and their belongings deserve to be treated with respect. (Lawful)",
+                "id": "4"
+              },
+              {
+                "description": "Immortality. All my exploring is part of a plan to find the secret of everlasting life. (Any)",
+                "id": "5"
+              },
+              {
+                "description": "Danger. With every great discovery comes grave danger. The two walk hand in hand. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Ever since I was a child, I've heard stories about a lost city. I aim to find it, learn its secrets, and earn my place in the history books.",
+                "id": "1"
+              },
+              {
+                "description": "I want to find my mentor, who disappeared on an expedition some time ago.",
+                "id": "2"
+              },
+              {
+                "description": "I have a friendly rival. Only one of us can be the best, and I aim to prove it's me.",
+                "id": "3"
+              },
+              {
+                "description": "I won't sell an art object or other treasure that has historical significance or is one of a kind.",
+                "id": "4"
+              },
+              {
+                "description": "I'm secretly in love with the wealthy patron who sponsors my archaeological exploits.",
+                "id": "5"
+              },
+              {
+                "description": "I hope to bring prestige to a library, a museum, or a university.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I have a secret fear of some common wild animal-and in my work, I see them everywhere.",
+                "id": "1"
+              },
+              {
+                "description": "I can't leave a room without searching it for secret doors.",
+                "id": "2"
+              },
+              {
+                "description": "When I'm not exploring dungeons or ruins, I get jittery and impatient.",
+                "id": "3"
+              },
+              {
+                "description": "I have no time for friends or family. I spend every waking moment thinking about and preparing for my next expedition.",
+                "id": "4"
+              },
+              {
+                "description": "When given the choice of going left or right, I always go left.",
+                "id": "5"
+              },
+              {
+                "description": "I can't sleep except in total darkness.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "History, Survival, Cartographer's Tools or Navigator's Tools, Language",
+          "name": "short"
+        }
+      },
+      "source": "Tomb of Annihilation",
+      "type": "Background"
+    },
+    {
+      "description": "<p>When you enter a ruin or dungeon, you can correctly ascertain its original purpose and determine its builders, whether those were dwarves, elves, humans, yuan-ti, or some other known race. In addition, you can determine the monetary value of art objects more than a century old.</p>",
+      "id": "ID_WOTC_TOA_BACKGROUND_ARCHAEOLOGIST_FEATURE_HISTORICAL_KNOWLEDGE",
+      "name": "Feature: Historical Knowledge",
+      "sheet": {
+        "alt": "Historical Knowledge"
+      },
+      "source": "Tomb of Annihilation",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/tomb-annihilation"
+    },
+    "description": "Archaeologist Background",
+    "name": "Archaeologist",
+    "update": {
+      "file": {
+        "name": "background-archaeologist.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation/backgrounds/background-archaeologist.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

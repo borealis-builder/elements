@@ -1,0 +1,193 @@
+{
+  "element": [
+    {
+      "description": "<p>A group of races from the world of Ravnica have arrived in Unearthed Arcana: loxodons, Simic hybrids, vedalken, and viashino. While native to Ravnica, these folk could potentially be used in any D&amp;D world. They are destined for the upcoming book Guildmasters' Guide to Ravnica, out this November. Now is your chance to help shape their final forms!</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20180813",
+      "name": "Unearthed Arcana: Races of Ravnica",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20180813",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/articles/unearthed-arcana/races-ravnica",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "20180813",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>Many reptiles derive their body warmth and energy from the sun, but the humanoid viashino are fueled by an inner fire of zeal. Open with their emotions, viashino can be hot-tempered, but they are also quick to their hissing laughter. And they easily form close bonds of friendship. They are fierce warriors and passionate advocates for their guilds and causes. </p> <h4>SCALED SKIN AND TAIL BLADES</h4> <p>Viashino resemble humanoid lizards covered in green, scaled skin and spiky protrusions. Their heads jut forward from their slender necks and bear huge mouths full of sharp teeth. Long, whiplike tails extend from their spines, lashing behind them—faster and faster as they grow more agitated. Their tails are tipped with bony blades they can use as weapons.</p> <h4>FERVENT AND FIERY</h4> <p>Viashino are fiercely emotional and often violent, and their wizards and sorcerers favor fire spells that reflect their inner fire. They are most common among the Gruul Clans, especially the Slizt clan. Occasionally they put their zealous fire to use in the service of higher ideals, joining the Boros Legion. Other viashino instead pursue careers in the Izzet League, where they find a special role wielding Izzet-designed flamespewing scorchbringers.</p> <p class=\"indent\">Like fire itself, viashino are quick to leap from one situation to another, and they are frequently destructive in the process. They enjoy brawling and often cause more injury than intended, thanks to their teeth and bladed tails.</p> <p class=\"indent\">They're also easily distracted, jumping from one idea to another in an instant. Likewise, they're easily bored, and if nothing captures their attention, they'll do something interesting.</p> <h4>VIASHINO NAMES</h4> <p>Viashino accept, collect, and discard names freely, choosing names that fit their current sense of self or whim. Sometimes they'll string two or more names together, because they like the sound or because all the names feel meaningful and relevant at the time. As a result members of other races often have a hard time keeping track of a viashino's name.</p> <p><strong>Viashino Names:</strong> Aun, Bay, Bassisk, Cresh, Din, Essek, Fiksh, Gyan, Hsiska, Illati, Izka, Kyri, Liszik, Maush, Nyoser, Ossanash, Shekess, Skellek, Szil, Tenk, Tzia, Villi, Wyoryn, Yom, Ztash</p> <h4>VIASHINO TRAITS</h4> <p>Your viashino character has the following traits.</p> <p><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2, and your Strength score increases by 1.</p> <p><strong><em>Age.</em></strong> Viashino mature quickly, reaching adulthood in their early teens. They live violent lives and rarely die of old age, but they would rarely live past 60 anyway.</p> <p><strong><em>Alignment.</em></strong> Viashino strongly tend toward chaotic alignments. They have no particular inclination toward good or evil.</p> <p><strong><em>Size.</em></strong> Viashino are about as tall as humans, but they have lithe, wiry frames. Your size is Medium.</p> <p><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p> <p><strong><em>Bite.</em></strong> Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p> <p><strong><em>Lashing Tail.</em></strong> Your semi-prehensile tail is tipped with a bony blade. Immediately after a creature within 5 feet of you deals damage to you with a melee attack, you can use your reaction to make an unarmed strike against that creature with your tail. If you hit, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p> <p><strong><em>Wiry Frame.</em></strong> You gain proficiency in the Acrobatics or the Stealth skill (your choice).</p> <p><strong><em>Languages.</em></strong> You can speak, read, and write Common and Draconic.</p>",
+      "id": "ID_WOTC_UA20180813_RACE_VIASHINO",
+      "name": "Viashino",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_WOTC_UA20180813_RACIAL_TRAIT_VIASHINO_BITE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_UA20180813_RACIAL_TRAIT_VIASHINO_LASHING_TAIL",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_UA20180813_RACIAL_TRAIT_VIASHINO_WIRY_FRAME",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_LANGUAGE_DRACONIC",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Viashino)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Viashino)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "dexterity",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "name": "strength",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Aun, Bay, Bassisk, Cresh, Din, Essek, Fiksh, Gyan, Hsiska, Illati, Izka, Kyri, Liszik, Maush, Nyoser, Ossanash, Shekess, Skellek, Szil, Tenk, Tzia, Villi, Wyoryn, Yom, Ztash",
+            "name": "names",
+            "type": "custom"
+          },
+          {
+            "description": "{{custom}}",
+            "name": "names-format"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Races of Ravnica",
+      "type": "Race"
+    },
+    {
+      "description": "<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>",
+      "id": "ID_WOTC_UA20180813_RACIAL_TRAIT_VIASHINO_BITE",
+      "name": "Bite",
+      "sheet": "Your fanged maw is a natural weapon (1d4+{{strength:modifier}} piercing damage), which you can use to make unarmed strikes.",
+      "source": "Unearthed Arcana: Races of Ravnica",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your semi-prehensile tail is tipped with a bony blade. Immediately after a creature within 5 feet of you deals damage to you with a melee attack, you can use your reaction to make an unarmed strike against that creature with your tail. If you hit, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>",
+      "id": "ID_WOTC_UA20180813_RACIAL_TRAIT_VIASHINO_LASHING_TAIL",
+      "name": "Lashing Tail",
+      "sheet": {
+        "action": "Reaction",
+        "content": "Immediately after a creature within 5 feet of you deals damage to you with a melee attack, you can use your reaction to make an unarmed strike against that creature with your tail (1d4+{{strength:modifier}} slashing damage)."
+      },
+      "source": "Unearthed Arcana: Races of Ravnica",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You gain proficiency in the Acrobatics or the Stealth skill (your choice).</p>",
+      "id": "ID_WOTC_UA20180813_RACIAL_TRAIT_VIASHINO_WIRY_FRAME",
+      "name": "Wiry Frame",
+      "rules": {
+        "select": [
+          {
+            "name": "Skill Proficiency, Wiry Frame",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_STEALTH",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Customized Skill Proficiency, Wiry Frame",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "Skill",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You gain proficiency in the Acrobatics or the Stealth skill.",
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Races of Ravnica",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana/races-ravnica"
+    },
+    "description": "A group of races from the world of Ravnica have arrived in Unearthed Arcana: loxodons, Simic hybrids, vedalken, and viashino. While native to Ravnica, these folk could potentially be used in any D&amp;D world. They are destined for the upcoming book Guildmasters' Guide to Ravnica, out this November. Now is your chance to help shape their final forms!",
+    "name": "Unearthed Arcana: Races of Ravnica",
+    "update": {
+      "file": {
+        "name": "20180813.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180813.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "element": [
+    {
+      "description": "<p>The Mark of Handling gives its bearer a primal connection to beasts and the natural world, granting the power to calm and coax. This extends beyond purely natural animals; the mark allows its bearer to guide a hippogriff as easily as a horse.</p> <p>If your human character has the Mark of Handling, the following traits replace the human's Ability Score Increase trait in the Player's Handbook.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 2, and one other ability score of your choice increases by 1.</p> <p class=\"indent\"><strong><em>Wild Intuition.</em></strong> When you make a Wisdom (Animal Handling) or Intelligence (Nature) check, you can roll a d4 and add the number rolled to the ability check.</p> <p class=\"indent\"><strong><em>Primal Connection.</em></strong> You can cast the animal friendship and speak with animals spells with this trait, requiring no material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a short or long rest. Wisdom is your spellcasting ability for these spells.</p> <p class=\"indent\"><strong><em>The Bigger They Are.</em></strong> Starting at 3rd level, you can target a beast or monstrosity when you cast animal friendship or speak with animals, provided the creature's Intelligence score is 3 or lower.</p> <p class=\"indent\"><strong><em>Spells of the Mark.</em></strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Handling Spells table are added to the spell list of your spellcasting class.</p> <p><strong>MARK OF HANDLING SPELLS</strong></p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>animal friendship, speak with animals</em></td></tr> <tr><td>2nd</td><td><em>beast sense, calm emotions</em></td></tr> <tr><td>3rd</td><td><em>beacon of hope, conjure animals</em></td></tr> <tr><td>4th</td><td><em>aura of life, dominate beast</em></td></tr> <tr><td>5th</td><td><em>awaken</em></td></tr> </table>",
+      "id": "ID_WOTC_ERLW_RACE_VARIANT_MARK_OF_HANDLING",
+      "name": "Mark of Handling",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_ERLW_DRAGONMARK_MARK_OF_HANDLING",
+            "type": "Dragonmark"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_HANDLING_WILD_INTUITION",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_HANDLING_PRIMAL_CONNECTION",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_HANDLING_THE_BIGGER_THEY_ARE",
+            "level": "3",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_HANDLING_SPELLS_OF_THE_MARK",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Increase, Mark of Handling",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Ability Score Increase,Dragonmark,!Wisdom",
+            "type": "Racial Trait"
+          },
+          {
+            "name": "Custom Ability Score Improvement +2 (Mark of Handling)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Mark of Handling)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          }
+        ],
+        "stat": {
+          "name": "wisdom",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "alt": "Human (Mark of Handling)",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Human",
+      "type": "Race Variant"
+    },
+    {
+      "description": "<p>When you make a Wisdom (Animal Handling) or Intelligence (Nature) check, you can roll a d4 and add the number rolled to the ability check.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_HANDLING_WILD_INTUITION",
+      "name": "Wild Intuition",
+      "sheet": "When you make a Animal Handling or Nature check, you can roll a d4 and add the number rolled to the ability check.",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can cast the animal friendship and speak with animals spells with this trait, requiring no material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a short or long rest. Wisdom is your spellcasting ability for these spells.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_HANDLING_PRIMAL_CONNECTION",
+      "name": "Primal Connection",
+      "sheet": {
+        "content": "You can cast the animal friendship and speak with animals spells with this trait, requiring no material component, using Wisdom as your spellcasting ability.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Starting at 3rd level, you can target a beast or monstrosity when you cast animal friendship or speak with animals, provided the creature's Intelligence score is 3 or lower.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_HANDLING_THE_BIGGER_THEY_ARE",
+      "name": "The Bigger They Are",
+      "sheet": "You can target a beast or monstrosity when you cast animal friendship or speak with animals, provided the creature's Intelligence score is 3 or lower.",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Handling Spells table are added to the spell list of your spellcasting class.</p> <h5>Mark of Handling Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>animal friendship, speak with animals</em></td></tr> <tr><td>2nd</td><td><em>beast sense, calm emotions</em></td></tr> <tr><td>3rd</td><td><em>beacon of hope, conjure animals</em></td></tr> <tr><td>4th</td><td><em>aura of life, dominate beast</em></td></tr> <tr><td>5th</td><td><em>awaken</em></td></tr> </table>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_HANDLING_SPELLS_OF_THE_MARK",
+      "name": "Spells of the Mark",
+      "sheet": {
+        "content": "The spells on the Mark of Handling Spells table are added to the spell list of your spellcasting class.",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_ANIMAL_FRIENDSHIP",
+          "ID_PHB_SPELL_SPEAK_WITH_ANIMALS",
+          "ID_PHB_SPELL_BEAST_SENSE",
+          "ID_PHB_SPELL_CALM_EMOTIONS",
+          "ID_PHB_SPELL_BEACON_OF_HOPE",
+          "ID_PHB_SPELL_CONJURE_ANIMALS",
+          "ID_PHB_SPELL_AURA_OF_LIFE",
+          "ID_PHB_SPELL_DOMINATE_BEAST",
+          "ID_PHB_SPELL_AWAKEN"
+        ]
+      },
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "mark-of-handling.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-handling.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

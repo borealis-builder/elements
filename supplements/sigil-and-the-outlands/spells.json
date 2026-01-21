@@ -1,0 +1,122 @@
+{
+  "element": [
+    {
+      "description": "<p>For the duration, you sense the presence of portals, even inactive ones, within 30 feet of yourself.</p> <p class=\"indent\">If you detect a portal in this way, you can use your action to study it. Make a DC 15 ability check using your spellcasting ability. On a successful check, you learn the destination plane of the portal and what portal key it requires, then the spell ends. On a failed check, you learn nothing and can't study that portal again using this spell until you cast it again.</p> <p class=\"indent\">The spell can penetrate most barriers but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>",
+      "id": "ID_WOTC_SATO_SPELL_WARP_SENSE",
+      "name": "Warp Sense",
+      "setters": {
+        "set": [
+          {
+            "description": "portals, ability check",
+            "name": "keywords"
+          },
+          {
+            "description": "2",
+            "name": "level"
+          },
+          {
+            "description": "Divination",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "Self",
+            "name": "range"
+          },
+          {
+            "description": "Concentration, up to 1 minute",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a razorvine leaf",
+            "name": "materialComponent"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          }
+        ]
+      },
+      "source": "Sigil and the Outlands",
+      "supports": "Sorcerer, Warlock, Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You fortify the fabric of the planes in a 30-foot cube you can see within range. Within that area, portals close and can't be opened for the duration. Spells and other effects that allow planar travel or open portals, such as gate or plane shift, fail if used to enter or leave the area. The cube is stationary.</p> <p class=\"indent\"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled.</p>",
+      "id": "ID_WOTC_SATO_SPELL_GATE_SEAL",
+      "name": "Gate Seal",
+      "setters": {
+        "set": [
+          {
+            "description": "cube, portals, upcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "4",
+            "name": "level"
+          },
+          {
+            "description": "Abjuration",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "60 feet",
+            "name": "range"
+          },
+          {
+            "description": "24 hours",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a broken portal key, which the spell consumes",
+            "name": "materialComponent"
+          }
+        ]
+      },
+      "source": "Sigil and the Outlands",
+      "supports": "Sorcerer, Warlock, Wizard",
+      "type": "Spell"
+    }
+  ],
+  "info": {
+    "name": "Spells from Sigil and the Outlands",
+    "update": {
+      "file": {
+        "name": "spells.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/spells.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

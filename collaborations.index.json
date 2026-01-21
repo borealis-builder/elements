@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Collaborations",
+    "description": "Limited time collaborations between Wizards of the Coast and a Third Party as well as files distributed by Wizards of the Coast that was made by a Third Party.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com"
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "collaborations.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/collaborations.index.json"
+      }
+    }
+  },
+  "files": []
+}

@@ -1,0 +1,631 @@
+{
+  "element": [
+    {
+      "description": "<p>An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.</p> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARCANE_ARMOR\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR\" />",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_ARTIFICER_ARMORER",
+      "name": "Armorer",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARCANE_ARMOR",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK",
+            "level": "5",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS",
+            "level": "9",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR",
+            "level": "15",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Artificer Specialist",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p><em>3rd-level Armorer feature</em></p> <p>You gain proficiency with heavy armor. You also gain proficiency with smith's tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan's tools of your choice.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE",
+      "name": "Tools of the Trade",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR",
+          "type": "Proficiency"
+        },
+        "select": {
+          "default": "ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS",
+          "name": "Tool Proficiency, Tools of the Trade",
+          "supports": "Artisan tools",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You gain proficiency with heavy armor. You also gain proficiency with smith's tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan's tools of your choice.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>3rd-level Armorer feature</em></p> <p>You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.</p> <h5 class=\"caption\">Armorer Spells</h5> <table> <thead> <tr><td>Artificer Level</td><td>Spells</td></tr> </thead> <tr><td>3rd</td><td><em>magic missile, thunderwave</em></td></tr> <tr><td>5th</td><td><em>mirror image, shatter</em></td></tr> <tr><td>9th</td><td><em>hypnotic pattern, lightning bolt</em></td></tr> <tr><td>13th</td><td><em>fire shield, greater invisibility</em></td></tr> <tr><td>17th</td><td><em>passwall, wall of force</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS",
+      "name": "Armorer Spells",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_MAGIC_MISSILE",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_THUNDERWAVE",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_MIRROR_IMAGE",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SHATTER",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_HYPNOTIC_PATTERN",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_LIGHTNING_BOLT",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FIRE_SHIELD",
+            "level": "13",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_GREATER_INVISIBILITY",
+            "level": "13",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_PASSWALL",
+            "level": "17",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_WALL_OF_FORCE",
+            "level": "17",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>3rd-level Armorer feature</em></p> <p>Your metallurgical pursuits have led to you making armor a conduit for your magic. As an action, you can turn a suit of armor you are wearing into Arcane Armor, provided you have smith's tools in hand.</p> <p class=\"indent\">You gain the following benefits while wearing this armor:</p> <ul> <li>If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you.</li> <li>You can use the arcane armor as a spellcasting focus for your artificer spells.</li> <li>The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to a limb it replaces.</li> <li>You can doff or don the armor as an action.</li> </ul> <p class=\"indent\">The armor continues to be Arcane Armor until you don another suit of armor or you die.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARCANE_ARMOR",
+      "name": "Arcane Armor",
+      "rules": {
+        "stat": {
+          "bonus": "armor",
+          "name": "speed",
+          "value": "0"
+        }
+      },
+      "sheet": {
+        "action": "Action",
+        "content": "You can turn a suit of armor you are wearing into Arcane Armor, provided you have smith's tools in hand. You gain the following benefits while wearing this armor: &#13; • If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you. &#13; • You can use the arcane armor as a spellcasting focus for your artificer spells. &#13; • The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to a limb it replaces. &#13; • You can doff or don the armor as an action. The armor continues to be Arcane Armor until you don another suit of armor or you die."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>3rd-level Armorer feature</em></p> <p>You can customize your Arcane Armor. When you do so, choose one of the following armor models: Guardian or Infiltrator. The model you choose gives you special benefits while you wear it.</p> <p class=\"indent\">Each model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity, to the attack and damage rolls.</p> <p class=\"indent\">You can change the armor's model whenever you finish a short or long rest, provided you have smith's tools in hand.</p> <p class=\"indent\"><strong><em>Guardian.</em></strong> You design your armor to be in the front line of conflict. It has the following features:</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong>Thunder Gauntlets.</strong> Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else. </p> <p style=\"text-indent: -1em; margin-left: 1em; margin-bottom: 20px\"><strong>Defensive Field.</strong> As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p class=\"indent\"><strong><em>Infiltrator.</em></strong> You can customize your armor for subtle undertakings. It has the following features:</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong>Lightning Launcher.</strong> A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong>Powered Steps.</strong> Your walking speed increases by 5 feet.</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong>Dampening Field.</strong> You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL",
+      "name": "Armor Model",
+      "rules": {
+        "select": {
+          "name": "Armor Model, Armorer",
+          "optional": "true",
+          "supports": "Armor Model",
+          "type": "Archetype Feature"
+        }
+      },
+      "sheet": "You can customize your Arcane Armor. Each model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity, to the attack and damage rolls. You can change the armor's model whenever you finish a short or long rest, provided you have smith's tools in hand.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You design your armor to be in the front line of conflict. It has the following features:</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong>Thunder Gauntlets.</strong> Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else. </p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong>Defensive Field.</strong> As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_GUARDIAN",
+      "name": "Guardian",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_GUARDIAN_THUNDER_GAUNTLETS",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_GUARDIAN_DEFENSIVE_FIELD",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You design your armor to be in the front line of conflict.",
+        "usage": "Armor Model"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Armor Model",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_GUARDIAN_THUNDER_GAUNTLETS",
+      "name": "Thunder Gauntlets",
+      "sheet": "Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_GUARDIAN_DEFENSIVE_FIELD",
+      "name": "Defensive Field",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can gain {{level:artificer}} temporary hps, replacing any temporary hps you already have. You lose these temporary hps if you doff the armor.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You can customize your armor for subtle undertakings. It has the following features:</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong>Lightning Launcher.</strong> A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong>Powered Steps.</strong> Your walking speed increases by 5 feet.</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong>Dampening Field.</strong> You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR",
+      "name": "Infiltrator",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR_LIGHTNING_LAUNCHER",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR_POWERED_STEPS",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR_DAMPENING_FIELD",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You can customize your armor for subtle undertakings.",
+        "usage": "Armor Model"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Armor Model",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR_LIGHTNING_LAUNCHER",
+      "name": "Lightning Launcher",
+      "sheet": "A gemlike node appears on one of your armored fists or on the chest. It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your walking speed increases by 5 feet.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR_POWERED_STEPS",
+      "name": "Powered Steps",
+      "rules": {
+        "stat": {
+          "name": "speed:misc",
+          "value": "5"
+        }
+      },
+      "sheet": {
+        "content": "Your walking speed increases by 5 feet.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR_DAMPENING_FIELD",
+      "name": "Dampening Field",
+      "sheet": "You have advantage on Stealth checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>5th-level Armorer feature</em></p> <p>You can attack twice, rather than once, whenever you take the Attack action on your turn.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK",
+      "name": "Extra Attack",
+      "rules": {
+        "stat": {
+          "bonus": "extra attack",
+          "level": "5",
+          "name": "extra attack:count",
+          "value": "2"
+        }
+      },
+      "sheet": "You can attack twice, rather than once, whenever you take the Attack action on your turn.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>9th-level Armorer feature</em></p> <p>You learn how to use your artificer infusions to specially modify your Arcane Armor. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Armor Model feature. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Arcane Armor.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS",
+      "name": "Armor Modifications",
+      "rules": {
+        "stat": {
+          "name": "item infusions:max",
+          "value": "2"
+        }
+      },
+      "sheet": "That armor now counts as separate items for the purposes of your Infuse Items feature: armor, boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Armor Model feature.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>15th-level Armorer feature</em></p> <p>Your Arcane Armor gains additional benefits based on its model, as shown below.</p> <p class=\"indent\"><strong><em>Guardian.</em></strong> When a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to magically force it to make a Strength saving throw against your spell save DC. On a failed save, you pull the creature up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction.</p> <p class=\"indent\">You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p> <p class=\"indent\"><strong><em>Infiltrator.</em></strong> Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra 1d6 lightning damage.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR",
+      "name": "Perfected Armor",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR_GUARDIAN",
+            "requirements": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_GUARDIAN",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR_INFILTRATOR",
+            "requirements": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Your Arcane Armor gains additional benefits based on its model.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>When a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to magically force it to make a Strength saving throw against your spell save DC. On a failed save, you pull the creature up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction.</p> <p class=\"indent\">You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR_GUARDIAN",
+      "name": "Perfected Guardian Armor",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When a Huge or smaller creature you can see ends its turn within 30 feet of you, you can magically force the creature to make a DC{{artificer:spellcasting:dc}} Strength save. On a failed save, you pull the creature up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra 1d6 lightning damage.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR_INFILTRATOR",
+      "name": "Perfected Infiltrator Armor",
+      "sheet": "Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra 1d6 lightning damage.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>A conduit for your artificer magic designed to be in the frontline of conflict.</p> <ul> <li>If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you.</li> <li>You can use the arcane armor as a spellcasting focus for your artificer spells.</li> <li>The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to the limb it replaces.</li> <li>You can doff or don this armor as an action.</li> </ul> <p class=\"indent\"><strong><em>Thunder Gauntlets.</em></strong> Your armored fists each count as a simple melee weapon, and each deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.</p> <p class=\"indent\"><strong><em>Defensive Field.</em></strong> You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses on a long rest.</p>",
+      "id": "ID_WOTC_TCOE_MAGIC_ITEM_GUARDIAN_ARCANE_ARMOR",
+      "name": "Guardian Arcane Armor",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT",
+          "type": "Grants"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "artificer, armorer",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Armor",
+            "name": "type"
+          },
+          {
+            "description": "ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY",
+            "name": "armor"
+          },
+          {
+            "description": "Guardian Arcane {{parent}}",
+            "name": "name-format"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>A conduit for your artificer magic designed for subtle undertakings.</p> <ul> <li>If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you.</li> <li>You can use the arcane armor as a spellcasting focus for your artificer spells.</li> <li>The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to the limb it replaces.</li> <li>You can doff or don this armor as an action.</li> </ul> <p class=\"indent\"><strong><em>Lightning Launcher.</em></strong> A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.</p> <p class=\"indent\"><strong><em>Powered Steps.</em></strong> Your walking speed increases by 5 feet.</p> <p class=\"indent\"><strong><em>Dampening Field.</em></strong> You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.</p>",
+      "id": "ID_WOTC_TCOE_MAGIC_ITEM_INFILTRATOR_ARCANE_ARMOR",
+      "name": "Infiltrator Arcane Armor",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_GRANTS_IGNORE_STEALTH_DISADVANTAGE",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT",
+            "type": "Grants"
+          }
+        ],
+        "stat": {
+          "name": "speed:misc",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "artificer, armorer",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Armor",
+            "name": "type"
+          },
+          {
+            "description": "ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY",
+            "name": "armor"
+          },
+          {
+            "description": "Infiltrator Arcane {{parent}}",
+            "name": "name-format"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>A conduit for your artificer magic designed to be in the frontline of conflict.</p> <ul> <li>If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you.</li> <li>You can use the arcane armor as a spellcasting focus for your artificer spells.</li> <li>The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to the limb it replaces.</li> <li>You can doff or don this armor as an action.</li> </ul> <p class=\"indent\"><strong><em>Thunder Gauntlets.</em></strong> Your armored fists each count as a simple melee weapon, and each deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.</p> <p class=\"indent\"><strong><em>Defensive Field.</em></strong> You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor.</p> <p class=\"indent\"><strong><em>Perfected Feature.</em></strong> When a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to magically force the creature to make a Strength saving throw against your spell save DC or be pulled up to 30 feet toward you in an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction.</p> <p class=\"indent\">You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_MAGIC_ITEM_GUARDIAN_PERFECTED_ARCANE_ARMOR",
+      "name": "Perfected Guardian Arcane Armor",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT",
+          "type": "Grants"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "artificer, armorer",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Armor",
+            "name": "type"
+          },
+          {
+            "description": "ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY",
+            "name": "armor"
+          },
+          {
+            "description": "Perfected Guardian Arcane {{parent}}",
+            "name": "name-format"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>A conduit for your artificer magic designed for subtle undertakings.</p> <ul> <li>If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you.</li> <li>You can use the arcane armor as a spellcasting focus for your artificer spells.</li> <li>The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to the limb it replaces.</li> <li>You can doff or don this armor as an action.</li> </ul> <p class=\"indent\"><strong><em>Lightning Launcher.</em></strong> A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.</p> <p class=\"indent\"><strong><em>Powered Steps.</em></strong> Your walking speed increases by 5 feet.</p> <p class=\"indent\"><strong><em>Dampening Field.</em></strong> You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.</p> <p class=\"indent\"><strong><em>Perfected Feature.</em></strong> Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5 foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra 1d6 lightning damage.</p>",
+      "id": "ID_WOTC_TCOE_MAGIC_ITEM_PERFECTED_INFILTRATOR_ARCANE_ARMOR",
+      "name": "Perfected Infiltrator Arcane Armor",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_GRANTS_IGNORE_STEALTH_DISADVANTAGE",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT",
+            "type": "Grants"
+          }
+        ],
+        "stat": {
+          "name": "speed:misc",
+          "value": "5"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "artificer, armorer",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "—",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Armor",
+            "name": "type"
+          },
+          {
+            "description": "ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY",
+            "name": "armor"
+          },
+          {
+            "description": "Perfected Infiltrator Arcane {{parent}}",
+            "name": "name-format"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Magic Item"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Tasha's Cauldron of Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything"
+    },
+    "description": "The Armorer from Tasha's Cauldron of Everything",
+    "name": "Armorer",
+    "update": {
+      "file": {
+        "name": "artificer-armorer.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-armorer.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "info": {
+    "name": "Unearthed Arcana",
+    "description": "The material presented in Unearthed Arcana will range from mechanics that we expect one day to publish in a supplement to house rules from our home campaigns that we want to share, from core system options to setting-specific material. Once it's out there, you can expect us to check in with you to see how it's working out and what we can do to improve it.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana"
+    },
+    "update": {
+      "version": "0.7.6",
+      "file": {
+        "name": "unearthed-arcana.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "planeshift.index.json",
+      "type": "index",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift.index.json"
+    },
+    {
+      "name": "20150202.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2015/20150202.json"
+    },
+    {
+      "name": "20150504.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2015/20150504.json"
+    },
+    {
+      "name": "20150803.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2015/20150803.json"
+    },
+    {
+      "name": "20151102.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2015/20151102.json"
+    },
+    {
+      "name": "20151207.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2015/20151207.json"
+    },
+    {
+      "name": "20160104.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20160104.json"
+    },
+    {
+      "name": "20160404.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20160404.json"
+    },
+    {
+      "name": "20160606.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20160606.json"
+    },
+    {
+      "name": "20160801.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20160801.json"
+    },
+    {
+      "name": "20161121.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20161121.json"
+    },
+    {
+      "name": "20161128.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20161128.json"
+    },
+    {
+      "name": "20161205.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20161205.json"
+    },
+    {
+      "name": "20161212.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20161212.json"
+    },
+    {
+      "name": "20161219.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20161219.json"
+    },
+    {
+      "name": "20170109.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170109.json"
+    },
+    {
+      "name": "20170116.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170116.json"
+    },
+    {
+      "name": "20170206.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170206.json"
+    },
+    {
+      "name": "20170213.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170213.json"
+    },
+    {
+      "name": "20170313.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170313.json"
+    },
+    {
+      "name": "20170320.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170320.json"
+    },
+    {
+      "name": "20170403.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170403.json"
+    },
+    {
+      "name": "20170417.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170417.json"
+    },
+    {
+      "name": "20170424.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170424.json"
+    },
+    {
+      "name": "20170605.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170605.json"
+    },
+    {
+      "name": "20171009.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20171009.json"
+    },
+    {
+      "name": "20171113.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20171113.json"
+    },
+    {
+      "name": "20180108.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180108.json"
+    },
+    {
+      "name": "20180212.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180212.json"
+    },
+    {
+      "name": "20180409.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180409.json"
+    },
+    {
+      "name": "20180514.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180514.json"
+    },
+    {
+      "name": "20180611.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180611.json"
+    },
+    {
+      "name": "20180723.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180723.json"
+    },
+    {
+      "name": "20180813.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180813.json"
+    },
+    {
+      "name": "20180910.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180910.json"
+    },
+    {
+      "name": "20181008.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20181008.json"
+    },
+    {
+      "name": "20181112.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20181112.json"
+    },
+    {
+      "name": "20181217.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20181217.json"
+    },
+    {
+      "name": "20190228.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20190228.json"
+    },
+    {
+      "name": "20190514.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20190514.json"
+    },
+    {
+      "name": "20190815.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20190815.json"
+    },
+    {
+      "name": "20190905.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20190905.json"
+    },
+    {
+      "name": "20190918.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20190918.json"
+    },
+    {
+      "name": "20191003.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20191003.json"
+    },
+    {
+      "name": "20191017.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20191017.json"
+    },
+    {
+      "name": "20191104.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20191104.json"
+    },
+    {
+      "name": "20191125.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20191125.json"
+    },
+    {
+      "name": "20200114.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20200114.json"
+    },
+    {
+      "name": "20200206.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20200206.json"
+    },
+    {
+      "name": "20200224.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20200224.json"
+    },
+    {
+      "name": "20200326.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20200326.json"
+    },
+    {
+      "name": "20200414.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20200414.json"
+    },
+    {
+      "name": "20200512.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20200512.json"
+    },
+    {
+      "name": "20200713.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20200713.json"
+    },
+    {
+      "name": "20200805.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20200805.json"
+    },
+    {
+      "name": "20201026.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2020/20201026.json"
+    },
+    {
+      "name": "20210126.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2021/20210126.json"
+    },
+    {
+      "name": "20210311.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2021/20210311.json"
+    },
+    {
+      "name": "20210414.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2021/20210414.json"
+    },
+    {
+      "name": "20210608.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2021/20210608.json"
+    },
+    {
+      "name": "20211008.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2021/20211008.json"
+    },
+    {
+      "name": "20220308.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2022/20220308.json"
+    },
+    {
+      "name": "20220425.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2022/20220425.json"
+    },
+    {
+      "name": "20220523.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2022/20220523.json"
+    },
+    {
+      "name": "20220718.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2022/20220718.json"
+    }
+  ]
+}

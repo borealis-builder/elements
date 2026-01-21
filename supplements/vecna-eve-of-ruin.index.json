@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Vecna: Eve of Ruin",
+    "description": "",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "https://dndstore.wizards.com/us/product/924703/vecna-eve-of-ruin-digital-plus-physical-bundle"
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "vecna-eve-of-ruin.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/vecna-eve-of-ruin.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/vecna-eve-of-ruin/source.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/vecna-eve-of-ruin/items.json"
+    }
+  ]
+}

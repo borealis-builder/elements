@@ -1,0 +1,312 @@
+{
+  "element": [
+    {
+      "description": "<p>The fighter faces four new Martial Archetype options this week: Arcane Archer, Knight, Samurai, and Sharpshooter. We invite you to read the options' descriptions, make characters with them, and see whether you like them.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20161205",
+      "name": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20161205",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/articles/unearthed-arcana/fighter",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "20161205",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>The Knight is a colossus on the battlefield who can shrug off attacks and protect allies from harm. Knights fight from the saddle when they can, and in combat they are expected to seek out and lock down the mightiest of the enemy's forces. On adventures, they are the armored bulwark that strives to keep the rest of the party safe.</p> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_BORN_TO_THE_SADDLE\"/> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_IMPLACABLE_MARK\"/> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_NOBLE_CAVALRY\"/> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_HOLD_THE_LINE\"/> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_RAPID_STRIKE\"/> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_DEFENDERS_BLADE\"/>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FIGHTER_KNIGHT",
+      "name": "Knight",
+      "rules": {
+        "grant": [
+          {
+            "level": "3",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_BORN_TO_THE_SADDLE",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "3",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_IMPLACABLE_MARK",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "7",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_NOBLE_CAVALRY",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "10",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_HOLD_THE_LINE",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "15",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_RAPID_STRIKE",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "18",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_DEFENDERS_BLADE",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": "The Knight is a colossus on the battlefield who can shrug off attacks and protect allies from harm.",
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "supports": "Martial Archetype",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Starting at 3rd level, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed. In addition, you have advantage on saving throws made to avoid falling off your mount. If you fall off it, you can automatically land on your feet if you aren't incapacitated and you fall less than 10 feet.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_BORN_TO_THE_SADDLE",
+      "name": "Born to the Saddle",
+      "sheet": "You have advantage on saving throws made to avoid falling off your mount. If you fall no more than 10ft, you land on your feet. Mounting and dismounting a creature costs you only 5ft of movement.",
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 3rd level, you excel at foiling attacks and protecting your allies by menacing your foes. When you hit a creature with a melee weapon attack, the target is marked by you until the end of your next turn. A creature ignores this effect if the creature can't be frightened.</p> <p class=\"indent\">The marked target has disadvantage on any attack roll against a creature other than you or someone else who marked it.</p> <p class=\"indent\">If a target marked by you is within 5 feet of you on its turn and it moves at least 1 foot or makes an attack that suffers disadvantage from this feature, you can make one melee weapon attack against it using your reaction. This attack roll has advantage, and if it hits, the attack's weapon deals extra damage to the target equal to your fighter level.</p> <p class=\"indent\">You can make this special attack even if you have already expended your reaction this round, but not if you have already used your reaction this turn. You can make this attack three times, and you regain all expended uses of it when you finish a short or long rest.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_IMPLACABLE_MARK",
+      "name": "Implacable Mark",
+      "sheet": "When you hit a creature with a melee weapon attack, it is marked until the end of your next turn, unless it can't be frightened. It has disadvantage on attack rolls that don't target you or another that marked it. If it is within 5ft and moves at least 1ft, or makes an attack that suffers disadvantage from this feature, make a melee attack against it using your reaction. You have advantage on the roll, and it deals an extra {{level:fighter}} points of damage. You can do this even if your reaction has already been used this round, but not this turn. (3/rest)",
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 7th level, you gain proficiency in two of the following skills of your choice: Animal Handling, History, Insight, Persuasion, or Religion. Alternatively, you learn one language of your choice.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_NOBLE_CAVALRY",
+      "name": "Noble Cavalry",
+      "rules": {
+        "select": {
+          "name": "Bonus Proficiency (Knight)",
+          "supports": "ID_WOTC_UA20161205_FIGHTER_KNIGHT_PROFICIENCY|ID_WOTC_UA20161205_FIGHTER_KNIGHT_LANGUAGE",
+          "type": "Archetype Feature"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You gain proficiency in two of the following skills of your choice: Animal Handling, History, Insight, Persuasion, or Religion.</p>",
+      "id": "ID_WOTC_UA20161205_FIGHTER_KNIGHT_PROFICIENCY",
+      "name": "Bonus Skill Proficiency",
+      "rules": {
+        "select": {
+          "name": "Bonus Skill Proficiency (Noble Cavalry)",
+          "number": "2",
+          "supports": "ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_PERSUASION",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You learn one language of your choice.</p>",
+      "id": "ID_WOTC_UA20161205_FIGHTER_KNIGHT_LANGUAGE",
+      "name": "Bonus Language",
+      "rules": {
+        "select": {
+          "name": "Bonus Language (Noble Cavalry)",
+          "supports": "Standard||Exotic||Secret",
+          "type": "Language"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 10th level, you master the ability to harass and slow your enemies. As a reaction when a creature moves at least 1 foot within 5 feet of you, you can make one melee weapon attack against that creature. If you hit, the attack's weapon deals extra damage to the target equal to half your fighter level, and the target's speed is reduced to 0 until the end of this turn.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_HOLD_THE_LINE",
+      "name": "Hold the Line",
+      "sheet": {
+        "action": "Reaction",
+        "content": "If creature moves 1ft or more while within 5ft of you, you can make one melee attack against that creature and deal an extra {{level:fighter:half}} damage if it hits, and its speed is reduced to 0 until the end of this turn."
+      },
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_RAPID_STRIKE",
+      "name": "Rapid Strike",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "When attacking with advantage, you can forgo the advantage to gain an additional attack against your target."
+      },
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 18th level, you respond to danger with extraordinary vigilance. You can use your reaction for an opportunity attack even if you have already expended your reaction this round, but not if you have already used your reaction this turn.</p> <p class=\"indent\">In addition, you gain a +1 bonus to AC while wearing heavy armor.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_DEFENDERS_BLADE",
+      "name": "Defender's Blade",
+      "rules": {
+        "stat": {
+          "bonus": "defenders blade",
+          "equipped": "[armor:heavy]",
+          "name": "ac:misc",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Reaction",
+        "content": "Can make 1 opportunity attack on every turn in a round."
+      },
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>The Sharpshooter is a master of ranged combat. An excellent sniper and eagle-eyed scout, this fighter is a perilous foe who can defeat an entire war band so long as they are kept at range.</p> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_STEADY_AIM\"/> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_CAREFUL_EYES\"/> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_CLOSE_QUARTERS_SHOOTING\"/> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_RAPID_STRIKE\"/> <div element=\"ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_SNAP_SHOT\"/>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FIGHTER_SHARPSHOOTER",
+      "name": "Sharpshooter",
+      "rules": {
+        "grant": [
+          {
+            "level": "3",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_STEADY_AIM",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "7",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_CAREFUL_EYES",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "10",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_CLOSE_QUARTERS_SHOOTING",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "15",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_RAPID_STRIKE",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "18",
+            "name": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_SNAP_SHOT",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": "The Sharpshooter is a master of ranged combat. An excellent sniper and eagle-eyed scout, this fighter is a perilous foe who can defeat an entire war band so long as they are kept at range.",
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "supports": "Martial Archetype",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Beginning when you choose this archetype at 3rd level, your aim becomes deadly. As a bonus action on your turn, you can take careful aim at a creature you can see that is within range of a ranged weapon you're wielding. Until the end of this turn, your ranged attacks with that weapon gain two benefits against the target:</p> <ul> <li>The attacks ignore half and three-quarters cover.</li> <li>On each hit, the weapon deals additional damage to the target equal to 2 + half your fighter level.</li> </ul> <p class=\"indent\">You can use this feature three times. You regain all expended uses of it when you finish a short or long rest.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_STEADY_AIM",
+      "name": "Steady Aim",
+      "rules": {
+        "stat": [
+          {
+            "name": "steady aim:damage",
+            "value": "2"
+          },
+          {
+            "name": "steady aim:damage",
+            "value": "level:fighter:half"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "Your ranged attacks ignore half and three-quarters cover, and deal an additional {{steady aim:damage}} points of damage.",
+        "usage": "3/Short Rest"
+      },
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 7th level, you excel at picking out hidden enemies and other threats. You can take the Search action as a bonus action.</p> <p class=\"indent\">You also gain proficiency in the Perception, Investigation, or Survival skill (choose one).</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_CAREFUL_EYES",
+      "name": "Careful Eyes",
+      "rules": {
+        "select": {
+          "name": "Skill Proficiency (Careful Eyes)",
+          "supports": "ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": "You can take the Search action as a bonus action.",
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 10th level, you learn to handle yourself in close combat. Making a ranged attack roll while within 5 feet of an enemy doesn't impose disadvantage on your roll.</p> <p class=\"indent\">In addition, if you hit a creature within 5 feet of you with a ranged attack on your turn, that creature can't take reactions until the end of this turn.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_CLOSE_QUARTERS_SHOOTING",
+      "name": "Close-Quarters Shooting",
+      "sheet": "Ranged attacks you make within 5ft from a target do not impose disadvantage, and if you hit, the target can't take reaction until the end of his next turn.",
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_RAPID_STRIKE",
+      "name": "Rapid Strike",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "When attacking with advantage, you can forgo the advantage to gain an additional attack against your target."
+      },
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 18th level, you are ever ready to spring into action. If you take the Attack action on your first turn of a combat, you can make one additional ranged weapon attack as part of that action.</p>",
+      "id": "ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_SNAP_SHOT",
+      "name": "Snap Shot",
+      "sheet": "If you take the Attack action on your first turn of a combat, make one additional ranged weapon attack as part of that action.",
+      "source": "Unearthed Arcana: Fighter: Martial Archetypes",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana/fighter"
+    },
+    "description": "The fighter faces four new Martial Archetype options this week: Arcane Archer, Knight, Samurai, and Sharpshooter. We invite you to read the options' descriptions, make characters with them, and see whether you like them.",
+    "name": "Unearthed Arcana: Fighter: Martial Archetypes",
+    "update": {
+      "file": {
+        "name": "20161205.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20161205.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

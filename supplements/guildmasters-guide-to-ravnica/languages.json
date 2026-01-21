@@ -1,0 +1,162 @@
+{
+  "element": [
+    {
+      "description": "<p>Typically spoken by Kraul.</p>",
+      "id": "ID_GGTR_LANGUAGE_KRAUL",
+      "name": "Kraul",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Kraul",
+            "name": "speakers"
+          },
+          {
+            "description": "Kraul",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by Loxodons.</p>",
+      "id": "ID_GGTR_LANGUAGE_LOXODON",
+      "name": "Loxodon",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Loxodons",
+            "name": "speakers"
+          },
+          {
+            "description": "Elvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by Merfolk.</p>",
+      "id": "ID_GGTR_LANGUAGE_MERFOLK",
+      "name": "Merfolk",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Merfolk",
+            "name": "speakers"
+          },
+          {
+            "description": "Merfolk",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by Minotaurs.</p>",
+      "id": "ID_GGTR_LANGUAGE_MINOTAUR",
+      "name": "Minotaur",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Minotaurs",
+            "name": "speakers"
+          },
+          {
+            "description": "Minotaur",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by Sphinxes.</p>",
+      "id": "ID_GGTR_LANGUAGE_SPHINX",
+      "name": "Sphinx",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Sphinxes",
+            "name": "speakers"
+          },
+          {
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by Vedalken.</p>",
+      "id": "ID_GGTR_LANGUAGE_VEDALKEN",
+      "name": "Vedalken",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Vedalken",
+            "name": "speakers"
+          },
+          {
+            "description": "Vedalken",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Standard",
+      "type": "Language"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Guildmasters' Guide to Ravnica",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica"
+    },
+    "description": "",
+    "name": "Languages",
+    "update": {
+      "file": {
+        "name": "languages.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/languages.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

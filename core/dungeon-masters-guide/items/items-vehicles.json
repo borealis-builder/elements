@@ -1,0 +1,12 @@
+{
+  "info": {
+    "name": "Vehicles",
+    "update": {
+      "file": {
+        "name": "items-vehicles.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-vehicles.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

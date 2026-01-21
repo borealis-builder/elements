@@ -1,0 +1,234 @@
+{
+  "element": [
+    {
+      "description": "<p>You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new.</p> <p class=\"indent\">Discuss the nature of the ship you previously sailed with your Dungeon Master. Was it a merchant ship, a naval vessel, a ship of discovery, or a pirate ship? How famous (or infamous) is it? Is it widely traveled? Is it still sailing, or is it missing and presumed lost with all hands?</p> <p class=\"indent\">What were your duties on board—boatswain, captain, navigator, cook, or some other position? Who were the captain and first mate? Did you leave your ship on good terms with your fellows, or on the run?</p> <ul class=\"unstyled\"> <li> <strong>Skill Proficiencies:</strong> Athletics, Perception</li> <li> <strong>Tool Proficiencies:</strong> Navigator's tools, vehicles (water)</li> <li> <strong>Equipment:</strong> A belaying pin (club), 50 feet of silk rope, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of common clothes, and a belt pouch containing 10 gp</li> </ul> <div element=\"ID_WOTC_PHB_BACKGROUND_FEATURE_SAILOR_SHIPS_PASSAGE\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.</p> <div element=\"ID_WOTC_PHB_BACKGROUND_VARIANT_SAILOR_PIRATE\" /> <div element=\"ID_WOCT_PHB_BACKGROUND_FEATURE_PIRATE_BAD_REPUTATION\" />",
+      "id": "ID_BACKGROUND_SAILOR",
+      "name": "Sailor",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERCEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_PHB_BACKGROUND_FEATURE_SAILOR_SHIPS_PASSAGE",
+            "requirements": "!ID_WOCT_PHB_BACKGROUND_FEATURE_PIRATE_BAD_REPUTATION,!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Variant Sailor",
+            "optional": "true",
+            "supports": "Background Variant, Sailor",
+            "type": "Background Variant"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Background Feature, Sailor || Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "My friends know they can rely on me, no matter what.",
+                "id": "1"
+              },
+              {
+                "description": "I work hard so that I can play hard when the work is done.",
+                "id": "2"
+              },
+              {
+                "description": "I enjoy sailing into new ports and making new friends over a flagon of ale.",
+                "id": "3"
+              },
+              {
+                "description": "I stretch the truth for the sake of a good story.",
+                "id": "4"
+              },
+              {
+                "description": "To me, a tavern brawl is a nice way to get to know a new city.",
+                "id": "5"
+              },
+              {
+                "description": "I never pass up a friendly wager.",
+                "id": "6"
+              },
+              {
+                "description": "My language is as foul as an otyugh nest.",
+                "id": "7"
+              },
+              {
+                "description": "I like a job well done, especially if I can convince someone else to do it.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Fairness. We all do the work, so we all share in the rewards. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Freedom. The sea is freedom—the freedom to go anywhere and do anything. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Mastery. I'm a predator, and the other ships on the sea are my prey. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "People. I'm committed to my crewmates, not to ideals. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Aspiration. Someday I'll own my own ship and chart my own destiny. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm loyal to my captain first, everything else second.",
+                "id": "1"
+              },
+              {
+                "description": "The ship is most important—crewmates and captains come and go.",
+                "id": "2"
+              },
+              {
+                "description": "I'll always remember my first ship.",
+                "id": "3"
+              },
+              {
+                "description": "In a harbor town, I have a paramour whose eyes nearly stole me from the sea.",
+                "id": "4"
+              },
+              {
+                "description": "I was cheated out of my fair share of the profits, and I want to get my due.",
+                "id": "5"
+              },
+              {
+                "description": "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I follow orders, even if I think they're wrong.",
+                "id": "1"
+              },
+              {
+                "description": "I'll say anything to avoid having to do extra work.",
+                "id": "2"
+              },
+              {
+                "description": "Once someone questions my courage, I never back down no matter how dangerous the situation.",
+                "id": "3"
+              },
+              {
+                "description": "Once I start drinking, it's hard for me to stop.",
+                "id": "4"
+              },
+              {
+                "description": "I can't help but pocket loose coins and other trinkets I come across.",
+                "id": "5"
+              },
+              {
+                "description": "My pride will probably lead to my destruction.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Perception, Navigator's Tools, Vehicles (Water)",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "description": "<p>When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage.</p>",
+      "id": "ID_WOTC_PHB_BACKGROUND_FEATURE_SAILOR_SHIPS_PASSAGE",
+      "name": "Feature: Ship's Passage",
+      "sheet": {
+        "alt": "Ship's Passage"
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town.</p> <p class=\"indent\">If you decide that your sailing career involved piracy, you can choose the Bad Reputation feature instead of the Ship's Passage feature.</p>",
+      "id": "ID_WOTC_PHB_BACKGROUND_VARIANT_SAILOR_PIRATE",
+      "name": "Variant Sailor: Pirate",
+      "sheet": {
+        "alt": "Pirate"
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Variant, Sailor",
+      "type": "Background Variant"
+    },
+    {
+      "description": "<p>If your character has a sailor background, you may select Ihis background feature instead of Ship's Passage.</p> <p class=\"indent\">No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities.</p>",
+      "id": "ID_WOCT_PHB_BACKGROUND_FEATURE_PIRATE_BAD_REPUTATION",
+      "name": "Variant Feature: Bad Reputation",
+      "sheet": {
+        "alt": "Bad Reputation",
+        "content": "No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature, Sailor",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Sailor Background",
+    "name": "Sailor",
+    "update": {
+      "file": {
+        "name": "background-sailer.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-sailer.json"
+      },
+      "version": "0.0.7"
+    }
+  }
+}

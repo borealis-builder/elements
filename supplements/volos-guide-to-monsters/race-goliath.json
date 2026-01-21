@@ -1,0 +1,198 @@
+{
+  "element": [
+    {
+      "description": "<p class=\"flavor\">At the highest mountain peaks-far above the slopes where trees grow and where the air is thin and the frigid winds howl-dwell the reclusive goliaths. Few folk can claim to have seen a goliath, and fewer still can claim friendship with one. Goliaths wander a bleak realm of rock, wind, and cold. Their bodies look as if they are carved from mountain stone and give them great physical power. Their spirits take after the wandering wind, making them nomads who wander from peak to peak. Their hearts are infused with the cold regard of their frigid realm, leaving each goliath with the responsibility to earn a place in the tribe or die trying.</p> <h4>DRIVEN COMPETITORS</h4> <p>Every day brings a new challenge to a goliath. Food, water, and shelter are rare in the uppermost mountain reaches. A single mistake can bring doom to an entire tribe, while an individual's heroic effort can ensure the entire group's survival.</p> <p class=\"indent\">Goliaths thus place a premium on self-sufficiency and individual skill. They have a compulsion to keep score, counting their deeds and tallying their accomplishments to compare to others. Goliaths love to win, but they see defeat as a prod to improve their skills.</p> <p class=\"indent\">This dedication to competition has a dark side. Goliaths are ferocious competitors, but above all else they are driven to outdo their past efforts. If a goliath slays a dragon, he or she might seek out a larger, more powerful wyrm to battle. Few goliath adventurers reach old age, as most die attempting to surpass their past accomplishments.</p> <h4>FAIR PLAY</h4> <p>For goliaths, competition exists only when it is supported by a level playing field. Competition measures talent, dedication, and effort. Those factors determine survival in their home territory, not reliance on magic items, money, or other elements that can tip the balance one way or the other. Goliaths happily rely on such benefits, but they are careful to remember that such an advantage can always be lost. A goliath who relies too much on them can grow complacent, a recipe for disaster in the mountains.</p> <p class=\"indent\">This trait manifests most strongly when goliaths interact with other folk. The relationship between peasants and nobles puzzles goliaths. If a king lacks the intelligence or leadership to lead, then clearly the most talented person in the kingdom should take his place. Goliaths rarely keep such opinions to themselves, and mock folk who rely on society's structures or rules to maintain power.</p> <h4>SURVIVAL OF THE FITTEST</h4> <p>Among goliaths, any adult who can't contribute to the tribe is expelled. A lone goliath has little chance of survival, especially an older or weaker one. Goliaths have little pity for adults who can't take care of themselves, though a sick or injured individual is treated, as a result of the goliath concept of fair play.</p> <p class=\"indent\">A permanently injured goliath is still expected to pull his or her weight in the tribe. Typically, such a goliath dies attempting to keep up, or the goliath slips away in the night to seek the cold will of fate.</p> <p class=\"indent\">In some ways, the goliath drive to outdo themselves feeds into the grim inevitability of their decline and death. A goliath would much rather die in battle, at the peak of strength and skill, than endure the slow decay of old age. Few folk have ever meet an elderly goliath, and even those goliaths who have left their people grapple with the urge to give up their lives as their physical skills decay.</p> <p class=\"indent\">Because of their risk-taking, goliath tribes suffer from a chronic lack of the experience offered by longterm leaders. They hope for innate wisdom in their leadership, for they can rarely count on a wisdom grown with age.</p> <h4>GOLIATH NAMES</h4> <p>Every goliath has three names: a birth name assigned by the newborn's mother and father, a nickname assigned by the tribal chief, and a family or clan name. A birth name is up to three syllables long. Clan names are five syllables or more and end in a vowel.</p> <p class=\"indent\">Birth names are rarely linked to gender. Goliaths see females and males as equal in all things, and they find societies with roles divided by gender to be puzzling or worthy of mockery. To a goliath, the person who is best at a job should be the one tasked with doing it.</p> <p class=\"indent\">A goliath's nickname is a description that can change on the whim of a chieftain or tribal elder. It refers to a notable deed, either a success or failure, committed by the goliath. Goliaths assign and use nicknames with their friends of other races, and change them to refer to an individual's notable deeds.</p> <p class=\"indent\">Goliaths present all three names when identifying themselves, in the order of birth name, nickname, and clan name. In casual conversation, they use their nickname.</p> <p> <b>Birth Names:</b>Aukan, Eglath, Gae-Al, Gauthak, Ilikan, Keothi, Kuori, Lo-Kag, Manneo, Maveith, Nalla, Orilo, Paavu, Pethani, Thalai, Thotham, Uthal, Vaunea, Vimak<br/> <b>Nicknames:</b>Bearkiller, Dawncaller, Fearless, Flintfinder, Horncarver, Keeneye, Lonehunter, Longleaper, Rootsmasher, Skywatcher, Steadyhand, Threadtwister, Twice-Orphaned, Twistedlimb, Wordpainter<br/> <b>Clan Names:</b>Anakalathai, Elanithino, Gathakanathi, Kalagiano, Katho-Olavi, Kolae-Gileana, Ogolakanu, Thuliaga, Thunukalathi, Vaimei-Laga<br/> </p> <h4>GOLIATH TRAITS</h4> <p>Goliaths share a number of traits in common with each other.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Strength score increases by 2, and your Constitution score increases by 1.<br/> <span class=\"feature\">Age·</span>Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.<br/> <!-- (removed in Errata v3.0) --> <!-- <span class=\"feature\">Alignment.</span>Goliath society, with its clear roles and tasks, has a strong lawful bent. The goliath sense of fairness, balanced with an emphasis on self-sufficiency and personal accountability, pushes them toward neutrality.<br/> --> <span class=\"feature\">Size.</span>Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium.<br/> <span class=\"feature\">Speed.</span>Your base walking speed is 30 feet.<br/> <span class=\"feature\">Natural Athlete.</span>You have proficiency in the Athletics skill.<br/> <span class=\"feature\">Stone's Endurance.</span>You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.<br/> <span class=\"feature\">Powerful Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.<br/> <span class=\"feature\">Mountain Born.</span>You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet.<br/> <span class=\"feature\">Languages.</span>You can speak, read, and write Common and Giant.<br/> </p>",
+      "id": "ID_WOTC_VGTM_RACE_GOLIATH",
+      "name": "Goliath",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_LANGUAGE_GIANT",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_NATURAL_ATHLETE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_STONES_ENDURANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_POWERFUL_BUILD",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_MOUNTAIN_BORN",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Goliath)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Goliath)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "strength",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "name": "constitution",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Aukan, Eglath, Gae-Al, Gauthak, Ilikan, Keothi, Kuori, Lo-Kag, Manneo, Maveith, Nalla, Orilo, Paavu, Pethani, Thalai, Thotham, Uthal, Vaunea, Vimak",
+            "name": "names",
+            "type": "birth"
+          },
+          {
+            "description": "Bearkiller, Dawncaller, Fearless, Flintfinder, Horncarver, Keeneye, Lonehunter, Longleaper, Rootsmasher, Skywatcher, Steadyhand, Threadtwister, Twice-Orphaned, Twistedlimb, Wordpainter",
+            "name": "names",
+            "type": "nickname"
+          },
+          {
+            "description": "Anakalathai, Elanithino, Gathakanathi, Kalagiano, Katho-Olavi, Kolae-Gileana, Ogolakanu, Thuliaga, Thunukalathi, Vaimei-Laga",
+            "name": "names",
+            "type": "clan"
+          },
+          {
+            "description": "{{birth}} '{{nickname}}' of clan {{clan}}",
+            "name": "names-format"
+          },
+          {
+            "description": "7'0\"",
+            "modifier": "2d6",
+            "name": "height"
+          },
+          {
+            "description": "280 lb.",
+            "modifier": "2d10",
+            "name": "weight"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Volo's Guide to Monsters",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You have proficiency in the Athletics skill.</p>",
+      "id": "ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_NATURAL_ATHLETE",
+      "name": "Natural Athlete",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Customized Skill Proficiency, Natural Athlete",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You have proficiency in the Athletics skill.",
+        "display": "false"
+      },
+      "source": "Volo's Guide to Monsters",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_STONES_ENDURANCE",
+      "name": "Stone's Endurance",
+      "rules": {
+        "stat": {
+          "name": "stones endurance:mod",
+          "value": "constitution:modifier"
+        }
+      },
+      "sheet": {
+        "content": "When you take damage, you can use your reaction to roll a d12+{{stones endurance:mod}} and reduce the damage by that total.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Volo's Guide to Monsters",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>",
+      "id": "ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_POWERFUL_BUILD",
+      "name": "Powerful Build",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER",
+          "type": "Grants"
+        }
+      },
+      "sheet": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+      "source": "Volo's Guide to Monsters",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet.</p>",
+      "id": "ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_MOUNTAIN_BORN",
+      "name": "Mountain Born",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD",
+          "type": "Condition"
+        }
+      },
+      "sheet": "You're acclimated to high altitude, including elevations above 20,000 feet.",
+      "source": "Volo's Guide to Monsters",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "name": "Goliath",
+    "update": {
+      "file": {
+        "name": "race-goliath.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-goliath.json"
+      },
+      "version": "0.1.8"
+    }
+  }
+}

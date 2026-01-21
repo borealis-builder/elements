@@ -1,0 +1,224 @@
+{
+  "element": [
+    {
+      "description": "<p>You have served the community where you grew up, standing as its first line of defense against crime. You aren't a soldier, directing your gaze outward at possible enemies. Instead, your service to your hometown was to help police its populace, protecting the citizenry from lawbreakers and malefactors of every stripe.</p> <p class=\"indent\">You might have been part of the City Watch of Waterdeep, the baton-wielding police force of the City of Splendors, protecting the common folk from thieves and rowdy nobility alike. Or you might have been one of the valiant defenders of Silverymoon, a member of the Silverwatch or even one of the magic-wielding Spellguard.</p> <p class=\"indent\">Perhaps you hail from Neverwinter and have served as one of its Winters hield watchmen, the newly founded branch of guards who vow to keep safe the City of Skilled Hands.</p> <p class=\"indent\">Even if you're not city-born or city-bred, this background can describe your early years as a member of law enforcement. Most settlements of any size have their own constables and police forces, and even smaller communities have sheriffs and bailiffs who stand ready to protect their community.</p> <ul class=\"unstyled\"> <li> <strong>Skill Proficiencies:</strong> Athletics, Insight</li> <li> <strong>Languages:</strong> Two of your choice</li> <li> <strong>Equipment:</strong> A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of manacles, and a pouch containing 10 gp</li> </ul> <div element=\"ID_SCAG_BACKGROUND_CITY_WATCH_WATCHERS_EYE\" /> <div element=\"ID_SCAG_BACKGROUND_CITY_WATCH_VARIANT_INVESTIGATOR\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Use the tables for the soldier background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of the city watch.</p> <p class=\"indent\">Your bond is likely associated with your fellow watch members or the watch organization itself and almost certainly concerns your community. Your ideal probably involves the fos tering of peace and safety. An investigator is likely to have an ideal connected to achieving justice by successfully solving crimes.</p>",
+      "id": "ID_SCAG_BACKGROUND_CITY_WATCH",
+      "name": "City Watch",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "requirements": "!ID_SCAG_BACKGROUND_CITY_WATCH_VARIANT_INVESTIGATOR",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_INSIGHT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_SCAG_BACKGROUND_CITY_WATCH_WATCHERS_EYE",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language (City Watch)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant City Watch",
+            "optional": "true",
+            "supports": "Background Variant, City Watch",
+            "type": "Background Variant"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm always polite and respectful.",
+                "id": "1"
+              },
+              {
+                "description": "I'm haunted by memories of war. I can't get the images of violence out of my mind.",
+                "id": "2"
+              },
+              {
+                "description": "I've lost too many friends, and I'm slow to make new ones.",
+                "id": "3"
+              },
+              {
+                "description": "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation",
+                "id": "4"
+              },
+              {
+                "description": "I can stare down a hell hound without flinching.",
+                "id": "5"
+              },
+              {
+                "description": "I enjoy being strong and like breaking things.",
+                "id": "6"
+              },
+              {
+                "description": "I have a crude sense of humor.",
+                "id": "7"
+              },
+              {
+                "description": "I face problems head-on. A simple, direct solution is the best path to success.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Greater Good. Our lot is to lay down our lives in defense of others. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Responsibility. I do what I must and obey just authority. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Might. In life as in war, the stronger force wins. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Nation. My city, nation, or people are all that matter. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I would still lay down my life for the people I served with.",
+                "id": "1"
+              },
+              {
+                "description": "Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",
+                "id": "2"
+              },
+              {
+                "description": "My honor is my life.",
+                "id": "3"
+              },
+              {
+                "description": "I'll never forget the crushing defeat my company suffered or the enemies who dealt it.",
+                "id": "4"
+              },
+              {
+                "description": "Those who fight beside me are those worth dying for.",
+                "id": "5"
+              },
+              {
+                "description": "I fight for those who cannot fight for themselves.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "The monstrous enemy we faced in battle still leaves me quivering with fear.",
+                "id": "1"
+              },
+              {
+                "description": "I have little respect for anyone who is not a proven warrior.",
+                "id": "2"
+              },
+              {
+                "description": "I made a terrible mistake in battle cost many lives— and I would do anything to keep that mistake secret.",
+                "id": "3"
+              },
+              {
+                "description": "My hatred of my enemies is blind and unreasoning.",
+                "id": "4"
+              },
+              {
+                "description": "I obey the law, even if the law causes misery.",
+                "id": "5"
+              },
+              {
+                "description": "I'd rather eat my armor than admit when I'm wrong.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Insight, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Your experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals. You can easily find the local outpost of the watch or a similar organization, and just as easily pick out the dens of criminal activity in a community, although you're more likely to be welcome in the former locations rather than the latter.</p>",
+      "id": "ID_SCAG_BACKGROUND_CITY_WATCH_WATCHERS_EYE",
+      "name": "Feature: Watcher's Eye",
+      "sheet": {
+        "name": "Watcher's Eye"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals. If your prior experience is as an investigator, you have proficiency in Investigation rather than Athletics.</p>",
+      "id": "ID_SCAG_BACKGROUND_CITY_WATCH_VARIANT_INVESTIGATOR",
+      "name": "Variant: Investigator",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_INVESTIGATION",
+          "type": "Proficiency"
+        }
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Background Variant, City Watch",
+      "type": "Background Variant"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "City Watch Background",
+    "name": "City Watch",
+    "update": {
+      "file": {
+        "name": "background-citywatch.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-citywatch.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

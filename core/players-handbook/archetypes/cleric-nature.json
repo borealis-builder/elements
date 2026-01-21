@@ -1,0 +1,249 @@
+{
+  "element": [
+    {
+      "description": "<p>Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.</p> <h5 class=\"caption\">NATURE DOMAIN SPELLS</h5> <table> <thead> <tr><td>Cleric Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>animal friendship, speak with animals</em></td></tr> <tr><td>3rd</td><td><em>barkskin, spike growth</em></td></tr> <tr><td>5th</td><td><em>plant growth, wind wall</em></td></tr> <tr><td>7th</td><td><em>dominate beast, grasping vine</em></td></tr> <tr><td>9th</td><td><em>insect plague, tree stride</em></td></tr> </table> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_ACOLYTE_OF_NATURE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_BONUS_PROFICIENCY\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DAMPEN_ELEMENTS\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DIVINE_STRIKE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_MASTER_OF_NATURE\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_CLERIC_NATURE_DOMAIN",
+      "name": "Nature Domain",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_ANIMAL_FRIENDSHIP",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SPEAK_WITH_ANIMALS",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_BARKSKIN",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SPIKE_GROWTH",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_PLANT_GROWTH",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_WIND_WALL",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_DOMINATE_BEAST",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_GRASPING_VINE",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_INSECT_PLAGUE",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_TREE_STRIDE",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_ACOLYTE_OF_NATURE",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_BONUS_PROFICIENCY",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DAMPEN_ELEMENTS",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DIVINE_STRIKE",
+            "level": "8",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_MASTER_OF_NATURE",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests to friendly deities associated with particular springs and groves.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Divine Domain",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>At 1st level, you learn one druid cantrip of your choice. This cantrip counts as a cleric cantrip for you, but it doesn't count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_ACOLYTE_OF_NATURE",
+      "name": "Acolyte of Nature",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_ACOLYTE_OF_NATURE",
+      "rules": {
+        "select": [
+          {
+            "name": "Acolyte of Nature",
+            "spellcasting": "Cleric",
+            "supports": "Druid,0",
+            "type": "Spell"
+          },
+          {
+            "name": "Acolyte of Nature",
+            "supports": "ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Also at 1st level, you gain proficiency with heavy armor.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_BONUS_PROFICIENCY",
+      "name": "Bonus Proficiency",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_BONUS_PROFICIENCY",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.</p> <p class=\"indent\">As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS",
+      "name": "Channel Divinity: Charm Animals and Plants",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS",
+      "sheet": {
+        "action": "Action",
+        "alt": "Charm Animals and Plants",
+        "content": "You present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DAMPEN_ELEMENTS",
+      "name": "Dampen Elements",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_DAMPEN_ELEMENTS",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage."
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to 2d8.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DIVINE_STRIKE",
+      "name": "Divine Strike",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING",
+      "sheet": "Once on each of your turn +1d8 cold, fire, or lightning damage with a weapon attack. Once on each of your turn +2d8 cold, fire, or lightning damage with a weapon attack.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 17th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_MASTER_OF_NATURE",
+      "name": "Master of Nature",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_MASTER_OF_NATURE",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn."
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_ACOLYTE_OF_NATURE",
+      "name": "Acolyte of Nature Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_BONUS_PROFICIENCY",
+      "name": "Bonus Proficiency Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS",
+      "name": "Channel Divinity: Charm Animals and Plants Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_DAMPEN_ELEMENTS",
+      "name": "Dampen Elements Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_NATURE_DOMAIN_MASTER_OF_NATURE",
+      "name": "Master of Nature Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "cleric-nature.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-nature.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

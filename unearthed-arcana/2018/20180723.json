@@ -1,0 +1,58 @@
+{
+  "element": {
+    "description": "<p>Races from the world of Eberron return to Unearthed Arcana this month, with the kalashtar joining revised versions of the changeling, shifter, and warforged. For more information about that world, see Wayfinder's Guide to Eberron, available on the Dungeon Masters Guild (dmsguild.com).</p>",
+    "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20180723",
+    "name": "Unearthed Arcana: Races of Eberron",
+    "setters": {
+      "set": [
+        {
+          "description": "UA20180723",
+          "name": "abbreviation"
+        },
+        {
+          "description": "http://dnd.wizards.com/articles/unearthed-arcana/races-eberron",
+          "name": "url"
+        },
+        {
+          "abbreviation": "WOTC",
+          "description": "Wizards of the Coast",
+          "name": "author",
+          "url": "http://dnd.wizards.com"
+        },
+        {
+          "description": "true",
+          "name": "official"
+        },
+        {
+          "description": "true",
+          "name": "playtest"
+        },
+        {
+          "description": "The content from this source is not included.",
+          "name": "information"
+        },
+        {
+          "description": "20180723",
+          "name": "release"
+        }
+      ]
+    },
+    "source": "Core",
+    "type": "Source"
+  },
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana/races-eberron"
+    },
+    "description": "Races from the world of Eberron return to Unearthed Arcana this month, with the kalashtar joining revised versions of the changeling, shifter, and warforged. For more information about that world, see Wayfinder's Guide to Eberron, available on the Dungeon Masters Guild (dmsguild.com).",
+    "name": "Unearthed Arcana: Races of Eberron",
+    "update": {
+      "file": {
+        "name": "20180723.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180723.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

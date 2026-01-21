@@ -1,0 +1,78 @@
+{
+  "element": [
+    {
+      "description": "<p>Sworn to the Raven Queen's service, the mysterious shadar-kai venture into the Material Plane from the Shadowfell to advance her will. Once they were fey like the rest of their elven kin, and now they exist in a strange state between life and death. Eladrin and shadar-kai are like reflections of each other: one bursting with emotion, the other nearly devoid of it.</p> <h4>SHADAR-KAI TRAITS</h4> <p>Shadar-kai have the following traits in common, in addition to the traits they share with other elves.</p> <p class=\"indent\"><b><i>Ability Score Increase. </i></b>Your Constitution score increases by 1. </p> <p class=\"indent\"><b><i>Necrotic Resistance. </i></b>You have resistance to necrotic damage.</p> <p class=\"indent\"><b><i>Blessing of the Raven Queen. </i></b>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.</p> <p class=\"indent\">Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>",
+      "id": "ID_WOTC_MTOF_SUBRACE_SHADAR_KAI",
+      "name": "Shadar-Kai",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_MTOF_RACIAL_TRAIT_SHADAR_KAI_NECROTIC_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MTOF_RACIAL_TRAIT_SHADAR_KAI_BLESSING_OF_THE_RAVEN_QUEEN",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Shadar-Kai)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "constitution",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Mordenkainen's Tome of Foes",
+      "supports": "Elf",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>You have resistance to necrotic damage.</p>",
+      "id": "ID_WOTC_MTOF_RACIAL_TRAIT_SHADAR_KAI_NECROTIC_RESISTANCE",
+      "name": "Necrotic Resistance",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC",
+          "type": "Condition"
+        }
+      },
+      "sheet": "You have resistance to necrotic damage.",
+      "source": "Mordenkainen's Tome of Foes",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.</p> <p class=\"indent\">Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>",
+      "id": "ID_WOTC_MTOF_RACIAL_TRAIT_SHADAR_KAI_BLESSING_OF_THE_RAVEN_QUEEN",
+      "name": "Blessing of the Raven Queen",
+      "sheet": {
+        "content": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Mordenkainen's Tome of Foes",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/mordenkainens-tome-foes"
+    },
+    "description": "The Shadar-Kai subrace from Mordenkainen's Tome of Foes",
+    "name": "Shadar-Kai",
+    "update": {
+      "file": {
+        "name": "subrace-shadarkai.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-shadarkai.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}

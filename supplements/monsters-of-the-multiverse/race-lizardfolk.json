@@ -1,0 +1,171 @@
+{
+  "element": [
+    {
+      "description": "<p>The saurian lizardfolk are thought by some sages to be distant cousins of dragonborn and kobolds. Despite their resemblance to those other scaled folk, however, lizardfolk are their own people and have lived on the worlds of the Material Plane since the worlds' creation. Gifted by the gods with remarkable physical defenses and a mystical connection to the natural world, lizardfolk can survive with just their wits in situations that would be deadly for other folk. Because of that fact, many lizardfolk myths state that their people were placed by the gods in the Material Plane to guard its natural wonders. </p> <p class=\"indent\">Lizardfolk have colorful scales and exhibit a wide array of scale patterns. Their individual facial features are as varied as those of lizards.</p> <h4>LIZARDFOLK TRAITS</h4> <p>As a lizardfolk, you have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p> <p class=\"indent\"><strong><em>Size.</em></strong> You are Medium.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p> <p class=\"indent\"><strong><em>Bite.</em></strong> You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p> <p class=\"indent\"><strong><em>Hold Breath.</em></strong> You can hold your breath for up to 15 minutes at a time.</p> <p class=\"indent\"><strong><em>Hungry Jaws.</em></strong> You can throw yourself into a feeding frenzy. As a bonus action, you can make a special attack with your Bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p class=\"indent\"><strong><em>Natural Armor.</em></strong> You have tough, scaly skin. When you aren't wearing armor, your base AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p> <p class=\"indent\"><strong><em>Nature's Intuition.</em></strong> Thanks to your mystical connection to nature, you gain proficiency with two of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival.</p>",
+      "id": "ID_WOTC_MOTM_RACE_LIZARDFOLK",
+      "name": "Lizardfolk",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_BITE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_NATURES_INTUITION",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Improvement Option (Lizardfolk)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language (Lizardfolk)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Lizardfolk)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed:swim",
+            "value": "innate speed"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_BITE",
+      "name": "Bite",
+      "sheet": "You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals 1d6 + {{strength:modifier}} slashing damage.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can hold your breath for up to 15 minutes at a time.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH",
+      "name": "Hold Breath",
+      "sheet": "You can hold your breath for up to 15 minutes at a time.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can throw yourself into a feeding frenzy. As a bonus action, you can make a special attack with your Bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS",
+      "name": "Hungry Jaws",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can make a special attack with your Bite. If the attack hits, it deals its normal damage, and you gain {{proficiency}} temporary hit points.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have tough, scaly skin. When you aren't wearing armor, your base AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR",
+      "name": "Natural Armor",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "ac:natural armor:lizardfolk",
+            "value": "13"
+          },
+          {
+            "bonus": "ability",
+            "name": "ac:natural armor:lizardfolk",
+            "value": "dexterity:modifier"
+          },
+          {
+            "alt": "Natural Armor (Lizardfolk)",
+            "bonus": "calculation",
+            "name": "ac:calculation",
+            "value": "ac:natural armor:lizardfolk"
+          }
+        ]
+      },
+      "sheet": "When you aren't wearing armor, your base AC is {{ac:natural armor:lizardfolk}}. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Thanks to your mystical connection to nature, you gain proficiency with two of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_LIZARDFOLK_NATURES_INTUITION",
+      "name": "Nature's Intuition",
+      "rules": {
+        "select": [
+          {
+            "name": "Nature's Intuition",
+            "number": "2",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Customized Skill Proficiency (Nature's Intuition)",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "Skill",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "name": "Lizardfolk from Monsters of the Multiverse",
+    "update": {
+      "file": {
+        "name": "race-lizardfolk.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-lizardfolk.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

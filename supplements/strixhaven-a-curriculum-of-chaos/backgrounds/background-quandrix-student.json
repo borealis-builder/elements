@@ -1,0 +1,164 @@
+{
+  "element": [
+    {
+      "description": "<p>In preparation to become a student of Quandrix College, you have spent years working through the college's math problems for prospective students. Your interests concentrate on the mathematical principles and patterns found in the natural world. You might lean more toward mathematics or physics, or you delve into more abstract studies of metaphysics, arcana, or logic.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Arcana, Nature</li> <li><strong>Tool Proficiencies:</strong> One type of artisan's tools</li> <li><strong>Languages:</strong> One of your choice</li> <li><strong>Equipment:</strong> A bottle of black ink, an ink pen, an abacus, a book of arcane theory, a school uniform, and a pouch containing 15 gp</li> </ul> <div element=\"ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE\" /> <h5>Building a Quandrix Character</h5> <p>Any spellcasting class or subclass can work well for a Quandrix character. Both the scholarly focus of wizards (especially those who study the Schools of Abjuration, Illusion, or Transmutation) and the metamagic manipulations of sorcerers are welcome in Quandrix, and many druids explore the patterns of nature in Quandrix as well. A few clerics, particularly those with the Knowledge or Nature domains, study in Quandrix as well.</p> <p class=\"indent\">Aside from traditional spellcasters, a few characters of other classes find homes in Quandrix. Some fighters, monks, rangers, and rogues study here, using Quandrix principles to train their minds.</p> <p class=\"indent\"><i><b>Suggested Characteristics.</b></i> With subjects ranging from the physical and tangible to the paradoxical and strange, the student body of Quandrix College includes an eclectic mix of individuals. The Quandrix Personality Traits table suggests a variety of traits you might adopt for your character.</p> <div class=\"reference\"> <div element=\"ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE\" /> </div>",
+      "id": "ID_WOTC_SCOC_BACKGROUND_QUANDRIX_STUDENT",
+      "name": "Quandrix Student",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ARCANA",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_NATURE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Tool Proficiency (Quandrix Student)",
+            "supports": "Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language (Quandrix Student)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "When I find a subject I'm interested in, I won't stop studying until I know everything about it. It keeps me up at night.",
+                "id": "1"
+              },
+              {
+                "description": "I hope this all makes sense to me one day. Until then, I'm going to keep faking it.",
+                "id": "2"
+              },
+              {
+                "description": "Equations and patterns come naturally to my mind. I wish friendship came just as easily.",
+                "id": "3"
+              },
+              {
+                "description": "I believe I'm always the smartest person in the room. And I'll prove it, even if no one asks me to.",
+                "id": "4"
+              },
+              {
+                "description": "If these classes have taught me anything, it's that reality is a lie, and nothing matters. So why bother?",
+                "id": "5"
+              },
+              {
+                "description": "Before I graduate, I want to achieve something mathematically impossible. I must leave a legacy!",
+                "id": "6"
+              }
+            ],
+            "name": "Personality Trait",
+            "optional": "true",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "A small succulent in a dodecahedral clay pot",
+                "id": "1"
+              },
+              {
+                "description": "A blue knit hat that looks a bit like a bottle folding in on itself",
+                "id": "2"
+              },
+              {
+                "description": "A model hypercube carved from green crystal, showcasing the fourth dimension",
+                "id": "3"
+              },
+              {
+                "description": "A crumpled test on the theory of gravity manipulation, with a failing grade on the front and the name of a famous Quandrix professor",
+                "id": "4"
+              },
+              {
+                "description": "A blue tetrahedron that, when tapped twice, projects a recording of an old mathematics lecture",
+                "id": "5"
+              },
+              {
+                "description": "A round bread roll cut so that someone could spread butter on both halves without ever lifting the knife",
+                "id": "6"
+              }
+            ],
+            "name": "Trinket",
+            "optional": "true",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Arcana, Nature, Artisan's Tool, Language",
+          "name": "short"
+        }
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You gain the Strixhaven Initiate feat and must choose Quandrix within it.</p> <p class=\"indent\">In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p> <h5>Quandrix Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>Entangle, Guiding Bolt</em></td></tr> <tr><td>2nd</td><td><em>Enlarge/Reduce, Vortex Warp</em></td></tr> <tr><td>3rd</td><td><em>Aura of Vitality, Haste</em></td></tr> <tr><td>4th</td><td><em>Control Water, Freedom of Movement</em></td></tr> <tr><td>5th</td><td><em>Circle of Power, Passwall</em></td></tr> </table> <p>Consider customizing how your spells look when you cast them. Your Quandrix spells might manifest amid kaleidoscopic swirls of fractal patterns, amplifying the tiniest movements of your somatic components. When your magic creates or alters creatures, it might briefly surround the targets with shimmering fractal designs or tessellated patterns.</p> <div class=\"reference\"> <div element=\"ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE\" /> </div>",
+      "id": "ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE",
+      "name": "Feature: Quandrix Initiate",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE",
+            "type": "Feat"
+          },
+          {
+            "id": "ID_INTERNAL_GRANTS_BACKGROUND_WITH_A_FEAT",
+            "type": "Grants"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Quandrix Initiate",
+        "display": "false"
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_ENTANGLE",
+          "ID_PHB_SPELL_GUIDING_BOLT",
+          "ID_PHB_SPELL_ENLARGE_REDUCE",
+          "ID_WOTC_SCOC_SPELL_VORTEX_WARP",
+          "ID_PHB_SPELL_AURA_OF_VITALITY",
+          "ID_PHB_SPELL_HASTE",
+          "ID_PHB_SPELL_CONTROL_WATER",
+          "ID_PHB_SPELL_FREEDOM_OF_MOVEMENT",
+          "ID_PHB_SPELL_CIRCLE_OF_POWER",
+          "ID_PHB_SPELL_PASSWALL"
+        ]
+      },
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "name": "Quandrix Student Background",
+    "update": {
+      "file": {
+        "name": "background-quandrix-student.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-quandrix-student.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

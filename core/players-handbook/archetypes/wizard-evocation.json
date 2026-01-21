@@ -1,0 +1,129 @@
+{
+  "element": [
+    {
+      "description": "<p>You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.</p> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EVOCATION_SAVANT\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_POTENT_CANTRIP\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EMPOWERED_EVOCATION\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_OVERCHANNEL\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_EVOCATION",
+      "name": "School of Evocation",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EVOCATION_SAVANT",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_POTENT_CANTRIP",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EMPOWERED_EVOCATION",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_OVERCHANNEL",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Arcane Tradition",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EVOCATION_SAVANT",
+      "name": "Evocation Savant",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_EVOCATION_SAVANT",
+      "sheet": "The gold and time you must spend to copy an evocation spell into your spellbook is halved.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS",
+      "name": "Sculpt Spells",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_SCULPT_SPELLS",
+      "sheet": "When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_POTENT_CANTRIP",
+      "name": "Potent Cantrip",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_POTENT_CANTRIP",
+      "sheet": "When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage but suffers no additional effect from the cantrip.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 10th level, you can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EMPOWERED_EVOCATION",
+      "name": "Empowered Evocation",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_EMPOWERED_EVOCATION",
+      "sheet": "You can add {{intelligence:modifier}} to one damage roll of any wizard evocation spell you cast.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.</p> <p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_OVERCHANNEL",
+      "name": "Overchannel",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_OVERCHANNEL",
+      "sheet": "When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_EVOCATION_SAVANT",
+      "name": "Evocation Savant Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_SCULPT_SPELLS",
+      "name": "Sculpt Spells Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_POTENT_CANTRIP",
+      "name": "Potent Cantrip Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_EMPOWERED_EVOCATION",
+      "name": "Empowered Evocation Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_OVERCHANNEL",
+      "name": "Overchannel Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "wizard-evocation.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-evocation.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

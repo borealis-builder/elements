@@ -1,0 +1,194 @@
+{
+  "element": [
+    {
+      "description": "<p>Originally from the Elemental Plane of Water, many tritons entered the Material Plane centuries ago in response to the growing threat of evil elementals. Those tritons spread across the worlds' oceans, protecting the surface from terrors in the deep. Over time, triton have extended their stewardship over the sea floor to the ocean's surface</p> <p class=\"indent\">Tritons have webbed hands and feet, small fins on their calves, and coloration that favors blues and greens.</p> <h4>TRITON TRAITS</h4> <p>As a triton, you have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p> <p class=\"indent\"><strong><em>Size.</em></strong> You are Medium.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p> <p class=\"indent\"><strong><em>Amphibious.</em></strong> You can breathe air and water.</p> <p class=\"indent\"><strong><em>Control Air and Water.</em></strong> You can cast <i>fog cloud</i> with this trait. Starting at 3rd level, you can cast the <i>gust of wind</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.</p> <p class=\"indent\">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p> <p class=\"indent\"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p> <p class=\"indent\"><strong><em>Emissary of the Sea.</em></strong> You can communicate simple ideas to any Beast, Elemental, or Monstrosity that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p> <p class=\"indent\"><strong><em>Guardian of the Depths.</em></strong> Adapted to the frigid ocean depths, you have resistance to cold damage.</p>",
+      "id": "ID_WOTC_MOTM_RACE_TRITON",
+      "name": "Triton",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_AMPHIBIOUS",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_CONTROL_AIR_AND_WATER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_EMISSARY_OF_THE_SEA",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_GUARDIAN_OF_THE_DEPTHS",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Improvement Option (Triton)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language (Triton)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Triton)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed:swim",
+            "value": "innate speed"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You can breathe air and water.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_AMPHIBIOUS",
+      "name": "Amphibious",
+      "sheet": "You can breathe air and water.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can cast <i>fog cloud</i> with this trait. Starting at 3rd level, you can cast the <i>gust of wind</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.</p> <p class=\"indent\">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_CONTROL_AIR_AND_WATER",
+      "name": "Control Air and Water",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_FOG_CLOUD",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_GUST_OF_WIND",
+            "level": "3",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_WATER_WALK",
+            "level": "5",
+            "type": "Spell"
+          }
+        ],
+        "select": {
+          "name": "Spellcasting Ability (Control Air and Water)",
+          "supports": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_CONTROL_AIR_AND_WATER_INTELLIGENCE|ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_CONTROL_AIR_AND_WATER_WISDOM|ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_CONTROL_AIR_AND_WATER_CHARISMA",
+          "type": "Racial Trait"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for these spells is Intelligence.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_CONTROL_AIR_AND_WATER_INTELLIGENCE",
+      "name": "Intelligence",
+      "sheet": {
+        "alt": "Control Air and Water",
+        "content": "You can cast fog cloud once per long rest. You can also cast this spell using any spell slots you have of the appropriate level. &#13; Your spellcasting ability for this spell is Intelligence. You can cast fog cloud and gust of wind once each per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13; Your spellcasting ability for these spells is Intelligence. You can cast fog cloud, gust of wind, and water walk once each per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13; Your spellcasting ability for these spells is Intelligence."
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for these spells is Wisdom.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_CONTROL_AIR_AND_WATER_WISDOM",
+      "name": "Wisdom",
+      "sheet": {
+        "alt": "Control Air and Water",
+        "content": "You can cast fog cloud once per long rest. You can also cast this spell using any spell slots you have of the appropriate level. &#13; Your spellcasting ability for this spell is Wisdom. You can cast fog cloud and gust of wind once each per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13; Your spellcasting ability for these spells is Wisdom. You can cast fog cloud, gust of wind, and water walk once each per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13; Your spellcasting ability for these spells is Wisdom."
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for these spells is Charisma.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_CONTROL_AIR_AND_WATER_CHARISMA",
+      "name": "Charisma",
+      "sheet": {
+        "alt": "Control Air and Water",
+        "content": "You can cast fog cloud once per long rest. You can also cast this spell using any spell slots you have of the appropriate level. &#13; Your spellcasting ability for this spell is Charisma. You can cast fog cloud and gust of wind once each per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13; Your spellcasting ability for these spells is Charisma. You can cast fog cloud, gust of wind, and water walk once each per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13; Your spellcasting ability for these spells is Charisma."
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can communicate simple ideas to any Beast, Elemental, or Monstrosity that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_EMISSARY_OF_THE_SEA",
+      "name": "Emissary of the Sea",
+      "sheet": "You can communicate simple ideas to any Beast, Elemental, or Monstrosity that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Adapted to the frigid ocean depths, you have resistance to cold damage.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_GUARDIAN_OF_THE_DEPTHS",
+      "name": "Guardian of the Depths",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD",
+          "type": "Condition"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "name": "Triton from Monsters of the Multiverse",
+    "update": {
+      "file": {
+        "name": "race-triton.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-triton.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

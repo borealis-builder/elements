@@ -1,0 +1,88 @@
+{
+  "element": [
+    {
+      "description": "<p><em>Prerequisite: 4th Level; Spellcasting Feature</em></p> <p>You have learned to channel your magic through a deck of cards. You can use a card deck as your spellcasting focus, and you gain the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Card Tricks.</strong> You learn the <i>prestidigitation</i> cantrip and can use it to create illusions that duplicate the effects of stage magic. When you use <i>prestidigitation</i> in this way, you can conceal the verbal and somatic components of the spell as ordinary conversation and card handling.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Hidden Ace.</strong> When you finish a long rest, you can choose one spell from your class's spell list and imbue that spell into a card. The chosen spell must have a casting time of 1 action, and it must be a level for which you have spell slots. The card remains imbued with this spell for 8 hours. While the card is imbued with the spell, you can use a bonus action to flourish the card and cast the spell within. The card then immediately loses its magic.</li> </ul>",
+      "id": "ID_WOTC_BOMT_FEAT_CARTOMANCER",
+      "name": "Cartomancer",
+      "prerequisite": "4th Level; Spellcasting Feature",
+      "requirements": "([level:4],[type:spell])||ID_WOTC_BOMT_GRANTS_FEAT_UNLOCKER",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_PRESTIDIGITATION",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_WOTC_BOMT_FEAT_CARTOMANCER_HIDDEN_ACE",
+            "type": "Feat Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Card Tricks",
+        "content": "You can use prestidigitation to create illusions that duplicate the effects of stage magic. When you use prestidigitation in this way, you can conceal the verbal and somatic components of the spell as ordinary conversation and card handling."
+      },
+      "source": "The Book of Many Things",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>When you finish a long rest, you can choose one spell from your class's spell list and imbue that spell into a card. The chosen spell must have a casting time of 1 action, and it must be a level for which you have spell slots. The card remains imbued with this spell for 8 hours. While the card is imbued with the spell, you can use a bonus action to flourish the card and cast the spell within. The card then immediately loses its magic.</p>",
+      "id": "ID_WOTC_BOMT_FEAT_CARTOMANCER_HIDDEN_ACE",
+      "name": "Hidden Ace",
+      "sheet": "When you finish a long rest, you can choose one spell from your class's spell list and imbue that spell into a card. The chosen spell must have a casting time of 1 action, and it must be a level for which you have spell slots. The card remains imbued with this spell for 8 hours. While the card is imbued with the spell, you can use a bonus action to flourish the card and cast the spell within. The card then immediately loses its magic.",
+      "source": "The Book of Many Things",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Once equipped, this item allows you to ignore prerequisites for the <i>Cartomancer</i> Feat.</p>",
+      "id": "ID_WOTC_BOMT_ITEM_FEAT_UNLOCKER",
+      "name": "Feat Unlocker",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_BOMT_GRANTS_FEAT_UNLOCKER",
+          "type": "Grants"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "The Book of Many Things",
+      "type": "Item"
+    },
+    {
+      "id": "ID_WOTC_BOMT_GRANTS_FEAT_UNLOCKER",
+      "name": "Feat Unlocker",
+      "source": "The Book of Many Things",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "name": "Feats",
+    "update": {
+      "file": {
+        "name": "feats.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/feats.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

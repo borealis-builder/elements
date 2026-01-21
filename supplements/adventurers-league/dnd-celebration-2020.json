@@ -1,0 +1,624 @@
+{
+  "element": [
+    {
+      "description": "<p>Check out the opening hours of <i>D&amp;D Celebration</i>, a new digital event featuring live games, designer panels and discussions from across the <i>Dungeons &amp; Dragons</i> community.</p>",
+      "id": "ID_WOTC_SOURCE_DND_CELEBRATION_2020",
+      "name": "D&D Celebration 2020",
+      "setters": {
+        "set": [
+          {
+            "description": "DNDC",
+            "name": "abbreviation"
+          },
+          {
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "supplement"
+          },
+          {
+            "description": "true",
+            "name": "league"
+          },
+          {
+            "description": "20200917",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>This cuddly little brute makes a playful (if alarming) companion.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_STINKING_CLOUD\" /> </div>",
+      "id": "ID_WOTC_DNDC_COMPANION_ARCTIC_STINK_SQUIRREL",
+      "name": "Arctic Stink Squirrel",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "3",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "8",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "3",
+            "name": "charisma"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "1 (1d4 - 1)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3, Stealth +5",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_DNDC_COMPANION_TRAIT_ARCTIC_STINK_SQUIRREL_KEEN_HEARING_AND_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_DNDC_COMPANION_ACTION_ARCTIC_STINK_SQUIRREL_BITE,ID_WOTC_DNDC_COMPANION_ACTION_ARCTIC_STINK_SQUIRREL_STINKING_CLOUD",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "D&D Celebration 2020",
+      "supports": "Variant Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The arctic stink squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_TRAIT_ARCTIC_STINK_SQUIRREL_KEEN_HEARING_AND_SMELL",
+      "name": "Keen Hearing and Smell",
+      "sheet": "The arctic stink squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "source": "D&D Celebration 2020",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_ACTION_ARCTIC_STINK_SQUIRREL_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.",
+      "source": "D&D Celebration 2020",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>The arctic stink squirrel can cast stinking cloud once per day, save DC 11.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_ACTION_ARCTIC_STINK_SQUIRREL_STINKING_CLOUD",
+      "name": "Stinking Cloud",
+      "sheet": "The arctic stink squirrel can cast stinking cloud once per day, save DC 11.",
+      "source": "D&D Celebration 2020",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>This bizarre mutation is both devoted and dangerous.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_CHWINGA_SQUIDLING",
+      "name": "Chwinga Squidling",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "14"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "4",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "8",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "14",
+            "name": "ac"
+          },
+          {
+            "description": "2 (1d4)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "darkvision 60 ft.",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "1/8",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_DNDC_COMPANION_ACTION_CHWINGA_SQUIDLING_BLOOD_DRAIN",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "D&D Celebration 2020",
+      "supports": "Variant Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the chwinga squidling attaches to the target. While attached, the chwinga squidling doesn't attack. Instead, at the start of each of the chwinga squidling's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.</p> <p class=\"indent\">The chwinga squidling can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the chwinga squidling.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_ACTION_CHWINGA_SQUIDLING_BLOOD_DRAIN",
+      "name": "Blood Drain",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the chwinga squidling attaches to the target. While attached, the chwinga squidling doesn't attack. Instead, at the start of each of the chwinga squidling's turns, the target loses 5 (1d4 + 3) hit points due to blood loss. The chwinga squidling can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the chwinga squidling.",
+      "source": "D&D Celebration 2020",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>You have a friendly psychic link with this tiny cube of death.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_GELATINOUS_ICE_CUBE",
+      "name": "Gelatinous Ice Cube",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "18"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:intelligence:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:charisma:save:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "8",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "15",
+            "name": "constitution"
+          },
+          {
+            "description": "14",
+            "name": "intelligence"
+          },
+          {
+            "description": "11",
+            "name": "wisdom"
+          },
+          {
+            "description": "10",
+            "name": "charisma"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "18 (4d4 + 8)",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "blindsight 60 ft. (blind beyond this distance), passive Perception 12",
+            "name": "senses"
+          },
+          {
+            "description": "blinded, charmed, deafened, exhaustion, prone",
+            "name": "conditionImmunities"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Int +4, Cha +2",
+            "name": "saves"
+          },
+          {
+            "description": "Ooze",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "lawful evil",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_DNDC_COMPANION_TRAIT_GELATINOUS_ICE_CUBE_AMORPHOUS,ID_WOTC_DNDC_COMPANION_TRAIT_GELATINOUS_ICE_CUBE_AVERSION_TO_FIRE",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_DNDC_COMPANION_ACTION_GELATINOUS_ICE_CUBE_PSEUDOPOD",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "D&D Celebration 2020",
+      "supports": "Variant Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The gelatinous ice cube can move through a space as narrow as 1 inch wide without squeezing.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_TRAIT_GELATINOUS_ICE_CUBE_AMORPHOUS",
+      "name": "Amorphous",
+      "sheet": "The gelatinous ice cube can move through a space as narrow as 1 inch wide without squeezing.",
+      "source": "D&D Celebration 2020",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>If the gelatinous ice cube takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_TRAIT_GELATINOUS_ICE_CUBE_AVERSION_TO_FIRE",
+      "name": "Aversion to Fire",
+      "sheet": "If the gelatinous ice cube takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.",
+      "source": "D&D Celebration 2020",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) psychic damage.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_ACTION_GELATINOUS_ICE_CUBE_PSEUDOPOD",
+      "name": "Pseudopod",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) psychic damage.",
+      "source": "D&D Celebration 2020",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>The cub of this rare breed of tiny owlbear forms a loving bond with a single adventurer.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_SNOWY_OWLBEAR_CUB",
+      "name": "Snowy Owlbear Cub",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "3",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "2 (1d4)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft., climb 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "Perception +3, Stealth +4",
+            "name": "skills"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_DNDC_COMPANION_TRAIT_SNOWY_OWLBEAR_CUB_KEEN_SMELL",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_DNDC_COMPANION_ACTION_SNOWY_OWLBEAR_CUB_CLAWS",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "D&D Celebration 2020",
+      "supports": "Variant Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The snowy owlbear cub has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_TRAIT_SNOWY_OWLBEAR_CUB_KEEN_SMELL",
+      "name": "Keen Smell",
+      "sheet": "The snowy owlbear cub has advantage on Wisdom (Perception) checks that rely on smell.",
+      "source": "D&D Celebration 2020",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</p>",
+      "id": "ID_WOTC_DNDC_COMPANION_ACTION_SNOWY_OWLBEAR_CUB_CLAWS",
+      "name": "Claws",
+      "sheet": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
+      "source": "D&D Celebration 2020",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>This mug can magically fill with delicious hot cocoa during a short rest. Drinking the cocoa allows one creature to regain an extra 1d6 hit points if they spend Hit Dice to regain hit points.</p>",
+      "id": "ID_WOTC_DNDC_MAGIC_ITEM_INSPIRED_COCOA_MUG",
+      "name": "Inspired Cocoa Mug",
+      "setters": {
+        "set": [
+          {
+            "description": "short rest, healing, hit dice",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Wondrous Item",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "D&D Celebration 2020",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>Reading from this Netherese book of horrifying ghost stories for 10 minutes grants advantage on a single related History check and gives the reader nightmares. You must succeed on a DC 13 Wisdom saving throw to successfully complete your next long rest.</p>",
+      "id": "ID_WOTC_DNDC_MAGIC_ITEM_NETHERESE_GHOST_STORIES",
+      "name": "Netherese Ghost Stories",
+      "setters": {
+        "set": [
+          {
+            "description": "advantage, history, check, wisdom, saving throw",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Wondrous Item",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "D&D Celebration 2020",
+      "type": "Magic Item"
+    }
+  ],
+  "info": {
+    "description": "Familiars and Magic Items from the D&amp;D Celebration 2020 web event.",
+    "name": "D&D Celebration 2020",
+    "update": {
+      "file": {
+        "name": "dnd-celebration-2020.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/dnd-celebration-2020.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

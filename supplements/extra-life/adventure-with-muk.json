@@ -1,0 +1,402 @@
+{
+  "element": [
+    {
+      "description": "<p>Meet Muk, the very bravest goblin, and his best friend Birdsquirrel. Adventure your way through the Dankwood and search for a great treasure that is rumored to be hidden far beyond.</p> <p>For players of all levels.</p> <p>This activity book includes enjoyable adventure hooks written by D&amp;D's Adam Lee, puzzles, unique Dankwood goblin character sheets developed by D&amp;D's Chris Lindsay, modified monster stat blocks and more! Each page is made to be colored and enjoyed, so let the adventure begin!</p> <p>Best of all, ALL monies that Wizards of the Coast receives from sales of this PDF are donated to Extra Life. Your purchase of this adventure goes to a truly great cause!</p>",
+      "id": "ID_SOURCE_ADVENTURE_WITH_MUK",
+      "name": "Adventure with Muk",
+      "setters": {
+        "set": [
+          {
+            "description": "AWM",
+            "name": "abbreviation"
+          },
+          {
+            "description": "https://www.dmsguild.com/product/294712/Adventure-with-Muk-5e",
+            "name": "url"
+          },
+          {
+            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/EL-AWM.jpg",
+            "name": "image"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "supplement"
+          },
+          {
+            "description": "20191112",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p class=\"flavor\">Ahh the Dankwood goblins! I have adventured far and wide in my time and never have I met such unique and interesting goblins as these. Perhaps it is the magical nature of the Dankwood itself as this forest was once rumored to have been the ancient sanctum of a powerful Netherese wizard, but who is to say? This world is a wondrous one and everywhere you go, something new is there to dazzle and amaze!</p> <p style=\"text-align:right\">–Guardian Leafy Skiptoes</p> <p>Dankwood goblins are much like any other run-of-the-mill goblin but they are much more gentle and artistic than the savage and uncouth goblins of the world.</p> <p class=\"indent\">They are inquisitive and have a magical bond with the small forest creatures with which they are often friends. They are fast and nimble and love to explore. Because of this they make great adventurers and guides.</p> <h4>DANKWOOD GOBLIN TRAITS</h4> <p class=\"indent\" style=\"margin-top:15px\"><b><i>Ability Score Increase. </i></b>Your Dexterity score increases by 2 and your Wisdom score increases by 1.</p> <p class=\"indent\"><b><i>Age. </i></b>Dankwood goblins reach adulthood at age 8 and live up to 60 years.</p> <p class=\"indent\"><b><i>Alignment. </i></b>Dankwood goblins are typically neutral or neutral good, though some mischievous dankwood goblins are chaotic neutral.</p> <p class=\"indent\"><b><i>Size. </i></b>Dankwood goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.</p> <p class=\"indent\"><b><i>Speed. </i></b> Your base walking speed is 30 feet.</p> <p class=\"indent\"><b><i>Darkvision. </i></b>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p> <p class=\"indent\"><b><i>Speak with Small Beasts. </i></b>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Dankwood goblins love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</p> <p class=\"indent\"><b><i>Nimble Escape. </i></b>You can take the Disengage or Hide action as a bonus action on each of your turns.</p> <p class=\"indent\"><b><i>Languages. </i></b>You can speak, read, and write Common and Goblin.</p>",
+      "id": "ID_WOTC_AWM_RACE_DANKWOOD_GOBLIN",
+      "name": "Dankwood Goblin",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_SMALL",
+            "type": "Size"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_LANGUAGE_GOBLIN",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_AWM_RACIAL_TRAIT_DANKWOOD_GOBLIN_SPEAK_WITH_SMALL_BEASTS",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_AWM_RACIAL_TRAIT_DANKWOOD_GOBLIN_NIMBLE_ESCAPE",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Dankwood Goblin)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Dankwood Goblin)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "dexterity",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "name": "wisdom",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Adventure with Muk",
+      "type": "Race"
+    },
+    {
+      "description": "<p>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Dankwood goblins love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</p>",
+      "id": "ID_WOTC_AWM_RACIAL_TRAIT_DANKWOOD_GOBLIN_SPEAK_WITH_SMALL_BEASTS",
+      "name": "Speak with Small Beasts",
+      "sheet": "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.",
+      "source": "Adventure with Muk",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can take the Disengage or Hide action as a bonus action on each of your turns.</p>",
+      "id": "ID_WOTC_AWM_RACIAL_TRAIT_DANKWOOD_GOBLIN_NIMBLE_ESCAPE",
+      "name": "Nimble Escape",
+      "sheet": "You can take the Disengage or Hide action as a bonus action on each of your turns.",
+      "source": "Adventure with Muk",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_AWM_COMPANION_BIRDSQUIRREL",
+      "name": "Birdsquirrel",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "10"
+          },
+          {
+            "name": "companion:initiative",
+            "value": "-5"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "10",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft., climb 20 ft., fly 30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "6",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "13",
+            "name": "constitution"
+          },
+          {
+            "description": "4",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_AWM_COMPANION_TRAIT_BIRDSQUIRREL_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_AWM_COMPANION_ACTION_BIRDSQUIRREL_MULTIATTACK,ID_WOTC_AWM_COMPANION_ACTION_BIRDSQUIRREL_BITE,ID_WOTC_AWM_COMPANION_ACTION_BIRDSQUIRREL_CLAWS",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Adventure with Muk",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>Birdsquirrel has advantage on an attack roll against a creature if at least one of the Birdsquirrel's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_AWM_COMPANION_TRAIT_BIRDSQUIRREL_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "Birdsquirrel has advantage on an attack roll against a creature if at least one of the Birdsquirrel's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "source": "Adventure with Muk",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Birdsquirrel makes two attacks: one with its bite and one with its claws.</p>",
+      "id": "ID_WOTC_AWM_COMPANION_ACTION_BIRDSQUIRREL_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": "Birdsquirrel makes two attacks: one with its bite and one with its claws.",
+      "source": "Adventure with Muk",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d6 + 2) piercing damage.</p>",
+      "id": "ID_WOTC_AWM_COMPANION_ACTION_BIRDSQUIRREL_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d6 + 2) piercing damage.",
+      "source": "Adventure with Muk",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 (1d4 + 2) slashing damage.</p>",
+      "id": "ID_WOTC_AWM_COMPANION_ACTION_BIRDSQUIRREL_CLAWS",
+      "name": "Claws",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 (1d4 + 2) slashing damage.",
+      "source": "Adventure with Muk",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Boontu monkeys are skittish and furtive creatures that are greedy and are always on the lookout for food. Although they are greedy, they never eat the sacred golden nuts from the boontu tree in which they live.</p> <p class=\"indent\">Some say that they were once greedy thieves that were turned to monkeys by a powerful dryad who caught them stealing the nuts from her sacred tree.</p>",
+      "id": "ID_WOTC_AWM_COMPANION_BOONTU_MONKEY",
+      "name": "Boontu Monkey",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "12"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "3"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "20"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "20"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "12",
+            "name": "ac"
+          },
+          {
+            "description": "3",
+            "name": "hp"
+          },
+          {
+            "description": "20 ft., climb 20 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "8",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "11",
+            "name": "constitution"
+          },
+          {
+            "description": "5",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "0",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_AWM_COMPANION_TRAIT_BOONTU_MONKEY_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_AWM_COMPANION_ACTION_BOONTU_MONKEY_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Adventure with Muk",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The boontu monkey has advantage on an attack roll against a creature if at least one of the boontu monkey's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>",
+      "id": "ID_WOTC_AWM_COMPANION_TRAIT_BOONTU_MONKEY_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The boontu monkey has advantage on an attack roll against a creature if at least one of the boontu monkey's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "source": "Adventure with Muk",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.</p>",
+      "id": "ID_WOTC_AWM_COMPANION_ACTION_BOONTU_MONKEY_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.",
+      "source": "Adventure with Muk",
+      "type": "Companion Action"
+    }
+  ],
+  "info": {
+    "name": "Adventure with Muk",
+    "update": {
+      "file": {
+        "name": "adventure-with-muk.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/adventure-with-muk.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

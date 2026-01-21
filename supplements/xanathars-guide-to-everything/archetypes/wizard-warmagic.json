@@ -1,0 +1,129 @@
+{
+  "element": [
+    {
+      "description": "<p>A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration, rather than specializing in either of those schools. It teaches techniques that empower a caster's spells, while also providing methods for wizards to bolster their own defenses. Followers of this tradition are known as war mages. They see their magic as both a weapon and armor, a resource superior to any piece of steel. War mages act fast in battle, using their spells to seize tactical control of a situation. Their spells strike hard, while their defensive skills foil their opponents' attempts to counterattack. War mages are also adept at turning other spellcasters' magical energy against them. In great battles, a war mage often works with evokers, abjurers, and other types of wizards. Evokers, in particular, sometimes tease war mages for splitting their attention between offense and defense. A war mage's typical response: “What good is being able to throw a mighty fireball if I die before I can cast it?”</p> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_ARCANE_DEFLECTION\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_TACTICAL_WIT\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_POWER_SURGE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_DURABLE_MAGIC\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_DEFLECTING_SHROUD\" />",
+      "id": "ID_WOTC_XGTE_WIZARD_ARCHETYPE_WAR_MAGIC",
+      "name": "War Magic",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_ARCANE_DEFLECTION",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_TACTICAL_WIT",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_POWER_SURGE",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_DURABLE_MAGIC",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_DEFLECTING_SHROUD",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Arcane Tradition",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>At 2nd level, you have learned to weave your magic to fortify yourself against harm. When you are hit by an attack or you fail a saving throw, you can use your reaction to gain a +2 bonus to your AC against that attack or a +4 bonus to that saving throw.</p> <p class=\"indent\">When you use this feature, you can't cast spells other than cantrips until the end of your next turn.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_ARCANE_DEFLECTION",
+      "name": "Arcane Deflection",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you are hit with an attack or you fail a saving throw, you can gain +2 bonus to your AC or +4 bonus to that saving throw. When you use this feature, you can only cast cantrips until the end of your next turn. When you are hit with an attack or you fail a saving throw, you can gain +2 bonus to your AC or +4 bonus to that saving throw, and three creatures of your choice which you can see within 60 feet take {{level:wizard:half}} force damage. When you use this feature, you can only cast cantrips until the end of your next turn."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 2nd level, your keen ability to assess tactical situations allows you to act quickly in battle. You can give yourself a bonus to your initiative rolls equal to your Intelligence modifier.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_TACTICAL_WIT",
+      "name": "Tactical Wit",
+      "rules": {
+        "stat": {
+          "name": "initiative",
+          "value": "intelligence:modifier"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, you can store magical energy within yourself to later empower your damaging spells. In its stored form, this energy is called a power surge.</p> <p class=\"indent\">You can store a maximum number of power surges equal to your Intelligence modifier (minimum of one). Whenever you finish a long rest, your number of power surges resets to one. Whenever you successfully end a spell with <i>dispel magic</i> or <i>counterspell</i>, you gain one power surge, as you steal magic from the spell you foiled. If you end a short rest with no power surges, you gain one power surge.</p> <p class=\"indent\">Once per turn when you deal damage to a creature or object with a wizard spell, you can spend one power surge to deal extra force damage to that target. The extra damage equals half your wizard level.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_POWER_SURGE",
+      "name": "Power Surge",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "power surge:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "power surge:max",
+            "value": "intelligence:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "When you deal damage to a creature or object with a wizard spell, you can spend one power surge to deal extra {{level:wizard:half}} force damage to that target. You can store a maximum number of power surges equal to {{power surge:max}}. Whenever you successfully end a spell with dispel magic or counterspell, you gain one power surge. Whenever you finish a long rest, your number of power surges resets to one, and if you end a short rest with no power surges, you gain one power surge.",
+        "usage": "1/Turn"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 10th level, the magic you channel helps ward off harm. While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_DURABLE_MAGIC",
+      "name": "Durable Magic",
+      "sheet": "While concentrating on a spell, you gain +2 bonus to AC and all saving throws.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 14th level, your Arcane Deflection becomes infused with deadly magic. When you use your Arcane Deflection feature, you can cause magical energy to arc from you. Up to three creatures of your choice that you can see within 60 feet of you each take force damage equal to half your wizard level.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_WAR_MAGIC_DEFLECTING_SHROUD",
+      "name": "Deflecting Shroud",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The War Magic archetype from Xanathar's Guide to Everything",
+    "name": "War Magic",
+    "update": {
+      "file": {
+        "name": "wizard-warmagic.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/wizard-warmagic.json"
+      },
+      "version": "0.1.3"
+    }
+  }
+}

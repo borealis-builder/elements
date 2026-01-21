@@ -1,0 +1,148 @@
+{
+  "element": [
+    {
+      "description": "<p>Abyssal chickens are carnivorous, temperamental, tasty bottom-feeders native to the Abyss. They beat their leathery wings to scare predators and to help them run faster, and they taste like fatty chicken.</p> <p class=\"indent\">With your permission, a character who casts the find familiar spell can henceforth choose to conjure an abyssal chicken instead of a raven.</p>",
+      "id": "ID_WOTC_BGDIA_COMPANION_ABYSSAL_CHICKEN",
+      "name": "Abyssal Chicken",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "6",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "13",
+            "name": "constitution"
+          },
+          {
+            "description": "4",
+            "name": "intelligence"
+          },
+          {
+            "description": "9",
+            "name": "wisdom"
+          },
+          {
+            "description": "5",
+            "name": "charisma"
+          },
+          {
+            "description": "13 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "10 (3d4+3)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft., fly 30 ft. (see bad flier below)",
+            "name": "speed"
+          },
+          {
+            "description": "understands Abyssal but can't speak",
+            "name": "languages"
+          },
+          {
+            "description": "blindsight 30ft. (blind beyond this radius), passive Perception 9",
+            "name": "senses"
+          },
+          {
+            "description": "Fiend",
+            "name": "type"
+          },
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "chaotic evil",
+            "name": "alignment"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_BGDIA_COMPANION_TRAIT_ABYSSAL_CHICKEN_BAD_FLIER",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_BGDIA_COMPANION_ACTION_ABYSSAL_CHICKEN_MULTIATTACK,ID_WOTC_BGDIA_COMPANION_ACTION_ABYSSAL_CHICKEN_BITE,ID_WOTC_BGDIA_COMPANION_ACTION_ABYSSAL_CHICKEN_CLAWS",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Baldur's Gate: Descent into Avernus",
+      "supports": "Familiar,Variant Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The abyssal chicken falls at the end of a turn if it's airborne and the only thing holding it aloft is its flying speed.</p>",
+      "id": "ID_WOTC_BGDIA_COMPANION_TRAIT_ABYSSAL_CHICKEN_BAD_FLIER",
+      "name": "Bad Flier",
+      "sheet": "The abyssal chicken falls at the end of a turn if it's airborne and the only thing holding it aloft is its flying speed.",
+      "source": "Baldur's Gate: Descent into Avernus",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>The abyssal chicken makes two attacks: one with its bite and one with its claws.</p>",
+      "id": "ID_WOTC_BGDIA_COMPANION_ACTION_ABYSSAL_CHICKEN_MULTIATTACK",
+      "name": "Multiattack",
+      "sheet": "The abyssal chicken makes two attacks: one with its bite and one with its claws.",
+      "source": "Baldur's Gate: Descent into Avernus",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.</p>",
+      "id": "ID_WOTC_BGDIA_COMPANION_ACTION_ABYSSAL_CHICKEN_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
+      "source": "Baldur's Gate: Descent into Avernus",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</p>",
+      "id": "ID_WOTC_BGDIA_COMPANION_ACTION_ABYSSAL_CHICKEN_CLAWS",
+      "name": "Claws",
+      "sheet": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+      "source": "Baldur's Gate: Descent into Avernus",
+      "type": "Companion Action"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "companions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus/companions.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

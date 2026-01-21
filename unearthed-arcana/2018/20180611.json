@@ -1,0 +1,485 @@
+{
+  "element": [
+    {
+      "description": "<p>In the age of myth, giants bestowed magical blessings upon smaller folk whom they especially favored. Now sorcerers can playtest descendants of those folk, using the Giant Soul subclass.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20180611",
+      "name": "Unearthed Arcana: Giant Soul Sorcerer",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20180611",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/articles/unearthed-arcana/giant-soul-sorcerer",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "20180611",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>The giants once dwelled in a fabled realm known as Ostoria, a paradise for their folk that reflected their mastery of the mortal realm. In time, Ostoria fell, and the giants were scattered and broken. During that mythic era, the giants granted a few chosen individuals among the small folk a shard of their great power. These favored people were caught in the same tragedy that sundered Ostoria. Since that time, they have spread across the many worlds of the multiverse. Now and again, one of their descendants manifests the gifts imparted by the giants, granting them sorcerous magic that allows them to command the elements and gain the might of a giant.</p> <div element=\"ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_JOTUN_RESILIENCE\" /> <div element=\"ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING\" /> <div element=\"ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA\" /> <div element=\"ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_RAGE_OF_FALLEN_OSTORIA\" /> <div element=\"ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_BLESSING_OF_THE_ALL_FATHER\" />",
+      "id": "ID_WOTC_UA_ARCHETYPE_SORCERER_GIANT_SOUL",
+      "name": "Giant Soul",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_JOTUN_RESILIENCE",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_RAGE_OF_FALLEN_OSTORIA",
+            "level": "14",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_BLESSING_OF_THE_ALL_FATHER",
+            "level": "18",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": "Your power comes from the gifts imparted by the giants.",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "supports": "Sorcerous Origin",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>The resilience of giants flows through your body. At 1st level, your hit point maximum increases by 1, and it increases by 1 again whenever you gain a level in this class.</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_JOTUN_RESILIENCE",
+      "name": "Jotun Resilience",
+      "rules": {
+        "stat": {
+          "name": "hp",
+          "value": "level"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don't count against your number of sorcerer spells known.</p> <table> <thead> <tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr> </thead> <tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr> <tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr> <tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr> <tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr> <tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr> <tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr> </table>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING",
+      "name": "Mark of the Ordning",
+      "rules": {
+        "select": {
+          "name": "Mark of the Ordning",
+          "supports": "Mark of the Ordning",
+          "type": "Archetype Feature"
+        }
+      },
+      "sheet": "",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, you gain a benefit whenever you cast one of the spells granted by your Mark of the Ordning Feature.</p> <p class=\"indent\"><b><i>Cloud Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you can magically teleport as a bonus action. You teleport to an unoccupied space you can see that is no farther away than a number of feet equal to 10 + your Constitution modifier.</p> <p class=\"indent\"><b><i>Fire Giant.</i></b> You gain a bonus to the damage rolls of your Mark of the Ordning spells. The bonus equals your Constitution modifier (minimum of +1).</p> <p class=\"indent\"><b><i>Frost Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is armor of Agathys, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1 ).</p> <p class=\"indent\"><b><i>Hill Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you can target up to two creatures within 5 feet of you that you can see. Each target must succeed on a Strength saving throw against your spell save DC or be pushed a number of feet away from you equal to 5 + your Constitution modifier (minimum of +1). A target can choose to fail this save.</p> <p class=\"indent\"><b><i>Stone Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you gain a bonus to AC equal to your Constitution modifier (minimum of +1) until the end of your next turn.</p> <p class=\"indent\"><b><i>Storm Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, up to three creatures of your choice that you can see within 30 feet of you take lightning damage equal to your Constitution modifier (minimum of 1).</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA",
+      "name": "Soul of Lost Ostoria",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_CLOUD_GIANT",
+            "requirements": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_CLOUD_GIANT",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_FIRE_GIANT",
+            "requirements": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_FIRE_GIANT",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_FROST_GIANT",
+            "requirements": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_FROST_GIANT",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_HILL_GIANT",
+            "requirements": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_HILL_GIANT",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_STONE_GIANT",
+            "requirements": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_STONE_GIANT",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_STORM_GIANT",
+            "requirements": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_STORM_GIANT",
+            "type": "Archetype Feature"
+          }
+        ],
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "soul of lost ostoria:constitution",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "soul of lost ostoria:constitution",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You gain a benefit whenever you cast one of the spells granted by your Mark of the Ordning Feature.",
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 14th level, you gain the ability to channel the souls of your ancestors into your physical form. When you start casting a sorcerer spell on your turn and expend a spell slot, you can increase your size by one category—from Medium to Large, for example.</p> <p class=\"indent\">This increase lasts for 1 minute. It ends early if you die or are incapacitated. Until it ends, you enjoy the following benefits:</p> <ul> <li>Your current hit points and your hit point maximum both increase by 1 per sorcerer level.</li> <li>Your reach increases by 5 feet.</li> <li>Your walking speed increases by 5 feet.</li> <li>You have advantage on Strength checks and Strength saving throws.</li> <li>You gain a bonus to the damage rolls of your melee weapon attacks; the bonus equals your Constitution modifier (minimum of +1).</li> </ul> <p class=\"indent\">Once you use this feature, you can't use it again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_RAGE_OF_FALLEN_OSTORIA",
+      "name": "Rage of Fallen Ostoria",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "rage of fallen ostoria:damage bonus",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "rage of fallen ostoria:damage bonus",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "When you start casting a sorcerer spell on your turn and expend a spell slot, you can increase your size by one category. This increase lasts for 1 minute. Until it ends, you enjoy the following benefits: &#13; • Your current hit points and your hit point maximum both increase by {{level:sorcerer}}. &#13; • Your reach increases by 5 feet. &#13; • Your walking speed increases by 5 feet. &#13; • You have advantage on Strength checks and Strength saving throws. &#13; • You gain a +{{rage of fallen ostoria:damage bonus}} bonus to the damage rolls of your melee weapon attacks.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 18th level, your Constitution score increases by 2, up to a maximum of 22.</p> <p class=\"indent\">In addition, you can now use Rage of Fallen Ostoria twice between rests, but no more than once on a turn. If you use that feature while under its effects, its increases to your size, hit points, reach, and walking speed are cumulative.</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_BLESSING_OF_THE_ALL_FATHER",
+      "name": "Blessing of the All Father",
+      "rules": {
+        "stat": [
+          {
+            "name": "constitution:max",
+            "value": "2"
+          },
+          {
+            "name": "constitution",
+            "value": "2"
+          }
+        ]
+      },
+      "sheet": "You can now use Rage of Fallen Ostoria twice between rests, but no more than once on a turn. If you use that feature while under its effects, its increases to your size, hit points, reach, and walking speed are cumulative.",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don't count against your number of sorcerer spells known.</p> <table> <thead> <tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr> </thead> <tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr> <tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr> <tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr> <tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr> <tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr> <tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr> </table>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_CLOUD_GIANT",
+      "name": "Cloud Giant",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_FOG_CLOUD",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_MINOR_ILLUSION",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_INVISIBILITY",
+            "level": "3",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": "",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "supports": "Mark of the Ordning",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don't count against your number of sorcerer spells known.</p> <table> <thead> <tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr> </thead> <tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr> <tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr> <tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr> <tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr> <tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr> <tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr> </table>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_FIRE_GIANT",
+      "name": "Fire Giant",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_BURNING_HANDS",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FIRE_BOLT",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FLAMING_SPHERE",
+            "level": "3",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": "",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "supports": "Mark of the Ordning",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don't count against your number of sorcerer spells known.</p> <table> <thead> <tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr> </thead> <tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr> <tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr> <tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr> <tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr> <tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr> <tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr> </table>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_FROST_GIANT",
+      "name": "Frost Giant",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_ARMOR_OF_AGATHYS",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_RAY_OF_FROST",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_HOLD_PERSON",
+            "level": "3",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": "",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "supports": "Mark of the Ordning",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don't count against your number of sorcerer spells known.</p> <table> <thead> <tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr> </thead> <tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr> <tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr> <tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr> <tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr> <tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr> <tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr> </table>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_HILL_GIANT",
+      "name": "Hill Giant",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_HEROISM",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SHILLELAGH",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_ENLARGE_REDUCE",
+            "level": "3",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": "",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "supports": "Mark of the Ordning",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don't count against your number of sorcerer spells known.</p> <table> <thead> <tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr> </thead> <tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr> <tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr> <tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr> <tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr> <tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr> <tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr> </table>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_STONE_GIANT",
+      "name": "Stone Giant",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_ENTANGLE",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_RESISTANCE",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SPIKE_GROWTH",
+            "level": "3",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": "",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "supports": "Mark of the Ordning",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don't count against your number of sorcerer spells known.</p> <table> <thead> <tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr> </thead> <tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr> <tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr> <tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr> <tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr> <tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr> <tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr> </table>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_STORM_GIANT",
+      "name": "Storm Giant",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_SHOCKING_GRASP",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_THUNDERWAVE",
+            "level": "1",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_GUST_OF_WIND",
+            "level": "3",
+            "spellcasting": "Sorcerer",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": "",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "supports": "Mark of the Ordning",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Immediately after you cast any of your Mark of the Ordning spells, you can magically teleport as a bonus action. You teleport to an unoccupied space you can see that is no farther away than a number of feet equal to 10 + your Constitution modifier.</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_CLOUD_GIANT",
+      "name": "Soul of Lost Ostoria",
+      "rules": {
+        "stat": [
+          {
+            "name": "soul of lost ostoria:teleport",
+            "value": "10"
+          },
+          {
+            "name": "soul of lost ostoria:teleport",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": "Immediately after you cast any of your Mark of the Ordning spells, you can magically teleport as a bonus action. You teleport to an unoccupied space you can see that is no farther away than {{soul of lost ostoria:teleport}} feet.",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You gain a bonus to the damage rolls of your Mark of the Ordning spells. The bonus equals your Constitution modifier (minimum of +1).</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_FIRE_GIANT",
+      "name": "Soul of Lost Ostoria",
+      "sheet": "You gain a +{{soul of lost ostoria:constitution}} bonus to the damage rolls of your Mark of the Ordning spells.",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is armor of Agathys, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1).</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_FROST_GIANT",
+      "name": "Soul of Lost Ostoria",
+      "sheet": "Immediately after you cast any of your Mark of the Ordning spells, you gain {{soul of lost ostoria:constitution}} temporary hit points. But if the spell is armor of Agathys, you instead increase its temporary hit points by {{soul of lost ostoria:constitution}}.",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Immediately after you cast any of your Mark of the Ordning spells, you can target up to two creatures within 5 feet of you that you can see. Each target must succeed on a Strength saving throw against your spell save DC or be pushed a number of feet away from you equal to 5 + your Constitution modifier (minimum of +1). A target can choose to fail this save.</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_HILL_GIANT",
+      "name": "Soul of Lost Ostoria",
+      "rules": {
+        "stat": [
+          {
+            "name": "soul of lost ostoria:push",
+            "value": "5"
+          },
+          {
+            "name": "soul of lost ostoria:push",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": "Immediately after you cast any of your Mark of the Ordning spells, you can target up to two creatures within 5 feet of you that you can see. Each target must succeed on a Strength saving throw against your spell save DC or be pushed a number of feet away from you equal to {{soul of lost ostoria:push}}. A target can choose to fail this save.",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Immediately after you cast any of your Mark of the Ordning spells, you gain a bonus to AC equal to your Constitution modifier (minimum of +1) until the end of your next turn.</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_STONE_GIANT",
+      "name": "Soul of Lost Ostoria",
+      "sheet": "Immediately after you cast any of your Mark of the Ordning spells, you gain a +{{soul of lost ostoria:constitution}} bonus to AC until the end of your next turn.",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Immediately after you cast any of your Mark of the Ordning spells, up to three creatures of your choice that you can see within 30 feet of you take lightning damage equal to your Constitution modifier (minimum of 1).</p>",
+      "id": "ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_STORM_GIANT",
+      "name": "Soul of Lost Ostoria",
+      "sheet": "Immediately after you cast any of your Mark of the Ordning spells, up to three creatures of your choice that you can see within 30 feet of you take {{soul of lost ostoria:constitution}} lightning damage.",
+      "source": "Unearthed Arcana: Giant Soul Sorcerer",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana/giant-soul-sorcerer"
+    },
+    "description": "In the age of myth, giants bestowed magical blessings upon smaller folk whom they especially favored. Now sorcerers can playtest descendants of those folk, using the Giant Soul subclass.",
+    "name": "Unearthed Arcana: Giant Soul Sorcerer",
+    "update": {
+      "file": {
+        "name": "20180611.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20180611.json"
+      },
+      "version": "0.0.7"
+    }
+  }
+}

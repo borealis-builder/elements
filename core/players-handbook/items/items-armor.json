@@ -1,0 +1,740 @@
+{
+  "element": [
+    {
+      "description": "<p>Padded armor consists of quilted layers of cloth and batting.</p>",
+      "id": "ID_WOTC_ARMOR_LIGHT_PADDED",
+      "name": "Padded",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "11"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "5",
+            "name": "cost"
+          },
+          {
+            "description": "8 lb.",
+            "lb": "8",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Light",
+            "name": "armor"
+          },
+          {
+            "description": "11 + Dex modifier",
+            "name": "armorClass"
+          },
+          {
+            "description": "Disadvantage",
+            "name": "stealth"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_LIGHT",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>",
+      "id": "ID_WOTC_ARMOR_LIGHT_LEATHER",
+      "name": "Leather",
+      "rules": {
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "11"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "10 lb.",
+            "lb": "10",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Light",
+            "name": "armor"
+          },
+          {
+            "description": "11 + Dex modifier",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_LIGHT",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>",
+      "id": "ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER",
+      "name": "Studded Leather",
+      "rules": {
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "12"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "45",
+            "name": "cost"
+          },
+          {
+            "description": "13 lb.",
+            "lb": "13",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Light",
+            "name": "armor"
+          },
+          {
+            "description": "12 + Dex modifier",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_LIGHT",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.</p>",
+      "id": "ID_WOTC_ARMOR_MEDIUM_HIDE_ARMOR",
+      "name": "Hide",
+      "rules": {
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "12"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "12 lb.",
+            "lb": "12",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Medium",
+            "name": "armor"
+          },
+          {
+            "description": "12 + Dex modifier (max 2)",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_MEDIUM",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>",
+      "id": "ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT",
+      "name": "Chain Shirt",
+      "rules": {
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "13"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "20 lb.",
+            "lb": "20",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Medium",
+            "name": "armor"
+          },
+          {
+            "description": "13 + Dex modifier (max 2)",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_MEDIUM",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.</p>",
+      "id": "ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL",
+      "name": "Scale Mail",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "14"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "45 lb.",
+            "lb": "45",
+            "name": "weight"
+          },
+          {
+            "description": "Medium",
+            "name": "armor"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Disadvantage",
+            "name": "stealth"
+          },
+          {
+            "description": "14 + Dex modifier (max 2)",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_MEDIUM",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.</p>",
+      "id": "ID_WOTC_ARMOR_MEDIUM_BREASTPLATE",
+      "name": "Breastplate",
+      "rules": {
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "14"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "400",
+            "name": "cost"
+          },
+          {
+            "description": "20 lb.",
+            "lb": "20",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Medium",
+            "name": "armor"
+          },
+          {
+            "description": "14 + Dex modifier (max 2)",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_MEDIUM",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p>",
+      "id": "ID_WOTC_ARMOR_MEDIUM_HALF_PLATE",
+      "name": "Half Plate",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "15"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "40 lb.",
+            "lb": "40",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Medium",
+            "name": "armor"
+          },
+          {
+            "description": "Disadvantage",
+            "name": "stealth"
+          },
+          {
+            "description": "15 + Dex modifier (max 2)",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_MEDIUM",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor.</p>",
+      "id": "ID_WOTC_ARMOR_HEAVY_RING_MAIL",
+      "name": "Ring Mail",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "14"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "30",
+            "name": "cost"
+          },
+          {
+            "description": "40 lb.",
+            "lb": "40",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Heavy",
+            "name": "armor"
+          },
+          {
+            "description": "Disadvantage",
+            "name": "stealth"
+          },
+          {
+            "description": "14",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_RING_MAIL",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_HEAVY",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
+      "id": "ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL",
+      "name": "Chain Mail",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE",
+          "type": "Grants"
+        },
+        "stat": [
+          {
+            "name": "ac:armored:armor",
+            "value": "16"
+          },
+          {
+            "bonus": "armor",
+            "name": "speed",
+            "requirements": "!([str:13]||ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT)",
+            "value": "-10"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "75",
+            "name": "cost"
+          },
+          {
+            "description": "55 lb.",
+            "lb": "55",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Heavy",
+            "name": "armor"
+          },
+          {
+            "description": "13",
+            "name": "strength"
+          },
+          {
+            "description": "Disadvantage",
+            "name": "stealth"
+          },
+          {
+            "description": "16",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_MAIL",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_HEAVY",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.</p>",
+      "id": "ID_WOTC_ARMOR_HEAVY_SPLINT",
+      "name": "Splint",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE",
+          "type": "Grants"
+        },
+        "stat": [
+          {
+            "name": "ac:armored:armor",
+            "value": "17"
+          },
+          {
+            "bonus": "armor",
+            "name": "speed",
+            "requirements": "!([str:15]||ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT)",
+            "value": "-10"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "200",
+            "name": "cost"
+          },
+          {
+            "description": "60 lb.",
+            "lb": "60",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Heavy",
+            "name": "armor"
+          },
+          {
+            "description": "15",
+            "name": "strength"
+          },
+          {
+            "description": "Disadvantage",
+            "name": "stealth"
+          },
+          {
+            "description": "17",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_SPLINT",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_HEAVY",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p>",
+      "id": "ID_WOTC_ARMOR_HEAVY_PLATE",
+      "name": "Plate",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE",
+          "type": "Grants"
+        },
+        "stat": [
+          {
+            "name": "ac:armored:armor",
+            "value": "18"
+          },
+          {
+            "bonus": "armor",
+            "name": "speed",
+            "requirements": "!([str:15]||ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT)",
+            "value": "-10"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "1500",
+            "name": "cost"
+          },
+          {
+            "description": "65 lb.",
+            "lb": "65",
+            "name": "weight"
+          },
+          {
+            "description": "body",
+            "name": "slot"
+          },
+          {
+            "description": "Heavy",
+            "name": "armor"
+          },
+          {
+            "description": "15",
+            "name": "strength"
+          },
+          {
+            "description": "Disadvantage",
+            "name": "stealth"
+          },
+          {
+            "description": "18",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_PLATE",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_HEAVY",
+      "type": "Armor"
+    },
+    {
+      "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
+      "id": "ID_WOTC_GEAR_SHIELD",
+      "name": "Shield",
+      "rules": {
+        "stat": {
+          "bonus": "shield",
+          "name": "ac:shield",
+          "value": "2"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "6 lb.",
+            "lb": "6",
+            "name": "weight"
+          },
+          {
+            "description": "onehand,secondary",
+            "name": "slot"
+          },
+          {
+            "description": "Shield",
+            "name": "type"
+          },
+          {
+            "description": "Shield",
+            "name": "armor"
+          },
+          {
+            "description": "+2",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_SHIELD",
+      "type": "Armor"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "",
+    "name": "Armor",
+    "update": {
+      "file": {
+        "name": "items-armor.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-armor.json"
+      },
+      "version": "0.1.1"
+    }
+  }
+}

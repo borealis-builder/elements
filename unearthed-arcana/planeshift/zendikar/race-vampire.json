@@ -1,0 +1,232 @@
+{
+  "element": [
+    {
+      "description": "<p> The Legion of Dusk is dominated by an aristocratic class made up of vampires. They are faster and stronger than most humans, and gifted with supernatural abilities that made them the most formidable force in their homeland. Now, as they push into the depths of Ixalan in search of the Immortal Sun, they bring this strength to bear against all who would resist their advance. </p> <h4>FEAST OF BLOOD</h4> <p>For many vampires, the Rite of Redemption that transforms a human into a vampire is an act of personal sacrifice, paving the way for a promised glorious age. These vampires embody Torrezon's noble tradition in Ixalan. They are often guided by their dual loyalties to church and crown, believing that the monarch acts with righteous purpose. As such, these vampires carry themselves with a self-assurance that is both imposing and imperial. Other societies seem inferior and unclean compared to their own, leading them to feel that they have a right to claim new lands despite the presence of people already inhabiting those lands.</p> <p class=\"indent\">Other vampires view vampirism merely as a means to attain a powerful advantage over others. These vampires are fierce, ruthless, and often cruel, relishing conflict—be it political or armed—as a means of demonstrating their superiority. Many are politically ambitious, invoking Torrezon's hierarchy when it serves their interests, but ignoring all the rules of church, state, and morality when those rules become a burden. When these vampires come to Ixalan, they are conquerors, motivated by the prospect of personal glory and the accumulation of riches. Those who achieve wealth and power display it ostentatiously.</p> <p class=\"indent\">The core of every vampire's nature is the Feast of Blood. Though it is forbidden to feed on human citizens of Torrezon, including the human sailors and servants who accompany the vampire conquistadors to Ixalan, vampires are encouraged to feed on outsiders and heretics. The Feast of Blood sends new life essence flowing through the vampire who partakes of it, manifesting as even greater strength and speed.</p> <h4>VAMPIRE TRAITS</h4> <p>Your vampire character has the following traits.</p> <p class=\"indent\"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 2.</p> <p class=\"indent\"><b><i>Age. </i></b>Vampires don't mature and age in the same way that other races do. Every living vampire is either a bloodchief, infected by Ulamog's influence in the distant reaches of history, or was spawned by a bloodchief from a living human. Most vampires are thus very old, but few have any memory of their earliest years.</p> <p class=\"indent\"><b><i>Alignment. </i></b>Vampires might not have an innate tendency toward evil, but many of them end up there. Evil or not, their strict hierarchies incline them toward a lawful alignment.</p> <p class=\"indent\"><b><i>Size. </i></b>Vampire are about the same size and build as humans. Your size is Medium.</p> <p class=\"indent\"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p> <p class=\"indent\"><b><i>Vampiric Resistance. </i></b>You have resistance to necrotic damage.</p> <p class=\"indent\"><b><i>Darkvision.</i></b>Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p> <p class=\"indent\"><b><i>Languages. </i></b>You can speak, read, and write Common and Vampire</p> <p class=\"indent\"><b><i>Bloodthirst. </i></b>You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p> <p class=\"indent\"><b><i>Subrace. </i></b>There exists two races of vampires, the Zendikar vampires and the Ixalan vampires.</p>",
+      "id": "ID_WOCT_PSI_RACE_VAMPIRE",
+      "name": "Vampire",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_PSI_LANGUAGE_VAMPIRE",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_VAMPIRIC_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_BLOODTHIRST",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_SUBRACE",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Vampire)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language||Vampire Language",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "charisma",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Ixalan",
+      "type": "Race"
+    },
+    {
+      "description": "<p>There exists two races of vampires, the Zendikar vampires and the Ixalan vampires. These change depending on which region the vampire's magic comes from.</p>",
+      "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_SUBRACE",
+      "name": "Vampire Subrace",
+      "rules": {
+        "select": {
+          "name": "Vampire Subrace",
+          "supports": "Vampire Subrace",
+          "type": "Sub Race"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Ixalan",
+      "supports": "vampire",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have resistance to necrotic damage.</p>",
+      "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_VAMPIRIC_RESISTANCE",
+      "name": "Vampiric Resistance",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC",
+          "type": "Condition"
+        }
+      },
+      "sheet": "You have resistance to necrotic damage.",
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>",
+      "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_BLOODTHIRST",
+      "name": "Bloodthirst",
+      "sheet": "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Zendikar vampires can convert humanoids killed with bloodthirst into nulls.</p> <p class=\"indent\"><b><i>Ability Score Increase. </i></b>Your Intelligence score increases by 1.</p> <p class=\"indent\"><b><i>Null Transformation.</i></b>A humanoid killed with your Bloodthirst ability becomes a null.</p>",
+      "id": "ID_WOTC_PSI_VAMPIRE_SUBRACE_ZENDIKAR",
+      "name": "Zendikar Vampire",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_NULL_TRANSFORMATION",
+          "type": "Racial Trait"
+        },
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Zendikar)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "Intelligence",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Zendikar",
+      "supports": "Vampire Subrace",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>A humanoid killed with your Bloodthirst ability becomes a null.</p>",
+      "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_NULL_TRANSFORMATION",
+      "name": "Null Transformation",
+      "sheet": {
+        "content": "A humanoid killed with your Bloodthirst ability becomes a null.",
+        "display": "true"
+      },
+      "source": "Plane Shift: Zendikar",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Ixalan vampires use bloodthirst to gain a surge of energy.</p> <p class=\"indent\"><b><i>Ability Score Increase.</i></b>Your Wisdom increases by 1.</p> <p class=\"indent\"><b><i>Feast of Blood.</i></b>When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute.</p>",
+      "id": "ID_WOTC_PSI_VAMPIRE_SUBRACE_IXALAN",
+      "name": "Ixalan Vampire",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_FEAST_OF_BLOOD",
+          "type": "Racial Trait"
+        },
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Ixalan)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "Wisdom",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Plane Shift: Ixalan",
+      "supports": "Vampire Subrace",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute.</p>",
+      "id": "ID_WOTC_PSI_RACIAL_TRAIT_VAMPIRE_FEAST_OF_BLOOD",
+      "name": "Feast of Blood",
+      "sheet": {
+        "content": "When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute.",
+        "display": "true"
+      },
+      "source": "Plane Shift: Ixalan",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>The language of the Vampire race from Zendikar and Ixalan.</p>",
+      "id": "ID_WOTC_PSI_LANGUAGE_VAMPIRE",
+      "name": "Vampire",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Vampire",
+            "name": "speakers"
+          },
+          {
+            "description": "Vampire",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Plane Shift: Zendikar",
+      "supports": "Vampire Language",
+      "type": "Language"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "https://media.wizards.com/2018/downloads/magic/plane-shift_ixalan.pdf"
+    },
+    "description": "Vampire",
+    "name": "Vampire",
+    "update": {
+      "file": {
+        "name": "race-vampire.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/zendikar/race-vampire.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

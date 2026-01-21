@@ -1,0 +1,464 @@
+{
+  "info": {
+    "name": "Player's Handbook",
+    "description": "The Player's Handbook is the essential reference for every Dungeons & Dragons roleplayer. It contains rules for character creation and advancement, backgrounds and skills, exploration and combat, equipment, spells, and much more. Use this book to create exciting characters from among the most iconic D&D races and classes.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "update": {
+      "version": "0.2.2",
+      "file": {
+        "name": "players-handbook.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/source.json"
+    },
+    {
+      "name": "race-dragonborn.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-dragonborn.json"
+    },
+    {
+      "name": "race-dwarf.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-dwarf.json"
+    },
+    {
+      "name": "race-elf.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-elf.json"
+    },
+    {
+      "name": "race-gnome.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-gnome.json"
+    },
+    {
+      "name": "race-halfelf.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-halfelf.json"
+    },
+    {
+      "name": "race-halfling.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-halfling.json"
+    },
+    {
+      "name": "race-halforc.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-halforc.json"
+    },
+    {
+      "name": "race-human.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-human.json"
+    },
+    {
+      "name": "race-tiefling.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-tiefling.json"
+    },
+    {
+      "name": "class-barbarian.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-barbarian.json"
+    },
+    {
+      "name": "class-bard.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-bard.json"
+    },
+    {
+      "name": "class-cleric.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-cleric.json"
+    },
+    {
+      "name": "class-druid.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-druid.json"
+    },
+    {
+      "name": "class-fighter.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-fighter.json"
+    },
+    {
+      "name": "class-monk.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-monk.json"
+    },
+    {
+      "name": "class-paladin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-paladin.json"
+    },
+    {
+      "name": "class-ranger.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-ranger.json"
+    },
+    {
+      "name": "class-rogue.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-rogue.json"
+    },
+    {
+      "name": "class-sorcerer.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-sorcerer.json"
+    },
+    {
+      "name": "class-warlock.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-warlock.json"
+    },
+    {
+      "name": "class-wizard.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-wizard.json"
+    },
+    {
+      "name": "barbarian-berserker.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/barbarian-berserker.json"
+    },
+    {
+      "name": "barbarian-totem.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/barbarian-totem.json"
+    },
+    {
+      "name": "bard-lore.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/bard-lore.json"
+    },
+    {
+      "name": "bard-valor.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/bard-valor.json"
+    },
+    {
+      "name": "cleric-knowledge.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-knowledge.json"
+    },
+    {
+      "name": "cleric-life.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-life.json"
+    },
+    {
+      "name": "cleric-light.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-light.json"
+    },
+    {
+      "name": "cleric-nature.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-nature.json"
+    },
+    {
+      "name": "cleric-tempest.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-tempest.json"
+    },
+    {
+      "name": "cleric-trickery.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-trickery.json"
+    },
+    {
+      "name": "cleric-war.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-war.json"
+    },
+    {
+      "name": "druid-land.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/druid-land.json"
+    },
+    {
+      "name": "druid-moon.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/druid-moon.json"
+    },
+    {
+      "name": "fighter-battle-master.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/fighter-battle-master.json"
+    },
+    {
+      "name": "fighter-champion.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/fighter-champion.json"
+    },
+    {
+      "name": "fighter-eldritch-knight.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/fighter-eldritch-knight.json"
+    },
+    {
+      "name": "monk-four-elements.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/monk-four-elements.json"
+    },
+    {
+      "name": "monk-open-hand.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/monk-open-hand.json"
+    },
+    {
+      "name": "monk-shadow.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/monk-shadow.json"
+    },
+    {
+      "name": "paladin-ancients.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/paladin-ancients.json"
+    },
+    {
+      "name": "paladin-devotion.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/paladin-devotion.json"
+    },
+    {
+      "name": "paladin-vengeance.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/paladin-vengeance.json"
+    },
+    {
+      "name": "ranger-beast-master.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/ranger-beast-master.json"
+    },
+    {
+      "name": "ranger-hunter.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/ranger-hunter.json"
+    },
+    {
+      "name": "rogue-arcane-trickster.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/rogue-arcane-trickster.json"
+    },
+    {
+      "name": "rogue-assassin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/rogue-assassin.json"
+    },
+    {
+      "name": "rogue-thief.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/rogue-thief.json"
+    },
+    {
+      "name": "sorcerer-draconic.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/sorcerer-draconic.json"
+    },
+    {
+      "name": "sorcerer-wild.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/sorcerer-wild.json"
+    },
+    {
+      "name": "warlock-archfey.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/warlock-archfey.json"
+    },
+    {
+      "name": "warlock-fiend.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/warlock-fiend.json"
+    },
+    {
+      "name": "warlock-great-old-one.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/warlock-great-old-one.json"
+    },
+    {
+      "name": "wizard-abjuration.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-abjuration.json"
+    },
+    {
+      "name": "wizard-conjuration.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-conjuration.json"
+    },
+    {
+      "name": "wizard-divination.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-divination.json"
+    },
+    {
+      "name": "wizard-enchantment.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-enchantment.json"
+    },
+    {
+      "name": "wizard-evocation.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-evocation.json"
+    },
+    {
+      "name": "wizard-illusion.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-illusion.json"
+    },
+    {
+      "name": "wizard-necromancy.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-necromancy.json"
+    },
+    {
+      "name": "wizard-transmutation.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-transmutation.json"
+    },
+    {
+      "name": "background-acolyte.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-acolyte.json"
+    },
+    {
+      "name": "background-charlatan.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-charlatan.json"
+    },
+    {
+      "name": "background-criminal.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-criminal.json"
+    },
+    {
+      "name": "background-custom.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-custom.json"
+    },
+    {
+      "name": "background-entertainer.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-entertainer.json"
+    },
+    {
+      "name": "background-folkhero.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-folkhero.json"
+    },
+    {
+      "name": "background-guildartisan.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-guildartisan.json"
+    },
+    {
+      "name": "background-hermit.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-hermit.json"
+    },
+    {
+      "name": "background-noble.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-noble.json"
+    },
+    {
+      "name": "background-outlander.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-outlander.json"
+    },
+    {
+      "name": "background-sage.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-sage.json"
+    },
+    {
+      "name": "background-sailer.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-sailer.json"
+    },
+    {
+      "name": "background-soldier.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-soldier.json"
+    },
+    {
+      "name": "background-urchin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-urchin.json"
+    },
+    {
+      "name": "items-armor.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-armor.json"
+    },
+    {
+      "name": "items-weapons.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-weapons.json"
+    },
+    {
+      "name": "items-gear.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-gear.json"
+    },
+    {
+      "name": "items-packs.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-packs.json"
+    },
+    {
+      "name": "items-instrument.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-instrument.json"
+    },
+    {
+      "name": "items-tools.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-tools.json"
+    },
+    {
+      "name": "items-mounts.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-mounts.json"
+    },
+    {
+      "name": "languages.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/languages.json"
+    },
+    {
+      "name": "feats.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/feats.json"
+    },
+    {
+      "name": "spells.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/spells.json"
+    },
+    {
+      "name": "deities.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/deities.json"
+    },
+    {
+      "name": "companions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/companions.json"
+    },
+    {
+      "name": "eldritch-invocations.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/eldritch-invocations.json"
+    }
+  ]
+}

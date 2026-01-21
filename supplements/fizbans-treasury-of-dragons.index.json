@@ -1,0 +1,68 @@
+{
+  "info": {
+    "name": "Fizban's Treasury of Dragons",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "fizbans-treasury-of-dragons.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "race-chromatic-dragonborn.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/races/race-chromatic-dragonborn.json"
+    },
+    {
+      "name": "race-gem-dragonborn.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/races/race-gem-dragonborn.json"
+    },
+    {
+      "name": "race-metallic-dragonborn.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/races/race-metallic-dragonborn.json"
+    },
+    {
+      "name": "monk-ascendant-dragon.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/archetypes/monk-ascendant-dragon.json"
+    },
+    {
+      "name": "ranger-drakewarden.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/archetypes/ranger-drakewarden.json"
+    },
+    {
+      "name": "feats.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/feats.json"
+    },
+    {
+      "name": "items-magic.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/items-magic.json"
+    },
+    {
+      "name": "draconic-gifts.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/draconic-gifts.json"
+    },
+    {
+      "name": "spells.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/spells.json"
+    },
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/source.json"
+    }
+  ]
+}

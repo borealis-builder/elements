@@ -1,0 +1,535 @@
+{
+  "element": [
+    {
+      "description": "<p>You have sworn fealty to a dragonmarked house. If you have a dragonmark, you're likely a member of one of the house's influential families; otherwise you're an outsider who hopes to make your fortune through the house. Your main task is to serve as the eyes of your house, but you could be called on at any time to act as its hand. Such missions can be perilous but lucrative.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Investigation, Persuasion</li> <li><strong>Tool Proficiencies:</strong> Two proficiencies from the House Tool Proficiencies table</li> <li><strong>Equipment:</strong> A set of fine clothes, house signet ring, identification papers, and a purse containing 20 gp</li> </ul> <br/> <p><strong>HOUSE TOOL PROFICIENCIES</strong></p> <table> <thead> <tr><td>Your House</td><td>Proficiencies</td></tr> </thead> <tr><td>Cannith</td><td>Alchemist's supplies and tinker's tools</td></tr> <tr><td>Deneith</td><td>One gaming set and vehicles (land)</td></tr> <tr><td>Ghallanda</td><td>Brewer's supplies and cook's utensils</td></tr> <tr><td>Jorasco</td><td>Alchemist's supplies and herbalism kit</td></tr> <tr><td>Kundarak</td><td>Thieves' tools and tinker's tools</td></tr> <tr><td>Lyrandar</td><td>Navigator's tools and vehicles (air and sea)</td></tr> <tr><td>Medani</td><td>Disguise kit and thieves' tools</td></tr> <tr><td>Orien</td><td>One gaming set and vehicles (land)</td></tr> <tr><td>Phiarlan</td><td>Disguise kit and one musical instrument</td></tr> <tr><td>Sivis</td><td>Calligrapher's tools and forgery kit</td></tr> <tr><td>Tharashk</td><td>One gaming set and thieves' tools</td></tr> <tr><td>Thuranni</td><td>One musical instrument and poisoner's kit</td></tr> <tr><td>Vadalis</td><td>Herbalism kit and vehicles (land)</td></tr> </table> <h4>ROLE</h4> <p>You always gather information for your house, but when a baron give you a specific mission, what sort of work do you do? The House Agent Role table gives possibilities.</p> <p><strong>HOUSE AGENT ROLE</strong></p> <table> <thead> <tr><td class=\"col-10\">d8</td><td>Role</td></tr> </thead> <tr><td>1</td><td>Acquisition</td></tr> <tr><td>2</td><td>Investigation</td></tr> <tr><td>3</td><td>Research &amp; Development</td></tr> <tr><td>4</td><td>Security</td></tr> <tr><td>5</td><td>Intimidation</td></tr> <tr><td>6</td><td>Exploration</td></tr> <tr><td>7</td><td>Negotiation</td></tr> <tr><td>8</td><td>Covert Operations</td></tr> </table> <div element=\"ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_AGENT_HOUSE_CONNECTIONS\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>House agents are diverse. Consider the house you serve and the work you do when choosing characteristics.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "name": "House Agent",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_INVESTIGATION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERSUASION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_AGENT_HOUSE_CONNECTIONS",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Tool Proficiency, House Agent",
+            "supports": "House Agent Tool Proficiency",
+            "type": "Background Feature"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Acquisition",
+                "id": "1"
+              },
+              {
+                "description": "Investigation",
+                "id": "2"
+              },
+              {
+                "description": "Research & Development",
+                "id": "3"
+              },
+              {
+                "description": "Security",
+                "id": "4"
+              },
+              {
+                "description": "Intimidation",
+                "id": "5"
+              },
+              {
+                "description": "Exploration",
+                "id": "6"
+              },
+              {
+                "description": "Negotiation",
+                "id": "7"
+              },
+              {
+                "description": "Covert Operations",
+                "id": "8"
+              }
+            ],
+            "name": "House Agent Role",
+            "optional": "true",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm always looking to improve efficiency.",
+                "id": "1"
+              },
+              {
+                "description": "I love to share trivia about my house's business.",
+                "id": "2"
+              },
+              {
+                "description": "I never forget an insult against me or my house.",
+                "id": "3"
+              },
+              {
+                "description": "I'm enthusiastic about everything my house does.",
+                "id": "4"
+              },
+              {
+                "description": "I represent my house and take pride in my looks.",
+                "id": "5"
+              },
+              {
+                "description": "I'm critical of monarchies and limits on the houses.",
+                "id": "6"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Common Good. My house serves a vital function, and its prosperity will help everyone. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Tradition. I uphold traditions of my house and bring honor to my family. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Innovation. Abandon old traditions and find better ways to do things. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Power. I want to ensure the prosperity of my house and wield its power myself. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Discovery. I want to learn all I can, both for my house and for my own curiosity. (Any)",
+                "id": "5"
+              },
+              {
+                "description": "Comfort. I want to ensure that me and mine enjoy the best things in life. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My house is my family. I would do anything for it.",
+                "id": "1"
+              },
+              {
+                "description": "I love someone from another house, but the relationship is forbidden.",
+                "id": "2"
+              },
+              {
+                "description": "Someone I love was killed by a rival faction within my house, and I will have revenge.",
+                "id": "3"
+              },
+              {
+                "description": "I don't care about the house as a whole, but I would do anything for my old mentor.",
+                "id": "4"
+              },
+              {
+                "description": "My house must evolve, and I'll lead the evolution.",
+                "id": "5"
+              },
+              {
+                "description": "I'm determined to impress the leaders of my house, and to become a leader myself.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm fixated on following official protocols.",
+                "id": "1"
+              },
+              {
+                "description": "I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+                "id": "2"
+              },
+              {
+                "description": "My house and blood line make me the best!",
+                "id": "3"
+              },
+              {
+                "description": "My secret could get me expelled from my house.",
+                "id": "4"
+              },
+              {
+                "description": "My religious beliefs aren't widespread in my house.",
+                "id": "5"
+              },
+              {
+                "description": "I'm working for a hidden faction in my house that gives me secret assignments.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Investigation, Persuasion, 2 Tools (Dragonmarked House)",
+          "name": "short"
+        }
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Background"
+    },
+    {
+      "description": "<p>As an agent of your house, you can always get food and lodging for yourself and your friends at a house enclave. When the house assigns you a mission, it will usually provide you with the necessary supplies and transportation. Beyond this, you have many old friends, mentors, and rivals in your house, and you may encounter one of them when you interact with a house business. The degree to which such acquaintances are willing to help you depends on your current standing in your house.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_AGENT_HOUSE_CONNECTIONS",
+      "name": "Feature: House Connections",
+      "sheet": {
+        "alt": "House Connections",
+        "content": "As an agent of your house, you can always get food and lodging for yourself and your friends at a house enclave. When the house assigns you a mission, it will usually provide you with the necessary supplies and transportation. Beyond this, you have many old friends, mentors, and rivals in your house, and you may encounter one of them when you interact with a house business. The degree to which such acquaintances are willing to help you depends on your current standing in your house."
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with alchemist's supplies and tinker's tools.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_CANNITH",
+      "name": "House Cannith",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with one gaming set and vehicles (land).</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_DENEITH",
+      "name": "House Deneith",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Gaming Set, House Deneith",
+          "supports": "Gaming Set",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with brewer's supplies and cook's utensils.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_GHALLANDA",
+      "name": "House Ghallanda",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with alchemist's supplies and herbalism kit.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_JORASCO",
+      "name": "House Jorasco",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with thieves' tools and tinker's tools.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_KUNDARAK",
+      "name": "House Kundarak",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with navigator's tools and vehicles (air and sea).</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_LYRANDAR",
+      "name": "House Lyrandar",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_ERLW_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_AIR_SEA",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with disguise kit and thieves' tools.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_MEDANI",
+      "name": "House Medani",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with one gaming set and vehicles (land).</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_ORIEN",
+      "name": "House Orien",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Gaming Set, House Orien",
+          "supports": "Gaming Set",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with disguise kit and one musical instrument.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_PHIARLAN",
+      "name": "House Phiarlan",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Musical Instrument, House Phiarlan",
+          "supports": "Musical Instrument",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with calligrapher's tools and forgery kit.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_SIVIS",
+      "name": "House Sivis",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with one gaming set and thieves' tools.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_THARASHK",
+      "name": "House Tharashk",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Gaming Set, House Tharashk",
+          "supports": "Gaming Set",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with one musical instrument and poisoner's kit.</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_THURANNI",
+      "name": "House Thuranni",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Musical Instrument, House Phiarlan",
+          "supports": "Musical Instrument",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You gain proficiency with herbalism kit and vehicles (land).</p>",
+      "id": "ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_VADALIS",
+      "name": "House Vadalis",
+      "requirements": "ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "House Agent Tool Proficiency",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "house-agent.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/backgrounds/house-agent.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

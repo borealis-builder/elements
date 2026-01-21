@@ -1,0 +1,94 @@
+{
+  "info": {
+    "name": "Volo's Guide to Monsters",
+    "description": "The esteemed loremaster Volothamp Geddarm is back and he's written a fantastical dissertation, covering some of the most iconic monsters in the Forgotten Realms. Unfortunately, the Sage of Shadowdale himself, Elminster, doesn't believe Volo gets some of the important details quite right. Don't miss out as Volo and Elminster square off (academically speaking of course) to illuminate the uninitiated on creatures both common and obscure. Uncover the machinations of the mysterious Kraken Society, what is the origin of the bizarre froghemoth, or how to avoid participating in the ghastly reproductive cycle of the grotesque vargouille.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com"
+    },
+    "update": {
+      "version": "0.1.0",
+      "file": {
+        "name": "volos-guide-to-monsters.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/source.json"
+    },
+    {
+      "name": "race-aasimar.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-aasimar.json"
+    },
+    {
+      "name": "race-firbolg.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-firbolg.json"
+    },
+    {
+      "name": "race-goliath.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-goliath.json"
+    },
+    {
+      "name": "race-kenku.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-kenku.json"
+    },
+    {
+      "name": "race-lizardfolk.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-lizardfolk.json"
+    },
+    {
+      "name": "race-tabaxi.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-tabaxi.json"
+    },
+    {
+      "name": "race-triton.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-triton.json"
+    },
+    {
+      "name": "race-bugbear.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-bugbear.json"
+    },
+    {
+      "name": "race-goblin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-goblin.json"
+    },
+    {
+      "name": "race-hobgoblin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-hobgoblin.json"
+    },
+    {
+      "name": "race-kobold.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-kobold.json"
+    },
+    {
+      "name": "race-orc.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-orc.json"
+    },
+    {
+      "name": "race-yuantipureblood.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-yuantipureblood.json"
+    },
+    {
+      "name": "spells.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/spells.json"
+    }
+  ]
+}

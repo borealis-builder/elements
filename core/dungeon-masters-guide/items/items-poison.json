@@ -1,0 +1,551 @@
+{
+  "element": [
+    {
+      "description": "<p>A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is poisoned for 24 hours. On a successful save, the creature takes half damage and isn't poisoned.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INGESTED\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_ASSASSINS_BLOOD",
+      "name": "Assassin's Blood",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,ingest",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "150",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Assassin's Blood (Ingested)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INHALED\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_BURNT_OTHUR_FUMES",
+      "name": "Burnt Othur Fumes",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,inhale",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "500",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Burnt Othur Fumes (Inhaled)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>This poison must be harvested from a dead or incapacitated carrion crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_CONTACT\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_CARRION_CRAWLER_MUCUS",
+      "name": "Carrion Crawler Mucus",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,contact",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "200",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Carrion Crawler Mucus (Contact)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>This poison is typically made only by the draw, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INJURY\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_DROW_POISON",
+      "name": "Drow Poison",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,injure,injury",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "200",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Drow Poison (Injury)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 8 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INHALED\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_ESSENCE_OF_ETHER",
+      "name": "Essence of Ether",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,inhale",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "300",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Essence of Ether (Inhaled)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 1 hour. The poisoned creature is blinded.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INHALED\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_MALICE",
+      "name": "Malice",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,inhale",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Malice (Inhaled)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a DC 17 Constitution saving throw, taking 31 (9d6) poison damage on a failed save, or half as much damage on a successful one.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INGESTED\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_MIDNIGHT_TEARS",
+      "name": "Midnight Tears",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,ingest",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "1500",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Midnight Tears (Ingested)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_CONTACT\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_OIL_OF_TAGGIT",
+      "name": "Oil of Taggit",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,contact",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "400",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Oil of Taggit (Contact)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or take 3 (1d6) poison damage and become poisoned. The poisoned creature must repeat the saving throw every 24 hours, taking 3 (1d6) poison damage on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INGESTED\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_PALE_TINCTURE",
+      "name": "Pale Tincture",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,ingest",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Pale Tincture (Ingested)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>This poison must be harvested from a dead or incapacitated purple worm. A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INJURY\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_PURPLE_WORM_POISON",
+      "name": "Purple Worm Poison",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,injure,injury",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2000",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Purple Worm Poison (Injury)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>This poison must be harvested from a dead or incapacitated giant poisonou snake. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INJURY\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_SERPENT_VENOM",
+      "name": "Serpent Venom",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,injure,injury",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "200",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Serpent Venom (Injury)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INGESTED\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_TORPOR",
+      "name": "Torpor",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,ingest",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "600",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Torpor (Ingested)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>creature subjected to thi poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a zone of truth spell.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INGESTED\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_TRUTH_SERUM",
+      "name": "Truth Serum",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,ingest",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "150",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Truth Serum (Ingested)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>This poison must be harvested from a dead or incapacitated wyvern. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INJURY\" /> </div>",
+      "id": "ID_WOTC_DMG_ITEM_POISON_WYVERN_POISON",
+      "name": "Wyvern Poison",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,injure,injury",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "1200",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Wyvern Poison (Injury)"
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>",
+      "id": "ID_INTERNAL_SUPPORT_POISON_CONTACT",
+      "name": "Contact",
+      "source": "Internal",
+      "type": "Support"
+    },
+    {
+      "description": "<p>A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You might decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.</p>",
+      "id": "ID_INTERNAL_SUPPORT_POISON_INGESTED",
+      "name": "Ingested",
+      "source": "Internal",
+      "type": "Support"
+    },
+    {
+      "description": "<p>These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.</p>",
+      "id": "ID_INTERNAL_SUPPORT_POISON_INHALED",
+      "name": "Inhaled",
+      "source": "Internal",
+      "type": "Support"
+    },
+    {
+      "description": "<p>Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>",
+      "id": "ID_INTERNAL_SUPPORT_POISON_INJURY",
+      "name": "Injury",
+      "source": "Internal",
+      "type": "Support"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "",
+    "name": "Poison",
+    "update": {
+      "file": {
+        "name": "items-poison.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-poison.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

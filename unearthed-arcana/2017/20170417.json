@@ -1,0 +1,432 @@
+{
+  "element": [
+    {
+      "description": "<p>This week we introduce new feats to playtest. Each of these feats makes you better at one of the game's eighteen skills.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170417",
+      "name": "Unearthed Arcana: Feats for Skills",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20170417",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/articles/unearthed-arcana/feats-skills",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "20170417",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>You become more nimble, gaining the following benefits:</p> <ul> <li>Increase your Dexterity score by 1, to a maximum of 20</li> <li>You gain proficiency in the Acrobatics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>As a bonus action, you can make a DC 15 Dexterity (Acrobatics) check. If you succeed, difficult terrain doesn't cost you extra movement until the end of the current turn.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_ACROBAT",
+      "name": "Acrobat",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ACROBATICS",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "dexterity",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can make a DC 15 Dexterity (Acrobatics) check. If you succeed, difficult terrain doesn't cost you extra movement until the end of the current turn."
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You master the techniques needed to train and handle animals. You gain the following benefits:</p> <ul> <li>Increase your Wisdom score by 1, to a maximum of 20</li> <li>You gain proficiency in the Animal Handling skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn't currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_ANIMALHANDLER",
+      "name": "Animal Handler",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ANIMALHANDLING",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "wisdom",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can command one friendly beast within 60 feet of you that can hear you and that isn't currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area."
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You study the arcane arts, gaining the following benefits:</p> <ul> <li>Increase your Intelligence score by 1, to a maximum of 20</li> <li>You gain proficiency in the Arcana skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>You learn the <i>prestidigitation</i> and <i>detect magic</i> spells. You can cast <i>detect magic</i> once without expending a spell slot, and you regain the ability to do so when you finish a long rest.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_ARCANIST",
+      "name": "Arcanist",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ARCANA",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_PHB_SPELL_PRESTIDIGITATION",
+            "type": "Spell"
+          }
+        ],
+        "stat": {
+          "name": "intelligence",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "content": "You can cast detect magic without expending a spell slot.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You become stronger, gaining the following benefits:</p> <ul> <li>Increase your Strength score by 1, to a maximum of 20</li> <li>You gain proficiency in the Athletics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>You count as if you were one size larger for the purpose of determining your carrying capacity.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_BRAWNY",
+      "name": "Brawny",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ATHLETICS",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER",
+            "type": "Grants"
+          }
+        ],
+        "stat": {
+          "name": "strength",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "content": "You count as if you were one size larger for the purpose of determining your carrying capacity.",
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You master the arts of diplomacy, gaining the following benefits:</p> <ul> <li>Increase your Charisma score by 1, to a maximum of 20</li> <li>You gain proficiency in the Persuasion skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_DIPLOMAT",
+      "name": "Diplomat",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERSUASION",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "charisma",
+          "value": "1"
+        }
+      },
+      "sheet": "If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.",
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You possess keen insight into how other people think and feel. You gain the following benefits:</p> <ul> <li>Increase your Wisdom score by 1, to a maximum of 20</li> <li>You gain proficiency in the Insight skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>You can use your action to try to get uncanny insight about one humanoid you can see within 30 feet of you. Make a Wisdom (Insight) check contested by the target's Charisma (Deception) check. If your check succeeds, you have advantage on attack rolls and ability checks against the target until the end of your next turn.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_EMPATHIC",
+      "name": "Empathic",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INSIGHT",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "wisdom",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Action",
+        "content": "You can try to get uncanny insight about one humanoid you can see within 30 feet of you. Make a Wisdom (Insight) check contested by the target's Charisma (Deception) check. If your check succeeds, you have advantage on attack rolls and ability checks against the target until the end of your next turn."
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>Your study of history rewards you with the following benefits:</p> <ul> <li>Increase your Intelligence score by 1, to a maximum of 20</li> <li>You gain proficiency in the History skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>When you take the Help action to aid another creature's ability check, you can make a DC 15 Intelligence (History) check. On a success, that creature's check gains a bonus equal to your proficiency bonus, as you share pertinent advice and historical examples. To receive this bonus, the creature must be able to understand what you're saying.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_HISTORIAN",
+      "name": "Historian",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_HISTORY",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "intelligence",
+          "value": "1"
+        }
+      },
+      "sheet": "When you take the Help action to aid another creature's ability check, you can make a DC 15 Intelligence (History) check. On a success, that creature's check gains a bonus equal to your proficiency bonus, as you share pertinent advice and historical examples. To receive this bonus, the creature must be able to understand what you're saying.",
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You have an eye for detail and can pick out the smallest clues. You gain the following benefits:</p> <ul> <li>Increase your Intelligence score by 1, to a maximum of 20</li> <li>You gain proficiency in the Investigation skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>You can take the Search action as a bonus action.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_INVESTIGATOR",
+      "name": "Investigator",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INVESTIGATION",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "intelligence",
+          "value": "1"
+        }
+      },
+      "sheet": "You can take the Search action as a bonus action.",
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You master the physician's arts, gaining the following benefits:</p> <ul> <li>Increase your Wisdom score by 1, to a maximum of 20</li> <li>You gain proficiency in the Medicine skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom (Medicine) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_MEDIC",
+      "name": "Medic",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_MEDICINE",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "wisdom",
+          "value": "1"
+        }
+      },
+      "sheet": "During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom (Medicine) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends.",
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You become fearsome to others, gaining the following benefits:</p> <ul> <li>Increase your Charisma score by 1, to a maximum of 20</li> <li>You gain proficiency in the Intimidation skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>When you take the Attack action on your turn, you can replace one attack with an attempt to demoralize one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Intimidation) check contested by the target's Wisdom (Insight) check. If your check succeeds, the target is frightened until the end of your next turn. If your check fails, the target can't be frightened by you in this way for 1 hour.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_MENACING",
+      "name": "Menacing",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INTIMIDATION",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "charisma",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Attack",
+        "content": "You can attempt to demoralize one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Intimidation) check contested by the target's Wisdom (Insight) check. If your check succeeds, the target is frightened until the end of your next turn. If your check fails, the target can't be frightened by you in this way for 1 hour."
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>Your extensive study of nature rewards you with the following benefits:</p> <ul> <li>Increase your Intelligence score by 1, to a maximum of 20</li> <li>You gain proficiency in the Nature skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>You learn the <i>druidcraft</i> and <i>detect poison and disease</i> spells. You can cast <i>detect poison and disease</i> once without expending a spell slot, and you regain the ability to do so when you finish a long rest.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_NATURALIST",
+      "name": "Naturalist",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_NATURE",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_PHB_SPELL_DRUIDCRAFT",
+            "type": "Spell"
+          }
+        ],
+        "stat": {
+          "name": "intelligence",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "content": "You can cast detect poison and disease without expending a spell slot.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You hone your senses until they become razor sharp. You gain the following benefits:</p> <ul> <li>Increase your Wisdom score by 1, to a maximum of 20</li> <li>You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_PERCEPTIVE",
+      "name": "Perceptive",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERCEPTION",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "wisdom",
+          "value": "1"
+        }
+      },
+      "sheet": "Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear.",
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You master performance so that you can command any stage. You gain the following benefits:</p> <ul> <li>Increase your Charisma score by 1, to a maximum of 20</li> <li>You gain proficiency in the Performance skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>While performing, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma (Performance) check contested by the humanoid's Wisdom (Insight) check. If your check succeeds, you grab the humanoid's attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_PERFORMER",
+      "name": "Performer",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERFORMANCE",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "charisma",
+          "value": "1"
+        }
+      },
+      "sheet": "While performing, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma (Performance) check contested by the humanoid's Wisdom (Insight) check. If your check succeeds, you grab the humanoid's attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing.",
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits:</p> <ul> <li>Increase your Dexterity score by 1, to a maximum of 20</li> <li>You gain proficiency in the Sleight of Hand skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>As a bonus action, you can make a Dexterity (Sleight of Hand) check to plant something on someone else, conceal an object on a creature, lift a purse, or take something from a pocket.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_QUICKFINGERED",
+      "name": "Quick-Fingered",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_SLEIGHTOFHAND",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "dexterity",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can make a Dexterity (Sleight of Hand) check to plant something on someone else, conceal an object on a creature, lift a purse, or take something from a pocket."
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You develop your conversational skill to better deceive others. You gain the following benefits:</p> <ul> <li>Increase your Charisma score by 1, to a maximum of 20</li> <li>You gain proficiency in the Deception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>When you take the Attack action on your turn, you can replace one attack with an attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Deception) check contested by the target's Wisdom (Insight) check. If your check succeeds, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can't be deceived by you in this way for 1 hour.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_SILVERTONGUED",
+      "name": "Silver-Tongued",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_DECEPTION",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "charisma",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Attack",
+        "content": "You can attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Deception) check contested by the target's Wisdom (Insight) check. If your check succeeds, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can't be deceived by you in this way for 1 hour."
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You know how best to hide. You gain the following benefits:</p> <ul> <li>Increase your Dexterity score by 1, to a maximum of 20</li> <li>You gain proficiency in the Stealth skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_STEALTHY",
+      "name": "Stealthy",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_STEALTH",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "dexterity",
+          "value": "1"
+        }
+      },
+      "sheet": "If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible.",
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You master wilderness lore, gaining the following benefits:</p> <ul> <li>Increase your Wisdom score by 1, to a maximum of 20</li> <li>You gain proficiency in the Survival skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>You learn the <i>alarm</i> spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a long rest.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_SURVIVALIST",
+      "name": "Survivalist",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_SURVIVAL",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "wisdom",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "content": "You can cast alarm spell once without expending a spell slot.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>Your extensive study of religion rewards you with the following benefits:</p> <ul> <li>Increase your Intelligence score by 1, to a maximum of 20</li> <li>You gain proficiency in the Religion skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</li> <li>You learn the <i>thaumaturgy</i> and <i>detect evil and good</i> spells. You can cast <i>detect evil and good</i> once without expending a spell slot, and you regain the ability to do so when you finish a long rest.</li> </ul>",
+      "id": "ID_WOTC_UA_FEAT_THEOLOGIAN",
+      "name": "Theologian",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_RELIGION",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_PHB_SPELL_THAUMATURGY",
+            "type": "Spell"
+          }
+        ],
+        "stat": {
+          "name": "intelligence",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "content": "You can cast detect evil and good once without expending a spell slot.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Feats for Skills",
+      "type": "Feat"
+    }
+  ],
+  "info": {
+    "name": "Unearthed Arcana: Feats for Skills",
+    "update": {
+      "file": {
+        "name": "20170417.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170417.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}

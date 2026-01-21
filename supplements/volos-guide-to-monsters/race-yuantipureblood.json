@@ -1,0 +1,166 @@
+{
+  "element": [
+    {
+      "description": "<p class=\"flavor\">In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. This section is aimed at those who wish to expand the race selections for their campaigns beyond the typical folk of D&amp;D.</p> <h4>YUAN-TI PUREBLOOD TRAITS</h4> <p>Your yuan-ti pureblood character- called a pureblood for short-has the following racial traits.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Charisma score increases by 2, and your Intelligence score increases by 1.<br/> <span class=\"feature\">Age.</span>Purebloods mature at the same rate as humans and have lifespans similar in length to theirs. <br/> <!-- (removed in Errata v3.0) --> <!-- <span class=\"feature\">Alignment.</span>Purebloods are devoid of emotion and see others as tools to manipulate. They care little for law or chaos and are typically neutral evil.<br/> --> <span class=\"feature\">Size.</span>Purebloods match humans in average size and weight. Your size is Medium.<br/> <span class=\"feature\">Speed.</span>Your base walking speed is 30 feet.<br/> <span class=\"feature\">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/> <span class=\"feature\">Innate Spellcasting.</span>You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.<br/> <span class=\"feature\">Magic Resistance.</span>You have advantage on saving throws against spells and other magical effects.<br/> <span class=\"feature\">Poison Immunity.</span>You are immune to poison damage and the poisoned condition.<br/> <span class=\"feature\">Languages.</span>You can speak, read, and write Common, Abyssal, and Draconic.<br/> </p>",
+      "id": "ID_WOTC_VGTM_RACE_YUANTI_PUREBLOOD",
+      "name": "Yuan-Ti Pureblood",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_LANGUAGE_ABYSSAL",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_LANGUAGE_DRACONIC",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_INNATE_SPELLCASTING",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_MAGIC_RESISTANCE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_POISON_IMMUNITY",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Yuan-Ti Pureblood)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Yuan-Ti Pureblood)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "number": "3",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "charisma",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "name": "intelligence",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Mektla, Zsolshih, Netstlia, Simal, Zsazshi, Zsoamish, Zhaktlishu, Hozsehsass, Zukholli, Yilshashlu, Yala, Totsziss",
+            "name": "names",
+            "type": "custom"
+          },
+          {
+            "description": "{{custom}}",
+            "name": "names-format"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Volo's Guide to Monsters",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.</p>",
+      "id": "ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_INNATE_SPELLCASTING",
+      "name": "Innate Spellcasting",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_POISON_SPRAY",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_ANIMAL_FRIENDSHIP",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SUGGESTION",
+            "level": "3",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": "You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. (Charisma) You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. You can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. (Charisma)",
+      "source": "Volo's Guide to Monsters",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have advantage on saving throws against spells and other magical effects.</p>",
+      "id": "ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_MAGIC_RESISTANCE",
+      "name": "Magic Resistance",
+      "sheet": "You have advantage on saving throws against spells and other magical effects.",
+      "source": "Volo's Guide to Monsters",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are immune to poison damage and the poisoned condition.</p>",
+      "id": "ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_POISON_IMMUNITY",
+      "name": "Poison Immunity",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON",
+          "type": "Condition"
+        }
+      },
+      "sheet": "You are immune to the poisoned condition.",
+      "source": "Volo's Guide to Monsters",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters"
+    },
+    "description": "The monstrous-adventurers from Volo's Guide to Monsters.",
+    "name": "Yuan-Ti Pureblood",
+    "update": {
+      "file": {
+        "name": "race-yuantipureblood.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-yuantipureblood.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "element": [
+    {
+      "description": "<p>Minecraft creepers have come to D&amp;D, and they're eager to detonate at your next session. This supplement brings five iconic mobs from the Minecraft game to D&amp;D, including the blaze, creeper, ender dragon, enderman, and wolf of the overworld.</p>",
+      "id": "ID_WOTC_SOURCE_MONSTROUS_COMPENDIUM_THREE",
+      "name": "Monstrous Compendium Volume Three: Minecraft Creatures",
+      "setters": {
+        "set": [
+          {
+            "description": "MCV3",
+            "name": "abbreviation"
+          },
+          {
+            "description": "https://www.dndbeyond.com/claim/source/minecraft-creatures-monstrous-compendium",
+            "name": "url"
+          },
+          {
+            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/MCV3.png",
+            "name": "image"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast, Mojang Studios, D&D Beyond",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "supplement"
+          },
+          {
+            "description": "20230328",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>Typically spoken by endermen.</p>",
+      "id": "ID_WOTC_MCV3_LANGUAGE_ENDSPEECH",
+      "name": "Endspeech",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "monster"
+          },
+          {
+            "description": "Endermen",
+            "name": "speakers"
+          },
+          {
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Monstrous Compendium Volume Three: Minecraft Creatures",
+      "supports": "Monster",
+      "type": "Language"
+    },
+    {
+      "description": "<p>An <i>End crystal</i> is a Large object that has Armor Class 11; 30 hit points; vulnerability to bludgeoning and thunder damage; resistance to piercing and slashing damage; and immunity to poison and psychic damage. When a crystal is destroyed, it explodes in a 20-foot-radius sphere of destructive energy. Any creature in that area must make a DC 15 Dexterity saving throw, taking 21 (6d6) force damage on a failed save, or half as much damage on a successful one.</p>",
+      "id": "ID_WOTC_MCV3_MAGIC_ITEM_END_CRYSTAL",
+      "name": "End Crystal",
+      "setters": {
+        "set": [
+          {
+            "description": "dexterity, save, saving throw, force, damage",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Wondrous Item",
+            "name": "type"
+          },
+          {
+            "description": "Unknown",
+            "name": "rarity"
+          }
+        ]
+      },
+      "source": "Monstrous Compendium Volume Three: Minecraft Creatures",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>A creature can throw the pearl up to 60 feet; if the pearl lands in an unoccupied space big enough to contain the creature, the creature teleports to that space, along with any equipment it is wearing or carrying, and the pearl disappears.</p>",
+      "id": "ID_WOTC_MCV3_MAGIC_ITEM_ENDER_PEARL",
+      "name": "Ender Pearl",
+      "setters": {
+        "set": [
+          {
+            "description": "teleport",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "500",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Wondrous Item",
+            "name": "type"
+          },
+          {
+            "description": "Unknown",
+            "name": "rarity"
+          }
+        ]
+      },
+      "source": "Monstrous Compendium Volume Three: Minecraft Creatures",
+      "type": "Magic Item"
+    },
+    {
+      "description": "",
+      "id": "ID_WOTC_MCV3_COMPANION_WOLF_OF_THE_OVERWORLD",
+      "name": "Wolf of the Overworld",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "11"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "double",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "13 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "11 (2d8+2)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "12",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "12",
+            "name": "constitution"
+          },
+          {
+            "description": "3",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "Perception +5, Stealth +4",
+            "name": "skills"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "1/4",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_MCV3_COMPANION_TRAIT_WOLF_OF_THE_OVERWORLD_PACK_TACTICS",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_MCV3_COMPANION_ACTION_WOLF_OF_THE_OVERWORLD_BITE",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Monstrous Compendium Volume Three: Minecraft Creatures",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the incapacitated condition.</p>",
+      "id": "ID_WOTC_MCV3_COMPANION_TRAIT_WOLF_OF_THE_OVERWORLD_PACK_TACTICS",
+      "name": "Pack Tactics",
+      "sheet": "The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the incapacitated condition.",
+      "source": "Monstrous Compendium Volume Three: Minecraft Creatures",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p><i>Melee Weapon Attack:</i> +4 to hit; reach 5 ft., one target. <i>Hit:</i> 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or have the prone condition.</p>",
+      "id": "ID_WOTC_MCV3_COMPANION_ACTION_WOLF_OF_THE_OVERWORLD_BITE",
+      "name": "Bite",
+      "sheet": "Melee Weapon Attack: +4 to hit; reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or have the prone condition.",
+      "source": "Monstrous Compendium Volume Three: Minecraft Creatures",
+      "type": "Companion Action"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "monstrous-compendium-3.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/monstrous-compendium-3.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

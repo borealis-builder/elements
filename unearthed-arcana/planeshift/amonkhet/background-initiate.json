@@ -1,0 +1,206 @@
+{
+  "element": [
+    {
+      "description": "<p>You are an initiate, on the path to completing the trials of the five gods in the hope of earning a glorified death in the final Trial of Zeal. Some combination of your natural aptitude, your crop's needs, and your teachers' assessment while you were an acolyte led you to focus your training in one particular area of specialization— hand-to-hand combat, long-range combat, or spellcasting. But only a well-rounded initiate can be called truly worthy of the afterlife.</p> <p class=\"indent\">If you are a hand-to-hand specialist, consider the barbarian, fighter, monk, paladin, or rogue classes. As a long-range combat specialist, you might be a fighter, a ranger, or a rogue. If you are a spellcasting specialist, you might be a bard, sorcerer, or wizard. And beyond this initial choice, you might consider multiclassing or using feats to round out your skills in all three areas.</p> <p> <span class=\"emphasis\">Skill Proficiencies:</span>Athletics, Intimidation<br /> <span class=\"emphasis\">Tool Proficiencies:</span>One type of gaming set, vehicles (land)<br /> <span class=\"emphasis\">Equipment:</span>A simple puzzle box, a scroll containing the basic teachings of the five gods, a gaming set, a set of common clothes, and a belt pouch containing 15 gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned. </p> <div element=\"ID_WOTC_PSA_BACKGROUND_INITIATE_FEATURE_TRIAL_OF_THE_FIVE_GODS\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>An initiate's life is focused on the trials, but it doesn't need to be all about the trials. Though some initiates are highly focused on their training, most undergo that training while also experiencing joy, sorrow, love, loss, anger, jealousy, hope, faith, delight—the whole range of mortal emotions and experience. The afterlife might be a constant presence in every initiate's mind, but it is the culmination of a life well-lived—not a replacement for it.</p>",
+      "id": "ID_WOTC_PSA_BACKGROUND_INITIATE",
+      "name": "Initiate",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_INTIMIDATION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_PSA_BACKGROUND_INITIATE_FEATURE_TRIAL_OF_THE_FIVE_GODS",
+            "requirements": "!ID_WOCT_PSA_BACKGROUND_FEATURE_DISSENTER_SHELTER_OF_DISSENTERS",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Gaming Set (Initiate)",
+            "supports": "Gaming Set",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Initiate",
+            "optional": "true",
+            "supports": "Background Variant, Vizier",
+            "type": "Background Variant"
+          },
+          {
+            "item": [
+              {
+                "description": "I always have a joke on hand when the mood gets too serious.",
+                "id": "1"
+              },
+              {
+                "description": "I use sarcasm and insults to keep a distance between myself and my crop-mates, because I don't want to get attached to them.",
+                "id": "2"
+              },
+              {
+                "description": "I'll settle for nothing less than perfection—in myself, in my crop- mates, in everything.",
+                "id": "3"
+              },
+              {
+                "description": "I'm so focused on the glorious afterlife that nothing in this life can shake my calm resolve.",
+                "id": "4"
+              },
+              {
+                "description": "I enjoy using my skills to help those who lack those same skills.",
+                "id": "5"
+              },
+              {
+                "description": "I train hard so that I can play hard at the end of the day. I fully expect to play even harder in the glorious afterlife, but I'm not in a hurry to get there.",
+                "id": "6"
+              },
+              {
+                "description": "I'm perfectly happy letting others pick up the slack for me while I take it easy.",
+                "id": "7"
+              },
+              {
+                "description": "I'm constantly sizing up everyone around me, thinking about what kind of opponent they'll be in the final trial.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Solidarity. The thing that matters most of all is that we're there for each other. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Knowledge. The world is a puzzle—a mystery waiting to be solved. (Neutral)",
+                "id": "2"
+              },
+              {
+                "description": "Strength. All that matters to me is my own perfection. Let everyone else seek that perfection in their own way. (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Ambition. I'm going to prove that I deserve only the best—of everything. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Zeal. Anything worth doing is worth throwing my whole self into. (Any)",
+                "id": "5"
+              },
+              {
+                "description": "Redemption. I will train all the harder to make up for the doubt I entertained when I was younger. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "One of my crop-mates is my dearest friend, and I hope we will face each other in the final trial.",
+                "id": "1"
+              },
+              {
+                "description": "I am in love with a vizier.",
+                "id": "2"
+              },
+              {
+                "description": "I am particularly drawn to one of the five gods, and I want nothing more than to win that god's particular favor.",
+                "id": "3"
+              },
+              {
+                "description": "I am more devoted to Naktamun and its people than I am to any of the ideals of the gods.",
+                "id": "4"
+              },
+              {
+                "description": "My weapon was a gift from a beloved trainer who died in an accident.",
+                "id": "5"
+              },
+              {
+                "description": "I carry a memento of my time as an acolyte, and I treasure it above all other things.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm easily distracted by an attractive person, which could be the death of me in the trials.",
+                "id": "1"
+              },
+              {
+                "description": "I really wanted to be a vizier, and I'm angry at the god who didn't choose me.",
+                "id": "2"
+              },
+              {
+                "description": "Training for a lifetime to die in the end seems like a big waste of energy.",
+                "id": "3"
+              },
+              {
+                "description": "I'm not at all sure I'll be able to grant a glorified death to any of my crop-mates.",
+                "id": "4"
+              },
+              {
+                "description": "I have a lasting grudge against one of my crop-mates, and each of us wants to see the other fail.",
+                "id": "5"
+              },
+              {
+                "description": "I think I've figured out that this world is not what it seems. Something dark is going on here.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Intimidation, Gaming Set, Vehicles (Land)",
+          "name": "short"
+        }
+      },
+      "source": "Plane Shift: Amonkhet",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Your life is oriented around your participation in the five trials that will determine your worthiness in the afterlife. While you prepare for and undergo those tri- als, you have constant access to training. A comfortable place to live and regular meals are provided to you by servitor mummies (the anointed) under the supervision of viziers. You can enjoy these benefits only as long as you obey the societal norms of Naktamun—training for the trials (with or without your crop), obeying the orders of the gods, and following the instructions of their viziers. If you violate these norms, you risk being treated as a dissenter. See “Trials of the Five Gods” for more information about undertaking the trials and their rewards.</p>",
+      "id": "ID_WOTC_PSA_BACKGROUND_INITIATE_FEATURE_TRIAL_OF_THE_FIVE_GODS",
+      "name": "Feature: Trial of the Five Gods",
+      "sheet": {
+        "alt": "Trial of the Five Gods"
+      },
+      "source": "Plane Shift: Amonkhet",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "https://media.wizards.com/2017/downloads/magic/plane-shift_amonkhet.pdf"
+    },
+    "description": "Plane Shift: Amonkhet",
+    "name": "Plane Shift: Amonkhet",
+    "update": {
+      "file": {
+        "name": "background-initiate.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/background-initiate.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

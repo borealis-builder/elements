@@ -1,0 +1,59 @@
+{
+  "info": {
+    "name": "The Book of Many Things",
+    "description": "",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "https://dndstore.wizards.com/us/product/865604/the-deck-of-many-things-digital-plus-physical-bundle"
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "the-book-of-many-things.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/source.json"
+    },
+    {
+      "name": "background-rewarded.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/backgrounds/background-rewarded.json"
+    },
+    {
+      "name": "background-ruined.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/backgrounds/background-ruined.json"
+    },
+    {
+      "name": "companions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/companions.json"
+    },
+    {
+      "name": "feats.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/feats.json"
+    },
+    {
+      "name": "items-gifts.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/items-gifts.json"
+    },
+    {
+      "name": "items-magic.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/items-magic.json"
+    },
+    {
+      "name": "spells.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/spells.json"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "element": [
+    {
+      "description": "<p>When a beloved animal companion dies traumatically alongside its master, the beast might rise again as an Undead. Falcons, ravens, and other birds of prey that suffer this fate are known as harrow hawks, and they prowl abandoned battlefields and cemeteries, looking for corpses to eat and living creatures to hunt. A harrow hawk can even travel the multiverse, flying magically from one world to another.</p> <p class=\"indent\">The Grim Harrow—a band of Undead beings created by the Deck of Many Things (see chapter 19)—seeks out harrow hawks, capturing them and training them as hunting animals. The Grim Harrow dispatches these Undead companions from the Gardens of Decay to search for Decks of Many Things. On harrowing hunts, harrow hawks scout for the prey and accompany the Grim Harrow in battle.</p>",
+      "id": "ID_WOTC_BOMT_COMPANION_HARROW_HAWK",
+      "name": "Harrow Hawk",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "25"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "60"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "double",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Tiny",
+            "name": "size"
+          },
+          {
+            "description": "Undead",
+            "name": "type"
+          },
+          {
+            "description": "Unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "13",
+            "name": "ac"
+          },
+          {
+            "description": "25 (10d4)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 60 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "5",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "10",
+            "name": "constitution"
+          },
+          {
+            "description": "2",
+            "name": "intelligence"
+          },
+          {
+            "description": "14",
+            "name": "wisdom"
+          },
+          {
+            "description": "7",
+            "name": "charisma"
+          },
+          {
+            "description": "Perception +6, Stealth +5",
+            "name": "skills"
+          },
+          {
+            "description": "poison",
+            "name": "immunities"
+          },
+          {
+            "description": "exhaustion, poisoned",
+            "name": "conditionImmunities"
+          },
+          {
+            "description": "darkvision 120 ft., passive Perception 16",
+            "name": "senses"
+          },
+          {
+            "description": "—",
+            "name": "languages"
+          },
+          {
+            "description": "1",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_TALONS,ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_PLANE_SHIFT,ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_SHADOW_DASH",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "The Book of Many Things",
+      "supports": "Variant Familiar",
+      "type": "Companion"
+    },
+    {
+      "description": "<p><i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 8 (2d4 + 3) slashing damage plus 3 (1d6) necrotic damage.</p>",
+      "id": "ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_TALONS",
+      "name": "Talons",
+      "sheet": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage plus 3 (1d6) necrotic damage.",
+      "source": "The Book of Many Things",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>The hawk casts Plane Shift on itself, requiring no spell components and using Wisdom as the spellcasting ability.</p>",
+      "id": "ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_PLANE_SHIFT",
+      "name": "Plane Shift",
+      "sheet": {
+        "content": "The hawk casts Plane Shift on itself, requiring no spell components and using Wisdom as the spellcasting ability.",
+        "usage": "2/Day"
+      },
+      "source": "The Book of Many Things",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>When the hawk is in dim light or darkness, it teleports up to 30 feet to an unoccupied space it can see that is also in dim light or darkness. The hawk then has advantage on the first melee attack it makes before the end of the turn.</p>",
+      "id": "ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_SHADOW_DASH",
+      "name": "Shadow Dash",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "When the hawk is in dim light or darkness, it teleports up to 30 feet to an unoccupied space it can see that is also in dim light or darkness. The hawk then has advantage on the first melee attack it makes before the end of the turn."
+      },
+      "source": "The Book of Many Things",
+      "type": "Companion Action"
+    }
+  ],
+  "info": {
+    "description": "Creatures from The Book of Many Things, that fit rules for Companions or Familiars",
+    "name": "Companion",
+    "update": {
+      "file": {
+        "name": "companions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/companions.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

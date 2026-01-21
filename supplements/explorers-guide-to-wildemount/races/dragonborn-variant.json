@@ -1,0 +1,150 @@
+{
+  "element": [
+    {
+      "description": "<p>Draconbloods possess long tails and a knack for social manipulation. They remember the days when they were once mighty conquerors.</p> <p class=\"indent\">A draconblood uses the dragonborn traits in the Player's Handbook, with the following traits replacing the Ability Score increase, and Damage Resistance traits.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2, and your Charisma score increases by 1.</p> <p class=\"indent\"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p> <p class=\"indent\"><strong><em>Forceful Presence.</em></strong> You can use your understanding of creative diplomacy or intimidation to guide a conversation in your favor. When you make a Charisma (Intimidation or Persuasion) check, you can do so with advantage. Once you use this trait you can't do so again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_EGTW_RACE_VARIANT_DRAGONBORN_DRACONBLOOD",
+      "name": "Draconblood",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_WOTC_EGTW_RACIAL_TRAIT_DRACONBLOOD_FORCEFUL_PRESENCE",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Draconblood)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Draconblood)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          }
+        ],
+        "stat": [
+          {
+            "name": "intelligence",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "name": "charisma",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Draconblood",
+        "display": "false"
+      },
+      "source": "Explorer's Guide to Wildemount",
+      "supports": "Dragonborn",
+      "type": "Race Variant"
+    },
+    {
+      "description": "<p>You can use your understanding of creative diplomacy or intimidation to guide a conversation in your favor. When you make a Charisma (Intimidation or Persuasion) check, you can do so with advantage. Once you use this trait you can't do so again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_EGTW_RACIAL_TRAIT_DRACONBLOOD_FORCEFUL_PRESENCE",
+      "name": "Forceful Presence",
+      "sheet": {
+        "content": "When you make a Intimidation or Persuasion check, you can do so with advantage.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Explorer's Guide to Wildemount",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Ravenites have no tails and a hearty physique. They remember the days when they were slaves to the draconblood, as well as the day when they overthrew their masters.</p> <p class=\"indent\">A ravenite uses the dragonborn traits in the Player's Handbook, with the following traits replacing the Ability Score increase, and Damage Resistance traits.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Constitution score increases by 1.</p> <p class=\"indent\"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p> <p class=\"indent\"><strong><em>Vengeful Assault.</em></strong> When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack with the weapon against the creature. Once you use this trait, you can't do so again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_EGTW_RACE_VARIANT_DRAGONBORN_RAVENITE",
+      "name": "Ravenite",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_WOTC_EGTW_RACIAL_TRAIT_RAVENITE_VENGEFUL_ASSAULT",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Ravenite)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Ravenite)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          }
+        ],
+        "stat": [
+          {
+            "name": "strength",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "name": "constitution",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Ravenite",
+        "display": "false"
+      },
+      "source": "Explorer's Guide to Wildemount",
+      "supports": "Dragonborn",
+      "type": "Race Variant"
+    },
+    {
+      "description": "<p>When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack with the weapon against the creature. Once you use this trait, you can't do so again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_EGTW_RACIAL_TRAIT_RAVENITE_VENGEFUL_ASSAULT",
+      "name": "Vengeful Assault",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you take damage from a creature in range of a weapon you are wielding, you can make an attack with the weapon against the creature.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Explorer's Guide to Wildemount",
+      "type": "Racial Trait"
+    },
+    {
+      "id": "ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT",
+      "name": "Dragonborn Variant",
+      "source": "Explorer's Guide to Wildemount",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "dragonborn-variant.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/races/dragonborn-variant.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

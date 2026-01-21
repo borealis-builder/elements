@@ -1,0 +1,438 @@
+{
+  "element": [
+    {
+      "description": "<p>Typically spoken by humans.</p>",
+      "id": "ID_LANGUAGE_COMMON",
+      "name": "Common",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Humans",
+            "name": "speakers"
+          },
+          {
+            "description": "Common",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by dwarves.</p>",
+      "id": "ID_LANGUAGE_DWARVISH",
+      "name": "Dwarvish",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Dwarves",
+            "name": "speakers"
+          },
+          {
+            "description": "Dwarvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by elves.</p>",
+      "id": "ID_LANGUAGE_ELVISH",
+      "name": "Elvish",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Elves",
+            "name": "speakers"
+          },
+          {
+            "description": "Elvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by ogres and giants.</p>",
+      "id": "ID_LANGUAGE_GIANT",
+      "name": "Giant",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Ogres, giants",
+            "name": "speakers"
+          },
+          {
+            "description": "Dwarvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by gnomes.</p>",
+      "id": "ID_LANGUAGE_GNOMISH",
+      "name": "Gnomish",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Gnomes",
+            "name": "speakers"
+          },
+          {
+            "description": "Dwarvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by goblinoids.</p>",
+      "id": "ID_LANGUAGE_GOBLIN",
+      "name": "Goblin",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Goblinoids",
+            "name": "speakers"
+          },
+          {
+            "description": "Dwarvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by halflings.</p>",
+      "id": "ID_LANGUAGE_HALFLING",
+      "name": "Halfling",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Halflings",
+            "name": "speakers"
+          },
+          {
+            "description": "Common",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by orcs.</p>",
+      "id": "ID_LANGUAGE_ORC",
+      "name": "Orc",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "standard"
+          },
+          {
+            "description": "Orcs",
+            "name": "speakers"
+          },
+          {
+            "description": "Dwarvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Standard",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by demons.</p>",
+      "id": "ID_LANGUAGE_ABYSSAL",
+      "name": "Abyssal",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Demons",
+            "name": "speakers"
+          },
+          {
+            "description": "Infernal",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by celestials</p>",
+      "id": "ID_LANGUAGE_CELESTIAL",
+      "name": "Celestial",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Celestials",
+            "name": "speakers"
+          },
+          {
+            "description": "Celestial",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by mind flayers and beholders.</p>",
+      "id": "ID_LANGUAGE_DEEP_SPEECH",
+      "name": "Deep Speech",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Mind flayers, beholders",
+            "name": "speakers"
+          },
+          {
+            "description": "—",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by dragons and dragonborn.</p>",
+      "id": "ID_LANGUAGE_DRACONIC",
+      "name": "Draconic",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Dragons, dragonborn",
+            "name": "speakers"
+          },
+          {
+            "description": "Draconic",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by devils.</p>",
+      "id": "ID_LANGUAGE_INFERNAL",
+      "name": "Infernal",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Devils",
+            "name": "speakers"
+          },
+          {
+            "description": "Infernal",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by elementals.</p> <p>The Primordial language includes the Auran, Aquan, Ignan, and Terran dialects, one for each of the four elemental planes.</p>",
+      "id": "ID_LANGUAGE_PRIMORDIAL",
+      "name": "Primordial",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Elementals",
+            "name": "speakers"
+          },
+          {
+            "description": "Dwarvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by fey creatures.</p>",
+      "id": "ID_LANGUAGE_SYLVAN",
+      "name": "Sylvan",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Fey creatures",
+            "name": "speakers"
+          },
+          {
+            "description": "Elvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>Typically spoken by underdark traders.</p>",
+      "id": "ID_LANGUAGE_UNDERCOMMON",
+      "name": "Undercommon",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Underdark traders",
+            "name": "speakers"
+          },
+          {
+            "description": "Elvish",
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>The secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</p>",
+      "id": "ID_LANGUAGE_DRUIDIC",
+      "name": "Druidic",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "secret"
+          },
+          {
+            "description": "Druids",
+            "name": "speakers"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Secret",
+      "type": "Language"
+    },
+    {
+      "description": "<p>A secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</p>",
+      "id": "ID_WOTC_PHB_LANGUAGE_THIEVES_CANT",
+      "name": "Thieves' Cant",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "secret"
+          },
+          {
+            "description": "Rogues",
+            "name": "speakers"
+          }
+        ]
+      },
+      "source": "Player's Handbook",
+      "supports": "Secret",
+      "type": "Language"
+    }
+  ],
+  "info": {
+    "name": "Languages",
+    "update": {
+      "file": {
+        "name": "languages.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/languages.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

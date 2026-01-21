@@ -1,0 +1,559 @@
+{
+  "element": [
+    {
+      "description": "<p>The Eberron campaign setting was created by Keith Baker and first published for D&amp;D in 2004. It combines pulp adventure and intrigue in a world where magic-driven technology has produced airships, trains, and similar advancements comparable to early 20th-century Europe. The continent of Khorvaire, the center of Eberron's focus, has recently emerged from the Last War, a terrible conflict that saw the kingdom of Cyre transformed into a lifeless gray wasteland called the Mournland. That catastrophe shocked the remaining kingdoms into an uneasy peace that has held so far.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20150202",
+      "name": "Unearthed Arcana: Eberron",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20150202",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/articles/unearthed-arcana/unearthed-arcana-eberron",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "20150202",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p class=\"flavor\">Changelings are subtle shapeshifters capable of disguising their appearance. Their ability to adopt other creatures' guises makes them consummate spies and criminals.</p> <p>As a changeling, you have the following racial traits.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Dexterity and Charisma scores increase by 1.<br/> <span class=\"feature\">Size.</span>Changelings are built much like humans, but a little leaner. Your size is Medium.<br/> <span class=\"feature\">Speed.</span>Your base walking speed is 30 feet.<br/> <span class=\"feature\">Duplicity.</span>You gain proficiency in the Deception skill.<br/> <span class=\"feature\">Shapechanger.</span>As an action, you can polymorph into any humanoid of your size that you have seen, or back into your true form. However, your equipment does not change with you. If you die, you revert to your natural appearance.<br/> <span class=\"feature\">Languages.</span>You can speak, read, and write Common and two other languages of your choice.<br/> </p>",
+      "id": "ID_WOTC_UA_RACE_CHANGELING",
+      "name": "Changeling",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_WOTC_UA_RACIAL_TRAIT_DUPLICITY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_UA_RACIAL_TRAIT_SHAPECHANGER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +1 (Changeling)",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Changeling)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "dexterity",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "name": "charisma",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Bin, Dox, Fie, Hars, Jin, Lam, Nit, Ot, Paik, Ruz, Sim, Toox, Yog",
+            "name": "names",
+            "type": "male"
+          },
+          {
+            "description": "Bin, Dox, Fie, Hars, Jin, Lam, Nit, Ot, Paik, Ruz, Sim, Toox, Yog",
+            "name": "names",
+            "type": "female"
+          },
+          {
+            "description": "{{name}}",
+            "name": "names-format",
+            "type": "male"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You gain proficiency in the Deception skill.</p>",
+      "id": "ID_WOTC_UA_RACIAL_TRAIT_DUPLICITY",
+      "name": "Duplicity",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_DECEPTION",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Customized Skill Proficiency",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You gain proficiency in the Deception skill.",
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>As an action, you can polymorph into any humanoid of your size that you have seen, or back into your true form. However, your equipment does not change with you. If you die, you revert to your natural appearance.</p>",
+      "id": "ID_WOTC_UA_RACIAL_TRAIT_SHAPECHANGER",
+      "name": "Shapechanger",
+      "sheet": {
+        "action": "Action",
+        "content": "You can polymorph into any humanoid of your size that you have seen, or back into your true form. However, your equipment does not change with you. If you die, you revert to your natural appearance."
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p class=\"flavor\">Shifters are descended from humans and lycanthropes. Although they cannot fully change to animal form, they can take on animalistic features by a process they call shifting.</p> <p>As a shifter, you have the following racial traits.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Dexterity score increases by 1.<br/> <span class=\"feature\">Size.</span>Shifters are about the same size as humans. Your size is Medium.<br/> <span class=\"feature\">Speed.</span>Your base walking speed is 30 feet.<br/> <span class=\"feature\">Darkvision.</span>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/> <span class=\"feature\">Shifting.</span>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.<br/>While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your shifter subrace, described below.<br/>You must finish a short or long rest before you can shift again.<br/> <span class=\"feature\">Languages.</span>You can speak, read, and write Common and Sylvan.<br/> <span class=\"feature\">Subrace.</span>Several subraces of shifter exist, each with its own animalistic features. Choose one of the options below.<br/> </p> <div element=\"ID_WOTC_UA_SUBRACE_BEASTHIDE\" /> <div element=\"ID_WOTC_UA_SUBRACE_Cliffwalk\" /> <div element=\"ID_WOTC_UA_SUBRACE_Longstride\" /> <div element=\"ID_WOTC_UA_SUBRACE_Longtooth\" /> <div element=\"ID_WOTC_UA_SUBRACE_Razorclaw\" /> <div element=\"ID_WOTC_UA_SUBRACE_Wildhunt\" />",
+      "id": "ID_WOTC_UA_RACE_SHIFTER",
+      "name": "Shifter",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_WOTC_UA_RACIAL_TRAIT_SHIFTING",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_UA_RACIAL_TRAIT_SHIFTER_SUBRACE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_LANGUAGE_SYLVAN",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +1 (Shifter)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "dexterity",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Silver, Void, Vermin, Vapor, Marsh, Surge, Kindle, Badger, Void, Gust, Steam, Cliff, Magma, Magma, Frostbite, Fury, Bog, Spine, Thistle, Ash",
+            "name": "names",
+            "type": "male"
+          },
+          {
+            "description": "Coral, Marigold, Nutmeg, Floret, Evening, Saffron, Cloud, Fern, Twilight, Opal, Shade, Violet, Scarlet, Ember, Willow, Fern, Twig, Wind, Tiger, Stardust",
+            "name": "names",
+            "type": "female"
+          },
+          {
+            "description": "{{name}}",
+            "name": "names-format",
+            "type": "male"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "type": "Race"
+    },
+    {
+      "description": "<p>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.</p> <p class=\"indent\">While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your shifter subrace, described below.</p> <p class=\"indent\">You must finish a short or long rest before you can shift again.</p>",
+      "id": "ID_WOTC_UA_RACIAL_TRAIT_SHIFTING",
+      "name": "Shifting",
+      "rules": {
+        "stat": [
+          {
+            "name": "shifting:temp:hp",
+            "value": "level"
+          },
+          {
+            "bonus": "base",
+            "name": "shifting:temp:hp",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "shifting:temp:hp",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "On your turn, you can shift. Shifting lasts for 1 minute or until you end it on your turn as a bonus action. While shifting, you gain {{shifting:temp:hp}} temporary hit points. You must finish a short or long rest before you can shift again."
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Several subraces of shifter exist, each with its own animalistic features. Choose one of the options below.</p>",
+      "id": "ID_WOTC_UA_RACIAL_TRAIT_SHIFTER_SUBRACE",
+      "name": "Shifter Subrace",
+      "rules": {
+        "select": {
+          "name": "Shifter Subrace",
+          "supports": "UA Shifter",
+          "type": "Sub Race"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>As a beasthide shifter, you are especially tough and persistent in battle.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Constitution score increases by 1.<br/> <span class=\"feature\">Shifting Feature.</span>While shifting, you gain a +1 bonus to AC.<br/> </p>",
+      "id": "ID_WOTC_UA_SUBRACE_BEASTHIDE",
+      "name": "Beasthide Shifter",
+      "rules": {
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Beasthide)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "constitution",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": "While shifting, you gain a +1 bonus to AC.",
+      "source": "Unearthed Arcana: Eberron",
+      "supports": "UA Shifter",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>Your cliffwalk heritage grants you the agility of a mountain goat.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Dexterity score increases by 1.<br/> <span class=\"feature\">Shifting Feature.</span>While shifting, you gain a climb speed of 30 feet.<br/> </p>",
+      "id": "ID_WOTC_UA_SUBRACE_Cliffwalk",
+      "name": "Cliffwalk Shifter",
+      "rules": {
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Cliffwalk)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "dexterity",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": "While shifting, you gain a climb speed of 30 feet.",
+      "source": "Unearthed Arcana: Eberron",
+      "supports": "UA Shifter",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>Longstride shifters are fleet and elusive.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Dexterity score increases by 1.<br/> <span class=\"feature\">Shifting Feature.</span>While shifting, you can use the Dash action as a bonus action.<br/> </p>",
+      "id": "ID_WOTC_UA_SUBRACE_Longstride",
+      "name": "Longstride Shifter",
+      "rules": {
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Longstride)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "dexterity",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "While shifting, you can use the Dash action."
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "supports": "UA Shifter",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>As a longtooth shifter, you are a ferocious combatant.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Strength score increases by 1.<br/> <span class=\"feature\">Shifting Feature.</span>While shifting, you can make a bite attack as an action. This is a melee weapon attack that uses Strength for its attack roll and damage bonus and deals 1d6 piercing damage. If this attack hits a target that is your size or smaller, the target is also grappled.<br/> </p>",
+      "id": "ID_WOTC_UA_SUBRACE_Longtooth",
+      "name": "Longtooth Shifter",
+      "rules": {
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Longtooth)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "strength",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Action",
+        "content": "While shifting, you can make a bite attack. This is a melee weapon attack that uses Strength for its attack roll and damage bonus and deals 1d6 piercing damage. If this attack hits a target that is your size or smaller, the target is also grappled."
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "supports": "UA Shifter",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>As a razorclaw shifter, you make swift, slashing strikes in battle.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Dexterity score increases by 1.<br/> <span class=\"feature\">Shifting Feature.</span>While shifting, you can make an unarmed strike as a bonus action. You can use your Dexterity for its attack roll and damage bonus, and this attack deals slashing damage.<br/> </p>",
+      "id": "ID_WOTC_UA_SUBRACE_Razorclaw",
+      "name": "Razorclaw Shifter",
+      "rules": {
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Razorclaw)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "dexterity",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "While shifting, you can make an unarmed strike. You can use your Dexterity for its attack roll and damage bonus, and this attack deals slashing damage."
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "supports": "UA Shifter",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>Your wildhunt heritage makes you a consummate tracker and survivor.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Wisdom score increases by 1.<br/> <span class=\"feature\">Shifting Feature.</span>While shifting, you gain advantage on all Wisdom-based checks and saving throws.<br/> </p>",
+      "id": "ID_WOTC_UA_SUBRACE_Wildhunt",
+      "name": "Wildhunt Shifter",
+      "rules": {
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Wildhunt)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "wisdom",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": "While shifting, you gain advantage on all Wisdom-based checks and saving throws.",
+      "source": "Unearthed Arcana: Eberron",
+      "supports": "UA Shifter",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p class=\"flavor\">The warforged were made as the ideal soldiers to serve in the devastating Last War. Although they are constructs, they have much in common with living creatures, including emotions and social bonds, and perhaps even souls.</p> <p>As a warforged, you have the following racial traits.</p> <p> <span class=\"feature\">Ability Score Increase.</span>Your Strength and Constitution scores increase by 1.<br/> <span class=\"feature\">Size.</span>Warforged are generally broader and heavier than humans. Your size is Medium.<br/> <span class=\"feature\">Speed.</span>Your base walking speed is 30 feet.<br/> <span class=\"feature\">Composite Plating.</span>Your construction incorporates wood and metal, granting you a +1 bonus to Armor Class.<br/> <span class=\"feature\">Living Construct.</span>Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.<br/>Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.<br/> <span class=\"feature\">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br/> </p>",
+      "id": "ID_WOTC_UA_RACE_WARFORGED",
+      "name": "Warforged",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_WOTC_UA_RACIAL_TRAIT_Composite_Plating",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_UA_RACIAL_TRAIT_Living_Construct",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +1 (Warforged)",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Warforged)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "strength",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "name": "constitution",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Ogler, Warden, Masker, Sunderer, Director, Slasher, Familiar, Abider, Beauty, Cannon, Menace, Ravager, Destroyer, Walker, Tester, Shredder, Bender, Handler",
+            "name": "names",
+            "type": "custom"
+          },
+          {
+            "description": "{{custom}}",
+            "name": "names-format",
+            "type": "custom"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "type": "Race"
+    },
+    {
+      "description": "<p>Your construction incorporates wood and metal, granting you a +1 bonus to Armor Class.</p>",
+      "id": "ID_WOTC_UA_RACIAL_TRAIT_Composite_Plating",
+      "name": "Composite Plating",
+      "rules": {
+        "stat": {
+          "name": "ac:misc",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "content": "Your construction incorporates wood and metal, granting you a +1 bonus to AC.",
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Eberron",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.</p> <p class=\"indent\">Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.</p>",
+      "id": "ID_WOTC_UA_RACIAL_TRAIT_Living_Construct",
+      "name": "Living Construct",
+      "sheet": "You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.",
+      "source": "Unearthed Arcana: Eberron",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana/unearthed-arcana-eberron"
+    },
+    "description": "The Eberron campaign setting was created by Keith Baker and first published for D&amp;D in 2004. It combines pulp adventure and intrigue in a world where magic-driven technology has produced airships, trains, and similar advancements comparable to early 20th-century Europe. The continent of Khorvaire, the center of Eberron's focus, has recently emerged from the Last War, a terrible conflict that saw the kingdom of Cyre transformed into a lifeless gray wasteland called the Mournland. That catastrophe shocked the remaining kingdoms into an uneasy peace that has held so far.",
+    "name": "Unearthed Arcana: Eberron",
+    "update": {
+      "file": {
+        "name": "20150202.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2015/20150202.json"
+      },
+      "version": "0.2.7"
+    }
+  }
+}

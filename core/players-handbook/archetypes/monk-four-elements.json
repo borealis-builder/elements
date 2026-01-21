@@ -1,0 +1,329 @@
+{
+  "element": [
+    {
+      "description": "<p>You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.</p> <p class=\"indent\">Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.</p> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_THE_FOUR_ELEMENTS_DISCIPLE_OF_THE_ELEMENTS\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_MONK_WAY_OF_THE_FOUR_ELEMENTS",
+      "name": "Way of the Four Elements",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_THE_FOUR_ELEMENTS_DISCIPLE_OF_THE_ELEMENTS",
+          "level": "3",
+          "type": "Archetype Feature"
+        }
+      },
+      "sheet": {
+        "content": "You follow a monastic tradition that teaches you to harness the elements.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Monastic Tradition",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.</p> <p class=\"indent\">You know the Elemental Attunement discipline and one other elemental discipline of your choice, which are detailed in the “Elemental Disciplines” section below. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.</p> <p class=\"indent\">Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</p> <p class=\"indent\"><strong><em>Casting Elemental Spells.</em></strong> Some elemental disciplines allow you to cast spells. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.</p> <p class=\"indent\">Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline's base cost of 2 ki points plus 1).</p> <p class=\"indent\">The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table.</p> <h5 class=\"caption\">SPELLS AND KI POINTS</h5> <table> <thead> <tr><td>Monk Levels</td><td>Maximum Ki Points for a Spell</td></tr> </thead> <tr><td>5th—8th</td><td><em>3</em></td></tr> <tr><td>9th—12th</td><td><em>4</em></td></tr> <tr><td>13th—16th</td><td><em>5</em></td></tr> <tr><td>17th—20th</td><td><em>6</em></td></tr> </table>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_THE_FOUR_ELEMENTS_DISCIPLE_OF_THE_ELEMENTS",
+      "name": "Disciple of the Elements",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_WAY_OF_THE_FOUR_ELEMENTS_DISCIPLE_OF_THE_ELEMENTS",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_ELEMENTAL_ATTUNEMENT",
+          "type": "Archetype Feature"
+        },
+        "select": [
+          {
+            "level": "3",
+            "name": "Elemental Discipline (Level 3)",
+            "supports": "Elemental Discipline",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "6",
+            "name": "Elemental Discipline (Level 6)",
+            "supports": "Elemental Discipline",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "11",
+            "name": "Elemental Discipline (Level 11)",
+            "supports": "Elemental Discipline",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "17",
+            "name": "Elemental Discipline (Level 17)",
+            "supports": "Elemental Discipline",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You learn magical disciplines that harness the power of the four elements. You can spend additional ki points (max 3) to increase the level of an elemental discipline spell that you cast. The spell's level increases by 1 for each additional ki point you spend. You can spend additional ki points (max 4) to increase the level of an elemental discipline spell that you cast. The spell's level increases by 1 for each additional ki point you spend. You can spend additional ki points (max 5) to increase the level of an elemental discipline spell that you cast. The spell's level increases by 1 for each additional ki point you spend. You can spend additional ki points (max 6) to increase the level of an elemental discipline spell that you cast. The spell's level increases by 1 for each additional ki point you spend.",
+        "usage": "Ki"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You can use your action to briefly control elemental forces within 30 feet of you, causing one of the following effects of your choice:</p> <ul> <li>Create a harmless, instantaneous sensory effect related to air, earth, fire, or water, such as a shower of sparks, a puff of wind, a spray of light mist, or a gentle rumbling of stone.</li> <li>Instantaneously light or snuff out a candle, a torch, or a small campfire.</li> <li>Chill or warm up to 1 pound of nonliving material for up to 1 hour.</li> <li>Cause earth, fire, water, or mist that can fit within a 1-foot cube to shape itself into a crude form you designate for 1 minute.</li> </ul>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_ELEMENTAL_ATTUNEMENT",
+      "name": "Elemental Attunement",
+      "sheet": {
+        "action": "Action",
+        "content": "You can briefly control elemental forces within 30 feet of you."
+      },
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 17th level</em></p> <p>You can spend 6 ki points to cast cone of cold.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_CONE_OF_COLD\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_BREATH_OF_WINTER",
+      "name": "Breath of Winter",
+      "requirements": "[level:17]",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_CONE_OF_COLD",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 6 ki points to cast cone of cold.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th level</em></p> <p>You can spend 3 ki points to cast hold person.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_HOLD_PERSON\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_CLENCH_OF_THE_NORTH_WIND",
+      "name": "Clench of the North Wind",
+      "requirements": "[level:6]",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_HOLD_PERSON",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 3 ki points to cast hold person.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 17th level</em></p> <p>You can spend 5 ki points to cast stoneskin, targeting yourself.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_STONESKIN\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_ETERNAL_MOUNTAIN_DEFENSE",
+      "name": "Eternal Mountain Defense",
+      "requirements": "[level:17]",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_STONESKIN",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 5 ki points to cast stoneskin, targeting yourself.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>When you use the Attack action on your turn, you can spend 1 ki point to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 10 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra 1d10 fire damage.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_FANGS_OF_THE_FIRE_SNAKE",
+      "name": "Fangs of the Fire Snake",
+      "sheet": "When you use the Attack action on your turn, you can spend 1 ki point to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 10 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra 1d10 fire damage.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You can spend 2 ki points to cast thunderwave</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_THUNDERWAVE\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_FIST_OF_FOUR_THUNDERS",
+      "name": "Fist of Four Thunders",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_THUNDERWAVE",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 2 ki points to cast thunderwave",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it prone. On a successful save, the creature takes half as much damage, and you don't push it or knock it prone.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_FIST_OF_UNBROKEN_AIR",
+      "name": "Fist of Unbroken Air",
+      "sheet": {
+        "action": "Action",
+        "content": "You can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it prone. On a successful save, the creature takes half as much damage, and you don't push it or knock it prone."
+      },
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 11th level</em></p> <p>You can spend 4 ki points to cast fireball.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_FIREBALL\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_FLAMES_OF_THE_PHOENIX",
+      "name": "Flames of the Phoenix",
+      "requirements": "[level:11]",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_FIREBALL",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 4 ki points to cast fireball.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th level</em></p> <p>You can spend 3 ki points to cast shatter.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_SHATTER\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_GONG_OF_THE_SUMMIT",
+      "name": "Gong of the Summit",
+      "requirements": "[level:6]",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_SHATTER",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 3 ki points to cast shatter.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 11th level</em></p> <p>You can spend 4 ki points to cast gaseous form, targeting yourself.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_GASEOUS_FORM\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_MIST_STANCE",
+      "name": "Mist Stance",
+      "requirements": "[level:11]",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_GASEOUS_FORM",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 4 ki points to cast gaseous form, targeting yourself.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 11th level</em></p> <p>You can spend 4 ki points to cast fly, targeting yourself.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_FLY\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_RIDE_THE_WIND",
+      "name": "Ride the Wind",
+      "requirements": "[level:11]",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_FLY",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 4 ki points to cast fly, targeting yourself.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 17th level</em></p> <p>You can spend 5 ki points to cast wall of fire.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_WALL_OF_FIRE\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_RIVER_OF_HUNGRY_FLAME",
+      "name": "River of Hungry Flame",
+      "requirements": "[level:17]",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_WALL_OF_FIRE",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 5 ki points to cast wall of fire.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You can spend 2 ki points to cast gust of wind.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_GUST_OF_WIND\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_RUSH_OF_THE_GALE_SPIRITS",
+      "name": "Rush of the Gale Spirits",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_GUST_OF_WIND",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 2 ki points to cast gust of wind.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>As an action, you can spend 1 ki point to choose an area of ice or water no larger than 30 feet on a side within 120 feet of you. You can change water to ice within the area and vice versa, and you can reshape ice in the area in any manner you choose. You can raise or lower the ice's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. For example, if you affect a 30-foot square, you can create a pillar up to 15 feet high, raise or lower the square's elevation by up to 15 feet, dig a trench up to 15 feet deep, and so on. You can't shape the ice to trap or injure a creature in the area.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_SHAPE_THE_FLOWING_RIVER",
+      "name": "Shape the Flowing River",
+      "sheet": {
+        "action": "Action",
+        "content": "You can spend 1 ki point to shape an area of ice or water no larger than 30 feet on a side within 120 feet of you. You can't shape the ice to trap or injure a creature in the area."
+      },
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You can spend 2 ki points to cast burning hands.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_BURNING_HANDS\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_SWEEPING_CINDER_STRIKE",
+      "name": "Sweeping Cinder Strike",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_BURNING_HANDS",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 2 ki points to cast burning hands.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You can spend 2 ki points as an action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it prone.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_WATER_WHIP",
+      "name": "Water Whip",
+      "sheet": {
+        "action": "Action",
+        "content": "You can spend 2 ki points to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it prone."
+      },
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 17th level</em></p> <p>You can spend 6 ki points to cast wall of stone.</p> <div class=\"reference\"> <div element=\"ID_PHB_SPELL_WALL_OF_STONE\" /> </div>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_WAVE_OF_ROLLING_EARTH",
+      "name": "Wave of Rolling Earth",
+      "requirements": "[level:17]",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_WALL_OF_STONE",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can spend 6 ki points to cast wall of stone.",
+      "source": "Player's Handbook",
+      "supports": "Elemental Discipline",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_MONK_WAY_OF_THE_FOUR_ELEMENTS_DISCIPLE_OF_THE_ELEMENTS",
+      "name": "Disciple of the Elements Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "name": "",
+    "update": {
+      "file": {
+        "name": "monk-four-elements.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/monk-four-elements.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

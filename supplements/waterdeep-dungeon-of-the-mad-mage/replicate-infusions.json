@@ -1,0 +1,40 @@
+{
+  "element": [
+    {
+      "description": "<p>Using this infusion, you can replicate a Chest of Preserving.</p> <div class=\"reference\"> <div element=\"ID_WOTC_WDMM_MAGIC_ITEM_CHEST_OF_PRESERVING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CHEST_OF_PRESERVING",
+      "name": "Chest of Preserving",
+      "sheet": "Using this infusion, you can replicate a Chest of Preserving.",
+      "source": "Waterdeep: Dungeon of the Mad Mage",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate an Orb of Gonging.</p> <div class=\"reference\"> <div element=\"ID_WOTC_WDMM_MAGIC_ITEM_ORB_OF_GONGING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_GONGING",
+      "name": "Orb of Gonging",
+      "sheet": "Using this infusion, you can replicate an Orb of Gonging.",
+      "source": "Waterdeep: Dungeon of the Mad Mage",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Using this infusion, you can replicate a Wyllow's Staff of Flowers.</p> <div class=\"reference\"> <div element=\"ID_WOTC_WDMM_MAGIC_ITEM_WYLLOWS_STAFF_OF_FLOWERS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WYLLOWS_STAFF_OF_FLOWERS",
+      "name": "Wyllow's Staff of Flowers",
+      "sheet": "Using this infusion, you can replicate a Wyllow's Staff of Flowers.",
+      "source": "Waterdeep: Dungeon of the Mad Mage",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "replicate-infusions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/replicate-infusions.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

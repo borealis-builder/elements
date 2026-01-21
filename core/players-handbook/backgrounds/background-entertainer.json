@@ -1,0 +1,271 @@
+{
+  "element": [
+    {
+      "description": "<p>You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Acrobatics, Performance</li> <li><strong>Tool Proficiencies:</strong> Disguise kit, one type of musical instrument</li> <li><strong>Equipment:</strong> musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), a costume, and a belt pouch containing 15 gp</li> </ul> <h5>ENTERTAINER ROUTINES</h5> <p>A good entertainer is versatile, spicing up every performance with a variety of different routines. Choose one to three routines or roll on the table below to define your expertise as an entertainer.</p> <table> <thead> <tr><td class=\"col-10\">d10</td><td>Entertainer Routine</td></tr> </thead> <tr><td>1</td><td>Actor</td></tr> <tr><td>2</td><td>Dancer</td></tr> <tr><td>3</td><td>Fire-eater</td></tr> <tr><td>4</td><td>Jester</td></tr> <tr><td>5</td><td>Juggler</td></tr> <tr><td>6</td><td>Instrumentalist</td></tr> <tr><td>7</td><td>Poet</td></tr> <tr><td>8</td><td>Singer</td></tr> <tr><td>9</td><td>Storyteller</td></tr> <tr><td>10</td><td>Tumbler</td></tr> </table> <div element=\"ID_BACKGROUND_FEATURE_BY_POPULAR_DEMAND\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Successful entertainers have to be able to capture and hold an audience's attention, so they tend to have flamboyant or forceful personalities. They're inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty.</p> <h4>VARIANT ENTERTAINER : GLADIATOR</h4> <p>A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your By Popular Demand feature, you can find a place to perform in any place that features combat for entertainment—perhaps a gladiatorial arena or secret pit fighting club. You can replace the musical instrument in your equipment package with an inexpensive but unusual weapon, such as a trident or net.</p>",
+      "id": "ID_BACKGROUND_ENTERTAINER",
+      "name": "Entertainer",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ACROBATICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERFORMANCE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_BACKGROUND_FEATURE_BY_POPULAR_DEMAND",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Musical Intrument (Entertainer)",
+            "supports": "Musical Instrument",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Entertainer",
+            "optional": "true",
+            "supports": "Variant Entertainer",
+            "type": "Background Variant"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Actor",
+                "id": "1"
+              },
+              {
+                "description": "Dancer",
+                "id": "2"
+              },
+              {
+                "description": "Fire-eater",
+                "id": "3"
+              },
+              {
+                "description": "Jester",
+                "id": "4"
+              },
+              {
+                "description": "Juggler",
+                "id": "5"
+              },
+              {
+                "description": "Instrumentalist",
+                "id": "6"
+              },
+              {
+                "description": "Poet",
+                "id": "7"
+              },
+              {
+                "description": "Singer",
+                "id": "8"
+              },
+              {
+                "description": "Storyteller",
+                "id": "9"
+              },
+              {
+                "description": "Tumbler",
+                "id": "10"
+              }
+            ],
+            "name": "Entertainer Routines",
+            "optional": "true",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I know a story relevant to almost every situation.",
+                "id": "1"
+              },
+              {
+                "description": "Whenever I come to a new place, I collect local rumors and spread gossip.",
+                "id": "2"
+              },
+              {
+                "description": "I'm a hopeless romantic, always searching for that “special someone.”",
+                "id": "3"
+              },
+              {
+                "description": "Nobody stays angry at me or around me for long, since I can defuse any amount tension.",
+                "id": "4"
+              },
+              {
+                "description": "I love a good insult, even one directed at me.",
+                "id": "5"
+              },
+              {
+                "description": "I get bitter if I'm not the center of attention.",
+                "id": "6"
+              },
+              {
+                "description": "I'll settle for nothing less than perfection.",
+                "id": "7"
+              },
+              {
+                "description": "I change my mood or my mind as quickly as I change key in a song.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Beauty. When I perform, I make the world better than it was. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Tradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Creativity. The world is in need of new ideas and bold action. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Greed. I'm only in it for the money and fame. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "People. I like seeing the smiles on people's faces when I perform. That's all that matters. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Honesty. Art should reflect the soul; it should come from within and reveal who we really are. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My instrument is my most treasured possession, and it reminds me of someone I love.",
+                "id": "1"
+              },
+              {
+                "description": "Someone stole my precious instrument, and someday I'll get it back.",
+                "id": "2"
+              },
+              {
+                "description": "I want to be famous, whatever it takes.",
+                "id": "3"
+              },
+              {
+                "description": "I idolize a hero of the old tales and measure my deeds against that person's.",
+                "id": "4"
+              },
+              {
+                "description": "I will do anything to prove myself superior to my hated rival.",
+                "id": "5"
+              },
+              {
+                "description": "I would do anything for the other members of my old troupe.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I'll do anything to win fame and renown.",
+                "id": "1"
+              },
+              {
+                "description": "I'm a sucker for a pretty face.",
+                "id": "2"
+              },
+              {
+                "description": "A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.",
+                "id": "3"
+              },
+              {
+                "description": "I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.",
+                "id": "4"
+              },
+              {
+                "description": "I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.",
+                "id": "5"
+              },
+              {
+                "description": "Despite my best efforts, I am unreliable to my friends.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Acrobatics, Performance, Disguise kit, Instrument",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.</p>",
+      "id": "ID_BACKGROUND_FEATURE_BY_POPULAR_DEMAND",
+      "name": "Feature: By Popular Demand",
+      "sheet": {
+        "alt": "By Popular Demand",
+        "content": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your By Popular Demand feature, you can find a place to perform in any place that features combat for entertainment—perhaps a gladiatorial arena or secret pit fighting club. You can replace the musical instrument in your equipment package with an inexpensive but unusual weapon, such as a trident or net.</p>",
+      "id": "ID_WOTC_PHB_BACKGROUND_VARIANT_GLADIATOR",
+      "name": "Variant Entertainer: Gladiator",
+      "sheet": {
+        "alt": "Gladiator"
+      },
+      "source": "Player's Handbook",
+      "supports": "Variant Entertainer",
+      "type": "Background Variant"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Entertainer Background",
+    "name": "Entertainer",
+    "update": {
+      "file": {
+        "name": "background-entertainer.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-entertainer.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

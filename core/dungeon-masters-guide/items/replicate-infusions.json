@@ -1,0 +1,552 @@
+{
+  "element": [
+    {
+      "description": "<p><em>Prerequisite: 2nd-level artificer</em></p> <p>Using this infusion, you can replicate an Alchemy Jug.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_ALCHEMY_JUG\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ALCHEMY_JUG",
+      "name": "Alchemy Jug",
+      "prerequisite": "2nd-level artificer",
+      "requirements": "[level:2]",
+      "sheet": "Using this infusion, you can replicate an Alchemy Jug.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 2nd-level artificer</em></p> <p>Using this infusion, you can replicate a Bag of Holding.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BAG_OF_HOLDING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BAG_OF_HOLDING",
+      "name": "Bag of Holding",
+      "prerequisite": "2nd-level artificer",
+      "requirements": "[level:2]",
+      "sheet": "Using this infusion, you can replicate a Bag of Holding.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 2nd-level artificer</em></p> <p>Using this infusion, you can replicate a Cap of Water Breathing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_CAP_OF_WATER_BREATHING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CAP_OF_WATER_BREATHING",
+      "name": "Cap of Water Breathing",
+      "prerequisite": "2nd-level artificer",
+      "requirements": "[level:2]",
+      "sheet": "Using this infusion, you can replicate a Cap of Water Breathing.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 2nd-level artificer</em></p> <p>Using this infusion, you can replicate Goggles of Night.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_GOGGLES_OF_NIGHT\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GOGGLES_OF_NIGHT",
+      "name": "Goggles of Night",
+      "prerequisite": "2nd-level artificer",
+      "requirements": "[level:2]",
+      "sheet": "Using this infusion, you can replicate Goggles of Night.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 2nd-level artificer</em></p> <p>Using this infusion, you can replicate a Rope of Climbing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_ROPE_OF_CLIMBING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ROPE_OF_CLIMBING",
+      "name": "Rope of Climbing",
+      "prerequisite": "2nd-level artificer",
+      "requirements": "[level:2]",
+      "sheet": "Using this infusion, you can replicate a Rope of Climbing.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 2nd-level artificer</em></p> <p>Using this infusion, you can replicate Sending Stones.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_SENDING_STONES\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SENDING_STONES",
+      "name": "Sending Stones",
+      "prerequisite": "2nd-level artificer",
+      "requirements": "[level:2]",
+      "sheet": "Using this infusion, you can replicate Sending Stones.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 2nd-level artificer</em></p> <p>Using this infusion, you can replicate a Wand of Magic Detection.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_WAND_OF_MAGIC_DETECTION\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_MAGIC_DETECTION",
+      "name": "Wand of Magic Detection",
+      "prerequisite": "2nd-level artificer",
+      "requirements": "[level:2]",
+      "sheet": "Using this infusion, you can replicate a Wand of Magic Detection.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 2nd-level artificer</em></p> <p>Using this infusion, you can replicate a Wand of Secrets.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_WAND_OF_SECRETS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_SECRETS",
+      "name": "Wand of Secrets",
+      "prerequisite": "2nd-level artificer",
+      "requirements": "[level:2]",
+      "sheet": "Using this infusion, you can replicate a Wand of Secrets.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p>Using this infusion, you can replicate Boots of Elvenkind.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_ELVENKIND\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_ELVENKIND",
+      "name": "Boots of Elvenkind",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "Using this infusion, you can replicate Boots of Elvenkind.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p>Using this infusion, you can replicate a Cloak of Elvenkind.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_ELVENKIND\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_ELVENKIND",
+      "name": "Cloak of Elvenkind",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "Using this infusion, you can replicate a Cloak of Elvenkind.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p>Using this infusion, you can replicate a Cloak of the Manta Ray.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_THE_MANTA_RAY\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_THE_MANTA_RAY",
+      "name": "Cloak of the Manta Ray",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "Using this infusion, you can replicate a Cloak of the Manta Ray.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p>Using this infusion, you can replicate Eyes of Charming.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_CHARMING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EYES_OF_CHARMING",
+      "name": "Eyes of Charming",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "Using this infusion, you can replicate Eyes of Charming.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p>Using this infusion, you can replicate Gloves of Thievery.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_GLOVES_OF_THIEVERY\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLOVES_OF_THIEVERY",
+      "name": "Gloves of Thievery",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "Using this infusion, you can replicate Gloves of Thievery.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p>Using this infusion, you can replicate a Lantern of Revealing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_LANTERN_OF_REVEALING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_LANTERN_OF_REVEALING",
+      "name": "Lantern of Revealing",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "Using this infusion, you can replicate a Lantern of Revealing.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p>Using this infusion, you can replicate Pipes of Haunting.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_PIPES_OF_HAUNTING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPES_OF_HAUNTING",
+      "name": "Pipes of Haunting",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "Using this infusion, you can replicate Pipes of Haunting.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 6th-level artificer</em></p> <p>Using this infusion, you can replicate a Ring of Water Walking.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_RING_OF_WATER_WALKING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_WATER_WALKING",
+      "name": "Ring of Water Walking",
+      "prerequisite": "6th-level artificer",
+      "requirements": "[level:6]",
+      "sheet": "Using this infusion, you can replicate a Ring of Water Walking.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Boots of Striding and Springing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_STRIDING_AND_SPRINGING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_STRIDING_AND_SPRINGING",
+      "name": "Boots of Striding and Springing",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Boots of Striding and Springing.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Boots of the Winterlands.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_THE_WINTERLANDS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_THE_WINTERLANDS",
+      "name": "Boots of the Winterlands",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Boots of the Winterlands.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Bracers of Archery.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BRACERS_OF_ARCHERY\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BRACERS_OF_ARCHERY",
+      "name": "Bracers of Archery",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Bracers of Archery.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Brooch of Shielding.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BROOCH_OF_SHIELDING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BROOCH_OF_SHIELDING",
+      "name": "Brooch of Shielding",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Brooch of Shielding.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Cloak of Protection.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_PROTECTION\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_PROTECTION",
+      "name": "Cloak of Protection",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Cloak of Protection.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Eyes of the Eagle.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_THE_EAGLE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EYES_OF_THE_EAGLE",
+      "name": "Eyes of the Eagle",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Eyes of the Eagle.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Gauntlets of Ogre Power.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_GAUNTLETS_OF_OGRE_POWER\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GAUNTLETS_OF_OGRE_POWER",
+      "name": "Gauntlets of Ogre Power",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Gauntlets of Ogre Power.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Gloves of Missile Snaring.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_GLOVES_OF_MISSILE_SNARING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLOVES_OF_MISSILE_SNARING",
+      "name": "Gloves of Missile Snaring",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Gloves of Missile Snaring.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Gloves of Swimming and Climbing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_GLOVES_OF_SWIMMING_AND_CLIMBING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLOVES_OF_SWIMMING_AND_CLIMBING",
+      "name": "Gloves of Swimming and Climbing",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Gloves of Swimming and Climbing.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Hat of Disguise.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_HAT_OF_DISGUISE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HAT_OF_DISGUISE",
+      "name": "Hat of Disguise",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Hat of Disguise.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Headband of Intellect.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_HEADBAND_OF_INTELLECT\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HEADBAND_OF_INTELLECT",
+      "name": "Headband of Intellect",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Headband of Intellect.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Helm of Telepathy.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_HELM_OF_TELEPATHY\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HELM_OF_TELEPATHY",
+      "name": "Helm of Telepathy",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Helm of Telepathy.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Medallion of Thoughts.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_MEDALLION_OF_THOUGHTS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MEDALLION_OF_THOUGHTS",
+      "name": "Medallion of Thoughts",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Medallion of Thoughts.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Necklace of Adaptation.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_NECKLACE_OF_ADAPTATION\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_NECKLACE_OF_ADAPTATION",
+      "name": "Necklace of Adaptation",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Necklace of Adaptation.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Periapt of Wound Closure.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_PERIAPT_OF_WOUND_CLOSURE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PERIAPT_OF_WOUND_CLOSURE",
+      "name": "Periapt of Wound Closure",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Periapt of Wound Closure.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Pipes of the Sewers.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_PIPES_OF_THE_SEWERS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPES_OF_THE_SEWERS",
+      "name": "Pipes of the Sewers",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Pipes of the Sewers.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Quiver of Ehlonna.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_QUIVER_OF_EHLONNA\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_QUIVER_OF_EHLONNA",
+      "name": "Quiver of Ehlonna",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Quiver of Ehlonna.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Ring of Jumping.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_RING_OF_JUMPING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_JUMPING",
+      "name": "Ring of Jumping",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Ring of Jumping.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate a Ring of Mind Shielding.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_RING_OF_MIND_SHIELDING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_MIND_SHIELDING",
+      "name": "Ring of Mind Shielding",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate a Ring of Mind Shielding.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Slippers of Spider Climbing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_SLIPPERS_OF_SPIDER_CLIMBING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SLIPPERS_OF_SPIDER_CLIMBING",
+      "name": "Slippers of Spider Climbing",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Slippers of Spider Climbing.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 10th-level artificer</em></p> <p>Using this infusion, you can replicate Winged Boots.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_WINGED_BOOTS\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WINGED_BOOTS",
+      "name": "Winged Boots",
+      "prerequisite": "10th-level artificer",
+      "requirements": "[level:10]",
+      "sheet": "Using this infusion, you can replicate Winged Boots.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate an Amulet of Health.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_AMULET_OF_HEALTH\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_AMULET_OF_HEALTH",
+      "name": "Amulet of Health",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate an Amulet of Health.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate a Belt of Hill Giant Strength.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BELT_OF_HILL_GIANT_STRENGTH\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BELT_OF_HILL_GIANT_STRENGTH",
+      "name": "Belt of Hill Giant Strength",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate a Belt of Hill Giant Strength.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate Boots of Levitation.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_LEVITATION\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_LEVITATION",
+      "name": "Boots of Levitation",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate Boots of Levitation.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate Boots of Speed.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_SPEED\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_SPEED",
+      "name": "Boots of Speed",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate Boots of Speed.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate Bracers of Defense.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_BRACERS_OF_DEFENSE\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BRACERS_OF_DEFENSE",
+      "name": "Bracers of Defense",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate Bracers of Defense.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate a Cloak of the Bat.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_THE_BAT\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_THE_BAT",
+      "name": "Cloak of the Bat",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate a Cloak of the Bat.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate Dimensional Shackles.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_DIMENSIONAL_SHACKLES\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_DIMENSIONAL_SHACKLES",
+      "name": "Dimensional Shackles",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate Dimensional Shackles.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate a Gem of Seeing.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_GEM_OF_SEEING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GEM_OF_SEEING",
+      "name": "Gem of Seeing",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate a Gem of Seeing.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate a Horn of Blasting.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_HORN_OF_BLASTING\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HORN_OF_BLASTING",
+      "name": "Horn of Blasting",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate a Horn of Blasting.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate a Ring of Free Action.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_RING_OF_FREE_ACTION\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_FREE_ACTION",
+      "name": "Ring of Free Action",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate a Ring of Free Action.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate a Ring of Protection.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_RING_OF_PROTECTION\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_PROTECTION",
+      "name": "Ring of Protection",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate a Ring of Protection.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 14th-level artificer</em></p> <p>Using this infusion, you can replicate a Ring of the Ram.</p> <div class=\"reference\"> <div element=\"ID_WOTC_DMG_MAGIC_ITEM_RING_OF_THE_RAM\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_THE_RAM",
+      "name": "Ring of the Ram",
+      "prerequisite": "14th-level artificer",
+      "requirements": "[level:14]",
+      "sheet": "Using this infusion, you can replicate a Ring of the Ram.",
+      "source": "Dungeon Master's Guide",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "replicate-infusions.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/replicate-infusions.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

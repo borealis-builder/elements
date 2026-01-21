@@ -1,0 +1,259 @@
+{
+  "element": [
+    {
+      "description": "<p>The Oath of the Watchers binds paladins to protect mortal realms from the predations of extraplanar creatures, many of which can lay waste to mortal soldiers. Thus, the Watchers hone their minds, spirits, and bodies to be the ultimate weapons against such threats.</p> <p class=\"indent\">Paladins who follow the Watchers' oath are ever vigilant in spotting the influence of extraplanar forces, often establishing a network of spies and informants to gather information on suspected cults. To a Watcher, keeping a healthy suspicion and awareness about one's surroundings is as natural as wearing armor in battle.</p> <h5 class=\"caption\">Tenets of the Watchers</h5> <p>A paladin who assumes the Oath of the Watchers swears to safeguard mortal realms from otherworldly threats.</p> <p class=\"indent\"><strong><em>Vigilance.</em></strong> The threats you face are cunning, powerful, and subversive. Be ever alert for their corruption.</p> <p class=\"indent\"><strong><em>Loyalty.</em></strong> Never accept gifts or favors from fiends or those who truck with them. Stay true to your order, your comrades, and your duty.</p> <p class=\"indent\"><strong><em>Discipline.</em></strong> You are the shield against the endless terrors that lie beyond the stars. Your blade must be forever sharp and your mind keen to survive what lies beyond.</p> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_OATH_SPELLS\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_CHANNEL_DIVINITY\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_AURA_OF_THE_SENTINEL\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_VIGILANT_REBUKE\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_MORTAL_BULWARK\" />",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_PALADIN_OATH_OF_THE_WATCHERS",
+      "name": "Oath of the Watchers",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_OATH_SPELLS",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_CHANNEL_DIVINITY",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_AURA_OF_THE_SENTINEL",
+            "level": "7",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_VIGILANT_REBUKE",
+            "level": "15",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_MORTAL_BULWARK",
+            "level": "20",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Sacred Oath",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p><em>3rd-level Oath of the Watchers feature</em></p> <p>You gain oath spells at the paladin levels listed in the Oath of the Watchers table See the Sacred Oath class feature for how oath spells work.</p> <h5 class=\"caption\">Oath of the Watchers Spells</h5> <table> <thead> <tr><td>Paladin Level</td><td>Spells</td></tr> </thead> <tr><td>3rd</td><td><em>alarm, detect magic</em></td></tr> <tr><td>5th</td><td><em>moonbeam, see invisibility</em></td></tr> <tr><td>9th</td><td><em>counterspell, nondetection</em></td></tr> <tr><td>13th</td><td><em>aura of purity, banishment</em></td></tr> <tr><td>17th</td><td><em>hold monster, scrying</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_OATH_SPELLS",
+      "name": "Oath Spells",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_ALARM",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_DETECT_MAGIC",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_MOONBEAM",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SEE_INVISIBILITY",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_COUNTERSPELL",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_NONDETECTION",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_AURA_OF_PURITY",
+            "level": "13",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_BANISHMENT",
+            "level": "13",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_HOLD_MONSTER",
+            "level": "17",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SCRYING",
+            "level": "17",
+            "prepared": "true",
+            "spellcasting": "Paladin",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>3rd-level Oath of the Watchers feature</em></p> <p>You gain the following Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.</p> <p class=\"indent\"><strong><em>Watcher's Will.</em></strong> You can use your Channel Divinity to invest your presence with the warding power of your faith. As an action, you can choose a number of creatures you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 2 minutes, you and the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.</p> <p class=\"indent\"><strong><em>Abjure the Extraplanar.</em></strong> You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each aberration, celestial, elemental, fey, or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.</p> <p class=\"indent\">A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the Dodge action.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_CHANNEL_DIVINITY",
+      "name": "Channel Divinity",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_CD_WATCHERS_WILL",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_CD_ABJURE_THE_EXTRAPLANAR",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You can use your Channel Divinity to invest your presence with the warding power of your faith. As an action, you can choose a number of creatures you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 2 minutes, you and the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_CD_WATCHERS_WILL",
+      "name": "Channel Divinity: Watcher's Will",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "watchers will:creatures",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "watchers will:creatures",
+            "value": "charisma:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Action",
+        "alt": "Watcher's Will",
+        "content": "You can choose {{watchers will:creatures}} creatures you can see within 30 feet of you. For 2 minutes, you and the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each aberration, celestial, elemental, fey, or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.</p> <p class=\"indent\">A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the Dodge action.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_CD_ABJURE_THE_EXTRAPLANAR",
+      "name": "Channel Divinity: Abjure the Extraplanar",
+      "sheet": {
+        "action": "Action",
+        "alt": "Abjure the Extraplanar",
+        "content": "You present your holy symbol and each aberration, celestial, elemental, fey, or fiend within 30 feet of you that can hear you must make a Wisdom save. On a failed save, the creature is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the Dodge action.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>7th-level Oath of the Watchers feature</em></p> <p>You emit an aura of alertness while you aren't incapacitated. When you and any creatures of your choice within 10 feet of you roll initiative, you all gain a bonus to initiative equal to your proficiency bonus.</p> <p class=\"indent\">At 18th level, the range of this aura increases to 30 feet.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_AURA_OF_THE_SENTINEL",
+      "name": "Aura of the Sentinel",
+      "rules": {
+        "stat": {
+          "name": "aura of the sentinel:initiative",
+          "value": "proficiency"
+        }
+      },
+      "sheet": "You emit an aura of alertness while you aren't incapacitated. When you and any creatures of your choice within 10 feet of you roll initiative, you all gain a +{{aura of the sentinel:initiative}} bonus to initiative. You emit an aura of alertness while you aren't incapacitated. When you and any creatures of your choice within 30 feet of you roll initiative, you all gain a +{{aura of the sentinel:initiative}} bonus to initiative.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>15th-level Oath of the Watchers feature</em></p> <p>You've learned how to chastise anyone who dares wield beguilements against you and your wards. Whenever a creature you can see within 30 feet of you succeeds on an Intelligence, a Wisdom, or a Charisma saving throw, you can use your reaction to deal 2d8 + your Charisma modifier force damage to the creature that forced the saving throw.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_VIGILANT_REBUKE",
+      "name": "Vigilant Rebuke",
+      "sheet": {
+        "action": "Reaction",
+        "content": "Whenever a creature you can see within 30 feet of you succeeds on an Intelligence, a Wisdom, or a Charisma save, you can deal 2d8 + {{charisma:modifier}} force damage to the creature that forced the save."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>20th-level Oath of the Watchers feature</em></p> <p>You manifest a spark of divine power in defense of the mortal realms. As a bonus action, you gain the following benefits for 1 minute:</p> <ul> <li>You gain truesight with a range of 120 feet.</li> <li>You have advantage on attack rolls against aberrations, celestials, elementals, fey, and fiends.</li> <li>When you hit a creature with an attack roll and deal damage to it, you can also force it to make a Charisma saving throw against your spell save DC. On a failed save, the creature is magically banished to its native plane of existence if it's currently not there. On a successful save, the creature can't be banished by this feature for 24 hours.</li> </ul> <p>Once you use this bonus action, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_OATH_OF_THE_WATCHERS_MORTAL_BULWARK",
+      "name": "Mortal Bulwark",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_TRUESIGHT",
+          "type": "Vision"
+        },
+        "stat": {
+          "bonus": "base",
+          "name": "truesight:range",
+          "value": "120"
+        }
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You gain the following benefits for 1 minute: &#13; • You gain truesight with a range of 120 feet. &#13; • You have advantage on attack rolls against aberrations, celestials, elementals, fey, and fiends. &#13; • When you hit a creature with an attack roll and deal damage to it, you can also force it to make a Charisma save (DC {{paladin:spellcasting:dc}}). On a failed save, the creature is magically banished to its native plane of existence if it's currently not there. On a successful save, the creature can't be banished by this feature for 24 hours. You can expend a 5th-level spell slot to use this feature again.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Tasha's Cauldron of Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything"
+    },
+    "description": "The Oath of Watchers from Tasha's Cauldron of Everything",
+    "name": "Oath of Watchers",
+    "update": {
+      "file": {
+        "name": "paladin-watcher.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/paladin-watcher.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "element": [
+    {
+      "description": "<p>In the sprawling city of Ravnica, where “open road” seems like a contradiction and “open plain” is sheer nonsense, centaurs nevertheless retain a love of wide spaces and the freedom to travel. As much as they can, centaurs run—in wide plazas, spacious parks, and expanses of rubble and ruin. They race the wind, hooves thundering and tails streaming behind them, until the next wall looms in their path and brings them to a stop.</p> <h4>NATURE'S CAVALRY</h4> <p>Centaurs have the upper bodies, down to the waist, of muscular humans, displaying all the human variety of skin tones and features. Their ears are slightly pointed, but their faces are wider and squarer than those of elves. Below the waist, they have the bodies of small horses, with a similar range of coloration—from variouss hades of chestnut or bay to dappled or even zebra-like striped patterns. Most centaurs style their hair and their tails in a similar way. Selesnya centaurs favor long, flowing hair. Gruul centaurs cut their hair in rough. spiky styles.</p> <p class=\"indent\">The upper bodies of centaurs are comparable to human torsos in size, and their lower equine bodies average about 4 feet tall at the withers. Though they are smaller than a human rider mounted on a horse, they fill similar roles as cavalry warriors, messengers, outriders, and scouts.</p> <h4>AFFINITY FOR NATURE</h4> <p>Centaurs have an affinity for the natural world. Among the guilds that share that affinity, centaurs favor the rubblebelts of the Gruul Clans and the wide plazas of the Selesnya Conclave over the undercity tunnels of the Golgari and the laboratories of the Simic.</p> <p class=\"indent\">Centaurs celebrate life and growth, and the birth of a foal is always cause for festivities. At the same time, they revere the traditions of the past, and among both the Gruul and the Selesnya they are voices of memory and history, preserving old ways and keeping alive the legends of ancestral heroes. They feel a close kinship with wild animals, perhaps because of their own horselike bodies, and delight in the feeling of running alongside herds and packs of other beasts.</p> <h4>CLANS AND COMMUNITY</h4> <p>Centaurs sense the interconnectedness of the natural world. Thus, they celebrate family and community as microcosms of that greater connection. Among the Gruul, they have a strong clan identity, and Selesnya centaurs are fiercely loyal to their individual communities as well as the guild as a whole. Their love of history and tradition also means that centaurs are more likely than most other Ravnicans to join the same guild that their parents did.</p> <h4>CENTAUR NAMES</h4> <p>Centaurs' given names are passed down through family lines. The name bestowed on a new foal is typically the name of the most recently deceased family member of the same gender, keeping a live the memory—and, the centaurs believe, some shard of the spirit—of the departed. Centaurs don't use family names, but they wear symbols that represent their family membership. These symbols might include graphical representations of plants or animals, printed mottoes, braids and beads worn in the hair and tail, or even specific patterns of woven fabric.</p> <p><strong>Male Names:</strong> Bonmod, Boruvo, Chodi, Drozan, Kozim, Milosh, Ninos, Oleksi, Orval, Radovas, Radom, Rostis, Svetyos, Tomis, Trijiro, Volim, Vlodim, Yarog<br/> <strong>Female Names:</strong> Daiva, Dunja, Elnaya, Galisnya, lrinya, Kotyali, Lalya, Litisia, Madya, Mira, Nedja, Nikya, Ostani, Pinya, Rada, Raisya, Stasolya, Tatna, Zhendoya, Zoria</p> <h4>CENTAUR TRAITS</h4> <p>Your centaur character has the following racial traits. These traits are also suitable for the centaurs of other worlds where there are centaurs of fey origin. These centaurs are smaller than the non-fey centaurs that roam in some realms.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Wisdom score increase by 1.</p> <p class=\"indent\"><strong><em>Age.</em></strong> Centaurs mature and age at about the same rate as humans.</p> <p class=\"indent\"><strong><em>Alignment.</em></strong> Centaurs are inclined toward neutrality. Those who join the Selesnya are more often neutral good, while those who join the Gruul are typically chaotic neutral.</p> <p class=\"indent\"><strong><em>Size.</em></strong> Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. Your size is Medium.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your base walking speed is 40 feet.</p> <p class=\"indent\"><strong><em>Fey.</em></strong> Your creature type is fey, rather than humanoid.</p> <p class=\"indent\"><strong><em>Charge.</em></strong> If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.</p> <p class=\"indent\"><strong><em>Hooves.</em></strong> Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p> <p class=\"indent\"><strong><em>Equine Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p> <p class=\"indent\">In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.</p> <p class=\"indent\"><strong><em>Survivor.</em></strong> You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</p> <p class=\"indent\"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Sylvan. Sylvan is widely spoken in the Selesnya Conclave, for it is rich in vocabulary to describe natural phenomena and spiritual forces.</p>",
+      "id": "ID_WOTC_GGTR_RACE_CENTAUR",
+      "name": "Centaur",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_LANGUAGE_SYLVAN",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_FEY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_CHARGE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_HOOVES",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_SURVIVOR",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Centaur)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Centaur)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "number": "2",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "name": "strength",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "2"
+          },
+          {
+            "name": "wisdom",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "40"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Bonmod, Boruvo, Chodi, Drozan, Kozim, Milosh, Ninos, Oleksi, Orval, Radovas, Radom, Rostis, Svetyos, Tomis, Trijiro, Volim, Vlodim, Yarog",
+            "name": "names",
+            "type": "male"
+          },
+          {
+            "description": "Daiva, Dunja, Elnaya, Galisnya, lrinya, Kotyali, Lalya, Litisia, Madya, Mira, Nedja, Nikya, Ostani, Pinya, Rada, Raisya, Stasolya, Tatna, Zhendoya, Zoria",
+            "name": "names",
+            "type": "female"
+          },
+          {
+            "description": "{{name}}",
+            "name": "names-format"
+          },
+          {
+            "description": "6'0\"",
+            "modifier": "1d10",
+            "name": "height"
+          },
+          {
+            "description": "600 lb.",
+            "modifier": "2d12",
+            "name": "weight"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Race"
+    },
+    {
+      "description": "<p>Your creature type is fey, rather than humanoid.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_FEY",
+      "name": "Fey",
+      "sheet": "Your creature type is fey, rather than humanoid.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_CHARGE",
+      "name": "Charge",
+      "sheet": "If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_HOOVES",
+      "name": "Hooves",
+      "sheet": "Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal 1d4+{{strength:modifier}} bludgeoning damage.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p> <p class=\"indent\">In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD",
+      "name": "Equine Build",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER",
+          "type": "Grants"
+        }
+      },
+      "sheet": "You count as one size larger when determining your carrying capacity and the weight you can push or drag. Any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</p>",
+      "id": "ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_SURVIVOR",
+      "name": "Survivor",
+      "rules": {
+        "select": [
+          {
+            "name": "Survivor (Centaur)",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Customized Skill Proficiency, Survivor",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "Skill",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.",
+        "display": "false"
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Guildmasters' Guide to Ravnica",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica"
+    },
+    "description": "",
+    "name": "Centaur",
+    "update": {
+      "file": {
+        "name": "centaur.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/centaur.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

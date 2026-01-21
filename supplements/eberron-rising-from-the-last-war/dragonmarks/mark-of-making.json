@@ -1,0 +1,153 @@
+{
+  "element": [
+    {
+      "description": "<p>The Mark of Making guides its bearer through any act of creation. The bearer of the mark can mend broken things with a touch, and always has a minor magic item they've been working on. An artificer or a wizard will get the most out of the mark, but anyone can find a use for an enchanted blade.</p> <p>If your human character has the Mark of Making, the following traits replace the human's Ability Score Increase trait in the Player's Handbook.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2, and one other ability score of your choice increases by 1.</p> <p class=\"indent\"><strong><em>Artisan's Intuition.</em></strong> When you make an Arcana check or an ability check involving artisan's tools, you can roll a d4 and add the number rolled to the ability check.</p> <p class=\"indent\"><strong><em>Maker's Gift.</em></strong> You gain proficiency with one type of artisan's tools of your choice.</p> <p class=\"indent\"><strong><em>Spellsmith.</em></strong> You know the mending cantrip. You can also cast the magic weapon spell with this trait. When you do so, the spell lasts for 1 hour and doesn't require concentration. Once you cast the spell with this trait, you can't do so again until you finish a long rest. Intelligence is your spellcasting ability for these spells.</p> <p class=\"indent\"><strong><em>Spells of the Mark.</em></strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Making Spells table are added to the spell list of your spellcasting class.</p> <p><strong>MARK OF MAKING SPELLS</strong></p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>identify, Tenser's floating disk</em></td></tr> <tr><td>2nd</td><td><em>continual flame, magic weapon</em></td></tr> <tr><td>3rd</td><td><em>conjure barrage, elemental weapon</em></td></tr> <tr><td>4th</td><td><em>fabricate, stone shape</em></td></tr> <tr><td>5th</td><td><em>creation</em></td></tr> </table>",
+      "id": "ID_WOTC_ERLW_RACE_VARIANT_MARK_OF_MAKING",
+      "name": "Mark of Making",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_ERLW_DRAGONMARK_MARK_OF_MAKING",
+            "type": "Dragonmark"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_MAKING_ARTISANS_INTUITION",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_MAKING_MAKERS_GIFT",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_MAKING_SPELLSMITH",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_MAKING_SPELLS_OF_THE_MARK",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Custom Ability Score Improvement +2 (Mark of Making)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Ability Score Increase, Mark of Making",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Ability Score Increase,Dragonmark,!Intelligence",
+            "type": "Racial Trait"
+          },
+          {
+            "name": "Custom Ability Score Improvement +1 (Mark of Making)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+            "supports": "Custom Ability Score Increase 1",
+            "type": "Ability Score Improvement"
+          }
+        ],
+        "stat": {
+          "alt": "Dragonmark",
+          "name": "intelligence",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "2"
+        }
+      },
+      "sheet": {
+        "alt": "Human (Mark of Making)",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Human",
+      "type": "Race Variant"
+    },
+    {
+      "description": "<p>When you make an Arcana check or an ability check involving artisan's tools, you can roll a d4 and add the number rolled to the ability check.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_MAKING_ARTISANS_INTUITION",
+      "name": "Artisan's Intuition",
+      "sheet": "When you make an Arcana check or an ability check involving artisan's tools, you can roll a d4 and add the number rolled to the ability check.",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You gain proficiency with one type of artisan's tools of your choice.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_MAKING_MAKERS_GIFT",
+      "name": "Maker's Gift",
+      "rules": {
+        "select": [
+          {
+            "name": "Artisan's Tool, Maker's Gift",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Simple Weapon or Tool, Maker's Gift",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+            "supports": "Simple||Tool",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You gain proficiency with one type of artisan's tools of your choice.",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You know the mending cantrip. You can also cast the magic weapon spell with this trait. When you do so, the spell lasts for 1 hour and doesn't require concentration. Once you cast the spell with this trait, you can't do so again until you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_MAKING_SPELLSMITH",
+      "name": "Spellsmith",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_MENDING",
+          "type": "Spell"
+        }
+      },
+      "sheet": {
+        "content": "You know the mending cantrip. You can also cast the magic weapon spell with this trait using Intelligence as your spellcasting ability. When you do so, the spell lasts for 1 hour and doesn't require concentration.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Making Spells table are added to the spell list of your spellcasting class.</p> <h5>Mark of Making Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>identify, Tenser's floating disk</em></td></tr> <tr><td>2nd</td><td><em>continual flame, magic weapon</em></td></tr> <tr><td>3rd</td><td><em>conjure barrage, elemental weapon</em></td></tr> <tr><td>4th</td><td><em>fabricate, stone shape</em></td></tr> <tr><td>5th</td><td><em>creation</em></td></tr> </table>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_MAKING_SPELLS_OF_THE_MARK",
+      "name": "Spells of the Mark",
+      "sheet": {
+        "content": "The spells on the Mark of Making Spells table are added to the spell list of your spellcasting class.",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_IDENTIFY",
+          "ID_PHB_SPELL_TENSERS_FLOATING_DISK",
+          "ID_PHB_SPELL_CONTINUAL_FLAME",
+          "ID_PHB_SPELL_MAGIC_WEAPON",
+          "ID_PHB_SPELL_CONJURE_BARRAGE",
+          "ID_PHB_SPELL_ELEMENTAL_WEAPON",
+          "ID_PHB_SPELL_FABRICATE",
+          "ID_PHB_SPELL_STONE_SHAPE",
+          "ID_PHB_SPELL_CREATION"
+        ]
+      },
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "mark-of-making.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-making.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

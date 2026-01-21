@@ -1,0 +1,1360 @@
+{
+  "element": [
+    {
+      "description": "<![CDATA[<p>The D&amp;D Adventurers League is an ongoing official campaign for Dungeons &amp; Dragons. It uses the fifth edition Dungeons &amp; Dragons rules, and features the Forgotten Realms setting. You can play D&amp;D Adventurers League games literally anywhere. Players use the fifth edition rules to create a character and bring that character to games anywhere D&amp;D Adventurers League play is happening.</p>]]>",
+      "id": "ID_WOTC_SOURCE_AL_STATE_OF_HILLSFAR",
+      "name": "Adventurers League: State of Hillsfar",
+      "setters": {
+        "set": [
+          {
+            "description": "ALSOH",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/playevents/organized-play",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "supplement"
+          },
+          {
+            "description": "true",
+            "name": "league"
+          },
+          {
+            "description": "20150714",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>You are one of hundreds of refugees that were driven from Hillsfar or that fled the destruction of Myth Drannor and who now shelter in hidden camps under the northern eaves of the Cormanthor Forest. If you up grew in the camps, you have never been to a settlement other than the village of Elventree. As a guest of the elves, you have learned their ways and the ways of the forest. You are also a traumatized, as residual wild magic, energies released by the fall of Thultanar upon Myth Drannor, and the constant fear of raids hunting for non-humans to fight in Hillsfar's Arena have taken their toll on you, as they have on everyone in the camps.</p> <p class=\"indent\"><b><i>Skill Proficiencies:</i></b> Nature, Survival</p> <p class=\"indent\"><b><i>Languages:</i></b> Elvish</p> <p class=\"indent\"><b><i>Tool Proficiencies:</i></b> One type of artisan's tools</p> <p class=\"indent\"><b><i>Equipment:</i></b> A two-person tent, artisan's tools, a holy symbol, a set of traveler's clothes, a belt pouch, 5 gp</p> <p class=\"indent\"><b><i>Lifestyle:</i></b> Poor</p> <div element=\"ID_WOTC_ALSOH_BACKGROUND_CORMANTHOR_REFUGEE_FEATURE_SHELTER_OF_THE_ELVEN_CLERGY\" />",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_CORMANTHOR_REFUGEE",
+      "name": "Cormanthor Refugee",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_NATURE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_LANGUAGE_ELVISH",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_ALSOH_BACKGROUND_CORMANTHOR_REFUGEE_FEATURE_SHELTER_OF_THE_ELVEN_CLERGY",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Tool Proficiency (Cormanthor Refugee)",
+            "supports": "Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "item": [
+              {
+                "description": "I was kicked out of my home for involvement with magic, I wish not the same pain upon others around me.",
+                "id": "1"
+              },
+              {
+                "description": "The king's guard killed someone close to me, they will fall one day, by may hand or not.",
+                "id": "2"
+              },
+              {
+                "description": "I live in the moment, knowing my life could be turned upside down any day.",
+                "id": "3"
+              },
+              {
+                "description": "I appreciate beauty in all of its forms, it can all be ruined in an instant after all.",
+                "id": "4"
+              },
+              {
+                "description": "I hate the Dwarves for their involvement in our lives.",
+                "id": "5"
+              },
+              {
+                "description": "I am a forest bumpkin who grew up in a tent in the woods and is wholly ignorant of city life.",
+                "id": "6"
+              },
+              {
+                "description": "I was raised alongside children of many other races. I harbor no racial prejudices at all.",
+                "id": "7"
+              },
+              {
+                "description": "I still occasionally mix dwarvish into sentences, from my time talking to royal guards.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Patient: The Dwarves taught me to trust those closest to me, and to doubt all others.",
+                "id": "1"
+              },
+              {
+                "description": "Rebellious: Governments and politicians drove my family to the camps. I subtly defy authority whenever I think I can get away with it. (Chaotic)",
+                "id": "2"
+              },
+              {
+                "description": "Self-Absorbed: I've had to look out for number one so long that it has become second nature. (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Wanderlust: I want to see as much of the world beyond the camps as I can. (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Generous: I give everything I can to help those in need, regardless of who they are. (Good)",
+                "id": "5"
+              },
+              {
+                "description": "To the Abyss with Them: The people of Hillsfar cast me out. I won't risk my hide to help them. (Evil)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "A Dwarf helped me despite the dangers, I will do my best to help others.",
+                "id": "1"
+              },
+              {
+                "description": "I seek revenge against the Dwarves for driving my family into the forest.",
+                "id": "2"
+              },
+              {
+                "description": "My family lost everything when they were driven from their homes. I strive to rebuild that fortune.",
+                "id": "3"
+              },
+              {
+                "description": "The forest has provided me with food and shelter. In return, I protect forests and those who dwell within.",
+                "id": "4"
+              },
+              {
+                "description": "I am deeply, tragically in love with someone whose racial lifespan is far longer or shorter than mine.",
+                "id": "5"
+              },
+              {
+                "description": "Members of my extended family did not make it to our rendezvous, I tirelessly search for them.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am very uncomfortable indoors and underground.",
+                "id": "1"
+              },
+              {
+                "description": "I am haughty. I grew up among magical races and am used to their culture and behavior, I am awkward with social expectation.",
+                "id": "2"
+              },
+              {
+                "description": "I have an unavoidable rage towards any Dwarf I see.",
+                "id": "3"
+              },
+              {
+                "description": "I am a miser. Having lost everything once before, I clutch my possessions and wealth very tightly.",
+                "id": "4"
+              },
+              {
+                "description": "I expect nothing from others, and get very uncomfortable when offered anything, especially for free, after constant scams.",
+                "id": "5"
+              },
+              {
+                "description": "I believe the gods have cursed me, my family, and all of the refugees. We are all doomed, doomed I tell you!",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Nature, Survival, Artisan's Tool, Elvish",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "type": "Background"
+    },
+    {
+      "description": "<p>The clerics of Elventree have vowed to care for the Cormanthor refugees. They will help you when they can, including providing you and your companions with free healing and care at temples, shrines, and other established presences in Elventree. They will also provide you (but only you) with a poor lifestyle.</p>",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_CORMANTHOR_REFUGEE_FEATURE_SHELTER_OF_THE_ELVEN_CLERGY",
+      "name": "Feature: Shelter of the Elven Clergy",
+      "sheet": {
+        "alt": "Shelter of the Elven Clergy"
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>All traffic into and out of the City of Trade passes through the Hillsfar Gate, making it the ideal place for the destitute to gather to panhandle, busk, gossip, and pick pockets. You grew up on the streets in the shadow of that great steel edifice, which houses both Red Plumes and Guild Mages. Though you may have moved on, you still have friends among them, and that life has had a lasting impact on you.</p> <p class=\"indent\"><b><i>Skill Proficiencies:</i></b> Deception, Sleight of Hand</p> <p class=\"indent\"><b><i>Tool Proficiencies:</i></b> Thieves' tools, one type of musical instrument</p> <p class=\"indent\"><b><i>Equipment:</i></b> A battered alms box, a musical instrument, a cast-off military jacket, cap, or scarf, a set of common clothes, a belt pouch, and 10 gp</p> <p class=\"indent\"><b><i>Lifestyle:</i></b> Poor</p> <div element=\"ID_WOTC_ALSOH_BACKGROUND_GATE_URCHIN_FEATURE_RED_PLUME_AND_MAGE_GUILD_CONTACTS\" />",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_GATE_URCHIN",
+      "name": "Gate Urchin",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_DECEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SLEIGHTOFHAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ALSOH_BACKGROUND_GATE_URCHIN_FEATURE_RED_PLUME_AND_MAGE_GUILD_CONTACTS",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Musical Instrument (Gate Urchin)",
+            "supports": "Musical Instrument",
+            "type": "Proficiency"
+          },
+          {
+            "item": [
+              {
+                "description": "I appreciate the simple things in life: a song, a warm meal, a sunny day. I don't need any more.",
+                "id": "1"
+              },
+              {
+                "description": "My problems are always caused by others. I'm never to blame.",
+                "id": "2"
+              },
+              {
+                "description": "I am afraid I could wind up back on the streets any day.",
+                "id": "3"
+              },
+              {
+                "description": "I get along with everyone.",
+                "id": "4"
+              },
+              {
+                "description": "I see people as marks for a con and have difficulty feeling true empathy for them.",
+                "id": "5"
+              },
+              {
+                "description": "I have a real flair for matchmaking. I can find anyone a spouse!",
+                "id": "6"
+              },
+              {
+                "description": "I think money is the true measure of appreciation and affection. Everything else is talk or an act.",
+                "id": "7"
+              },
+              {
+                "description": "I don't like having a lot of stuff, just a few simple things I need. I don't like being tied down and tend to leave things behind when I don't need them anymore.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Loyal: I never rat out any of my friends, even when the Red Plumes or the Rogues Guild ask. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Adventurous: I don't like doing the same thing every day. I crave variety. (Chaotic)",
+                "id": "2"
+              },
+              {
+                "description": "Strong: Only the strong survive. I respect those who are strong and powerful. (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Witty: Brains are better than brawn. I rely on my wits and respect others who do the same. (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Honest: Others can do what they want, but I won't lie or steal, even to feed my family. (Good)",
+                "id": "5"
+              },
+              {
+                "description": "Ungrateful: Those who give, only do it to make themselves feel better. I steal from them. (Evil)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "The Joydancers of Lliira gave me my instrument when I really needed food. I hate them for that.",
+                "id": "1"
+              },
+              {
+                "description": "Busking has taught me to love music above all else.",
+                "id": "2"
+              },
+              {
+                "description": "The Rogues Guild spared me when I did a job without cutting them in. I owe them a great debt.",
+                "id": "3"
+              },
+              {
+                "description": "I know people hate the Red Plumes, but some of them were really good to me. I help Red Plumes whenever I can, and I respect them. They're just doing what they have to do to get by in this world.",
+                "id": "4"
+              },
+              {
+                "description": "I will be wealthy some day. My descendants will live in comfort and style.",
+                "id": "5"
+              },
+              {
+                "description": "I know how hard life on the streets is. I do everything I can for those who have less than me.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Though I no longer live at the Gate, I am still always concerned about where I will get my next meal.",
+                "id": "1"
+              },
+              {
+                "description": "Years of thieving have become habit. I sometimes steal from strangers without thinking about it.",
+                "id": "2"
+              },
+              {
+                "description": "I am ashamed of my origins. I pretend I am higher- born and fear others will find out the truth.",
+                "id": "3"
+              },
+              {
+                "description": "I think people who grew up in houses are soft, spoiled, and ungrateful. I frequently tell them so.",
+                "id": "4"
+              },
+              {
+                "description": "I am still very uncomfortable wearing nice clothes, sleeping in a warm bed, and eating fine food.",
+                "id": "5"
+              },
+              {
+                "description": "I do not trust anyone who has not had a hard life.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Deception, Sleight of Hand, Thieves' Tools, Musical Instrument",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You made a number of friends among the Red Plumes and the Mage's Guild when you lived at the Hillsfar Gate. They remember you fondly and help you in little ways when they can. You can invoke their assistance in and around Hillsfar to obtain food, as well as simple equipment for temporary use. You can also invoke it to gain access to the low-security areas of their garrisons, halls, and encampments.</p>",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_GATE_URCHIN_FEATURE_RED_PLUME_AND_MAGE_GUILD_CONTACTS",
+      "name": "Feature: Red Plume and Mage Guild Contacts",
+      "sheet": {
+        "alt": "Red Plume and Mage Guild Contacts"
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>Before becoming an adventurer, you were a successful merchant operating out Hillsfar, the City of Trade. Your family operated warehouses, organized caravans, managed stores, or owned a ship and has trade contacts throughout the Moonsea region, as well as up and down the length of the Sword Coast. Perhaps they import ore, uncut gems, untreated furs, or grain into the City of Trade, or they export fine cloth, faceted gems, fine furs, or Dragon's Breath, a brandy-like liquor. Regardless, you've largely given that life up for some reason and have chosen to seek adventure instead. Nevertheless, the training you received then, and perhaps the contacts you made, serve you well as an adventurer.</p> <p class=\"indent\"><b><i>Skill Proficiencies:</i></b> Insight, Persuasion</p> <p class=\"indent\"><b><i>Tool Proficiencies:</i></b> Vehicles (land), vehicles (water)</p> <p class=\"indent\"><b><i>Equipment:</i></b> A fine set of clothes, a signet ring, a letter of introduction from your family's trading house, and a purse containing 25 gp.</p> <p class=\"indent\"><b><i>Lifestyle:</i></b> Wealthy</p> <div element=\"ID_WOTC_ALSOH_BACKGROUND_HILLSFAR_MERCHANT_FEATURE_FACTOR\" /> <div element=\"ID_WOTC_ALSOH_BACKGROUND_HILLSFAR_MERCHANT_FEATURE_TRADE_CONTRACT\" />",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_HILLSFAR_MERCHANT",
+      "name": "Hillsfar Merchant",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_INSIGHT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERSUASION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER",
+            "type": "Proficiency"
+          }
+        ],
+        "select": [
+          {
+            "name": "Background Feature",
+            "supports": "Hillsfar Merchant Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I fill my evenings with wine or mead and song.",
+                "id": "1"
+              },
+              {
+                "description": "I greatly admire gladiators and enjoy the Arena.",
+                "id": "2"
+              },
+              {
+                "description": "I take my wealth for granted. It seldom occurs to me that others aren't rich themselves.",
+                "id": "3"
+              },
+              {
+                "description": "I leave broken hearts all around the Moonsea and up and down the Sword Coast.",
+                "id": "4"
+              },
+              {
+                "description": "I work hard and seldom make time for fun.",
+                "id": "5"
+              },
+              {
+                "description": "I am a particularly devout and pray often.",
+                "id": "6"
+              },
+              {
+                "description": "The Red Plumes caught me once. I hate them.",
+                "id": "7"
+              },
+              {
+                "description": "I ask a lot of questions to get information about those with whom I am working and dealing.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Frugal: I spend my money very carefully. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Profligate: I tend to spend extravagantly. (Chaotic)",
+                "id": "2"
+              },
+              {
+                "description": "Honest: I deal with others above board. (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Sharp: I seek to make the best deal possible. (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Charitable: I give generously to others. (Good)",
+                "id": "5"
+              },
+              {
+                "description": "Greedy: I do not share my wealth with others. (Evil)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am fiercely loyal to those with whom I work.",
+                "id": "1"
+              },
+              {
+                "description": "I must uphold the good name of my family.",
+                "id": "2"
+              },
+              {
+                "description": "I will prove myself to my family as an adventurer.",
+                "id": "3"
+              },
+              {
+                "description": "Deals are sacrosanct. I never go back on my word.",
+                "id": "4"
+              },
+              {
+                "description": "I love making deals and negotiating agreements.",
+                "id": "5"
+              },
+              {
+                "description": "I guard my wealth jealously.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am a braggart. I promote myself shamelessly.",
+                "id": "1"
+              },
+              {
+                "description": "I am vain. I always wear the latest fashions.",
+                "id": "2"
+              },
+              {
+                "description": "I am a glutton. I eat and drink to excess.",
+                "id": "3"
+              },
+              {
+                "description": "I am a snob. I want only the finest things in life.",
+                "id": "4"
+              },
+              {
+                "description": "I am lazy. I want others to take care of everything.",
+                "id": "5"
+              },
+              {
+                "description": "I am overconfident. I overestimate my abilities.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Insight, Persuasion, Vehicles (Land), Vehicles (Water)",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Although you've left the day-to-day life of a merchant behind, your family has assigned you the services of a loyal retainer from the business, a factor, husbanding agent, seafarer, caravan guard, or clerk. This individual is a commoner who can perform mundane tasks for you such as making purchases, delivering messages, and running errands. He or she will not fight for you and will not follow you into obviously dangerous areas (such as dungeons), and will leave if frequently endangered or abused. If he or she is killed, the family assigns you another within a few days.</p>",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_HILLSFAR_MERCHANT_FEATURE_FACTOR",
+      "name": "Feature: Factor",
+      "sheet": {
+        "alt": "Factor"
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "supports": "Hillsfar Merchant Feature, Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You and your family have trade contacts such as caravan masters, shopkeepers, sailors, artisans, and farmers throughout the Moonsea region and all along the Sword Coast. Once per game session, when adventuring in either of those areas, you can use those contacts to get information about the local area or to pass a message to someone in those areas, even across the great distance between the two areas.</p>",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_HILLSFAR_MERCHANT_FEATURE_TRADE_CONTRACT",
+      "name": "Alternate Feature: Trade Contract",
+      "sheet": {
+        "alt": "Trade Contract"
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "supports": "Hillsfar Merchant Feature, Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>Hillsfar is the City of Trade. However, the Great Law of Trade only protects \"legitimate\" trade, trade that passes through the city's sole gate, which the Red Plumes monitor and tax. And the Great Law of Humanity banishes non- humans from the city altogether. The two Great Laws create great demand and great risk for smugglers, who shepherd illicit goods and non-humans into and out of the city by secret routes. The Rogues Guild tightly controls all of this activity, taking its cut from sanctioned jobs and exacting punishment for independent jobs.</p> <p class=\"indent\">Perhaps you trafficked Dragon's Breath (a brandy-like liquor) to avoid tariffs or contraband to avoid seizure, or maybe you are a human who sympathizes with the non- humans and worked as part of the network of secret routes and safe houses that helps them pass through Hillsfar. Either way, you have contacts in the smuggling community who can help you slip into and out of the city unnoticed, for a price.</p> <p class=\"indent\"><b><i>Skill Proficiencies:</i></b> Perception, Stealth</p> <p class=\"indent\"><b><i>Languages:</i></b> One racial language</p> <p class=\"indent\"><b><i>Tool Proficiencies:</i></b> Forgery kit</p> <p class=\"indent\"><b><i>Equipment:</i></b> A forgery kit, a set of common clothes, a belt pouch, and 5 gp</p> <p class=\"indent\"><b><i>Lifestyle:</i></b> Modest</p> <div element=\"ID_WOTC_ALSOH_BACKGROUND_HILLSFAR_SMUGGLER_FEATURE_SECRET_PASSAGE\" />",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_HILLSFAR_SMUGGLER",
+      "name": "Hillsfar Smuggler",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERCEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_STEALTH",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ALSOH_BACKGROUND_HILLSFAR_SMUGGLER_FEATURE_SECRET_PASSAGE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Racial Language (Hillsfar Smuggler)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "item": [
+              {
+                "description": "When I'm not smuggling, I gamble.",
+                "id": "1"
+              },
+              {
+                "description": "I just love Halfling cooking and baking!",
+                "id": "2"
+              },
+              {
+                "description": "I party with dwarves whenever I can.",
+                "id": "3"
+              },
+              {
+                "description": "I'm a terrible singer, but I love to do it.",
+                "id": "4"
+              },
+              {
+                "description": "I was raised to honor Chauntea and still do.",
+                "id": "5"
+              },
+              {
+                "description": "The blood sports of the Arena sicken me.",
+                "id": "6"
+              },
+              {
+                "description": "I think non-humans are really interesting.",
+                "id": "7"
+              },
+              {
+                "description": "I exaggerate the tales of my exploits.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Fair: I think everyone deserves to be treated fairly. I don't play favorites. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Impulsive: Planning is often a waste of time. No plan survives contact with reality. It's easier to dive in and deal with the consequences. (Chaotic)",
+                "id": "2"
+              },
+              {
+                "description": "Curious: I want to learn as much as I can about the people and places I encounter. (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Prepared: I think success depends on preparing as much as possible in advance. (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Respectful: I think everyone deserves to be treated with respect and dignity, regardless of their race, creed, color, or origin. (Good)",
+                "id": "5"
+              },
+              {
+                "description": "Corrupt: I will break the law or act dishonestly if the money is right. (Evil)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am loyal to the Rogues Guild and would do anything for them.",
+                "id": "1"
+              },
+              {
+                "description": "I love the city of Hillsfar and my fellow Hillsfarians, despite the recent problems.",
+                "id": "2"
+              },
+              {
+                "description": "I admire the elves. I help them whenever I can.",
+                "id": "3"
+              },
+              {
+                "description": "A gnome helped me once. I pay the favor forward.",
+                "id": "4"
+              },
+              {
+                "description": "I enjoy tricking the Red Plumes at every opportunity.",
+                "id": "5"
+              },
+              {
+                "description": "I smuggled agricultural goods for non-human farmers. I try to help them when I can.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My hatred for the Red Plumes burns so brightly that I have difficulty suppressing It around them.",
+                "id": "1"
+              },
+              {
+                "description": "The Red Plumes caught me once before, and I was branded for my crime. If they catch me again, for any offense, the punishment will be dire.",
+                "id": "2"
+              },
+              {
+                "description": "I treat all Hillsfarans poorly. I am disgusted with their failure to revolt against the Great Law of Humanity.",
+                "id": "3"
+              },
+              {
+                "description": "I have difficulty trusting strangers. Anyone could be a spy for the authorities.",
+                "id": "4"
+              },
+              {
+                "description": "I am greedy. There isn't much I won't do for money.",
+                "id": "5"
+              },
+              {
+                "description": "I'm an informant for the Red Plumes. They let me continue my activities, so long as I pass them information about illegal activity in Hillsfar.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Perception, Stealth, Forgery Kit, One racial language",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You can call on your contacts within the smuggling community to secure secret passage into or out of Hillsfar for yourself and your adventuring companions, no questions asked, and no Red Plume entanglements. Because you're calling in a favor, you can't be certain they will be able to help on your timetable or at all. Your Dungeon Master will determine whether you can be smuggled into or out of the city. In return for your passage, you and your companions may owe the Rogues Guild a favor and/or may have to pay bribes.</p>",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_HILLSFAR_SMUGGLER_FEATURE_SECRET_PASSAGE",
+      "name": "Feature: Secret Passage",
+      "sheet": {
+        "alt": "Secret Passage"
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>Even though you are a non-human, despite Hillfar's Great Law of Humanity, you continue to live in the City of Trade. You do so by maintaining a secret identity, forging documents, and wearing a disguise. Few, if any, know you aren't human. </p> <p class=\"indent\">If you're a halfling or gnome, you pass as a little person or a child. If you're a half-elf, half-orc, or genasi, you disguise your non-human features. Other races use a combination of disguise and concealing clothing to hide. </p> <p class=\"indent\">Your reasons for doing so are your own. Perhaps you're a dissident or the agent of a foreign power. Maybe you have a relationship with someone you cannot bear to leave. Regardless, this way of life has taken a heavy toll on you.</p> <p class=\"indent\"><b><i>Skill Proficiencies:</i></b> Deception, Stealth</p> <p class=\"indent\"><b><i>Tool Proficiencies:</i></b> Disguise Kit, Forgery Kit</p> <p class=\"indent\"><b><i>Equipment:</i></b> A disguise kit, a forgery kit, a set of common clothes, a belt pouch, 5 gp</p> <p class=\"indent\"><b><i>Lifestyle:</i></b> Modest</p> <div element=\"ID_WOTC_ALSOH_BACKGROUND_SECRET_IDENTITY_FEATURE_SECRET_IDENTITY\" />",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_SECRET_IDENTITY",
+      "name": "Secret Identity",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_DECEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_STEALTH",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ALSOH_BACKGROUND_SECRET_IDENTITY_FEATURE_SECRET_IDENTITY",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "item": [
+              {
+                "description": "Despite its problems, I love Hillsfar, it's the greatest city in the world. The only one for me.",
+                "id": "1"
+              },
+              {
+                "description": "I move from place to place, never staying anywhere long and leaving nothing behind.",
+                "id": "2"
+              },
+              {
+                "description": "I think flattery is the best way to direct attention away from me.",
+                "id": "3"
+              },
+              {
+                "description": "I don't make friends easily. They're a liability I cannot afford.",
+                "id": "4"
+              },
+              {
+                "description": "Risk and danger exhilarate me. Pulling off schemes and deceptions is a rush.",
+                "id": "5"
+              },
+              {
+                "description": "The First Lord is right, humans are superior. I really admire them, despite the atrocities.",
+                "id": "6"
+              },
+              {
+                "description": "I avoid people of my own race, as well as things associated with my race, lest they give me away.",
+                "id": "7"
+              },
+              {
+                "description": "I live for the Arena. I admire gladiators and enjoy the thrill of blood on the sands!",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Quisling: Supporting the rulers of the land and following the laws is the road to salvation. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Scofflaw: The laws and lawmakers are corrupt. I follow laws only when it suits me. (Chaotic)",
+                "id": "2"
+              },
+              {
+                "description": "Optimist: Everyone is basically good. Though the government is misguided it will all be okay. (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Secretive: I am in the habit of not talking about myself. My business is none of yours. (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Heroic: I do everything I can to help non-humans, regardless of the personal cost to me. (Good)",
+                "id": "5"
+              },
+              {
+                "description": "Depraved: I have lost my moral compass. The ends justify most any means. (Evil)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "The humans of Hillsfar have inflicted terrible harm on me, my family, and my race. I will have revenge.",
+                "id": "1"
+              },
+              {
+                "description": "I am part of an underground network that smuggles non-humans into and out of the city.",
+                "id": "2"
+              },
+              {
+                "description": "I am a partisan. I commit minor acts of defiance against the First Lord and Red Plumes when I can.",
+                "id": "3"
+              },
+              {
+                "description": "I am a spy. I report on events in and around Hillfar.",
+                "id": "4"
+              },
+              {
+                "description": "My secret identity is the only thing protecting me from the Arena. I will stop at nothing to maintain it.",
+                "id": "5"
+              },
+              {
+                "description": "I am madly in love with a human who does not know my true identity, and I fear rejection if I reveal it.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "After years of denying who I am, I now despise myself and other members of my pathetic race.",
+                "id": "1"
+              },
+              {
+                "description": "Years of hiding have made me somewhat paranoid. I trust no one.",
+                "id": "2"
+              },
+              {
+                "description": "I've been lying so often and for so long that I can't help it anymore. I frequently lie for no reason at all.",
+                "id": "3"
+              },
+              {
+                "description": "I am ashamed. I failed to protect a member of my family who was seized and thrown into the Area.",
+                "id": "4"
+              },
+              {
+                "description": "I am struggling with maintaining my secret identity. I subconsciously want to get caught and therefore sometimes let my secret identity slip.",
+                "id": "5"
+              },
+              {
+                "description": "Years of successfully deceiving others have made me cocky. I think no one can see through my lies.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Deception, Stealth, Disguise Kit, Forgery Kit",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You have created a secret identity that you use to conceal your true race and that offers a covering explanation for your presence in Hillsfar. In addition, you can forge documents, including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</p>",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_SECRET_IDENTITY_FEATURE_SECRET_IDENTITY",
+      "name": "Feature: Secret Identity",
+      "sheet": {
+        "alt": "Secret Identity"
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You grew up at a time when the wizards of Netheril were at war with the elves of Cormanthor. You recall sitting cross-legged hearing the stories of the glorious Thultanthar, also called the Shade Enclave and the City of Shade, and aspired to study there and maybe even did, for a time. Your dreams came crashing down a few years ago when Thultanthar fell from the sky upon Myth Drannor.</p> <p class=\"indent\">You know that there was a Netherese Garrison stationed near Hillsfar and have heard rumors that its downfall came from traitors within the ranks. You remain loyal to Netheril and seek other Shade loyalists and fanatics in the Cormanthor forest and the areas surrounding Hillsfar.</p> <p class=\"indent\"><b><i>Skill Proficiencies:</i></b> Deception, Intimidation</p> <p class=\"indent\"><b><i>Tool Proficiencies:</i></b> Forgery kit</p> <p class=\"indent\"><b><i>Languages:</i></b> Netherese</p> <p class=\"indent\"><b><i>Equipment:</i></b> A forgery kit, a transparent cylinder of shadow that has no opening, a signet ring, a set of fine clothes, and 15 gp.</p> <p class=\"indent\"><b><i>Lifestyle:</i></b> Modest</p> <div element=\"ID_WOTC_ALSOH_BACKGROUND_SHADE_FANATIC_FEATURE_SECRET_SOCIETY\" />",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_SHADE_FANATIC",
+      "name": "Shade Fanatic",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_DECEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_INTIMIDATION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ALSOH_LANGUAGE_NETHERESE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_ALSOH_BACKGROUND_SHADE_FANATIC_FEATURE_SECRET_SOCIETY",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "item": [
+              {
+                "description": "I am a bully; I try to hide it though.",
+                "id": "1"
+              },
+              {
+                "description": "I let my actions speak for themselves",
+                "id": "2"
+              },
+              {
+                "description": "I am important; I will not let anyone forget that.",
+                "id": "3"
+              },
+              {
+                "description": "You are either with me or against me.",
+                "id": "4"
+              },
+              {
+                "description": "I know it is only a time before I am betrayed by those I care for.",
+                "id": "5"
+              },
+              {
+                "description": "I never understand why people get so emotional.",
+                "id": "6"
+              },
+              {
+                "description": "They are out to get me. It is only my cunning that keeps me ahead of them",
+                "id": "7"
+              },
+              {
+                "description": "Everyone has a choice, the one I make is always right though.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Hope: I know even if I need do evil acts, history will be my redemption. (Chaos)",
+                "id": "1"
+              },
+              {
+                "description": "Dedicated: I can do anything I put my mind to (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Exciting: I have found the truth of the Shadovar and want to share it with everyone. (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Frugal: I horde my possessions knowing that someday I will be called upon to give everything I have to the cause (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Eloquent: I use my words to sway others to my beliefs. (Any)",
+                "id": "5"
+              },
+              {
+                "description": "Compassionate: It is through love that others will join In our cause. (Good)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "They say the Shade broke the bonds of mortality; I want to find out how.",
+                "id": "1"
+              },
+              {
+                "description": "The whispers in my head remind me that there is power to be found in the shadows.",
+                "id": "2"
+              },
+              {
+                "description": "For the glory of Netheril, I will grow in power.",
+                "id": "3"
+              },
+              {
+                "description": "I once lived in Hillsfar, I was chased out before I was able to say farewell.",
+                "id": "4"
+              },
+              {
+                "description": "My true love was a killed by the Red Plumes; I plot to make them suffer.",
+                "id": "5"
+              },
+              {
+                "description": "I had a loved one die in the arena at Hillsfar; I am out to prove I am stronger than them!",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I always over exaggerate my abilities.",
+                "id": "1"
+              },
+              {
+                "description": "I cannot bear to let those I care for out of my sight.",
+                "id": "2"
+              },
+              {
+                "description": "I am incapable of standing up for myself.",
+                "id": "3"
+              },
+              {
+                "description": "The group I am with has committed atrocities; I am always worried their actions will become public.",
+                "id": "4"
+              },
+              {
+                "description": "I always enjoy a good mug of ale ... or five.",
+                "id": "5"
+              },
+              {
+                "description": "I know what I do is wrong, but am afraid to speak up about it.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Deception, Intimidation, Forgery Kit, Netherese",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You have a special way of communicating with others who feel the same way you do about the Shade. When you enter a village or larger city you can identify contact who will give you information on those that would hinder your goals and those would help you simply because of your desire to see the Shade Enclave return in all its glory.</p>",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_SHADE_FANATIC_FEATURE_SECRET_SOCIETY",
+      "name": "Feature: Secret Society",
+      "sheet": {
+        "alt": "Secret Society"
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>Typically spoken by inhabitants of Netheril.</p>",
+      "id": "ID_WOTC_ALSOH_LANGUAGE_NETHERESE",
+      "name": "Netherese",
+      "setters": {
+        "set": [
+          {
+            "description": "true",
+            "name": "exotic"
+          },
+          {
+            "description": "Netheril",
+            "name": "speakers"
+          },
+          {
+            "name": "script"
+          }
+        ]
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "supports": "Exotic",
+      "type": "Language"
+    },
+    {
+      "description": "<p>You are one of the many people that make sure the trade routes are clear at ALL times. You assure that the <b>Great Law of Trade</b> is followed at all costs. You work by yourself or in groups to quell bandits and brigands who might stop trade routes from going through. You investigate potential ambushes and possible rumors as to someone wanting to rob or stop caravans. You are as much an investigator as you are law enforcement.</p> <p class=\"indent\">You are able to go into a town/village around the Hillsfar area and find a contact that is willing to give you information from rumor to fact. This sometimes comes at a cost of a minor bribe of 1-9 silver pieces.</p> <p class=\"indent\"><b><i>Skill Proficiencies:</i></b> Investigation, Persuasion</p> <p class=\"indent\"><b><i>Tool Proficiencies:</i></b> Thieves' Tools</p> <p class=\"indent\"><b><i>Languages:</i></b> Elvish</p> <p class=\"indent\"><b><i>Equipment:</i></b> A thieves kit, a gray cloak, Sherrif's insignia (badge) a set of fine clothes, and 17 gp.</p> <p class=\"indent\"><b><i>Lifestyle:</i></b> Moderate</p> <div element=\"ID_WOTC_ALSOH_BACKGROUND_TRADE_SHERIFF_FEATURE_INVESTIGATIVE_SERVICES\" />",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_TRADE_SHERIFF",
+      "name": "Trade Sheriff",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_INVESTIGATION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERSUASION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_LANGUAGE_ELVISH",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_ALSOH_BACKGROUND_TRADE_SHERIFF_FEATURE_INVESTIGATIVE_SERVICES",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "item": [
+              {
+                "description": "I am always polite and respectful",
+                "id": "1"
+              },
+              {
+                "description": "I let my actions speak for themselves",
+                "id": "2"
+              },
+              {
+                "description": "I am haunted by my past having seen the murder of a close friend or family member and it is the one case I always needed to solve but have not been able to.",
+                "id": "3"
+              },
+              {
+                "description": "I am quick to judge and slow to vindicate",
+                "id": "4"
+              },
+              {
+                "description": "I can be very persuasive and am able to ask questions where others might not be able to.",
+                "id": "5"
+              },
+              {
+                "description": "I have a quirky personality that seems to take others off their guard.",
+                "id": "6"
+              },
+              {
+                "description": "My sense of humor is considered by most to be awkward",
+                "id": "7"
+              },
+              {
+                "description": "Everyone has a choice, and they can always make the right choice, mine!",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Hope. my job is to speak for the victim. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Dedicated. Once I start an investigation, until told to do so, I do not quit, not matter where it leads. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Nation. My city, nation, or people are all that matter (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Mercenary. When I do investigations, I expect answers immediately (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Eloquent. I use my words to sway others to give me answers. (Good)",
+                "id": "5"
+              },
+              {
+                "description": "Might. It is through threats and force that I get my answers. (Lawful)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "To this day an unsolved case will always leave me haunted and bother me.",
+                "id": "1"
+              },
+              {
+                "description": "Through the might of my personality I will solve an investigation or puzzle",
+                "id": "2"
+              },
+              {
+                "description": "It is my right to believe what I will, just try and stop me.",
+                "id": "3"
+              },
+              {
+                "description": "I need to prove my worth to my fellow Sherrifs",
+                "id": "4"
+              },
+              {
+                "description": "Someone I cared for died under suspicious circumstances. I will find out what happened to them and bring their killer to justice.",
+                "id": "5"
+              },
+              {
+                "description": "I speak for those that cannot speak for themselves.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I always over exaggerate my abilities.",
+                "id": "1"
+              },
+              {
+                "description": "I cannot bear to let those I care for out of my sight.",
+                "id": "2"
+              },
+              {
+                "description": "I took a bribe to tank an investigation and I would do anything to keep it secret.",
+                "id": "3"
+              },
+              {
+                "description": "I have little respect for those that are of “low” intelligence/race.",
+                "id": "4"
+              },
+              {
+                "description": "I always enjoy a good mug of ale ... or five to cover up my past.",
+                "id": "5"
+              },
+              {
+                "description": "I speak for the First Lord of Hillsfar and make sure everyone knows it.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Investigation, Persuasion, Thieves' Tools, Elvish",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You are part of a small force outside of Hillsfar. You have a special way of communicating with others and they seem to be at ease around you. You can invoke your rank to allow you access to a crime scene or to requisition equipment or horses on a temporary basis. When you enter a town or village around Hillsfar you can identify a contact who will give you information on the local rumors and would help you simply because of your desire to get answers and information for anyone wanting to disrupt trade.</p>",
+      "id": "ID_WOTC_ALSOH_BACKGROUND_TRADE_SHERIFF_FEATURE_INVESTIGATIVE_SERVICES",
+      "name": "Feature: Investigative Services",
+      "sheet": {
+        "alt": "Investigative Services"
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p></p>",
+      "id": "ID_WOTC_ALSOH_ITEM_GEAR_SHERIFFS_INSIGNIA",
+      "name": "Sheriff's Insignia",
+      "setters": {
+        "set": {
+          "description": "Adventuring Gear",
+          "name": "category"
+        }
+      },
+      "source": "Adventurers League: State of Hillsfar",
+      "type": "Item"
+    }
+  ],
+  "info": {
+    "description": "Backgrounds from State of Hillsfar article as part of the Adventurers League: Rage of Demons storyline",
+    "name": "State of Hillsfar",
+    "update": {
+      "file": {
+        "name": "state-of-hillsfar.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/state-of-hillsfar.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

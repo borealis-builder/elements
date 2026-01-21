@@ -1,0 +1,156 @@
+{
+  "element": [
+    {
+      "description": "<p>Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse. While other elves traveled from realm to realm, sea elves navigated the currents and explored the waters of many worlds. Today these elves can be found wherever oceans exist, as well as in the Elemental Plane of Water.</p> <p class=\"indent\">Like other elves, sea elves can live to be over 750 years old.</p> <h4>SEA ELF TRAITS</h4> <p>As a sea elf, you have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf. </p> <p class=\"indent\"><strong><em>Size.</em></strong> You are Medium.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p> <p class=\"indent\"><strong><em>Child of the Sea.</em></strong> You can breathe air and water, and you have resistance to cold damage.</p> <p class=\"indent\"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p> <p class=\"indent\"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself. </p> <p class=\"indent\"><strong><em>Friend of the Sea.</em></strong> Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p> <p class=\"indent\"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p> <p class=\"indent\"><strong><em>Trance.</em></strong> You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness. </p> <p class=\"indent\">Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest. </p>",
+      "id": "ID_WOTC_MOTM_RACE_SEA_ELF",
+      "name": "Sea Elf",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FEY_ANCESTRY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_KEEN_SENSES",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_TRANCE",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Improvement Option (Sea Elf)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language (Sea Elf)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Sea Elf)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "innate speed:swim",
+            "value": "innate speed"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You can breathe air and water, and you have resistance to cold damage.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA",
+      "name": "Child of the Sea",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD",
+          "type": "Condition"
+        }
+      },
+      "sheet": "You can breathe air and water.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FEY_ANCESTRY",
+      "name": "Fey Ancestry",
+      "sheet": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA",
+      "name": "Friend of the Sea",
+      "sheet": "You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have proficiency in the Perception skill.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_KEEN_SENSES",
+      "name": "Keen Senses",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_PERCEPTION",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Customized Skill Proficiency (Keen Senses)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p> You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness. </p> <p class=\"indent\">Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest. </p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_TRANCE",
+      "name": "Trance",
+      "sheet": "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.&#13; Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You retain them until you finish your next long rest.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "name": "Sea Elf from Monsters of the Multiverse",
+    "update": {
+      "file": {
+        "name": "race-sea-elf.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-sea-elf.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

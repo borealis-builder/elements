@@ -1,0 +1,169 @@
+{
+  "element": [
+    {
+      "description": "<p>Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel, in time, these rabbitfolk hopped into other worlds, bringing the fey realm's exuberance with them and learning new languages as they went.</p> <p class=\"indent\">Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.</p> <h4>HARENGON TRAITS</h4> <p>As a harengon, you have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p> <p class=\"indent\"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p> <p class=\"indent\"><strong><em>Hare-Trigger.</em></strong> You can add your proficiency bonus to your initiative rolls.</p> <p class=\"indent\"><strong><em>Leporine Senses.</em></strong> You have proficiency in the Perception skill.</p> <p class=\"indent\"><strong><em>Lucky Footwork.</em></strong> When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the result, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.</p> <p class=\"indent\"><strong><em>Rabbit Hop.</em></strong> As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_WBW_RACE_HARENGON",
+      "name": "Harengon",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_WBW_RACIAL_TRAIT_HARENGON_HARE_TRIGGER",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_WBW_RACIAL_TRAIT_HARENGON_LEPORINE_SENSES",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_WBW_RACIAL_TRAIT_HARENGON_LUCKY_FOOTWORK",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_WBW_RACIAL_TRAIT_HARENGON_RABBIT_HOP",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Size (Harengon)",
+            "supports": "ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM",
+            "type": "Racial Trait"
+          },
+          {
+            "name": "Ability Score Improvement Option (Harengon)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Harengon)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed",
+          "value": "30"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "The Wild Beyond The Witchlight",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You add your proficiency bonus to your initiative rolls.</p>",
+      "id": "ID_WOTC_WBW_RACIAL_TRAIT_HARENGON_HARE_TRIGGER",
+      "name": "Hare-Trigger",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANT_JACK_OF_ALL_TRADES_DISABLE",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "initiative",
+          "value": "proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You add your proficiency bonus to your initiative rolls.",
+        "display": "false"
+      },
+      "source": "The Wild Beyond The Witchlight",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have proficiency in the Perception skill.</p>",
+      "id": "ID_WOTC_WBW_RACIAL_TRAIT_HARENGON_LEPORINE_SENSES",
+      "name": "Leporine Senses",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_PERCEPTION",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Customized Skill Proficiency",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "content": "You have proficiency in the Perception skill.",
+        "display": "false"
+      },
+      "source": "The Wild Beyond The Witchlight",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the result, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.</p>",
+      "id": "ID_WOTC_WBW_RACIAL_TRAIT_HARENGON_LUCKY_FOOTWORK",
+      "name": "Lucky Footwork",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you fail a Dexterity saving throw, you can roll a d4 and add it to the result, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0."
+      },
+      "source": "The Wild Beyond The Witchlight",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_WBW_RACIAL_TRAIT_HARENGON_RABBIT_HOP",
+      "name": "Rabbit Hop",
+      "rules": {
+        "stat": [
+          {
+            "name": "rabbit hop:distance",
+            "value": "proficiency"
+          },
+          {
+            "name": "rabbit hop:distance",
+            "value": "proficiency"
+          },
+          {
+            "name": "rabbit hop:distance",
+            "value": "proficiency"
+          },
+          {
+            "name": "rabbit hop:distance",
+            "value": "proficiency"
+          },
+          {
+            "name": "rabbit hop:distance",
+            "value": "proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can jump {{rabbit hop:distance}} feet, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "The Wild Beyond The Witchlight",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "name": "Harengon",
+    "update": {
+      "file": {
+        "name": "race-harengon.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight/race-harengon.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

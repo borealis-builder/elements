@@ -1,0 +1,275 @@
+{
+  "element": [
+    {
+      "description": "<p>You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.</p>",
+      "id": "ID_WOTC_SCOC_SPELL_BORROWED_KNOWLEDGE",
+      "name": "Borrowed Knowledge",
+      "setters": {
+        "set": [
+          {
+            "description": "skill, proficiency",
+            "name": "keywords"
+          },
+          {
+            "description": "2",
+            "name": "level"
+          },
+          {
+            "description": "Divination",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "Self",
+            "name": "range"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "a book worth at least 25gp",
+            "name": "materialComponent"
+          },
+          {
+            "description": "1 hour",
+            "name": "duration"
+          }
+        ]
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "supports": "Bard, Cleric, Warlock, Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration:</p> <ul> <li>Your walking speed increases by 10 feet.</li> <li>You don't provoke opportunity attacks.</li> <li>You can move through the space of another creature, and it doesn't count as difficult terrain. If you end your turn in another creature's space, you are shunted to the last unoccupied space you occupied, and you take 1d8 force damage</li> </ul>",
+      "id": "ID_WOTC_SCOC_SPELL_KINETIC_JAUNT",
+      "name": "Kinetic Jaunt",
+      "setters": {
+        "set": [
+          {
+            "description": "speed, opportunity attacks, disengage",
+            "name": "keywords"
+          },
+          {
+            "description": "2",
+            "name": "level"
+          },
+          {
+            "description": "Transmutation",
+            "name": "school"
+          },
+          {
+            "description": "1 bonus action",
+            "name": "time"
+          },
+          {
+            "description": "Self",
+            "name": "range"
+          },
+          {
+            "description": "false",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "false",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "name": "materialComponent"
+          },
+          {
+            "description": "Concentration, up to 1 minute",
+            "name": "duration"
+          },
+          {
+            "description": "true",
+            "name": "isConcentration"
+          }
+        ]
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "supports": "Artificer, Bard, Sorcerer, Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.</p> <p class=\"indent\">You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.</p>",
+      "id": "ID_WOTC_SCOC_SPELL_SILVERY_BARBS",
+      "name": "Silvery Barbs",
+      "setters": {
+        "set": [
+          {
+            "description": "advantage, attack roll, ability check, saving throw",
+            "name": "keywords"
+          },
+          {
+            "description": "1",
+            "name": "level"
+          },
+          {
+            "description": "Enchantment",
+            "name": "school"
+          },
+          {
+            "description": "1 reaction, which you take when a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw",
+            "name": "time"
+          },
+          {
+            "description": "60 feet",
+            "name": "range"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "false",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "false",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "name": "materialComponent"
+          },
+          {
+            "description": "Instantaneous",
+            "name": "duration"
+          }
+        ]
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "supports": "Bard, Sorcerer, Wizard",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You magically twist space around another creature you can see within range. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.</p> <p class=\"indent\"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 3rd level or higher, the range of the spell increases by 30 feet for each slot level above 2nd.</p>",
+      "id": "ID_WOTC_SCOC_SPELL_VORTEX_WARP",
+      "name": "Vortex Warp",
+      "setters": {
+        "set": [
+          {
+            "description": "teleport",
+            "name": "keywords"
+          },
+          {
+            "description": "2",
+            "name": "level"
+          },
+          {
+            "description": "Conjuration",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "90 feet",
+            "name": "range"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "false",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "name": "materialComponent"
+          },
+          {
+            "description": "Instantaneous",
+            "name": "duration"
+          }
+        ]
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "supports": "Artificer, Sorcerer, Wizard, Constitution, Spell Saving Throw",
+      "type": "Spell"
+    },
+    {
+      "description": "<p>You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking 2d6 necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.</p> <p class=\"indent\">In addition, one creature of your choice in that area can spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier.</p> <p class=\"indent\"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot above 2nd, and the number of Hit Dice that can be spent and added to the healing roll increases by one for each slot above 2nd.</p>",
+      "id": "ID_WOTC_SCOC_SPELL_WITHER_AND_BLOOM",
+      "name": "Wither and Bloom",
+      "setters": {
+        "set": [
+          {
+            "description": "necrotic, healing, hit dice",
+            "name": "keywords"
+          },
+          {
+            "description": "2",
+            "name": "level"
+          },
+          {
+            "description": "Necromancy",
+            "name": "school"
+          },
+          {
+            "description": "1 action",
+            "name": "time"
+          },
+          {
+            "description": "60 feet",
+            "name": "range"
+          },
+          {
+            "description": "true",
+            "name": "hasVerbalComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasSomaticComponent"
+          },
+          {
+            "description": "true",
+            "name": "hasMaterialComponent"
+          },
+          {
+            "description": "A withered vine twisted into a loop",
+            "name": "materialComponent"
+          },
+          {
+            "description": "Instantaneous",
+            "name": "duration"
+          }
+        ]
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "supports": "Druid, Sorcerer, Wizard, Constitution, Spell Saving Throw",
+      "type": "Spell"
+    }
+  ],
+  "info": {
+    "name": "Spells from Strixhaven: A Curriculum Of Chaos",
+    "update": {
+      "file": {
+        "name": "spells.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/spells.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

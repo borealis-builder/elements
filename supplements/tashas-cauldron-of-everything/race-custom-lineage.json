@@ -1,0 +1,148 @@
+{
+  "element": [
+    {
+      "description": "<p>Instead of choosing one of the game's races for your character at 1st level, you can use the following traits to represent your character's lineage, giving you full control over how your character's origin shaped them:</p> <p> <span class=\"feature\">Creature Type.</span>You are a humanoid. You determine your appearance and whether you resemble any of your kin.<br /> <span class=\"feature\">Size.</span>You are Small or Medium (your choice).<br /> <span class=\"feature\">Speed.</span>Your base walking speed is 30 feet.<br /> <span class=\"feature\">Ability Score Increase.</span>One ability score of your choice increases by 2.<br /> <span class=\"feature\">Feat.</span> You gain one feat of your choice for which you qualify.<br /> <span class=\"feature\">Variable Trait.</span>You gain one of the following options of your choice: (a) darkvision with a range of 60 feet or (b) proficiency in one skill of your choice.<br /> <span class=\"feature\">Languages.</span>You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.<br /> </p> <p>Your race is considered to be a Custom Lineage for any game feature that requires a certain race, such as elf or dwarf.</p>",
+      "id": "ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE",
+      "name": "Custom Lineage",
+      "rules": {
+        "grant": {
+          "id": "ID_LANGUAGE_COMMON",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+          "type": "Language"
+        },
+        "select": [
+          {
+            "name": "Size",
+            "supports": "Custom Lineage Size",
+            "type": "Racial Trait"
+          },
+          {
+            "name": "Ability Score Improvement +2 (Custom Lineage)",
+            "supports": "Custom Ability Score Increase 2",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Feat (Custom Lineage)",
+            "type": "Feat"
+          },
+          {
+            "name": "Variable Trait",
+            "supports": "Custom Lineage Variable Trait",
+            "type": "Racial Trait"
+          },
+          {
+            "name": "Customized Language",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Custom Lineage)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed",
+          "value": "30"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Race"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your size is Small.</p>",
+      "id": "ID_WOTC_TCOE_RACIAL_TRAIT_SMALL",
+      "name": "Small",
+      "rules": {
+        "grant": {
+          "id": "ID_SIZE_SMALL",
+          "type": "Size"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Custom Lineage Size",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your size is Medium.</p>",
+      "id": "ID_WOTC_TCOE_RACIAL_TRAIT_MEDIUM",
+      "name": "Medium",
+      "rules": {
+        "grant": {
+          "id": "ID_SIZE_MEDIUM",
+          "type": "Size"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Custom Lineage Size",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Proficiency in one skill of your choice.</p>",
+      "id": "ID_WOTC_TCOE_RACIAL_TRAIT_SKILL_PROFIIENCY",
+      "name": "Skill Proficiency",
+      "rules": {
+        "select": {
+          "name": "Skill (Custom Lineage)",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Custom Lineage Variable Trait",
+      "type": "Racial Trait"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Darkvision with a range of 60 feet.</p>",
+      "id": "ID_WOTC_TCOE_RACIAL_TRAIT_DARKVISION",
+      "name": "Darkvision",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_DARKVISION",
+          "type": "Vision"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Custom Lineage Variable Trait",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "race-custom-lineage.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/race-custom-lineage.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

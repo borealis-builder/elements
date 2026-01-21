@@ -1,0 +1,39 @@
+{
+  "info": {
+    "name": "Core",
+    "description": "The content from the core rulebooks.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com"
+    },
+    "update": {
+      "version": "0.2.6",
+      "file": {
+        "name": "core.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "internal.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/internal.json"
+    },
+    {
+      "name": "dungeon-masters-guide.index.json",
+      "type": "index",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide.index.json"
+    },
+    {
+      "name": "monster-manual.index.json",
+      "type": "index",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual.index.json"
+    },
+    {
+      "name": "players-handbook.index.json",
+      "type": "index",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook.index.json"
+    }
+  ]
+}

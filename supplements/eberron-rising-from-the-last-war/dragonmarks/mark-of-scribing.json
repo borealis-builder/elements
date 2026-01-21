@@ -1,0 +1,104 @@
+{
+  "element": [
+    {
+      "description": "<p>The Mark of Scribing deals with communication-both the written and spoken word. A gnome who bears the mark can feel words as though they are living creatures, struggling to make their meaning known. The mark provides a range of gifts. It translates languages, but it also allows its bearer to communicate with others at a distance.</p> <p>If you're a gnome with the Mark of Scribing, you have this subrace, with the following traits.</p> <p class=\"indent\"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p> <p class=\"indent\"><strong><em>Gifted Scribe.</em></strong> When you make an Intelligence (History) check or an ability check using calligrapher's supplies, you can roll a d4 and add the number rolled to the ability check.</p> <p class=\"indent\"><strong><em>Scribe's Insight.</em></strong> You know the message cantrip. You can also cast comprehend languages once with this trait, and you regain the ability to cast it when you finish a short or long rest. Starting at 3rd level, you can cast the magic mouth spell with this trait, and you regain the ability to cast it when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p> <p class=\"indent\"><strong><em>Spells of the Mark.</em></strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your spellcasting class.</p> <p><strong>MARK OF SCRIBING SPELLS</strong></p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>comprehend languages, illusory script</em></td></tr> <tr><td>2nd</td><td><em>animal messenger, silence</em></td></tr> <tr><td>3rd</td><td><em>sending, tongues</em></td></tr> <tr><td>4th</td><td><em>arcane eye, confusion</em></td></tr> <tr><td>5th</td><td><em>dream</em></td></tr> </table>",
+      "id": "ID_WOTC_ERLW_SUB_RACE_MARK_OF_SCRIBING",
+      "name": "Mark of Scribing",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_ERLW_DRAGONMARK_MARK_OF_SCRIBING",
+            "type": "Dragonmark"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SCRIBING_GIFTED_SCRIBE",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SCRIBING_SCRIBES_INSIGHT",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SCRIBING_SPELLS_OF_THE_MARK",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": {
+          "name": "Custom Ability Score Improvement +1 (Mark of Scribing)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "supports": "Custom Ability Score Increase 1",
+          "type": "Ability Score Improvement"
+        },
+        "stat": {
+          "name": "charisma",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "alt": "Gnome (Mark of Scribing)",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "supports": "Gnome",
+      "type": "Sub Race"
+    },
+    {
+      "description": "<p>When you make an Intelligence (History) check or an ability check using calligrapher's supplies, you can roll a d4 and add the number rolled to the ability check.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SCRIBING_GIFTED_SCRIBE",
+      "name": "Gifted Scribe",
+      "sheet": "When you make an History check or an ability check using calligrapher's supplies, you can roll a d4 and add the number rolled to the ability check.",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You know the message cantrip. You can also cast comprehend languages once with this trait, and you regain the ability to cast it when you finish a short or long rest. Starting at 3rd level, you can cast the magic mouth spell with this trait, and you regain the ability to cast it when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SCRIBING_SCRIBES_INSIGHT",
+      "name": "Scribe's Insight",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_MESSAGE",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You know the message cantrip. You can also cast comprehend languages once (Short Rest) with this trait using Intelligence as your spellcasting ability. You know the message cantrip. You can also cast comprehend languages (Short Rest) and magic mouth (Long Rest) once with this trait using Intelligence as your spellcasting ability.",
+      "source": "Eberron: Rising from the Last War",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your spellcasting class.</p> <h5>Mark of Scribing Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>comprehend languages, illusory script</em></td></tr> <tr><td>2nd</td><td><em>animal messenger, silence</em></td></tr> <tr><td>3rd</td><td><em>sending, tongues</em></td></tr> <tr><td>4th</td><td><em>arcane eye, confusion</em></td></tr> <tr><td>5th</td><td><em>dream</em></td></tr> </table>",
+      "id": "ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SCRIBING_SPELLS_OF_THE_MARK",
+      "name": "Spells of the Mark",
+      "sheet": {
+        "content": "The spells on the Mark of Scribing Spells table are added to the spell list of your spellcasting class.",
+        "display": "false"
+      },
+      "source": "Eberron: Rising from the Last War",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_COMPREHEND_LANGUAGES",
+          "ID_PHB_SPELL_ILLUSORY_SCRIPT",
+          "ID_PHB_SPELL_ANIMAL_MESSENGER",
+          "ID_PHB_SPELL_SILENCE",
+          "ID_PHB_SPELL_SENDING",
+          "ID_PHB_SPELL_TONGUES",
+          "ID_PHB_SPELL_ARCANE_EYE",
+          "ID_PHB_SPELL_CONFUSION",
+          "ID_PHB_SPELL_DREAM"
+        ]
+      },
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "mark-of-scribing.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-scribing.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

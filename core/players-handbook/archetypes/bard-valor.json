@@ -1,0 +1,138 @@
+{
+  "element": [
+    {
+      "description": "<p>Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.</p> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BONUS_PROFICIENCIES\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_COLLEGE_OF_VALOR",
+      "name": "College of Valor",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BONUS_PROFICIENCIES",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Bard College",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BONUS_PROFICIENCIES",
+      "name": "Bonus Proficiencies",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_BONUS_PROFICIENCIES",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Also at 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION",
+      "name": "Combat Inspiration",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_COMBAT_INSPIRATION",
+      "sheet": "A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK",
+      "name": "Extra Attack",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_EXTRA_ATTACK",
+      "rules": {
+        "stat": {
+          "bonus": "extra attack",
+          "level": "6",
+          "name": "extra attack:count",
+          "value": "2"
+        }
+      },
+      "sheet": "You can attack twice, instead of once, whenever you take the Attack action on your turn.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC",
+      "name": "Battle Magic",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_BATTLE_MAGIC",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "When you use your action to cast a bard spell, you can make one weapon attack."
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_BONUS_PROFICIENCIES",
+      "name": "Bonus Proficiencies Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_COMBAT_INSPIRATION",
+      "name": "Combat Inspiration Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_EXTRA_ATTACK",
+      "name": "Extra Attack Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_BATTLE_MAGIC",
+      "name": "Battle Magic Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "bard-valor.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/bard-valor.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The Storm Sorcery from Xanathar's Guide to Everything",
+    "name": "Storm Sorcery",
+    "update": {
+      "file": {
+        "name": "sorcerer-stormsorcery.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/sorcerer-stormsorcery.json"
+      },
+      "version": "0.1"
+    }
+  }
+}

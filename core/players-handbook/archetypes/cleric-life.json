@@ -1,0 +1,250 @@
+{
+  "element": [
+    {
+      "description": "<p>The Life domain focuses on the vibrant positive energy— one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).</p> <h5 class=\"caption\">LIFE DOMAIN SPELLS</h5> <table> <thead> <tr><td>Cleric Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>bless, cure wounds</em></td></tr> <tr><td>3rd</td><td><em>lesser restoration, spiritual weapon</em></td></tr> <tr><td>5th</td><td><em>beacon of hope, revivify</em></td></tr> <tr><td>7th</td><td><em>death ward, guardian of faith</em></td></tr> <tr><td>9th</td><td><em>mass cure wounds, raise dead</em></td></tr> </table> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BONUSPROFICIENCY\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_CHANNELDIVINITY_PRESERVELIFE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DIVINESTRIKE\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_LIFEDOMAIN",
+      "name": "Life Domain",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_BLESS",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_CURE_WOUNDS",
+            "level": "1",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_LESSER_RESTORATION",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SPIRITUAL_WEAPON",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_BEACON_OF_HOPE",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_REVIVIFY",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_DEATH_WARD",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_GUARDIAN_OF_FAITH",
+            "level": "7",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_MASS_CURE_WOUNDS",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_RAISE_DEAD",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BONUSPROFICIENCY",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_CHANNELDIVINITY_PRESERVELIFE",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DIVINESTRIKE",
+            "level": "8",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "The Life domain focuses on the vibrant positive energy— one of the fundamental forces of the universe—that sustains all life.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Divine Domain",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>When you choose this domain at 1st level, you gain proficiency with heavy armor.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BONUSPROFICIENCY",
+      "name": "Bonus Proficiency",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_BONUS_PROFICIENCY",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE",
+      "name": "Disciple of Life",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_DISCIPLE_OF_LIFE",
+      "sheet": "Whenever you use a spell of 1st level or higher to restore hp to a creature, the creature regains additional hp equal to 2 + the spell's level.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.</p> <p class=\"indent\">As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_CHANNELDIVINITY_PRESERVELIFE",
+      "name": "Channel Divinity: Preserve Life",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_CHANNEL_DIVINITY_PRESERVE_LIFE",
+      "rules": {
+        "stat": [
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          },
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          },
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          },
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          },
+          {
+            "name": "preserve life:hp",
+            "value": "level:cleric"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Action",
+        "alt": "Preserve Life",
+        "content": "You present your holy symbol and evoke healing energy that can restore {{preserve life:hp}} hp. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hp maximum. You can't use this feature on an undead or a construct.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER",
+      "name": "Blessed Healer",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_BLESSED_HEALER",
+      "sheet": "When you cast a spell of 1st level or higher that restores hp to a creature other than you, you regain hp equal to 2 + the spell's level.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DIVINESTRIKE",
+      "name": "Divine Strike",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING",
+      "sheet": "Once on each of your turn +1d8 radiant damage with a weapon attack. Once on each of your turn +2d8 radiant damage with a weapon attack.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING",
+      "name": "Supreme Healing",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_SUPREME_HEALING",
+      "sheet": "When you would normally roll one or more dice to restore hp with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hp to a creature, you restore 12.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_BONUS_PROFICIENCY",
+      "name": "Bonus Proficiency Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_DISCIPLE_OF_LIFE",
+      "name": "Disciple of Life Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_CHANNEL_DIVINITY_PRESERVE_LIFE",
+      "name": "Channel Divinity: Preserve Life Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_BLESSED_HEALER",
+      "name": "Blessed Healer Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_SUPREME_HEALING",
+      "name": "Supreme Healing Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "cleric-life.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-life.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

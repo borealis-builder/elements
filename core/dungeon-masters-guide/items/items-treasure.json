@@ -1,0 +1,3214 @@
+{
+  "element": [
+    {
+      "description": "<p>Opaque mottled deep blue.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_AZURITE",
+      "name": "Azurite",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent striped brown, blue, white, or red.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_BANDED_AGATE",
+      "name": "Banded Agate",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent pale blue.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_BLUE_QUARTZ",
+      "name": "Blue Quartz",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent circles of gray, white, brown , blue, or green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_EYE_AGATE",
+      "name": "Eye Agate",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque gray-black.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_HEMATITE",
+      "name": "Hematite",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque light and dark blue with yellow flecks.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_LAPIS_LAZULI",
+      "name": "Lapis Lazuli",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque striated light and dark green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_MALACHITE",
+      "name": "Malachite",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent pink or yellow-white with mossy gray or green markings.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_MOSS_AGATE",
+      "name": "Moss Agate",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque black.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_OBSIDIAN",
+      "name": "Obsidian",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque light pink.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_RHODOCHROSITE",
+      "name": "Rhodochrosite",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent brown with golden center.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_TIGER_EYE",
+      "name": "Tiger Eye",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque light blue-green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_TURQUOISE",
+      "name": "Turquoise",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque dark gray with red flecks.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_BLOODSTONE",
+      "name": "Bloodstone",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque orange to red-brown.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_CARNELIAN",
+      "name": "Carnelian",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque white.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_CHALCEDONY",
+      "name": "Chalcedony",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_CHRYSOPRASE",
+      "name": "Chrysoprase",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent pale yellow-brown.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_CITRINE",
+      "name": "Citrine",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque blue, black, or brown.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_JASPER",
+      "name": "Jasper",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent white with pale blue glow.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_MOONSTONE",
+      "name": "Moonstone",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque bands of black and white, or pure black or white.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_ONYX",
+      "name": "Onyx",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent white, smoky gray, or yellow.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_QUARTZ",
+      "name": "Quartz",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque bands of red and white.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_SARDONYX",
+      "name": "Sardonyx",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent rosy stone with white star-shaped center.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_STAR_ROSE_QUARTZ",
+      "name": "Star Rose Quartz",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent pale blue-green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_ZIRCON",
+      "name": "Zircon",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent watery gold to rich gold.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_AMBER",
+      "name": "Amber",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "100",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent deep purple.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_AMETHYST",
+      "name": "Amethyst",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "100",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent yellow-green to pale green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_CHRYSOBERYL",
+      "name": "Chrysoberyl",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque crimson.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_CORAL",
+      "name": "Coral",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent red, brown-green, or violet.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_GARNET",
+      "name": "Garnet",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent light green, deep green, or white.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_JADE",
+      "name": "Jade",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque deep black.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_JET",
+      "name": "Jet",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque lustrous white, yellow, or pink.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_PEARL",
+      "name": "Pearl",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent red, red-brown, or deep green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_SPINEL",
+      "name": "Spinel",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent pale green, blue, brown, or red.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_TOURMALINE",
+      "name": "Tourmaline",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent dark green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_ALEXANDRITE",
+      "name": "Alexandrite",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent pale blue-green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_AQUAMARINE",
+      "name": "Aquamarine",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Opaque pure black.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_BLACK_PEARL",
+      "name": "Black Pearl",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent deep blue.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_BLUE_SPINEL",
+      "name": "Blue Spinel",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent rich olive green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_PERIDOT",
+      "name": "Peridot",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent golden yellow.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_TOPAZ",
+      "name": "Topaz",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent dark green with black mottling and golden flecks.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_BLACK_OPAL",
+      "name": "Black Opal",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "1000",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent blue-white to medium blue.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_BLUE_SAPPHIRE",
+      "name": "Blue Sapphire",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "1000",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent deep bright green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_EMERALD",
+      "name": "Emerald",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent fiery red.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_FIRE_OPAL",
+      "name": "Fire Opal",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent pale blue with green and golden mottling.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_OPAL",
+      "name": "Opal",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent ruby with white star-shaped center.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_STAR_RUBY",
+      "name": "Star Ruby",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent blue sapphire with white star-shaped center.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_STAR_SAPPHIRE",
+      "name": "Star Sapphire",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent fiery yellow or yellow· green.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_YELLOW_SAPPHIRE",
+      "name": "Yellow Sapphire",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Translucent lustrous black with glowing highlights.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_BLACK_SAPPHIRE",
+      "name": "Black Sapphire",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "5000",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent blue-white, canary, pink, brown, or blue.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_DIAMOND",
+      "name": "Diamond",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "5000",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent fiery orange.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_JACINTH",
+      "name": "Jacinth",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Transparent clear red to deep crimson.</p>",
+      "id": "ID_WOTC_DMG_ITEM_GEMSTONE_RUBY",
+      "name": "Ruby",
+      "setters": {
+        "set": [
+          {
+            "description": "gemstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A silver ewer.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_1",
+      "name": "Silver Ewer",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A carved bone statuette.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_2",
+      "name": "Carved Bone Statuette",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A small gold bracelet.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_3",
+      "name": "Small Gold Bracelet",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Cloth-of-gold vestments.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_4",
+      "name": "Cloth-of-Gold Vestments",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A black velvet mask stitched with silver thread.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_5",
+      "name": "Black Velvet Mask",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,silver",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A copper chalice with silver filigree.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_6",
+      "name": "Copper Chalice",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,silver",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>a pair of engraved bone dice.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_7",
+      "name": "Engraved Bone Dice",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A small mirror set in a painted wooden frame.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_8",
+      "name": "Small Mirror",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,wooden",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>An embroidered silk handkerchief.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_9",
+      "name": "Embroidered Handkerchief",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,silk",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A gold locket with a painted portrait inside.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_25GP_10",
+      "name": "Gold Locket",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,portrait",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A gold ring set with bloodstones.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_1",
+      "name": "Gold Ring",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,bloodstones",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A carved ivory statuette.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_2",
+      "name": "Ivory Statuette",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A large gold bracelet.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_3",
+      "name": "Gold Bracelet",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A silver necklace with a gemstone pendant.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_4",
+      "name": "Silver Necklace",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,gemstone,pendant",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A bronze crown.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_5",
+      "name": "Bronze Crown",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A silk robe with gold embroidery.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_6",
+      "name": "Silk Robe",
+      "setters": {
+        "set": [
+          {
+            "description": "art object, gold embroidery",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A large well-made tapestry.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_7",
+      "name": "Well-Made Tapestry",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A brass mug with jade inlay.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_8",
+      "name": "Brass Mug",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,jade",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A box of turquoise animal figurines.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_9",
+      "name": "Box of Animal Figurines",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,turquoise",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A gold bird cage with electrum filigree.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_250GP_10",
+      "name": "Gold Bird Cage",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,electrum",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "250",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A silver chalice set with moonstones.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_1",
+      "name": "Silver Chalice",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,moonstones",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A silver-plated steel longsword with jet set in hilt.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_2",
+      "name": "Silver-Plated Longsword",
+      "setters": {
+        "set": [
+          {
+            "description": "art object, jet",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A carved harp of exotic wood with ivory inlay and zircon gems.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_3",
+      "name": "Harp of Exotic Wood",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,ivory,zircon gems",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A small gold idol.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_4",
+      "name": "Gold Idol",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A gold dragon comb set with red garnets as eyes.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_5",
+      "name": "Gold Dragon Comb",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A bottle stopper cork embossed with gold leaf and set with amethysts.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_6",
+      "name": "Bottle Stopper Cork",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,gold,amethysts",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A ceremonial electrum dagger with a black pearl in the pommel.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_7",
+      "name": "Electrum Dagger",
+      "setters": {
+        "set": [
+          {
+            "description": "art object, pearl",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A silver and gold brooch.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_8",
+      "name": "Silver and Gold Brooch",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>An obsidian statuette with gold fittings and inlay.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_9",
+      "name": "Obsidian Statuette",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,gold",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A painted gold war mask.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_750GP_10",
+      "name": "Painted Gold War Mask",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "750",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A fine gold chain set with a fire opal.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_1",
+      "name": "Fine Gold Chain Set",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,fire opal",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>An old masterpiece painting.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_2",
+      "name": "Masterpiece Painting",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>An embroidered silk and velvet mantle set with numerous moonstones.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_3",
+      "name": "Silk and Velvet Mantle",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,moonstones",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A platinum bracelet set with a sapphire.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_4",
+      "name": "Platinum Bracelet",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,sapphire",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>An embroidered glove set with jewel chips.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_5",
+      "name": "Embroidered Glove Set",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A jeweled anklet.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_6",
+      "name": "Jeweled Anklet",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A gold music box.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_7",
+      "name": "Gold Music Box",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A gold circlet set with four aquamarines.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_8",
+      "name": "Gold Circlet",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,aquamarines",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>An eye patch with a mock eye set in blue sapphire and moonstone.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_9",
+      "name": "Eye Patch",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,sapphire,moonstone",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A necklace string of small pink pearls.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_2500GP_10",
+      "name": "Pearl Necklace",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,pearls",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "2500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A jeweled gold crown.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_7500GP_1",
+      "name": "Jeweled Gold Crown",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "7500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A jeweled platinum ring.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_7500GP_2",
+      "name": "Jeweled Platinum Ring",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "7500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A small gold statuette set with rubies.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_7500GP_3",
+      "name": "Gold Statuette",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,ruby",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "7500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A gold cup set with emeralds.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_7500GP_4",
+      "name": "Gold Cup",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,emeralds",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "7500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A gold jewelry box with platinum filigree.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_7500GP_5",
+      "name": "Gold Jewelry Box",
+      "setters": {
+        "set": [
+          {
+            "description": "art object",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "7500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A painted gold child's sarcophagus.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_7500GP_6",
+      "name": "Child's Sarcophagus",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,gold",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "7500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A jade game board with solid gold playing pieces.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_7500GP_7",
+      "name": "Jade Game Board",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,gold",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "7500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<p>A bejeweled ivory drinking horn with gold filigree.</p>",
+      "id": "ID_WOTC_DMG_ITEM_ART_OBJECT_7500GP_8",
+      "name": "Bejeweled Drinking Horn",
+      "setters": {
+        "set": [
+          {
+            "description": "art object,gold",
+            "name": "keywords"
+          },
+          {
+            "description": "Treasure",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "7500",
+            "name": "cost"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          },
+          {
+            "description": "true",
+            "name": "valuable"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    }
+  ],
+  "info": {
+    "name": "Treasure",
+    "update": {
+      "file": {
+        "name": "items-treasure.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-treasure.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

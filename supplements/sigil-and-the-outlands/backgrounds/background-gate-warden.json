@@ -1,0 +1,114 @@
+{
+  "element": [
+    {
+      "description": "<p><em>Prerequisite: Planescape Campaign</em></p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Persuasion, Survival</li> <li><strong>Languages:</strong> Two of your choice (Abyssal, Celestial, or Infernal recommended)</li> <li><strong>Equipment:</strong> A ring of keys to unknown locks, a blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, and a pouch containing 10 gp</li> </ul> <div element=\"ID_WOTC_SATO_BACKGROUND_GATE_WARDEN_PLANAR_INFUSION\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>The influence of an Outer Plane shapes your perspective. The Gate Warden Personality Traits table suggests traits you might adopt for your character.</p> <table> <thead> <tr><td class=\"col-10\">d6</td><td>Personality Trait</td></tr> </thead> <tr><td>1</td><td>Strange events and otherworldly creatures don't faze me.</td></tr> <tr><td>2</td><td>I think in terms of exchange: something for something, nothing for nothing.</td></tr> <tr><td>3</td><td>I speak with an unusual cadence.</td></tr> <tr><td>4</td><td>I pepper my speech with words or curses borrowed from planar languages.</td></tr> <tr><td>5</td><td>I've seen enough to know that you can't take anyone at face value, so I scrutinize everyone.</td></tr> <tr><td>6</td><td>I have a superstitious habit I picked up from my gate-town, such as touching iron when I'm nervous or arranging objects in a specific order.</td></tr> </table> <h5>BUILDING A GATE WARDEN CHARACTER</h5> <p>Those who dwell for an extended time near a permanent portal to another plane absorb the essence radiating from the realm beyond. Those influenced by the same plane share similarities in behavior and even physical appearance.</p> <p class=\"indent\"><b>Gate Warden Trinkets.</b> When you make your character, you can roll once on the Gate Warden Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.</p> <div class=\"reference\"> <div element=\"ID_WOTC_SATO_FEAT_SCION_OF_THE_OUTER_PLANES\" /> </div>",
+      "id": "ID_WOTC_SATO_BACKGROUND_GATE_WARDEN",
+      "name": "Gate Warden",
+      "prerequisite": "Planescape Campaign",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_SATO_BACKGROUND_GATE_WARDEN_PLANAR_INFUSION",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERSUASION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          }
+        ],
+        "select": [
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Strange events and otherworldly creatures don't faze me.",
+                "id": "1"
+              },
+              {
+                "description": "I think in terms of exchange: something for something, nothing for nothing.",
+                "id": "2"
+              },
+              {
+                "description": "I speak with an unusual cadence.",
+                "id": "3"
+              },
+              {
+                "description": "I pepper my speech with words or curses borrowed from planar languages.",
+                "id": "4"
+              },
+              {
+                "description": "I've seen enough to know that you can't take anyone at face value, so I scrutinize everyone.",
+                "id": "5"
+              },
+              {
+                "description": "I have a superstitious habit I picked up from my gate-town, such as touching iron when I'm nervous or arranging objects in a specific order.",
+                "id": "6"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "name": "Language (Gate Warden)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Persuasion, Survival, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Sigil and the Outlands",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Living in a gate-town or a similar location steeped you in planar energy. You gain the Scion of the Outer Planes feat. In addition, you know where to find free, modest lodging and food in the community you grew up in.</p> <div class=\"reference\"> <div element=\"ID_WOTC_SATO_FEAT_SCION_OF_THE_OUTER_PLANES\" /> </div>",
+      "id": "ID_WOTC_SATO_BACKGROUND_GATE_WARDEN_PLANAR_INFUSION",
+      "name": "Feature: Planar Infusion",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_SATO_FEAT_SCION_OF_THE_OUTER_PLANES",
+            "type": "Feat"
+          },
+          {
+            "id": "ID_INTERNAL_GRANTS_BACKGROUND_WITH_A_FEAT",
+            "type": "Grants"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Planar Infusion",
+        "content": "You know where to find free, modest lodging and food in the community you grew up in."
+      },
+      "source": "Sigil and the Outlands",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "name": "Gate Warden Background",
+    "update": {
+      "file": {
+        "name": "background-gate-warden.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/backgrounds/background-gate-warden.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

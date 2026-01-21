@@ -1,0 +1,240 @@
+{
+  "element": [
+    {
+      "description": "<p>You are a vizier, a servant of your god. You perform tasks that are essential to facilitating the initiates' journey, so the gods reward you with entry into the afterlife with the God-Pharaoh's blessing. You hope to achieve the most honored status in the afterlife by being the best possible servant to your god.</p> <p class=\"indent\">As a vizier, you can have any class, but you are especially likely to be a cleric, a druid (particularly if you serve Rhonas), or a paladin.</p> <p> <span class=\"emphasis\">Skill Proficiencies:</span>History, Religion<br /> <span class=\"emphasis\">Tool Proficiencies:</span>One type of artisan's tools, one type of musical instrument<br /> <span class=\"emphasis\">Equipment:</span>A set of artisan's tools or a musical instrument (one of your choice), a scroll of your god's teachings, a vizier's cartouche, a set of fine clothes, and a pouch containing 25 gp </p> <div element=\"ID_WOTC_PSA_BACKGROUND_VIZIER_FEATURE_VOICE_OF_AUTHORITY\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>A vizier's characteristics strongly reflect the ideals and personality of the god they serve. </p> <h4>VARIANT VIZIER: DISSENTER</h4> <p>Even in the carefully constructed and curated city-state of Naktamun, and in the presence of the five gods, some people rebel against the doctrines of the God-Pharaoh. They don't challenge the existence of the gods, of course, for those gods are visible nearly every day in the streets of the city. Nor do they question the fact of life after death, which is plain to see in the anointed mummies that surround them, as well as the marauding mummies outside the Hekma. Rather, these dissenters simply refuse to follow the ordained course of life that leads to the glorious afterlife.</p> <p class=\"indent\">Some dissenters are spurred by fear, not wanting to subject themselves to a violent death in the trials (or in training for the trials). Some are moved by conscience, unwilling to kill their crop-mates in the trials. For while they cannot deny that the gods exist, they can deny that the gods are just—and can fight to prove that the dictates of an unjust god need not be obeyed. Some believe that one god (probably Bontu) has corrupted the process of the trials and the path to the afterlife. Others correctly intuit that the God-Pharaoh did not actually have the people's best interests in mind when he ordered their society.</p> <p class=\"indent\">A character who is identified as a dissenter loses the benefit of the initiate's or vizier's background feature. In its place, the character gains the following feature:</p> <h4>VARIANT FEATURE: SHELTER OF DISSENTERS</h4> <p>If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You can find a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you.</p>",
+      "id": "ID_WOTC_PSA_BACKGROUND_VIZIER",
+      "name": "Vizier",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_HISTORY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_RELIGION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_PSA_BACKGROUND_VIZIER_FEATURE_VOICE_OF_AUTHORITY",
+            "requirements": "!ID_WOTC_PSA_BACKGROUND_FEATURE_DISSENTER_SHELTER_OF_DISSENTERS",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Artisan Tools (Vizier)",
+            "supports": "Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Musical Instrument (Vizier)",
+            "supports": "Musical Instrument",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Vizier",
+            "optional": "true",
+            "supports": "Background Variant, Vizier",
+            "type": "Background Variant"
+          },
+          {
+            "item": [
+              {
+                "description": "Everything I do, I do gracefully and deliberately, and with complete confidence. (Oketra)",
+                "id": "1"
+              },
+              {
+                "description": "Nothing can shake my rock-hard focus. (Oketra)",
+                "id": "2"
+              },
+              {
+                "description": "When I am at peace, I am an oasis of perfect calm in the world. When I am roused to anger, I am an embodiment of terror. (Kefnet)",
+                "id": "3"
+              },
+              {
+                "description": "I enjoy teasing acolytes and initiates with juicy tidbits of knowledge wrapped up in fiendishly difficult puzzles. (Kefnet)",
+                "id": "4"
+              },
+              {
+                "description": "I have the utmost faith in myself and my abilities. (Rhonas)",
+                "id": "5"
+              },
+              {
+                "description": "I get restless when life in the city feels too tame, too safe. (Rhonas)",
+                "id": "6"
+              },
+              {
+                "description": "I enjoy solitude as an opportunity to plan my victory. (Bontu)",
+                "id": "7"
+              },
+              {
+                "description": "I use satire as a way to undermine the teachings of the other gods. (Bontu)",
+                "id": "8"
+              },
+              {
+                "description": "I love, fight, and feast with equal zeal. (Hazoret)",
+                "id": "9"
+              },
+              {
+                "description": "I think of those in my care as my family, in a way that most people have trouble understanding. (Hazoret)",
+                "id": "10"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Solidarity. The worthy must respect the worthy. In the afterlife, all will be united in goal and action. (Oketra)",
+                "id": "1"
+              },
+              {
+                "description": "Knowledge. The worthy shall cultivate a nimble mind, so as to perceive the wonders beyond imagination that wait in the afterlife. (Kefnet)",
+                "id": "2"
+              },
+              {
+                "description": "Strength. The worthy shall hone a strong body that can withstand the boundless energies of the afterlife. (Rhonas)",
+                "id": "3"
+              },
+              {
+                "description": "Ambition. The worthy shall strive for greatness, for supremacy in life leads to supremacy in the afterlife. (Bontu)",
+                "id": "4"
+              },
+              {
+                "description": "Zeal. The worthy shall rush to the God-Pharaoh's side with relentless passion, rising to overcome every obstacle in their way. (Hazoret)",
+                "id": "5"
+              },
+              {
+                "description": "Naktamun. The life of the city is ordered according to the plan of the God-Pharaoh, and that order must be preserved at all costs. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My loyalty to my companions embodies the ideal of loyalty to my god. (Oketra)",
+                "id": "1"
+              },
+              {
+                "description": "The teachings of my god are more precious to me than any possession. (Kefnet)",
+                "id": "2"
+              },
+              {
+                "description": "I would do anything to defend the temple of my god from any harm or desecration. (Rhonas)",
+                "id": "3"
+              },
+              {
+                "description": "I am committed to the service of my god—because it's my sure ticket into the afterlife. (Bontu)",
+                "id": "4"
+              },
+              {
+                "description": "I love my god and never want my service to end. (Hazoret)",
+                "id": "5"
+              },
+              {
+                "description": "I have a close friend or lover who is also a vizier.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am in love with an initiate, and I want to shield this person from death in the trials.",
+                "id": "1"
+              },
+              {
+                "description": "I secretly wish I had not been chosen as a vizier, so I could participate in the trials as an initiate.",
+                "id": "2"
+              },
+              {
+                "description": "I secretly question whether the gods care at all about us or what we do.",
+                "id": "3"
+              },
+              {
+                "description": "A vizier of another god seeks my death in retribution for a past insult.",
+                "id": "4"
+              },
+              {
+                "description": "I am terrified of what lies beyond the Gate to the Afterlife.",
+                "id": "5"
+              },
+              {
+                "description": "I secretly believe the God-Pharaoh's return will not bring blessing to this world.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "History, Religion, Instrument, Artisan's Tools",
+          "name": "short"
+        }
+      },
+      "source": "Plane Shift: Amonkhet",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Your voice is the voice of your god, at least in theory. Your job might include training and instructing initiates, and they are required to obey you. In any circumstance, an initiate is expected to defer to your voice and obey your commands. If you abuse this authority, though, your god might personally punish you.</p>",
+      "id": "ID_WOTC_PSA_BACKGROUND_VIZIER_FEATURE_VOICE_OF_AUTHORITY",
+      "name": "Feature: Voice of Authority",
+      "sheet": {
+        "alt": "Voice of Authority"
+      },
+      "source": "Plane Shift: Amonkhet",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>Even in the carefully constructed and curated city-state of Naktamun, and in the presence of the five gods, some people rebel against the doctrines of the God-Pharaoh. They don't challenge the existence of the gods, of course, for those gods are visible nearly every day in the streets of the city. Nor do they question the fact of life after death, which is plain to see in the anointed mummies that surround them, as well as the marauding mummies outside the Hekma. Rather, these dissenters simply refuse to follow the ordained course of life that leads to the glorious afterlife.</p> <p class=\"indent\">Some dissenters are spurred by fear, not wanting to subject themselves to a violent death in the trials (or in training for the trials). Some are moved by conscience, unwilling to kill their crop-mates in the trials. For while they cannot deny that the gods exist, they can deny that the gods are just—and can fight to prove that the dictates of an unjust god need not be obeyed. Some believe that one god (probably Bontu) has corrupted the process of the trials and the path to the afterlife. Others correctly intuit that the God-Pharaoh did not actually have the people's best interests in mind when he ordered their society.</p> <p class=\"indent\">A character who is identified as a dissenter loses the benefit of the initiate's or vizier's background feature. In its place, the character gains the following feature:</p> <div element=\"ID_WOTC_PSA_BACKGROUND_FEATURE_DISSENTER_SHELTER_OF_DISSENTERS\" />",
+      "id": "ID_WOTC_PSA_BACKGROUND_VARIANT_VIZIER_DISSENTER",
+      "name": "Dissenter",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_PSA_BACKGROUND_FEATURE_DISSENTER_SHELTER_OF_DISSENTERS",
+          "type": "Background Feature"
+        }
+      },
+      "source": "Plane Shift: Amonkhet",
+      "supports": "Background Variant, Vizier",
+      "type": "Background Variant"
+    },
+    {
+      "description": "<p>If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You can find a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you.</p>",
+      "id": "ID_WOTC_PSA_BACKGROUND_FEATURE_DISSENTER_SHELTER_OF_DISSENTERS",
+      "name": "Feature: Shelter of Dissenters",
+      "sheet": {
+        "alt": "Shelter of Dissenters"
+      },
+      "source": "Plane Shift: Amonkhet",
+      "supports": "Background Feature, Background Feature Variant, Vizier",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "https://media.wizards.com/2017/downloads/magic/plane-shift_amonkhet.pdf"
+    },
+    "description": "Plane Shift: Amonkhet",
+    "name": "Vizier",
+    "update": {
+      "file": {
+        "name": "background-vizier.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/background-vizier.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

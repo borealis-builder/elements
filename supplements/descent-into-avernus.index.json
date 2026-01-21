@@ -1,0 +1,43 @@
+{
+  "info": {
+    "name": "Baldur's Gate: Descent into Avernus",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.2",
+      "file": {
+        "name": "descent-into-avernus.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus/source.json"
+    },
+    {
+      "name": "background-options.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus/backgrounds/background-options.json"
+    },
+    {
+      "name": "faceless.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus/backgrounds/faceless.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus/items.json"
+    },
+    {
+      "name": "companions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus/companions.json"
+    }
+  ]
+}

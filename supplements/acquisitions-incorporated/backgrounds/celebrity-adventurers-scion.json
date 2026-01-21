@@ -1,0 +1,202 @@
+{
+  "element": [
+    {
+      "description": "<p>Your family name strikes fear and admiration in the hearts of the common folk—but that's got nothing to do with you. Songs and stories celebrating the adventuring exploits of your famous parent are widely known. Kids across the land grew up wishing they were you. But being the child of a famous adventurer wasn't all hugs and kisses.</p> <p class=\"indent\">You seldom saw your celebrity-adventurer parent, and when they were around, it was all about them and tales of slaying this demon or vanquishing that dragon. All too often, you'd be woken out of a sound sleep by someone standing outside your home screaming about the latest threat to the town, the region, or the world.</p> <p class=\"indent\">In the end, all you have to show for your lineage is your name. Most of the family's money went for consumables, from <em>potions of healing</em> and <em>spell scrolls</em> to copious amounts of dwarven ale. And everyone expects you to swing a sword or sling spells like your famous forebear, making it doubly hard for you to prove yourself.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Perception, Performance</li> <li><strong>Tool Proficiencies:</strong> Disguise kit</li> <li><strong>Languages:</strong> Two of your choice</li> <li><strong>Equipment:</strong> Disguise kit, a set of fine clothes, and a belt pouch containing 30 gp</li> </ul> <div element=\"ID_WOTC_ACQINC_BACKGROUND_FEATURE_NAME_DROPPING\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Scions of celebrity adventurers must deal with fame that's not theirs, wealth they didn't earn. and expectations they can never hope to meet. These hardships can have adverse effects, but those who cope with them can arrive at a decent attitude and a grounded worldview. Those who fail become bitter—or worse.</p>",
+      "id": "ID_WOTC_ACQINC_BACKGROUND_CELEBRITY_ADVENTURERS_SCION",
+      "name": "Celebrity Adventurer's Scion",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERCEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERFORMANCE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ACQINC_BACKGROUND_FEATURE_NAME_DROPPING",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language, Celebrity Adventurer's Scion",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I will never get out of my famous parent's shadow, and no one else will ever understand this burden.",
+                "id": "1"
+              },
+              {
+                "description": "I've seen enough of the adventuring life to have realistic expectations and empathy for my peers.",
+                "id": "2"
+              },
+              {
+                "description": "Living up to my legacy will be difficult, but I'm going to do it.",
+                "id": "3"
+              },
+              {
+                "description": "I'm used to the very best in life, and that's a hard habit to break.",
+                "id": "4"
+              },
+              {
+                "description": "My parent taught me a sense of duty. I strive to uphold it, even when the odds are against me.",
+                "id": "5"
+              },
+              {
+                "description": "No one can fake a smile, a handshake, or an interested nod like I can.",
+                "id": "6"
+              },
+              {
+                "description": "I've been part of the adventuring life since I was old enough to walk. Let me explain a few things to you.",
+                "id": "7"
+              },
+              {
+                "description": "No risk is too great for the rewards of defeating my enemies ... and taking their stuff.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Power. The only way to get ahead in this world is to attain power and hold onto it with all your might. (Evil)",
+                "id": "1"
+              },
+              {
+                "description": "Peace. Those who can find or make peace in the chaotic world around them have everything. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Fame. I've seen what fame can bring. And I'll do anything to get all that for myself. (Neutral)",
+                "id": "3"
+              },
+              {
+                "description": "Training. Hard work, sacrifice, and training lead to success-and eventually to perfection. (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Anonymity. I want to be successful. And alone. With lots of guards and wards between me and everyone else in the world. (Any)",
+                "id": "5"
+              },
+              {
+                "description": "Wisdom. Material wealth is an illusion. Wisdom is the real treasure. (Good)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "While my parent was out adventuring, a servant raised me, and I care about that person more than anyone.",
+                "id": "1"
+              },
+              {
+                "description": "I consider every member of my parent's former adventuring party to be family.",
+                "id": "2"
+              },
+              {
+                "description": "Despite their absences, my famous parent was kind and generous. I love them and want to make them proud.",
+                "id": "3"
+              },
+              {
+                "description": "My parent once brought a cursed magic item home. It is my obsession.",
+                "id": "4"
+              },
+              {
+                "description": "My childhood home holds all my best memories, and its upkeep is my primary concern.",
+                "id": "5"
+              },
+              {
+                "description": "Growing up, I had an imaginary friend I could always count on. That friend is still with me.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "You don't know what I'm going through. You never can.",
+                "id": "1"
+              },
+              {
+                "description": "You. Fetch my cloak. And maybe rub my feet for a while.",
+                "id": "2"
+              },
+              {
+                "description": "My comrades are brave, but I must defeat this threat alone to prove my worth.",
+                "id": "3"
+              },
+              {
+                "description": "Oh, yeah, that spell? Named after my parent's best friend. Let me tell you about them.",
+                "id": "4"
+              },
+              {
+                "description": "My best days are behind me. Ahead lies only toil, pain, and death.",
+                "id": "5"
+              },
+              {
+                "description": "You have to look out for yourself. No one else will.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Perception, Performance, Disguise Kit, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Acquisitions Incorporated",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You know and have met any number of powerful people across the land—and some of them might even remember you. You might be able to wrangle minor assistance from a major figure in the campaign, at the DM's discretion. Additionally, the common folk treat you with deference, and your heritage and the stories you tell might be good for a free meal or a place to sleep.</p>",
+      "id": "ID_WOTC_ACQINC_BACKGROUND_FEATURE_NAME_DROPPING",
+      "name": "Feature: Name Dropping",
+      "sheet": {
+        "alt": "Name Dropping"
+      },
+      "source": "Acquisitions Incorporated",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "name": "Celebrity Adventurer's Scion",
+    "update": {
+      "file": {
+        "name": "celebrity-adventurers-scion.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/backgrounds/celebrity-adventurers-scion.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "element": [
+    {
+      "description": "<p>As a member of the Boros Legion, your life is devoted to the service of angels and consecrated to the work of establishing justice and peace on the streets of Ravnica. You might be a true believer, inspired by the example of the angels, moved by the plight of the downtrodden, and devoted to the cause of justice. Or you could be a cynic in the ranks, perhaps because you reluctantly followed in the footsteps of a Boros parent, succumbed to the persuasion of a charismatic recruiter's lofty promises, or were drawn in by the prospect of a life of action.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Athletics, Intimidation</li> <li><strong>Tool Proficiencies:</strong> One type of gaming set</li> <li><strong>Languages:</strong> Choose one of Celestial, Draconic, Goblin, or Minotaur</li> <li><strong>Equipment:</strong> A Boros insignia, a feather from an angel's wing, a tattered piece of a Boros banner (a souvenir from a famous battle), a set of common clothes, and a belt pouch containing 2 gp (Boros-minted 1-zino coins)</li> </ul> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_LEGION_STATION\" /> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_BOROS_GUILD_SPELLS\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>The Boros Legion is a zealous army, full of righteous energy tempered with military discipline. Its members share its leadership's devotion to the ideals of justice, or they find satisfaction in the more warfare-oriented aspects of the legion's work.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_BOROS_LEGIONNAIRE",
+      "name": "Boros Legionnaire",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_INTIMIDATION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_LEGION_STATION",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_BOROS_GUILD_SPELLS",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Tool Proficiency, Boros Legionnaire",
+            "supports": "Gaming Set",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language, Boros Legionnaire",
+            "supports": "ID_LANGUAGE_CELESTIAL|ID_LANGUAGE_DRACONIC|ID_LANGUAGE_GOBLIN|ID_GGTR_LANGUAGE_MINOTAUR",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I approach every task with the same high degree of military precision.",
+                "id": "1"
+              },
+              {
+                "description": "I am always the first into the fray.",
+                "id": "2"
+              },
+              {
+                "description": "I bear any injury or indignity with stoic discipline.",
+                "id": "3"
+              },
+              {
+                "description": "My righteous wrath is easily inflamed by the slightest iniquity.",
+                "id": "4"
+              },
+              {
+                "description": "My honor is more important to me than my life.",
+                "id": "5"
+              },
+              {
+                "description": "Dangerous work is best accomplished by an orderly group working with common purpose.",
+                "id": "6"
+              },
+              {
+                "description": "I treat my weapons, uniform, and insignia with reverence, for they are gifts of the angels.",
+                "id": "7"
+              },
+              {
+                "description": "I pace when standing and fidget incessantly when forced to sit.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Guild. My guild is all that really matters. (Any)",
+                "id": "1"
+              },
+              {
+                "description": "Justice. Achieving justice requires establishing fair, equitable, and compassionate relationships within a community. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Protection. It isn't right for innocents to suffer because of the arrogance of the powerful. (Good)",
+                "id": "3"
+              },
+              {
+                "description": "Solidarity. It is most crucial to act with a single will, marching side by side in perfect accord. (Lawful)",
+                "id": "4"
+              },
+              {
+                "description": "Order. Society functions only if people do their duty and respect the chain of command. (Lawful)",
+                "id": "5"
+              },
+              {
+                "description": "Conviction. Anything worth doing is worth doing with your whole heart. (Lawful)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I would lay down my life for Aurelia and the angels.",
+                "id": "1"
+              },
+              {
+                "description": "I owe my life to the Boros captain who took me in when I was living on the streets.",
+                "id": "2"
+              },
+              {
+                "description": "My fel low legionnaires are my family.",
+                "id": "3"
+              },
+              {
+                "description": "I wield the same Boros weapon my grandparent did, for the honor of our family.",
+                "id": "4"
+              },
+              {
+                "description": "I ran with the Rakdos in my youth, and I'm striving to atone for my past misdeeds.",
+                "id": "5"
+              },
+              {
+                "description": "I do what I can to help out the spouse of a comrade who died in battle.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I act bravely when I'm in a group. but I'm a coward when I'm alone.",
+                "id": "1"
+              },
+              {
+                "description": "I see everything in clear-cut black and white.",
+                "id": "2"
+              },
+              {
+                "description": "I'm just a little fascinated by the ways of the Gruul.",
+                "id": "3"
+              },
+              {
+                "description": "I trust the chain of command more than anything more even than my closest friends.",
+                "id": "4"
+              },
+              {
+                "description": "I'm slow to trust members of other guilds.",
+                "id": "5"
+              },
+              {
+                "description": "I've been known to turn a blind eye to injustice, with the help of a modest bribe.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Intimidation, Language",
+          "name": "short"
+        }
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You have an established place in the hierarchy of the Boros Legion. You can requisition simple equipment for temporary use, and you can gain access to any Boros garrison in Ravnica, where you can rest in safety and receive the attention of medics. You are also paid a salary of 1 gp (a Boros-minted 1-zino coin) per week, which (combined with free lodging in your garrison) enables you to maintain a poor lifestyle between adventures.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_LEGION_STATION",
+      "name": "Feature: Legion Station",
+      "sheet": {
+        "alt": "Legion Station",
+        "content": "You have an established place in the hierarchy of the Boros Legion. You can requisition simple equipment for temporary use, and you can gain access to any Boros garrison in Ravnica, where you can rest in safety and receive the attention of medics. You are also paid a salary of 1 gp (a Boros-minted 1-zino coin) per week, which (combined with free lodging in your garrison) enables you to maintain a poor lifestyle between adventures."
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p> <p>For you, the spells on the Boros Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p> <h5>Boros Guild Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>Cantrip</td><td><em>fire bolt, sacred flame</em></td></tr> <tr><td>1st</td><td><em>guiding bolt, heroism</em></td></tr> <tr><td>2nd</td><td><em>aid, scorching ray</em></td></tr> <tr><td>3rd</td><td><em>beacon of hope, blinding smite</em></td></tr> <tr><td>4th</td><td><em>death ward, wall of fire</em></td></tr> <tr><td>5th</td><td><em>flame strike</em></td></tr> </table> <p class=\"indent\">Your magic often features dramatic bursts of flame or radiance. When you cast beneficial spells on your allies, they appear momentarily surrounded with halos of bright fire.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_BOROS_GUILD_SPELLS",
+      "name": "Boros Guild Spells",
+      "sheet": "Your magic often features dramatic bursts of flame or radiance. When you cast beneficial spells on your allies, they appear momentarily surrounded with halos of bright fire.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_FIRE_BOLT",
+          "ID_PHB_SPELL_SACRED_FLAME",
+          "ID_PHB_SPELL_GUIDING_BOLT",
+          "ID_PHB_SPELL_HEROISM",
+          "ID_PHB_SPELL_AID",
+          "ID_PHB_SPELL_SCORCHING_RAY",
+          "ID_PHB_SPELL_BEACON_OF_HOPE",
+          "ID_PHB_SPELL_BLINDING_SMITE",
+          "ID_PHB_SPELL_DEATH_WARD",
+          "ID_PHB_SPELL_WALL_OF_FIRE",
+          "ID_PHB_SPELL_FLAME_STRIKE"
+        ]
+      },
+      "supports": "2nd Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Guildmasters' Guide to Ravnica",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica"
+    },
+    "description": "",
+    "name": "Boros Legionnaire",
+    "update": {
+      "file": {
+        "name": "boros-legionnaire.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/boros-legionnaire.json"
+      },
+      "version": "0.0.7"
+    }
+  }
+}

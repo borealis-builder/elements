@@ -1,0 +1,530 @@
+{
+  "element": [
+    {
+      "description": "<p>Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both materiel and personnel. To aid in their work, Battle Smiths are accompanied by a steel defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and a steel defender.</p> <p class=\"indent\">In the world of Eberron, Battle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.</p> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_TOOL_PROFICIENCY\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_BATTLE_SMITH_SPELLS\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_BATTLE_READY\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_STEEL_DEFENDER\" /> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_INFORMATION_STEEL_DEFENDER\" /> </div> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_EXTRA_ATTACK\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_ARCANE_JOLT\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_IMPROVED_DEFENDER\" />",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_ARTIFICER_BATTLE_SMITH",
+      "name": "Battle Smith",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_TOOL_PROFICIENCY",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_BATTLE_SMITH_SPELLS",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_BATTLE_READY",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_STEEL_DEFENDER",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_EXTRA_ATTACK",
+            "level": "5",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_ARCANE_JOLT",
+            "level": "9",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_IMPROVED_DEFENDER",
+            "level": "15",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Artificer Specialist, TCOE Base",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p><em>3rd-level Battle Smith feature</em></p> <p>You gain proficiency with smith's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_TOOL_PROFICIENCY",
+      "name": "Tool Proficiency",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_TOOL_PROFICIENCY",
+      "rules": {
+        "select": {
+          "default": "ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS",
+          "name": "Tool Proficiency (Battle Smith)",
+          "supports": "Artisan tools",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>3rd-level Battle Smith feature</em></p> <p>You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.</p> <p><strong>Battle Smith Spells</strong></p> <table> <thead> <tr><td>Artificer Level</td><td>Spells</td></tr> </thead> <tr><td>3rd</td><td><em>heroism, shield</em></td></tr> <tr><td>5th</td><td><em>branding smite, warding bond</em></td></tr> <tr><td>9th</td><td><em>aura of vitality, conjure barrage</em></td></tr> <tr><td>13th</td><td><em>aura of purity, fire shield</em></td></tr> <tr><td>17th</td><td><em>banishing smite, mass cure wounds</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_BATTLE_SMITH_SPELLS",
+      "name": "Battle Smith Spells",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_SPELLS",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_HEROISM",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SHIELD",
+            "level": "3",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_BRANDING_SMITE",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_WARDING_BOND",
+            "level": "5",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_AURA_OF_VITALITY",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_CONJURE_BARRAGE",
+            "level": "9",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_AURA_OF_PURITY",
+            "level": "13",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_FIRE_SHIELD",
+            "level": "13",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_BANISHING_SMITE",
+            "level": "17",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_MASS_CURE_WOUNDS",
+            "level": "17",
+            "prepared": "true",
+            "spellcasting": "Artificer",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>3rd-level Battle Smith feature</em></p> <p>Your combat training and your experiments with magic have paid off in two ways:</p> <ul> <li>You gain proficiency with martial weapons.</li> <li>When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls.</li> </ul>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_BATTLE_READY",
+      "name": "Battle Ready",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_BATTLE_READY",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": "When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>3rd-level Battle Smith feature</em></p> <p>Your tinkering has borne you a companion, a steel defender. It's friendly to you and your companions, and it obeys your commands. See its game statistics in the Steel Defender stat block, which uses your proficiency bonus (PB) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.</p> <p class=\"indent\">In combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the defender can take any action of its choice, not just Dodge.</p> <p class=\"indent\">If the <i>mending</i> spell is cast on it, it regains 2d6 hit points. If it has died within the last hour, you can use your smith's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.</p> <p class=\"indent\">At the end of a long rest, you can create a new steel defender if you have your smith's tools with you. If you already have a steel defender from this feature, the first one immediately perishes. The defender also perishes if you die.</p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_INFORMATION_STEEL_DEFENDER\" /> </div>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_STEEL_DEFENDER",
+      "name": "Steel Defender",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_STEEL_DEFENDER",
+      "rules": {
+        "select": {
+          "default": "ID_WOTC_TCOE_COMPANION_ARTIFICER_STEEL_DEFENDER",
+          "name": "Steel Defender",
+          "supports": "Steel Defender",
+          "type": "Companion"
+        }
+      },
+      "sheet": "In combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the defender can take any action of its choice, not just Dodge. &#13; If the mending spell is cast on it, it regains 2d6 hit points. If it has died within the last hour, you can use your smith's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored. &#13; At the end of a long rest, you can create a new steel defender if you have your smith's tools with you.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>5th-level Battle Smith feature</em></p> <p>You can attack twice, rather than once, whenever you take the Attack action on your turn.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_EXTRA_ATTACK",
+      "name": "Extra Attack",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_EXTRA_ATTACK",
+      "rules": {
+        "stat": {
+          "bonus": "extra attack",
+          "level": "5",
+          "name": "extra attack:count",
+          "value": "2"
+        }
+      },
+      "sheet": "You can attack twice, rather than once, whenever you take the Attack action on your turn.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>9th-level Battle Smith feature</em></p> <p>You've learned new ways to channel arcane energy to harm or heal. When either you hit a target with a magic weapon attack or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:</p> <ul> <li>The target takes an extra 2d6 force damage.</li> <li>Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d6 hit points to it.</li> </ul> <p class=\"indent\">You can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_ARCANE_JOLT",
+      "name": "Arcane Jolt",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_ARCANE_JOLT",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "arcane jolt:dice:amount",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "arcane jolt:usage",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "arcane jolt:usage",
+            "value": "intelligence:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "When either you hit a target with a magic weapon attack or your steel defender hits a target, you can create one of the following effects: &#13; The target takes an extra {{arcane jolt:dice:amount}}d6 force damage. &#13; Choose one creature or object you can see within 30 feet of the target restoring {{arcane jolt:dice:amount}}d6 hit points to it.",
+        "usage": "{{arcane jolt:usage}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>15th-level Battle Smith feature</em></p> <p>Your Arcane jolt and steel defender have become more powerful:</p> <ul> <li>The extra damage and the healing of your Arcane jolt both increase to 4d6.</li> <li>Your steel defender gains a +2 bonus to Armor Class.</li> <li>Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to 1d4 + your Intelligence modifier.</li> </ul>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_BATTLE_SMITH_IMPROVED_DEFENDER",
+      "name": "Improved Defender",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_IMPROVED_DEFENDER",
+      "rules": {
+        "stat": [
+          {
+            "name": "arcane jolt:dice:amount",
+            "value": "2"
+          },
+          {
+            "name": "companion:ac",
+            "value": "2"
+          }
+        ]
+      },
+      "sheet": "Whenever your steel defender uses its Deflect Attack, the attacker takes 1d4+{{intelligence:modifier}} force damage.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_TOOL_PROFICIENCY",
+      "name": "Tool Proficiency Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_SPELLS",
+      "name": "Battle Smith Spells Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_BATTLE_READY",
+      "name": "Battle Ready Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_STEEL_DEFENDER",
+      "name": "Steel Defender Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_EXTRA_ATTACK",
+      "name": "Extra Attack Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_ARCANE_JOLT",
+      "name": "Arcane Jolt Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_BATTLE_SMITH_IMPROVED_DEFENDER",
+      "name": "Improved Defender Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "description": "<p>Your tinkering has borne you a faithful companion, a steel defender. It is friendly to you and your companions, and it obeys your commands.</p> <p><b>Proficiency Bonus (PB)</b> equals your bonus</p>",
+      "id": "ID_WOTC_TCOE_COMPANION_ARTIFICER_STEEL_DEFENDER",
+      "name": "Steel Defender",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "companion:ac",
+            "value": "15"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "2"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "intelligence:modifier"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:artificer"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:artificer"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:artificer"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:artificer"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:artificer"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:proficiency",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base companion PB removal",
+            "name": "companion:proficiency",
+            "value": "-2"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "companion:athletics:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "double",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "companion:dexterity:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "companion:constitution:save:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "Construct",
+            "name": "type"
+          },
+          {
+            "description": "neutral",
+            "name": "alignment"
+          },
+          {
+            "description": "15 (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [d8s] equal to your artificer level)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "14",
+            "name": "strength"
+          },
+          {
+            "description": "12",
+            "name": "dexterity"
+          },
+          {
+            "description": "14",
+            "name": "constitution"
+          },
+          {
+            "description": "4",
+            "name": "intelligence"
+          },
+          {
+            "description": "10",
+            "name": "wisdom"
+          },
+          {
+            "description": "6",
+            "name": "charisma"
+          },
+          {
+            "description": "Dex +1 plus PB, Con +2 plus PB",
+            "name": "saves"
+          },
+          {
+            "description": "Athletics +2 plus PB, Perception +0 plus PB × 2",
+            "name": "skills"
+          },
+          {
+            "description": "poison",
+            "name": "immunities"
+          },
+          {
+            "description": "charmed, exhaustion, poisoned",
+            "name": "conditionImmunities"
+          },
+          {
+            "description": "darkvision 60 ft., passive Perception 10 plus PB×2",
+            "name": "senses"
+          },
+          {
+            "description": "understands the languages you speak",
+            "name": "languages"
+          },
+          {
+            "description": "—",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_TCOE_COMPANION_TRAIT_STEEL_DEFENDER_VIGILANT",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_TCOE_COMPANION_ACTION_STEEL_DEFENDER_FORCE_EMPOWERED_REND,ID_WOTC_TCOE_COMPANION_ACTION_STEEL_DEFENDER_REPAIR",
+            "name": "actions"
+          },
+          {
+            "description": "ID_WOTC_TCOE_COMPANION_REACTION_STEEL_DEFENDER_DEFLECT_ATTACK",
+            "name": "reactions"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Steel Defender",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The defender can't be surprised.</p>",
+      "id": "ID_WOTC_TCOE_COMPANION_TRAIT_STEEL_DEFENDER_VIGILANT",
+      "name": "Vigilant",
+      "sheet": "The defender can't be surprised.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + PB force damage.</p>",
+      "id": "ID_WOTC_TCOE_COMPANION_ACTION_STEEL_DEFENDER_FORCE_EMPOWERED_REND",
+      "name": "Force-Empowered Rend",
+      "sheet": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + PB force damage.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>The magical mechanisms inside the defender restore 2d8 + PB hit points to itself or to one construct or object within 5 feet of it.</p>",
+      "id": "ID_WOTC_TCOE_COMPANION_ACTION_STEEL_DEFENDER_REPAIR",
+      "name": "Repair",
+      "sheet": {
+        "content": "The magical mechanisms inside the defender restore 2d8 + PB hit points to itself or to one construct or object within 5 feet of it.",
+        "usage": "3/Day"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.</p>",
+      "id": "ID_WOTC_TCOE_COMPANION_REACTION_STEEL_DEFENDER_DEFLECT_ATTACK",
+      "name": "Deflect Attack",
+      "sheet": "The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Reaction"
+    },
+    {
+      "description": "<p style=\"margin-bottom:-5px\"><em>Medium construct</em></p> <h4 style=\"margin-top:5px\" /> <ul class=\"unstyled\"> <li><strong>Armor Class</strong> 15 (natural armor)</li> <li><strong>Hit Points</strong> 2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [d8s] equal to your artificer level)</li> <li><strong>Speed</strong> 40 ft.</li> </ul> <table style=\"text-align:center;margin-top:10px;margin-bottom:10px\"> <thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead> <tr><td>14 (+2)</td><td>12 (+1)</td><td>14 (+2)</td><td>4 (-3)</td><td>10 (+0)</td><td>6 (-2)</td></tr> </table> <ul class=\"unstyled\"> <li><strong>Saving Throws</strong> Dex +1 plus PB, Con +2 plus PB</li> <li><strong>Skills</strong> Athletics +2 plus PB, Perception +0 plus PB x 2</li> <li><strong>Damage Immunities</strong> poison</li> <li><strong>Condition Immunities</strong> charmed, exhaustion, poisoned</li> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 10 + (PB x 2)</li> <li><strong>Languages</strong> understands the languages you speak</li> <li style=\"margin-bottom:-1em\"><strong>Challenge</strong> —</li> <li style=\"text-align:right; margin-top:-1em\"><strong>Proficiency Bonus (PB)</strong> equals your bonus</li> </ul> <h4 style=\"margin-top:5px; margin-bottom:10px\" /> <ul class=\"unstyled\"> <li><strong><em>Vigilant.</em></strong> The defender can't be surprised.</li> </ul> <h4 style=\"margin-top:10px\">Actions</h4> <ul class=\"unstyled\"> <li><em><strong>Force-Empowered Rend.</strong> Melee Weapon Attack:</em> your spell attack modifier to h it, reach 5 ft., one target you can see. <em>Hit:</em> 1d8 + PB force damage.</li> <li><em><strong>Repair (3/Day).</strong></em> The magical mechanisms inside the defender restore 2d8 + PB hit points to itself or to one construct or object within 5 feet of it.</li> </ul> <h4 style=\"margin-top:10px\">Reactions</h4> <ul class=\"unstyled\"> <li><strong><em>Deflect Attack.</em></strong> The defender imposes disadvantage on the attack roll of one creature it can see that is with in 5 feet of it, provided the attack roll is against a creature other than the defender.</li> </ul>",
+      "id": "ID_WOTC_TCOE_INFORMATION_STEEL_DEFENDER",
+      "name": "Steel Defender",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Information"
+    }
+  ],
+  "info": {
+    "name": "Battle Smith Artificer Archetype",
+    "update": {
+      "file": {
+        "name": "artificer-battlesmith.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-battlesmith.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

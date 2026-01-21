@@ -1,0 +1,201 @@
+{
+  "element": [
+    {
+      "description": "<p>You were trained for battle on sandy beaches and rocky shores. You have launched midnight raids from swift ships whose names evoke terror in the hearts of your adversaries. The water is your second home, the rain your shelter, and the crashing waves your battle cry.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Athletics, Survival</li> <li><strong>Tool Proficiencies:</strong> Vehicles (water, land)</li> <li><strong>Equipment:</strong> A dagger that belonged to a fallen comrade, a folded flag emblazoned with the symbol of your ship or company, a set of traveler's clothes, and a belt pouch containing 10 gp</li> </ul> <div element=\"ID_WOTC_GOS_BACKGROUND_FEATURE_MARINE_STEADY\" /> <h5>HARDSHIP ENDURED</h5> <p>Hardship in your past has forged you into an unstoppable living weapon. This hardship is essential to you and is at the heart of a personal philosophy or ethos that often guides your actions. You can roll on the following table to determine this hardship or choose one that bests fits your character.</p> <table> <thead> <tr><td>d6</td><td>Hardship</td></tr> </thead> <tr><td>1</td><td><strong>Nearly Drowned.</strong> You hid underwater to avoid detection by enemies and held your breath for an extremely long time. Just before you would have died, you had a revelation about your existence.</td></tr> <tr><td>2</td><td><strong>Captured.</strong> You spent months enduring thirst, starvation, and torture at the hands of your enemy, but you never broke.</td></tr> <tr><td>3</td><td><strong>Sacrifice.</strong> You enabled the escape of your fellow soldiers, but at great cost to yourself. Some of your past comrades may thing you're dead.</td></tr> <tr><td>4</td><td><strong>Juggernaut.</strong> No reasonable explanation can explain how you survived a particular battle. Every arrow and bolt missed you. You slew scores of enemies single-handedly and led your comrades to victory.</td></tr> <tr><td>5</td><td><strong>Stowaway.</strong> For days, you hid in the bilge of an enemy ship, surviving on brackish water and foolhardy rats. At the right moment, you crept up to the deck and took over the ship on your own.</td></tr> <tr><td>6</td><td><strong>Leave None Behind.</strong> You carried an injured marine for miles to avoid capture and death.</td></tr> </table> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Marines are looked up to by other soldiers and respected by their superiors. They are veteran warriors who rarely lose composure on the battlefield. Marines who leave the service tend to work as mercenaries, but their combat experience also makes them excellent adventurers. Though they are self-reliant, marines tend to operate best in groups, valuing camaraderie and the companionship of like-minded individuals.</p>",
+      "id": "ID_WOTC_GOS_BACKGROUND_MARINE",
+      "name": "Marine",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_GOS_BACKGROUND_FEATURE_MARINE_STEADY",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I speak rarely but mean every word I say.",
+                "id": "1"
+              },
+              {
+                "description": "I laugh loudly and see the humor in stressful situations.",
+                "id": "2"
+              },
+              {
+                "description": "I prefer to solve problems without violence, but I finish fights decisively.",
+                "id": "3"
+              },
+              {
+                "description": "I enjoy being out in nature; poor weather never sours my mood.",
+                "id": "4"
+              },
+              {
+                "description": "I am dependable",
+                "id": "5"
+              },
+              {
+                "description": "I am always working on some project or other.",
+                "id": "6"
+              },
+              {
+                "description": "I become cantankerous and quiet in the rain.",
+                "id": "7"
+              },
+              {
+                "description": "When the sea is within my sight, my mood is jovial and optimistic.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Teamwork. Success depends on cooperation and communication. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Code. The marines' code provides a solution for every problem, and following it is imperative. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Embracing. Life is messy. Throwing yourself into the worst of it is necessary to get the job done. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Might. The strong train so that they might rule those who are weak. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Bravery. To act when others quake in fear—this is the essense of the warrior. (Any)",
+                "id": "5"
+              },
+              {
+                "description": "Perseverance. No injury or obstacle can turn me from my goal. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I face danger and evil to offset and unredeemable act in my past.",
+                "id": "1"
+              },
+              {
+                "description": "I. Will. Finish. The. Job.",
+                "id": "2"
+              },
+              {
+                "description": "I must set an example of hope for those who have given up.",
+                "id": "3"
+              },
+              {
+                "description": "I'm searching for a fellow marine captured by an elusive enemy.",
+                "id": "4"
+              },
+              {
+                "description": "Fear leads to tyranny, and both must be eradicated.",
+                "id": "5"
+              },
+              {
+                "description": "My commander betrayed my unit, and I will have revenge.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I grow combative and unpredictable when I drink.",
+                "id": "1"
+              },
+              {
+                "description": "I find civilian life difficult and struggle to say the right thing in social situations.",
+                "id": "2"
+              },
+              {
+                "description": "My intensity can drive others away.",
+                "id": "3"
+              },
+              {
+                "description": "I hold grudges and have difficulty forgiving others.",
+                "id": "4"
+              },
+              {
+                "description": "I become irrational when innocent people are hurt.",
+                "id": "5"
+              },
+              {
+                "description": "I sometimes stay up all night listening to the ghosts of my fallen enemies.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Survival, Vehicles (Water, Land)",
+          "name": "short"
+        }
+      },
+      "source": "Ghosts of Saltmarsh",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You can move twice the normal amount of time (up to 16 hours) each day before being subject to the effect of a forced march (see “Travel Pace” in chapter 8 of the Player's Handbook). Additionally, you can automatically find a safe route to land a boat on shore, provided such a route exists.</p>",
+      "id": "ID_WOTC_GOS_BACKGROUND_FEATURE_MARINE_STEADY",
+      "name": "Feature: Steady",
+      "sheet": {
+        "alt": "Steady",
+        "content": "You can move twice the normal amount of time (up to 16 hours) each day before being subject to the effect of a forced march. Additionally, you can automatically find a safe route to land a boat on shore, provided such a route exists."
+      },
+      "source": "Ghosts of Saltmarsh",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "name": "Marine Background",
+    "update": {
+      "file": {
+        "name": "marine.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/marine.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

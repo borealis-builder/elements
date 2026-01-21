@@ -1,0 +1,240 @@
+{
+  "element": [
+    {
+      "description": "<p>You're an entertainer at heart. a performer with a Hair for the dramatic and a love of the spotlight. You've spent years honing your craft, mastering a demanding set of skills so you can perform them with panache and make them look easy. The wild applause, the screams of the crowds, the mayhem and terror spreading into the streets-this is what you live for.</p> <p class=\"indent\">You're also a member of a cult devoted to an ancient demon who delights in vio le nce and chaos. It just so happens that Rakdos loves a good show, and your highest aspiration is to please the Defiler, the Lord of Riots, with your own performance.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Acrobatics, Performance</li> <li><strong>Tool Proficiencies:</strong> One type of musical instrument</li> <li><strong>Languages:</strong> Choose either Abyssal or Giant</li> <li><strong>Equipment:</strong> A Rakdos insignia, a musical instrument (one of your choice), a costume, a hooded lantern made of wrought iron, a 10-foot length of chain with sharply spiked links, a tinderbox, 10 tor ches, a set of common clothes, a belt pouch containing 10 gp (a mix of Azorius and Boros 1-zino coins), and a bottle of sweet, red juice</li> </ul> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_RAKDOS_CULTIST_FEARSOME_REPUTATION\" /> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_RAKDOS_CULTIST_RAKDOS_GUILD_SPELLS\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Members of demonic cults aren't generally known as the kindest or most mentally stable individuals, so you're likely to have something in your nature that distinguishes you from the law-abiding citizens of Ravnica.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_RAKDOS_CULTIST",
+      "name": "Rakdos Cultist",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ACROBATICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERFORMANCE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_RAKDOS_CULTIST_FEARSOME_REPUTATION",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_RAKDOS_CULTIST_RAKDOS_GUILD_SPELLS",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language, Rakdos Cultist",
+            "supports": "ID_LANGUAGE_ABYSSAL|ID_LANGUAGE_GIANT",
+            "type": "Language"
+          },
+          {
+            "name": "Musical Instrument, Rakdos Cultist",
+            "supports": "Musical Instrument",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I revel in mayhem, the more destructive the better.",
+                "id": "1"
+              },
+              {
+                "description": "When violence breaks out, I lose myself in rage, and it's sometimes hard to stop.",
+                "id": "2"
+              },
+              {
+                "description": "Everything is funny to me, and the most hilarious and bloodiest things leave me cackling with sadistic glee.",
+                "id": "3"
+              },
+              {
+                "description": "I derive genuine pleasure from the pain of others.",
+                "id": "4"
+              },
+              {
+                "description": "I enjoy testing other people's patience.",
+                "id": "5"
+              },
+              {
+                "description": "I can't stand it when things are predictable, so I like to add a little chaos to every situation.",
+                "id": "6"
+              },
+              {
+                "description": "I throw my weight around to make sure I get my way.",
+                "id": "7"
+              },
+              {
+                "description": "I enjoy breaking delicate works of art. And fingers, which are sort of the same.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Guild. My guild is all that really matters. (Any)",
+                "id": "1"
+              },
+              {
+                "description": "Hedonism. Death comes for everyone, so take as much pleasure as you can from every moment of life. (Neutral)",
+                "id": "2"
+              },
+              {
+                "description": "Creativity. I strive to find more ways to express my art through pain-my own as well as others'. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Freedom. No one tells me what to do. (Chaotic)",
+                "id": "4"
+              },
+              {
+                "description": "Equality. I want to see Ravnica remade, with no guilds and no hierarchies. (Chaotic)",
+                "id": "5"
+              },
+              {
+                "description": "Spectacle. People are inspired by the greatne ss they see in art. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I have belonged to the same performance troupe for years, and these people mean everything to me.",
+                "id": "1"
+              },
+              {
+                "description": "A blood witch told me I have a special destiny to fulfill, and I'm trying to figure out what it is.",
+                "id": "2"
+              },
+              {
+                "description": "I'm secretly hoping that I can change the cult from the inside, using my influence to help rein in the wanton violence.",
+                "id": "3"
+              },
+              {
+                "description": "I own something that Rakdos once touched (it's seared black at the spot), and I cherish it.",
+                "id": "4"
+              },
+              {
+                "description": "I want to be better at my chosen form of performance than any other member of my troupe.",
+                "id": "5"
+              },
+              {
+                "description": "I am devoted to Rakdos and live to impress him.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My family is prominent in another guild. I enjoy my wild life, but I don't want to embarrass them.",
+                "id": "1"
+              },
+              {
+                "description": "I couldn't hide my emotions and opinions even if I wanted to.",
+                "id": "2"
+              },
+              {
+                "description": "I throw caution to the wind.",
+                "id": "3"
+              },
+              {
+                "description": "I resent the rich and powerful.",
+                "id": "4"
+              },
+              {
+                "description": "When I'm angry, I lash out in violence.",
+                "id": "5"
+              },
+              {
+                "description": "There's no such thing as too much pleasure.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Acrobatics, Performance, Instrument, Language",
+          "name": "short"
+        }
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Background"
+    },
+    {
+      "description": "<p>People recognize you as a member of the Cult of Rakdos, and they're careful not to draw your anger or ridicule. You can get away with minor criminal offenses, such as refusing to pay for food at a restaurant or breaking down a door at a local shop, if no legal authorities witness the crime. Most people are too daunted by you to report your wrongdoing to the Azorius.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_RAKDOS_CULTIST_FEARSOME_REPUTATION",
+      "name": "Feature: Fearsome Reputation",
+      "sheet": {
+        "alt": "Fearsome Reputation",
+        "content": "People recognize you as a member of the Cult of Rakdos, and they're careful not to draw your anger or ridicule. You can get away with minor criminal offenses, such as refusing to pay for food at a restaurant or breaking down a door at a local shop, if no legal authorities witness the crime. Most people are too daunted by you to report your wrongdoing to the Azorius."
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p> <p>For you, the spells on the Rakdos Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p> <h5>Rakdos Guild Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>Cantrip</td><td><em>fire bolt, vicious mockery</em></td></tr> <tr><td>1st</td><td><em>burning hands, dissonant whispers, hellish rebuke</em></td></tr> <tr><td>2nd</td><td><em>crown of madness, enthrall, flaming sphere</em></td></tr> <tr><td>3rd</td><td><em>fear, haste</em></td></tr> <tr><td>4th</td><td><em>confusion, wall of fire</em></td></tr> <tr><td>5th</td><td><em>dominate person</em></td></tr> </table> <p class=\"indent\">Your magic often produces a flashy spectacle, wreathing you or your targets in a mixture of harmless flame and shadowy shapes. When you manipulate an opponent's mind, a flaming symbol of Rakdos might momentarily appear like a mask over the target's face.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_RAKDOS_CULTIST_RAKDOS_GUILD_SPELLS",
+      "name": "Rakdos Guild Spells",
+      "sheet": "Your magic often produces a flashy spectacle, wreathing you or your targets in a mixture of harmless flame and shadowy shapes. When you manipulate an opponent's mind, a flaming symbol of Rakdos might momentarily appear like a mask over the target's face",
+      "source": "Guildmasters' Guide to Ravnica",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_FIRE_BOLT",
+          "ID_PHB_SPELL_VICIOUS_MOCKERY",
+          "ID_PHB_SPELL_BURNING_HANDS",
+          "ID_PHB_SPELL_DISSONANT_WHISPERS",
+          "ID_PHB_SPELL_HELLISH_REBUKE",
+          "ID_PHB_SPELL_CROWN_OF_MADNESS",
+          "ID_PHB_SPELL_ENTHRALL",
+          "ID_PHB_SPELL_FLAMING_SPHERE",
+          "ID_PHB_SPELL_FEAR",
+          "ID_PHB_SPELL_HASTE",
+          "ID_PHB_SPELL_CONFUSION",
+          "ID_PHB_SPELL_WALL_OF_FIRE",
+          "ID_PHB_SPELL_DOMINATE_PERSON"
+        ]
+      },
+      "supports": "2nd Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Guildmasters' Guide to Ravnica",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica"
+    },
+    "description": "",
+    "name": "Rakdos Cultist",
+    "update": {
+      "file": {
+        "name": "rakdos-cultist.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/rakdos-cultist.json"
+      },
+      "version": "0.0.7"
+    }
+  }
+}

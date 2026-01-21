@@ -1,0 +1,225 @@
+{
+  "element": [
+    {
+      "description": "<ul class=\"unstyled\"> <li><strong>Speed.</strong> 8 mph</li> <li><strong>Crew.</strong> 10</li> <li><strong>Passengers.</strong> 20</li> <li><strong>Cargo (tons).</strong> 1</li> <li><strong>AC.</strong> 13</li> <li><strong>HP.</strong> 300</li> <li><strong>Damage Threshold.</strong> —</li> </ul>",
+      "id": "ID_WOTC_DMG_ITEM_AIRSHIP",
+      "name": "Airship",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "20000",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "supports": "Airborne",
+      "type": "Item"
+    },
+    {
+      "description": "<ul class=\"unstyled\"> <li><strong>Speed.</strong> 4 mph</li> <li><strong>Crew.</strong> 80</li> <li><strong>Passengers.</strong> —</li> <li><strong>Cargo (tons).</strong> 150</li> <li><strong>AC.</strong> 15</li> <li><strong>HP.</strong> 500</li> <li><strong>Damage Threshold.</strong> 20</li> </ul>",
+      "id": "ID_WOTC_DMG_ITEM_GALLEY",
+      "name": "Galley",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "30000",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<ul class=\"unstyled\"> <li><strong>Speed.</strong> 1 mph</li> <li><strong>Crew.</strong> 1</li> <li><strong>Passengers.</strong> 6</li> <li><strong>Cargo (tons).</strong> 1/2</li> <li><strong>AC.</strong> 15</li> <li><strong>HP.</strong> 100</li> <li><strong>Damage Threshold.</strong> 10</li> </ul>",
+      "id": "ID_WOTC_DMG_ITEM_KEELBOAT",
+      "name": "Keelboat",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "3000",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<ul class=\"unstyled\"> <li><strong>Speed.</strong> 3 mph</li> <li><strong>Crew.</strong> 40</li> <li><strong>Passengers.</strong> 150</li> <li><strong>Cargo (tons).</strong> 10</li> <li><strong>AC.</strong> 15</li> <li><strong>HP.</strong> 300</li> <li><strong>Damage Threshold.</strong> 15</li> </ul>",
+      "id": "ID_WOTC_DMG_ITEM_LONGSHIP",
+      "name": "Longship",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10000",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<ul class=\"unstyled\"> <li><strong>Speed.</strong> 1½ mph</li> <li><strong>Crew.</strong> 1</li> <li><strong>Passengers.</strong> 3</li> <li><strong>Cargo (tons).</strong> —</li> <li><strong>AC.</strong> 11</li> <li><strong>HP.</strong> 50</li> <li><strong>Damage Threshold.</strong> —</li> </ul>",
+      "id": "ID_WOTC_DMG_ITEM_ROWBOAT",
+      "name": "Rowboat",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "50",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<ul class=\"unstyled\"> <li><strong>Speed.</strong> 2 mph</li> <li><strong>Crew.</strong> 20</li> <li><strong>Passengers.</strong> 20</li> <li><strong>Cargo (tons).</strong> 100</li> <li><strong>AC.</strong> 15</li> <li><strong>HP.</strong> 300</li> <li><strong>Damage Threshold.</strong> 15</li> </ul>",
+      "id": "ID_WOTC_DMG_ITEM_SAILING_SHIP",
+      "name": "Sailing Ship",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "10000",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    },
+    {
+      "description": "<ul class=\"unstyled\"> <li><strong>Speed.</strong> 2½ mph</li> <li><strong>Crew.</strong> 60</li> <li><strong>Passengers.</strong> 60</li> <li><strong>Cargo (tons).</strong> 200</li> <li><strong>AC.</strong> 15</li> <li><strong>HP.</strong> 500</li> <li><strong>Damage Threshold.</strong> 20</li> </ul>",
+      "id": "ID_WOTC_DMG_ITEM_WARSHIP",
+      "name": "Warship",
+      "setters": {
+        "set": [
+          {
+            "description": "Mounts & Vehicles",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "25000",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "excludeEncumbrance": "true",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Vehicle",
+            "name": "type"
+          }
+        ]
+      },
+      "source": "Dungeon Master's Guide",
+      "type": "Item"
+    }
+  ],
+  "info": {
+    "name": "Vehicles",
+    "update": {
+      "file": {
+        "name": "items-vehicle.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-vehicle.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

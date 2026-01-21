@@ -1,0 +1,176 @@
+{
+  "element": [
+    {
+      "description": "<p>You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, Slayers are experts at unearthing and defeating mighty, mystical foes.</p> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_MONSTER_SLAYER_MAGIC\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_HUNTERS_SENSE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SLAYERS_PREY\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SUPERNATURAL_DEFENSE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_MAGICUSERS_NEMESIS\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SLAYERS_COUNTER\" />",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_RANGER_MONSTER_SLAYER",
+      "name": "Monster Slayer",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_MONSTER_SLAYER_MAGIC",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_HUNTERS_SENSE",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SLAYERS_PREY",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SUPERNATURAL_DEFENSE",
+            "level": "7",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_MAGICUSERS_NEMESIS",
+            "level": "11",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SLAYERS_COUNTER",
+            "level": "15",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Ranger Archetype, Ranger Conclave",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Monster Slayer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.</p> <h5>MONSTER SLAYER SPELLS</h5> <table> <thead> <tr><td>Ranger Level</td><td>Spells</td></tr> </thead> <tr><td>3rd</td><td><em>protectionfrom evil and good</em></td></tr> <tr><td>5rd</td><td><em>zone of truth</em></td></tr> <tr><td>9th</td><td><em>magic circle</em></td></tr> <tr><td>13th</td><td><em>banishment</em></td></tr> <tr><td>17th</td><td><em>hold monster</em></td></tr> </table>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_MONSTER_SLAYER_MAGIC",
+      "name": "Monster Slayer Magic",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD",
+            "level": "3",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_ZONE_OF_TRUTH",
+            "level": "5",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_MAGIC_CIRCLE",
+            "level": "9",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_BANISHMENT",
+            "level": "13",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_HOLD_MONSTER",
+            "level": "17",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 3rd level, you gain the ability to peer at a creature and magically discern how best to hurt it. As an action, choose one creature you can see within 60 feet of you. You immediately learn whether the creature has any damage immunities, resistances, or vulnerabilities and what they are. If the creature is hidden from divination magic, you sense that it has no damage immunities, resistances, or vulnerabilities.</p> <p class=\"indent\">You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses of it when you finish a long rest.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_HUNTERS_SENSE",
+      "name": "Hunter's Sense",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "hunters sense:uses",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "hunters sense:uses",
+            "value": "wisdom:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Action",
+        "content": "Choose one creature you can see within 60 feet of you. You learn its damage immunities, resistances, or vulnerabilities. If it's hidden from divination magic, you sense it has none.",
+        "usage": "{{hunters sense:uses}}/Long Rest"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon.</p> <p class=\"indent\">This benefit lasts until you finish a short or long rest. It ends early if you designate a different creature.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SLAYERS_PREY",
+      "name": "Slayer's Prey",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "Designate one creature you can see within 60 feet of you as the target, the first time each turn you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon. This benefit lasts until you finish a short or long rest. It ends early if you designate a different creature."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 7th level, you gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Slayer's Prey forces you to make a saving throw and whenever you make an ability check to escape that targets grapple, add 1d6 to your roll.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SUPERNATURAL_DEFENSE",
+      "name": "Supernatural Defense",
+      "sheet": "Whenever the target of your Slayer's Prey forces you to make a saving throw and whenever you make an ability check to escape that targets grapple, add 1d6 to your roll.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 11th level, you gain the ability to thwart someone else's magic. When you see a creature casting a spell or teleporting within 60 feet of you, you can use your reaction to try to magically foil it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted.</p> <p class=\"indent\">Once you use this feature, you can't use it again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_MAGICUSERS_NEMESIS",
+      "name": "Magic-user's Nemesis",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you see a creature casting a spell or teleporting within 60ft, you can try to magically foil it. It makes a DC{{spellcasting:dc:wis}} Wisdom saving throw, or its spell or teleport fails and is wasted.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer's Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack's normal effects.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SLAYERS_COUNTER",
+      "name": "Slayer's Counter",
+      "sheet": {
+        "action": "Reaction",
+        "content": "If the target of your Slayer's Prey forces you to make a saving throw, make one weapon attack against it. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack's normal effects."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The Monster Slayer from Xanathar's Guide to Everything",
+    "name": "Monster Slayer",
+    "update": {
+      "file": {
+        "name": "ranger-monsterslayer.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-monsterslayer.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

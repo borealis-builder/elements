@@ -1,0 +1,56 @@
+{
+  "element": {
+    "description": "<p>Part of the <b><i>Spelljammer: Adventures in Space</i></b> box set</p> <p>A 64-page hardcover book for Dungeon Masters that presents game statistics and descriptions for over 60 creatures found in Wildspace and the Astral Sea, including astral elves, cosmic horrors, lunar and solar dragons, murder comets, and space clowns.</p>",
+    "id": "ID_WOTC_SOURCE_BOOS_ASTRAL_MENAGERIE",
+    "name": "Boo's Astral Menagerie",
+    "setters": {
+      "set": [
+        {
+          "description": "BAM",
+          "name": "abbreviation"
+        },
+        {
+          "description": "https://dnd.wizards.com/products/spelljammer",
+          "name": "url"
+        },
+        {
+          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie/BAM.png",
+          "name": "image"
+        },
+        {
+          "abbreviation": "WOTC",
+          "description": "Wizards of the Coast",
+          "name": "author",
+          "url": "http://dnd.wizards.com"
+        },
+        {
+          "description": "true",
+          "name": "official"
+        },
+        {
+          "description": "true",
+          "name": "supplement"
+        },
+        {
+          "description": "20220816",
+          "name": "release"
+        },
+        {
+          "description": "https://media.wizards.com/2022/dnd/downloads/SJA-Errata.pdf",
+          "name": "errata"
+        }
+      ]
+    },
+    "source": "Core",
+    "type": "Source"
+  },
+  "info": {
+    "update": {
+      "file": {
+        "name": "source.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie/source.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

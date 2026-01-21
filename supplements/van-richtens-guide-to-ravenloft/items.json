@@ -1,0 +1,306 @@
+{
+  "element": [
+    {
+      "description": "<p>A dire wolf tooth dangles from this simple cord necklace. While you wear it, the necklace grants you a +1 bonus to ability checks and saving throws.</p> <p class=\"indent\"><strong><em>Curse. </em></strong>Attuning to <em>Harkon's Bite</em> curses you until either Harkon Lukas removes the necklace from you or you are targeted by a <em>remove curse</em> spell or similar magic. As long as you remain cursed, you cannot remove the necklace.</p> <p>Upon donning or removing the necklace, whether you are attuned to it or not, you are afflicted with werewolf lycanthropy as detailed in the <em>Monster Manual</em>. The curse lasts until the dawn after the next full moon. If you are still wearing the necklace at this time, you are afflicted with the lycanthropy again.</p>",
+      "id": "ID_WOTC_VRGTR_MAGIC_ITEM_HARKONS_BITE",
+      "name": "Harkon's Bite",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_MM_RACIAL_TRAIT_WEREWOLF",
+          "type": "Racial Trait"
+        },
+        "stat": [
+          {
+            "name": "initiative",
+            "value": "1"
+          },
+          {
+            "name": "acrobatics:misc",
+            "value": "1"
+          },
+          {
+            "name": "animal handling:misc",
+            "value": "1"
+          },
+          {
+            "name": "arcana:misc",
+            "value": "1"
+          },
+          {
+            "name": "athletics:misc",
+            "value": "1"
+          },
+          {
+            "name": "deception:misc",
+            "value": "1"
+          },
+          {
+            "name": "history:misc",
+            "value": "1"
+          },
+          {
+            "name": "insight:misc",
+            "value": "1"
+          },
+          {
+            "name": "intimidation:misc",
+            "value": "1"
+          },
+          {
+            "name": "investigation:misc",
+            "value": "1"
+          },
+          {
+            "name": "medicine:misc",
+            "value": "1"
+          },
+          {
+            "name": "nature:misc",
+            "value": "1"
+          },
+          {
+            "name": "perception:misc",
+            "value": "1"
+          },
+          {
+            "name": "performance:misc",
+            "value": "1"
+          },
+          {
+            "name": "persuasion:misc",
+            "value": "1"
+          },
+          {
+            "name": "religion:misc",
+            "value": "1"
+          },
+          {
+            "name": "sleight of hand:misc",
+            "value": "1"
+          },
+          {
+            "name": "stealth:misc",
+            "value": "1"
+          },
+          {
+            "name": "survival:misc",
+            "value": "1"
+          },
+          {
+            "name": "strength:save:misc",
+            "value": "1"
+          },
+          {
+            "name": "dexterity:save:misc",
+            "value": "1"
+          },
+          {
+            "name": "constitution:save:misc",
+            "value": "1"
+          },
+          {
+            "name": "intelligence:save:misc",
+            "value": "1"
+          },
+          {
+            "name": "wisdom:save:misc",
+            "value": "1"
+          },
+          {
+            "name": "charisma:save:misc",
+            "value": "1"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "ability, saving throw",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "0 lb.",
+            "lb": "0",
+            "name": "weight"
+          },
+          {
+            "description": "Wondrous Item",
+            "name": "type"
+          },
+          {
+            "description": "neck",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          },
+          {
+            "description": "true",
+            "name": "cursed"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          }
+        ]
+      },
+      "source": "Van Richten's Guide To Ravenloft",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.</p> <p class=\"indent\">While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.</p> <p class=\"indent\"><strong><em>Sentience. </em></strong>Nepenthe is a sentient, neutral evil weapon with an Intelligence of 10, a Wisdom of 8, and a Charisma of 18. It has hearing and darkvision out to a range of 60 feet. It can read and understand Elvish. It can also speak Elvish, but only through the voice of its wielder, with whom the sword can communicate telepathically.</p> <p class=\"indent\"><strong><em>Personality. </em></strong>In its lifetime, the sword has beheaded thousands of criminals, not all of whom were guilty of the crimes for which they were convicted. The sword cannot distinguish the guilty from the innocent. With each beheading, it hungers for more justice and blood. The sword is corrupt and irredeemable.</p>",
+      "id": "ID_WOTC_VRGTR_MAGIC_ITEM_NEPENTHE",
+      "name": "Nepenthe",
+      "setters": {
+        "set": [
+          {
+            "description": "sword, paladin",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "addition": "Longsword",
+            "description": "Weapon",
+            "name": "type"
+          },
+          {
+            "addition": "by a paladin",
+            "description": "true",
+            "name": "attunement"
+          },
+          {
+            "description": "Legendary",
+            "name": "rarity"
+          },
+          {
+            "description": "3",
+            "name": "enhancement"
+          },
+          {
+            "description": "Longsword",
+            "name": "weapon"
+          }
+        ]
+      },
+      "source": "Van Richten's Guide To Ravenloft",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p> <p class=\"indent\"><strong><em>Curse. </em></strong>This sword is cursed and possessed by a vengeful spirit. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the sword, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.</p> <p class=\"indent\">In addition, while the sword is on your person, you must succeed on a DC 15 Wisdom saving throw whenever you take damage in combat. On a failed save, you must attack the creature that damaged you until you drop to 0 hit points or it does, or until you can't reach the creature to make a melee attack against it.</p> <p class=\"indent\">You can break the curse in the usual ways. Alternatively, casting <i>banishment</i> on the sword forces the vengeful spirit to leave it. The sword then becomes a +1 weapon with no other properties.</p>",
+      "id": "ID_WOTC_VRGTR_MAGIC_ITEM_SWORD_OF_VENGEANCE",
+      "name": "Sword of Vengeance",
+      "setters": {
+        "set": [
+          {
+            "description": "sword",
+            "name": "keywords"
+          },
+          {
+            "description": "Magic Weapons",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "addition": "any sword",
+            "description": "Weapon",
+            "name": "type"
+          },
+          {
+            "description": "true",
+            "name": "attunement"
+          },
+          {
+            "description": "Uncommon",
+            "name": "rarity"
+          },
+          {
+            "description": "1",
+            "name": "enhancement"
+          },
+          {
+            "description": "true",
+            "name": "cursed"
+          },
+          {
+            "description": "ID_INTERNAL_WEAPON_GROUP_SWORDS",
+            "name": "weapon"
+          },
+          {
+            "description": "{{parent}} of Vengeance",
+            "name": "name-format"
+          }
+        ]
+      },
+      "source": "Van Richten's Guide To Ravenloft",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This poison bears a distinct scent and chemical message from Ivana Boritsi. A creature subjected to this poison must succeed on a DC 18 Constitution saving throw or experience the effects of a <i>dream</i> spell created by Ivana the next time they sleep. This poison is nonmagical, and Ivana doesn't directly communicate with those affected during the dream. Rather, she creates the illusion of speaking with her intended target by alchemically crafting her message, predicting her target's reactions, and chemically encoding in her responses. She wears this poison as a perfume or hides it within gift bouquets, allowing it to convey her message later.</p> <div class=\"reference\"> <div element=\"ID_INTERNAL_SUPPORT_POISON_INHALED\" /> </div>",
+      "id": "ID_WOTC_VRGTR_ITEM_POISON_IVANAS_WHISPER",
+      "name": "Ivana's Whisper",
+      "setters": {
+        "set": [
+          {
+            "description": "poison,inhale",
+            "name": "keywords"
+          },
+          {
+            "description": "Poison",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "0",
+            "name": "cost"
+          },
+          {
+            "description": "½ lb.",
+            "lb": "0.5",
+            "name": "weight"
+          },
+          {
+            "description": "true",
+            "name": "stackable"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Ivana's Whisper (Inhaled)"
+      },
+      "source": "Van Richten's Guide To Ravenloft",
+      "type": "Item"
+    }
+  ],
+  "info": {
+    "name": "Items and Weapons",
+    "update": {
+      "file": {
+        "name": "items.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/items.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

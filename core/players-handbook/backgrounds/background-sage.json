@@ -1,0 +1,242 @@
+{
+  "element": [
+    {
+      "description": "<p>You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong>Arcana, History</li> <li><strong>Languages:</strong>Two of your choice</li> <li><strong>Equipment:</strong>A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a belt pouch containing 10 gp</li> </ul> <h5>SPECIALTY</h5> <p>To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.</p> <table> <thead> <tr><td class=\"col-20\">d8</td><td>Specialty</td></tr> </thead> <tr><td>1</td><td>Alchemist</td></tr> <tr><td>2</td><td>Astronomer</td></tr> <tr><td>3</td><td>Discredited Academic</td></tr> <tr><td>4</td><td>Librarian</td></tr> <tr><td>5</td><td>Professor</td></tr> <tr><td>6</td><td>Researcher</td></tr> <tr><td>7</td><td>Wizard's Apprentice</td></tr> <tr><td>8</td><td>Scribe</td></tr> </table> <div element=\"ID_BACKGROUND_FEATURE_RESEARCHER\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly—sometimes in its own right, sometimes as a means toward other ideals.</p>",
+      "id": "ID_BACKGROUND_SAGE",
+      "name": "Sage",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ARCANA",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_HISTORY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_BACKGROUND_FEATURE_RESEARCHER",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language (Sage)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Alchemist",
+                "id": "1"
+              },
+              {
+                "description": "Astronomer",
+                "id": "2"
+              },
+              {
+                "description": "Discredited Academic",
+                "id": "3"
+              },
+              {
+                "description": "Librarian",
+                "id": "4"
+              },
+              {
+                "description": "Professor",
+                "id": "5"
+              },
+              {
+                "description": "Researcher",
+                "id": "6"
+              },
+              {
+                "description": "Wizard's Apprentice",
+                "id": "7"
+              },
+              {
+                "description": "Scribe",
+                "id": "8"
+              }
+            ],
+            "name": "Specialty",
+            "optional": "true",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I use polysyllabic words that convey the impression of great erudition.",
+                "id": "1"
+              },
+              {
+                "description": "I've read every book in the world's greatest libraries— or I like to boast that I have.",
+                "id": "2"
+              },
+              {
+                "description": "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others.",
+                "id": "3"
+              },
+              {
+                "description": "There's nothing I like more than a good mystery.",
+                "id": "4"
+              },
+              {
+                "description": "I'm willing to listen to every side of an argument before I make my own judgment.",
+                "id": "5"
+              },
+              {
+                "description": "I ... speak ... slowly ... when talking ... to idiots, ... which ... almost ... everyone ... is .. compared ... to me.",
+                "id": "6"
+              },
+              {
+                "description": "I am horribly, horribly awkward in social situations.",
+                "id": "7"
+              },
+              {
+                "description": "I'm convinced that people are always trying to steal my secrets.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Knowledge. The path to power and self-improvement is through knowledge. (Neutral)",
+                "id": "1"
+              },
+              {
+                "description": "Beauty. What is beautiful points us beyond itself toward what is true. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Logic. Emotions must not cloud our logical thinking. (Lawful)",
+                "id": "3"
+              },
+              {
+                "description": "No Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)",
+                "id": "4"
+              },
+              {
+                "description": "Power. Knowledge is the path to power and domination. (Evil)",
+                "id": "5"
+              },
+              {
+                "description": "Self-Improvement. The goal of a life of study is the betterment of oneself. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "It is my duty to protect my students.",
+                "id": "1"
+              },
+              {
+                "description": "I have an ancient text that holds terrible secrets that must not fall into the wrong hands.",
+                "id": "2"
+              },
+              {
+                "description": "I work to preserve a library, university, scriptorium, or monastery.",
+                "id": "3"
+              },
+              {
+                "description": "My life's work is a series of tomes related to a specific field of lore.",
+                "id": "4"
+              },
+              {
+                "description": "I've been searching my whole life for the answer to a certain question.",
+                "id": "5"
+              },
+              {
+                "description": "I sold my soul for knowledge. I hope to do great deeds and win it back.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am easily distracted by the promise of information.",
+                "id": "1"
+              },
+              {
+                "description": "Most people scream and run when they see a demon. I stop and take notes on its anatomy.",
+                "id": "2"
+              },
+              {
+                "description": "Unlocking an ancient mystery is worth the price of a civilization.",
+                "id": "3"
+              },
+              {
+                "description": "I overlook obvious solutions in favor of complicated ones.",
+                "id": "4"
+              },
+              {
+                "description": "I speak without really thinking through my words, invariably insulting others.",
+                "id": "5"
+              },
+              {
+                "description": "I can't keep a secret to save my life, or anyone else's.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Arcana, History, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "description": "<p>When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign</p>",
+      "id": "ID_BACKGROUND_FEATURE_RESEARCHER",
+      "name": "Feature: Researcher",
+      "sheet": {
+        "alt": "Researcher"
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Sage Background",
+    "name": "Sage",
+    "update": {
+      "file": {
+        "name": "background-sage.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-sage.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

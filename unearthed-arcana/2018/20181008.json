@@ -1,0 +1,58 @@
+{
+  "element": {
+    "description": "<p>This month's Unearthed Arcana looks at the magic items that are part of everyday life in the world of Eberron. Arcane focuses, enchanted clothing, warforged components, and more are all common sights for the citizens of the Five Nations.</p>",
+    "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20181008",
+    "name": "Unearthed Arcana: Magic Items of Eberron",
+    "setters": {
+      "set": [
+        {
+          "description": "UA20181008",
+          "name": "abbreviation"
+        },
+        {
+          "description": "http://dnd.wizards.com/articles/unearthed-arcana/magic-items-eberron",
+          "name": "url"
+        },
+        {
+          "abbreviation": "WOTC",
+          "description": "Wizards of the Coast",
+          "name": "author",
+          "url": "http://dnd.wizards.com"
+        },
+        {
+          "description": "true",
+          "name": "official"
+        },
+        {
+          "description": "true",
+          "name": "playtest"
+        },
+        {
+          "description": "The content from this source is not included.",
+          "name": "information"
+        },
+        {
+          "description": "20181008",
+          "name": "release"
+        }
+      ]
+    },
+    "source": "Core",
+    "type": "Source"
+  },
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana/magic-items-eberron"
+    },
+    "description": "This month's Unearthed Arcana looks at the magic items that are part of everyday life in the world of Eberron. Arcane focuses, enchanted clothing, warforged components, and more are all common sights for the citizens of the Five Nations.",
+    "name": "Unearthed Arcana: Magic Items of Eberron",
+    "update": {
+      "file": {
+        "name": "20181008.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2018/20181008.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Tales from the Yawning Portal",
+    "description": "When the shadows grow long in Waterdeep and the fireplace in the taproom of the Yawning Portal dims to a deep crimson glow, adventurers from across the Forgotten Realms, and even from other worlds, spin tales and spread rumors of dark dungeons and lost treasures. Some of the yarns overheard by Durnan, the barkeep of the Yawning Portal, are inspired by places and events in far-flung lands from across the D&D multiverse, and these tales have been collected into a single volume.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/tales-yawning-portal"
+    },
+    "update": {
+      "version": "0.0.3",
+      "file": {
+        "name": "tales-from-the-yawning-portal.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tales-from-the-yawning-portal.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tales-from-the-yawning-portal/source.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tales-from-the-yawning-portal/items.json"
+    }
+  ]
+}

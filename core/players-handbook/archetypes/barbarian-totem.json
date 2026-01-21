@@ -1,0 +1,264 @@
+{
+  "element": [
+    {
+      "description": "<p>The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage. Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.</p> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER\" /> <div element=\"ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT\" />",
+      "id": "ID_WOTC_PHB_ARCHETYPE_PATH_OF_THE_TOTEM_WARRIOR",
+      "name": "Path of the Totem Warrior",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration.",
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "supports": "Primal Path",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER",
+      "name": "Spirit Seeker",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_SPIRIT_SEEKER",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_BEAST_SENSE",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SPEAK_WITH_ANIMALS",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": "You can cast beast sense and speak with animals as rituals",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object- an amulet or similar adornment—that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thickskinned, or if your totem is the eagle, your eyes turn bright yellow.</p> <p class=\"indent\">Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT",
+      "name": "Totem Spirit",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_TOTEM_SPIRIT",
+      "rules": {
+        "select": {
+          "name": "Totem Spirit",
+          "supports": "Totem Spirit",
+          "type": "Archetype Feature"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST",
+      "name": "Aspect of the Beast",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_ASPECT_OF_THE_BEAST",
+      "rules": {
+        "select": {
+          "name": "Aspect of the Beast",
+          "supports": "Aspect of the Beast",
+          "type": "Archetype Feature"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER",
+      "name": "Spirit Walker",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_SPIRIT_WALKER",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_COMMUNE_WITH_NATURE",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can cast the commune with nature spell, but only as a ritual. A spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.",
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT",
+      "name": "Totemic Attunement",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_TOTEMIC_ATTUNEMENT",
+      "rules": {
+        "select": {
+          "name": "Totemic Attunement",
+          "supports": "Totemic Attunement",
+          "type": "Archetype Feature"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Player's Handbook",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_BEAR",
+      "name": "Totem Spirit (Bear)",
+      "sheet": "While raging, you have resistance to all damage except psychic damage.",
+      "source": "Player's Handbook",
+      "supports": "Totem Spirit",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>While you're raging and aren't wearing any armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash Action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_EAGLE",
+      "name": "Totem Spirit (Eagle)",
+      "sheet": "While you're raging and aren't wearing any armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash Action as a bonus action on your turn.",
+      "source": "Player's Handbook",
+      "supports": "Totem Spirit",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wold makes you a leader of hunters.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_WOLF",
+      "name": "Totem Spirit (Wolf)",
+      "sheet": "While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you.",
+      "source": "Player's Handbook",
+      "supports": "Totem Spirit",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_BEAR",
+      "name": "Aspect of the Beast (Bear)",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_DOUBLED",
+          "type": "Grants"
+        }
+      },
+      "sheet": "Your carrying capacity is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.",
+      "source": "Player's Handbook",
+      "supports": "Aspect of the Beast",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_EAGLE",
+      "name": "Aspect of the Beast (Eagle)",
+      "sheet": "You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Perception checks.",
+      "source": "Player's Handbook",
+      "supports": "Aspect of the Beast",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace).</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_WOLF",
+      "name": "Aspect of the Beast (Wolf)",
+      "sheet": "You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.",
+      "source": "Player's Handbook",
+      "supports": "Aspect of the Beast",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_BEAR",
+      "name": "Totemic Attunement (Bear)",
+      "sheet": "While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.",
+      "source": "Player's Handbook",
+      "supports": "Totemic Attunement",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_EAGLE",
+      "name": "Totemic Attunement (Eagle)",
+      "sheet": "While raging, you have a {{speed}} ft. flying speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.",
+      "source": "Player's Handbook",
+      "supports": "Totemic Attunement",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.</p>",
+      "id": "ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_WOLF",
+      "name": "Totemic Attunement (Wolf)",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "While you're raging, you can knock a Large or smaller creature prone when you hit it with melee weapon attack."
+      },
+      "source": "Player's Handbook",
+      "supports": "Totemic Attunement",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_SPIRIT_SEEKER",
+      "name": "Spirit Seeker Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_TOTEM_SPIRIT",
+      "name": "Totem Spirit Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_ASPECT_OF_THE_BEAST",
+      "name": "Aspect of the Beast Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_SPIRIT_WALKER",
+      "name": "Spirit Walker Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_TOTEM_TOTEMIC_ATTUNEMENT",
+      "name": "Totemic Attunement Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "barbarian-totem.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/barbarian-totem.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

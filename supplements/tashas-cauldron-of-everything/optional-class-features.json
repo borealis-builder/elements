@@ -1,0 +1,3273 @@
+{
+  "element": [
+    {
+      "description": "<p><i>3rd-level barbarian feature</i></p> <p>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE",
+      "name": "Primal Knowledge",
+      "rules": {
+        "select": [
+          {
+            "name": "Skill Proficiency (Primal Knowledge)",
+            "supports": "Skill,Barbarian",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Skill Proficiency, 10th level (Primal Knowledge)",
+            "requirements": "[level:barbarian:10]",
+            "supports": "Skill,Barbarian",
+            "type": "Proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_BARBARIAN_PRIMAL_KNOWLEDGE",
+      "name": "Barbarian, LV03: Primal Knowledge",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE",
+          "requirements": "[level:barbarian:3]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "third level, 3rd level, Skill Proficiency",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>7th-level barbarian feature</i></p> <p>As part of the bonus action you take to enter your rage, you can move up to half your speed.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE",
+      "name": "Instinctive Pounce",
+      "sheet": "As part of the bonus action you take to enter your rage, you can move up to half your speed.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_BARBARIAN_INSTINCTIVE_POUNCE",
+      "name": "Barbarian, LV07: Instinctive Pounce",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE",
+          "requirements": "[level:barbarian:7]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "seventh level, 7th level, rage, speed",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>1st-level bard feature</i></p> <p>The spells in the following list expand the bard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>Color spray, Command</em></td></tr> <tr><td>2nd</td><td><em>Aid, Enlarge/reduce, Mirror image</em></td></tr> <tr><td>3rd</td><td><em>Intellect fortress*, Mass healing word, Slow</em></td></tr> <tr><td>4th</td><td><em>Phantasmal killer</em></td></tr> <tr><td>5th</td><td><em>Rary's telepathic bond (ritual)</em></td></tr> <tr><td>6th</td><td><em>Heroes' feast</em></td></tr> <tr><td>7th</td><td><em>Dream of the blue veil*, Prismatic spray</em></td></tr> <tr><td>8th</td><td><em>Antipathy/sympathy</em></td></tr> <tr><td>9th</td><td><em>Prismatic wall</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARD_ADDITIONAL_BARD_SPELLS",
+      "name": "Additional Bard Spells",
+      "sheet": {
+        "content": "The spells in the following list expand the bard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_COLOR_SPRAY",
+          "ID_PHB_SPELL_COMMAND",
+          "ID_PHB_SPELL_AID",
+          "ID_PHB_SPELL_ENLARGE_REDUCE",
+          "ID_PHB_SPELL_MIRROR_IMAGE",
+          "ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS",
+          "ID_PHB_SPELL_MASS_HEALING_WORD",
+          "ID_PHB_SPELL_SLOW",
+          "ID_PHB_SPELL_PHANTASMAL_KILLER",
+          "ID_PHB_SPELL_RARYS_TELEPATHIC_BOND",
+          "ID_PHB_SPELL_HEROES_FEAST",
+          "ID_WOTC_TCOE_SPELL_DREAM_OF_THE_BLUE_VEIL",
+          "ID_PHB_SPELL_PRISMATIC_SPRAY",
+          "ID_PHB_SPELL_ANTIPATHY_SYMPATHY",
+          "ID_PHB_SPELL_PRISMATIC_WALL"
+        ],
+        "name": "Bard"
+      },
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_BARD_ADDITIONAL_BARD_SPELLS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_BARD_ADDITIONAL_BARD_SPELLS",
+      "name": "Bard, LV01: Additional Bard Spells",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARD_ADDITIONAL_BARD_SPELLS",
+          "requirements": "[level:bard:1]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "first level, 1st level, spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>2nd-level bard feature</i></p> <p>If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARD_MAGICAL_INSPIRATION",
+      "name": "Magical Inspiration",
+      "sheet": "If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_BARD_MAGICAL_INSPIRATION\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_BARD_MAGICAL_INSPIRATION",
+      "name": "Bard, LV02: Magical Inspiration",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARD_MAGICAL_INSPIRATION",
+          "requirements": "[level:bard:2]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "second level, 2nd level",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>4th-level bard feature</i></p> <p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</p> <ul> <li>Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</li> <li>Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</li> </ul>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARD_BARDIC_VERSATILITY",
+      "name": "Bardic Versatility",
+      "sheet": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following: &#13; • Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise. &#13; • Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_BARD_BARDIC_VERSATILITY\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_BARD_BARDIC_VERSATILITY",
+      "name": "Bard, LV04: Bardic Versatility",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_BARD_BARDIC_VERSATILITY",
+          "requirements": "[level:bard:4]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fourth level, 4th level, ASI, Ability Score Improvement, Expertise, skill, Spellcasting, spell",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>1st-level cleric feature</i></p> <p>The spells in the following list expand the cleric spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>3rd</td><td><em>Aura of vitality, Spirit shroud*</em></td></tr> <tr><td>4th</td><td><em>Aura of life, Aura of purity</em></td></tr> <tr><td>5th</td><td><em>Summon celestial*</em></td></tr> <tr><td>6th</td><td><em>Sunbeam</em></td></tr> <tr><td>8th</td><td><em>Sunburst</em></td></tr> <tr><td>9th</td><td><em>Power word heal</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_ADDITIONAL_CLERIC_SPELLS",
+      "name": "Additional Cleric Spells",
+      "sheet": {
+        "content": "The spells in the following list expand the cleric spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_AURA_OF_VITALITY",
+          "ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD",
+          "ID_PHB_SPELL_AURA_OF_LIFE",
+          "ID_PHB_SPELL_AURA_OF_PURITY",
+          "ID_WOTC_TCOE_SPELL_SUMMON_CELESTIAL",
+          "ID_PHB_SPELL_SUNBEAM",
+          "ID_PHB_SPELL_SUNBURST",
+          "ID_PHB_SPELL_POWER_WORD_HEAL"
+        ],
+        "name": "Cleric"
+      },
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_ADDITIONAL_CLERIC_SPELLS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_CLERIC_ADDITIONAL_CLERIC_SPELLS",
+      "name": "Cleric, LV01: Additional Cleric Spells",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_ADDITIONAL_CLERIC_SPELLS",
+          "requirements": "[level:cleric:1]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "first level, 1st level, spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>2nd-level cleric feature</i></p> <p>You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_HARNESS_DIVINE_POWER",
+      "name": "Harness Divine Power (Cleric)",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "harness divine power:usage",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "harness divine power:usage",
+            "requirements": "[level:cleric:6]",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "harness divine power:usage",
+            "requirements": "[level:cleric:18]",
+            "value": "3"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "alt": "Harness Divine Power",
+        "content": "You touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than {{proficiency:half:up}}.",
+        "usage": "{{harness divine power:usage}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_HARNESS_DIVINE_POWER\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_CLERIC_HARNESS_DIVINE_POWER",
+      "name": "Cleric, LV02: Harness Divine Power",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_HARNESS_DIVINE_POWER",
+          "requirements": "[level:cleric:2]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "second level, 2nd level, Channel Divinity",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>4th-level cleric feature</i></p> <p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_CANTRIP_VERSATILITY",
+      "name": "Cantrip Versatility (Cleric)",
+      "sheet": {
+        "alt": "Cantrip Versatility",
+        "content": "Whenever you reach a level in Cleric class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from Cleric's Spellcasting feature with another cantrip from the cleric spell list."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_CANTRIP_VERSATILITY\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_CLERIC_CANTRIP_VERSATILITY",
+      "name": "Cleric, LV04: Cantrip Versatility",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_CANTRIP_VERSATILITY",
+          "requirements": "[level:cleric:4]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fourth level, 4th level",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>8th-level cleric feature, which replaces the Divine Strike or Potent Spellcasting feature</i></p> <p>You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES",
+      "name": "Blessed Strikes",
+      "sheet": {
+        "content": "When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature.",
+        "usage": "1/Turn"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_CLERIC_BLESSED_STRIKES",
+      "name": "Cleric, LV08: Blessed Strikes",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES",
+            "requirements": "[level:cleric:8]",
+            "type": "Class Feature"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "eighth level, 8th level, Divine Strike, Potent Spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>1st-level druid feature</i></p> <p>The spells in the following list expand the druid spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>Protection from evil and good</em></td></tr> <tr><td>2nd</td><td><em>Augury (ritual), Continual flame, Enlarge/Reduce, Summon beast*</em></td></tr> <tr><td>3rd</td><td><em>Aura of vitality, Elemental weapon, Revivify, Summon fey*</em></td></tr> <tr><td>4th</td><td><em>Divination (ritual), Fire shield, Summon elemental*</em></td></tr> <tr><td>5th</td><td><em>Cone of cold</em></td></tr> <tr><td>6th</td><td><em>Flesh to stone</em></td></tr> <tr><td>7th</td><td><em>Symbol</em></td></tr> <tr><td>8th</td><td><em>Incendiary cloud</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_DRUID_ADDITIONAL_DRUID_SPELLS",
+      "name": "Additional Druid Spells",
+      "sheet": {
+        "content": "The spells in the following list expand the druid spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD",
+          "ID_PHB_SPELL_AUGURY",
+          "ID_PHB_SPELL_CONTINUAL_FLAME",
+          "ID_PHB_SPELL_ENLARGE_REDUCE",
+          "ID_WOTC_TCOE_SPELL_SUMMON_BEAST",
+          "ID_PHB_SPELL_AURA_OF_VITALITY",
+          "ID_PHB_SPELL_ELEMENTAL_WEAPON",
+          "ID_PHB_SPELL_REVIVIFY",
+          "ID_WOTC_TCOE_SPELL_SUMMON_FEY",
+          "ID_PHB_SPELL_DIVINATION",
+          "ID_PHB_SPELL_FIRE_SHIELD",
+          "ID_WOTC_TCOE_SPELL_SUMMON_ELEMENTAL",
+          "ID_PHB_SPELL_CONE_OF_COLD",
+          "ID_PHB_SPELL_FLESH_TO_STONE",
+          "ID_PHB_SPELL_SYMBOL",
+          "ID_PHB_SPELL_INCENDIARY_CLOUD"
+        ],
+        "name": "Druid"
+      },
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_DRUID_ADDITIONAL_DRUID_SPELLS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_DRUID_ADDITIONAL_DRUID_SPELLS",
+      "name": "Druid, LV01: Additional Druid Spells",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_DRUID_ADDITIONAL_DRUID_SPELLS",
+          "requirements": "[level:druid:1]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "first level, 1st level, spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>2nd-level druid feature</i></p> <p>You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.</p> <p class=\"indent\">When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_DRUID_WILD_COMPANION",
+      "name": "Wild Companion",
+      "sheet": {
+        "action": "Action",
+        "content": "You can expend a use of your Wild Shape feature to cast the find familiar spell, without material components. When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after {{level:druid:half}} hours.",
+        "usage": "Wild Shape"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_DRUID_WILD_COMPANION\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_DRUID_WILD_COMPANION",
+      "name": "Druid, LV02: Wild Companion",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_DRUID_WILD_COMPANION",
+          "requirements": "[level:druid:2]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "second level, 2nd level, Wild Shape",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>4th-level druid feature</i></p> <p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_DRUID_CANTRIP_VERSATILITY",
+      "name": "Cantrip Versatility (Druid)",
+      "sheet": {
+        "alt": "Cantrip Versatility",
+        "content": "Whenever you reach a level in Druid class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from Druid's Spellcasting feature with another cantrip from the druid spell list."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_DRUID_CANTRIP_VERSATILITY\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_DRUID_CANTRIP_VERSATILITY",
+      "name": "Druid, LV04: Cantrip Versatility",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_DRUID_CANTRIP_VERSATILITY",
+          "requirements": "[level:druid:4]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fourth level, 4th level",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>4th-level fighter feature</i></p> <p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:</p> <ul> <li>Replace a fighting style you know with another fighting style available to fighters.</li> <li>If you know any maneuvers from the Battle Master archetype, you can replace one maneuver you know with a different maneuver.</li> </ul>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTER_MARTIAL_VERSATILITY",
+      "name": "Martial Versatility (Fighter)",
+      "sheet": {
+        "alt": "Martial Versatility",
+        "content": "Whenever you reach a level in Fighter class that grants the Ability Score Improvement feature, you can do one of the following: &#13; • Replace a fighting style you know with another fighting style available to fighters. &#13; • If you know any maneuvers from the Battle Master archetype, you can replace one maneuver you know with a different maneuver."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_FIGHTER_MARTIAL_VERSATILITY\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_FIGHTER_MARTIAL_VERSATILITY",
+      "name": "Fighter, LV04: Martial Versatility",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTER_MARTIAL_VERSATILITY",
+          "requirements": "[level:fighter:4]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fourth level, 4th level, ASI, Ability Score Improvement, fighting styles, maneuvers",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p>When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren't incapacitated.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_AMBUSH",
+      "name": "Ambush",
+      "sheet": "When you make a Stealth check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren't incapacitated.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Maneuver, Battle Master",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>When you're within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn't incapacitated. This movement doesn't provoke opportunity attacks.</p> <p class=\"indent\">Roll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_BAIT_AND_SWITCH",
+      "name": "Bait and Switch",
+      "sheet": "When you're within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn't incapacitated. This movement doesn't provoke opportunity attacks. Roll the superiority die. Until the start of your next turn, you or the other creature gains a bonus to AC equal to the number rolled.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Maneuver, Battle Master",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>When a creature you can see moves into the reach you have with the melee weapon you're wielding, you can use your reaction to expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon's damage roll.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_BRACE",
+      "name": "Brace",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When a creature you can see moves into the reach you have with the melee weapon you're wielding, you can expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon's damage roll."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Maneuver, Battle Master",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>When you make a Charisma (Intimidation), a Charisma (Performance), or a Charisma (Persuasion) check, you can expend one superiority die and add the superiority die to the ability check.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_COMMANDING_PRESENCE",
+      "name": "Commanding Presence",
+      "sheet": "When you make a Intimidation, a Performance, or a Persuasion check, you can expend one superiority die and add the superiority die to the ability check.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Maneuver, Battle Master",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target as a bonus action (see the Player's Handbook for rules on grappling). Add the superiority die to your Strength (Athletics) check.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_GRAPPLING_STRIKE",
+      "name": "Grappling Strike",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target. Add the superiority die to your Athletics check."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Maneuver, Battle Master",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>When you make an Intelligence (Investigation), an Intelligence (History), or a Wisdom (Insight) check, you can expend one superiority die and add the superiority die to the ability check.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_TACTICAL_ASSESSMENT",
+      "name": "Tactical Assessment",
+      "sheet": "When you make an Investigation, an History, or a Insight check, you can expend one superiority die and add the superiority die to the ability check.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Maneuver, Battle Master",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>As a bonus action, you can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon's damage roll.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_QUICK_TOSS",
+      "name": "Quick Toss",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon's damage roll."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Maneuver, Battle Master",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><i>2nd-level monk feature</i></p> <p>You train yourself to use a variety of weapons as monk weapons, not just simple melee weapons and shortswords. Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again.</p> <p class=\"indent\">The chosen weapon must meet these criteria:</p> <ul> <li>The weapon must be a simple or martial weapon.</li> <li>You must be proficient with it.</li> <li>It must lack the heavy and special properties.</li> </ul>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON",
+      "name": "Dedicated Weapon",
+      "sheet": "Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again. The chosen weapon must meet these criteria: &#13; • The weapon must be a simple or martial weapon. &#13; • You must be proficient with it.&#13; • It must lack the heavy and special properties.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_MONK_DEDICATED_WEAPON",
+      "name": "Monk, LV02: Dedicated Weapon",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON",
+          "requirements": "[level:monk:2]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "second level, 2nd level, Monk weapons",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>3rd-level monk feature</i></p> <p>If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_MONK_KI_FUELED_ATTACK",
+      "name": "Ki-Fueled Attack",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon before the end of the turn."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_MONK_KI_FUELED_ATTACK\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_MONK_KI_FUELED_ATTACK",
+      "name": "Monk, LV03: Ki-Fueled Attack",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_MONK_KI_FUELED_ATTACK",
+          "requirements": "[level:monk:3]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "third level, 3rd level, bonus action",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>4th-level monk feature</i></p> <p>As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_MONK_QUICKENED_HEALING",
+      "name": "Quickened Healing",
+      "sheet": {
+        "action": "Action",
+        "content": "You can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus {{proficiency}}.",
+        "usage": "Ki"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_MONK_QUICKENED_HEALING\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_MONK_QUICKENED_HEALING",
+      "name": "Monk, LV04: Quickened Healing",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_MONK_QUICKENED_HEALING",
+          "requirements": "[level:monk:4]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fourth level, 4th level, ki, healing, martial arts die",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>5th-level monk feature</i></p> <p>When you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each of these ki points you spend, potentially turning the miss into a hit.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_MONK_FOCUSED_AIM",
+      "name": "Focused Aim",
+      "sheet": {
+        "content": "When you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each of these ki points you spend, potentially turning the miss into a hit.",
+        "usage": "Ki"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_MONK_FOCUSED_AIM\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_MONK_FOCUSED_AIM",
+      "name": "Monk, LV05: Focused Aim",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_MONK_FOCUSED_AIM",
+          "requirements": "[level:monk:5]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fifth level, 5th level, ki, attack roll",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>2nd-level paladin feature</i></p> <p>The spells in the following list expand the paladin spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>2nd</td><td><em>Gentle repose, Prayer of healing, Warding bond</em></td></tr> <tr><td>3rd</td><td><em>Spirit shroud*</em></td></tr> <tr><td>5th</td><td><em>Summon celestial*</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_ADDITIONAL_PALADIN_SPELLS",
+      "name": "Additional Paladin Spells",
+      "sheet": {
+        "content": "The spells in the following list expand the paladin spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_GENTLE_REPOSE",
+          "ID_PHB_SPELL_PRAYER_OF_HEALING",
+          "ID_PHB_SPELL_WARDING_BOND",
+          "ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD",
+          "ID_WOTC_TCOE_SPELL_SUMMON_CELESTIAL"
+        ],
+        "name": "Paladin"
+      },
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_ADDITIONAL_PALADIN_SPELLS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_PALADIN_ADDITIONAL_PALADIN_SPELLS",
+      "name": "Paladin, LV02: Additional Paladin Spells",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_ADDITIONAL_PALADIN_SPELLS",
+          "requirements": "[level:paladin:2]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "second level, 2nd level, spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>3rd-level paladin feature</i></p> <p>You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_HARNESS_DIVINE_POWER",
+      "name": "Harness Divine Power (Paladin)",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "harness divine power:usage",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "harness divine power:usage",
+            "requirements": "[level:paladin:7]",
+            "value": "2"
+          },
+          {
+            "bonus": "base",
+            "name": "harness divine power:usage",
+            "requirements": "[level:paladin:15]",
+            "value": "3"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "alt": "Harness Divine Power",
+        "content": "You touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than {{proficiency:half:up}}.",
+        "usage": "{{harness divine power:usage}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_HARNESS_DIVINE_POWER\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_PALADIN_HARNESS_DIVINE_POWER",
+      "name": "Paladin, LV03: Harness Divine Power",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_HARNESS_DIVINE_POWER",
+          "requirements": "[level:paladin:3]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "third level, 3rd level, Channel Divinity",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>4th-level ranger feature</i></p> <p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_MARTIAL_VERSATILITY",
+      "name": "Martial Versatility (Paladin)",
+      "sheet": {
+        "alt": "Martial Versatility",
+        "content": "Whenever you reach a level in Paladin class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_MARTIAL_VERSATILITY\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_PALADIN_MARTIAL_VERSATILITY",
+      "name": "Paladin, LV04: Martial Versatility",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_MARTIAL_VERSATILITY",
+          "requirements": "[level:paladin:4]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fourth level, 4th level, fighting styles",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>1st-level ranger feature, which replaces the Natural Explorer feature</i></p> <p>You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.</p> <h4>CANNY (1ST LEVEL)</h4> <p>Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.</p> <p class=\"indent\">You can also speak, read, and write two additional languages of your choice.</p> <h4>ROVING (6TH LEVEL)</h4> <p>Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.</p> <h4>TIRELESS (10TH LEVEL)</h4> <p>As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p class=\"indent\">In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER",
+      "name": "Deft Explorer",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_CANNY",
+            "type": "Class Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_ROVING",
+            "requirements": "[level:ranger:6]",
+            "type": "Class Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_TIRELESS",
+            "requirements": "[level:ranger:10]",
+            "type": "Class Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_RANGER_DEFT_EXPLORER",
+      "name": "Ranger, LV01: Deft Explorer",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_NATURAL_EXPLORER",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER",
+            "requirements": "[level:ranger:1]",
+            "type": "Class Feature"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "first level, 1st level, Canny, Roving, Tireless, Expertise, climbing, swimming, climb speed, swim speed, temporary hit points, Natural Explorer",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p>Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.</p> <p class=\"indent\">You can also speak, read, and write two additional languages of your choice.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_CANNY",
+      "name": "Canny",
+      "rules": {
+        "select": [
+          {
+            "name": "Expertise (Canny)",
+            "supports": "Expertise",
+            "type": "Class Feature"
+          },
+          {
+            "name": "Language (Canny)",
+            "number": "2",
+            "type": "Language"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill. You can also speak, read, and write two additional languages of your choice.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_ROVING",
+      "name": "Roving",
+      "rules": {
+        "stat": [
+          {
+            "name": "speed",
+            "value": "5"
+          },
+          {
+            "bonus": "base",
+            "name": "speed:swim",
+            "value": "speed"
+          },
+          {
+            "bonus": "base",
+            "name": "speed:climb",
+            "value": "speed"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p class=\"indent\">In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_TIRELESS",
+      "name": "Tireless",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "tireless:hp",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "tireless:hp",
+            "value": "wisdom:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Action",
+        "content": "You can give yourself a number of temporary hit points equal to 1d8 + {{tireless:hp}}. In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><i>1st-level ranger feature, which replaces the Favored Enemy feature and works with the Foe Slayer feature</i></p> <p>When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).</p> <p class=\"indent\">The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by 1d4.</p> <p class=\"indent\">You can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p class=\"indent\">This feature's extra damage increases when you reach certain levels in this class: to 1d6 at 6th level and to 1d8 at 14th level.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_FAVORED_FOE",
+      "name": "Favored Foe",
+      "sheet": {
+        "content": "When you hit a creature with an attack roll, you can mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell). The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by 1d4. When you hit a creature with an attack roll, you can mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell). The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by 1d6. When you hit a creature with an attack roll, you can mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell). The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by 1d8.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_RANGER_FAVORED_FOE\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_RANGER_FAVORED_FOE",
+      "name": "Ranger, LV01: Favored Foe",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_FAVORED_ENEMY",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_FAVORED_FOE",
+            "requirements": "[level:ranger:1]",
+            "type": "Class Feature"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "first level, 1st level, mark, Favored Enemy",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>2nd-level ranger feature</i></p> <p>The spells in the following list expand the ranger spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>Entangle, Searing smite</em></td></tr> <tr><td>2nd</td><td><em>Aid, Enhance ability, Gust of wind, Magic weapon, Summon beast*</em></td></tr> <tr><td>3rd</td><td><em>Elemental weapon, Meld into stone, Revivify, Summon fey*</em></td></tr> <tr><td>4th</td><td><em>Dominate beast, Summon elemental*</em></td></tr> <tr><td>5th</td><td><em>Greater restoration</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_ADDITIONAL_RANGER_SPELLS",
+      "name": "Additional Ranger Spells",
+      "sheet": {
+        "content": "The spells in the following list expand the ranger spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_ENTANGLE",
+          "ID_PHB_SPELL_SEARING_SMITE",
+          "ID_PHB_SPELL_AID",
+          "ID_PHB_SPELL_ENHANCE_ABILITY",
+          "ID_PHB_SPELL_GUST_OF_WIND",
+          "ID_PHB_SPELL_MAGIC_WEAPON",
+          "ID_WOTC_TCOE_SPELL_SUMMON_BEAST",
+          "ID_PHB_SPELL_ELEMENTAL_WEAPON",
+          "ID_PHB_SPELL_MELD_INTO_STONE",
+          "ID_PHB_SPELL_REVIVIFY",
+          "ID_WOTC_TCOE_SPELL_SUMMON_FEY",
+          "ID_PHB_SPELL_DOMINATE_BEAST",
+          "ID_WOTC_TCOE_SPELL_SUMMON_ELEMENTAL",
+          "ID_PHB_SPELL_GREATER_RESTORATION"
+        ],
+        "name": "Ranger"
+      },
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_RANGER_ADDITIONAL_RANGER_SPELLS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_RANGER_ADDITIONAL_RANGER_SPELLS",
+      "name": "Ranger, LV02: Additional Ranger Spells",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_ADDITIONAL_RANGER_SPELLS",
+          "requirements": "[level:ranger:2]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "second level, 2nd level, spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>2nd-level ranger feature</i></p> <p>You can use a druidic focus as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_SPELLCASTING_FOCUS",
+      "name": "Spellcasting Focus (Ranger)",
+      "sheet": {
+        "alt": "Spellcasting Focus",
+        "content": "You can use a druidic focus as a spellcasting focus for your ranger spells."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_RANGER_SPELLCASTING_FOCUS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_RANGER_SPELLCASTING_FOCUS",
+      "name": "Ranger, LV02: Spellcasting Focus",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_SPELLCASTING_FOCUS",
+          "requirements": "[level:ranger:2]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "second level, 2nd level, spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>3rd-level ranger feature, which replaces the Primeval Awareness feature</i></p> <p>You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.</p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>3rd</td><td><em>speak with animals</em></td></tr> <tr><td>5th</td><td><em>beast sense</em></td></tr> <tr><td>9th</td><td><em>speak with plants</em></td></tr> <tr><td>13th</td><td><em>locate creature</em></td></tr> <tr><td>17th</td><td><em>commune with nature</em></td></tr> </table> <p class=\"indent\">You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_AWARENESS",
+      "name": "Primal Awareness",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_SPEAK_WITH_ANIMALS",
+            "requirements": "[level:ranger:3]",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_BEAST_SENSE",
+            "requirements": "[level:ranger:5]",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_SPEAK_WITH_PLANTS",
+            "requirements": "[level:ranger:9]",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_LOCATE_CREATURE",
+            "requirements": "[level:ranger:13]",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_COMMUNE_WITH_NATURE",
+            "requirements": "[level:ranger:17]",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_AWARENESS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_AWARENESS",
+      "name": "Ranger, LV03: Primal Awareness",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_PRIMEVAL_AWARENESS",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_AWARENESS",
+            "requirements": "[level:ranger:3]",
+            "type": "Class Feature"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "third level, 3rd level, spells, Primeval Awareness",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>4th-level ranger feature</i></p> <p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_MARTIAL_VERSATILITY",
+      "name": "Martial Versatility (Ranger)",
+      "sheet": {
+        "alt": "Martial Versatility",
+        "content": "Whenever you reach a level in Ranger class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_RANGER_MARTIAL_VERSATILITY\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_RANGER_MARTIAL_VERSATILITY",
+      "name": "Ranger, LV04: Martial Versatility",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_MARTIAL_VERSATILITY",
+          "requirements": "[level:ranger:4]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fourth level, 4th level, fighting styles",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>10th-level ranger feature, which replaces the Hide in Plain Sight feature</i></p> <p>You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.</p> <p class=\"indent\">You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_NATURES_VEIL",
+      "name": "Nature's Veil",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_RANGER_NATURES_VEIL\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_RANGER_NATURES_VEIL",
+      "name": "Ranger, LV10: Nature's Veil",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_HIDE_IN_PLAIN_SIGHT",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_NATURES_VEIL",
+            "requirements": "[level:ranger:10]",
+            "type": "Class Feature"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "tenth level, 10th level, invisibility, Hide in Plain Sight",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>3rd-level Beast Master feature, which replaces the Ranger's Companion feature</i></p> <p>You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block — Beast of the Land, Beast of the Sea, or Beast of the Sky — which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.</p> <p class=\"indent\">In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.</p> <p class=\"indent\">If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.</p> <p class=\"indent\">When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION",
+      "name": "Primal Companion",
+      "rules": {
+        "select": {
+          "name": "Primal Companion",
+          "supports": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND|ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA|ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY",
+          "type": "Companion"
+        }
+      },
+      "sheet": "You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block — Beast of the Land, Beast of the Sea, or Beast of the Sky — which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. &#13; In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge. &#13; If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored. &#13; When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION",
+      "name": "Ranger, LV03: Primal Companion",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_BEAST_MASTER_RANGER_COMPANION",
+            "type": "Grants"
+          },
+          {
+            "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION",
+            "requirements": "ID_WOTC_ARCHETYPE_RANGER_BEAST_MASTER",
+            "type": "Class Feature"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "Ranger, third level, 3rd level, Beast Master",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND",
+      "name": "Beast of the Land",
+      "requirements": "ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND",
+          "type": "Companion Trait"
+        },
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "name": "companion:ac",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "5"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:climb",
+            "value": "40"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:proficiency",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base companion PB removal",
+            "name": "companion:proficiency",
+            "value": "-2"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "13 + PB (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)",
+            "name": "hp"
+          },
+          {
+            "description": "40 ft., climb 40 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "14",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "15",
+            "name": "constitution"
+          },
+          {
+            "description": "8",
+            "name": "intelligence"
+          },
+          {
+            "description": "14",
+            "name": "wisdom"
+          },
+          {
+            "description": "11",
+            "name": "charisma"
+          },
+          {
+            "description": "darkvision 60 ft., passive Perception 12",
+            "name": "senses"
+          },
+          {
+            "description": "understands the languages you speak",
+            "name": "languages"
+          },
+          {
+            "description": "—",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_CHARGE, ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_MAUL>",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_CHARGE",
+      "name": "Charge",
+      "sheet": "If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND",
+      "name": "Primal Bond",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "companion:acrobatics:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:animal handling:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:arcana:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:athletics:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:deception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:history:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:insight:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:intimidation:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:investigation:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:medicine:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:nature:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:performance:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:persuasion:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:religion:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:sleight of hand:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:survival:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:strength:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:dexterity:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:constitution:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:intelligence:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:wisdom:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:charisma:save:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You can add your proficiency bonus to any ability check or saving throw that the beast makes.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p><i>Melee Weapon Attack:</i> your spell attack modifier to hit, reach 5 ft., one target. <i>Hit:</i> 1d8+2+PB slashing damage.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_MAUL>",
+      "name": "Maul",
+      "sheet": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8+2+PB slashing damage.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Action"
+    },
+    {
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA",
+      "name": "Beast of the Sea",
+      "requirements": "ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND",
+          "type": "Companion Trait"
+        },
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "name": "companion:ac",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "5"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "5"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:swim",
+            "value": "60"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:proficiency",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base companion PB removal",
+            "name": "companion:proficiency",
+            "value": "-2"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "13 + PB (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)",
+            "name": "hp"
+          },
+          {
+            "description": "5 ft., swim 60 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "14",
+            "name": "strength"
+          },
+          {
+            "description": "14",
+            "name": "dexterity"
+          },
+          {
+            "description": "15",
+            "name": "constitution"
+          },
+          {
+            "description": "8",
+            "name": "intelligence"
+          },
+          {
+            "description": "14",
+            "name": "wisdom"
+          },
+          {
+            "description": "11",
+            "name": "charisma"
+          },
+          {
+            "description": "darkvision 60 ft., passive Perception 12",
+            "name": "senses"
+          },
+          {
+            "description": "understands the languages you speak",
+            "name": "languages"
+          },
+          {
+            "description": "—",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_AMPHIBIOUS, ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_BINDING_STRIKE>",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The beast can breathe both air and water.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_AMPHIBIOUS",
+      "name": "Amphibious",
+      "sheet": "The beast can breathe both air and water.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND",
+      "name": "Primal Bond",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "companion:acrobatics:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:animal handling:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:arcana:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:athletics:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:deception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:history:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:insight:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:intimidation:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:investigation:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:medicine:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:nature:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:performance:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:persuasion:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:religion:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:sleight of hand:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:survival:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:strength:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:dexterity:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:constitution:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:intelligence:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:wisdom:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:charisma:save:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You can add your proficiency bonus to any ability check or saving throw that the beast makes.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p><i>Melee Weapon Attack:</i> your spell attack modifier to hit, reach 5 ft., one target. <i>Hit:</i> 1d6+2+PB piercing or bludgeoning damage (your choice), and the target is grappled (escape DC equals your spell save DC). Until this grapple ends, the beast can't use this attack on another target.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_BINDING_STRIKE>",
+      "name": "Binding Strike",
+      "sheet": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6+2+PB piercing or bludgeoning damage (your choice), and the target is grappled (escape DC equals your spell save DC). Until this grapple ends, the beast can't use this attack on another target.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Action"
+    },
+    {
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY",
+      "name": "Beast of the Sky",
+      "requirements": "ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND",
+          "type": "Companion Trait"
+        },
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "name": "companion:ac",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "4"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:ranger"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "10"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed:fly",
+            "value": "60"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:proficiency",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base companion PB removal",
+            "name": "companion:proficiency",
+            "value": "-2"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Small",
+            "name": "size"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "unaligned",
+            "name": "alignment"
+          },
+          {
+            "description": "13 + PB (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "4 + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)",
+            "name": "hp"
+          },
+          {
+            "description": "10 ft., fly 60 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "6",
+            "name": "strength"
+          },
+          {
+            "description": "16",
+            "name": "dexterity"
+          },
+          {
+            "description": "13",
+            "name": "constitution"
+          },
+          {
+            "description": "8",
+            "name": "intelligence"
+          },
+          {
+            "description": "14",
+            "name": "wisdom"
+          },
+          {
+            "description": "11",
+            "name": "charisma"
+          },
+          {
+            "description": "darkvision 60 ft., passive Perception 12",
+            "name": "senses"
+          },
+          {
+            "description": "understands the languages you speak",
+            "name": "languages"
+          },
+          {
+            "description": "—",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_FLYBY, ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND",
+            "name": "traits"
+          },
+          {
+            "description": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_SHRED>",
+            "name": "actions"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion"
+    },
+    {
+      "description": "<p>The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_FLYBY",
+      "name": "Flyby",
+      "sheet": "The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND",
+      "name": "Primal Bond",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "companion:acrobatics:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:animal handling:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:arcana:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:athletics:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:deception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:history:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:insight:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:intimidation:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:investigation:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:medicine:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:nature:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:perception:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:performance:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:persuasion:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:religion:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:sleight of hand:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:stealth:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:survival:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:strength:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:dexterity:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:constitution:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:intelligence:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:wisdom:save:proficiency",
+            "value": "companion:proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:charisma:save:proficiency",
+            "value": "companion:proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "You can add your proficiency bonus to any ability check or saving throw that the beast makes.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Trait"
+    },
+    {
+      "description": "<p><i>Melee Weapon Attack:</i> your spell attack modifier to hit, reach 5 ft., one target. <i>Hit:</i> 1d4+3+PB slashing damage</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_SHRED>",
+      "name": "Shred",
+      "sheet": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d4+3+PB slashing damage",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p><i>3rd-level rogue feature</i></p> <p>As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_ROGUE_STEADY_AIM",
+      "name": "Steady Aim",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_ROGUE_STEADY_AIM\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_ROGUE_STEADY_AIM",
+      "name": "Rogue, LV03: Steady Aim",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_ROGUE_STEADY_AIM",
+          "requirements": "[level:rogue:3]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "third level, 3rd level, advantage",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>1st-level sorcerer feature</i></p> <p>The spells in the following list expand the sorcerer spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>Cantrip</td><td><em>Booming blade*, Green-flame blade*, Lightning lure*, Mind sliver*, Sword burst*</em></td></tr> <tr><td>1st</td><td><em>Grease, Tasha's caustic brew*</em></td></tr> <tr><td>2nd</td><td><em>Flame blade, Flaming sphere, Magic weapon, Tasha's mind whip*</em></td></tr> <tr><td>3rd</td><td><em>Intellect fortress*, Vampiric touch</em></td></tr> <tr><td>4th</td><td><em>Fire shield</em></td></tr> <tr><td>5th</td><td><em>Bigby's hand</em></td></tr> <tr><td>6th</td><td><em>Flesh to stone, Otiluke's freezing sphere, Tasha's otherworldly guise</em></td></tr> <tr><td>7th</td><td><em>Dream of the blue veil*</em></td></tr> <tr><td>8th</td><td><em>Demiplane</em></td></tr> <tr><td>9th</td><td><em>Blade of disaster*</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_ADDITIONAL_SORCERER_SPELLS",
+      "name": "Additional Sorcerer Spells",
+      "sheet": {
+        "content": "The spells in the following list expand the sorcerer spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_WOTC_TCOE_SPELL_BOOMING_BLADE",
+          "ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE",
+          "ID_WOTC_TCOE_SPELL_LIGHTNING_LURE",
+          "ID_WOTC_TCOE_SPELL_MIND_SLIVER",
+          "ID_WOTC_TCOE_SPELL_SWORD_BURST",
+          "ID_PHB_SPELL_GREASE",
+          "ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW",
+          "ID_PHB_SPELL_FLAME_BLADE",
+          "ID_PHB_SPELL_FLAMING_SPHERE",
+          "ID_PHB_SPELL_MAGIC_WEAPON",
+          "ID_WOTC_TCOE_SPELL_TASHAS_MIND_WHIP",
+          "ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS",
+          "ID_PHB_SPELL_VAMPIRIC_TOUCH",
+          "ID_PHB_SPELL_FIRE_SHIELD",
+          "ID_PHB_SPELL_BIGBYS_HAND",
+          "ID_PHB_SPELL_FLESH_TO_STONE",
+          "ID_PHB_SPELL_OTILUKES_FREEZING_SPHERE",
+          "ID_WOTC_TCOE_SPELL_TASHAS_OTHERWORLDLY_GUISE",
+          "ID_WOTC_TCOE_SPELL_DREAM_OF_THE_BLUE_VEIL",
+          "ID_PHB_SPELL_DEMIPLANE",
+          "ID_WOTC_TCOE_SPELL_BLADE_OF_DISASTER"
+        ],
+        "name": "Sorcerer"
+      },
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_ADDITIONAL_SORCERER_SPELLS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_SORCERER_ADDITIONAL_SORCERER_SPELLS",
+      "name": "Sorcerer, LV01: Additional Sorcerer Spells",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_ADDITIONAL_SORCERER_SPELLS",
+          "requirements": "[level:sorcerer:1]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "first level, 1st level, spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</p> <p class=\"indent\">You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_METAMAGIC_SEEKING_SPELL",
+      "name": "Seeking Spell",
+      "sheet": "If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll. You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Metamagic",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_METAMAGIC_TRANSMUTED_SPELL",
+      "name": "Transmuted Spell",
+      "sheet": "When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Metamagic",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p><i>4th-level sorcerer feature</i></p> <p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</p> <ul> <li>Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</li> <li>Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</li> </ul>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_SORCEROUS_VERSATILITY",
+      "name": "Sorcerous Versatility",
+      "sheet": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following: &#13; • Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you. &#13; • Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_SORCEROUS_VERSATILITY\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_SORCERER_SORCEROUS_VERSATILITY",
+      "name": "Sorcerer, LV04: Sorcerous Versatility",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_SORCEROUS_VERSATILITY",
+          "requirements": "[level:sorcerer:4]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fourth level, 4th level, ASI, Ability Score Improvement, Metamagic, Spellcasting, cantrip",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>5th-level sorcerer feature</i></p> <p>You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_MAGICAL_GUIDANCE",
+      "name": "Magical Guidance",
+      "sheet": {
+        "content": "When you make an ability check that fails, you can reroll the d20, and you must use the new roll, potentially turning the failure into a success.",
+        "usage": "1 Sorcery Point"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_MAGICAL_GUIDANCE\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_SORCERER_MAGICAL_GUIDANCE",
+      "name": "Sorcerer, LV05: Magical Guidance",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_MAGICAL_GUIDANCE",
+          "requirements": "[level:sorcerer:5]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fifth level, 5th level, ability check, sorcery points",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>1st-level warlock feature</i></p> <p>The spells in the following list expand the warlock spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>Cantrip</td><td><em>Booming blade*, Green-flame blade*, Lightning lure*, Mind sliver*, Sword burst*</em></td></tr> <tr><td>3rd</td><td><em>Intellect fortress*, Spirit shroud*, Summon fey*, Summon shadowspawn*, Summon undead*</em></td></tr> <tr><td>4th</td><td><em>Summon aberration*</em></td></tr> <tr><td>5th</td><td><em>Mislead, Planar binding, Teleportation circle</em></td></tr> <tr><td>6th</td><td><em>Summon fiend*, Tasha's otherworldly guise</em></td></tr> <tr><td>7th</td><td><em>Dream of the blue veil*</em></td></tr> <tr><td>9th</td><td><em>Blade of disaster*, Gate, Weird</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ADDITIONAL_WARLOCK_SPELLS",
+      "name": "Additional Warlock Spells",
+      "sheet": {
+        "content": "The spells in the following list expand the warlock spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_WOTC_TCOE_SPELL_BOOMING_BLADE",
+          "ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE",
+          "ID_WOTC_TCOE_SPELL_LIGHTNING_LURE",
+          "ID_WOTC_TCOE_SPELL_MIND_SLIVER",
+          "ID_WOTC_TCOE_SPELL_SWORD_BURST",
+          "ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS",
+          "ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD",
+          "ID_WOTC_TCOE_SPELL_SUMMON_FEY",
+          "ID_WOTC_TCOE_SPELL_SUMMON_SHADOWSPAWN",
+          "ID_WOTC_TCOE_SPELL_SUMMON_UNDEAD",
+          "ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION",
+          "ID_PHB_SPELL_MISLEAD",
+          "ID_PHB_SPELL_PLANAR_BINDING",
+          "ID_PHB_SPELL_TELEPORTATION_CIRCLE",
+          "ID_WOTC_TCOE_SPELL_SUMMON_FIEND",
+          "ID_WOTC_TCOE_SPELL_TASHAS_OTHERWORLDLY_GUISE",
+          "ID_WOTC_TCOE_SPELL_DREAM_OF_THE_BLUE_VEIL",
+          "ID_WOTC_TCOE_SPELL_BLADE_OF_DISASTER",
+          "ID_PHB_SPELL_GATE",
+          "ID_PHB_SPELL_WEIRD"
+        ],
+        "name": "Warlock"
+      },
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ADDITIONAL_WARLOCK_SPELLS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_WARLOCK_ADDITIONAL_WARLOCK_SPELLS",
+      "name": "Warlock, LV01: Additional Warlock Spells",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ADDITIONAL_WARLOCK_SPELLS",
+          "requirements": "[level:warlock:1]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "first level, 1st level, spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>4th-level warlock feature</i></p> <p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:</p> <ul> <li>Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list.</li> <li>Replace the option you chose for the Pact Boon feature with one of that feature's other options.</li> <li>If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level.</li> </ul> <p>If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ELDRITCH_VERSATILITY",
+      "name": "Eldritch Versatility",
+      "sheet": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following: &#13; • Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list. &#13; • Replace the option you chose for the Pact Boon feature with one of that feature's other options. &#13; • If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level. &#13; If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ELDRITCH_VERSATILITY\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_WARLOCK_ELDRITCH_VERSATILITY",
+      "name": "Warlock, LV04: Eldritch Versatility",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ELDRITCH_VERSATILITY",
+          "requirements": "[level:warlock:4]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "fourth level, 4th level, ASI, Ability Score Improvement, Metamagic, Spellcasting, cantrip",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>1st-level wizard feature</i></p> <p>The spells in the following list expand the wizard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. A spell's school of magic is noted, and if a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>Cantrip</td><td><em>Booming blade* (evoc.), Green-flame blade* (evoc.), Lightning lure* (evoc.), Mind sliver* (ench.), Sword burst* (conj.)</em></td></tr> <tr><td>1st</td><td><em>Tasha's caustic brew* (evoc.)</em></td></tr> <tr><td>2nd</td><td><em>Augury (divin., ritual), Enhance ability (trans.), Tasha's mind whip* (ench.)</em></td></tr> <tr><td>3rd</td><td><em>Intellect fortress* (abjur.), Speak with dead (necro.), Spirit shroud* (necro.), Summon fey* (conj.), Summon shadowspawn* (conj.), Summon undead* (conj.)</em></td></tr> <tr><td>4th</td><td><em>Divination (divin., ritual), Summon aberration* (conj.), Summon construct* (conj.), Summon elemental* (conj.)</em></td></tr> <tr><td>6th</td><td><em>Summon fiend* (conj.), Tasha's otherworldly guise* (trans.)</em></td></tr> <tr><td>7th</td><td><em>Dream of the blue veil* (conj.)</em></td></tr> <tr><td>9th</td><td><em>Blade of disaster* (conj.)</em></td></tr> </table>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_ADDITIONAL_WIZARD_SPELLS",
+      "name": "Additional Wizard Spells",
+      "sheet": {
+        "content": "The spells in the following list expand the wizard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. A spell's school of magic is noted, and if a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha's Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.",
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_WOTC_TCOE_SPELL_BOOMING_BLADE",
+          "ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE",
+          "ID_WOTC_TCOE_SPELL_LIGHTNING_LURE",
+          "ID_WOTC_TCOE_SPELL_MIND_SLIVER",
+          "ID_WOTC_TCOE_SPELL_SWORD_BURST",
+          "ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW",
+          "ID_PHB_SPELL_AUGURY",
+          "ID_PHB_SPELL_ENHANCE_ABILITY",
+          "ID_WOTC_TCOE_SPELL_TASHAS_MIND_WHIP",
+          "ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS",
+          "ID_PHB_SPELL_SPEAK_WITH_DEAD",
+          "ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD",
+          "ID_WOTC_TCOE_SPELL_SUMMON_FEY",
+          "ID_WOTC_TCOE_SPELL_SUMMON_SHADOWSPAWN",
+          "ID_WOTC_TCOE_SPELL_SUMMON_UNDEAD",
+          "ID_PHB_SPELL_DIVINATION",
+          "ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION",
+          "ID_WOTC_TCOE_SPELL_SUMMON_CONSTRUCT",
+          "ID_WOTC_TCOE_SPELL_SUMMON_ELEMENTAL",
+          "ID_WOTC_TCOE_SPELL_SUMMON_FIEND",
+          "ID_WOTC_TCOE_SPELL_TASHAS_OTHERWORLDLY_GUISE",
+          "ID_WOTC_TCOE_SPELL_DREAM_OF_THE_BLUE_VEIL",
+          "ID_WOTC_TCOE_SPELL_BLADE_OF_DISASTER"
+        ],
+        "name": "Wizard"
+      },
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_ADDITIONAL_WIZARD_SPELLS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_WIZARD_ADDITIONAL_WIZARD_SPELLS",
+      "name": "Wizard, LV01: Additional Wizard Spells",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_ADDITIONAL_WIZARD_SPELLS",
+          "requirements": "[level:wizard:1]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "first level, 1st level, spellcasting",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p><i>3rd-level wizard feature</i></p> <p>You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_CANTRIP_FORMULAS",
+      "name": "Cantrip Formulas",
+      "sheet": "Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p> <div class=\"reference\"> <div element=\"ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_CANTRIP_FORMULAS\" /> </div>",
+      "id": "ID_WOTC_TCOE_ITEM_OCF_WIZARD_CANTRIP_FORMULAS",
+      "name": "Wizard, LV03: Cantrip Formulas",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_CANTRIP_FORMULAS",
+          "requirements": "[level:wizard:3]",
+          "type": "Class Feature"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Optional Class Features",
+            "name": "category"
+          },
+          {
+            "description": "third level, 3rd level, Spellcasting, cantrip",
+            "name": "keywords"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Item"
+    },
+    {
+      "description": "<p>You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_BLESSED_WARRIOR",
+      "name": "Blessed Warrior",
+      "rules": {
+        "select": {
+          "name": "Cantrip, Blessed Warrior",
+          "number": "2",
+          "spellcasting": "Paladin",
+          "supports": "0,Cleric",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You count cantrips of this fighting style as paladin spells and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Fighting Style, Paladin",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_BLIND_FIGHTING",
+      "name": "Blind Fighting",
+      "rules": {
+        "grant": {
+          "id": "ID_VISION_BLINDSIGHT",
+          "type": "Vision"
+        },
+        "stat": {
+          "bonus": "base",
+          "name": "blindsight:range",
+          "value": "10"
+        }
+      },
+      "sheet": "You have blindsight with a range of {{blindsight:range}} feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Fighting Style, Fighter, Paladin, Ranger",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_DRUIDIC_WARRIOR",
+      "name": "Druidic Warrior",
+      "rules": {
+        "select": {
+          "name": "Cantrip, Druidic Warrior",
+          "number": "2",
+          "spellcasting": "Ranger",
+          "supports": "0,Druid",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You count cantrips of this fighting style as ranger spells and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Fighting Style, Ranger",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_INTERCEPTION",
+      "name": "Interception",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can reduce the damage the target takes by 1d10 + {{proficiency}}. You must be wielding a shield or a simple or martial weapon to use this reaction."
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Fighting Style, Fighter, Paladin",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>You can learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).</p> <p class=\"indent\">You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_SUPERIOR_TECHNIQUE",
+      "name": "Superior Technique",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_SUPERIOR_TECHNIQUE_MANEUVER_SELECT",
+          "type": "Class Feature"
+        },
+        "stat": [
+          {
+            "bonus": "size",
+            "name": "superior technique:size",
+            "value": "6"
+          },
+          {
+            "bonus": "size",
+            "name": "superior technique:size",
+            "value": "superiority dice:size"
+          },
+          {
+            "bonus": "base",
+            "name": "superior technique:dc",
+            "value": "8"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "superior technique:dc",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "ability",
+            "name": "superior technique:dc:ability",
+            "value": "strength:modifier"
+          },
+          {
+            "bonus": "ability",
+            "name": "superior technique:dc:ability",
+            "value": "dexterity:modifier"
+          },
+          {
+            "bonus": "ability",
+            "name": "superior technique:dc",
+            "value": "superior technique:dc:ability"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Fighting Style, Fighter",
+      "type": "Class Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_SUPERIOR_TECHNIQUE_MANEUVER_SELECT",
+      "name": "Maneuver Select",
+      "rules": {
+        "select": {
+          "name": "Maneuver, Superior Technique",
+          "supports": "Maneuver,Battle Master",
+          "type": "Archetype Feature"
+        }
+      },
+      "sheet": {
+        "alt": "Superior Technique",
+        "content": "If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals {{superior technique:dc}}.",
+        "usage": "1d{{superior technique:size}}/Short Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>You can draw a weapon that has the thrown property as part of the attack you make with the weapon.</p> <p class=\"indent\">In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_THROWN_WEAPON_FIGHTING",
+      "name": "Thrown Weapon Fighting",
+      "sheet": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Fighting Style, Fighter, Ranger",
+      "type": "Class Feature"
+    },
+    {
+      "description": "<p>Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.</p> <p class=\"indent\">At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you.</p>",
+      "id": "ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_UNARMED_FIGHTING",
+      "name": "Unarmed Fighting",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "unarmed fighting:size",
+            "value": "6"
+          },
+          {
+            "bonus": "base",
+            "equipped": "[primary:none],[secondary:none]",
+            "name": "unarmed fighting:size",
+            "value": "8"
+          },
+          {
+            "bonus": "ability",
+            "name": "unarmed fighting:ability modifier",
+            "value": "strength:modifier"
+          }
+        ]
+      },
+      "sheet": "Your unarmed strikes can deal 1d{{unarmed fighting:size}} + {{unarmed fighting:ability modifier}} bludgeoning damage on a hit. At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you.",
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Fighting Style, Fighter",
+      "type": "Class Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Tasha's Cauldron of Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything"
+    },
+    "description": "The Optional Class Features from Tasha's Cauldron of Everything",
+    "name": "Optional Class Features",
+    "update": {
+      "file": {
+        "name": "optional-class-features.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/optional-class-features.json"
+      },
+      "version": "0.0.8"
+    }
+  }
+}

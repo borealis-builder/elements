@@ -1,0 +1,17 @@
+{
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/curse-strahd"
+    },
+    "description": "The Black Fist Double Agent background from Curse of Strahd",
+    "name": "Black Fist Double Agent",
+    "update": {
+      "file": {
+        "name": "background-blackfistdoubleagent.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/curse-of-strahd/backgrounds/background-blackfistdoubleagent.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "element": [
+    {
+      "description": "<p>You've manifested some of the power of chromatic dragons, granting you the following benefits:</p> <p class=\"indent\"><b>Chromatic Infusion. </b>As a bonus action, you can touch a simple or martial weapon and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra 1d4 damage of the chosen type when it hits. After you use this bonus action, you can't do so again until you finish a long rest.</p> <p class=\"indent\"><b>Reactive Resistance. </b>When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_FEAT_GIFT_OF_THE_CHROMATIC_DRAGON",
+      "name": "Gift of the Chromatic Dragon",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_CHROMATIC_DRAGON_CHROMATIC_INFUSION",
+            "type": "Feat Feature"
+          },
+          {
+            "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_CHROMATIC_DRAGON_REACTIVE_RESISTANCE",
+            "type": "Feat Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>As a bonus action, you can touch a simple or martial weapon and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra 1d4 damage of the chosen type when it hits. After you use this bonus action, you can't do so again until you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_CHROMATIC_DRAGON_CHROMATIC_INFUSION",
+      "name": "Chromatic Infusion",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can touch a simple or martial weapon and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra 1d4 damage of the chosen type when it hits.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_CHROMATIC_DRAGON_REACTIVE_RESISTANCE",
+      "name": "Reactive Resistance",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you take acid, cold, fire, lightning, or poison damage, you can give yourself resistance to that instance of damage.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Feat Feature"
+    },
+    {
+      "description": "<p>You've manifested some of the power of gem dragons, granting you the following benefits:</p> <p class=\"indent\"><b>Ability Score Increase. </b>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p> <p class=\"indent\"><b>Telekinetic Reprisal. </b>When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the creature takes 2d8 force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_FEAT_GIFT_OF_THE_GEM_DRAGON",
+      "name": "Gift of the Gem Dragon",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_GEM_DRAGON_TELEKINETIC_REPRISAL",
+          "type": "Feat Feature"
+        },
+        "select": {
+          "name": "Ability Score Increase (Telekinetic Reprisal)",
+          "supports": "Telekinetic Reprisal",
+          "type": "Feat Feature"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the creature takes 2d8 force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_GEM_DRAGON_TELEKINETIC_REPRISAL",
+      "name": "Telekinetic Reprisal",
+      "rules": {
+        "stat": [
+          {
+            "name": "telekinetic reprisal:dc",
+            "value": "8"
+          },
+          {
+            "name": "telekinetic reprisal:dc",
+            "value": "proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you take damage from a creature that is within 10 feet of you, you can emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw (DC {{telekinetic reprisal:dc}}). On a failed save, the creature takes 2d8 force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div class=\"reference\"> <div element=\"ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_GEM_DRAGON_TELEKINETIC_REPRISAL\" /> </div>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_TELEKINETIC_REPRISAL_INTELLIGENCE",
+      "name": "Intelligence",
+      "rules": {
+        "stat": [
+          {
+            "name": "intelligence",
+            "value": "1"
+          },
+          {
+            "name": "telekinetic reprisal:dc",
+            "value": "intelligence:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Telekinetic Reprisal",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div class=\"reference\"> <div element=\"ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_GEM_DRAGON_TELEKINETIC_REPRISAL\" /> </div>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_TELEKINETIC_REPRISAL_WISDOM",
+      "name": "Wisdom",
+      "rules": {
+        "stat": [
+          {
+            "name": "wisdom",
+            "value": "1"
+          },
+          {
+            "name": "telekinetic reprisal:dc",
+            "value": "wisdom:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Telekinetic Reprisal",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div class=\"reference\"> <div element=\"ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_GEM_DRAGON_TELEKINETIC_REPRISAL\" /> </div>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_TELEKINETIC_REPRISAL_CHARISMA ",
+      "name": "Charisma",
+      "rules": {
+        "stat": [
+          {
+            "name": "charisma",
+            "value": "1"
+          },
+          {
+            "name": "telekinetic reprisal:dc",
+            "value": "charisma:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Telekinetic Reprisal",
+      "type": "Feat Feature"
+    },
+    {
+      "description": "<p>You've manifested some of the power of metallic dragons, granting you the following benefits:</p> <p class=\"indent\"><b>Draconic Healing. </b>You learn the <i>cure wounds</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is Intelligence, Wisdom, or Charisma when you cast it with this feat (choose when you gain the feat).</p> <p class=\"indent\"><b>Protective Wings. </b>You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_FEAT_GIFT_OF_THE_METALLIC_DRAGON",
+      "name": "Gift of the Metallic Dragon",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_DRACONIC_HEALING",
+            "type": "Feat Feature"
+          },
+          {
+            "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_PROTECTIVE_WINGS",
+            "type": "Feat Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You learn the <i>cure wounds</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is Intelligence, Wisdom, or Charisma when you cast it with this feat (choose when you gain the feat).</p>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_DRACONIC_HEALING",
+      "name": "Draconic Healing",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_CURE_WOUNDS",
+          "type": "Spell"
+        },
+        "select": {
+          "name": "Spellcasting Ability (Draconic Healing)",
+          "supports": "Draconic Healing",
+          "type": "Feat Feature"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div class=\"reference\"> <div element=\"ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_DRACONIC_HEALING\" /> </div>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_DRACONIC_HEALING_INTELLIGENCE",
+      "name": "Intelligence",
+      "sheet": {
+        "action": "Action",
+        "alt": "Draconic Healing",
+        "content": "You can cast cure wounds without expending a spell slot. You can also cast this spell using spell slots you have. The spell's spellcasting ability is Intelligence when you cast it with this feat.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Draconic Healing",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div class=\"reference\"> <div element=\"ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_DRACONIC_HEALING\" /> </div>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_DRACONIC_HEALING_WISDOM",
+      "name": "Wisdom",
+      "sheet": {
+        "action": "Action",
+        "alt": "Draconic Healing",
+        "content": "You can cast cure wounds without expending a spell slot. You can also cast this spell using spell slots you have. The spell's spellcasting ability is Wisdom when you cast it with this feat.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Draconic Healing",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<div class=\"reference\"> <div element=\"ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_DRACONIC_HEALING\" /> </div>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_DRACONIC_HEALING_CHARISMA ",
+      "name": "Charisma",
+      "sheet": {
+        "action": "Action",
+        "alt": "Draconic Healing",
+        "content": "You can cast cure wounds without expending a spell slot. You can also cast this spell using spell slots you have. The spell's spellcasting ability is Charisma when you cast it with this feat.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "supports": "Draconic Healing",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_FTOD_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON_PROTECTIVE_WINGS",
+      "name": "Protective Wings",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you or another creature you can see within 5 feet of you is hit by an attack roll, you can manifest spectral wings from your back for a moment. You grant a bonus of {{proficiency}} to the target's AC against that attack roll, potentially causing it to miss.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Fizban's Treasury of Dragons",
+      "type": "Feat Feature"
+    }
+  ],
+  "info": {
+    "name": "Draconic Feats",
+    "update": {
+      "file": {
+        "name": "feats.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/feats.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

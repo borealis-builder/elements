@@ -1,0 +1,140 @@
+{
+  "element": [
+    {
+      "description": "<p>Neither bugs nor bears, bugbears are the hulking cousins of goblins and hobgoblins. With roots in the Feywild, early bugbears resided in hidden places, in hard-to-reach and shadowed spaces. Long ago and from out of the corner of your eye, they came to the Material Plane, urged to spread throughout the multiverse by the conquering god Maglubiyet. Centuries later, they still bear a fey gift for lurking just out of sight, and many of them have sneaked away from that god's influence.</p> <p class=\"indent\">They are long of limb and covered in coarse hair, with wedge-shaped ears and pointed teeth. Despite their formidable build, bugbears are quiet skulkers, thanks to a fey magic that allows them to hide in spaces seemingly too small for them.</p> <h4>BUGBEAR TRAITS</h4> <p>As an bugbear, you have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.</p> <p class=\"indent\"><strong><em>Size.</em></strong> Your size is Medium.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p> <p class=\"indent\"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p> <p class=\"indent\"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p> <p class=\"indent\"><strong><em>Long-Limbed.</em></strong> When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p> <p class=\"indent\"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p> <p class=\"indent\"><strong><em>Sneaky.</em></strong> You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature.</p> <p class=\"indent\"><strong><em>Surprise Attack.</em></strong> If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn't taken a turn yet in the current combat.</p>",
+      "id": "ID_WOTC_MOTM_RACE_BUGBEAR",
+      "name": "Bugbear",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_SIZE_MEDIUM",
+            "type": "Size"
+          },
+          {
+            "id": "ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_GOBLINOID",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_FEY_ANCESTRY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_LONG_LIMBED",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_POWERFUL_BUILD",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_SNEAKY",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_SURPRISE_ATTACK",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Improvement Option (Bugbear)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language (Bugbear)",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Bugbear)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          }
+        ],
+        "stat": {
+          "bonus": "base",
+          "name": "innate speed",
+          "value": "30"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Monsters of the Multiverse",
+      "type": "Race"
+    },
+    {
+      "description": "<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_FEY_ANCESTRY",
+      "name": "Fey Ancestry",
+      "sheet": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_LONG_LIMBED",
+      "name": "Long Limbed",
+      "sheet": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_POWERFUL_BUILD",
+      "name": "Powerful Build",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER",
+          "type": "Grants"
+        }
+      },
+      "sheet": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_SNEAKY",
+      "name": "Sneaky",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_STEALTH",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": "Without squeezing, you can move through and stop in a space large enough for a Small creature.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn't taken a turn yet in the current combat.</p>",
+      "id": "ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_SURPRISE_ATTACK",
+      "name": "Surprise Attack",
+      "sheet": "If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn't taken a turn yet in the current combat.",
+      "source": "Monsters of the Multiverse",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "name": "Bugbear from Monsters of the Multiverse",
+    "update": {
+      "file": {
+        "name": "race-bugbear.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-bugbear.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

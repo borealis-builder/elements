@@ -1,0 +1,253 @@
+{
+  "element": [
+    {
+      "description": "<p>You grew up in the wilds, far from civilization and the comforts of town and technology. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don't know the specific features of the terrain, you know the ways of the wild.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Athletics, Survival</li> <li><strong>Tool Proficiencies:</strong> One type of musical instrument</li> <li><strong>Languages:</strong> One of your choice</li> <li><strong>Equipment:</strong> A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 10 gp</li> </ul> <h5>Origin</h5> <p>You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.</p> <table> <thead> <tr><td class=\"col-10\">d10</td><td>Origin</td></tr> </thead> <tr><td>1</td><td>Forester</td></tr> <tr><td>2</td><td>Trapper</td></tr> <tr><td>3</td><td>Homesteader</td></tr> <tr><td>4</td><td>Guide</td></tr> <tr><td>5</td><td>Exile or outcast</td></tr> <tr><td>6</td><td>Bounty hunter</td></tr> <tr><td>7</td><td>Pilgrim</td></tr> <tr><td>8</td><td>Tribal nomad</td></tr> <tr><td>9</td><td>Hunter-gatherer</td></tr> <tr><td>10</td><td>Tribal marauder</td></tr> </table> <div element=\"ID_BACKGROUND_FEATURE_WANDERER\" /> <h5>Suggested Characteristics</h5> <p>Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.</p>",
+      "id": "ID_BACKGROUND_OUTLANDER",
+      "name": "Outlander",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_BACKGROUND_FEATURE_WANDERER",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "name": "Musical Instrument (Outlander)",
+            "supports": "Musical Instrument",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language (Outlander)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "item": [
+              {
+                "description": "Forester",
+                "id": "1"
+              },
+              {
+                "description": "Trapper",
+                "id": "2"
+              },
+              {
+                "description": "Homesteader",
+                "id": "3"
+              },
+              {
+                "description": "Guide",
+                "id": "4"
+              },
+              {
+                "description": "Exile or outcast",
+                "id": "5"
+              },
+              {
+                "description": "Bounty hunter",
+                "id": "6"
+              },
+              {
+                "description": "Pilgrim",
+                "id": "7"
+              },
+              {
+                "description": "Tribal nomad",
+                "id": "8"
+              },
+              {
+                "description": "Hunter-gatherer",
+                "id": "9"
+              },
+              {
+                "description": "Tribal marauder",
+                "id": "10"
+              }
+            ],
+            "name": "Origin",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm driven by a wanderlust that led me away from home.",
+                "id": "1"
+              },
+              {
+                "description": "I watch over my friends as if they were a litter of newborn pups.",
+                "id": "2"
+              },
+              {
+                "description": "I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to.",
+                "id": "3"
+              },
+              {
+                "description": "I have a lesson for every situation, drawn from observing nature.",
+                "id": "4"
+              },
+              {
+                "description": "I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.",
+                "id": "5"
+              },
+              {
+                "description": "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.",
+                "id": "6"
+              },
+              {
+                "description": "I feel far more comfortable around animals than people.",
+                "id": "7"
+              },
+              {
+                "description": "I was, in fact, raised by wolves.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
+                "id": "1"
+              },
+              {
+                "description": "Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)",
+                "id": "3"
+              },
+              {
+                "description": "Might. The strongest are meant to rule. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Nature. The natural world is more important than all the constructs of civilization. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Glory. I must earn glory in battle, for myself and my clan. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My family, clan, or tribe is the most important thing in my life, even when they are far from me.",
+                "id": "1"
+              },
+              {
+                "description": "An injury to the unspoiled wilderness of my home is an injury to me.",
+                "id": "2"
+              },
+              {
+                "description": "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
+                "id": "3"
+              },
+              {
+                "description": "I am the last of my tribe, and it is up to me to ensure their names enter legend.",
+                "id": "4"
+              },
+              {
+                "description": "I suffer awful visions of a coming disaster and will do anything to prevent it.",
+                "id": "5"
+              },
+              {
+                "description": "It is my duty to provide children to sustain my tribe.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am too enamored of ale, wine, and other intoxicants.",
+                "id": "1"
+              },
+              {
+                "description": "There's no room for caution in a life lived to the fullest.",
+                "id": "2"
+              },
+              {
+                "description": "I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.",
+                "id": "3"
+              },
+              {
+                "description": "I am slow to trust members of other races, tribes, and societies.",
+                "id": "4"
+              },
+              {
+                "description": "Violence is my answer to almost any challenge.",
+                "id": "5"
+              },
+              {
+                "description": "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Survival, Instrument, Language",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.</p>",
+      "id": "ID_BACKGROUND_FEATURE_WANDERER",
+      "name": "Feature: Wanderer",
+      "sheet": {
+        "alt": "Wanderer"
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "",
+    "name": "Outlander",
+    "update": {
+      "file": {
+        "name": "background-outlander.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-outlander.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

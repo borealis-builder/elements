@@ -1,0 +1,203 @@
+{
+  "element": [
+    {
+      "description": "<p>Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, or unicorn or to another entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.</p> <p class=\"indent\">Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.</p> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_EXPANDED_SPELL_LIST\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_BONUS_CANTRIPS\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_HEALING_LIGHT\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_RADIANT_SOUL\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_CELESTIAL_RESILIENCE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_SEARING_VENGEANCE\" />",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_CELESTIAL",
+      "name": "The Celestial",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_EXPANDED_SPELL_LIST",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_BONUS_CANTRIPS",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_HEALING_LIGHT",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_RADIANT_SOUL",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_CELESTIAL_RESILIENCE",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_SEARING_VENGEANCE",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Otherworldly Patron",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p> <h5>CELESTIAL EXPANDED SPELLS</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>guiding bolt, cure wounds</em></td></tr> <tr><td>2nd</td><td><em>flaming sphere, lesser restoration</em></td></tr> <tr><td>3rd</td><td><em>daylight, revivify</em></td></tr> <tr><td>4th</td><td><em>guardian of faith, wall of fire</em></td></tr> <tr><td>5th</td><td><em>flame strike, greater restoration</em></td></tr> </table>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_EXPANDED_SPELL_LIST",
+      "name": "Expanded Spell List",
+      "sheet": {
+        "content": "The Celestial lets you choose from an expanded list of spells when you learn a warlock spell.",
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "spellcasting": {
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_GUIDING_BOLT",
+          "ID_PHB_SPELL_CURE_WOUNDS",
+          "ID_PHB_SPELL_FLAMING_SPHERE",
+          "ID_PHB_SPELL_LESSER_RESTORATION",
+          "ID_PHB_SPELL_DAYLIGHT",
+          "ID_PHB_SPELL_REVIVIFY",
+          "ID_PHB_SPELL_GUARDIAN_OF_FAITH",
+          "ID_PHB_SPELL_WALL_OF_FIRE",
+          "ID_PHB_SPELL_FLAME_STRIKE",
+          "ID_PHB_SPELL_GREATER_RESTORATION"
+        ],
+        "name": "Warlock"
+      },
+      "supports": "Warlock",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, you learn the <i>sacred flame</i> and <i>light</i> cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_BONUS_CANTRIPS",
+      "name": "Bonus Cantrips",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_SACRED_FLAME",
+            "spellcasting": "Warlock",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_LIGHT",
+            "spellcasting": "Warlock",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.</p> <p class=\"indent\">As a bonus action, you can heal one creature you can see within 60 feet of you, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.</p> <p class=\"indent\">Your pool regains all expended dice when you finish a long rest.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_HEALING_LIGHT",
+      "name": "Healing Light",
+      "rules": {
+        "stat": [
+          {
+            "name": "healing light:dice pool",
+            "value": "level:warlock"
+          },
+          {
+            "name": "healing light:dice pool",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "healing light:max",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "healing light:max",
+            "value": "charisma:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can use d6s from your pool to heal an ally you can see within 60 feet. The maximum number of dice you can use at once is {{healing light:max}}. Roll spent dice and restore a number of hit points equal to the total.",
+        "usage": "{{healing light:dice pool}}d6/Long Rest"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you can add your Charisma modifier to one radiant or fire damage roll of that spell against one of its targets. </p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_RADIANT_SOUL",
+      "name": "Radiant Soul",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT",
+          "type": "Condition"
+        }
+      },
+      "sheet": "You can add +{{charisma:modifier}} to one radiant or fire damage roll against one target.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your Charisma modifier.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_CELESTIAL_RESILIENCE",
+      "name": "Celestial Resilience",
+      "rules": {
+        "stat": [
+          {
+            "name": "celestial resilience:temp hp",
+            "value": "level:warlock"
+          },
+          {
+            "name": "celestial resilience:temp hp",
+            "value": "charisma:modifier"
+          },
+          {
+            "name": "celestial resilience:ally temp hp",
+            "value": "level:warlock:half"
+          },
+          {
+            "name": "celestial resilience:ally temp hp",
+            "value": "charisma:modifier"
+          }
+        ]
+      },
+      "sheet": "After a short or long rest, you gain {{celestial resilience:temp hp}} temporary hit points and you can choose up to five creatures to receive {{celestial resilience:ally temp hp}} temporary hit points each.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and it is blinded until the end of the current turn. </p> <p class=\"indent\">Once you use this feature, you can't use it again until you finish a long rest.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_SEARING_VENGEANCE",
+      "name": "Searing Vengeance",
+      "sheet": {
+        "content": "When you make a death saving throw at the start of your turn, you can instead regain half of your hit points maximum, stand to your feet if you so choose, and deal 2d8+{{charisma:modifier}} to each creature of your choice within 30 feet, blinding them until the end of your turn.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The Celestial Otherworldly Patron from Xanathar's Guide to Everything",
+    "name": "The Celestial",
+    "update": {
+      "file": {
+        "name": "warlock-celestial.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/warlock-celestial.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}

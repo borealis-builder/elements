@@ -1,0 +1,1463 @@
+{
+  "element": [
+    {
+      "description": "<p>In today's <i>Unearthed Arcana</i>, we explore character options related to the magic and majesty of giants. This playtest document presents the Path of the Giant barbarian subclass, the Circle of the Primeval druid subclass, the Runecrafter wizard subclass, and a collection of new feats, all for use in Dungeons &amp; Dragons.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20220523",
+      "name": "Unearthed Arcana: Giant Options",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20220523",
+            "name": "abbreviation"
+          },
+          {
+            "description": "https://dnd.wizards.com/unearthed-arcana/giant-options",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "20220523",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>Barbarians who walk the Path of the Giant draw strength from the primal forces that are the Giants and their elemental ilk. Their rages surge with elemental power and cause these barbarians to grow in size, transforming them into avatars of primordial might.</p> <p class=\"indent\">During their rage, a barbarian may take after a legendary storm giant, hair turning white and eyes crackling with lightning. Others adopt the monstrous features of apocalyptic titans, rending the world around them so that it may be made anew.</p> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_GIANT_POWER\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_GIANTS_HAVOC\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_ELEMENTAL_CLEAVER\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_MIGHTY_IMPEL\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_DEMIURGIC_COLOSSUS\" />",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_BARBARIAN_PATH_OF_THE_GIANT",
+      "name": "Path of the Giant",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_GIANT_POWER",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_GIANTS_HAVOC",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_ELEMENTAL_CLEAVER",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_MIGHTY_IMPEL",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_DEMIURGIC_COLOSSUS",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "supports": "Primal Path",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p><em>3rd-Level Path of the Giant Feature</em></p> <p>When you choose this path, you learn to speak, read, and write Giant or one other language of your choice if you already know Giant. Additionally, you learn either the <i>druidcraft</i> or <i>thaumaturgy</i> cantrip (your choice). Wisdom is your spellcasting ability for this spell.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_GIANT_POWER",
+      "name": "Giant Power",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_GIANT_POWER",
+      "rules": {
+        "select": [
+          {
+            "default": "ID_LANGUAGE_GIANT",
+            "name": "Language (Giant Power)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Cantrip (Giant Power)",
+            "supports": "ID_PHB_SPELL_DRUIDCRAFT|ID_PHB_SPELL_THAUMATURGY",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": "Wisdom is your spellcasting ability for the chosen cantrip.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>3rd-Level Path of the Giant Feature</em></p> <p>Your rages pull strength from the primal might of giants, transforming you into a hulking force of destruction. While raging, you gain the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Crushing Hurl.</strong> When you make a successful ranged attack with a thrown weapon using Strength, you can add your Rage Damage bonus to the attack's damage roll.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Giant Stature.</strong> Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn't enough room for you to become Large, your size doesn't change.</li> </ul>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_GIANTS_HAVOC",
+      "name": "Giant's Havoc",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_GIANTS_HAVOC",
+      "sheet": "While raging, you gain the following benefits: &#13; • Crushing Hurl. When you make a successful ranged attack with a thrown weapon using Strength, you can add {{barbarian rage:damage}} to damage. &#13; • Giant Stature. Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn't enough room for you to become Large, your size doesn't change. While raging, you gain the following benefits: &#13; • Crushing Hurl. When you make a successful ranged attack with a thrown weapon using Strength, you can add {{barbarian rage:damage}} to damage. &#13; • Giant Stature. Your reach increases by 10 feet, and if you are smaller than Huge, you become Huge, along with anything you are wearing. If there isn't enough room for you to become Huge or Large, your size doesn't change.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>6th-Level Path of the Giant Feature</em></p> <p>Your bond with the elemental might of giants and their ilk grows, and you learn to infuse weapons with primordial energy.</p> <p class=\"indent\">When you enter your rage, you can infuse one weapon of your choice that you are holding with one of the following damage types: acid, cold, fire, thunder, or lightning. While you wield the infused weapon during your rage, the weapon's damage type changes to the chosen type, it deals an extra 1d6 damage of the chosen type when it hits, and it gains the thrown property, with a normal range of 20 feet and a long range of 60 feet. If you throw the weapon, it reappears in your hand the instant after it hits or misses a target. The infused weapon's benefits are suppressed while a creature other than you wields it.</p> <p class=\"indent\">While raging and holding the infused weapon, you can use a bonus action to change the infused weapon's current damage type to a different one from the above damage types.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_ELEMENTAL_CLEAVER",
+      "name": "Elemental Cleaver",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_ELEMENTAL_CLEAVER",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "ua:elemental cleaver:damage",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "level": "14",
+            "name": "ua:elemental cleaver:damage",
+            "value": "2"
+          }
+        ]
+      },
+      "sheet": "When you rage, you can infuse one weapon that you are holding with one of the following damage types: acid, cold, fire, thunder, or lightning. While you wield the infused weapon during your rage, the weapon's damage type changes to the chosen type, it deals an extra {{ua:elemental cleaver:damage}}d6 damage of the chosen type, and it gains the thrown property, with a 20/60 ft. range. If you throw the weapon, it reappears in your hand the instant after it hits or misses a target. &#13; While raging and holding the infused weapon, as a bonus action you can change the infused weapon's damage type to a different one from the above damage types.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>10th-Level Path of the Giant Feature</em></p> <p>Your connection to giant strength now allows you to hurl both allies and enemies on the battlefield. As a bonus action while raging, you can choose one Medium or smaller creature within your reach and move it to an unoccupied space you can see within 30 feet of yourself. An unwilling creature must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) to avoid the effect.</p> <p class=\"indent\">If, at the end of this movement, the thrown creature isn't on a surface or liquid that can support it, the creature falls, taking damage as normal and landing prone.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_MIGHTY_IMPEL",
+      "name": "Mighty Impel",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_MIGHTY_IMPEL",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "ua:mighty impel:dc",
+            "value": "8"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "ua:mighty impel:dc",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "ability",
+            "name": "ua:mighty impel:dc",
+            "value": "strength:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "While raging, you can choose one Medium or smaller creature within your reach and move it to an unoccupied space you can see within 30 feet of yourself. An unwilling creature must succeed on a DC{{ua:mighty impel:dc}} Strength saving throw to avoid the effect. While raging, you can choose one Large or smaller creature within your reach and move it to an unoccupied space you can see within 30 feet of yourself. An unwilling creature must succeed on a DC{{ua:mighty impel:dc}} Strength saving throw to avoid the effect."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>14th-Level Path of the Giant Feature</em></p> <p>The primordial power of your rage intensifies. When you rage, your reach now increases by 10 feet, your size can increase to Huge, and you can now use your Mighty Impel to move creatures that are Large or smaller.</p> <p class=\"indent\">In addition, the extra damage dealt by your Elemental Cleaver feature increases to 2d6.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_PATH_OF_THE_GIANT_DEMIURGIC_COLOSSUS",
+      "name": "Demiurgic Colossus",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_DEMIURGIC_COLOSSUS",
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_GIANT_POWER",
+      "name": "Giant Giant Power Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_GIANTS_HAVOC",
+      "name": "Giant Giants Havoc Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_ELEMENTAL_CLEAVER",
+      "name": "Giant Elemental Cleaver Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_MIGHTY_IMPEL",
+      "name": "Giant Mighty Impel Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_BARBARIAN_GIANT_DEMIURGIC_COLOSSUS",
+      "name": "Giant Demiurgic Colossus Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "description": "<p>The Circle of the Primeval teaches that, though the land may change over time, it never truly forgets. By tapping into the timeworn memory of the earth, these druids summon and bond with the spirit of a primeval behemoth—a hulking creature that once ruled the ancient world alongside the giants. The most well-known primeval behemoths are the dinosaurs, but spirits bonded with members of the Circle of the Primeval have also taken the form of ancient predecessors to today's common beasts and other fantastical titanic creatures.</p> <p class=\"indent\">Working alongside their companion spirit, most druids of the Circle of the Primeval spend their lives delving into long-forgotten places and preserving the remnants of bygone eras. As a druid's power grows, so does their companion, the beast starting near equal in size to its druid partner before increasing in stature until it too towers over the land.</p> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_KEEPER_OF_OLD\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_PRIMEVAL_COMPANION\" /> <div class=\"reference\"> <div element=\"ID_WOTC_UA20220523_INFORMATION_PRIMEVAL_COMPANION_STATBLOCK\" /> </div> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_PREHISTORIC_CONDUIT\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_TITANIC_BOND\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_SCOURGE_OF_THE_ANCIENTS\" />",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_DRUID_CIRCLE_OF_THE_PRIMEVAL",
+      "name": "Circle Of The Primeval",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_KEEPER_OF_OLD",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_PRIMEVAL_COMPANION",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_PREHISTORIC_CONDUIT",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_TITANIC_BOND",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_SCOURGE_OF_THE_ANCIENTS",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "supports": "Druid Circle",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p><em>2nd-Level Circle of the Primeval Feature</em></p> <p>Your connection to the mighty primeval behemoths allows you new insight into the ancient world.</p> <p class=\"indent\">You gain proficiency in the History skill. When you make an Intelligence (History) check, you can roll a d4 and add the number rolled to the ability check.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_KEEPER_OF_OLD",
+      "name": "Keeper of Old",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_KEEPER_OF_OLD",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_HISTORY",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": "When you make an Intelligence (History) check, you can add a d4 to it.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>2nd-Level Circle of the Primeval Feature</em></p> <p>Starting when you choose this circle, you can call upon the primeval creature whose spirit is bound to you. As an action, you can expend one use of your Wild Shape feature to summon your primeval companion, rather than assuming a beast form. The companion appears in an unoccupied space of your choice within 30 feet of you.</p> <p class=\"indent\">The primeval companion is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Primeval Companion stat block, which uses your proficiency bonus (PB) in several places. You can determine the cosmetic appearance of the companion; for example, your companion may evoke ancient predators like raptors or saber-toothed tigers, or it might be more inclined for defense, appearing as an armored ankylosaurus or a wooly rhino. These choices have no effect on the companion's game statistics.</p> <p class=\"indent\">In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge.</p> <p class=\"indent\">In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.</p> <p class=\"indent\">The companion remains until it is reduced to 0 hit points or until you die, at which point the companion vanishes. If you use this feature to summon the companion again and you already have a companion present, the first companion immediately vanishes. Anything the companion was wearing or carrying is left behind when the companion vanishes.</p> <div class=\"reference\"> <div element=\"ID_WOTC_UA20220523_INFORMATION_PRIMEVAL_COMPANION_STATBLOCK\" /> </div>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_PRIMEVAL_COMPANION",
+      "name": "Primeval Companion",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_PRIMEVAL_COMPANION",
+      "rules": {
+        "select": [
+          {
+            "default": "ID_WOTC_UA20220523_COMPANION_PRIMEVAL_COMPANION_MEDIUM",
+            "name": "Primeval Companion",
+            "requirements": "!ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_TITANIC_BOND",
+            "supports": "Primeval Companion",
+            "type": "Companion"
+          },
+          {
+            "default": "ID_WOTC_UA20220523_COMPANION_PRIMEVAL_COMPANION_LARGE",
+            "name": "Primeval Companion",
+            "requirements": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_TITANIC_BOND",
+            "supports": "Primeval Companion",
+            "type": "Companion"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Action",
+        "content": "You can expend one use of your Wild Shape feature to summon your primeval companion, rather than assuming a beast form. The companion appears in an unoccupied space of your choice within 30 feet of you. &#13; The primeval companion is friendly to you and your companions, and it obeys your commands. &#13; The spirit is friendly to you and your companions and obeys your commands. &#13; In combat, the companion shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge. &#13; The companion remains until it is reduced to 0 hit points or until you die. If you use this feature to summon the companion again and you already have a companion present, the first companion immediately vanishes. Anything the companion was wearing or carrying is left behind when the companion vanishes."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>6th-Level Circle of the Primeval Feature</em></p> <p>You learn how to channel your magic through your primeval companion. When you cast a spell with a range other than self, the spell can originate from you or your primeval companion.</p> <p class=\"indent\">In addition, if the primeval companion is affected by a spell you cast that allows creatures to make a saving throw against its effects, the primeval companion has advantage on its saving throw. If the primeval companion would normally take half damage on a successful save against this spell, the companion instead takes no damage on a successful save and half damage with no additional effects on a failed save.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_PREHISTORIC_CONDUIT",
+      "name": "Prehistoric Conduit",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_PREHISTORIC_CONDUIT",
+      "sheet": "When you cast a spell with a range other than self, the spell can originate from you or your primeval companion. &#13; If the primeval companion is affected by a spell you cast that allows creatures to make a saving throw against its effects, the primeval companion has advantage on its saving throw. If the primeval companion would normally take half damage on a successful save against this spell, the companion instead takes no damage on a successful save and half damage with no additional effects on a failed save.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>10th-Level Circle of the Primeval Feature</em></p> <p>The primeval companion grows to Large size, and when you summon it, you can grant it either a climbing speed or a swimming speed equal to its walking speed.</p> <p class=\"indent\">In turn, the primeval companion lends you some of its terrifying might. Once per turn while your primeval companion is summoned, when you hit a creature with an attack or deal damage to a creature you can see with a spell you cast, you can force that creature to make a Wisdom saving throw against your spell save DC; on a failure, the creature is frightened of you until the end of your next turn.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_TITANIC_BOND",
+      "name": "Titanic Bond",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_TITANIC_BOND",
+      "sheet": {
+        "content": "While your primeval companion is summoned, when you hit a creature with an attack or deal damage to a creature you can see with a spell you cast, you can force that creature to make a DC{{druid:spellcasting:dc}} Wisdom saving throw; on a failure, the creature is frightened of you until the end of your next turn. &#13; Additionally, when you summon companion, you can grant it either a climbing speed or a swimming speed equal to {{companion:speed}} ft.",
+        "usage": "1/Turn"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>14th-Level Circle of the Primeval Feature</em></p> <p>You have learned to fully harness the titanic legacy of your companion. As part of the bonus action you use to command your companion, you can expend a spell slot of any level to heighten your primeval companion's might, granting it the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Hulking Behemoth.</strong> The companion becomes Huge and gains temporary hit points equal to 10 times the level of the spell slot expended. If there isn't enough room for the companion to become Huge, it attains the maximum possible size in the space available.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Mauler.</strong> On a hit, the companion's Strike deals additional damage equal to 1d8 plus the level of the spell slot expended.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Titanic Stride.</strong> The companion's walking speed increases by a number of feet equal to 5 times the level of the spell slot expended.</li> </ul> <p>These benefits last for 1 hour, until the companion vanishes, or until you expend a spell slot for this feature again.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_SCOURGE_OF_THE_ANCIENTS",
+      "name": "Scourge of the Ancients",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_SCOURGE_OF_THE_ANCIENTS",
+      "sheet": "As part of the bonus action you use to command your companion, you can expend a spell slot of any level to heighten your primeval companion's might, granting it the following benefits: &#13; • Hulking Behemoth. The companion becomes Huge and gains temporary hit points equal to 10 times the level of the spell slot expended. If there isn't enough room for the companion to become Huge, it attains the maximum possible size in the space available. &#13; • Mauler. On a hit, the companion's Strike deals additional damage equal to 1d8 plus the level of the spell slot expended. &#13; • Titanic Stride. The companion's walking speed increases by a number of feet equal to 5 times the level of the spell slot expended.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "id": "ID_WOTC_UA20220523_COMPANION_PRIMEVAL_COMPANION_MEDIUM",
+      "name": "Primeval Companion",
+      "requirements": "ID_WOTC_UA20220523_ARCHETYPE_DRUID_CIRCLE_OF_THE_PRIMEVAL,!ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_TITANIC_BOND",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "name": "companion:ac",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "10"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Medium",
+            "name": "size"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Neutral",
+            "name": "alignment"
+          },
+          {
+            "description": "13 + PB (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "10 + five times your druid level (the companion has a number of Hit Dice [d10s] equal to your druid level)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "15",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "17",
+            "name": "constitution"
+          },
+          {
+            "description": "6",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "8",
+            "name": "charisma"
+          },
+          {
+            "description": "Dex +2 plus PB, Con +3 plus PB",
+            "name": "saves"
+          },
+          {
+            "description": "darkvision 60 ft., passive Perception 11",
+            "name": "senses"
+          },
+          {
+            "description": "understands the languages you speak",
+            "name": "languages"
+          },
+          {
+            "description": "—",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_UA20220523_COMPANION_ACTION_PRIMEVAL_COMPANION_STRIKE",
+            "name": "actions"
+          },
+          {
+            "description": "ID_WOTC_UA20220523_COMPANION_REACTION_PRIMEVAL_COMPANION_INTERCEPT_ATTACK",
+            "name": "reactions"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "supports": "Primeval Companion",
+      "type": "Companion"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "id": "ID_WOTC_UA20220523_COMPANION_PRIMEVAL_COMPANION_LARGE",
+      "name": "Primeval Companion",
+      "requirements": "ID_WOTC_UA20220523_ARCHETYPE_DRUID_CIRCLE_OF_THE_PRIMEVAL,[level:druid:10]",
+      "rules": {
+        "stat": [
+          {
+            "name": "companion:ac",
+            "value": "13"
+          },
+          {
+            "name": "companion:ac",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:hp:max",
+            "value": "10"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "name": "companion:hp:max",
+            "value": "level:druid"
+          },
+          {
+            "bonus": "base",
+            "name": "companion:speed",
+            "value": "30"
+          }
+        ]
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Large",
+            "name": "size"
+          },
+          {
+            "description": "Beast",
+            "name": "type"
+          },
+          {
+            "description": "Neutral",
+            "name": "alignment"
+          },
+          {
+            "description": "13 + PB (natural armor)",
+            "name": "ac"
+          },
+          {
+            "description": "10 + five times your druid level (the companion has a number of Hit Dice [d10s] equal to your druid level)",
+            "name": "hp"
+          },
+          {
+            "description": "30 ft.",
+            "name": "speed"
+          },
+          {
+            "description": "15",
+            "name": "strength"
+          },
+          {
+            "description": "15",
+            "name": "dexterity"
+          },
+          {
+            "description": "17",
+            "name": "constitution"
+          },
+          {
+            "description": "6",
+            "name": "intelligence"
+          },
+          {
+            "description": "12",
+            "name": "wisdom"
+          },
+          {
+            "description": "8",
+            "name": "charisma"
+          },
+          {
+            "description": "Dex +2 plus PB, Con +3 plus PB",
+            "name": "saves"
+          },
+          {
+            "description": "darkvision 60 ft., passive Perception 11",
+            "name": "senses"
+          },
+          {
+            "description": "understands the languages you speak",
+            "name": "languages"
+          },
+          {
+            "description": "—",
+            "name": "challenge"
+          },
+          {
+            "description": "ID_WOTC_UA20220523_COMPANION_ACTION_PRIMEVAL_COMPANION_STRIKE",
+            "name": "actions"
+          },
+          {
+            "description": "ID_WOTC_UA20220523_COMPANION_REACTION_PRIMEVAL_COMPANION_INTERCEPT_ATTACK",
+            "name": "reactions"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "supports": "Primeval Companion",
+      "type": "Companion"
+    },
+    {
+      "description": "<p><i>Melee Weapon Attack:</i> +2 plus PB to hit, reach 5 ft., one target. <i>Hit</i>: 1d8 plus PB bludgeoning, piercing, or slashing damage (your choice).</p>",
+      "id": "ID_WOTC_UA20220523_COMPANION_ACTION_PRIMEVAL_COMPANION_STRIKE",
+      "name": "Strike",
+      "sheet": "Melee Weapon Attack: +2 plus PB to hit, reach 5 ft., one target. Hit: 1d8 plus PB bludgeoning, piercing, or slashing damage (your choice).",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Companion Action"
+    },
+    {
+      "description": "<p>When a creature the companion can see hits a target with an attack, and the target is within 5 feet of the companion, the target instead takes half the damage. The companion takes the remainder of the damage.</p>",
+      "id": "ID_WOTC_UA20220523_COMPANION_REACTION_PRIMEVAL_COMPANION_INTERCEPT_ATTACK",
+      "name": "Intercept Attack",
+      "sheet": "When a creature the companion can see hits a target with an attack, and the target is within 5 feet of the companion, the target instead takes half the damage. The companion takes the remainder of the damage.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Companion Reaction"
+    },
+    {
+      "description": "<p style=\"margin-bottom:-5px\"><em>Medium Beast, Neutral</em></p> <h4 style=\"margin-top:5px\" /> <ul class=\"unstyled\"> <li><strong>Armor Class</strong> 13 + PB (natural armor)</li> <li><strong>Hit Points</strong> 10 + five times your druid level (the companion has a number of Hit Dice [d10s] equal to your druid level)</li> <li><strong>Speed</strong> 30 ft.</li> </ul> <table style=\"text-align:center;margin-top:10px;margin-bottom:10px\"> <thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead> <tr><td>15 (+2)</td><td>15 (+2)</td><td>17 (+3)</td><td>6 (−2)</td><td>12 (+1)</td><td>8 (−1)</td></tr> </table> <ul class=\"unstyled\"> <li><strong>Saving Throws</strong> Dex +2 plus PB, Con +3 plus PB</li> <li><strong>Senses</strong> darkvision 60 ft., passive Perception 11</li> <li><strong>Languages</strong> understands the languages you speak</li> <li style=\"margin-bottom:-1em\"><strong>Challenge</strong> —</li> <li style=\"text-align:right; margin-top:-1em\"><strong>Proficiency Bonus (PB)</strong> equals your bonus</li> </ul> <h4 style=\"margin-top:5px; margin-bottom:10px\" /> <h4 style=\"margin-top:10px\">Actions</h4> <ul class=\"unstyled\"> <li><strong><em>Strike.</em></strong><em> Melee Weapon Attack:</em> +2 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d8 plus PB bludgeoning, piercing, or slashing damage (your choice).</li> </ul> <h4 style=\"margin-top:10px\">Reactions</h4> <ul class=\"unstyled\"> <li><strong><em>Intercept Attack.</em></strong> When a creature the companion can see hits a target with an attack, and the target is within 5 feet of the companion, the target instead takes half the damage. The companion takes the remainder of the damage.</li> </ul>",
+      "id": "ID_WOTC_UA20220523_INFORMATION_PRIMEVAL_COMPANION_STATBLOCK",
+      "name": "Primeval Companion",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Information"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_KEEPER_OF_OLD",
+      "name": "Primeval Keeper of Old Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_PRIMEVAL_COMPANION",
+      "name": "Primeval Primeval Companion Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_PREHISTORIC_CONDUIT",
+      "name": "Primeval Prehistoric Conduit Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_TITANIC_BOND",
+      "name": "Primeval Titanic Bond Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_SCOURGE_OF_THE_ANCIENTS",
+      "name": "Primeval Scourge of the Ancients Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "description": "<p>Runecrafter wizards enhance their spellcasting through the ancient power of runes. Though the tradition originated with the giant rune casters of old, runecraft magic has expanded to encompass countless languages and practitioners across different worlds.</p> <p class=\"indent\">For many runecrafters, the runes they wield are as every bit unique and personal as their spellbook. Some strive to honor the practice's origins among the giants, engraving their runes on decorative stones that adorn their spellcasting implements, while others messily scribble their runes on scraps of paper.</p> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNES_OF_UNDERSTANDING\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNIC_EMPOWERMENT\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_SIGILS_OF_WARDING\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNE_MAVEN\" /> <div element=\"ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_ENGRAVED_ENMITY\" />",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_WIZARD_RUNECRAFTER",
+      "name": "Runecrafter",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNES_OF_UNDERSTANDING",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNIC_EMPOWERMENT",
+            "level": "2",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_SIGILS_OF_WARDING",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNE_MAVEN",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_ENGRAVED_ENMITY",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "supports": "Arcane Tradition",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p><em>2nd-Level Runecrafter Feature</em></p> <p>Your study of runecraft has unlocked the ability to decode runes and languages, regardless of their origin; you always have <i>comprehend languages</i> prepared, you can cast it without expending a spell slot, and the spell doesn't count against the number of spells you have prepared.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNES_OF_UNDERSTANDING",
+      "name": "Runes of Understanding",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_RUNES_OF_UNDERSTANDING",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_COMPREHEND_LANGUAGES",
+          "prepared": "true",
+          "spellcasting": "Wizard",
+          "type": "Spell"
+        }
+      },
+      "sheet": "You can cast comprehend languages without expending a spell slot.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>2nd-Level Runecrafter Feature</em></p> <p>When you choose this subclass, you learn how to amplify your magic through the application of various runes. Your knowledge of these runes is stored in your spellbook, though you determine the runes' cosmetic appearance. For example, your runes could be engraved into the cover of your spellbook, glowing whenever you cast a spell, or you could work the shape and meaning of the runes directly into a spell's somatic and verbal components.</p> <p class=\"indent\">When you cast a spell using a spell slot, you can invoke one of the following runes:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Life Rune.</strong> When you invoke this rune, choose one creature you can see within 30 feet of you (you can choose yourself). The chosen creature gains temporary hit points equal to 5 times the level of the spell slot expended.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>War Rune.</strong> When you invoke this rune, choose one creature you can see within 30 feet of you. Until the end of your next turn, attack rolls that target the chosen creature gain a bonus equal to half the level of the spell slot expended (rounded up, minimum of +1).</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Wind Rune.</strong> When you invoke this rune, your speed increases by a number of feet equal to 5 times the level of the spell slot expended, and your movement doesn't provoke opportunity attacks. These benefits last until the start of your next turn.</li> </ul> <p>You can invoke no more than one rune per spell. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNIC_EMPOWERMENT",
+      "name": "Runic Empowerment",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_RUNIC_EMPOWERMENT",
+      "sheet": {
+        "content": "When you cast a spell using a spell slot, you can invoke one of the following runes: &#13; • Life Rune. Choose one creature you can see within 30 feet of you. The chosen creature gains temporary hit points equal to 5 times the level of the spell slot expended. &#13; • War Rune. Choose one creature you can see within 30 feet of you. Until the end of your next turn, attack rolls that target the chosen creature gain a bonus equal to half the level of the spell slot expended (rounded up, minimum of +1). &#13; • Wind Rune. Your speed increases by a number of feet equal to 5 times the level of the spell slot expended, and your movement doesn't provoke opportunity attacks. These benefits last until the start of your next turn.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>6th-Level Runecrafter Feature</em></p> <p>You can call on a rune of protection to guard yourself against threats. When you fail a Strength, Dexterity, or Constitution saving throw, you can use your reaction to expend one use of your Runic Empowerment and succeed on the saving throw instead.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_SIGILS_OF_WARDING",
+      "name": "Sigil of Warding",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_SIGILS_OF_WARDING",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you fail a Strength, Dexterity, or Constitution saving throw, you can expend one use of your Runic Empowerment and succeed on the saving throw instead."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>10th-Level Runecrafter Feature</em></p> <p>Your understanding of runecraft has grown immensely. Whenever you use your Arcane Recovery feature, you also regain a number of your expended uses of Runic Empowerment. The number of uses you regain can be no more than half your Intelligence modifier, rounded up (minimum of 1).</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNE_MAVEN",
+      "name": "Rune Maven",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_RUNE_MAVEN",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "ua:rune maven:regained uses",
+            "value": "intelligence:modifier:half:up"
+          },
+          {
+            "bonus": "base",
+            "name": "ua:rune maven:regained uses",
+            "value": "1"
+          }
+        ]
+      },
+      "sheet": "Whenever you use your Arcane Recovery feature, you also regain a number of your expended uses of Runic Empowerment. The number of uses you regain can be no more than {{ua:rune maven:regained uses}}.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>14th-Level Runecrafter Feature</em></p> <p>You have mastered the art of wielding your runes directly against your foes. As a bonus action, you can target one creature you can see within 60 feet of yourself. The creature must succeed on a Wisdom saving throw against your spell save DC or be magically marked by an enmity rune.</p> <p class=\"indent\">The enmity rune appears as a faintly glowing mote of energy that hovers over the marked creature, which suffers the following effects:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Runecraft's Bane.</strong> The creature has disadvantage on saving throws made against spells you cast.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Unveiled Enemy.</strong> The radiance of the glowing rune makes the creature visible if it's invisible, and the creature can't become invisible while the rune persists.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Woeful Curse.</strong> When you mark the creature, and as a bonus action on subsequent turns for the duration, you can invoke the enmity rune to curse the creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack roll, the target also takes 1d8 force damage, and the curse ends.</li> </ul> <p>The enmity rune lasts for 1 minute or until you lose your concentration (as if you were concentrating on a spell). Once you have marked a creature in this way, you can't do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use this feature again.</p>",
+      "id": "ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_ENGRAVED_ENMITY",
+      "name": "Engraved Enmity",
+      "requirements": "!ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_ENGRAVED_ENMITY",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can target one creature you can see within 60 feet of yourself. The creature must succeed on a DC{{wizard:spellcasting:dc}} Wisdom saving throw or be magically marked by an enmity rune. The enmity rune appears as a faintly glowing mote of energy that hovers over the marked creature, which suffers the following effects: &#13; • Runecraft's Bane. The creature has disadvantage on saving throws made against spells you cast. &#13; • Unveiled Enemy. The rune makes the creature visible if it's invisible, and the creature can't become invisible while the rune persists. &#13; • Woeful Curse. When you mark the creature, and as a bonus action on subsequent turns for the duration, you can invoke the enmity rune to curse the creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack roll, the target also takes 1d8 force damage, and the curse ends. &#13; The enmity rune lasts for 1 minute or until you lose your concentration (as if you were concentrating on a spell). You can expend a spell slot of 3rd level or higher to use this feature again.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Archetype Feature"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_RUNES_OF_UNDERSTANDING",
+      "name": "Runecrafter Runes of Understanding Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_RUNIC_EMPOWERMENT",
+      "name": "Runecrafter Runic Empowerment Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_SIGILS_OF_WARDING",
+      "name": "Runecrafter Sigils of Warding Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_RUNE_MAVEN",
+      "name": "Runecrafter Rune Maven Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "id": "ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_ENGRAVED_ENMITY",
+      "name": "Runecrafter Engraved Enmity Feature Replacement",
+      "source": "Internal",
+      "type": "Grants"
+    },
+    {
+      "description": "<p>You've been exposed to the primordial magic of the Elemental Planes, granting you a measure of control over the natural world around you. You learn the either the <i>druidcraft</i> or <i>thaumaturgy</i> cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you gain this feat).</p> <p class=\"indent\">Whenever you finish a long rest, you can choose which element you are attuned to: Air, Earth, Fire, or Water. Depending on your choice, you can use a bonus action to cause one of the following effects:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Air.</strong> You gain a fly speed equal to your walking speed until the end of your turn. If you are airborne at the end of your turn after using this movement and aren't held aloft by other means, you fall.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Earth.</strong> You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Fire.</strong> You surround yourself in a cloud of ash and smoke. Until the end of your turn, your movement doesn't provoke opportunity attacks.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Water.</strong> You can create a forceful surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a Strength saving throw (which it can choose to fail) against a DC equal to 8 + your spellcasting ability modifier + your proficiency bonus or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails.</li> </ul> <p>You can create this effect a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_ELEMENTAL_TOUCHED",
+      "name": "Elemental Touched",
+      "rules": {
+        "select": {
+          "name": "Spellcasting Ability (Elemental Touched)",
+          "supports": "ID_WOTC_UA20220523_FEAT_ELEMENTAL_TOUCHED_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_ELEMENTAL_TOUCHED_WISDOM|ID_WOTC_UA20220523_FEAT_ELEMENTAL_TOUCHED_CHARISMA",
+          "type": "Feat Feature"
+        },
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "ua:elemental touched:dc",
+            "value": "8"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "ua:elemental touched:dc",
+            "value": "proficiency"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for the chosen cantrip is Intelligence.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_ELEMENTAL_TOUCHED_INTELLIGENCE",
+      "name": "Intelligence",
+      "rules": {
+        "select": {
+          "name": "Cantrip (Elemental Touched)",
+          "supports": "ID_PHB_SPELL_DRUIDCRAFT|ID_PHB_SPELL_THAUMATURGY",
+          "type": "Spell"
+        },
+        "stat": {
+          "bonus": "ability",
+          "name": "ua:elemental touched:dc",
+          "value": "intelligence:modifier"
+        }
+      },
+      "sheet": {
+        "alt": "Elemental Touched",
+        "content": "Your spellcasting ability for the chosen cantrip is Intelligence. &#13; Whenever you finish a long rest, you can choose which element you are attuned to: Air, Earth, Fire, or Water. Depending on your choice, you can use a bonus action to cause one of the following effects: &#13; • Air. You gain a fly speed equal to {{speed}} ft. until the end of your turn. If you are airborne at the end of your turn after using this movement and aren't held aloft by other means, you fall. &#13; • Earth. You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement. &#13; • Fire. Until the end of your turn, your movement doesn't provoke opportunity attacks. &#13; • Water. You can create a surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a DC{{ua:elemental touched:dc}} Strength saving throw (which it can choose to fail) or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails. You can create this effect a number of times equal to {{proficiency}}, and you regain all expended uses when you finish a long rest."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for the chosen cantrip is Wisdom.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_ELEMENTAL_TOUCHED_WISDOM",
+      "name": "Wisdom",
+      "rules": {
+        "select": {
+          "name": "Cantrip (Elemental Touched)",
+          "supports": "ID_PHB_SPELL_DRUIDCRAFT|ID_PHB_SPELL_THAUMATURGY",
+          "type": "Spell"
+        },
+        "stat": {
+          "bonus": "ability",
+          "name": "ua:elemental touched:dc",
+          "value": "wisdom:modifier"
+        }
+      },
+      "sheet": {
+        "alt": "Elemental Touched",
+        "content": "Your spellcasting ability for the chosen cantrip is Wisdom. &#13; Whenever you finish a long rest, you can choose which element you are attuned to: Air, Earth, Fire, or Water. Depending on your choice, you can use a bonus action to cause one of the following effects: &#13; • Air. You gain a fly speed equal to {{speed}} ft. until the end of your turn. If you are airborne at the end of your turn after using this movement and aren't held aloft by other means, you fall. &#13; • Earth. You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement. &#13; • Fire. Until the end of your turn, your movement doesn't provoke opportunity attacks. &#13; • Water. You can create a surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a DC{{ua:elemental touched:dc}} Strength saving throw (which it can choose to fail) or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails. You can create this effect a number of times equal to {{proficiency}}, and you regain all expended uses when you finish a long rest."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for the chosen cantrip is Charisma.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_ELEMENTAL_TOUCHED_CHARISMA",
+      "name": "Charisma",
+      "rules": {
+        "select": {
+          "name": "Cantrip (Elemental Touched)",
+          "supports": "ID_PHB_SPELL_DRUIDCRAFT|ID_PHB_SPELL_THAUMATURGY",
+          "type": "Spell"
+        },
+        "stat": {
+          "bonus": "ability",
+          "name": "ua:elemental touched:dc",
+          "value": "charisma:modifier"
+        }
+      },
+      "sheet": {
+        "alt": "Elemental Touched",
+        "content": "Your spellcasting ability for the chosen cantrip is Charisma. &#13; Whenever you finish a long rest, you can choose which element you are attuned to: Air, Earth, Fire, or Water. Depending on your choice, you can use a bonus action to cause one of the following effects: &#13; • Air. You gain a fly speed equal to {{speed}} ft. until the end of your turn. If you are airborne at the end of your turn after using this movement and aren't held aloft by other means, you fall. &#13; • Earth. You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement. &#13; • Fire. Until the end of your turn, your movement doesn't provoke opportunity attacks. &#13; • Water. You can create a surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a DC{{ua:elemental touched:dc}} Strength saving throw (which it can choose to fail) or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails. You can create this effect a number of times equal to {{proficiency}}, and you regain all expended uses when you finish a long rest."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 8th level</em></p> <p>You've manifested the fiery combat emblematic of fire giants, granting you the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Born of Flame.</strong> You have resistance to fire damage.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Searing Ignition.</strong> When you take the Attack action on your turn, you can replace one of your attacks with a magical burst of flame. Each creature of your choice within 15 feet of you that can see you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Constitution modifier). On a failed save, a creature takes fire damage equal to 2d6 + your proficiency bonus and is blinded until the start of your next turn; on a successful save, the creature takes half as much damage with no additional effects. You can use your Searing Ignition a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li> </ul>",
+      "id": "ID_WOTC_UA20220523_FEAT_EMBER_OF_THE_FIRE_GIANT",
+      "name": "Ember of the Fire Giant",
+      "prerequisite": "8th level",
+      "requirements": "[level:8]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE",
+          "type": "Condition"
+        },
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "ua:ember of the fire giant:dc",
+            "value": "8"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "ua:ember of the fire giant:dc",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "ability",
+            "name": "ua:ember of the fire giant:dc",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Attack",
+        "alt": "Searing Ignition",
+        "content": "You can replace one of your attacks with a magical burst of flame. Each creature of your choice within 15 feet of you that can see you must make a DC{{ua:ember of the fire giant:dc}} Dexterity saving throw. On a failed save, a creature takes 2d6 + {{proficiency}} fire damage and is blinded until the start of your next turn, or half as much damage and no additional effects on a successful save.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "description": "<p><em>Prerequisite: 4th level</em></p> <p>You've manifested the icy might emblematic of frost giants, granting you the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Born of Ice.</strong> You have resistance to cold damage.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Frigid Vengeance.</strong> When a creature hits you with an attack roll, you can use your reaction to retaliate with a burst of magical ire. The creature must succeed on a Wisdom saving throw (DC equals 8 + your proficiency bonus + your Constitution modifier) or be frightened of you until the start of its next turn. You can use your reaction in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li> </ul>",
+      "id": "ID_WOTC_UA20220523_FEAT_FURY_OF_THE_FROST_GIANT",
+      "name": "Fury of the Frost Giant",
+      "prerequisite": "4th level",
+      "requirements": "[level:4]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD",
+          "type": "Condition"
+        },
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "ua:fury of the frost giant:dc",
+            "value": "8"
+          },
+          {
+            "bonus": "proficiency",
+            "name": "ua:fury of the frost giant:dc",
+            "value": "proficiency"
+          },
+          {
+            "bonus": "ability",
+            "name": "ua:fury of the frost giant:dc",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Reaction",
+        "alt": "Frigid Vengeance",
+        "content": "When a creature hits you with an attack roll, you can retaliate with a burst of magical ire. The creature must succeed on a DC{{ua:fury of the frost giant:dc}} Wisdom saving throw or be frightened of you until the start of its next turn.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "description": "<p><em>Prerequisite: 8th level</em></p> <p>You've manifested the airy speech and magic emblematic of cloud giants, granting you the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Misty Form.</strong> You can cast the <i>blur</i> spell without using a spell slot or material components. When you cast the spell in this way, the spell doesn't require you to maintain concentration on it. Once you cast the spell in this way, you can't do so again until you finish a long rest. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feature (choose when you gain this feat).</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Silver Tongue.</strong> You gain proficiency in either the Deception or Persuasion skill. Your proficiency bonus is doubled for any ability check you make using this skill.</li> </ul>",
+      "id": "ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT",
+      "name": "Guile of the Cloud Giant",
+      "prerequisite": "8th level",
+      "requirements": "[level:8]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER",
+      "rules": {
+        "grant": {
+          "id": "ID_PHB_SPELL_BLUR",
+          "type": "Spell"
+        },
+        "select": [
+          {
+            "name": "Spellcasting Ability (Misty Form)",
+            "supports": "ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_WISDOM|ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_CHARISMA",
+            "type": "Feat Feature"
+          },
+          {
+            "name": "Skill Proficiency (Silver Tongue)",
+            "supports": "ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_DECEPTION|ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_PERSUASION",
+            "type": "Feat Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for the <i>blur</i> spell is Intelligence.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_INTELLIGENCE",
+      "name": "Intelligence",
+      "sheet": {
+        "alt": "Misty Form",
+        "content": "You can cast the blur spell without using a spell slot or material components. When you cast the spell in this way, the spell doesn't require you to maintain concentration on it. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Intelligence is your spellcasting ability for this feature.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for the <i>blur</i> spell is Wisdom.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_WISDOM",
+      "name": "Wisdom",
+      "sheet": {
+        "alt": "Misty Form",
+        "content": "You can cast the blur spell without using a spell slot or material components. When you cast the spell in this way, the spell doesn't require you to maintain concentration on it. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Wisdom is your spellcasting ability for this feature.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for the <i>blur</i> spell is Charisma.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_CHARISMA",
+      "name": "Charisma",
+      "sheet": {
+        "alt": "Misty Form",
+        "content": "You can cast the blur spell without using a spell slot or material components. When you cast the spell in this way, the spell doesn't require you to maintain concentration on it. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Charisma is your spellcasting ability for this feature.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You gain proficiency in the Deception skill. Your proficiency bonus is doubled for any ability check you make using this skill.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_DECEPTION",
+      "name": "Deception",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_DECEPTION",
+          "type": "Proficiency"
+        },
+        "stat": {
+          "bonus": "double",
+          "name": "deception:proficiency",
+          "value": "proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You gain proficiency in the Persuasion skill. Your proficiency bonus is doubled for any ability check you make using this skill.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_GUILE_OF_THE_CLOUD_GIANT_PERSUASION",
+      "name": "Persuasion",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_PERSUASION",
+          "type": "Proficiency"
+        },
+        "stat": {
+          "bonus": "double",
+          "name": "persuasion:proficiency",
+          "value": "proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 4th level</em></p> <p>You've manifested the protection and spellcasting emblematic of stone giants, granting you the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Dreamer's Magic.</strong> You learn the <i>detect thoughts</i> spell and one 1st-level spell of your choice. The 1st-level spell must be from the abjuration or the divination school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feature (choose when you gain this feat).</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Mountain Sight.</strong> You gain darkvision out to a range of 60 feet. If you already have darkvision from another source, its range increases by 30 feet.</li> </ul>",
+      "id": "ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT",
+      "name": "Keenness of the Stone Giant",
+      "prerequisite": "4th level",
+      "requirements": "[level:4]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_DETECT_THOUGHTS",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_VISION_LESSER_DARKVISION",
+            "type": "Vision"
+          }
+        ],
+        "select": [
+          {
+            "name": "1st-level Spell (Dreamer's Magic)",
+            "supports": "1,(Abjuration||Divination)",
+            "type": "Spell"
+          },
+          {
+            "name": "Spellcasting Ability (Dreamer's Magic)",
+            "supports": "ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_WISDOM|ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_CHARISMA",
+            "type": "Feat Feature"
+          }
+        ],
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "darkvision:range",
+            "value": "30"
+          },
+          {
+            "name": "darkvision:range",
+            "value": "30"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for this feat's spells is Intelligence.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_INTELLIGENCE",
+      "name": "Intelligence",
+      "sheet": {
+        "alt": "Dreamer's Magic",
+        "content": "You can cast detect thoughts and chosen 1st-level spell without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast the spells using any spell slots you have.&#13; Your spellcasting ability for this feat's spells is Intelligence."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for this feat's spells is Wisdom.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_WISDOM",
+      "name": "Wisdom",
+      "sheet": {
+        "alt": "Dreamer's Magic",
+        "content": "You can cast detect thoughts and chosen 1st-level spell without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast the spells using any spell slots you have.&#13; Your spellcasting ability for this feat's spells is Wisdom."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for this feat's spells is Charisma.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_CHARISMA",
+      "name": "Charisma",
+      "sheet": {
+        "alt": "Dreamer's Magic",
+        "content": "You can cast detect thoughts and chosen 1st-level spell without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast the spells using any spell slots you have.&#13; Your spellcasting ability for this feat's spells is Charisma."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "description": "<p>You have absorbed primeval magic that allows you, despite your relatively small stature, to embody the might of titanic creatures. This grants you the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Little but Mighty.</strong> You gain proficiency in either the Athletics or Acrobatics skill.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Powerful Build.</strong> You count as one size larger when determining your carrying capacity and the amount you can push, drag, or lift.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Stalwart.</strong> You have advantage on saving throws against being moved or knocked prone.</li> </ul>",
+      "id": "ID_WOTC_UA20220523_FEAT_OUTSIZED_MIGHT",
+      "name": "Outsized Might",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER",
+          "type": "Grants"
+        },
+        "select": {
+          "name": "Skill Proficiency (Little but Mighty)",
+          "supports": "ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": "You have advantage on saving throws against being moved or knocked prone.",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "description": "<p>You've begun studying the art of runecraft, which allows you to temporarily mark your items and imbue them with magic.</p> <p class=\"indent\">Whenever you finish a long rest, you can mark one nonmagical weapon, armor, piece of clothing, or other object you can touch with a rune of your choice. You temporarily learn one 1st-level spell based on the rune you choose, as specified in the Rune Spells table, and you know the spell until you finish a long rest, when the rune fades.</p> <h5>Rune Spells</h5> <table> <thead> <tr><td>Rune</td><td>Spell</td></tr> </thead> <tr><td>Blood</td><td><i>False life</i></td></tr> <tr><td>Cloud</td><td><i>Fog cloud</i></td></tr> <tr><td>Death</td><td><i>Ray of sickness</i></td></tr> <tr><td>Dragon</td><td><i>Chromatic orb</i></td></tr> <tr><td>Enemy</td><td><i>Bane</i></td></tr> <tr><td>Fire</td><td><i>Burning hands</i></td></tr> <tr><td>Friend</td><td><i>Bless</i></td></tr> <tr><td>Frost</td><td><i>Armor of Agathys</i></td></tr> <tr><td>Hill</td><td><i>Goodberry</i></td></tr> <tr><td>Journey</td><td><i>Longstrider</i></td></tr> <tr><td>King</td><td><i>Command</i></td></tr> <tr><td>Light</td><td><i>Guiding bolt</i></td></tr> <tr><td>Life</td><td><i>Cure wounds</i></td></tr> <tr><td>Mountain</td><td><i>Jump</i></td></tr> <tr><td>Shield</td><td><i>Shield</i></td></tr> <tr><td>Stone</td><td><i>Sanctuary</i></td></tr> <tr><td>Storm</td><td><i>Thunderwave</i></td></tr> <tr><td>War</td><td><i>Heroism</i></td></tr> <tr><td>Wind</td><td><i>Feather fall</i></td></tr> </table> <p>While you are wearing or carrying the rune-marked object, you can cast the chosen spell associated with the rune once without using a spell slot or material components, and you can also cast the spell using any spell slots you have.</p> <p class=\"indent\">Your spellcasting ability for this feat is Intelligence, Wisdom, or Charisma (choose when you gain this feat).</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_RUNE_CARVER_APPRENTICE",
+      "name": "Rune Carver Apprentice",
+      "rules": {
+        "select": {
+          "name": "Spellcasting Ability (Rune Carver Apprentice)",
+          "supports": "ID_WOTC_UA20220523_FEAT_RUNE_CARVER_APPRENTICE_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_RUNE_CARVER_APPRENTICE_WISDOM|ID_WOTC_UA20220523_FEAT_RUNE_CARVER_APPRENTICE_CHARISMA",
+          "type": "Feat Feature"
+        },
+        "stat": {
+          "bonus": "base",
+          "name": "ua:rune carver:usage",
+          "value": "1"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for this feat is Intelligence.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_RUNE_CARVER_APPRENTICE_INTELLIGENCE",
+      "name": "Intelligence",
+      "sheet": {
+        "alt": "Rune Carver Apprentice",
+        "content": "Whenever you finish a long rest, you can mark {{ua:rune carver:usage}} nonmagical weapon, armor, piece of clothing, or other object you can touch with a rune of your choice. You temporarily learn one 1st-level spell based on the rune you choose, as specified in the Rune Spells table, and you know the spell until you finish a long rest, when the rune fades. While you are wearing or carrying the rune-marked object, you can cast the chosen spell associated with the rune once without using a spell slot or material components, and you can also cast the spell using any spell slots you have. &#13; An object can have only one rune at a time, and you must inscribe a different rune on each object. &#13; Your spellcasting ability for this feat is Intelligence."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for this feat is Wisdom.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_RUNE_CARVER_APPRENTICE_WISDOM",
+      "name": "Wisdom",
+      "sheet": {
+        "alt": "Rune Carver Apprentice",
+        "content": "Whenever you finish a long rest, you can mark {{ua:rune carver:usage}} nonmagical weapon, armor, piece of clothing, or other object you can touch with a rune of your choice. You temporarily learn one 1st-level spell based on the rune you choose, as specified in the Rune Spells table, and you know the spell until you finish a long rest, when the rune fades. While you are wearing or carrying the rune-marked object, you can cast the chosen spell associated with the rune once without using a spell slot or material components, and you can also cast the spell using any spell slots you have. &#13; An object can have only one rune at a time, and you must inscribe a different rune on each object. &#13; Your spellcasting ability for this feat is Wisdom."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your spellcasting ability for this feat is Charisma.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_RUNE_CARVER_APPRENTICE_CHARISMA",
+      "name": "Charisma",
+      "sheet": {
+        "alt": "Rune Carver Apprentice",
+        "content": "Whenever you finish a long rest, you can mark {{ua:rune carver:usage}} nonmagical weapon, armor, piece of clothing, or other object you can touch with a rune of your choice. You temporarily learn one 1st-level spell based on the rune you choose, as specified in the Rune Spells table, and you know the spell until you finish a long rest, when the rune fades. While you are wearing or carrying the rune-marked object, you can cast the chosen spell associated with the rune once without using a spell slot or material components, and you can also cast the spell using any spell slots you have. &#13; An object can have only one rune at a time, and you must inscribe a different rune on each object. &#13; Your spellcasting ability for this feat is Charisma."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 4th Level, Rune Carver Apprentice Feat</em></p> <p>Your skill with the art of runecraft has increased.</p> <p class=\"indent\">Whenever you finish a long rest, you can now mark a number of objects equal to your proficiency bonus with a rune from the Rune Carver Apprentice feat. An object can have only one rune at a time, and you must inscribe a different rune on each object.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_RUNE_CARVER_ADEPT",
+      "name": "Rune Carver Adept",
+      "prerequisite": "4th Level, Rune Carver Apprentice Feat",
+      "requirements": "([level:4]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER), ID_WOTC_UA20220523_FEAT_RUNE_CARVER_APPRENTICE",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "name": "ua:rune carver:usage",
+          "value": "proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "description": "<p><em>Prerequisite: 8th level</em></p> <p>You've manifested divination abilities and tempest magic emblematic of storm giants, granting you the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Maelstrom Aura.</strong> As a bonus action, you surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts for 1 minute or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the sphere, you can force the creature's speed to be halved until the start of its next turn. Once you use this bonus action, you can't do so again until you finish a long rest.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Storm's Oracle.</strong> You can cast the <i>divination</i> spell as a ritual, without needing material components. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feature (choose when you gain this feat). Once you cast the spell in this way, you can't do so again until you finish a long rest.</li> </ul>",
+      "id": "ID_WOTC_UA20220523_FEAT_SOUL_OF_THE_STORM_GIANT",
+      "name": "Soul of the Storm Giant",
+      "prerequisite": "8th level",
+      "requirements": "[level:8]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_MAELSTROM_AURA",
+          "type": "Feat Feature"
+        },
+        "select": {
+          "name": "Spellcasting Ability (Storm's Oracle)",
+          "supports": "ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_WISDOM|ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_CHARISMA",
+          "type": "Feat Feature"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>As a bonus action, you surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts for 1 minute or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the sphere, you can force the creature's speed to be halved until the start of its next turn. Once you use this bonus action, you can't do so again until you finish a long rest.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_MAELSTROM_AURA",
+      "name": "Maelstrom Aura",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts for 1 minute or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the sphere, you can force the creature's speed to be halved until the start of its next turn.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Intelligence is your spellcasting ability for the <i>divination</i> spell.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_INTELLIGENCE",
+      "name": "Intelligence",
+      "sheet": {
+        "alt": "Storm's Oracle",
+        "content": "You can cast the divination spell as a ritual, without needing material components. Intelligence is your spellcasting ability for this feature.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Wisdom is your spellcasting ability for the <i>divination</i> spell.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_WISDOM",
+      "name": "Wisdom",
+      "sheet": {
+        "alt": "Storm's Oracle",
+        "content": "You can cast the divination spell as a ritual, without needing material components. Wisdom is your spellcasting ability for this feature.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Charisma is your spellcasting ability for the <i>divination</i> spell.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_CHARISMA",
+      "name": "Charisma",
+      "sheet": {
+        "alt": "Storm's Oracle",
+        "content": "You can cast the divination spell as a ritual, without needing material components. Charisma is your spellcasting ability for this feature.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: 4th level</em></p> <p>You've manifested the resilience emblematic of hill giants, granting you the following benefits:</p> <ul class=\"unstyled\"> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Bulwark.</strong> When you are subjected to an effect that would move you at least 5 feet or knock you prone, you can use your reaction to steady yourself. You are then neither moved nor knocked prone.</li> <li style=\"margin-left:1em;text-indent:-1em;\"><strong>Hearty Health.</strong> When you are subjected to a spell that restores your hit points, you can regain additional hit points equal to your Constitution modifier. You can regain these additional hit points a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li> </ul>",
+      "id": "ID_WOTC_UA20220523_FEAT_VIGOR_OF_THE_HILL_GIANT",
+      "name": "Vigor of the Hill Giant",
+      "prerequisite": "4th level",
+      "requirements": "[level:4]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_UA20220523_FEAT_VIGOR_OF_THE_HILL_GIANT_BULWARK",
+            "type": "Feat Feature"
+          },
+          {
+            "id": "ID_WOTC_UA20220523_FEAT_VIGOR_OF_THE_HILL_GIANT_HEARTY_HEALTH",
+            "type": "Feat Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>When you are subjected to an effect that would move you at least 5 feet or knock you prone, you can use your reaction to steady yourself. You are then neither moved nor knocked prone.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_VIGOR_OF_THE_HILL_GIANT_BULWARK",
+      "name": "Bulwark",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you are subjected to an effect that would move you at least 5 feet or knock you prone, you can steady yourself. You are then neither moved nor knocked prone."
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>When you are subjected to a spell that restores your hit points, you can regain additional hit points equal to your Constitution modifier. You can regain these additional hit points a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_UA20220523_FEAT_VIGOR_OF_THE_HILL_GIANT_HEARTY_HEALTH",
+      "name": "Hearty Health",
+      "sheet": {
+        "content": "When you are subjected to a spell that restores your hit points, you can regain additional hit points equal to {{constitution:modifier}}.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Feat Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Once equipped, this item allows you to ignore prerequisites for the Feats from <i>Unearthed Arcana: Giant Options</i> source.</p> <p><b>Note: </b><i>Rune Carver Adept</i> Feat can't be fully unlocked with this item, it only allows you to ignore level prerequisite, because its benefits are based on <i>Rune Carver Apprentice</i> features.</p>",
+      "id": "ID_WOTC_UA20220523_ITEM_FEAT_UNLOCKER",
+      "name": "Feat Unlocker",
+      "rules": {
+        "grant": {
+          "id": "ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER",
+          "type": "Grants"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Additional Feature",
+            "name": "category"
+          },
+          {
+            "description": "misc",
+            "name": "slot"
+          },
+          {
+            "description": "true",
+            "name": "inventory-hidden"
+          }
+        ]
+      },
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Item"
+    },
+    {
+      "id": "ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER",
+      "name": "Feat Unlocker",
+      "source": "Unearthed Arcana: Giant Options",
+      "type": "Grants"
+    }
+  ],
+  "info": {
+    "name": "Unearthed Arcana: Giant Options",
+    "update": {
+      "file": {
+        "name": "20220523.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2022/20220523.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

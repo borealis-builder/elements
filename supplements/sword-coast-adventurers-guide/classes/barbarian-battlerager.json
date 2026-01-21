@@ -1,0 +1,197 @@
+{
+  "append": {
+    "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR",
+    "rules": {
+      "grant": {
+        "id": "ID_SCAG_PROFICIENCY_ARMOR_PROFICIENCY_SPIKED_ARMOR",
+        "type": "Proficiency"
+      }
+    }
+  },
+  "element": [
+    {
+      "description": "<p>Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.</p> <p class=\"indent\">Your DM can lift this restriction to better suit the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms.</p>",
+      "id": "ID_WOTC_SCAG_OPTION_BATTLERAGER",
+      "name": "Battlerager",
+      "setters": {
+        "set": {
+          "description": "Allow any race to choose the Battlerager primal path.",
+          "name": "short"
+        }
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Option"
+    },
+    {
+      "description": "<p>Known as <i>Kuldjargh</i> (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.</p> <div class=\"sidebar\"> <h5>RESTRICTION: DWARVES ONLY</h5> <p>Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.</p> <p class=\"indent\">Your DM can lift this restriction to better suit the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms.</p> </div> <div element=\"ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_BATTLERAGER_ARMOR\" /> <div element=\"ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_RECKLESS_ABANDON\" /> <div element=\"ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_BATTLERAGER_CHARGE\" /> <div element=\"ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_SPIKED_RETRIBUTION\" />",
+      "id": "ID_WOTC_SCAG_ARCHETYPE_PATH_OF_THE_BATTLERAGER",
+      "name": "Path of the Battlerager",
+      "prerequisites": "Dwarf",
+      "requirements": "ID_SRD_RACE_DWARF||ID_WOTC_SCAG_OPTION_BATTLERAGER",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_BATTLERAGER_ARMOR",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_RECKLESS_ABANDON",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_BATTLERAGER_CHARGE",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_SPIKED_RETRIBUTION",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager.",
+        "display": "false"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Primal Path",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>When you choose this path at 3rd level, you gain the ability to use spiked armor as a weapon.</p> <p class=\"indent\">While you are wearing spiked armor and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes against a target within 5 feet of you. If the attack hits, the spikes deal 1d4 piercing damage. You use your Strength modifier for the attack and damage rolls.</p> <p class=\"indent\">Additionally, when you use the Attack action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds.</p>",
+      "id": "ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_BATTLERAGER_ARMOR",
+      "name": "Battlerager Armor",
+      "rules": {
+        "grant": {
+          "id": "ID_SCAG_PROFICIENCY_ARMOR_PROFICIENCY_SPIKED_ARMOR",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": "While you are wearing spiked armor and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes against a target within 5 feet of you. If the attack hits, the spikes deal 1d4 piercing damage. You use your Strength modifier (+{{strength:modifier}}) for the attack and damage rolls. Additionally, when you use the Attack action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds.",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends.</p>",
+      "id": "ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_RECKLESS_ABANDON",
+      "name": "Reckless Abandon",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "reckless abandon",
+            "name": "reckless abandon:hp:temp",
+            "value": "1"
+          },
+          {
+            "bonus": "reckless abandon",
+            "name": "reckless abandon:hp:temp",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": "When you use Reckless Attack while raging, you also gain {{reckless abandon:hp:temp}} temporary hp. They vanish if any of them are left when your rage ends.",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 10th level, you can take the Dash action as a bonus action while you are raging.</p>",
+      "id": "ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_BATTLERAGER_CHARGE",
+      "name": "Battlerager Charge",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can take the Dash action while you are raging."
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor.</p>",
+      "id": "ID_WOTC_SCAG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLERAGER_SPIKED_RETRIBUTION",
+      "name": "Spiked Retribution",
+      "sheet": "When a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor.",
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal.</p>",
+      "id": "ID_WOTC_SCAG_ARMOR_MEDIUM_SPIKED_ARMOR",
+      "name": "Spiked Armor",
+      "rules": {
+        "grant": {
+          "id": "ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE",
+          "type": "Grants"
+        },
+        "stat": {
+          "name": "ac:armored:armor",
+          "value": "14"
+        }
+      },
+      "setters": {
+        "set": [
+          {
+            "description": "Armor",
+            "name": "category"
+          },
+          {
+            "currency": "gp",
+            "description": "75",
+            "name": "cost"
+          },
+          {
+            "description": "45 lb.",
+            "lb": "45",
+            "name": "weight"
+          },
+          {
+            "description": "Medium",
+            "name": "armor"
+          },
+          {
+            "description": "armor",
+            "name": "slot"
+          },
+          {
+            "description": "Disadvantage",
+            "name": "stealth"
+          },
+          {
+            "description": "14 + Dex modifier (max 2)",
+            "name": "armorClass"
+          },
+          {
+            "description": "ID_SCAG_PROFICIENCY_ARMOR_PROFICIENCY_SPIKED_ARMOR",
+            "name": "proficiency"
+          }
+        ]
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "ID_INTERNAL_ARMOR_GROUP_MEDIUM",
+      "type": "Armor"
+    },
+    {
+      "id": "ID_SCAG_PROFICIENCY_ARMOR_PROFICIENCY_SPIKED_ARMOR",
+      "name": "Armor Proficiency (Spiked Armor)",
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM",
+      "type": "Proficiency"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "The Path of the Battlerager archetype from the Sword Coast Adventurer's Guide.",
+    "name": "Path of the Battlerager",
+    "update": {
+      "file": {
+        "name": "barbarian-battlerager.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/barbarian-battlerager.json"
+      },
+      "version": "0.0.7"
+    }
+  }
+}

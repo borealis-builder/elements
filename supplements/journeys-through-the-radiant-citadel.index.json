@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Journeys Through the Radiant Citadel",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "journeys-through-the-radiant-citadel.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/journeys-through-the-radiant-citadel.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/journeys-through-the-radiant-citadel/source.json"
+    },
+    {
+      "name": "items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/journeys-through-the-radiant-citadel/items.json"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "element": [
+    {
+      "description": "<p>The entire world of Ravnica is a sprawling metropolis, but you are a native of the wild areas that still exist-the abandoned districts, the rubblebelts, the overgrown parks, and the crumbling ruins. You are part of a savage society that clings desperately to the Old Ways-attuned to nature, full of primal rage, and given short shrift by a world consumed with continuing civilization's march of progress.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Animal Handling, Athletics</li> <li><strong>Tool Proficiencies:</strong> Herbalism kit</li> <li><strong>Languages:</strong> Choose one of Draconic, Giant, Goblin, or Sylvan</li> <li><strong>Equipment:</strong> A Gruul insignia, a hunting trap, an herbalism kit, the skull of a boar, a beast-hide cloak, a set of travelers clothes, and a belt pouch containing 10 gp (Azorius 1-zino coins)</li> </ul> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_GRUUL_ANARCH_RUBBLEBELT_REFUGE\" /> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_GRUUL_ANARCH_GRUUL_GUILD_SPELLS\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Gruul ways aren't the ways of civilized folk, and the Gruul have little patience for social niceties. But they do have cherished traditions and values, just as important to them as the different values held by the urban, cosmopolitan culture of Ravnica.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_GRUUL_ANARCH",
+      "name": "Gruul Anarch",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ANIMALHANDLING",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_GRUUL_ANARCH_RUBBLEBELT_REFUGE",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_GRUUL_ANARCH_GRUUL_GUILD_SPELLS",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language, Gruul Anarch",
+            "supports": "ID_LANGUAGE_DRACONIC|ID_LANGUAGE_GIANT|ID_LANGUAGE_GOBLIN|ID_LANGUAGE_SYLVAN",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Unlike people, the beasts of the wild are friends who won't stab me in the back.",
+                "id": "1"
+              },
+              {
+                "description": "Go ahead and insult me-I dare you.",
+                "id": "2"
+              },
+              {
+                "description": "I scorn those who can't survive away from the comforts of the city.",
+                "id": "3"
+              },
+              {
+                "description": "Don't tell me I'm not allowed to do something.",
+                "id": "4"
+              },
+              {
+                "description": "Laws are for people who are afraid to face their inner beasts.",
+                "id": "5"
+              },
+              {
+                "description": "I smear the blood of my enemies over my skin.",
+                "id": "6"
+              },
+              {
+                "description": "I was, in fact, raised by maaka.",
+                "id": "7"
+              },
+              {
+                "description": "HarrRRAAGGHH! [I rarely form a coherent sentence and prefer to express myself by breaking things.]",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Clan. My clan is all that real ly matters. (Any)",
+                "id": "1"
+              },
+              {
+                "description": "Anarchy. No person or law or custom can tell another what to do. (Chaotic)",
+                "id": "2"
+              },
+              {
+                "description": "Nature. We weren't born tame or domesticated, so we shouldn't have to live that way. (Neutral)",
+                "id": "3"
+              },
+              {
+                "description": "Might. The strongest are meant to dominate the weak. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Rage. AAAAAARRRRggggh! [To live is to feel and ex· press the rage burning in your belly.] (Chaotic)",
+                "id": "5"
+              },
+              {
+                "description": "Tradition. The Old Ways must be preserved and upheld. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I am determined that one day I will lead my clan-or a new one.",
+                "id": "1"
+              },
+              {
+                "description": "I would give my life for my clan chieftain.",
+                "id": "2"
+              },
+              {
+                "description": "The chieftain of another clan has a grudge against me.",
+                "id": "3"
+              },
+              {
+                "description": "I am devoted to a sacred site in the midst of the rubblebelt.",
+                "id": "4"
+              },
+              {
+                "description": "My weapon is made from the first raktusk I ever hunted.",
+                "id": "5"
+              },
+              {
+                "description": "GrrrRRAAAAGGHH! [I will do anything to prove myself greater than my siblings or ancestors.]",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "If you question my courage, I wi ll never back down.",
+                "id": "1"
+              },
+              {
+                "description": "HrrrGGGAAAARRuuuh! [My anger in battle led to the death of a loved one.]",
+                "id": "2"
+              },
+              {
+                "description": "I'm as stubborn as a batterboar.",
+                "id": "3"
+              },
+              {
+                "description": "I'm so convinced of my superiority over soft, civilized people that I 'II take great risks to prove it.",
+                "id": "4"
+              },
+              {
+                "description": "I'm easily manipulated by people I find attractive.",
+                "id": "5"
+              },
+              {
+                "description": "I'm not actually all that angry.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Animal Handling, Athletics, Herbalism Kit, Language",
+          "name": "short"
+        }
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You are intimately familiar with areas of the city that most people shun: ruined neighborhoods where wurms rampaged, overgrown parks that no hand has tended in decades, and the vast, sprawling rubblebelts of broken terrain that civilized folk have long abandoned. You can find a suitable place for you and your allies to hide or rest in these areas. In addition, you can find food and fresh water in these areas for yourself and up to five other people each day.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_GRUUL_ANARCH_RUBBLEBELT_REFUGE",
+      "name": "Feature: Rubblebelt Refuge",
+      "sheet": {
+        "alt": "Rubblebelt Refuge",
+        "content": "You are intimately familiar with areas of the city that most people shun: ruined neighborhoods where wurms rampaged, overgrown parks that no hand has tended in decades, and the vast, sprawling rubblebelts of broken terrain that civilized folk have long abandoned. You can find a suitable place for you and your allies to hide or rest in these areas. In addition, you can find food and fresh water in these areas for yourself and up to five other people each day."
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p> <p>For you, the spells on the Gruul Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p> <h5>Gruul Guild Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>Cantrip</td><td><em>fire bolt, produce flame</em></td></tr> <tr><td>1st</td><td><em>compelled duel, speak with animals, thunderwave</em></td></tr> <tr><td>2nd</td><td><em>beast sense, shatter</em></td></tr> <tr><td>3rd</td><td><em>conjure animals, conjure barrage</em></td></tr> <tr><td>4th</td><td><em>dominate beast, stoneskin</em></td></tr> <tr><td>5th</td><td><em>destructive wave</em></td></tr> </table> <p class=\"indent\">Fueled by the fire of rage burning in your heart, your magic is almost always accompanied by fiery effects, such as flames smoldering behind your eyes or dancing over your hands.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_GRUUL_ANARCH_GRUUL_GUILD_SPELLS",
+      "name": "Gruul Guild Spells",
+      "sheet": "Fueled by the fire of rage burning in your heart, your magic is almost always accompanied by fiery effects, such as flames smoldering behind your eyes or dancing over your hands.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_FIRE_BOLT",
+          "ID_PHB_SPELL_PRODUCE_FLAME",
+          "ID_PHB_SPELL_COMPELLED_DUEL",
+          "ID_PHB_SPELL_SPEAK_WITH_ANIMALS",
+          "ID_PHB_SPELL_THUNDERWAVE",
+          "ID_PHB_SPELL_BEAST_SENSE",
+          "ID_PHB_SPELL_SHATTER",
+          "ID_PHB_SPELL_CONJURE_ANIMALS",
+          "ID_PHB_SPELL_CONJURE_BARRAGE",
+          "ID_PHB_SPELL_DOMINATE_BEAST",
+          "ID_PHB_SPELL_STONESKIN",
+          "ID_PHB_SPELL_DESTRUCTIVE_WAVE"
+        ]
+      },
+      "supports": "2nd Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Guildmasters' Guide to Ravnica",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica"
+    },
+    "description": "",
+    "name": "Gruul Anarch",
+    "update": {
+      "file": {
+        "name": "gruul-anarch.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/gruul-anarch.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}

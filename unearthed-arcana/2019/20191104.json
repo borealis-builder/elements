@@ -1,0 +1,57 @@
+{
+  "element": {
+    "description": "<p>Every character class in D&amp;D has features, and every class gets one or more class feature variants in today's Unearthed Arcana! These variants replace or enhance a class's normal features, giving you new ways to enjoy your character's class.</p>",
+    "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20191104",
+    "name": "Unearthed Arcana: Class Feature Variants",
+    "setters": {
+      "set": [
+        {
+          "description": "UA20191104",
+          "name": "abbreviation"
+        },
+        {
+          "description": "https://dnd.wizards.com/articles/unearthed-arcana/class-feature-variants",
+          "name": "url"
+        },
+        {
+          "abbreviation": "WOTC",
+          "description": "Wizards of the Coast",
+          "name": "author",
+          "url": "http://dnd.wizards.com"
+        },
+        {
+          "description": "true",
+          "name": "official"
+        },
+        {
+          "description": "true",
+          "name": "playtest"
+        },
+        {
+          "description": "20191104",
+          "name": "release"
+        },
+        {
+          "description": "The content from this source is not included.",
+          "name": "information"
+        },
+        {
+          "description": "true",
+          "name": "disabled"
+        }
+      ]
+    },
+    "source": "Core",
+    "type": "Source"
+  },
+  "info": {
+    "name": "Unearthed Arcana: Class Feature Variants",
+    "update": {
+      "file": {
+        "name": "20191104.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2019/20191104.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

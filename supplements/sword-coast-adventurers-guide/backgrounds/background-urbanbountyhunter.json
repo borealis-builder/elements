@@ -1,0 +1,199 @@
+{
+  "element": [
+    {
+      "description": "<p>Before you became an adventurer, your life was already full of conflict and excitement, because you made a living tracking down people for pay. Unlike some people who collect bounties, though, you aren't a savage who follows quarry into or through the wilderness. You're involved in a lucrative trade, in the place where you live, that routinely tests your skills and survival instincts. What's more, you aren't alone, as a bounty hunter in the wild would be: you routinely interact with both the criminal subculture and other bounty hunters, maintaining contacts in both areas to help you succeed.</p> <p class=\"indent\">You might be a cunning thief-catcher, prowling the rooftops to catch one of the myriad burglars of the city. Perhaps you are someone who has your ear to the street, aware of the doings of thieves' guilds and street gangs. You might be a \"velvet mask\" bounty hunter, one who blends in with high society and noble circles in order to catch the criminals that prey on the rich, whether pickpockets or con artists. The community where you plied your trade might have been one of Faerûn's great metropolises, such as Waterdeep or Baldur's Gate, or a less populous location, perhaps Luskan or Yartar-any place that's large enough to have a steady supply of potential quarries.</p> <p class=\"indent\">As a member of an adventuring party, you might find it more difficult to pursue a personal agenda that doesn't fit with the group's objectives- but on the other hand, you can take down much more formidable targets with the help of your companions.</p> <ul class=\"unstyled\"> <li> <strong>Skill Proficiencies:</strong> Choose two from among Deception, Insight, Persuasion, and Stealth</li> <li> <strong>Tool Proficiencies:</strong> Choose two from among one type of gaming set, one musical instrument, and thieves' tools</li> <li> <strong>Equipment:</strong> A set of clothes appropriate to your duties and a pouch containing 20 gp</li> </ul> <div element=\"ID_SCAG_BACKGROUND_FEATURE_URBAN_BOUNTY_HUNTER_EARTOTHEGROUND\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Use the tables for the criminal background in the Player's Handbook as the basis for your bounty hunter's traits and motivations, modifying the entries when appropriate to suit your identity as a bounty hunter. </p> <p class=\"indent\">For instance, your bond might involve other bounty hunters or the organizations or individuals that employ you. Your ideal could be associated with your determination always to catch your quarry or your desire to maintain your reputation for being dependable.</p>",
+      "id": "ID_SCAG_BACKGROUND_URBAN_BOUNTY_HUNTER",
+      "name": "Urban Bounty Hunter",
+      "rules": {
+        "grant": {
+          "id": "ID_SCAG_BACKGROUND_FEATURE_URBAN_BOUNTY_HUNTER_EARTOTHEGROUND",
+          "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+          "type": "Background Feature"
+        },
+        "select": [
+          {
+            "name": "Skill Proficiency (Urban Bounty Hunter)",
+            "number": "2",
+            "supports": "ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_STEALTH",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Tool Proficiency (Urban Bounty Hunter)",
+            "number": "2",
+            "supports": "Musical Instrument||Gaming Set||Thieves tools",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I always have a plan for what to do when things go wrong.",
+                "id": "1"
+              },
+              {
+                "description": "I am always calm, no matter what the situation. I never raise my voice or let my emotions control me.",
+                "id": "2"
+              },
+              {
+                "description": "The first thing I do in a new place is note the locations of everything valuable—or where such things could be hidden.",
+                "id": "3"
+              },
+              {
+                "description": "I would rather make a new friend than a new enemy.",
+                "id": "4"
+              },
+              {
+                "description": "I am incredibly slow to trust. Those who seem the fairest often have the most to hide.",
+                "id": "5"
+              },
+              {
+                "description": "I don't pay attention to the risks in a situation. Never tell me the odds.",
+                "id": "6"
+              },
+              {
+                "description": "The best way to get me to do something is to tell me I can't do it.",
+                "id": "7"
+              },
+              {
+                "description": "I blow up at the slightest insult.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Honor. I don't steal from others in the trade. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)",
+                "id": "2"
+              },
+              {
+                "description": "Charity. I steal from the wealthy so that I can help people in need. (Good)",
+                "id": "3"
+              },
+              {
+                "description": "Greed. I will do whatever it takes to become wealthy. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Redemption. There's a spark of good in everyone. (Good)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm trying to pay off an old debt I owe to a generous benefactor.",
+                "id": "1"
+              },
+              {
+                "description": "My ill-gotten gains go to support my family.",
+                "id": "2"
+              },
+              {
+                "description": "Something important was taken from me, and I aim to steal it back.",
+                "id": "3"
+              },
+              {
+                "description": "I will become the greatest thief that ever lived.",
+                "id": "4"
+              },
+              {
+                "description": "I'm guilty of a terrible crime. I hope I can redeem myself for it.",
+                "id": "5"
+              },
+              {
+                "description": "Someone I loved died because of a mistake I made. That will never happen again.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "When I see something valuable, I can't think about anything but how to steal it.",
+                "id": "1"
+              },
+              {
+                "description": "When faced with a choice between money and my friends, I usually choose the money.",
+                "id": "2"
+              },
+              {
+                "description": "If there's a plan, I'll forget it. If I don't forget it, I'll ignore it.",
+                "id": "3"
+              },
+              {
+                "description": "I have a “tell” that reveals when I'm lying.",
+                "id": "4"
+              },
+              {
+                "description": "I turn tail and run when things look bad.",
+                "id": "5"
+              },
+              {
+                "description": "An innocent person is in prison for a crime that I committed. I'm okay with that.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "2 Deception / Insight / Persuasion / Stealth, 2 Gaming Set / Instrument / Thieves' Tools",
+          "name": "short"
+        }
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You are in frequent contact with people in the segment of society that your chosen quarries move through. These people might be associated with the criminal underworld, the rough-and-tumble folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people and places of the local area.</p>",
+      "id": "ID_SCAG_BACKGROUND_FEATURE_URBAN_BOUNTY_HUNTER_EARTOTHEGROUND",
+      "name": "Feature: Ear to the Ground",
+      "sheet": {
+        "name": "Ear to the Ground"
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "Urban Bounty Hunter Background",
+    "name": "Urban Bounty Hunter",
+    "update": {
+      "file": {
+        "name": "background-urbanbountyhunter.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-urbanbountyhunter.json"
+      },
+      "version": "0.1.5"
+    }
+  }
+}

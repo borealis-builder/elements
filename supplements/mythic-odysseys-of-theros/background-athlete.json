@@ -1,0 +1,202 @@
+{
+  "element": [
+    {
+      "description": "<p>You strive to perfect yourself physically and in execution of everything you do. The thrill of competition lights fire in your blood, and the roar of the crowd drives you forward. Tales of your exploits precede you and might open doors or loosen tongues.</p> <p class=\"indent\">Whether in one of the poleis, between them, or among the nonhuman peoples of Theros, physical contests and those who pursue them command respect bordering on reverence. Athletes arise from all walks of life and all cultures and quite often cross paths with one another.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Acrobatics, Athletics</li> <li><strong>Tool Proficiencies:</strong> Vehicles (land)</li> <li><strong>Languages:</strong> One of your choice</li> <li><strong>Equipment:</strong> A bronze discus or leather ball, a lucky charm or past trophy, a set of traveler's clothes, and a pouch containing 10 gp</li> </ul> <div element=\"ID_WOTC_MOOT_BACKGROUND_FEATURE_ECHOES_OF_VICTORY\" /> <h4>FAVORED EVENT</h4> <p>While many athletes practice various games and events, most excel at a single form of competition. Roll or choose from the options in the Favored Event table to determine the athletic event in which you excel.</p> <h5 class=\"caption\">Favored Event</h5> <table> <thead> <tr><td>d8</td><td>Favored Event</td></tr> </thead> <tr><td>1</td><td>Marathon</td></tr> <tr><td>2</td><td>Long-distance running</td></tr> <tr><td>3</td><td>Wrestling</td></tr> <tr><td>4</td><td>Boxing</td></tr> <tr><td>5</td><td>Chariot or horse race</td></tr> <tr><td>6</td><td>Pankration (mixed unarmed combat)</td></tr> <tr><td>7</td><td>Hoplite race (racing in full armor with a unit)</td></tr> <tr><td>8</td><td>Pentathlon (running, long jump, discus, javelin, wrestling)</td></tr> </table> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Competition can forge strong bonds between teammates and rivals or ignite bitter feuds that burn outside the arena. Athletes often apply lessons from their training to their lives in general.</p>",
+      "id": "ID_WOTC_MOOT_BACKGROUND_Athlete",
+      "name": "Athlete",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ACROBATICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_MOOT_BACKGROUND_FEATURE_ECHOES_OF_VICTORY",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language, Athlete",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I feel most at peace during physical exertion, be it exercise or battle.",
+                "id": "1"
+              },
+              {
+                "description": "I don't like to sit idle.",
+                "id": "2"
+              },
+              {
+                "description": "I have a daily exercise routine that I refuse to break.",
+                "id": "3"
+              },
+              {
+                "description": "Obstacles exist to be overcome.",
+                "id": "4"
+              },
+              {
+                "description": "When I see others struggling, I offer to help.",
+                "id": "5"
+              },
+              {
+                "description": "I love to trade banter and gibes.",
+                "id": "6"
+              },
+              {
+                "description": "Anything worth doing is worth doing best.",
+                "id": "7"
+              },
+              {
+                "description": "I get irritated if people praise someone else and not me.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Competition. I strive to test myself in all things. (Chaotic)",
+                "id": "1"
+              },
+              {
+                "description": "Triumph. The best part of winning is seeing my rivals brought low. (Evil)",
+                "id": "2"
+              },
+              {
+                "description": "Camaraderie. The strongest bonds are forged through struggle. (Good)",
+                "id": "3"
+              },
+              {
+                "description": "People. I strive to inspire my spectators. (Neutral)",
+                "id": "4"
+              },
+              {
+                "description": "Tradition. Every game has rules, and the playing field must be level. (Lawful)",
+                "id": "5"
+              },
+              {
+                "description": "Growth. Lessons hide in victory and defeat. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My teammates are my family.",
+                "id": "1"
+              },
+              {
+                "description": "I will overcome a rival and prove myself their better.",
+                "id": "2"
+              },
+              {
+                "description": "My mistake got someone hurt. I'll never make that mistake again.",
+                "id": "3"
+              },
+              {
+                "description": "I will be the best for the honor and glory of my home.",
+                "id": "4"
+              },
+              {
+                "description": "The person who trained me is the most important person in my world.",
+                "id": "5"
+              },
+              {
+                "description": "I strive to live up to a specific hero's example.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I indulge in a habit that threatens my reputation or my health.",
+                "id": "1"
+              },
+              {
+                "description": "I'll do absolutely anything to win.",
+                "id": "2"
+              },
+              {
+                "description": "I ignore anyone who doesn't compete and anyone who loses to me.",
+                "id": "3"
+              },
+              {
+                "description": "I have lingering pain from old injuries.",
+                "id": "4"
+              },
+              {
+                "description": "Any defeat or failure on my part is because my opponent cheated.",
+                "id": "5"
+              },
+              {
+                "description": "I must be the captain of any group I join.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Acrobatics, Athletics, Vehicles (Land), Language",
+          "name": "short"
+        }
+      },
+      "source": "Mythic Odysseys of Theros",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You have attracted admiration among spectators, fellow athletes, and trainers in the region that hosted your past athletic victories. When visiting any settlement within 100 miles of where you grew up, there is a 50 percent chance you can find someone there who admires you and is willing to provide information or temporary shelter.</p> <p class=\"indent\">Between adventures, you might compete in athletic events sufficient enough to maintain a comfortable lifestyle, as per the \"Practicing a Profession\" downtime activity in chapter 8 of the Player's Handbook.</p>",
+      "id": "ID_WOTC_MOOT_BACKGROUND_FEATURE_ECHOES_OF_VICTORY",
+      "name": "Feature: Echoes of Victory",
+      "sheet": {
+        "alt": "Echoes of Victory",
+        "content": "You have attracted admiration among spectators, fellow athletes, and trainers in the region that hosted your past athletic victories. When visiting any settlement within 100 miles of where you grew up, there is a 50 percent chance you can find someone there who admires you and is willing to provide information or temporary shelter. Between adventures, you might compete in athletic events sufficient enough to maintain a comfortable lifestyle, as per the \"Practicing a Profession\" downtime activity."
+      },
+      "source": "Mythic Odysseys of Theros",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "name": "Athlete",
+    "update": {
+      "file": {
+        "name": "background-athlete.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/background-athlete.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

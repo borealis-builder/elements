@@ -1,0 +1,203 @@
+{
+  "element": [
+    {
+      "description": "<p>In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position.</p> <p class=\"indent\">You might have been one of the many functionaries, attendants, and other hangers-on in the Court of Silverymoon, or perhaps you traveled in Waterdeep's baroque and sometimes cutthroat conglomeration of guilds, nobles, adventurers, and secret societies. You might have been one of the behind-the-scenes law-keepers or functionaries in Baldur's Gate or Neverwinter, or you might have grown up in and around the castle of Daggerford.</p> <p class=\"indent\">Even if you are no longer a full-ft edged member of the group that gave you your start in life, your relationships with your former fellows can be an advantage for you and your adventuring comrades. You might undertake missions with your new companions that further the interest of the organization that gave you your start in life. In any event, the abilities that you honed while serving as a courtier will stand you in good stead as an adventurer.</p> <ul class=\"unstyled\"> <li> <strong>Skill Proficiencies:</strong> Insight, Persuasion</li> <li> <strong>Languages:</strong> Two of your choice</li> <li> <strong>Equipment:</strong> A set of fine clothes and a pouch containing 5 gp</li> </ul> <div element=\"ID_SCAG_BACKGROUND_COURTIER_COURT_FUNCTIONARY\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Use the tables for the guild artisan background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a courtier.</p> <p class=\"indent\">The noble court or bureaucratic organization where you got your start is directly or indirectly associated with your bond (which could pertain to certain individuals in the group, such as your sponsor or mentor). Your ideal might be concerned with the prevailing philosophy of your court or organization.</p>",
+      "id": "ID_SCAG_BACKGROUND_COURTIER",
+      "name": "Courtier",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_INSIGHT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERSUASION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_SCAG_BACKGROUND_COURTIER_COURT_FUNCTIONARY",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language (Courtier)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I believe that anything worth doing is worth doing right. I can't help it— I'm a perfectionist.",
+                "id": "1"
+              },
+              {
+                "description": "I'm a snob who looks down on those who can't appreciate fine art.",
+                "id": "2"
+              },
+              {
+                "description": "I always want to know how things work and what makes people tick.",
+                "id": "3"
+              },
+              {
+                "description": "I'm full of witty aphorisms and have a proverb for every occasion.",
+                "id": "4"
+              },
+              {
+                "description": "I'm rude to people who lack my commitment to hard work and fair play.",
+                "id": "5"
+              },
+              {
+                "description": "I like to talk at length about my profession.",
+                "id": "6"
+              },
+              {
+                "description": "I don't part with my money easily and will haggle tirelessly to get the best deal possible.",
+                "id": "7"
+              },
+              {
+                "description": "I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Generosity. My talents were given to me so that I could use them to benefit the world. (Good)",
+                "id": "2"
+              },
+              {
+                "description": "Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Greed. I'm only in it for the money. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "People. I'm committed to the people I care about, not to ideals. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Aspiration. I work hard to be the best there is at my craft.",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "The workshop where I learned my trade is the most important place in the world to me.",
+                "id": "1"
+              },
+              {
+                "description": "I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.",
+                "id": "2"
+              },
+              {
+                "description": "I owe my guild a great debt for forging me into the person I am today.",
+                "id": "3"
+              },
+              {
+                "description": "I pursue wealth to secure someone's love.",
+                "id": "4"
+              },
+              {
+                "description": "One day I will return to my guild and prove that I am the greatest artisan of them all.",
+                "id": "5"
+              },
+              {
+                "description": "I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I'll do anything to get my hands on something rare or priceless.",
+                "id": "1"
+              },
+              {
+                "description": "I'm quick to assume that someone is trying to cheat me.",
+                "id": "2"
+              },
+              {
+                "description": "No one must ever learn that I once stole money from guild coffers.",
+                "id": "3"
+              },
+              {
+                "description": "I'm never satisfied with what I have— I always want more.",
+                "id": "4"
+              },
+              {
+                "description": "I would kill to acquire a noble title.",
+                "id": "5"
+              },
+              {
+                "description": "I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Insight, Persuasion, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are.</p>",
+      "id": "ID_SCAG_BACKGROUND_COURTIER_COURT_FUNCTIONARY",
+      "name": "Feature: Court Functionary",
+      "sheet": {
+        "name": "Court Functionary"
+      },
+      "source": "Sword Coast Adventurer's Guide",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "description": "Courtier Background",
+    "name": "Courtier",
+    "update": {
+      "file": {
+        "name": "background-courtier.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-courtier.json"
+      },
+      "version": "0.1.2"
+    }
+  }
+}

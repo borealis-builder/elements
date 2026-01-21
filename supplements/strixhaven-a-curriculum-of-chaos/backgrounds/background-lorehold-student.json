@@ -1,0 +1,160 @@
+{
+  "element": [
+    {
+      "description": "<p>You have spent your youth preparing to be a student of Lorehold College, reading every book on the college's recommended reading list for prospective students. Your academic passions are in the broad field of history. You might dream of using magic to contact great historical figures or your own ancestors or of recreating the mighty magic of a distant age.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> History, Religion</li> <li><strong>Languages:</strong> Two of your choice</li> <li><strong>Equipment:</strong> A bottle of black ink, an ink pen, a hammer, a hooded lantern, a tinderbox, a tome of history, a school uniform, and a pouch containing 15 gp</li> </ul> <div element=\"ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE\" /> <h5>Building a Lorehold Character</h5> <p>Any class or subclass that deals with knowledge of the past can be a good fit in Lorehold. Bards thrive in Lorehold, and wizards (particularly those of the School of Divination) are numerous among its students. Clerics (often with the Knowledge or Light domains) are also quite common.</p> <p class=\"indent\">For a more unusual take on a Lorehold student, you could consider playing a barbarian with a primal connection to the past (perhaps adopting the Path of the Ancestral Guardian from <i>Xanathar's Guide to Everything</i>) or a paladin whose Oath of the Ancients gives a concrete link to history.</p> <p class=\"indent\"><i><b>Suggested Characteristics.</b></i> Methodical historians and daring adventurers alike can be found among the ranks of Lorehold college. The Lorehold Personality Traits table suggests a variety of traits you might adopt for your character.</p> <div class=\"reference\"> <div element=\"ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE\" /> </div>",
+      "id": "ID_WOTC_SCOC_BACKGROUND_LOREHOLD_STUDENT",
+      "name": "Lorehold Student",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_HISTORY",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_RELIGION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language (Lorehold Student)",
+            "number": "2",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I thrive on esoteric lore. The more obscure the historical references I can include in everyday conversation, the better.",
+                "id": "1"
+              },
+              {
+                "description": "By searching for these lost artifacts, I hope to find who I really am along the way.",
+                "id": "2"
+              },
+              {
+                "description": "I can barely go a minute without talking about my research. I have so much knowledge in my head, and it needs to be let out somewhere!",
+                "id": "3"
+              },
+              {
+                "description": "The spirits of the dead are so much more interesting to talk with than living classmates.",
+                "id": "4"
+              },
+              {
+                "description": "I can speak eloquently about the historical ramifications of an ancient war. But ask me to add two-digit numbers together, and I'm a mess.",
+                "id": "5"
+              },
+              {
+                "description": "In the end, it's all just entropy. Everything falls apart someday.",
+                "id": "6"
+              }
+            ],
+            "name": "Lorehold Personality Trait",
+            "optional": "true",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "A map made of concentric circles that can be rotated around the page",
+                "id": "1"
+              },
+              {
+                "description": "A puzzle box bedecked with amber",
+                "id": "2"
+              },
+              {
+                "description": "A dented brass compass with a red needle",
+                "id": "3"
+              },
+              {
+                "description": "The head of a broken statue that houses the consciousness of a snarky sage",
+                "id": "4"
+              },
+              {
+                "description": "A sheet of parchment embossed with tactile lettering, glowing red",
+                "id": "5"
+              },
+              {
+                "description": "A broken dagger with a wavy blade and a serpentine hilt",
+                "id": "6"
+              }
+            ],
+            "name": "Lorehold Trinkets",
+            "optional": "true",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "History, Religion, 2 Languages",
+          "name": "short"
+        }
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You gain the Strixhaven Initiate feat and must choose Lorehold within it.</p> <p class=\"indent\">In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p> <h5>Lorehold Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>Comprehend Languages, Identify</em></td></tr> <tr><td>2nd</td><td><em>Borrowed Knowledge, Locate Object</em></td></tr> <tr><td>3rd</td><td><em>Speak with Dead, Spirit Guardians</em></td></tr> <tr><td>4th</td><td><em>Arcane Eye, Stone Shape</em></td></tr> <tr><td>5th</td><td><em>Flame Strike, Legend Lore</em></td></tr> </table> <p>Consider customizing how your spells look when you cast them. Your Lorehold spells might create displays of golden light. You might use a tome or a scroll as a spellcasting focus, and your spell effects might reflect the appearance of the reference books you study.</p> <div class=\"reference\"> <div element=\"ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE\" /> </div>",
+      "id": "ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE",
+      "name": "Feature: Lorehold Initiate",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE",
+            "type": "Feat"
+          },
+          {
+            "id": "ID_INTERNAL_GRANTS_BACKGROUND_WITH_A_FEAT",
+            "type": "Grants"
+          }
+        ]
+      },
+      "sheet": {
+        "alt": "Lorehold Initiate",
+        "display": "false"
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_COMPREHEND_LANGUAGES",
+          "ID_PHB_SPELL_IDENTIFY",
+          "ID_WOTC_SCOC_SPELL_BORROWED_KNOWLEDGE",
+          "ID_PHB_SPELL_LOCATE_OBJECT",
+          "ID_PHB_SPELL_SPEAK_WITH_DEAD",
+          "ID_PHB_SPELL_SPIRIT_GUARDIANS",
+          "ID_PHB_SPELL_ARCANE_EYE",
+          "ID_PHB_SPELL_STONE_SHAPE",
+          "ID_PHB_SPELL_FLAME_STRIKE",
+          "ID_PHB_SPELL_LEGEND_LORE"
+        ]
+      },
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "name": "Lorehold Student Background",
+    "update": {
+      "file": {
+        "name": "background-lorehold-student.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-lorehold-student.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

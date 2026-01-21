@@ -1,0 +1,184 @@
+{
+  "info": {
+    "name": "Sword Coast Adventurer's Guide",
+    "description": "Welcome to the sword coast—a region of Faerûn that comprises shining paragons of civilization and culture, perilous locales fraught with dread and evil, and encompassing them all, a wilderness that offers every explorer vast opportunity and simultaneously promises great danger. While the Sword Coast Adventurer's Guide is a valuable resource for Dungeon Masters, it was crafted with players and their characters foremost in mind. There is a plethora of new character options to intrigue and inspire every member of the adventuring party.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide"
+    },
+    "update": {
+      "version": "0.2.6",
+      "file": {
+        "name": "sword-coast-adventurers-guide.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/source.json"
+    },
+    {
+      "name": "race-duergar.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/race-duergar.json"
+    },
+    {
+      "name": "race-ghostwisehalfling.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/race-ghostwisehalfling.json"
+    },
+    {
+      "name": "race-svirfneblin.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/race-svirfneblin.json"
+    },
+    {
+      "name": "variant-tiefling.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/variant-tiefling.json"
+    },
+    {
+      "name": "variant-half-elf.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/variant-half-elf.json"
+    },
+    {
+      "name": "barbarian-battlerager.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/barbarian-battlerager.json"
+    },
+    {
+      "name": "barbarian-totemwarrior.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/barbarian-totemwarrior.json"
+    },
+    {
+      "name": "cleric-arcanadomain.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/cleric-arcanadomain.json"
+    },
+    {
+      "name": "fighter-purpledragonknight.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/fighter-purpledragonknight.json"
+    },
+    {
+      "name": "monk-longdeath.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/monk-longdeath.json"
+    },
+    {
+      "name": "monk-sunsoul.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/monk-sunsoul.json"
+    },
+    {
+      "name": "paladin-thecrown.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/paladin-thecrown.json"
+    },
+    {
+      "name": "archetype-mastermind.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/archetype-mastermind.json"
+    },
+    {
+      "name": "archetype-swashbuckler.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/archetype-swashbuckler.json"
+    },
+    {
+      "name": "sorcerer-stormsorcery.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/sorcerer-stormsorcery.json"
+    },
+    {
+      "name": "warlock-theundying.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/warlock-theundying.json"
+    },
+    {
+      "name": "wizard-bladesinging.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/wizard-bladesinging.json"
+    },
+    {
+      "name": "background-citywatch.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-citywatch.json"
+    },
+    {
+      "name": "background-clancrafter.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-clancrafter.json"
+    },
+    {
+      "name": "background-cloisteredscholar.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-cloisteredscholar.json"
+    },
+    {
+      "name": "background-courtier.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-courtier.json"
+    },
+    {
+      "name": "background-factionagent.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-factionagent.json"
+    },
+    {
+      "name": "background-fartraveler.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-fartraveler.json"
+    },
+    {
+      "name": "background-inheritor.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-inheritor.json"
+    },
+    {
+      "name": "background-knightoftheorder.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-knightoftheorder.json"
+    },
+    {
+      "name": "background-mercenaryveteran.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-mercenaryveteran.json"
+    },
+    {
+      "name": "background-urbanbountyhunter.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-urbanbountyhunter.json"
+    },
+    {
+      "name": "background-uthgardttribemember.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-uthgardttribemember.json"
+    },
+    {
+      "name": "background-waterdhaviannoble.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-waterdhaviannoble.json"
+    },
+    {
+      "name": "musical-instruments.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/musical-instruments.json"
+    },
+    {
+      "name": "spells.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/spells.json"
+    },
+    {
+      "name": "deities.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/deities.json"
+    }
+  ]
+}

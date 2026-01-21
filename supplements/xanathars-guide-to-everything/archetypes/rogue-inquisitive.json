@@ -1,0 +1,139 @@
+{
+  "element": [
+    {
+      "description": "<p>As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your keen deductions make you well equipped to expose and end hidden evils.</p> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_EAR_FOR_DECEIT\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_EYE_FOR_DETAIL\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_INSIGHTFUL_FIGHTING\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_STEADY_EYE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_UNERRING_EYE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_EYE_FOR_WEAKNESS\" />",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_INQUISITIVE",
+      "name": "Inquisitive",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_EAR_FOR_DECEIT",
+            "level": "1",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_EYE_FOR_DETAIL",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_INSIGHTFUL_FIGHTING",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_STEADY_EYE",
+            "level": "9",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_UNERRING_EYE",
+            "level": "13",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_EYE_FOR_WEAKNESS",
+            "level": "17",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Roguish Archetype",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>When you choose this archetype at 3rd level, you develop a talent for picking out lies. Whenever you make a Wisdom (Insight) check to determine whether a creature is lying, treat a roll of 7 or lower on the d20 as an 8.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_EAR_FOR_DECEIT",
+      "name": "Ear for Deceit",
+      "sheet": "Whenever you make an Insight check to determine a lie, treat a roll of 7 or lower as an 8.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 3rd level, you can use a bonus action to make a Wisdom (Perception) check to spot a hidden creature or object or to make an Intelligence (Investigation) check to uncover or decipher clues.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_EYE_FOR_DETAIL",
+      "name": "Eye for Detail",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "Make a Perception check to spot a hidden creature or object, or make an Investigation check to uncover or decipher clues."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 3rd level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you can make a Wisdom (Insight) check against a creature you can see that isn't incapacitated, contested by the target's Charisma (Deception) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage on it.</p> <p class=\"indent\">This benefit lasts for 1 minute or until you successfully use this feature against a different target.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_INSIGHTFUL_FIGHTING",
+      "name": "Insightful Fighting",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "Make an Insight check against a creature you can see that isn't incapacitated, contested by the target's Deception check. On a success you can use your Sneak Attack against it, even if you don't have advantage, but not if you have disadvantage. This benefit lasts for 1 minute or until you successfully use this feature against a different target. Make an Insight check against a creature you can see that isn't incapacitated, contested by the target's Deception check. On a success you can use your Sneak Attack against it that deals extra 3d6 damage, even if you don't have advantage, but not if you have disadvantage. This benefit lasts for 1 minute or until you successfully use this feature against a different target."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 9th level, you have advantage on any Wisdom (Perception) or Intelligence (Investigation) check if you move no more than half your speed on the same turn.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_STEADY_EYE",
+      "name": "Steady Eye",
+      "sheet": "Advantage on Perception or Investigation checks if you move no more than half your speed on the same turn.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 13th level, your senses are almost impossible to foil. As an action, you sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet of you, provided you aren't blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.</p> <p class=\"indent\">You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_UNERRING_EYE",
+      "name": "Unerring Eye",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "unerring eye:usage",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "unerring eye:usage",
+            "value": "wisdom:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "action": "Action",
+        "content": "Sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30ft of you, provided you aren't blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.",
+        "usage": "{{unerring eye:usage}}/Long Rest"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 17th level, you learn to exploit a creature's weaknesses by carefully studying its tactics and movement. While your Insightful Fighting feature applies to a creature, your Sneak Attack damage against that creature increases by 3d6.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_INQUISITIVE_EYE_FOR_WEAKNESS",
+      "name": "Eye for Weakness",
+      "sheet": {
+        "content": "Your Insightful Fighting feature gives you an extra 3d6 damage to your Sneak Attack on the target of your Insight.",
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The Inquisitive from Xanathar's Guide to Everything",
+    "name": "Inquisitive",
+    "update": {
+      "file": {
+        "name": "rogue-inquisitive.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-inquisitive.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

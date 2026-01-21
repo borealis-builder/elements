@@ -1,0 +1,990 @@
+{
+  "element": [
+    {
+      "description": "<![CDATA[<p>The D&amp;D Adventurers League is an ongoing official campaign for Dungeons &amp; Dragons. It uses the fifth edition Dungeons &amp; Dragons rules, and features the Forgotten Realms setting. You can play D&amp;D Adventurers League games literally anywhere. Players use the fifth edition rules to create a character and bring that character to games anywhere D&amp;D Adventurers League play is happening.</p>]]>",
+      "id": "ID_WOTC_SOURCE_AL_ELEMENTAL_EVIL",
+      "name": "Adventurers League: Elemental Evil",
+      "setters": {
+        "set": [
+          {
+            "description": "ALEE",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/playevents/organized-play",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "supplement"
+          },
+          {
+            "description": "true",
+            "name": "league"
+          },
+          {
+            "description": "20150401",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>You are used to life on the road. You pride yourself at having traveled every major tradeway in the Moonsea region, including the best backroads and shortcuts. When traveling these roads, you know where the best inns, campsites, and water sources are located, as well as potential locations of danger such as ambush. Having worked the roads as long as you have, you have made many aquaintences and find it easy to pick up information and rumors floating from town to town. You are skilled with beasts of burden and handling and repairing wagons of all kinds.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Animal Handling, Survival</li> <li><strong>Tool Proficiencies:</strong> Vehicles (Land)</li> <li><strong>Languages:</strong> One of your choice</li> <li><strong>Equipment:</strong> A whip, a tent, a regional map, a set of traveling clothes, and a belt pouch containing 10 gp.</li> <li><strong>Lifestyle:</strong> Poor</li> </ul> <div element=\"ID_WOTC_ALEE_BACKGROUND_FEATURE_WAGONMASTER\" />",
+      "id": "ID_WOTC_ALEE_BACKGROUND_CARAVAN_SPECIALIST",
+      "name": "Caravan Specialist",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ANIMALHANDLING",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_WAGONMASTER",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language, Caravan Specialist",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Any group is only as strong as its weakest link. Everyone has to pull their own weight.",
+                "id": "1"
+              },
+              {
+                "description": "There's always someone out there trying to take what I've got. Always be vigilent.",
+                "id": "2"
+              },
+              {
+                "description": "Anything can be learned if you have the right teacher. Most folks just need a chance.",
+                "id": "3"
+              },
+              {
+                "description": "Early to bed and early to rise; this much at least is under my control.",
+                "id": "4"
+              },
+              {
+                "description": "You can listen to me or don't and wish you had. Everyone ends up on one side of that fence.",
+                "id": "5"
+              },
+              {
+                "description": "Eventually my hard work will be rewarded. Maybe that time has finally come.",
+                "id": "6"
+              },
+              {
+                "description": "A strong ox or horse is more reliable than most people I've met.",
+                "id": "7"
+              },
+              {
+                "description": "I never had time for books, but wish I had. I admire folks who have taken the time to learn.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Service: Using my talents to help others is the best way of helping myself. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Selfish: What people don't know WILL hurt them, but why is that my problem? (Evil)",
+                "id": "2"
+              },
+              {
+                "description": "Wanderer: I go where the road takes me. Sometimes that's a good thing… (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Fittest: On the open road, the law of nature wins. Victims are the unprepared. (Lawful)",
+                "id": "4"
+              },
+              {
+                "description": "Focused: I simply have a job to do, and I'm going to do it. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Motivated: There's a reason I'm good at what I do, I pay attention to the details. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My brother has a farm In Elmwood and I've helped him and his neigbors move their goods to Mulmaster and other surrounding towns. Those are good people.",
+                "id": "1"
+              },
+              {
+                "description": "A caravan I lead was attacked by bandits and many innocents died. I swear that I will avenge them by killing any bandits I encounter.",
+                "id": "2"
+              },
+              {
+                "description": "The Soldiery are mostly good guys who understand the importance of protecting the roads. The City Watch is who you have to look out for. If they are inspecting your goods, get ready to pay a fine.",
+                "id": "3"
+              },
+              {
+                "description": "The new commander of Southroad Tower, Capt. Holke, understands the importance of safe roads. He's hired me for several jobs and I'm grateful.",
+                "id": "4"
+              },
+              {
+                "description": "There's always a road I haven't traveled before. I'm always looking for new places to explore.",
+                "id": "5"
+              },
+              {
+                "description": "Wealth and power mean little without the freedom to go where and when you want.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I have trouble trusting people I've just met.",
+                "id": "1"
+              },
+              {
+                "description": "I enjoy the open road. Underground and tight spaces make me very nervous.",
+                "id": "2"
+              },
+              {
+                "description": "I expect others to heed my orders and have little resepect or sympathy if they don't.",
+                "id": "3"
+              },
+              {
+                "description": "I am very prideful and have trouble admitting when I'm wrong.",
+                "id": "4"
+              },
+              {
+                "description": "Once I decide on a course of action, I do not waiver.",
+                "id": "5"
+              },
+              {
+                "description": "I like to explore, and my curiosity will sometimes get me into trouble.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Animal Handling, Survival, Vehicles (Land), Language",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You are used to being in charge of the operation and your reputation for reliability has you on a short list when the job is critical. Experience has taught you to rely on your gut. Others recognize this and look to you for direction when a situation gets serious. You are able to identify the most defensible locations for camping. If you are part of a caravan outfit, you are able to attract two additional workers that are loyal to you based on your reputation. You have an excellent memory for maps and geography and can always determine your cardinal directions while traveling.</p>",
+      "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_WAGONMASTER",
+      "name": "Feature: Wagonmaster",
+      "sheet": {
+        "alt": "Wagonmaster"
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You are a down-on your luck miner from the Earthspur Mountains who is no stranger to hardship. You have spent a great deal of time living among the dwarves, goliaths, and denizens of the Underdark that also work mines in the area. At this point, you're just as comfortable working underground as above. You know how to read a seam, dicker for supplies with the deep gnomes, party with dwarves, and find your way back to the surface afterwards. Unfortunately, you haven't struck it rich... yet. Although you've come to Mulmaster looking for work, the tall peaks and deep mines of the Earthspurs still call to you.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Athletics, Survival</li> <li><strong>Languages:</strong> Dwarvish and Undercommon</li> <li><strong>Equipment:</strong> A shovel or a miner's pick, a block and tackle, a climber's kit, a set of common clothes, and a belt pouch containing 5 gp.</li> <li><strong>Lifestyle:</strong> Poor</li> </ul> <div element=\"ID_WOTC_ALEE_BACKGROUND_FEATURE_DEEP_MINER\" />",
+      "id": "ID_WOTC_ALEE_BACKGROUND_EARTHSPUR_MINER",
+      "name": "Earthspur Miner",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_LANGUAGE_DWARVISH",
+            "type": "Language"
+          },
+          {
+            "id": "ID_LANGUAGE_UNDERCOMMON",
+            "type": "Language"
+          },
+          {
+            "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_DEEP_MINER",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Nothing bothers me for long.",
+                "id": "1"
+              },
+              {
+                "description": "I hate the horrors of the Underdark with a passion. They took my friends and family and almost got me.",
+                "id": "2"
+              },
+              {
+                "description": "Anything worth doing takes time and patience. I have learned to plan and wait for the things I want and to be patient to achieve my goals.",
+                "id": "3"
+              },
+              {
+                "description": "I can party with everyone. Whether with dwarves, or goliaths, or deep gnomes, I can find a way to have a good time.",
+                "id": "4"
+              },
+              {
+                "description": "I'd rather be mining. This is okay; mining is better.",
+                "id": "5"
+              },
+              {
+                "description": "I think that I will stumble upon great riches if I just keep looking.",
+                "id": "6"
+              },
+              {
+                "description": "People who don't work with their hands and who live in houses are soft and weak.",
+                "id": "7"
+              },
+              {
+                "description": "I wish I were more educated. I look up to people who are.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Generosity: The riches of the earth are to be shared by all. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Greed: Gems and precious metals, I want them all for myself. (Evil)",
+                "id": "2"
+              },
+              {
+                "description": "Mooch: Property, schmoperty. If I need it, I take and use it. If I don't, I leave it for someone else. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Boundaries: Everything and everyone has its prescribed place; I respect that and expect others to do the same. (Lawful)",
+                "id": "4"
+              },
+              {
+                "description": "Let it Be: I don't meddle in the affairs of others if I can avoid it. They're none of my business. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Materialist: I want riches to improve my life. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "The people of the Earthspur mines are my family. I will do anything to protect them.",
+                "id": "1"
+              },
+              {
+                "description": "A deep gnome saved my life when I was injured and alone. I owe his people a great debt.",
+                "id": "2"
+              },
+              {
+                "description": "I must behold and preserve the natural beauty of places below the earth.",
+                "id": "3"
+              },
+              {
+                "description": "Gems hold a special fascination for me, more than gold, land, magic, or power.",
+                "id": "4"
+              },
+              {
+                "description": "I want to explore new depths and scale new heights.",
+                "id": "5"
+              },
+              {
+                "description": "Someday I'm going to find the mother lode, then I'll spend the rest of my life in luxury.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I'm uncomfortable spending time under the open sky. I'd rather be indoors or underground.",
+                "id": "1"
+              },
+              {
+                "description": "I'm not used to being around other people much and sometimes get grouchy about it.",
+                "id": "2"
+              },
+              {
+                "description": "Good tools are more reliable than people. In a cave in, I would save a sturdy pick before a stranger.",
+                "id": "3"
+              },
+              {
+                "description": "I jealously guard my secrets, because I think others will take advantage of me if they learn what I know.",
+                "id": "4"
+              },
+              {
+                "description": "I am obsessed with getting rich. I always have a scheme brewing for making it big.",
+                "id": "5"
+              },
+              {
+                "description": "I'm afraid of the dark.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Survival, Dwarvish, Undercommon",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You are used to navigating the deep places of the earth. You never get lost in caves or mines if you have either seen an accurate map of them or have been through them before. Furthermore, you are able to scrounge fresh water and food for yourself and as many as five other people each day if you are in a mine or natural caves.</p>",
+      "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_DEEP_MINER",
+      "name": "Feature: Deep Miner",
+      "sheet": {
+        "alt": "Deep Miner"
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>You are one of the hundreds of small-time fishermen and women who haul the bounty of Mulmaster's freshwater harbor to the city's markets each morning. You have spent countless days rowing in the waters in and around Mulmaster and know them and the other fisherfolk, dockworkers, and port inhabitants better than anyone. Though you have left that life behind, you still visit once in a while.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Athletics, Sleight of Hand</li> <li><strong>Tool Proficiencies:</strong> One type of gaming set, vehicles (water)</li> <li><strong>Equipment:</strong> Fishing tackle, dice set, playing card set, or Three Dragon Ante set, a set of common clothes, rowboat, and a belt containing 5 gp</li> <li><strong>Lifestyle:</strong> Poor</li> </ul> <div element=\"ID_WOTC_ALEE_BACKGROUND_FEATURE_HARBORFOLK\" />",
+      "id": "ID_WOTC_ALEE_BACKGROUND_HARBORFOLK",
+      "name": "Harborfolk",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SLEIGHTOFHAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_HARBORFOLK",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Gaming Set, Harborfolk",
+            "supports": "Gaming Set",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I am curious. I want to know why things are the way they are and why people do the things that they do.",
+                "id": "1"
+              },
+              {
+                "description": "I can't sing, but that never stops me from doing it, loudly. Everyone loves a good sea chanty!",
+                "id": "2"
+              },
+              {
+                "description": "I think the High Blade is doing a terrific job, don't you?",
+                "id": "3"
+              },
+              {
+                "description": "I'm very excited that the House Built on Gold is being restored. I am a zealous worshipper of Waukeen.",
+                "id": "4"
+              },
+              {
+                "description": "I am quite superstitious. I see portents in everyday occurances.",
+                "id": "5"
+              },
+              {
+                "description": "I resent the rich and enjoy thwarting their plans and spoiling their fun in small ways.",
+                "id": "6"
+              },
+              {
+                "description": "I have a sea story to fit every occasion.",
+                "id": "7"
+              },
+              {
+                "description": "I'm a fisher, but I secretly detest eating fish. I will do anything to avoid it.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Calm: For all things, there is a tide. I set sail when it is right, and mend my nets when it is not. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Windblown: I go where the winds blow. No man or woman tells me where or when to sail. (Chaotic)",
+                "id": "2"
+              },
+              {
+                "description": "Aspiring: I will gain the favor of a Zor or Zora patron, maybe even one of the Blades! (Any)",
+                "id": "3"
+              },
+              {
+                "description": "Salty: I want people to look to me as an expert on plying Mulmaster Harbor. (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Selfless: We are all children of the sea. I help everyone in peril afloat and ashore. (Good)",
+                "id": "5"
+              },
+              {
+                "description": "Let them Drown: I refuse to risk my hide to help others. They wouldn't help me if roles were reversed. (Evil)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I once lost everything but my rowboat. I'll do anything to protect it.",
+                "id": "1"
+              },
+              {
+                "description": "My brother was in the Soldiery, but he was killed. I really look up to the men and women who serve.",
+                "id": "2"
+              },
+              {
+                "description": "The Cloaks killed my friend for spellcasting. I'll get them back somehow, someday.",
+                "id": "3"
+              },
+              {
+                "description": "The High House of Hurting helped me when I was hurt and asked nothing in return. I owe them my life.",
+                "id": "4"
+              },
+              {
+                "description": "I was robbed in the Zhent ghetto once. It will not happen again.",
+                "id": "5"
+              },
+              {
+                "description": "I would do anything to protect the other harborfolk. They are my family.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I drink too much, which causes me to miss the tide.",
+                "id": "1"
+              },
+              {
+                "description": "I killed a drunk member of the City Watch in a brawl. I am terrified that they might find out.",
+                "id": "2"
+              },
+              {
+                "description": "I oversell myself and make promises I can't keep when I want to impress someone.",
+                "id": "3"
+              },
+              {
+                "description": "Book learning is a waste of time. I have no patience for people who don't speak from experience.",
+                "id": "4"
+              },
+              {
+                "description": "I almost always cheat. I can't help myself.",
+                "id": "5"
+              },
+              {
+                "description": "I am a secret informant for the Hawks. I send them reports about everything I see and hear, even what my friends and allies are up to.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Athletics, Sleight of Hand, Gaming Set, Vehicles (Water)",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You grew up on the docks and waters of Mulmaster Harbor. The harborfolk remember you and still treat you as one of them. They welcome you and your companions. While they might charge you for it, they'll always offer what food and shelter they have; they'll even hide you if the City Watch is after you (but not if the Hawks are).</p>",
+      "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_HARBORFOLK",
+      "name": "Feature: Harborfolk",
+      "sheet": {
+        "alt": "Harborfolk"
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>From your hilltop home, you have looked down (literally and perhaps figuratively) on the unwashed masses of Mulmaster for your entire life. Your fur-trimmed robes and training in the visual and performing arts mark you as wealthy and perhaps well-born; you are a member of the City of Danger's aristocracy.</p> <p class=\"indent\">None of your immediate family members sits on the Council of Blades or is even a Zor or Zora…yet. Nevertheless, you are one of Mulmaster's elite, and whether you personally covet a higher standing or not, you are at home in the dance halls where the aristocracy gathers to plot, to scheme, to do business, to discuss the arts, and, above all, to see, and to be seen.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Deception, Performance</li> <li><strong>Tool Proficiencies:</strong> One type of artistic artisan's tools and one musical instrument</li> <li><strong>Equipment:</strong> One set of artisan's tools or musical instrument, a set of fine clothes, and a purse containing 10 gp.</li> <li><strong>Lifestyle:</strong> Wealthy</li> </ul> <div element=\"ID_WOTC_ALEE_BACKGROUND_FEATURE_HIGHBORN\" />",
+      "id": "ID_WOTC_ALEE_BACKGROUND_MULMASTER_ARISTOCRAT",
+      "name": "Mulmaster Aristocrat",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_DECEPTION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_PERFORMANCE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_HIGHBORN",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Artisan's Tool, Mulmaster Aristocrat",
+            "supports": "Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Musical Instrument, Mulmaster Aristocrat",
+            "supports": "Musical Instrument",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "My ambitions are boundless. I will be a Zor or Zora one day!",
+                "id": "1"
+              },
+              {
+                "description": "I must alwayss look my best.",
+                "id": "2"
+              },
+              {
+                "description": "Beauty is everywhere. I can find it in even the homliest person and the most horrible tragedy.",
+                "id": "3"
+              },
+              {
+                "description": "Décorum must be preserved at all costs.",
+                "id": "4"
+              },
+              {
+                "description": "I will not admit I am wrong if I can avoid it.",
+                "id": "5"
+              },
+              {
+                "description": "I am extremely well-educated and frequently remind others of that fact.",
+                "id": "6"
+              },
+              {
+                "description": "I take what I can today, because I do not know what tomorrow holds.",
+                "id": "7"
+              },
+              {
+                "description": "My life is full of dance, song, drink, and love.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Generous: I have a responsibility to help and protect the less fortunate. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Loyal: My word, once given, is my bond. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Callous: I am unconcerned with any negative effects my actions may have on the lives and fortunes of others. (Evil)",
+                "id": "3"
+              },
+              {
+                "description": "Impulsive: I follow my heart. (Chaotic)",
+                "id": "4"
+              },
+              {
+                "description": "Ignorant: Explanations bore me. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Isolationist: I am concerned with the fortunes of my friends and family. Others must see to themselves. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I have dedicated my wealth and my talents to the service of one of the city's many temples.",
+                "id": "1"
+              },
+              {
+                "description": "My family and I are loyal supporters of High Blade Jaseen Drakehorn. Our fortunes are inexorably tied to hers. I would do anything to support her.",
+                "id": "2"
+              },
+              {
+                "description": "Like many families who were close to High Blade Selfaril Uoumdolphin, mine has suffered greatly since his fall. We honor his memory in secret.",
+                "id": "3"
+              },
+              {
+                "description": "My family plotted with Rassendyll Uoumdolphin brother usurped brother as High Blade. Betrayal is the quickest route to power.",
+                "id": "4"
+              },
+              {
+                "description": "Wealth and power are nothing. Fulfillment can only be found in artistic expression.",
+                "id": "5"
+              },
+              {
+                "description": "It's not how you feel, who you know, or what you can do - it's how you look, and I look fabulous.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I have difficulty caring about anyone or anything other than myself.",
+                "id": "1"
+              },
+              {
+                "description": "Having grown up with wealth, I am careless with my finances. I overspend and am overly generous.",
+                "id": "2"
+              },
+              {
+                "description": "The ends (my advancement) justify any means.",
+                "id": "3"
+              },
+              {
+                "description": "I must have what I want and will brook no delay.",
+                "id": "4"
+              },
+              {
+                "description": "My family has lost everything. I must keep up appearances, lest we become a laughingstock.",
+                "id": "5"
+              },
+              {
+                "description": "I have no artistic sense. I hide that fact behind extreme opinons and have become a trendsetter.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Deception, Performance, Artisan's Tool, Instrument",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Mulmaster is run by and for its aristoracy. Every other class of citizen in the city defers to you, and even the priesthood, Soldiery, Hawks, and Cloaks treat you with deference. Other aristocrats and nobles accept you in their circles and likely know you or of you. Your connections can get you the ear of a Zor or Zora under the right circumstances.</p>",
+      "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_HIGHBORN",
+      "name": "Feature: Highborn",
+      "sheet": {
+        "alt": "Highborn"
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p>Gone are the happier days of walking into the Laughing Goblin Inn after a hard day's labor. Everything has changed, and you are lucky to be alive. Back in Phlan you could count yourself among those street-wise folks who knew when to pay a bribe and who to work with to make a living. Your ability to listen to the winds of change have saved you before, and this time they allowed you to be one of the lucky few who escaped Phlan with something more than just the shirt on your back.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Insight, Athletics</li> <li><strong>Tool Proficiencies:</strong> One type of Artisan tools</li> <li><strong>Languages:</strong> One of your choosing</li> <li><strong>Equipment:</strong> A set of artisan's tools (one of your choice), a token of the life you once knew, a set of traveler's clothes, and a belt pouch containing 15 gp</li> <li><strong>Lifestyle:</strong> Modest</li> </ul> <div element=\"ID_WOTC_ALEE_BACKGROUND_FEATURE_PHLAN_SURVIVOR\" />",
+      "id": "ID_WOTC_ALEE_BACKGROUND_PHLAN_REFUGEE",
+      "name": "Phlan Refugee",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_INSIGHT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_ATHLETICS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_PHLAN_SURVIVOR",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Artisan's Tool, Phlan Refugee",
+            "supports": "Artisan tools",
+            "type": "Proficiency"
+          },
+          {
+            "name": "Language, Phlan Refugee",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I may have lost everything I worked for most of my life, but there's work to be done, no time to linger on the past.",
+                "id": "1"
+              },
+              {
+                "description": "I worked hard to get where I am and I refuse to let a little hardship stop me from succeeding.",
+                "id": "2"
+              },
+              {
+                "description": "I protect those around me, you never know when one of them will be useful.",
+                "id": "3"
+              },
+              {
+                "description": "I have always gotten ahead by giving, why change now?",
+                "id": "4"
+              },
+              {
+                "description": "I prepare for everything, it paid off in Phlan and it will pay off again.",
+                "id": "5"
+              },
+              {
+                "description": "I will reclaim my home, though the path may be long, I will never give up hope.",
+                "id": "6"
+              },
+              {
+                "description": "I never cared for personal hygiene, and am amazed that It bothers others.",
+                "id": "7"
+              },
+              {
+                "description": "I am always willing to volunteer my services, just as long as don't have to do anything.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Justice: Corruption brought Phlan down, I will not tolerate that any longer. (Lawful)",
+                "id": "1"
+              },
+              {
+                "description": "Acceptance: Stability is a myth, to think you can control your future is futile. (Chaotic)",
+                "id": "2"
+              },
+              {
+                "description": "Hope: I am guided by a higher power and I trust that everything will be right in the end. (Good)",
+                "id": "3"
+              },
+              {
+                "description": "Restraint: I hate those who caused my loss. It is all I can do not to lash out at them. (Any)",
+                "id": "4"
+              },
+              {
+                "description": "Strength: As shown in Phlan, the strong survive. If you are weak you deserve what you get (Evil)",
+                "id": "5"
+              },
+              {
+                "description": "Openness: I am always willing to share my life story with anyone who will listen. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I have the chance at a new life and this time I am going to do things right.",
+                "id": "1"
+              },
+              {
+                "description": "The Lord Regent brought this suffering upon his people. I will see him brought to justice.",
+                "id": "2"
+              },
+              {
+                "description": "I await the day I will be able to return to my home in Phlan.",
+                "id": "3"
+              },
+              {
+                "description": "I will never forget the debt owed to Glevith of the Welcomers. I will be ready to repay that debt when called upon.",
+                "id": "4"
+              },
+              {
+                "description": "There was someone I cared about in Phlan, I will find out what happened to them.",
+                "id": "5"
+              },
+              {
+                "description": "Some say my life wasn't worth saving, I will prove them wrong.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I used the lives of children to facilitate my escape from Phlan.",
+                "id": "1"
+              },
+              {
+                "description": "I am a sucker for the underdog, and always bet on the loosing team.",
+                "id": "2"
+              },
+              {
+                "description": "I am incapable of standing up for myself.",
+                "id": "3"
+              },
+              {
+                "description": "I will borrow money from friends with no intention to repay it.",
+                "id": "4"
+              },
+              {
+                "description": "I am unable to keep secrets. A secret is just an untold story.",
+                "id": "5"
+              },
+              {
+                "description": "When something goes wrong, it's never my fault.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Insight, Athletics, Artisan's Tool, Language",
+          "name": "short"
+        }
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "type": "Background"
+    },
+    {
+      "description": "<p>Whatever your prior standing was, you are now one of the many refugees that have come to Mulmaster. You are able to find refuge with others from Phlan and those who sympathize with your plight. Within Mulmaster this means that you can find a place to bed down, recover, and hide from the watch with either other refugees from Phlan, or the Zhents within the ghettos.</p>",
+      "id": "ID_WOTC_ALEE_BACKGROUND_FEATURE_PHLAN_SURVIVOR",
+      "name": "Feature: Phlan Survivor",
+      "sheet": {
+        "alt": "Phlan Survivor"
+      },
+      "source": "Adventurers League: Elemental Evil",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "update": {
+      "file": {
+        "name": "elemental-evil.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/elemental-evil.json"
+      },
+      "version": "0.0.3"
+    }
+  }
+}

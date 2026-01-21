@@ -1,0 +1,39 @@
+{
+  "info": {
+    "name": "Monster Manual",
+    "description": "The Monster Manual presents a horde of classic Dungeons & Dragons creatures, including dragons, giants, mind flayers, and beholders—a monstrous feast for Dungeon Masters ready to challenge their players and populate their adventures.",
+    "author": {
+      "name": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/monster-manual"
+    },
+    "update": {
+      "version": "0.0.5",
+      "file": {
+        "name": "monster-manual.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "source.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/source.json"
+    },
+    {
+      "name": "companions.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/companions.json"
+    },
+    {
+      "name": "languages.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/languages.json"
+    },
+    {
+      "name": "lycanthropy-additional-feature.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/lycanthropy-additional-feature.json"
+    }
+  ]
+}

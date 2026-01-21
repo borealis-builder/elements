@@ -1,0 +1,239 @@
+{
+  "element": [
+    {
+      "description": "<p>You are a member of a teeming horde-one small part of a sprawling organism. Just as you are part of the swarm, the swarm is part of a larger ecosystem, a never-ending cycle of life, death, rot, and rebirth. You have spent your life in the slow churn of that ecosystem, in the dark places of the city where the messy parts of existence are on display. There is little squeamishness among the Golgari, no fear of death or taboo about the dead, just a fierce affirmation of the cycle.</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Nature, Survival</li> <li><strong>Tool Proficiencies:</strong> Poisoner's kit</li> <li><strong>Languages:</strong> Choose one of Elvish, Giant, or Kraul</li> <li><strong>Equipment:</strong> A Golgari insignia, a poisoner's kit, a pet beetle or spider, a set of common clothes, and a belt pouch containing 10 gp worth of mixed coins</li> </ul> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_GOLGARI_AGENT_UNDERCITY_PATHS\" /> <div element=\"ID_WOTC_GGTR_BACKGROUND_FEATURE_GOLGARI_AGENT_GOLGARI_GUILD_SPELLS\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Members of the Golgari Swarm are unmistakably products of the undercity, ill at ease amid the comforts of civilization. They bring about the same discomfort in others by reminding them of death's inevitable approach.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_GOLGARI_AGENT",
+      "name": "Golgari Agent",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_NATURE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_SURVIVAL",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_GOLGARI_AGENT_UNDERCITY_PATHS",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          },
+          {
+            "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_GOLGARI_AGENT_GOLGARI_GUILD_SPELLS",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language, Golgari Agent",
+            "supports": "ID_LANGUAGE_ELVISH|ID_LANGUAGE_GIANT|ID_GGTR_LANGUAGE_KRAUL",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "Remember, I could kill you in your sleep. Or put centipedes in your bedroll.",
+                "id": "1"
+              },
+              {
+                "description": "I like to remind people of their inevitable demise.",
+                "id": "2"
+              },
+              {
+                "description": "Sometimes I give voice to the whispers of the rot, which I hear but no one else does.",
+                "id": "3"
+              },
+              {
+                "description": "I do my best to discourage anyone from approaching or talking to me.",
+                "id": "4"
+              },
+              {
+                "description": "I have accepted my death. Hence, I don't fear it.",
+                "id": "5"
+              },
+              {
+                "description": "Like roots growing through stone, I am relentless and determined in my action.",
+                "id": "6"
+              },
+              {
+                "description": "I put my knowledge of anatomy to use by narrating the injuries my enemies suffer in grisly detail.",
+                "id": "7"
+              },
+              {
+                "description": "Like a wild animal, I lash out viciously when I'm provoked-and I'm easily provoked.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Guild. My guild is all that really matters. (Any)",
+                "id": "1"
+              },
+              {
+                "description": "Stoicism. All of us are part of the cyclical march of nature, which will continue with or without us. (Neutral)",
+                "id": "2"
+              },
+              {
+                "description": "Nature. The natural world is more important than the edifices of the city and civilization. (Neutral)",
+                "id": "3"
+              },
+              {
+                "description": "Interdependence. We are all part of nature's web. (Lawful)",
+                "id": "4"
+              },
+              {
+                "description": "Ambition. The time of Golgari ascendance is at hand, and I intend to have a prominent place in the new world order. (Evil)",
+                "id": "5"
+              },
+              {
+                "description": "Live and Let Live. Meddling in the affairs of other guilds is a great way to get squashed like a bug. (Neutral)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I cherish the finger of a family member who was petrified by a medusa.",
+                "id": "1"
+              },
+              {
+                "description": "I have an identical twin who is as different from me as any person could be.",
+                "id": "2"
+              },
+              {
+                "description": "I want to lead one faction of the guild to a new position of dominance.",
+                "id": "3"
+              },
+              {
+                "description": "I love spending time in the moss-covered building where I took part in my first reclamation mission.",
+                "id": "4"
+              },
+              {
+                "description": "I found something in the sewer that must never come to light.",
+                "id": "5"
+              },
+              {
+                "description": "I am forever grateful to the reclaimer who found me floating facedown in the sewer, moments from death.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Death comes for us all, so you can't expect me to take care of someone who can't fight it off.",
+                "id": "1"
+              },
+              {
+                "description": "I assume that anyone outside the Golgari looks down on me.",
+                "id": "2"
+              },
+              {
+                "description": "I feel a need for revenge against those who enjoy the privilege of living above ground.",
+                "id": "3"
+              },
+              {
+                "description": "I don't bother to couch my opinions in flattering words.",
+                "id": "4"
+              },
+              {
+                "description": "I can't help but pocket any trinket or coin I come across, no matter how worthless.",
+                "id": "5"
+              },
+              {
+                "description": "I'm convinced that I'm better and stronger than members of other guilds, isolated as they are from the realities of life and death.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Nature, Survival, Poisoner's Kit, Language",
+          "name": "short"
+        }
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You know hidden, underground pathways that you can use to bypass crowds, obstacles, and observation as you move through the city. When you aren't in combat, you and companions you lead can travel between any two locations in the city twice as fast as your speed would normally allow. The paths of the undercity are haunted by dangers that rarely brave the light of the surface world, so your journey isn't guaranteed to be safe.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_GOLGARI_AGENT_UNDERCITY_PATHS",
+      "name": "Feature: Undercity Paths",
+      "sheet": {
+        "alt": "Undercity Paths",
+        "content": "You know hidden, underground pathways that you can use to bypass crowds, obstacles, and observation as you move through the city. When you aren't in combat, you and companions you lead can travel between any two locations in the city twice as fast as your speed would normally allow. The paths of the undercity are haunted by dangers that rarely brave the light of the surface world, so your journey isn't guaranteed to be safe."
+      },
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    },
+    {
+      "description": "<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p> <p>For you, the spells on the Golgari Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p> <h5>Golgari Guild Spells</h5> <table> <thead> <tr><td>Spell Level</td><td>Spells</td></tr> </thead> <tr><td>Cantrip</td><td><em>dancing lights, spare the dying</em></td></tr> <tr><td>1st</td><td><em>entangle, ray of sickness</em></td></tr> <tr><td>2nd</td><td><em>protection from poison, ray of enfeeblement, spider climb</em></td></tr> <tr><td>3rd</td><td><em>animate dead, plant growth</em></td></tr> <tr><td>4th</td><td><em>giant insect, grasping vine</em></td></tr> <tr><td>5th</td><td><em>cloudkill, insect plague</em></td></tr> </table> <p class=\"indent\">Golgari magic is often accompanied by a sickly green glow and a rotting stench.</p>",
+      "id": "ID_WOTC_GGTR_BACKGROUND_FEATURE_GOLGARI_AGENT_GOLGARI_GUILD_SPELLS",
+      "name": "Golgari Guild Spells",
+      "sheet": "Golgari magic is often accompanied by a sickly green glow and a rotting stench.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "spellcasting": {
+        "all": "true",
+        "extend": [
+          "true",
+          "ID_PHB_SPELL_DANCING_LIGHTS",
+          "ID_PHB_SPELL_SPARE_THE_DYING",
+          "ID_PHB_SPELL_ENTANGLE",
+          "ID_PHB_SPELL_RAY_OF_SICKNESS",
+          "ID_PHB_SPELL_PROTECTION_FROM_POISON",
+          "ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT",
+          "ID_PHB_SPELL_SPIDER_CLIMB",
+          "ID_PHB_SPELL_ANIMATE_DEAD",
+          "ID_PHB_SPELL_PLANT_GROWTH",
+          "ID_PHB_SPELL_GIANT_INSECT",
+          "ID_PHB_SPELL_GRASPING_VINE",
+          "ID_PHB_SPELL_CLOUDKILL",
+          "ID_PHB_SPELL_INSECT_PLAGUE"
+        ]
+      },
+      "supports": "2nd Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Guildmasters' Guide to Ravnica",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica"
+    },
+    "description": "",
+    "name": "Golgari Agent",
+    "update": {
+      "file": {
+        "name": "golgari-agent.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/golgari-agent.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}

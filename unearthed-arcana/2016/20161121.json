@@ -1,0 +1,253 @@
+{
+  "element": [
+    {
+      "description": "<p>Clerics are blessed with new Divine Domain options in this week's Unearthed Arcana: the domains of the Forge, the Grave, and Protection. We invite you to read their descriptions, make characters with them, and see whether you like them.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20161121",
+      "name": "Unearthed Arcana: Cleric: Divine Domains",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20161121",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/articles/unearthed-arcana/cleric-divine-domains",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "20161121",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    },
+    {
+      "description": "<p>The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The gods' faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind. Deities who grant this domain include Helm, Ilmater, Torm, Tyr, Heironeous, St. Cuthbert, Paladine, Dol Dorn, the Silver Flame, Bahamut, Yondalla, Athena, and Odin.</p> <div element=\"ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_DOMAIN_SPELLS\" /> <div element=\"ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_BONUS_PROFICIENCY\" /> <div element=\"ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_SHIELD_OF_THE_FAITHFUL\" /> <div element=\"ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_CD_RADIANT_DEFENSE\" /> <div element=\"ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_BLESSED_HEALER\" /> <div element=\"ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_DIVINE_STRIKE\" /> <div element=\"ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_INDOMITABLE_DEFENSE\" />",
+      "id": "ID_UA20161121_ARCHETYPE_CLERIC_PROTECTION_DOMAIN",
+      "name": "Protection Domain",
+      "rules": {
+        "grant": [
+          {
+            "level": "1",
+            "name": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_DOMAIN_SPELLS",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "1",
+            "name": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_BONUS_PROFICIENCY",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "1",
+            "name": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_SHIELD_OF_THE_FAITHFUL",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "2",
+            "name": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_CD_RADIANT_DEFENSE",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "6",
+            "name": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_BLESSED_HEALER",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "8",
+            "name": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_DIVINE_STRIKE",
+            "type": "Archetype Feature"
+          },
+          {
+            "level": "17",
+            "name": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_INDOMITABLE_DEFENSE",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": "",
+      "source": "Unearthed Arcana: Cleric: Divine Domains",
+      "supports": "Divine Domain",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>You gain domain spells at the cleric levels listed in the Protection Domain Spells table. See the Divine Domain class feature for how domain spells work.</p> <h5>Protection Domain Spells</h5> <table> <thead> <tr><td>Cleric Level</td><td>Spells</td></tr> </thead> <tr><td>1st</td><td><em>compelled duel, protection from evil and good</em></td></tr> <tr><td>3rd</td><td><em>aid, protection from poison</em></td></tr> <tr><td>5th</td><td><em>protection from energy, slow</em></td></tr> <tr><td>7th</td><td><em>guardian of faith, Otiluke's resilient sphere</em></td></tr> <tr><td>9th</td><td><em>antilife shell, wall of force</em></td></tr> </table>",
+      "id": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_DOMAIN_SPELLS",
+      "name": "Domain Spells",
+      "rules": {
+        "grant": [
+          {
+            "level": "1",
+            "name": "ID_PHB_SPELL_COMPELLED_DUEL",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "level": "1",
+            "name": "ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "level": "3",
+            "name": "ID_PHB_SPELL_AID",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "level": "3",
+            "name": "ID_PHB_SPELL_PROTECTION_FROM_POISON",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "level": "5",
+            "name": "ID_PHB_SPELL_PROTECTION_FROM_ENERGY",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "level": "5",
+            "name": "ID_PHB_SPELL_SLOW",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "level": "7",
+            "name": "ID_PHB_SPELL_GUARDIAN_OF_FAITH",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "level": "7",
+            "name": "ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "level": "9",
+            "name": "ID_PHB_SPELL_ANTILIFE_SHELL",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          },
+          {
+            "level": "9",
+            "name": "ID_PHB_SPELL_WALL_OF_FORCE",
+            "prepared": "true",
+            "spellcasting": "Cleric",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Cleric: Divine Domains",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>When you choose this domain at 1st level, you gain proficiency with heavy armor.</p>",
+      "id": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_BONUS_PROFICIENCY",
+      "name": "Bonus Proficiency",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Unearthed Arcana: Cleric: Divine Domains",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 1st level, you gain the ability to hinder attacks intended for others. When a creature attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. To do so, you must be able to see both the attacker and the target. You interpose an arm, a shield, or some other part of yourself to try to throw the attack off target.</p>",
+      "id": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_SHIELD_OF_THE_FAITHFUL",
+      "name": "Shield of the Faithful",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When a creature attacks a target other than you, within 5ft of you, impose disadvantage on the attack roll. You must be able to see both the attacker and the target."
+      },
+      "source": "Unearthed Arcana: Cleric: Divine Domains",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 2nd level, you can use your Channel Divinity to cloak your allies in radiant armor.</p> <p class=\"indent\">As an action, you channel blessed energy into an ally that you can see within 30 feet of you. The first time that ally is hit by an attack within the next minute, the attacker takes radiant damage equal to 2d10 + your cleric level.</p>",
+      "id": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_CD_RADIANT_DEFENSE",
+      "name": "Channel Divinity: Radiant Defense",
+      "sheet": {
+        "action": "Action",
+        "alt": "Radiant Defense",
+        "content": "Choose an ally within 30ft, that you can see. The next time that ally is hit by an attack within 1 minute, the attacker takes 2d10+{{level:cleric}} radiant damage.",
+        "usage": "Channel Divinity"
+      },
+      "source": "Unearthed Arcana: Cleric: Divine Domains",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 6th level, the healing spells you cast on others can heal you as well. When you cast a spell with a spell slot and it restores hit points to any creature other than you this turn, you regain hit points equal to 2 + the spell's level.</p>",
+      "id": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_BLESSED_HEALER",
+      "name": "Blessed Healer",
+      "sheet": "You regain hit points equal to 2 + the spell's level when casting a healing spell on another creature with a spell slot.",
+      "source": "Unearthed Arcana: Cleric: Divine Domains",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>",
+      "id": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_DIVINE_STRIKE",
+      "name": "Divine Strike",
+      "requirements": "!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING",
+      "sheet": "Once per turn, when you hit with a weapon attack, deal an extra 1d8 radiant damage. Once per turn, when you hit with a weapon attack, deal an extra 2d8 radiant damage.",
+      "source": "Unearthed Arcana: Cleric: Divine Domains",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 17th level, you gain resistance to two damage types of your choice, choosing from bludgeoning, necrotic, piercing, radiant, and slashing.</p> <p class=\"indent\">Whenever you finish a short or long rest, you can change the damage types you chose.</p> <p class=\"indent\">As an action, you can temporarily give up this resistance and transfer it to one creature you touch. The creature keeps the resistance until the end of your next short or long rest or until you transfer it back to yourself as a bonus action.</p>",
+      "id": "ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_INDOMITABLE_DEFENSE",
+      "name": "Indomitable Defense",
+      "sheet": "Gain resistance to two damage types, choosing from: bludgeoning, necrotic, piercing, radiant, slashing. You can change these after a rest. As an action, transfer this resistance to one creature you touch. The creature keeps the resistance until the end of your next short or long rest or until you transfer it back to yourself as a bonus action.",
+      "source": "Unearthed Arcana: Cleric: Divine Domains",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/articles/unearthed-arcana/cleric-divine-domains"
+    },
+    "description": "Clerics are blessed with new Divine Domain options in this week's Unearthed Arcana: the domains of the Forge, the Grave, and Protection. We invite you to read their descriptions, make characters with them, and see whether you like them.",
+    "name": "Unearthed Arcana: Cleric: Divine Domains",
+    "update": {
+      "file": {
+        "name": "20161121.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2016/20161121.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

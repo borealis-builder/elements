@@ -1,0 +1,205 @@
+{
+  "element": [
+    {
+      "description": "<p>You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each.</p> <p class=\"indent\">You begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?</p> <ul class=\"unstyled\"> <li><strong>Skill Proficiencies:</strong> Sleight of Hand, Stealth</li> <li><strong>Tool Proficiencies:</strong> Disguise kit, thieves' tools</li> <li><strong>Equipment:</strong> A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 10 gp</li> </ul> <div element=\"ID_BACKGROUND_FEATURE_CITY_SECRETS\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life— and maybe get some payback on all the rich people who treated them badly.</p>",
+      "id": "ID_BACKGROUND_URCHIN",
+      "name": "Urchin",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_SLEIGHTOFHAND",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_STEALTH",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_BACKGROUND_FEATURE_CITY_SECRETS",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I hide scraps of food and trinkets away in my pockets.",
+                "id": "1"
+              },
+              {
+                "description": "I ask a lot of questions.",
+                "id": "2"
+              },
+              {
+                "description": "I like to squeeze into small places where no one else can get to me.",
+                "id": "3"
+              },
+              {
+                "description": "I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.",
+                "id": "4"
+              },
+              {
+                "description": "I eat like a pig and have bad manners.",
+                "id": "5"
+              },
+              {
+                "description": "I think anyone who's nice to me is hiding evil intent.",
+                "id": "6"
+              },
+              {
+                "description": "I don't like to bathe.",
+                "id": "7"
+              },
+              {
+                "description": "I bluntly say what other people are hinting at or hiding.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Respect. All people, rich or poor, deserve respect. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Community. We have to take care of each other, because no one else is going to do it. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Retribution. The rich need to be shown what life and death are like in the gutters. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "People. I help the people who help me—that's what keeps us alive. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Aspiration. I'm going to prove that I'm worthy of a better life.",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "My town or city is my home, and I'll fight to defend it.",
+                "id": "1"
+              },
+              {
+                "description": "I sponsor an orphanage to keep others from enduring what I was forced to endure.",
+                "id": "2"
+              },
+              {
+                "description": "I owe my survival to another urchin who taught me to live on the streets.",
+                "id": "3"
+              },
+              {
+                "description": "I owe a debt I can never repay to the person who took pity on me.",
+                "id": "4"
+              },
+              {
+                "description": "I escaped my life of poverty by robbing an important person, and I'm wanted for it.",
+                "id": "5"
+              },
+              {
+                "description": "No one else should have to endure the hardships I've been through.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "If I'm outnumbered, I will run away from a fight.",
+                "id": "1"
+              },
+              {
+                "description": "Gold seems like a lot of money to me, and I'll do just about anything for more of it.",
+                "id": "2"
+              },
+              {
+                "description": "I will never fully trust anyone other than myself.",
+                "id": "3"
+              },
+              {
+                "description": "I'd rather kill someone in their sleep then fight fair.",
+                "id": "4"
+              },
+              {
+                "description": "It's not stealing if I need it more than someone else.",
+                "id": "5"
+              },
+              {
+                "description": "People who can't take care of themselves get what they deserve.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Sleight of Hand, Stealth, Disguise Kit, Thieves' Tools",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "description": "<p>You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.</p>",
+      "id": "ID_BACKGROUND_FEATURE_CITY_SECRETS",
+      "name": "Feature: City Secrets",
+      "sheet": {
+        "alt": "City Secrets"
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Urchin Background",
+    "name": "Urchin",
+    "update": {
+      "file": {
+        "name": "background-urchin.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-urchin.json"
+      },
+      "version": "0.0.5"
+    }
+  }
+}

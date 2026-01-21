@@ -1,0 +1,165 @@
+{
+  "element": [
+    {
+      "description": "<p>Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse-especially benevolent dragons, fey, and elementals-that work to preserve life and the order of the planes.</p> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_MAGIC\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_DETECT_PORTAL\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_PLANAR_WARRIOR\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_ETHEREAL_STEP\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_DISTANT_STRIKE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_SPECTRAL_DEFENSE\" />",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_HORIZON_WALKER",
+      "name": "Horizon Walker",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_MAGIC",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_DETECT_PORTAL",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_PLANAR_WARRIOR",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_ETHEREAL_STEP",
+            "level": "7",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_DISTANT_STRIKE",
+            "level": "11",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_SPECTRAL_DEFENSE",
+            "level": "15",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Ranger Archetype",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.</p> <h5>HORIZON WALKER SPELLS</h5> <table> <thead> <tr> <td>Ranger Level</td> <td>Spell</td> </tr> </thead> <tr><td>3rd</td><td><em>protection from evil and good</em></td></tr> <tr><td>5th</td><td><em>misty step</em></td></tr> <tr><td>9th</td><td><em>haste</em></td></tr> <tr><td>13th</td><td><em>banishment</em></td></tr> <tr><td>17th</td><td><em>teleportation circle</em></td></tr> </table>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_MAGIC",
+      "name": "Horizon Walker Magic",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD",
+            "level": "3",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_MISTY_STEP",
+            "level": "5",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_HASTE",
+            "level": "9",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_BANISHMENT",
+            "level": "13",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          },
+          {
+            "id": "ID_PHB_SPELL_TELEPORTATION_CIRCLE",
+            "level": "17",
+            "spellcasting": "Ranger",
+            "type": "Spell"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 3rd level, you gain the ability to magically sense the presence of a planar portal. As an action, you detect the distance and direction to the closest planar portal within 1 mile of you.</p> <p class=\"indent\">Once you use this feature, you can't use it again until you finish a short or long rest.</p> <p class=\"indent\">See the \"Planar Travel\" section in chapter 2 of the Dungeon Master's Guide for examples of planar portals.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_DETECT_PORTAL",
+      "name": "Detect Portal",
+      "sheet": {
+        "action": "Action",
+        "content": "You detect the distance and direction to the closest planar portal within 1 mile of you.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 3rd level, you learn to draw on the energy of the multiverse to augment your attacks.</p> <p class=\"indent\">As a bonus action, choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra 1d8 force damage from the attack. When you reach 11th level in this class, the extra damage increases to 2d8.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_PLANAR_WARRIOR",
+      "name": "Planar Warrior",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "Choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra 1d8 force damage from the attack. Choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra 2d8 force damage from the attack."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 7th level, you learn to step through the Ethereal Plane. As a bonus action, you can cast the <i>etherealness</i> spell with this feature, without expending a spell slot, but the spell ends at the end of the current turn.</p> <p class=\"indent\">Once you use this feature, you can't use it again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_ETHEREAL_STEP",
+      "name": "Ethereal Step",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "You can cast the etherealness spell, without expending a spell slot, but the spell ends at the end of the current turn.",
+        "usage": "1/Short Rest"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 11th level, you gain the ability to pass between the planes in the blink of an eye. When you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.</p> <p class=\"indent\">If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_DISTANT_STRIKE",
+      "name": "Distant Strike",
+      "sheet": {
+        "action": "Attack",
+        "content": "You can teleport up to 10 feet before each attack to an unoccupied space you can see. If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 15th level, your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your reaction to give yourself resistance to all of that attack's damage on this turn.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_SPECTRAL_DEFENSE",
+      "name": "Spectral Defense",
+      "sheet": {
+        "action": "Reaction",
+        "content": "When you take damage from an attack, you can give yourself resistance to all of that attack's damage on this turn."
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The Horizon Walker from Xanathar's Guide to Everything",
+    "name": "Horizon Walker",
+    "update": {
+      "file": {
+        "name": "ranger-horizonwalker.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-horizonwalker.json"
+      },
+      "version": "0.0.4"
+    }
+  }
+}

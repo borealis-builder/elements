@@ -1,0 +1,119 @@
+{
+  "element": [
+    {
+      "description": "<p>Distant kin of giant owls from the Feywild, owlin come in many shapes and sizes, from petite and fluffy to wide-winged and majestic. Owlin have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.</p> <p class=\"indent\">Like owls, owlin are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library.</p> <p class=\"indent\">Your owlin character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl.</p> <h4>Owlin Traits</h4> <p>You have the following racial traits.</p> <p class=\"indent\"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p> <p class=\"indent\"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p> <p class=\"indent\"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p> <p class=\"indent\"><strong><em>Darkvision.</em></strong> You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p> <p class=\"indent\"><strong><em>Flight.</em></strong> Thanks to your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.</p> <p class=\"indent\"><strong><em>Silent Feathers.</em></strong> You have proficiency in the Stealth skill.</p>",
+      "id": "ID_WOTC_SCOC_RACE_OWLIN",
+      "name": "Owlin",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_LANGUAGE_COMMON",
+            "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "type": "Language"
+          },
+          {
+            "id": "ID_VISION_DARKVISION",
+            "type": "Vision"
+          },
+          {
+            "id": "ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_FLIGHT",
+            "type": "Racial Trait"
+          },
+          {
+            "id": "ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_SILENT_FEATHERS",
+            "type": "Racial Trait"
+          }
+        ],
+        "select": [
+          {
+            "name": "Ability Score Improvement Option (Owlin)",
+            "supports": "Custom Ability Score Improvement Option",
+            "type": "Ability Score Improvement"
+          },
+          {
+            "name": "Customized Language",
+            "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE",
+            "supports": "Custom Race Language",
+            "type": "Language"
+          },
+          {
+            "name": "Language (Owlin)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Size (Owlin)",
+            "supports": "ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM",
+            "type": "Racial Trait"
+          }
+        ],
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "innate speed",
+            "value": "30"
+          },
+          {
+            "bonus": "base",
+            "name": "darkvision:range",
+            "value": "120"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "type": "Race"
+    },
+    {
+      "description": "<p>Thanks to your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.</p>",
+      "id": "ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_FLIGHT",
+      "name": "Flight",
+      "rules": {
+        "stat": {
+          "bonus": "base",
+          "equipped": "![armor:medium],![armor:heavy]",
+          "name": "speed:fly",
+          "value": "speed"
+        }
+      },
+      "sheet": "You have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "type": "Racial Trait"
+    },
+    {
+      "description": "<p>You have proficiency in the Stealth skill.</p>",
+      "id": "ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_SILENT_FEATHERS",
+      "name": "Silent Feathers",
+      "rules": {
+        "grant": {
+          "id": "ID_PROFICIENCY_SKILL_STEALTH",
+          "requirements": "!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "type": "Proficiency"
+        },
+        "select": {
+          "name": "Customized Skill Proficiency (Silent Feathers)",
+          "requirements": "ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY",
+          "supports": "Skill",
+          "type": "Proficiency"
+        }
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Strixhaven: A Curriculum Of Chaos",
+      "type": "Racial Trait"
+    }
+  ],
+  "info": {
+    "name": "Owlin",
+    "update": {
+      "file": {
+        "name": "race-owlin.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/race-owlin.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

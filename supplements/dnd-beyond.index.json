@@ -1,0 +1,53 @@
+{
+  "info": {
+    "name": "D&D Beyond",
+    "description": "",
+    "author": {
+      "name": ""
+    },
+    "update": {
+      "version": "0.0.3",
+      "file": {
+        "name": "dnd-beyond.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "monstrous-compendium-1.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/monstrous-compendium-1.json"
+    },
+    {
+      "name": "monstrous-compendium-2.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/monstrous-compendium-2.json"
+    },
+    {
+      "name": "monstrous-compendium-3.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/monstrous-compendium-3.json"
+    },
+    {
+      "name": "legendary-magic-items.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/legendary-magic-items.json"
+    },
+    {
+      "name": "heroes-feast-saving-the-childrens-menu.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/heroes-feast-saving-the-childrens-menu.json"
+    },
+    {
+      "name": "vecna-nest-of-the-eldritch-eye.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/vecna-nest-of-the-eldritch-eye.json"
+    },
+    {
+      "name": "descent-into-the-lost-caverns-of-tsojcanth.json",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/descent-into-the-lost-caverns-of-tsojcanth.json"
+    }
+  ]
+}

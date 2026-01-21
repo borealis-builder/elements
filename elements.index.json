@@ -1,0 +1,39 @@
+{
+  "info": {
+    "name": "Aurora Legacy",
+    "description": "All indexs managed by the Aurora Legacy Team.",
+    "author": {
+      "name": "Aurora Legacy Team",
+      "url": "https://github.com/elements/elements"
+    },
+    "update": {
+      "version": "0.0.1",
+      "file": {
+        "name": "elements.index.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/elements.index.json"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "core.index.json",
+      "type": "index",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/core.index.json"
+    },
+    {
+      "name": "supplements.index.json",
+      "type": "index",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements.index.json"
+    },
+    {
+      "name": "unearthed-arcana.index.json",
+      "type": "index",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana.index.json"
+    },
+    {
+      "name": "collaborations.index.json",
+      "type": "index",
+      "url": "https://raw.githubusercontent.com/elements/elements/main/collaborations.index.json"
+    }
+  ]
+}

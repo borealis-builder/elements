@@ -1,0 +1,176 @@
+{
+  "element": [
+    {
+      "description": "<p>Barbarians who walk the Path of the Beast draw their rage from a bestial spark burning within their souls. That beast bursts forth in the throes of rage, physically transforming the barbarian.</p> <p class=\"indent\">Such a barbarian might be inhabited by a primal spirit or be descended from shape-shifters. You can choose the origin of your feral might or determine it by rolling on the Origin of the Beast table.</p> <h5 class=\"caption\">Origin of the Beast</h5> <table> <thead> <tr><td>d4</td><td>Origin</td></tr> </thead> <tr><td>1</td><td>One of your parents is a lycanthrope, and you've inherited some of their curse.</td></tr> <tr><td>2</td><td>You are descended from an archdruid and inherited the ability to partially change shape.</td></tr> <tr><td>3</td><td>A few spirits gifted you with the ability to adopt different bestial aspects.</td></tr> <tr><td>4</td><td>An ancient animal spirit dwells within you, allowing you to walk this path.</td></tr> </table> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_FORM_OF_THE_BEAST\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_BESTIAL_SOUL\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_INFECTIOUS_FURY\" /> <div element=\"ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_CALL_THE_HUNT\" />",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_BARBARIAN_PATH_OF_THE_BEAST",
+      "name": "Path of the Beast",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_FORM_OF_THE_BEAST",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_BESTIAL_SOUL",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_INFECTIOUS_FURY",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_CALL_THE_HUNT",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "supports": "Primal Path",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p><em>3rd-level Path of the Beast feature</em></p> <p>When you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal.</p> <p class=\"indent\">You choose the weapon's form each time you rage:</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong><em>Bite.</em></strong> Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong><em>Claws.</em></strong> Each of your hands transforms into a claw, which you can use as a weapon if it's empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.</p> <p style=\"text-indent: -1em; margin-left: 1em\"><strong><em>Tail.</em></strong> You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_FORM_OF_THE_BEAST",
+      "name": "Form of the Beast",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_FORM_OF_THE_BEAST_BITE",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_FORM_OF_THE_BEAST_CLAWS",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_FORM_OF_THE_BEAST_TAIL",
+            "type": "Archetype Feature"
+          }
+        ],
+        "stat": {
+          "bonus": "ability",
+          "name": "form of the beast:damage",
+          "value": "strength:modifier"
+        }
+      },
+      "sheet": "When you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier ({{strength:modifier}}) to the attack and damage rolls when you attack with it, as normal.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_FORM_OF_THE_BEAST_BITE",
+      "name": "Bite",
+      "sheet": "It deals 1d8 + {{form of the beast:damage}} piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain {{proficiency}} hp, provided you have less than half your hp when you hit.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>Each of your hands transforms into a claw, which you can use as a weapon if it's empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_FORM_OF_THE_BEAST_CLAWS",
+      "name": "Claws",
+      "sheet": "It deals 1d6 + {{form of the beast:damage}} slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "compendium": {
+        "display": "false"
+      },
+      "description": "<p>You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_FORM_OF_THE_BEAST_TAIL",
+      "name": "Tail",
+      "sheet": "You grow a lashing, spiny tail, which deals 1d8 + {{form of the beast:damage}} piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>6th-level Path of the Beast feature</em></p> <p>The feral power within you increases, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p> <p class=\"indent\">You can also alter your form to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:</p> <ul> <li>You gain a swimming speed equal to your walking speed, and you can breathe underwater.</li> <li>You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</li> <li>When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn.</li> </ul>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_BESTIAL_SOUL",
+      "name": "Bestial Soul",
+      "sheet": "The natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest: &#13; You gain a {{speed}}ft swimming speed, and you can breathe underwater. &#13; You gain a {{speed}}ft climbing speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. &#13; When you jump, you can make a Athletics check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn.",
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>10th-level Path of the Beast feature</em></p> <p>When you hit a creature with your natural weapons while you are raging, the beast within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):</p> <ul> <li>The target must use its reaction to make a melee attack against another creature of your choice that you can see.</li> <li>The target takes 2d12 psychic damage.</li> </ul> <p class=\"indent\">You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_INFECTIOUS_FURY",
+      "name": "Infectious Fury",
+      "rules": {
+        "stat": [
+          {
+            "name": "infectious fury:dc",
+            "value": "8"
+          },
+          {
+            "name": "infectious fury:dc",
+            "value": "proficiency"
+          },
+          {
+            "name": "infectious fury:dc",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "When you hit a creature with your natural weapons while you are raging, the beast within you can curse your target with rabid fury. The target must succeed on a DC {{infectious fury:dc}} Wisdom save or suffer one of the following effects: &#13; • The target must use its reaction to make a melee attack against another creature of your choice that you can see. &#13; • The target takes 2d12 psychic damage.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p><em>14th-level Path of the Beast feature</em></p> <p>The beast within you grows so powerful that you can spread its ferocity to others and gain resilience from them joining your hunt. When you enter your rage, you can choose a number of other willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature).</p> <p class=\"indent\">You gain 5 temporary hit points for each creature that accepts this feature. Until the rage ends, the chosen creatures can use the following benefit once on each of their turns: when the creature hits a target with an attack roll and deals damage to it, the creature can roll a d6 and gain a bonus to the damage equal to the number rolled.</p> <p class=\"indent\">You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+      "id": "ID_WOTC_TCOE_ARCHETYPE_FEATURE_PATH_OF_THE_BEAST_CALL_THE_HUNT",
+      "name": "Call the Hunt",
+      "rules": {
+        "stat": [
+          {
+            "bonus": "base",
+            "name": "call the hunt:creatures",
+            "value": "1"
+          },
+          {
+            "bonus": "base",
+            "name": "call the hunt:creatures",
+            "value": "constitution:modifier"
+          }
+        ]
+      },
+      "sheet": {
+        "content": "When you enter your rage, you can choose {{call the hunt:creatures}} other willing creatures you can see within 30 feet of you. You gain 5 temporary hit points for each creature that accepts this feature. Until the rage ends, the chosen creatures can use the following benefit once on each of their turns: when the creature hits a target with an attack roll and deals damage to it, the creature can roll a d6 and gain a bonus to the damage equal to the number rolled.",
+        "usage": "{{proficiency}}/Long Rest"
+      },
+      "source": "Tasha's Cauldron of Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Tasha's Cauldron of Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything"
+    },
+    "description": "The Path of the Beast from Tasha's Cauldron of Everything",
+    "name": "Path of the Beast",
+    "update": {
+      "file": {
+        "name": "barbarian-beast.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/barbarian-beast.json"
+      },
+      "version": "0.0.1"
+    }
+  }
+}

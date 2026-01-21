@@ -1,0 +1,93 @@
+{
+  "element": [
+    {
+      "description": "<p>The reigar who creates this piece of jewelry chooses its form: bracelet, brooch, diadem, or necklace. While the reigar wears the <i>talarith</i>, any weapon wielded by the reigar deals an extra 1d6 force damage when it hits.</p> <p class=\"indent\">As an action, a reigar can use its <i>talarith</i> to summon a golem that looks just like the reigar. The golem obeys the reigar's commands and uses the reigar's statistics, except it is a Construct that doesn't have a <i>talarith</i> of its own. The golem vanishes after 1 hour, or when it is reduced to 0 hit points. After summoning a golem, the reigar must finish a short or long rest before this property can be used again.</p>",
+      "id": "ID_WOTC_BAM_MAGIC_ITEM_TALARITH",
+      "name": "Talarith",
+      "setters": {
+        "set": [
+          {
+            "description": "creature, monster, reigar, bracelet, brooch, diadem, necklace, force, damage, action, summon, golem, short, long, rest",
+            "name": "keywords"
+          },
+          {
+            "description": "Wondrous Items",
+            "name": "category"
+          },
+          {
+            "description": "Wondrous Item",
+            "name": "type"
+          },
+          {
+            "description": "Legendary",
+            "name": "rarity"
+          },
+          {
+            "addition": "by a reigar who created it",
+            "description": "true",
+            "name": "attunement"
+          }
+        ]
+      },
+      "source": "Boo's Astral Menagerie",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This charm allows you to cast the <i>air bubble</i> spell (see the <i>Astral Adventurer's Guide</i>, page 22) as an action. Once used three times, this charm goes away.</p> <div class=\"reference\"> <div element=\"ID_WOTC_AAG_SPELL_AIR_BUBBLE\" /> </div>",
+      "id": "ID_WOTC_BAM_MAGIC_ITEM_CHARM_OF_AIR_BUBBLES",
+      "name": "Charm of Air Bubbles",
+      "setters": {
+        "set": [
+          {
+            "description": "Supernatural Gifts",
+            "name": "category"
+          },
+          {
+            "description": "Charm",
+            "name": "type"
+          },
+          {
+            "description": "gift",
+            "name": "slot"
+          }
+        ]
+      },
+      "source": "Boo's Astral Menagerie",
+      "type": "Magic Item"
+    },
+    {
+      "description": "<p>This charm allows you to magically conjure a set of artisan's tools, navigator's tools, or thieves' tools. The conjured tools appear either in your hand or somewhere else in your space (your choice). Once used, this charm goes away, but the tools remain.</p>",
+      "id": "ID_WOTC_BAM_MAGIC_ITEM_CHARM_OF_INSTANT_TOOLS",
+      "name": "Charm of Instant Tools",
+      "setters": {
+        "set": [
+          {
+            "description": "Supernatural Gifts",
+            "name": "category"
+          },
+          {
+            "description": "Charm",
+            "name": "type"
+          },
+          {
+            "description": "gift",
+            "name": "slot"
+          }
+        ]
+      },
+      "source": "Boo's Astral Menagerie",
+      "type": "Magic Item"
+    }
+  ],
+  "info": {
+    "description": "Items from Boo's Astral Menagerie",
+    "name": "Items",
+    "update": {
+      "file": {
+        "name": "items.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie/items.json"
+      },
+      "version": "0.0.2"
+    }
+  }
+}

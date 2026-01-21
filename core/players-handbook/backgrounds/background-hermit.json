@@ -1,0 +1,246 @@
+{
+  "element": [
+    {
+      "description": "<p>You lived in seclusion—either in a sheltered community such as a monastery, or entirely a lone—for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for.</p> <ul class=\"unstyled\"> <li> <strong>Skill Proficiencies:</strong>Medicine, Religion</li> <li> <strong>Tool Proficiencies:</strong>Herbalism kit</li> <li> <strong>Languages:</strong>One of your choice</li> <li> <strong>Equipment:</strong>A scroll case stuffed full of notes from your studies or prayers, a winter blanket, a set of common clothes, an herbalism kit, and 5 gp</li> </ul> <h5>LIFE OF SECLUSION</h5> <p>What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your DM to determine the exact nature of your seclusion, or you can choose or roll on the table below to determine the reason behind your seclusion.</p> <table> <thead> <tr> <td>d8</td> <td>Life of Seclusion</td> </tr> </thead> <tr> <td>1</td> <td>I was searching for spiritual enlightenment.</td> </tr> <tr> <td>2</td> <td>I was partaking of communal living in accordance with the dictates of a religious order.</td> </tr> <tr> <td>3</td> <td>I was exiled for a crime I didn't commit.</td> </tr> <tr> <td>4</td> <td>I retreated from society after a life-altering event.</td> </tr> <tr> <td>5</td> <td>I needed a quiet place to work on my art, literature, music, or manifesto.</td> </tr> <tr> <td>6</td> <td>I needed to commune with nature, far from civilization.</td> </tr> <tr> <td>7</td> <td>I was the caretaker of an ancient ruin or relic.</td> </tr> <tr> <td>8</td> <td>I was a pilgrim in search of a person, place, or relic of spiritual significance.</td> </tr> </table> <div element=\"ID_BACKGROUND_FEATURE_DISCOVERY\" /> <h5>SUGGESTED CHARACTERISTICS</h5> <p>Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. A few are driven slightly mad by their years apart from society.</p> <h5>OTHER HERMITS</h5> <p>This hermit background assumes a contemplative sort of seclusion that allows room for study and prayer. If you want to play a rugged wilderness recluse who lives off the land while shunning the company of other people, look at the outlander background. On the other hand, if you want to go in a more religious direction, the acolyte might be what you're looking for. Or you could even be a charlatan, posing as a wise and holy person and letting pious fools support you.</p>",
+      "id": "ID_BACKGROUND_HERMIT",
+      "name": "Hermit",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_PROFICIENCY_SKILL_MEDICINE",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_SKILL_RELIGION",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT",
+            "type": "Proficiency"
+          },
+          {
+            "id": "ID_BACKGROUND_FEATURE_DISCOVERY",
+            "requirements": "!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE",
+            "type": "Background Feature"
+          }
+        ],
+        "select": [
+          {
+            "name": "Language (Hermit)",
+            "supports": "Standard||Exotic",
+            "type": "Language"
+          },
+          {
+            "name": "Variant Feature",
+            "optional": "true",
+            "supports": "Optional Background Feature",
+            "type": "Background Feature"
+          },
+          {
+            "item": [
+              {
+                "description": "I was searching for spiritual enlightenment.",
+                "id": "1"
+              },
+              {
+                "description": "I was partaking of communal living in accordance with the dictates of a religious order.",
+                "id": "2"
+              },
+              {
+                "description": "I was exiled for a crime I didn't commit.",
+                "id": "3"
+              },
+              {
+                "description": "I retreated from society after a life-altering event.",
+                "id": "4"
+              },
+              {
+                "description": "I needed a quiet place to work on my art, literature, music, or manifesto.",
+                "id": "5"
+              },
+              {
+                "description": "I needed to commune with nature, far from civilization.",
+                "id": "6"
+              },
+              {
+                "description": "I was the caretaker of an ancient ruin or relic.",
+                "id": "7"
+              },
+              {
+                "description": "I was a pilgrim in search of a person, place, or relic of spiritual significance.",
+                "id": "8"
+              }
+            ],
+            "name": "Life of Seclusion",
+            "optional": "true",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt.",
+                "id": "1"
+              },
+              {
+                "description": "I am utterly serene, even in the face of disaster.",
+                "id": "2"
+              },
+              {
+                "description": "The leader of my community had something wise to say on every topic, and I am eager to share that wisdom.",
+                "id": "3"
+              },
+              {
+                "description": "I feel tremendous empathy for all who suffer.",
+                "id": "4"
+              },
+              {
+                "description": "I'm oblivious to etiquette and social expectations.",
+                "id": "5"
+              },
+              {
+                "description": "I connect everything that happens to me to a grand, cosmic plan.",
+                "id": "6"
+              },
+              {
+                "description": "I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings.",
+                "id": "7"
+              },
+              {
+                "description": "I am working on a grand philosophical theory and love sharing my ideas.",
+                "id": "8"
+              }
+            ],
+            "name": "Personality Trait",
+            "number": "2",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",
+                "id": "1"
+              },
+              {
+                "description": "Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)",
+                "id": "2"
+              },
+              {
+                "description": "Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)",
+                "id": "3"
+              },
+              {
+                "description": "Power. Solitude and contemplation are paths toward mystical or magical power. (Evil)",
+                "id": "4"
+              },
+              {
+                "description": "Live and Let Live. Meddling in the affairs of others only causes trouble. (Neutral)",
+                "id": "5"
+              },
+              {
+                "description": "Self-Knowledge. If you know yourself, there's nothing left to know. (Any)",
+                "id": "6"
+              }
+            ],
+            "name": "Ideal",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Nothing is more important than the other members of my hermitage, order, or association.",
+                "id": "1"
+              },
+              {
+                "description": "I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.",
+                "id": "2"
+              },
+              {
+                "description": "I'm still seeking the enlightenment I pursued in my seclusion, and it still eludes me.",
+                "id": "3"
+              },
+              {
+                "description": "I entered seclusion because I loved someone I could not have.",
+                "id": "4"
+              },
+              {
+                "description": "Should my discovery come to light, it could bring ruin to the world.",
+                "id": "5"
+              },
+              {
+                "description": "My isolation gave me great insight into a great evil that only I can destroy.",
+                "id": "6"
+              }
+            ],
+            "name": "Bond",
+            "type": "List"
+          },
+          {
+            "item": [
+              {
+                "description": "Now that I've returned to the world, I enjoy its delights a little too much.",
+                "id": "1"
+              },
+              {
+                "description": "I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.",
+                "id": "2"
+              },
+              {
+                "description": "I am dogmatic in my thoughts and philosophy.",
+                "id": "3"
+              },
+              {
+                "description": "I let my need to win arguments overshadow friendships and harmony.",
+                "id": "4"
+              },
+              {
+                "description": "I'd risk too much to uncover a lost bit of knowledge.",
+                "id": "5"
+              },
+              {
+                "description": "I like keeping secrets and won't share them with anyone.",
+                "id": "6"
+              }
+            ],
+            "name": "Flaw",
+            "type": "List"
+          }
+        ]
+      },
+      "setters": {
+        "set": {
+          "description": "Medicine, Religion, Herbalism kit, Language",
+          "name": "short"
+        }
+      },
+      "source": "Player's Handbook",
+      "type": "Background"
+    },
+    {
+      "description": "<p>The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society.</p> <p class=\"indent\">Work with your DM to determine the details of your discovery and its impact on the campaign.</p>",
+      "id": "ID_BACKGROUND_FEATURE_DISCOVERY",
+      "name": "Feature: Discovery",
+      "sheet": {
+        "alt": "Discovery",
+        "content": "The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society."
+      },
+      "source": "Player's Handbook",
+      "supports": "Background Feature",
+      "type": "Background Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Wizards of the Coast",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook"
+    },
+    "description": "Hermit Background",
+    "name": "Hermit",
+    "update": {
+      "file": {
+        "name": "background-hermit.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-hermit.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}

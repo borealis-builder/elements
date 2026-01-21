@@ -1,0 +1,106 @@
+{
+  "element": [
+    {
+      "description": "<p>Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots— warriors who channel their rage into powerful displays of divine power.</p> <p class=\"indent\">A variety of gods across the worlds of D&amp;D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.</p> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_DIVINE_FURY\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_WARRIOR_OF_THE_GODS\"/> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_FANATICAL_FOCUS\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_ZEALOUS_PRESENCE\" /> <div element=\"ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_RAGE_BEYOND_DEATH\" />",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_PATH_OF_THE_ZEALOT",
+      "name": "Path of the Zealot",
+      "rules": {
+        "grant": [
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_DIVINE_FURY",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_WARRIOR_OF_THE_GODS",
+            "level": "3",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_FANATICAL_FOCUS",
+            "level": "6",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_ZEALOUS_PRESENCE",
+            "level": "10",
+            "type": "Archetype Feature"
+          },
+          {
+            "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_RAGE_BEYOND_DEATH",
+            "level": "14",
+            "type": "Archetype Feature"
+          }
+        ]
+      },
+      "sheet": {
+        "display": "false"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "supports": "Primal Path",
+      "type": "Archetype"
+    },
+    {
+      "description": "<p>Starting when you choose this path at 3rd level, you can channel divine fury into your weapon strikes. While you're raging, the first creature you hit on each of your turns with a weapon attack takes extra damage equal to 1d6 + half your barbarian level. The extra damage is necrotic or radiant; you choose the type of damage when you gain this feature.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_DIVINE_FURY",
+      "name": "Divine Fury",
+      "sheet": "While raging, the first creature you hit during your turn with a weapon attack takes an extra 1d6+{{level:barbarian:half}} necrotic or radiant damage (choose when taking this feature.)",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 3rd level, your soul is marked for endless battle. If a spell, such as raise dead, has the sole effect of restoring you to life (but not undeath), the caster doesn't need material components to cast the spell on you.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_WARRIOR_OF_THE_GODS",
+      "name": "Warrior of the Gods",
+      "sheet": "When a spell with the sole effect of restoring you to life (not undeath) is cast on you, the caster doesn't need material components.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Starting at 6th level, the divine power that fuels your rage can protect you. If you fail a saving throw while you're raging, you can reroll it, and you must use the new roll. You can use this ability only once per rage.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_FANATICAL_FOCUS",
+      "name": "Fanatical Focus",
+      "sheet": {
+        "content": "While raging, if you fail a saving throw, you can reroll it, and you must use the new roll.",
+        "usage": "1/Rage"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>At 10th level, you learn to channel divine power to inspire zealotry in others. As a bonus action, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you that can hear you gain advantage on attack rolls and saving throws until the start of your next turn. Once you use this feature, you can't use it again until you finish a long rest.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_ZEALOUS_PRESENCE",
+      "name": "Zealous Presence",
+      "sheet": {
+        "action": "Bonus Action",
+        "content": "Choose up to 10 other creatures within 60ft of you that can hear you, they gain advantage on attack rolls and saving throws until the start of your next turn.",
+        "usage": "1/Long Rest"
+      },
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    },
+    {
+      "description": "<p>Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows. While you're raging, having 0 hit points doesn't knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don't die until your rage ends, and you die then only if you still have 0 hit points.</p>",
+      "id": "ID_WOTC_XGTE_ARCHETYPE_FEATURE_ZEALOT_RAGE_BEYOND_DEATH",
+      "name": "Rage Beyond Death",
+      "sheet": "While raging, if you drop to 0HP, you don't fall unconscious. You do make death saves, and taking damage counts as a failed save, as normal. If you would die from failing saves, you instead die only if your rage ends and you have't gone above 0HP.",
+      "source": "Xanathar's Guide to Everything",
+      "type": "Archetype Feature"
+    }
+  ],
+  "info": {
+    "author": {
+      "description": "Xanathar's Guide to Everything",
+      "url": "http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything"
+    },
+    "description": "The Zealot from Xanathar's Guide to Everything",
+    "name": "Zealot",
+    "update": {
+      "file": {
+        "name": "barbarian-zealot.json",
+        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/barbarian-zealot.json"
+      },
+      "version": "0.0.6"
+    }
+  }
+}
