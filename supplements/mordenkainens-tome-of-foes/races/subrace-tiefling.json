@@ -641,7 +641,7 @@
     "update": {
       "file": {
         "name": "subrace-tiefling.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-tiefling.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-tiefling.json"
       },
       "version": "0.0.3"
     }

@@ -14,7 +14,7 @@
           "name": "url"
         },
         {
-          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/VRGTR.png",
+          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/VRGTR.png",
           "name": "image"
         },
         {
@@ -44,7 +44,7 @@
     "update": {
       "file": {
         "name": "source.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/source.json"
       },
       "version": "0.0.3"
     }

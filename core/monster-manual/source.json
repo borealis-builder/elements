@@ -14,7 +14,7 @@
           "name": "url"
         },
         {
-          "description": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/MM.png",
+          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/MM.png",
           "name": "image"
         },
         {
@@ -48,7 +48,7 @@
     "update": {
       "file": {
         "name": "sources.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/source.json"
       },
       "version": "0.0.3"
     }

@@ -191,7 +191,7 @@
     "update": {
       "file": {
         "name": "background-urbanbountyhunter.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-urbanbountyhunter.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-urbanbountyhunter.json"
       },
       "version": "0.1.5"
     }

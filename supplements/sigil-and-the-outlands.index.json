@@ -10,7 +10,7 @@
       "version": "0.0.1",
       "file": {
         "name": "sigil-and-the-outlands.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands.index.json"
       }
     }
   },
@@ -18,32 +18,32 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/source.json"
     },
     {
       "name": "background-gate-warden.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/backgrounds/background-gate-warden.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/backgrounds/background-gate-warden.json"
     },
     {
       "name": "background-planar-philosopher.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/backgrounds/background-planar-philosopher.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/backgrounds/background-planar-philosopher.json"
     },
     {
       "name": "feats.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/feats.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/feats.json"
     },
     {
       "name": "items-magic.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/items-magic.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/items-magic.json"
     },
     {
       "name": "spells.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/spells.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/spells.json"
     }
   ]
 }

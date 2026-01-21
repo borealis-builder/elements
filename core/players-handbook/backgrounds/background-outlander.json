@@ -245,7 +245,7 @@
     "update": {
       "file": {
         "name": "background-outlander.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/backgrounds/background-outlander.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/backgrounds/background-outlander.json"
       },
       "version": "0.0.5"
     }

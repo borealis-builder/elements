@@ -234,7 +234,7 @@
     "update": {
       "file": {
         "name": "izzet-engineer.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/izzet-engineer.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/izzet-engineer.json"
       },
       "version": "0.0.7"
     }

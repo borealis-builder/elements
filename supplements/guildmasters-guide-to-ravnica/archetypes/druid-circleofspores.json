@@ -237,7 +237,7 @@
     "update": {
       "file": {
         "name": "druid-circleofspores.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/archetypes/druid-circleofspores.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/archetypes/druid-circleofspores.json"
       },
       "version": "0.0.3"
     }

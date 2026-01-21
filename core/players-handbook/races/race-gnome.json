@@ -260,7 +260,7 @@
     "update": {
       "file": {
         "name": "race-gnome.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-gnome.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/races/race-gnome.json"
       },
       "version": "0.1.9"
     }

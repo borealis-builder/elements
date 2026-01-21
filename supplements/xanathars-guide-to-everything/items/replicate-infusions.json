@@ -437,7 +437,7 @@
     "update": {
       "file": {
         "name": "replicate-infusions.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/items/replicate-infusions.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/items/replicate-infusions.json"
       },
       "version": "0.0.1"
     }

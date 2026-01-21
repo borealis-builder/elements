@@ -230,7 +230,7 @@
     "update": {
       "file": {
         "name": "cleric-gravedomain.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/cleric-gravedomain.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/cleric-gravedomain.json"
       },
       "version": "0.1.9"
     }

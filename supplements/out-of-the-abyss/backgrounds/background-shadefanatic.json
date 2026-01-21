@@ -9,7 +9,7 @@
     "update": {
       "file": {
         "name": "background-shadefanatic.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss/backgrounds/background-shadefanatic.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss/backgrounds/background-shadefanatic.json"
       },
       "version": "0.1.3"
     }

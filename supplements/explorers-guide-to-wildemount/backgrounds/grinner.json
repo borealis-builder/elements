@@ -192,7 +192,7 @@
     "update": {
       "file": {
         "name": "grinner.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/backgrounds/grinner.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/backgrounds/grinner.json"
       },
       "version": "0.0.2"
     }

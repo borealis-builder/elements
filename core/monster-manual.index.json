@@ -10,7 +10,7 @@
       "version": "0.0.5",
       "file": {
         "name": "monster-manual.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual.index.json"
       }
     }
   },
@@ -18,22 +18,22 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/source.json"
     },
     {
       "name": "companions.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/companions.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/companions.json"
     },
     {
       "name": "languages.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/languages.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/languages.json"
     },
     {
       "name": "lycanthropy-additional-feature.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/lycanthropy-additional-feature.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/lycanthropy-additional-feature.json"
     }
   ]
 }

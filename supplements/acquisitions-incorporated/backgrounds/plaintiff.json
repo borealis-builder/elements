@@ -194,7 +194,7 @@
     "update": {
       "file": {
         "name": "plaintiff.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/backgrounds/plaintiff.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/backgrounds/plaintiff.json"
       },
       "version": "0.0.3"
     }

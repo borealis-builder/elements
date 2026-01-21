@@ -1189,7 +1189,7 @@
     "update": {
       "file": {
         "name": "companions.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/companions.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/companions.json"
       },
       "version": "0.0.6"
     }

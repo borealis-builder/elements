@@ -216,7 +216,7 @@
     "update": {
       "file": {
         "name": "background-citywatch.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-citywatch.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-citywatch.json"
       },
       "version": "0.0.5"
     }

@@ -288,7 +288,7 @@
     "update": {
       "file": {
         "name": "artificer-alchemist.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-alchemist.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-alchemist.json"
       },
       "version": "0.0.1"
     }

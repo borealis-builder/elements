@@ -288,7 +288,7 @@
     "update": {
       "file": {
         "name": "background-options.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus/backgrounds/background-options.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/descent-into-avernus/backgrounds/background-options.json"
       },
       "version": "0.0.2"
     }

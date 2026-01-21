@@ -108,7 +108,7 @@
     "update": {
       "file": {
         "name": "background-haunted-one.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-haunted-one.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-haunted-one.json"
       },
       "version": "0.0.2"
     }

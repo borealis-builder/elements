@@ -141,7 +141,7 @@
     "update": {
       "file": {
         "name": "race-satyr.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-satyr.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse/race-satyr.json"
       },
       "version": "0.0.1"
     }

@@ -242,7 +242,7 @@
     "update": {
       "file": {
         "name": "cleric-tempest.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-tempest.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/cleric-tempest.json"
       },
       "version": "0.0.2"
     }

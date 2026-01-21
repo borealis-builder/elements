@@ -14,7 +14,7 @@
           "name": "url"
         },
         {
-          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/MOOT.png",
+          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/MOOT.png",
           "name": "image"
         },
         {
@@ -44,7 +44,7 @@
     "update": {
       "file": {
         "name": "source.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/source.json"
       },
       "version": "0.0.4"
     }

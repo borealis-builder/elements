@@ -229,7 +229,7 @@
     "update": {
       "file": {
         "name": "simic-scientist.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/simic-scientist.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/simic-scientist.json"
       },
       "version": "0.0.5"
     }

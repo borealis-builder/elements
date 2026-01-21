@@ -9,7 +9,7 @@
       "version": "0.0.1",
       "file": {
         "name": "light-of-xaryxis.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/light-of-xaryxis.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/light-of-xaryxis.index.json"
       }
     }
   },
@@ -17,7 +17,7 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/light-of-xaryxis/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/light-of-xaryxis/source.json"
     }
   ]
 }

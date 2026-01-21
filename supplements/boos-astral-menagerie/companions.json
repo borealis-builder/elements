@@ -893,7 +893,7 @@
     "update": {
       "file": {
         "name": "companions.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie/companions.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/boos-astral-menagerie/companions.json"
       },
       "version": "0.0.1"
     }

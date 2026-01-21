@@ -283,7 +283,7 @@
     "update": {
       "file": {
         "name": "sorcerer-aberrant.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-aberrant.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-aberrant.json"
       },
       "version": "0.0.5"
     }

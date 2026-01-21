@@ -142,7 +142,7 @@
     "update": {
       "file": {
         "name": "lycanthropy-wereraven.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/lycanthropy-wereraven.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/lycanthropy-wereraven.json"
       },
       "version": "0.0.1"
     }

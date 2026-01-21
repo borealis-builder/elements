@@ -148,7 +148,7 @@
     "update": {
       "file": {
         "name": "race-sea-elf.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-sea-elf.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse/race-sea-elf.json"
       },
       "version": "0.0.1"
     }

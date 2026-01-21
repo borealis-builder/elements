@@ -14,7 +14,7 @@
           "name": "url"
         },
         {
-          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss/OOTA.jpg",
+          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss/OOTA.jpg",
           "name": "image"
         },
         {
@@ -48,7 +48,7 @@
     "update": {
       "file": {
         "name": "source.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss/source.json"
       },
       "version": "0.1.2"
     }

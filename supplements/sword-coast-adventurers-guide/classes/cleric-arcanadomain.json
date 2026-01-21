@@ -253,7 +253,7 @@
     "update": {
       "file": {
         "name": "cleric-arcanadomain.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/cleric-arcanadomain.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/cleric-arcanadomain.json"
       },
       "version": "0.1.8"
     }

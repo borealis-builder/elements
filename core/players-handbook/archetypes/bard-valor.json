@@ -130,7 +130,7 @@
     "update": {
       "file": {
         "name": "bard-valor.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/bard-valor.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/bard-valor.json"
       },
       "version": "0.0.1"
     }

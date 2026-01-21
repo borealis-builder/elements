@@ -201,7 +201,7 @@
     "update": {
       "file": {
         "name": "warlock-hexblade.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/warlock-hexblade.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/warlock-hexblade.json"
       },
       "version": "0.0.8"
     }

@@ -141,7 +141,7 @@
     "update": {
       "file": {
         "name": "rogue-phantom.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/rogue-phantom.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/rogue-phantom.json"
       },
       "version": "0.0.1"
     }

@@ -190,7 +190,7 @@
     "update": {
       "file": {
         "name": "race-goliath.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-goliath.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-goliath.json"
       },
       "version": "0.1.8"
     }

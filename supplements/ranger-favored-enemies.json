@@ -189,7 +189,7 @@
     "update": {
       "file": {
         "name": "ranger-favored-enemies.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ranger-favored-enemies.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/ranger-favored-enemies.json"
       },
       "version": "0.0.1"
     }

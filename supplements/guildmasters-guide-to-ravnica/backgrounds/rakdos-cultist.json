@@ -232,7 +232,7 @@
     "update": {
       "file": {
         "name": "rakdos-cultist.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/rakdos-cultist.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/rakdos-cultist.json"
       },
       "version": "0.0.7"
     }

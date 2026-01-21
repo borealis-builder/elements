@@ -193,7 +193,7 @@
     "update": {
       "file": {
         "name": "marine.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/marine.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/marine.json"
       },
       "version": "0.0.3"
     }

@@ -137,7 +137,7 @@
     "update": {
       "file": {
         "name": "race-thri-kreen.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-thri-kreen.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/astral-adventurers-guide/races/race-thri-kreen.json"
       },
       "version": "0.0.1"
     }

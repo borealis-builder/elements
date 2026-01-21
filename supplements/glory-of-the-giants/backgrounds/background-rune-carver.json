@@ -100,7 +100,7 @@
     "update": {
       "file": {
         "name": "background-rune-carver.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/backgrounds/background-rune-carver.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants/backgrounds/background-rune-carver.json"
       },
       "version": "0.0.2"
     }

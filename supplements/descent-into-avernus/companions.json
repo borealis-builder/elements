@@ -140,7 +140,7 @@
     "update": {
       "file": {
         "name": "companions.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus/companions.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/descent-into-avernus/companions.json"
       },
       "version": "0.0.1"
     }

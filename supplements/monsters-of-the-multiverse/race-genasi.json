@@ -539,7 +539,7 @@
     "update": {
       "file": {
         "name": "race-genasi.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-genasi.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse/race-genasi.json"
       },
       "version": "0.0.2"
     }

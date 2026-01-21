@@ -10,7 +10,7 @@
       "version": "0.0.3",
       "file": {
         "name": "guildmasters-guide-to-ravnica.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica.index.json"
       }
     }
   },
@@ -18,117 +18,117 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/source.json"
     },
     {
       "name": "centaur.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/centaur.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/races/centaur.json"
     },
     {
       "name": "goblin.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/goblin.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/races/goblin.json"
     },
     {
       "name": "loxodon.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/loxodon.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/races/loxodon.json"
     },
     {
       "name": "minotaur.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/minotaur.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/races/minotaur.json"
     },
     {
       "name": "simic-hybrid.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/simic-hybrid.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/races/simic-hybrid.json"
     },
     {
       "name": "vedalken.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/vedalken.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/races/vedalken.json"
     },
     {
       "name": "cleric-orderdomain.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/archetypes/cleric-orderdomain.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/archetypes/cleric-orderdomain.json"
     },
     {
       "name": "druid-circleofspores.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/archetypes/druid-circleofspores.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/archetypes/druid-circleofspores.json"
     },
     {
       "name": "azorius-functionary.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/azorius-functionary.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/azorius-functionary.json"
     },
     {
       "name": "boros-legionnaire.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/boros-legionnaire.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/boros-legionnaire.json"
     },
     {
       "name": "dimir-operative.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/dimir-operative.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/dimir-operative.json"
     },
     {
       "name": "golgari-agent.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/golgari-agent.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/golgari-agent.json"
     },
     {
       "name": "gruul-anarch.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/gruul-anarch.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/gruul-anarch.json"
     },
     {
       "name": "izzet-engineer.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/izzet-engineer.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/izzet-engineer.json"
     },
     {
       "name": "orzhov-representative.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/orzhov-representative.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/orzhov-representative.json"
     },
     {
       "name": "rakdos-cultist.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/rakdos-cultist.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/rakdos-cultist.json"
     },
     {
       "name": "selesnya-initiate.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/selesnya-initiate.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/selesnya-initiate.json"
     },
     {
       "name": "simic-scientist.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/simic-scientist.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/simic-scientist.json"
     },
     {
       "name": "spells.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/spells.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/spells.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/items.json"
     },
     {
       "name": "replicate-infusions.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/replicate-infusions.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/replicate-infusions.json"
     },
     {
       "name": "languages.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/languages.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/languages.json"
     }
   ]
 }

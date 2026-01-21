@@ -165,7 +165,7 @@
     "update": {
       "file": {
         "name": "fighter-champion.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/fighter-champion.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/fighter-champion.json"
       },
       "version": "0.0.1"
     }

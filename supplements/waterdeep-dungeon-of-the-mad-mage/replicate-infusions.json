@@ -32,7 +32,7 @@
     "update": {
       "file": {
         "name": "replicate-infusions.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/replicate-infusions.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/replicate-infusions.json"
       },
       "version": "0.0.1"
     }

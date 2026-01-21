@@ -9,7 +9,7 @@
     "update": {
       "file": {
         "name": "background-ironroutebandit.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/curse-of-strahd/backgrounds/background-ironroutebandit.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/curse-of-strahd/backgrounds/background-ironroutebandit.json"
       },
       "version": "0.0.6"
     }

@@ -14,7 +14,7 @@
           "name": "url"
         },
         {
-          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/critical-role-call-of-the-netherdeep/CRCN.png",
+          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/critical-role-call-of-the-netherdeep/CRCN.png",
           "name": "image"
         },
         {
@@ -44,7 +44,7 @@
     "update": {
       "file": {
         "name": "source.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/critical-role-call-of-the-netherdeep/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/critical-role-call-of-the-netherdeep/source.json"
       },
       "version": "0.0.2"
     }

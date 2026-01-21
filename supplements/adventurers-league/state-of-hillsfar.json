@@ -1352,7 +1352,7 @@
     "update": {
       "file": {
         "name": "state-of-hillsfar.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/state-of-hillsfar.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/adventurers-league/state-of-hillsfar.json"
       },
       "version": "0.0.1"
     }

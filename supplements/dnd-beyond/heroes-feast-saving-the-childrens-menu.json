@@ -15,7 +15,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/HFSCM.jpg",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dnd-beyond/HFSCM.jpg",
             "name": "image"
           },
           {
@@ -69,7 +69,7 @@
     "update": {
       "file": {
         "name": "heroes-feast-saving-the-childrens-menu.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/heroes-feast-saving-the-childrens-menu.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dnd-beyond/heroes-feast-saving-the-childrens-menu.json"
       },
       "version": "0.0.1"
     }

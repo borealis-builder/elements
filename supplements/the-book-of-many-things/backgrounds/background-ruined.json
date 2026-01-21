@@ -108,7 +108,7 @@
     "update": {
       "file": {
         "name": "background-ruined.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things/backgrounds/background-ruined.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/the-book-of-many-things/backgrounds/background-ruined.json"
       },
       "version": "0.0.1"
     }

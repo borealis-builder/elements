@@ -2393,7 +2393,7 @@
     "update": {
       "file": {
         "name": "spells.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse/spells.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse/spells.json"
       },
       "version": "0.1.6"
     }

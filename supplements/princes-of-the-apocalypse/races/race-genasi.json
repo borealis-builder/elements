@@ -402,7 +402,7 @@
     "update": {
       "file": {
         "name": "race-genasi.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse/races/race-genasi.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse/races/race-genasi.json"
       },
       "version": "0.1.8"
     }

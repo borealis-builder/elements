@@ -19,7 +19,7 @@
     "update": {
       "file": {
         "name": "feats-ixalan.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/ixalan/feats-ixalan.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/ixalan/feats-ixalan.json"
       },
       "version": "0.0.2"
     }

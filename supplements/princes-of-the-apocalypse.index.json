@@ -10,7 +10,7 @@
       "version": "0.0.5",
       "file": {
         "name": "princes-of-the-apocalypse.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse.index.json"
       }
     }
   },
@@ -18,27 +18,27 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse/source.json"
     },
     {
       "name": "race-aarakocra.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse/races/race-aarakocra.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse/races/race-aarakocra.json"
     },
     {
       "name": "race-genasi.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse/races/race-genasi.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse/races/race-genasi.json"
     },
     {
       "name": "spells.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse/spells.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse/spells.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse/items.json"
     }
   ]
 }

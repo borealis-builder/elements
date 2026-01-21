@@ -183,7 +183,7 @@
     "update": {
       "file": {
         "name": "race-tiefling.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-tiefling.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/races/race-tiefling.json"
       },
       "version": "0.2.7"
     }

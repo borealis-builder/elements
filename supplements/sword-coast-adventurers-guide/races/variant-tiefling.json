@@ -132,7 +132,7 @@
     "update": {
       "file": {
         "name": "variant-tiefling.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/variant-tiefling.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/races/variant-tiefling.json"
       },
       "version": "0.0.6"
     }

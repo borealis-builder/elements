@@ -10,7 +10,7 @@
       "version": "0.1.8",
       "file": {
         "name": "planeshift.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift.index.json"
       }
     }
   },
@@ -18,142 +18,142 @@
     {
       "name": "sources.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/sources.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/sources.json"
     },
     {
       "name": "background-initiate.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/background-initiate.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/background-initiate.json"
     },
     {
       "name": "race-naga.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/race-naga.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/race-naga.json"
     },
     {
       "name": "race-minotaur.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/race-minotaur.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/race-minotaur.json"
     },
     {
       "name": "race-aven.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/race-aven.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/race-aven.json"
     },
     {
       "name": "background-vizier.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/background-vizier.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/background-vizier.json"
     },
     {
       "name": "cleric-strength.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/cleric-strength.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/cleric-strength.json"
     },
     {
       "name": "cleric-solidarity.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/cleric-solidarity.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/cleric-solidarity.json"
     },
     {
       "name": "cleric-ambition.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/cleric-ambition.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/cleric-ambition.json"
     },
     {
       "name": "cleric-zeal.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/cleric-zeal.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/cleric-zeal.json"
     },
     {
       "name": "race-khenra.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/race-khenra.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/race-khenra.json"
     },
     {
       "name": "race-human-innistrad.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/innistrad/race-human-innistrad.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/innistrad/race-human-innistrad.json"
     },
     {
       "name": "background-inquisitor.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/innistrad/background-inquisitor.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/innistrad/background-inquisitor.json"
     },
     {
       "name": "race-siren.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/ixalan/race-siren.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/ixalan/race-siren.json"
     },
     {
       "name": "subrace-merfolk.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/ixalan/subrace-merfolk.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/ixalan/subrace-merfolk.json"
     },
     {
       "name": "feats-ixalan.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/ixalan/feats-ixalan.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/ixalan/feats-ixalan.json"
     },
     {
       "name": "race-aetherborn.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/race-aetherborn.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/kaladesh/race-aetherborn.json"
     },
     {
       "name": "race-vedalken.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/race-vedalken.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/kaladesh/race-vedalken.json"
     },
     {
       "name": "sorcerer-pyromancer.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/sorcerer-pyromancer.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/kaladesh/sorcerer-pyromancer.json"
     },
     {
       "name": "subrace-dwarf.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/subrace-dwarf.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/kaladesh/subrace-dwarf.json"
     },
     {
       "name": "subrace-elf-kaladesh.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/subrace-elf-kaladesh.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/kaladesh/subrace-elf-kaladesh.json"
     },
     {
       "name": "feats-kaladesh.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/feats-kaladesh.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/kaladesh/feats-kaladesh.json"
     },
     {
       "name": "race-kor.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/zendikar/race-kor.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/zendikar/race-kor.json"
     },
     {
       "name": "race-merfolk.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/zendikar/race-merfolk.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/zendikar/race-merfolk.json"
     },
     {
       "name": "race-vampire.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/zendikar/race-vampire.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/zendikar/race-vampire.json"
     },
     {
       "name": "race-goblin.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/zendikar/race-goblin.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/zendikar/race-goblin.json"
     },
     {
       "name": "subrace-elf-zendikar.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/zendikar/subrace-elf-zendikar.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/zendikar/subrace-elf-zendikar.json"
     },
     {
       "name": "race-keldon-human.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/dominaria/race-keldon-human.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/dominaria/race-keldon-human.json"
     }
   ]
 }

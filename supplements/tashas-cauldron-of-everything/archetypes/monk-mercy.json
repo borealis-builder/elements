@@ -133,7 +133,7 @@
     "update": {
       "file": {
         "name": "monk-mercy.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/monk-mercy.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/monk-mercy.json"
       },
       "version": "0.0.1"
     }

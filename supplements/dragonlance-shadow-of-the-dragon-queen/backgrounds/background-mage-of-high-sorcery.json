@@ -75,7 +75,7 @@
     "update": {
       "file": {
         "name": "background-mage-of-high-sorcery.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/backgrounds/background-mage-of-high-sorcery.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/backgrounds/background-mage-of-high-sorcery.json"
       },
       "version": "0.0.1"
     }

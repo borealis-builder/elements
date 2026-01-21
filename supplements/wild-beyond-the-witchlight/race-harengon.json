@@ -161,7 +161,7 @@
     "update": {
       "file": {
         "name": "race-harengon.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight/race-harengon.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/wild-beyond-the-witchlight/race-harengon.json"
       },
       "version": "0.0.2"
     }

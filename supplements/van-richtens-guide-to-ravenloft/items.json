@@ -298,7 +298,7 @@
     "update": {
       "file": {
         "name": "items.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/items.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/items.json"
       },
       "version": "0.0.1"
     }

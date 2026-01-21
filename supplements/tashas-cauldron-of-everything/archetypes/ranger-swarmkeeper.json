@@ -152,7 +152,7 @@
     "update": {
       "file": {
         "name": "ranger-swarmkeeper.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-swarmkeeper.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-swarmkeeper.json"
       },
       "version": "0.0.2"
     }

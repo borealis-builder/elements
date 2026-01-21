@@ -521,7 +521,7 @@
     "update": {
       "file": {
         "name": "feats.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/feats.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/feats.json"
       },
       "version": "0.0.3"
     }

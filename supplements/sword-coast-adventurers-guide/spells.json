@@ -249,7 +249,7 @@
     "update": {
       "file": {
         "name": "spells.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/spells.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/spells.json"
       },
       "version": "0.2.3"
     }

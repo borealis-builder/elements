@@ -190,7 +190,7 @@
     "update": {
       "file": {
         "name": "centaur.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/centaur.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/races/centaur.json"
       },
       "version": "0.0.5"
     }

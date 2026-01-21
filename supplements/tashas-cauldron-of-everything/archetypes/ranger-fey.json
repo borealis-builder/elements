@@ -205,7 +205,7 @@
     "update": {
       "file": {
         "name": "ranger-fey.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-fey.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-fey.json"
       },
       "version": "0.0.2"
     }

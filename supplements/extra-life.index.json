@@ -9,7 +9,7 @@
       "version": "0.0.3",
       "file": {
         "name": "extra-life.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life.index.json"
       }
     }
   },
@@ -17,27 +17,27 @@
     {
       "name": "tortle-package.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/tortle-package.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/tortle-package.json"
     },
     {
       "name": "one-grung-above.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/one-grung-above.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/one-grung-above.json"
     },
     {
       "name": "lost-laboratory-of-kwalish.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/lost-laboratory-of-kwalish.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/lost-laboratory-of-kwalish.json"
     },
     {
       "name": "locathah-rising.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/locathah-rising.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/locathah-rising.json"
     },
     {
       "name": "adventure-with-muk.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/adventure-with-muk.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/adventure-with-muk.json"
     }
   ]
 }

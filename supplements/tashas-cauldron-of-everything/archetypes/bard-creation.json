@@ -184,7 +184,7 @@
     "update": {
       "file": {
         "name": "bard-creation.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/bard-creation.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/bard-creation.json"
       },
       "version": "0.0.2"
     }

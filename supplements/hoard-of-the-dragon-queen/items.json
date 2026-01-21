@@ -448,7 +448,7 @@
     "update": {
       "file": {
         "name": "items.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/hoard-of-the-dragon-queen/items.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/hoard-of-the-dragon-queen/items.json"
       },
       "version": "0.0.6"
     }

@@ -373,7 +373,7 @@
     "update": {
       "file": {
         "name": "druid-wildfire.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/druid-wildfire.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/druid-wildfire.json"
       },
       "version": "0.0.2"
     }

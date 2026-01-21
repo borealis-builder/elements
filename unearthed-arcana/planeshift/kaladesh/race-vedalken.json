@@ -149,7 +149,7 @@
     "update": {
       "file": {
         "name": "race-vedalken.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/race-vedalken.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/kaladesh/race-vedalken.json"
       },
       "version": "0.0.4"
     }

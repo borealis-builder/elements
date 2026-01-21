@@ -201,7 +201,7 @@
     "update": {
       "file": {
         "name": "background-clancrafter.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-clancrafter.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-clancrafter.json"
       },
       "version": "0.1.3"
     }

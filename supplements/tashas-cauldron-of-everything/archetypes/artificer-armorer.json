@@ -623,7 +623,7 @@
     "update": {
       "file": {
         "name": "artificer-armorer.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-armorer.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/artificer-armorer.json"
       },
       "version": "0.0.4"
     }

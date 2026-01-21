@@ -674,7 +674,7 @@
     "update": {
       "file": {
         "name": "ranger-drakewarden.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/archetypes/ranger-drakewarden.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/fizbans-treasury-of-dragons/archetypes/ranger-drakewarden.json"
       },
       "version": "0.0.2"
     }

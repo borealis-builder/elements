@@ -4,7 +4,7 @@
     "update": {
       "file": {
         "name": "backgrounds.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds.json"
       },
       "version": "0.0.2"
     }

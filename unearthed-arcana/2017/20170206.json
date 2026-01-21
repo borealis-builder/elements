@@ -470,7 +470,7 @@
     "update": {
       "file": {
         "name": "20170206.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2017/20170206.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/2017/20170206.json"
       },
       "version": "0.2.1"
     }

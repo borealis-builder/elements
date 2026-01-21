@@ -9,7 +9,7 @@
     "update": {
       "file": {
         "name": "race-tortle.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation/races/race-tortle.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tomb-of-annihilation/races/race-tortle.json"
       },
       "version": "0.1.5"
     }

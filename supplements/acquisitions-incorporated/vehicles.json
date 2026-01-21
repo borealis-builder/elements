@@ -64,7 +64,7 @@
     "update": {
       "file": {
         "name": "vehicles.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/vehicles.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/vehicles.json"
       },
       "version": "0.0.1"
     }

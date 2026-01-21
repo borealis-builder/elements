@@ -15,7 +15,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/EL-AWM.jpg",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/EL-AWM.jpg",
             "name": "image"
           },
           {
@@ -394,7 +394,7 @@
     "update": {
       "file": {
         "name": "adventure-with-muk.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/adventure-with-muk.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/adventure-with-muk.json"
       },
       "version": "0.0.1"
     }

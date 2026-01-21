@@ -157,7 +157,7 @@
     "update": {
       "file": {
         "name": "fighter-echoknight.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/archetypes/fighter-echoknight.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/archetypes/fighter-echoknight.json"
       },
       "version": "0.0.2"
     }

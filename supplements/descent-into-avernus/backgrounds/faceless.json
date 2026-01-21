@@ -240,7 +240,7 @@
     "update": {
       "file": {
         "name": "faceless.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus/backgrounds/faceless.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/descent-into-avernus/backgrounds/faceless.json"
       },
       "version": "0.0.4"
     }

@@ -296,7 +296,7 @@
     "update": {
       "file": {
         "name": "feats.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons/feats.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/fizbans-treasury-of-dragons/feats.json"
       },
       "version": "0.0.2"
     }

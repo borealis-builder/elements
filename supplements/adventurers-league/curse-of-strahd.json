@@ -1263,7 +1263,7 @@
     "update": {
       "file": {
         "name": "curse-of-strahd.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/curse-of-strahd.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/adventurers-league/curse-of-strahd.json"
       },
       "version": "0.0.1"
     }

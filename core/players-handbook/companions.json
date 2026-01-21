@@ -5908,7 +5908,7 @@
     "update": {
       "file": {
         "name": "companions.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/companions.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/companions.json"
       },
       "version": "0.0.3"
     }

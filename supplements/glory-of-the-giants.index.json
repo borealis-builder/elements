@@ -9,7 +9,7 @@
       "version": "0.0.1",
       "file": {
         "name": "glory-of-the-giants.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants.index.json"
       }
     }
   },
@@ -17,32 +17,32 @@
     {
       "name": "background-giant-foundling.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/backgrounds/background-giant-foundling.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants/backgrounds/background-giant-foundling.json"
     },
     {
       "name": "background-rune-carver.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/backgrounds/background-rune-carver.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants/backgrounds/background-rune-carver.json"
     },
     {
       "name": "barbarian-giant.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/barbarian-giant.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants/barbarian-giant.json"
     },
     {
       "name": "feats.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/feats.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants/feats.json"
     },
     {
       "name": "items-magic.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/items-magic.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants/items-magic.json"
     },
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants/source.json"
     }
   ]
 }

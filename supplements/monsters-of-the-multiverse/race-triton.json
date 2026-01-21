@@ -186,7 +186,7 @@
     "update": {
       "file": {
         "name": "race-triton.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-triton.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse/race-triton.json"
       },
       "version": "0.0.1"
     }

@@ -258,7 +258,7 @@
     "update": {
       "file": {
         "name": "race-aetherborn.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/race-aetherborn.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/kaladesh/race-aetherborn.json"
       },
       "version": "0.0.7"
     }

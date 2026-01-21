@@ -10,7 +10,7 @@
       "version": "0.0.1",
       "file": {
         "name": "mortes-planar-parade.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mortes-planar-parade.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mortes-planar-parade.index.json"
       }
     }
   },
@@ -18,12 +18,12 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mortes-planar-parade/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mortes-planar-parade/source.json"
     },
     {
       "name": "companions.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mortes-planar-parade/companions.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mortes-planar-parade/companions.json"
     }
   ]
 }

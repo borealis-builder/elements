@@ -14,7 +14,7 @@
           "name": "url"
         },
         {
-          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie/BAM.png",
+          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/boos-astral-menagerie/BAM.png",
           "name": "image"
         },
         {
@@ -48,7 +48,7 @@
     "update": {
       "file": {
         "name": "source.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/boos-astral-menagerie/source.json"
       },
       "version": "0.0.1"
     }

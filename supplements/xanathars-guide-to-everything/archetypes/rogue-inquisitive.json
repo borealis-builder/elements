@@ -131,7 +131,7 @@
     "update": {
       "file": {
         "name": "rogue-inquisitive.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-inquisitive.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-inquisitive.json"
       },
       "version": "0.0.3"
     }

@@ -119,7 +119,7 @@
     "update": {
       "file": {
         "name": "race-kobold.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-kobold.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-kobold.json"
       },
       "version": "0.0.3"
     }

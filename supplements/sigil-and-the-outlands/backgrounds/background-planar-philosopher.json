@@ -107,7 +107,7 @@
     "update": {
       "file": {
         "name": "background-planar-philosopher.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/backgrounds/background-planar-philosopher.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/backgrounds/background-planar-philosopher.json"
       },
       "version": "0.0.1"
     }

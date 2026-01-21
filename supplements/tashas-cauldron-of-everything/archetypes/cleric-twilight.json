@@ -261,7 +261,7 @@
     "update": {
       "file": {
         "name": "cleric-twilight.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-twilight.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-twilight.json"
       },
       "version": "0.0.2"
     }

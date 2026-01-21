@@ -10,7 +10,7 @@
       "version": "0.0.1",
       "file": {
         "name": "vecna-eve-of-ruin.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/vecna-eve-of-ruin.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/vecna-eve-of-ruin.index.json"
       }
     }
   },
@@ -18,12 +18,12 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/vecna-eve-of-ruin/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/vecna-eve-of-ruin/source.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/vecna-eve-of-ruin/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/vecna-eve-of-ruin/items.json"
     }
   ]
 }

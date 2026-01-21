@@ -217,7 +217,7 @@
     "update": {
       "file": {
         "name": "loxodon.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/races/loxodon.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/races/loxodon.json"
       },
       "version": "0.1.6"
     }

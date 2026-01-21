@@ -525,7 +525,7 @@
     "update": {
       "file": {
         "name": "artificer-battlesmith.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/artificer-battlesmith.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/artificer-battlesmith.json"
       },
       "version": "0.0.1"
     }

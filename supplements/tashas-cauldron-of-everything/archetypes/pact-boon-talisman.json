@@ -33,7 +33,7 @@
     "update": {
       "file": {
         "name": "pact-boon-talisman.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/pact-boon-talisman.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/pact-boon-talisman.json"
       },
       "version": "0.0.1"
     }

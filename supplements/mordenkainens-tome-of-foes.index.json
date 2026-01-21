@@ -10,7 +10,7 @@
       "version": "0.0.6",
       "file": {
         "name": "mordenkainens-tome-of-foes.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes.index.json"
       }
     }
   },
@@ -18,32 +18,32 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes/source.json"
     },
     {
       "name": "race-gith.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes/races/race-gith.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes/races/race-gith.json"
     },
     {
       "name": "subrace-eladrin.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-eladrin.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-eladrin.json"
     },
     {
       "name": "subrace-seaelf.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-seaelf.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-seaelf.json"
     },
     {
       "name": "subrace-shadarkai.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-shadarkai.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-shadarkai.json"
     },
     {
       "name": "subrace-tiefling.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-tiefling.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-tiefling.json"
     }
   ]
 }

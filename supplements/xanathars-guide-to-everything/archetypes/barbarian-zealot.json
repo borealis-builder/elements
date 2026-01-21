@@ -98,7 +98,7 @@
     "update": {
       "file": {
         "name": "barbarian-zealot.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/barbarian-zealot.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/barbarian-zealot.json"
       },
       "version": "0.0.6"
     }

@@ -163,7 +163,7 @@
     "update": {
       "file": {
         "name": "race-githzerai.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-githzerai.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse/race-githzerai.json"
       },
       "version": "0.0.1"
     }

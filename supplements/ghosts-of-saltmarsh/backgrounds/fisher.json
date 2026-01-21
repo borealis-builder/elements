@@ -189,7 +189,7 @@
     "update": {
       "file": {
         "name": "fisher.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/fisher.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/ghosts-of-saltmarsh/backgrounds/fisher.json"
       },
       "version": "0.0.3"
     }

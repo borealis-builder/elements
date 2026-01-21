@@ -233,7 +233,7 @@
     "update": {
       "file": {
         "name": "selesnya-initiate.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/selesnya-initiate.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/selesnya-initiate.json"
       },
       "version": "0.0.6"
     }

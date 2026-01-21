@@ -169,7 +169,7 @@
     "update": {
       "file": {
         "name": "race-halforc.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-halforc.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/races/race-halforc.json"
       },
       "version": "0.2.2"
     }

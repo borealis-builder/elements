@@ -452,7 +452,7 @@
     "update": {
       "file": {
         "name": "sorcerer-lunar.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/sorcerer-lunar.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/sorcerer-lunar.json"
       },
       "version": "0.0.1"
     }

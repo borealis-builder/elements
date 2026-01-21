@@ -10,7 +10,7 @@
       "version": "0.0.7",
       "file": {
         "name": "hoard-of-the-dragon-queen.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/hoard-of-the-dragon-queen.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/hoard-of-the-dragon-queen.index.json"
       }
     }
   },
@@ -18,17 +18,17 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/hoard-of-the-dragon-queen/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/hoard-of-the-dragon-queen/source.json"
     },
     {
       "name": "background-options.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/hoard-of-the-dragon-queen/background-options.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/hoard-of-the-dragon-queen/background-options.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/hoard-of-the-dragon-queen/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/hoard-of-the-dragon-queen/items.json"
     }
   ]
 }

@@ -15,7 +15,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/misc/DPM.jpg",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/misc/DPM.jpg",
             "name": "image"
           },
           {
@@ -199,7 +199,7 @@
     "update": {
       "file": {
         "name": "dragon-plus.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/misc/dragon-plus.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/misc/dragon-plus.json"
       },
       "version": "0.0.1"
     }

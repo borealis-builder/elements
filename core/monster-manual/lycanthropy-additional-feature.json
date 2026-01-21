@@ -807,7 +807,7 @@
     "update": {
       "file": {
         "name": "lycanthropy-additional-feature.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual/lycanthropy-additional-feature.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/lycanthropy-additional-feature.json"
       },
       "version": "0.0.3"
     }

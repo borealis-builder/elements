@@ -172,7 +172,7 @@
     "update": {
       "file": {
         "name": "race-autognome.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-autognome.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/astral-adventurers-guide/races/race-autognome.json"
       },
       "version": "0.0.1"
     }

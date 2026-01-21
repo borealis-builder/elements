@@ -170,7 +170,7 @@
     "update": {
       "file": {
         "name": "race-deep-gnome.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-deep-gnome.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse/race-deep-gnome.json"
       },
       "version": "0.0.1"
     }

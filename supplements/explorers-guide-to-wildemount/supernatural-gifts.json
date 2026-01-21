@@ -84,7 +84,7 @@
     "update": {
       "file": {
         "name": "supernatural-gifts.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/supernatural-gifts.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/supernatural-gifts.json"
       },
       "version": "0.0.1"
     }

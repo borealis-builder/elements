@@ -187,7 +187,7 @@
     "update": {
       "file": {
         "name": "subrace-eladrin.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-eladrin.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes/races/subrace-eladrin.json"
       },
       "version": "0.0.3"
     }

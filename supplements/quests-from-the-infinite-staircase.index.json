@@ -9,7 +9,7 @@
       "version": "0.0.1",
       "file": {
         "name": "quests-from-the-infinite-staircase.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/quests-from-the-infinite-staircase.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/quests-from-the-infinite-staircase.index.json"
       }
     }
   },
@@ -17,12 +17,12 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/quests-from-the-infinite-staircase/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/quests-from-the-infinite-staircase/source.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/quests-from-the-infinite-staircase/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/quests-from-the-infinite-staircase/items.json"
     }
   ]
 }

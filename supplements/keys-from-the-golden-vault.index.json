@@ -9,7 +9,7 @@
       "version": "0.0.1",
       "file": {
         "name": "keys-from-the-golden-vault.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/keys-from-the-golden-vault.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/keys-from-the-golden-vault.index.json"
       }
     }
   },
@@ -17,12 +17,12 @@
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/keys-from-the-golden-vault/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/keys-from-the-golden-vault/items.json"
     },
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/keys-from-the-golden-vault/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/keys-from-the-golden-vault/source.json"
     }
   ]
 }

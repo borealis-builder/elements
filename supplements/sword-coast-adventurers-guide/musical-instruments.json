@@ -515,7 +515,7 @@
     "update": {
       "file": {
         "name": "musical-instruments.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/musical-instruments.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/musical-instruments.json"
       },
       "version": "0.1.3"
     }

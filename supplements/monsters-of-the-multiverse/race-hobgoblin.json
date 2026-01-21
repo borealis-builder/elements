@@ -102,7 +102,7 @@
     "update": {
       "file": {
         "name": "race-hobgoblin.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-hobgoblin.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse/race-hobgoblin.json"
       },
       "version": "0.0.1"
     }

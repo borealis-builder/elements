@@ -219,7 +219,7 @@
     "update": {
       "file": {
         "name": "race-astral-elf.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-astral-elf.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/astral-adventurers-guide/races/race-astral-elf.json"
       },
       "version": "0.0.1"
     }

@@ -1981,7 +1981,7 @@
     "update": {
       "file": {
         "name": "internal.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/internal.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/internal.json"
       },
       "version": "0.1.4"
     }

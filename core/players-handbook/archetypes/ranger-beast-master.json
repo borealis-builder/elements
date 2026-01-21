@@ -146,7 +146,7 @@
     "update": {
       "file": {
         "name": "ranger-beast-master.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/ranger-beast-master.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/ranger-beast-master.json"
       },
       "version": "0.0.1"
     }

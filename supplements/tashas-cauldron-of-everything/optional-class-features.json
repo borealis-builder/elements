@@ -3265,7 +3265,7 @@
     "update": {
       "file": {
         "name": "optional-class-features.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/optional-class-features.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/optional-class-features.json"
       },
       "version": "0.0.8"
     }

@@ -9,7 +9,7 @@
       "version": "0.0.2",
       "file": {
         "name": "eberron-rising-from-the-last-war.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war.index.json"
       }
     }
   },
@@ -17,152 +17,152 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/source.json"
     },
     {
       "name": "changeling.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/races/changeling.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/races/changeling.json"
     },
     {
       "name": "kalashtar.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/races/kalashtar.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/races/kalashtar.json"
     },
     {
       "name": "orc.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/races/orc.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/races/orc.json"
     },
     {
       "name": "shifter.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/races/shifter.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/races/shifter.json"
     },
     {
       "name": "warforged.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/races/warforged.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/races/warforged.json"
     },
     {
       "name": "class-artificer.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/class-artificer.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/class-artificer.json"
     },
     {
       "name": "artificer-alchemist.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/artificer-alchemist.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/artificer-alchemist.json"
     },
     {
       "name": "artificer-artillerist.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/artificer-artillerist.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/artificer-artillerist.json"
     },
     {
       "name": "artificer-battlesmith.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/artificer-battlesmith.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/artificer-battlesmith.json"
     },
     {
       "name": "artificer-infusions.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/artificer-infusions.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/artificer-infusions.json"
     },
     {
       "name": "replicate-infusions.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/replicate-infusions.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/replicate-infusions.json"
     },
     {
       "name": "dragonmarks.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/dragonmarks.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/dragonmarks.json"
     },
     {
       "name": "mark-of-detection.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-detection.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-detection.json"
     },
     {
       "name": "mark-of-finding.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-finding.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-finding.json"
     },
     {
       "name": "mark-of-handling.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-handling.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-handling.json"
     },
     {
       "name": "mark-of-healing.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-healing.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-healing.json"
     },
     {
       "name": "mark-of-hospitality.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-hospitality.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-hospitality.json"
     },
     {
       "name": "mark-of-making.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-making.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-making.json"
     },
     {
       "name": "mark-of-passage.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-passage.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-passage.json"
     },
     {
       "name": "mark-of-scribing.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-scribing.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-scribing.json"
     },
     {
       "name": "mark-of-sentinel.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-sentinel.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-sentinel.json"
     },
     {
       "name": "mark-of-shadow.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-shadow.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-shadow.json"
     },
     {
       "name": "mark-of-storm.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-storm.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-storm.json"
     },
     {
       "name": "mark-of-warding.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-warding.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-warding.json"
     },
     {
       "name": "house-agent.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/backgrounds/house-agent.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/backgrounds/house-agent.json"
     },
     {
       "name": "feats.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/feats.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/feats.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/items.json"
     },
     {
       "name": "deities.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/deities.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/deities.json"
     },
     {
       "name": "languages.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/languages.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/languages.json"
     }
   ]
 }

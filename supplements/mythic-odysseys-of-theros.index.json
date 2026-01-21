@@ -9,7 +9,7 @@
       "version": "0.0.2",
       "file": {
         "name": "mythic-odysseys-of-theros.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros.index.json"
       }
     }
   },
@@ -17,42 +17,42 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/source.json"
     },
     {
       "name": "bard-eloquence.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/archetypes/bard-eloquence.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/archetypes/bard-eloquence.json"
     },
     {
       "name": "paladin-glory.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/archetypes/paladin-glory.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/archetypes/paladin-glory.json"
     },
     {
       "name": "leonin.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/races/leonin.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/races/leonin.json"
     },
     {
       "name": "satyr.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/races/satyr.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/races/satyr.json"
     },
     {
       "name": "background-athlete.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/background-athlete.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/background-athlete.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/items.json"
     },
     {
       "name": "deities.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/deities.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/deities.json"
     }
   ]
 }

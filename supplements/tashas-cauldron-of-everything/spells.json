@@ -1110,7 +1110,7 @@
     "update": {
       "file": {
         "name": "spells.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/spells.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/spells.json"
       },
       "version": "0.0.5"
     }

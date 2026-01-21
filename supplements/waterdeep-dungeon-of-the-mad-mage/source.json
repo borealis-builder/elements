@@ -14,7 +14,7 @@
           "name": "url"
         },
         {
-          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/WDMM.jpg",
+          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/WDMM.jpg",
           "name": "image"
         },
         {
@@ -44,7 +44,7 @@
     "update": {
       "file": {
         "name": "source.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/source.json"
       },
       "version": "0.1.1"
     }

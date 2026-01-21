@@ -732,7 +732,7 @@
     "update": {
       "file": {
         "name": "items-armor.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-armor.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/items/items-armor.json"
       },
       "version": "0.1.1"
     }

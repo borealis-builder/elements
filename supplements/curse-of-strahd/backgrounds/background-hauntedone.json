@@ -190,7 +190,7 @@
     "update": {
       "file": {
         "name": "background-hauntedone.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/curse-of-strahd/backgrounds/background-hauntedone.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/curse-of-strahd/backgrounds/background-hauntedone.json"
       },
       "version": "0.0.9"
     }

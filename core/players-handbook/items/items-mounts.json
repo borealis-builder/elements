@@ -661,7 +661,7 @@
     "update": {
       "file": {
         "name": "items-mounts.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-mounts.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/items/items-mounts.json"
       },
       "version": "0.0.5"
     }

@@ -242,7 +242,7 @@
     "update": {
       "file": {
         "name": "cleric-life.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-life.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/cleric-life.json"
       },
       "version": "0.0.1"
     }

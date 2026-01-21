@@ -193,7 +193,7 @@
     "update": {
       "file": {
         "name": "background-inquisitor.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/innistrad/background-inquisitor.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/innistrad/background-inquisitor.json"
       },
       "version": "0.0.3"
     }

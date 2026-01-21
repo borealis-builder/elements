@@ -115,7 +115,7 @@
     "update": {
       "file": {
         "name": "druid-shepherd.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/druid-shepherd.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/druid-shepherd.json"
       },
       "version": "0.0.4"
     }

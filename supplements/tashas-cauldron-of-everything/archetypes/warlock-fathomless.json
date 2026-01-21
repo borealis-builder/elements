@@ -167,7 +167,7 @@
     "update": {
       "file": {
         "name": "warlock-fathomless.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/warlock-fathomless.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/warlock-fathomless.json"
       },
       "version": "0.0.1"
     }

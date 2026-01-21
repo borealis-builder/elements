@@ -130,7 +130,7 @@
     "update": {
       "file": {
         "name": "bard-swords.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-swords.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-swords.json"
       },
       "version": "0.0.5"
     }

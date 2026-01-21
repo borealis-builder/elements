@@ -120,7 +120,7 @@
     "update": {
       "file": {
         "name": "mark-of-handling.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-handling.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-handling.json"
       },
       "version": "0.0.2"
     }

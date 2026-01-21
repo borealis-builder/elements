@@ -372,7 +372,7 @@
     "update": {
       "file": {
         "name": "artificer-artillerist.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/artificer-artillerist.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/artificer-artillerist.json"
       },
       "version": "0.0.2"
     }

@@ -100,7 +100,7 @@
     "update": {
       "file": {
         "name": "bard-spirits.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/bard-spirits.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/bard-spirits.json"
       },
       "version": "0.0.1"
     }

@@ -161,7 +161,7 @@
     "update": {
       "file": {
         "name": "race-aarakocra.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse/races/race-aarakocra.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse/races/race-aarakocra.json"
       },
       "version": "0.1.3"
     }

@@ -158,7 +158,7 @@
     "update": {
       "file": {
         "name": "race-yuantipureblood.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-yuantipureblood.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-yuantipureblood.json"
       },
       "version": "0.0.3"
     }

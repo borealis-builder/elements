@@ -119,7 +119,7 @@
     "update": {
       "file": {
         "name": "race-keldon-human.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/dominaria/race-keldon-human.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/dominaria/race-keldon-human.json"
       },
       "version": "0.0.5"
     }

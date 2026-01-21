@@ -61,7 +61,7 @@
     "update": {
       "file": {
         "name": "elf-pallid.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/races/elf-pallid.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/races/elf-pallid.json"
       },
       "version": "0.0.2"
     }

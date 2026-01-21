@@ -240,7 +240,7 @@
     "update": {
       "file": {
         "name": "cleric-light.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-light.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/cleric-light.json"
       },
       "version": "0.0.2"
     }

@@ -9,7 +9,7 @@
       "version": "0.0.4",
       "file": {
         "name": "waterdeep-dungeon-of-the-mad-mage.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage.index.json"
       }
     }
   },
@@ -17,22 +17,22 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/source.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/items.json"
     },
     {
       "name": "replicate-infusions.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/replicate-infusions.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/replicate-infusions.json"
     },
     {
       "name": "lycanthropy-werebat.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/lycanthropy-werebat.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/lycanthropy-werebat.json"
     }
   ]
 }

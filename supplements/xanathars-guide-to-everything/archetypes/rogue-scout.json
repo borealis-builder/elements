@@ -150,7 +150,7 @@
     "update": {
       "file": {
         "name": "rogue-scout.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-scout.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-scout.json"
       },
       "version": "0.0.7"
     }

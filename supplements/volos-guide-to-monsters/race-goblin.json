@@ -118,7 +118,7 @@
     "update": {
       "file": {
         "name": "race-goblin.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-goblin.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-goblin.json"
       },
       "version": "0.0.3"
     }

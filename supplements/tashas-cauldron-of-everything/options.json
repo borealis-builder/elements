@@ -116,7 +116,7 @@
     "update": {
       "file": {
         "name": "options.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/options.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/options.json"
       },
       "version": "0.0.4"
     }

@@ -9,7 +9,7 @@
       "version": "0.0.2",
       "file": {
         "name": "dragonlance-shadow-of-the-dragon-queen.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen.index.json"
       }
     }
   },
@@ -17,37 +17,37 @@
     {
       "name": "background-knight-of-solamnia.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/backgrounds/background-knight-of-solamnia.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/backgrounds/background-knight-of-solamnia.json"
     },
     {
       "name": "background-mage-of-high-sorcery.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/backgrounds/background-mage-of-high-sorcery.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/backgrounds/background-mage-of-high-sorcery.json"
     },
     {
       "name": "feats.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/feats.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/feats.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/items.json"
     },
     {
       "name": "race-kender.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/race-kender.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/race-kender.json"
     },
     {
       "name": "sorcerer-lunar.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/sorcerer-lunar.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/sorcerer-lunar.json"
     },
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/source.json"
     }
   ]
 }

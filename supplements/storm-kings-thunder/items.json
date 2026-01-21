@@ -690,7 +690,7 @@
     "update": {
       "file": {
         "name": "items.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/storm-kings-thunder/items.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/storm-kings-thunder/items.json"
       },
       "version": "0.0.6"
     }

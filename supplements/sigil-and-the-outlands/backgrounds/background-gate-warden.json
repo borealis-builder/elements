@@ -106,7 +106,7 @@
     "update": {
       "file": {
         "name": "background-gate-warden.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands/backgrounds/background-gate-warden.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/backgrounds/background-gate-warden.json"
       },
       "version": "0.0.1"
     }

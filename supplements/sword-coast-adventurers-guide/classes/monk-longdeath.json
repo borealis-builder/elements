@@ -101,7 +101,7 @@
     "update": {
       "file": {
         "name": "monk-longdeath.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/monk-longdeath.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/monk-longdeath.json"
       },
       "version": "0.0.6"
     }

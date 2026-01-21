@@ -297,7 +297,7 @@
     "update": {
       "file": {
         "name": "fighter-psi.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/fighter-psi.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/fighter-psi.json"
       },
       "version": "0.0.1"
     }

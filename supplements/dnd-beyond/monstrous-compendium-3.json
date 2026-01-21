@@ -15,7 +15,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/MCV3.png",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dnd-beyond/MCV3.png",
             "name": "image"
           },
           {
@@ -271,7 +271,7 @@
     "update": {
       "file": {
         "name": "monstrous-compendium-3.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/monstrous-compendium-3.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dnd-beyond/monstrous-compendium-3.json"
       },
       "version": "0.0.1"
     }

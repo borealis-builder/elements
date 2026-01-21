@@ -142,7 +142,7 @@
     "update": {
       "file": {
         "name": "dragonborn-variant.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/races/dragonborn-variant.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/races/dragonborn-variant.json"
       },
       "version": "0.0.2"
     }

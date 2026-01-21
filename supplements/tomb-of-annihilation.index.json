@@ -10,7 +10,7 @@
       "version": "0.0.5",
       "file": {
         "name": "tomb-of-annihilation.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tomb-of-annihilation.index.json"
       }
     }
   },
@@ -18,17 +18,17 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tomb-of-annihilation/source.json"
     },
     {
       "name": "background-anthropologist.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation/backgrounds/background-anthropologist.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tomb-of-annihilation/backgrounds/background-anthropologist.json"
     },
     {
       "name": "background-archaeologist.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation/backgrounds/background-archaeologist.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tomb-of-annihilation/backgrounds/background-archaeologist.json"
     }
   ]
 }

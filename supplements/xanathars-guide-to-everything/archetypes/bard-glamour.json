@@ -143,7 +143,7 @@
     "update": {
       "file": {
         "name": "bard-glamour.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-glamour.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-glamour.json"
       },
       "version": "0.0.5"
     }

@@ -19,7 +19,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/EL-TTP.png",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/EL-TTP.png",
             "name": "image"
           },
           {
@@ -231,7 +231,7 @@
     "update": {
       "file": {
         "name": "tortle-package.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/tortle-package.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/tortle-package.json"
       },
       "version": "0.0.1"
     }

@@ -1779,7 +1779,7 @@
     "update": {
       "file": {
         "name": "items-wondrous.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/items/items-wondrous.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/items/items-wondrous.json"
       },
       "version": "0.0.7"
     }

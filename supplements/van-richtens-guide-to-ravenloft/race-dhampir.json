@@ -127,7 +127,7 @@
     "update": {
       "file": {
         "name": "race-dhampir.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/race-dhampir.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/race-dhampir.json"
       },
       "version": "0.0.2"
     }

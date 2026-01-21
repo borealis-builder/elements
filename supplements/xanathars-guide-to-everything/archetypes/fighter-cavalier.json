@@ -224,7 +224,7 @@
     "update": {
       "file": {
         "name": "fighter-cavalier.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-cavalier.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-cavalier.json"
       },
       "version": "0.0.7"
     }

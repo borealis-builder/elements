@@ -138,7 +138,7 @@
     "update": {
       "file": {
         "name": "monk-drunkenmaster.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-drunkenmaster.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-drunkenmaster.json"
       },
       "version": "0.0.2"
     }

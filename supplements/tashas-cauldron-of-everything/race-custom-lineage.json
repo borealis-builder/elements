@@ -140,7 +140,7 @@
     "update": {
       "file": {
         "name": "race-custom-lineage.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/race-custom-lineage.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/race-custom-lineage.json"
       },
       "version": "0.0.4"
     }

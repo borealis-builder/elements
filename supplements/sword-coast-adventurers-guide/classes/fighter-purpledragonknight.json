@@ -97,7 +97,7 @@
     "update": {
       "file": {
         "name": "fighter-purpledragonknight.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/fighter-purpledragonknight.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/fighter-purpledragonknight.json"
       },
       "version": "0.0.8"
     }

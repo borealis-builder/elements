@@ -9,7 +9,7 @@
       "version": "0.0.4",
       "file": {
         "name": "explorers-guide-to-wildemount.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount.index.json"
       }
     }
   },
@@ -17,72 +17,72 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/source.json"
     },
     {
       "name": "elf-pallid.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/races/elf-pallid.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/races/elf-pallid.json"
     },
     {
       "name": "halfling-lotusden.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/races/halfling-lotusden.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/races/halfling-lotusden.json"
     },
     {
       "name": "dragonborn-variant.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/races/dragonborn-variant.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/races/dragonborn-variant.json"
     },
     {
       "name": "fighter-echoknight.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/archetypes/fighter-echoknight.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/archetypes/fighter-echoknight.json"
     },
     {
       "name": "wizard-chronurgy.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/archetypes/wizard-chronurgy.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/archetypes/wizard-chronurgy.json"
     },
     {
       "name": "wizard-graviturgy.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/archetypes/wizard-graviturgy.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/archetypes/wizard-graviturgy.json"
     },
     {
       "name": "grinner.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/backgrounds/grinner.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/backgrounds/grinner.json"
     },
     {
       "name": "volstrucker-agent.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/backgrounds/volstrucker-agent.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/backgrounds/volstrucker-agent.json"
     },
     {
       "name": "deities.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/deities.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/deities.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/items.json"
     },
     {
       "name": "spells.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/spells.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/spells.json"
     },
     {
       "name": "supernatural-gifts.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/supernatural-gifts.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/supernatural-gifts.json"
     },
     {
       "name": "replicate-infusions.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount/replicate-infusions.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount/replicate-infusions.json"
     }
   ]
 }

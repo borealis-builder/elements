@@ -2909,7 +2909,7 @@
     "update": {
       "file": {
         "name": "items-gear.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-gear.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/items/items-gear.json"
       },
       "version": "0.1.0"
     }

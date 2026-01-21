@@ -982,7 +982,7 @@
     "update": {
       "file": {
         "name": "elemental-evil.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/elemental-evil.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/adventurers-league/elemental-evil.json"
       },
       "version": "0.0.3"
     }

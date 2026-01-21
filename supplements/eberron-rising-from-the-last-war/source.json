@@ -15,7 +15,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/ERLW.png",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/ERLW.png",
             "name": "image"
           },
           {
@@ -60,7 +60,7 @@
     "update": {
       "file": {
         "name": "source.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/source.json"
       },
       "version": "0.0.4"
     }

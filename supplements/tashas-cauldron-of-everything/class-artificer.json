@@ -1031,7 +1031,7 @@
     "update": {
       "file": {
         "name": "class-artificer.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/class-artificer.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/class-artificer.json"
       },
       "version": "0.0.1"
     }

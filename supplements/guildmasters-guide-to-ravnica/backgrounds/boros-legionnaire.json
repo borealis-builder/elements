@@ -230,7 +230,7 @@
     "update": {
       "file": {
         "name": "boros-legionnaire.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/boros-legionnaire.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/boros-legionnaire.json"
       },
       "version": "0.0.7"
     }

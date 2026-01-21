@@ -238,7 +238,7 @@
     "update": {
       "file": {
         "name": "background-archaeologist.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation/backgrounds/background-archaeologist.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tomb-of-annihilation/backgrounds/background-archaeologist.json"
       },
       "version": "0.0.4"
     }

@@ -39,7 +39,7 @@
     "update": {
       "file": {
         "name": "background-options.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss/background-options.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss/background-options.json"
       },
       "version": "0.1"
     }

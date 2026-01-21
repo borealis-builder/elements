@@ -1198,7 +1198,7 @@
     "update": {
       "file": {
         "name": "feats.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/feats.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/feats.json"
       },
       "version": "0.0.1"
     }

@@ -240,7 +240,7 @@
     "update": {
       "file": {
         "name": "fighter-arcanearcher.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-arcanearcher.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-arcanearcher.json"
       },
       "version": "0.1.0"
     }

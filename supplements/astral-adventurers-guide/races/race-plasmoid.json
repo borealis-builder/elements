@@ -126,7 +126,7 @@
     "update": {
       "file": {
         "name": "race-plasmoid.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide/races/race-plasmoid.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/astral-adventurers-guide/races/race-plasmoid.json"
       },
       "version": "0.0.1"
     }

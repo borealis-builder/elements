@@ -132,7 +132,7 @@
     "update": {
       "file": {
         "name": "race-kor.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/zendikar/race-kor.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/zendikar/race-kor.json"
       },
       "version": "0.0.4"
     }

@@ -246,7 +246,7 @@
     "update": {
       "file": {
         "name": "druid-spores.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/druid-spores.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/druid-spores.json"
       },
       "version": "0.0.2"
     }

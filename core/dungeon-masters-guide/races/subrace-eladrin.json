@@ -62,7 +62,7 @@
     "update": {
       "file": {
         "name": "subrace-eladrin.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/dungeon-masters-guide/races/subrace-eladrin.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/dungeon-masters-guide/races/subrace-eladrin.json"
       },
       "version": "0.0.8"
     }

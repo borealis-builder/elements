@@ -168,7 +168,7 @@
     "update": {
       "file": {
         "name": "ranger-monsterslayer.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-monsterslayer.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-monsterslayer.json"
       },
       "version": "0.0.4"
     }

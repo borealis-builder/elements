@@ -200,7 +200,7 @@
     "update": {
       "file": {
         "name": "background-knightoftheorder.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-knightoftheorder.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-knightoftheorder.json"
       },
       "version": "0.1.3"
     }

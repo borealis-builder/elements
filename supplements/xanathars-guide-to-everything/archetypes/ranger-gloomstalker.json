@@ -180,7 +180,7 @@
     "update": {
       "file": {
         "name": "ranger-gloomstalker.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-gloomstalker.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-gloomstalker.json"
       },
       "version": "0.0.4"
     }

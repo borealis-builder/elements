@@ -155,7 +155,7 @@
     "update": {
       "file": {
         "name": "warlock-archfey.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/warlock-archfey.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/warlock-archfey.json"
       },
       "version": "0.0.1"
     }

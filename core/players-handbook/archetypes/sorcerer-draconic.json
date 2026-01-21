@@ -326,7 +326,7 @@
     "update": {
       "file": {
         "name": "sorcerer-draconic.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/sorcerer-draconic.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/sorcerer-draconic.json"
       },
       "version": "0.0.1"
     }

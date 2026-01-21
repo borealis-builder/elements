@@ -9,7 +9,7 @@
     "update": {
       "file": {
         "name": "sorcerer-stormsorcery.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/sorcerer-stormsorcery.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/sorcerer-stormsorcery.json"
       },
       "version": "0.1"
     }

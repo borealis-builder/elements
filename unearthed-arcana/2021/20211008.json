@@ -899,7 +899,7 @@
     "update": {
       "file": {
         "name": "20211008.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/2021/20211008.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/2021/20211008.json"
       },
       "version": "0.0.3"
     }

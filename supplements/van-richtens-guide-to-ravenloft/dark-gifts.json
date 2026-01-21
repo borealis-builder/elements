@@ -854,7 +854,7 @@
     "update": {
       "file": {
         "name": "dark-gifts.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/dark-gifts.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/dark-gifts.json"
       },
       "version": "0.0.2"
     }

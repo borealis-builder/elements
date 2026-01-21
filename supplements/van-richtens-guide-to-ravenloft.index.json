@@ -9,7 +9,7 @@
       "version": "0.0.3",
       "file": {
         "name": "van-richtens-guide-to-ravenloft.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft.index.json"
       }
     }
   },
@@ -17,62 +17,62 @@
     {
       "name": "bard-spirits.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/bard-spirits.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/bard-spirits.json"
     },
     {
       "name": "warlock-undead.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/warlock-undead.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/warlock-undead.json"
     },
     {
       "name": "race-dhampir.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/race-dhampir.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/race-dhampir.json"
     },
     {
       "name": "race-hexblood.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/race-hexblood.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/race-hexblood.json"
     },
     {
       "name": "race-reborn.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/race-reborn.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/race-reborn.json"
     },
     {
       "name": "background-haunted-one.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-haunted-one.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-haunted-one.json"
     },
     {
       "name": "background-investigator.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-investigator.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-investigator.json"
     },
     {
       "name": "background-optional-features.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-optional-features.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-optional-features.json"
     },
     {
       "name": "dark-gifts.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/dark-gifts.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/dark-gifts.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/items.json"
     },
     {
       "name": "lycanthropy-wereraven.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/lycanthropy-wereraven.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/lycanthropy-wereraven.json"
     },
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft/source.json"
     }
   ]
 }

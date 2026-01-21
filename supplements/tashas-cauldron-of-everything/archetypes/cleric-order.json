@@ -230,7 +230,7 @@
     "update": {
       "file": {
         "name": "cleric-order.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-order.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-order.json"
       },
       "version": "0.0.2"
     }

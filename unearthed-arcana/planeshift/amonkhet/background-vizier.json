@@ -232,7 +232,7 @@
     "update": {
       "file": {
         "name": "background-vizier.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/background-vizier.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/background-vizier.json"
       },
       "version": "0.0.4"
     }

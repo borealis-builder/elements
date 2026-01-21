@@ -96,7 +96,7 @@
     "update": {
       "file": {
         "name": "race-svirfneblin.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/race-svirfneblin.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/races/race-svirfneblin.json"
       },
       "version": "0.1.7"
     }

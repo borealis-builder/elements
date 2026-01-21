@@ -191,7 +191,7 @@
     "update": {
       "file": {
         "name": "items.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh/items.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/ghosts-of-saltmarsh/items.json"
       },
       "version": "0.0.2"
     }

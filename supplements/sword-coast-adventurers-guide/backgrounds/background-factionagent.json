@@ -242,7 +242,7 @@
     "update": {
       "file": {
         "name": "background-factionagent.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-factionagent.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-factionagent.json"
       },
       "version": "0.1.4"
     }

@@ -837,7 +837,7 @@
     "update": {
       "file": {
         "name": "monk-kensei.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-kensei.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-kensei.json"
       },
       "version": "0.0.4"
     }

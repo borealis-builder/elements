@@ -198,7 +198,7 @@
     "update": {
       "file": {
         "name": "cleric-trickery.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/cleric-trickery.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/cleric-trickery.json"
       },
       "version": "0.0.1"
     }

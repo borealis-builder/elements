@@ -9,7 +9,7 @@
       "version": "0.0.1",
       "file": {
         "name": "critical-role-call-of-the-netherdeep.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/critical-role-call-of-the-netherdeep.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/critical-role-call-of-the-netherdeep.index.json"
       }
     }
   },
@@ -17,12 +17,12 @@
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/critical-role-call-of-the-netherdeep/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/critical-role-call-of-the-netherdeep/items.json"
     },
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/critical-role-call-of-the-netherdeep/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/critical-role-call-of-the-netherdeep/source.json"
     }
   ]
 }

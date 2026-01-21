@@ -3309,7 +3309,7 @@
     "update": {
       "file": {
         "name": "items.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/items.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/items.json"
       },
       "version": "0.0.4"
     }

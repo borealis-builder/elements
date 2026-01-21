@@ -10,7 +10,7 @@
       "version": "0.2.6",
       "file": {
         "name": "core.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core.index.json"
       }
     }
   },
@@ -18,22 +18,22 @@
     {
       "name": "internal.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/core/internal.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/internal.json"
     },
     {
       "name": "dungeon-masters-guide.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/dungeon-masters-guide.index.json"
     },
     {
       "name": "monster-manual.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/core/monster-manual.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual.index.json"
     },
     {
       "name": "players-handbook.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook.index.json"
     }
   ]
 }

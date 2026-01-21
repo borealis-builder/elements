@@ -231,7 +231,7 @@
     "update": {
       "file": {
         "name": "paladin-thecrown.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/paladin-thecrown.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/paladin-thecrown.json"
       },
       "version": "0.0.6"
     }

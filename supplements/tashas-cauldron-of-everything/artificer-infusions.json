@@ -636,7 +636,7 @@
     "update": {
       "file": {
         "name": "artificer-infusions.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/artificer-infusions.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/artificer-infusions.json"
       },
       "version": "0.0.5"
     }

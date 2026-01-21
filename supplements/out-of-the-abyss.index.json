@@ -10,7 +10,7 @@
       "version": "0.0.5",
       "file": {
         "name": "out-of-the-abyss.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss.index.json"
       }
     }
   },
@@ -18,17 +18,17 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss/source.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss/items.json"
     },
     {
       "name": "background-options.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss/background-options.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss/background-options.json"
     }
   ]
 }

@@ -9,7 +9,7 @@
     "update": {
       "file": {
         "name": "background-cromanthorrefugee.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss/backgrounds/background-cromanthorrefugee.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss/backgrounds/background-cromanthorrefugee.json"
       },
       "version": "0.1.3"
     }

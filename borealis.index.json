@@ -4,13 +4,13 @@
         "description": "All indexs managed by the Borealis Team.",
         "author": {
             "name": "Borealis Team",
-            "url": "https://github.com/borealis/elements"
+            "url": "https://github.com/borealis-builder/elements"
         },
         "update": {
             "version": "0.0.1",
             "file": {
                 "name": "borealis.index.json",
-                "url": "https://raw.githubusercontent.com/borealis/elements/main/borealis.index.json"
+                "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/AuroraLegacy.index.json"
             }
         }
     },
@@ -18,22 +18,22 @@
         {
             "type": "index",
             "name": "core.index.json",
-            "url": "https://raw.githubusercontent.com/borealis/elements/main/core.index.json"
+            "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core.index.json"
         },
         {
             "type": "index",
             "name": "supplements.index.json",
-            "url": "https://raw.githubusercontent.com/borealis/elements/main/supplements.index.json"
+            "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements.index.json"
         },
         {
             "type": "index",
             "name": "unearthed-arcana.index.json",
-            "url": "https://raw.githubusercontent.com/borealis/elements/main/unearthed-arcana.index.json"
+            "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana.index.json"
         },
         {
             "type": "index",
             "name": "collaborations.index.json",
-            "url": "https://raw.githubusercontent.com/borealis/elements/main/collaborations.index.json"
+            "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/collaborations.index.json"
         }
     ]
 }

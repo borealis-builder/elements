@@ -100,7 +100,7 @@
     "update": {
       "file": {
         "name": "background-giant-foundling.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/backgrounds/background-giant-foundling.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants/backgrounds/background-giant-foundling.json"
       },
       "version": "0.0.2"
     }

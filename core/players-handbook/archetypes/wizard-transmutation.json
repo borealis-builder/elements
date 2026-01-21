@@ -366,7 +366,7 @@
     "update": {
       "file": {
         "name": "wizard-transmutation.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/wizard-transmutation.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/wizard-transmutation.json"
       },
       "version": "0.0.1"
     }

@@ -299,7 +299,7 @@
     "update": {
       "file": {
         "name": "dragonmarks.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/dragonmarks.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/dragonmarks.json"
       },
       "version": "0.0.1"
     }

@@ -226,7 +226,7 @@
     "update": {
       "file": {
         "name": "sorcerer-clockwork.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-clockwork.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-clockwork.json"
       },
       "version": "0.0.2"
     }

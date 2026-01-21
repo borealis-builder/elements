@@ -893,7 +893,7 @@
     "update": {
       "file": {
         "name": "class-rogue.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-rogue.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/classes/class-rogue.json"
       },
       "version": "0.3.3"
     }

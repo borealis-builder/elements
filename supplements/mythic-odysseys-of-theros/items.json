@@ -2059,7 +2059,7 @@
     "update": {
       "file": {
         "name": "items.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/items.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/items.json"
       },
       "version": "0.0.2"
     }

@@ -189,7 +189,7 @@
     "update": {
       "file": {
         "name": "barbarian-battlerager.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/barbarian-battlerager.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/barbarian-battlerager.json"
       },
       "version": "0.0.7"
     }

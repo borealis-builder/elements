@@ -297,7 +297,7 @@
     "update": {
       "file": {
         "name": "race-human.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-human.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/races/race-human.json"
       },
       "version": "0.2.9"
     }

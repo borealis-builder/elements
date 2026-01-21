@@ -241,7 +241,7 @@
     "update": {
       "file": {
         "name": "paladin-vengeance.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/paladin-vengeance.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/paladin-vengeance.json"
       },
       "version": "0.0.1"
     }

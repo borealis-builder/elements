@@ -96,7 +96,7 @@
     "update": {
       "file": {
         "name": "mark-of-shadow.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-shadow.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-shadow.json"
       },
       "version": "0.0.2"
     }

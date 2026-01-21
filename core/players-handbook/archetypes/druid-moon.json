@@ -170,7 +170,7 @@
     "update": {
       "file": {
         "name": "druid-moon.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/druid-moon.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/druid-moon.json"
       },
       "version": "0.0.1"
     }

@@ -10,7 +10,7 @@
       "version": "0.3.3",
       "file": {
         "name": "xanathars-guide-to-everything.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything.index.json"
       }
     }
   },
@@ -18,187 +18,187 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/source.json"
     },
     {
       "name": "barbarian-ancestralguardian.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/barbarian-ancestralguardian.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/barbarian-ancestralguardian.json"
     },
     {
       "name": "barbarian-stormherald.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/barbarian-stormherald.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/barbarian-stormherald.json"
     },
     {
       "name": "barbarian-zealot.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/barbarian-zealot.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/barbarian-zealot.json"
     },
     {
       "name": "bard-glamour.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-glamour.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-glamour.json"
     },
     {
       "name": "bard-swords.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-swords.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-swords.json"
     },
     {
       "name": "bard-whispers.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-whispers.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/bard-whispers.json"
     },
     {
       "name": "cleric-forgedomain.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/cleric-forgedomain.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/cleric-forgedomain.json"
     },
     {
       "name": "cleric-gravedomain.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/cleric-gravedomain.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/cleric-gravedomain.json"
     },
     {
       "name": "druid-dreams.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/druid-dreams.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/druid-dreams.json"
     },
     {
       "name": "druid-shepherd.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/druid-shepherd.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/druid-shepherd.json"
     },
     {
       "name": "fighter-arcanearcher.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-arcanearcher.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-arcanearcher.json"
     },
     {
       "name": "fighter-cavalier.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-cavalier.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-cavalier.json"
     },
     {
       "name": "fighter-samurai.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-samurai.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/fighter-samurai.json"
     },
     {
       "name": "monk-drunkenmaster.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-drunkenmaster.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-drunkenmaster.json"
     },
     {
       "name": "monk-kensei.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-kensei.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-kensei.json"
     },
     {
       "name": "monk-sunsoul.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-sunsoul.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-sunsoul.json"
     },
     {
       "name": "paladin-conquest.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/paladin-conquest.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/paladin-conquest.json"
     },
     {
       "name": "paladin-redemption.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/paladin-redemption.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/paladin-redemption.json"
     },
     {
       "name": "ranger-gloomstalker.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-gloomstalker.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-gloomstalker.json"
     },
     {
       "name": "ranger-horizonwalker.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-horizonwalker.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-horizonwalker.json"
     },
     {
       "name": "ranger-monsterslayer.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-monsterslayer.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/ranger-monsterslayer.json"
     },
     {
       "name": "rogue-inquisitive.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-inquisitive.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-inquisitive.json"
     },
     {
       "name": "rogue-mastermind.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-mastermind.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-mastermind.json"
     },
     {
       "name": "rogue-scout.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-scout.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-scout.json"
     },
     {
       "name": "rogue-swashbuckler.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-swashbuckler.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-swashbuckler.json"
     },
     {
       "name": "sorcerer-divinesoul.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/sorcerer-divinesoul.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/sorcerer-divinesoul.json"
     },
     {
       "name": "sorcerer-shadowmagic.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/sorcerer-shadowmagic.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/sorcerer-shadowmagic.json"
     },
     {
       "name": "sorcerer-stormsorcery.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/sorcerer-stormsorcery.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/sorcerer-stormsorcery.json"
     },
     {
       "name": "warlock-celestial.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/warlock-celestial.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/warlock-celestial.json"
     },
     {
       "name": "warlock-hexblade.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/warlock-hexblade.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/warlock-hexblade.json"
     },
     {
       "name": "wizard-warmagic.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/wizard-warmagic.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/wizard-warmagic.json"
     },
     {
       "name": "eldritch-invocations.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/eldritch-invocations.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/eldritch-invocations.json"
     },
     {
       "name": "feats.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/feats.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/feats.json"
     },
     {
       "name": "spells.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/spells.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/spells.json"
     },
     {
       "name": "items-wondrous.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/items/items-wondrous.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/items/items-wondrous.json"
     },
     {
       "name": "replicate-infusions.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/items/replicate-infusions.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/items/replicate-infusions.json"
     }
   ]
 }

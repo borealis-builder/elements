@@ -180,7 +180,7 @@
     "update": {
       "file": {
         "name": "spells.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/rime-of-the-frostmaiden/spells.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/rime-of-the-frostmaiden/spells.json"
       },
       "version": "0.1.1"
     }

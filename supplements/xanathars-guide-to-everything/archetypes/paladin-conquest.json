@@ -243,7 +243,7 @@
     "update": {
       "file": {
         "name": "paladin-conquest.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/paladin-conquest.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/paladin-conquest.json"
       },
       "version": "0.0.5"
     }

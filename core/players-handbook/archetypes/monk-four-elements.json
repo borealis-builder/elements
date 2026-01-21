@@ -321,7 +321,7 @@
     "update": {
       "file": {
         "name": "monk-four-elements.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/monk-four-elements.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/monk-four-elements.json"
       },
       "version": "0.0.1"
     }

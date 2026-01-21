@@ -900,7 +900,7 @@
     "update": {
       "file": {
         "name": "items.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/items.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage/items.json"
       },
       "version": "0.0.5"
     }

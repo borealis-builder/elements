@@ -1427,7 +1427,7 @@
     "update": {
       "file": {
         "name": "feats.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/feats.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/feats.json"
       },
       "version": "0.1.9"
     }

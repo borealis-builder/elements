@@ -19,7 +19,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/EL-LR.jpg",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/EL-LR.jpg",
             "name": "image"
           },
           {
@@ -224,7 +224,7 @@
     "update": {
       "file": {
         "name": "locathah-rising.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/locathah-rising.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/locathah-rising.json"
       },
       "version": "0.0.4"
     }

@@ -102,7 +102,7 @@
     "update": {
       "file": {
         "name": "wizard-scribes.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/wizard-scribes.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/wizard-scribes.json"
       },
       "version": "0.0.1"
     }

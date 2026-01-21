@@ -9,7 +9,7 @@
       "version": "0.0.2",
       "file": {
         "name": "acquisitions-incorporated.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated.index.json"
       }
     }
   },
@@ -17,52 +17,52 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/source.json"
     },
     {
       "name": "celebrity-adventurers-scion.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/backgrounds/celebrity-adventurers-scion.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/backgrounds/celebrity-adventurers-scion.json"
     },
     {
       "name": "failed-merchant.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/backgrounds/failed-merchant.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/backgrounds/failed-merchant.json"
     },
     {
       "name": "gambler.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/backgrounds/gambler.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/backgrounds/gambler.json"
     },
     {
       "name": "plaintiff.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/backgrounds/plaintiff.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/backgrounds/plaintiff.json"
     },
     {
       "name": "rival-intern.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/backgrounds/rival-intern.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/backgrounds/rival-intern.json"
     },
     {
       "name": "verdan.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/verdan.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/verdan.json"
     },
     {
       "name": "spells.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/spells.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/spells.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/items.json"
     },
     {
       "name": "vehicles.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated/vehicles.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated/vehicles.json"
     }
   ]
 }

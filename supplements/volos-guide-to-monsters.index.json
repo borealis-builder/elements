@@ -10,7 +10,7 @@
       "version": "0.1.0",
       "file": {
         "name": "volos-guide-to-monsters.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters.index.json"
       }
     }
   },
@@ -18,77 +18,77 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/source.json"
     },
     {
       "name": "race-aasimar.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-aasimar.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-aasimar.json"
     },
     {
       "name": "race-firbolg.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-firbolg.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-firbolg.json"
     },
     {
       "name": "race-goliath.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-goliath.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-goliath.json"
     },
     {
       "name": "race-kenku.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-kenku.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-kenku.json"
     },
     {
       "name": "race-lizardfolk.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-lizardfolk.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-lizardfolk.json"
     },
     {
       "name": "race-tabaxi.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-tabaxi.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-tabaxi.json"
     },
     {
       "name": "race-triton.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-triton.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-triton.json"
     },
     {
       "name": "race-bugbear.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-bugbear.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-bugbear.json"
     },
     {
       "name": "race-goblin.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-goblin.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-goblin.json"
     },
     {
       "name": "race-hobgoblin.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-hobgoblin.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-hobgoblin.json"
     },
     {
       "name": "race-kobold.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-kobold.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-kobold.json"
     },
     {
       "name": "race-orc.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-orc.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-orc.json"
     },
     {
       "name": "race-yuantipureblood.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-yuantipureblood.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-yuantipureblood.json"
     },
     {
       "name": "spells.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/spells.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/spells.json"
     }
   ]
 }

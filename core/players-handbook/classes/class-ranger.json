@@ -1150,7 +1150,7 @@
     "update": {
       "file": {
         "name": "class-ranger.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-ranger.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/classes/class-ranger.json"
       },
       "version": "0.3.2"
     }

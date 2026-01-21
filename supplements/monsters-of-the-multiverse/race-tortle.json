@@ -150,7 +150,7 @@
     "update": {
       "file": {
         "name": "race-tortle.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-tortle.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse/race-tortle.json"
       },
       "version": "0.0.1"
     }

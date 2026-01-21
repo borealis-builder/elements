@@ -523,7 +523,7 @@
     "update": {
       "file": {
         "name": "eldritch-invocations.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/eldritch-invocations.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/eldritch-invocations.json"
       },
       "version": "0.0.1"
     }

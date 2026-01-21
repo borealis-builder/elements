@@ -130,7 +130,7 @@
     "update": {
       "file": {
         "name": "bard-eloquence.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything/archetypes/bard-eloquence.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything/archetypes/bard-eloquence.json"
       },
       "version": "0.0.1"
     }

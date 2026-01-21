@@ -15,7 +15,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/EL-OGA.png",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/EL-OGA.png",
             "name": "image"
           },
           {
@@ -314,7 +314,7 @@
     "update": {
       "file": {
         "name": "one-grung-above.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/one-grung-above.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/one-grung-above.json"
       },
       "version": "0.0.8"
     }

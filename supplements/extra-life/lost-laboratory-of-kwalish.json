@@ -15,7 +15,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/EL-LLOK.jpg",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/EL-LLOK.jpg",
             "name": "image"
           },
           {
@@ -227,7 +227,7 @@
     "update": {
       "file": {
         "name": "lost-laboratory-of-kwalish.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life/lost-laboratory-of-kwalish.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life/lost-laboratory-of-kwalish.json"
       },
       "version": "0.0.3"
     }

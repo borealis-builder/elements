@@ -324,7 +324,7 @@
     "update": {
       "file": {
         "name": "race-aasimar.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters/race-aasimar.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters/race-aasimar.json"
       },
       "version": "0.2.0"
     }

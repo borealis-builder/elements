@@ -10,7 +10,7 @@
       "version": "0.0.4",
       "file": {
         "name": "storm-kings-thunder.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/storm-kings-thunder.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/storm-kings-thunder.index.json"
       }
     }
   },
@@ -18,12 +18,12 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/storm-kings-thunder/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/storm-kings-thunder/source.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/storm-kings-thunder/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/storm-kings-thunder/items.json"
     }
   ]
 }

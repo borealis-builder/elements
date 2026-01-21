@@ -158,7 +158,7 @@
     "update": {
       "file": {
         "name": "warlock-fiend.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/warlock-fiend.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/warlock-fiend.json"
       },
       "version": "0.0.1"
     }

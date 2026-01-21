@@ -10,7 +10,7 @@
       "version": "0.2.6",
       "file": {
         "name": "sword-coast-adventurers-guide.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide.index.json"
       }
     }
   },
@@ -18,167 +18,167 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/source.json"
     },
     {
       "name": "race-duergar.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/race-duergar.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/races/race-duergar.json"
     },
     {
       "name": "race-ghostwisehalfling.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/race-ghostwisehalfling.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/races/race-ghostwisehalfling.json"
     },
     {
       "name": "race-svirfneblin.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/race-svirfneblin.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/races/race-svirfneblin.json"
     },
     {
       "name": "variant-tiefling.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/variant-tiefling.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/races/variant-tiefling.json"
     },
     {
       "name": "variant-half-elf.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/races/variant-half-elf.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/races/variant-half-elf.json"
     },
     {
       "name": "barbarian-battlerager.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/barbarian-battlerager.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/barbarian-battlerager.json"
     },
     {
       "name": "barbarian-totemwarrior.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/barbarian-totemwarrior.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/barbarian-totemwarrior.json"
     },
     {
       "name": "cleric-arcanadomain.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/cleric-arcanadomain.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/cleric-arcanadomain.json"
     },
     {
       "name": "fighter-purpledragonknight.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/fighter-purpledragonknight.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/fighter-purpledragonknight.json"
     },
     {
       "name": "monk-longdeath.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/monk-longdeath.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/monk-longdeath.json"
     },
     {
       "name": "monk-sunsoul.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/monk-sunsoul.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/monk-sunsoul.json"
     },
     {
       "name": "paladin-thecrown.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/paladin-thecrown.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/paladin-thecrown.json"
     },
     {
       "name": "archetype-mastermind.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/archetype-mastermind.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/archetype-mastermind.json"
     },
     {
       "name": "archetype-swashbuckler.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/archetype-swashbuckler.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/archetype-swashbuckler.json"
     },
     {
       "name": "sorcerer-stormsorcery.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/sorcerer-stormsorcery.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/sorcerer-stormsorcery.json"
     },
     {
       "name": "warlock-theundying.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/warlock-theundying.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/warlock-theundying.json"
     },
     {
       "name": "wizard-bladesinging.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/classes/wizard-bladesinging.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/classes/wizard-bladesinging.json"
     },
     {
       "name": "background-citywatch.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-citywatch.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-citywatch.json"
     },
     {
       "name": "background-clancrafter.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-clancrafter.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-clancrafter.json"
     },
     {
       "name": "background-cloisteredscholar.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-cloisteredscholar.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-cloisteredscholar.json"
     },
     {
       "name": "background-courtier.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-courtier.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-courtier.json"
     },
     {
       "name": "background-factionagent.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-factionagent.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-factionagent.json"
     },
     {
       "name": "background-fartraveler.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-fartraveler.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-fartraveler.json"
     },
     {
       "name": "background-inheritor.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-inheritor.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-inheritor.json"
     },
     {
       "name": "background-knightoftheorder.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-knightoftheorder.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-knightoftheorder.json"
     },
     {
       "name": "background-mercenaryveteran.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-mercenaryveteran.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-mercenaryveteran.json"
     },
     {
       "name": "background-urbanbountyhunter.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-urbanbountyhunter.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-urbanbountyhunter.json"
     },
     {
       "name": "background-uthgardttribemember.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-uthgardttribemember.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-uthgardttribemember.json"
     },
     {
       "name": "background-waterdhaviannoble.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-waterdhaviannoble.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-waterdhaviannoble.json"
     },
     {
       "name": "musical-instruments.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/musical-instruments.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/musical-instruments.json"
     },
     {
       "name": "spells.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/spells.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/spells.json"
     },
     {
       "name": "deities.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/deities.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/deities.json"
     }
   ]
 }

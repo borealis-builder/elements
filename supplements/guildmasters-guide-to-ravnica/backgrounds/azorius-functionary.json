@@ -227,7 +227,7 @@
     "update": {
       "file": {
         "name": "azorius-functionary.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/azorius-functionary.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/azorius-functionary.json"
       },
       "version": "0.0.7"
     }

@@ -9,7 +9,7 @@
       "version": "0.0.2",
       "file": {
         "name": "strixhaven-a-curriculum-of-chaos.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos.index.json"
       }
     }
   },
@@ -17,52 +17,52 @@
     {
       "name": "background-lorehold-student.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-lorehold-student.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-lorehold-student.json"
     },
     {
       "name": "background-prismari-student.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-prismari-student.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-prismari-student.json"
     },
     {
       "name": "background-quandrix-student.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-quandrix-student.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-quandrix-student.json"
     },
     {
       "name": "background-silverquill-student.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-silverquill-student.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-silverquill-student.json"
     },
     {
       "name": "background-witherbloom-student.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-witherbloom-student.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-witherbloom-student.json"
     },
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/source.json"
     },
     {
       "name": "feats.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/feats.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/feats.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/items.json"
     },
     {
       "name": "race-owlin.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/race-owlin.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/race-owlin.json"
     },
     {
       "name": "spells.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/spells.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/spells.json"
     }
   ]
 }

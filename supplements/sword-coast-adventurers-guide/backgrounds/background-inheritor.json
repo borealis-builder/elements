@@ -200,7 +200,7 @@
     "update": {
       "file": {
         "name": "background-inheritor.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-inheritor.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-inheritor.json"
       },
       "version": "0.1.5"
     }

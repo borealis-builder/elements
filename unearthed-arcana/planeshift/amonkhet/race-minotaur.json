@@ -161,7 +161,7 @@
     "update": {
       "file": {
         "name": "race-minotaur.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/amonkhet/race-minotaur.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/amonkhet/race-minotaur.json"
       },
       "version": "0.0.4"
     }

@@ -126,7 +126,7 @@
     "update": {
       "file": {
         "name": "monk-sunsoul.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-sunsoul.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/monk-sunsoul.json"
       },
       "version": "0.0.5"
     }

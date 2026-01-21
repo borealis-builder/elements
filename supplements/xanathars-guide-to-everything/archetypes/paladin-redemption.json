@@ -227,7 +227,7 @@
     "update": {
       "file": {
         "name": "paladin-redemption.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/paladin-redemption.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/paladin-redemption.json"
       },
       "version": "0.1.3"
     }

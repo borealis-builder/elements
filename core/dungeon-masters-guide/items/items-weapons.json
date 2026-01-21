@@ -1892,7 +1892,7 @@
     "update": {
       "file": {
         "name": "items-weapons.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-weapons.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/dungeon-masters-guide/items/items-weapons.json"
       },
       "version": "0.0.8"
     }

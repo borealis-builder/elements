@@ -236,7 +236,7 @@
     "update": {
       "file": {
         "name": "cleric-forgedomain.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/cleric-forgedomain.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/cleric-forgedomain.json"
       },
       "version": "0.1.5"
     }

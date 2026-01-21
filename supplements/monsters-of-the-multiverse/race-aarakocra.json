@@ -152,7 +152,7 @@
     "update": {
       "file": {
         "name": "race-aarakocra.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse/race-aarakocra.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse/race-aarakocra.json"
       },
       "version": "0.0.1"
     }

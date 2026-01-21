@@ -8834,7 +8834,7 @@
     "update": {
       "file": {
         "name": "items-wondrous.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-wondrous.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/dungeon-masters-guide/items/items-wondrous.json"
       },
       "version": "0.1.4"
     }

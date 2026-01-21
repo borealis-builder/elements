@@ -1292,7 +1292,7 @@
     "update": {
       "file": {
         "name": "items-potions.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-potions.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/dungeon-masters-guide/items/items-potions.json"
       },
       "version": "0.0.3"
     }

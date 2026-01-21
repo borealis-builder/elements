@@ -3206,7 +3206,7 @@
     "update": {
       "file": {
         "name": "items-treasure.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-treasure.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/dungeon-masters-guide/items/items-treasure.json"
       },
       "version": "0.0.2"
     }

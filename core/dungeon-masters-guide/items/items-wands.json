@@ -752,7 +752,7 @@
     "update": {
       "file": {
         "name": "items-wands.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/dungeon-masters-guide/items/items-wands.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/dungeon-masters-guide/items/items-wands.json"
       },
       "version": "0.0.6"
     }

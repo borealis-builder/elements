@@ -45,7 +45,7 @@
     "update": {
       "file": {
         "name": "feats-kaladesh.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/kaladesh/feats-kaladesh.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/kaladesh/feats-kaladesh.json"
       },
       "version": "0.0.2"
     }

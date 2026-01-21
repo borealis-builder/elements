@@ -1418,7 +1418,7 @@
     "update": {
       "file": {
         "name": "items-magic.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants/items-magic.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants/items-magic.json"
       },
       "version": "0.0.1"
     }

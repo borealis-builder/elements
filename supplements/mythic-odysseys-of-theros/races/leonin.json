@@ -198,7 +198,7 @@
     "update": {
       "file": {
         "name": "leonin.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros/races/leonin.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros/races/leonin.json"
       },
       "version": "0.0.2"
     }

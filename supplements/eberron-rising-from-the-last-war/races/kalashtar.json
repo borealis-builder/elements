@@ -196,7 +196,7 @@
     "update": {
       "file": {
         "name": "kalashtar.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war/races/kalashtar.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war/races/kalashtar.json"
       },
       "version": "0.0.3"
     }

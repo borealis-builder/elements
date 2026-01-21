@@ -329,7 +329,7 @@
     "update": {
       "file": {
         "name": "items-packs.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/items/items-packs.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/items/items-packs.json"
       },
       "version": "0.0.2"
     }

@@ -230,7 +230,7 @@
     "update": {
       "file": {
         "name": "dimir-operative.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/dimir-operative.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/backgrounds/dimir-operative.json"
       },
       "version": "0.0.7"
     }

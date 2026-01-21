@@ -10,7 +10,7 @@
       "version": "0.0.1",
       "file": {
         "name": "phandelver-and-below-the-shattered-obelisk.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/phandelver-and-below-the-shattered-obelisk.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/phandelver-and-below-the-shattered-obelisk.index.json"
       }
     }
   },
@@ -18,12 +18,12 @@
     {
       "name": "source.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/phandelver-and-below-the-shattered-obelisk/source.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/phandelver-and-below-the-shattered-obelisk/source.json"
     },
     {
       "name": "items.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/phandelver-and-below-the-shattered-obelisk/items.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/phandelver-and-below-the-shattered-obelisk/items.json"
     }
   ]
 }

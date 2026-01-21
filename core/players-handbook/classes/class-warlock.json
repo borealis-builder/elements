@@ -657,7 +657,7 @@
     "update": {
       "file": {
         "name": "class-warlock.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/classes/class-warlock.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/classes/class-warlock.json"
       },
       "version": "0.3.9"
     }

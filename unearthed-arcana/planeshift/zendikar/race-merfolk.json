@@ -401,7 +401,7 @@
     "update": {
       "file": {
         "name": "race-merfolk.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/zendikar/race-merfolk.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/zendikar/race-merfolk.json"
       },
       "version": "0.0.4"
     }

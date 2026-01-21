@@ -152,7 +152,7 @@
     "update": {
       "file": {
         "name": "background-lorehold-student.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-lorehold-student.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-lorehold-student.json"
       },
       "version": "0.0.3"
     }

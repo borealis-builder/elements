@@ -295,7 +295,7 @@
     "update": {
       "file": {
         "name": "rogue-arcane-trickster.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/rogue-arcane-trickster.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/rogue-arcane-trickster.json"
       },
       "version": "0.0.1"
     }

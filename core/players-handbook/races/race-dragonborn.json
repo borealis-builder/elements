@@ -548,7 +548,7 @@
     "update": {
       "file": {
         "name": "race-dragonborn.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/races/race-dragonborn.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/races/race-dragonborn.json"
       },
       "version": "0.2.5"
     }

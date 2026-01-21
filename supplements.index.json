@@ -10,7 +10,7 @@
       "version": "0.6.5",
       "file": {
         "name": "supplements.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements.index.json"
       }
     }
   },
@@ -18,247 +18,247 @@
     {
       "name": "ranger-favored-enemies.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ranger-favored-enemies.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/ranger-favored-enemies.json"
     },
     {
       "name": "lost-mines-phandelver.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/lost-mines-phandelver.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/lost-mines-phandelver.index.json"
     },
     {
       "name": "hoard-of-the-dragon-queen.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/hoard-of-the-dragon-queen.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/hoard-of-the-dragon-queen.index.json"
     },
     {
       "name": "rise-of-tiamat.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/rise-of-tiamat.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/rise-of-tiamat.index.json"
     },
     {
       "name": "princes-of-the-apocalypse.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/princes-of-the-apocalypse.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/princes-of-the-apocalypse.index.json"
     },
     {
       "name": "out-of-the-abyss.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/out-of-the-abyss.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/out-of-the-abyss.index.json"
     },
     {
       "name": "sword-coast-adventurers-guide.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide.index.json"
     },
     {
       "name": "curse-of-strahd.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/curse-of-strahd.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/curse-of-strahd.index.json"
     },
     {
       "name": "storm-kings-thunder.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/storm-kings-thunder.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/storm-kings-thunder.index.json"
     },
     {
       "name": "volos-guide-to-monsters.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/volos-guide-to-monsters.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/volos-guide-to-monsters.index.json"
     },
     {
       "name": "tales-from-the-yawning-portal.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tales-from-the-yawning-portal.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tales-from-the-yawning-portal.index.json"
     },
     {
       "name": "tomb-of-annihilation.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tomb-of-annihilation.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tomb-of-annihilation.index.json"
     },
     {
       "name": "xanathars-guide-to-everything.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything.index.json"
     },
     {
       "name": "mordenkainens-tome-of-foes.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mordenkainens-tome-of-foes.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mordenkainens-tome-of-foes.index.json"
     },
     {
       "name": "waterdeep-dragon-heist.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dragon-heist.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dragon-heist.index.json"
     },
     {
       "name": "waterdeep-dungeon-of-the-mad-mage.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/waterdeep-dungeon-of-the-mad-mage.index.json"
     },
     {
       "name": "guildmasters-guide-to-ravnica.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica.index.json"
     },
     {
       "name": "ghosts-of-saltmarsh.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/ghosts-of-saltmarsh.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/ghosts-of-saltmarsh.index.json"
     },
     {
       "name": "acquisitions-incorporated.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/acquisitions-incorporated.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/acquisitions-incorporated.index.json"
     },
     {
       "name": "descent-into-avernus.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/descent-into-avernus.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/descent-into-avernus.index.json"
     },
     {
       "name": "eberron-rising-from-the-last-war.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/eberron-rising-from-the-last-war.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/eberron-rising-from-the-last-war.index.json"
     },
     {
       "name": "explorers-guide-to-wildemount.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/explorers-guide-to-wildemount.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/explorers-guide-to-wildemount.index.json"
     },
     {
       "name": "mythic-odysseys-of-theros.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mythic-odysseys-of-theros.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mythic-odysseys-of-theros.index.json"
     },
     {
       "name": "rime-of-the-frostmaiden.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/rime-of-the-frostmaiden.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/rime-of-the-frostmaiden.index.json"
     },
     {
       "name": "tashas-cauldron-of-everything.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/tashas-cauldron-of-everything.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/tashas-cauldron-of-everything.index.json"
     },
     {
       "name": "candlekeep-mysteries.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/candlekeep-mysteries.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/candlekeep-mysteries.index.json"
     },
     {
       "name": "van-richtens-guide-to-ravenloft.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/van-richtens-guide-to-ravenloft.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/van-richtens-guide-to-ravenloft.index.json"
     },
     {
       "name": "wild-beyond-the-witchlight.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/wild-beyond-the-witchlight.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/wild-beyond-the-witchlight.index.json"
     },
     {
       "name": "fizbans-treasury-of-dragons.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/fizbans-treasury-of-dragons.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/fizbans-treasury-of-dragons.index.json"
     },
     {
       "name": "strixhaven-a-curriculum-of-chaos.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/strixhaven-a-curriculum-of-chaos.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/strixhaven-a-curriculum-of-chaos.index.json"
     },
     {
       "name": "critical-role-call-of-the-netherdeep.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/critical-role-call-of-the-netherdeep.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/critical-role-call-of-the-netherdeep.index.json"
     },
     {
       "name": "monsters-of-the-multiverse.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/monsters-of-the-multiverse.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/monsters-of-the-multiverse.index.json"
     },
     {
       "name": "journeys-through-the-radiant-citadel.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/journeys-through-the-radiant-citadel.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/journeys-through-the-radiant-citadel.index.json"
     },
     {
       "name": "astral-adventurers-guide.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/astral-adventurers-guide.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/astral-adventurers-guide.index.json"
     },
     {
       "name": "boos-astral-menagerie.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/boos-astral-menagerie.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/boos-astral-menagerie.index.json"
     },
     {
       "name": "light-of-xaryxis.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/light-of-xaryxis.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/light-of-xaryxis.index.json"
     },
     {
       "name": "dragonlance-shadow-of-the-dragon-queen.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen.index.json"
     },
     {
       "name": "keys-from-the-golden-vault.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/keys-from-the-golden-vault.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/keys-from-the-golden-vault.index.json"
     },
     {
       "name": "glory-of-the-giants.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/glory-of-the-giants.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/glory-of-the-giants.index.json"
     },
     {
       "name": "phandelver-and-below-the-shattered-obelisk.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/phandelver-and-below-the-shattered-obelisk.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/phandelver-and-below-the-shattered-obelisk.index.json"
     },
     {
       "name": "sigil-and-the-outlands.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sigil-and-the-outlands.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands.index.json"
     },
     {
       "name": "mortes-planar-parade.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mortes-planar-parade.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mortes-planar-parade.index.json"
     },
     {
       "name": "the-book-of-many-things.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/the-book-of-many-things.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/the-book-of-many-things.index.json"
     },
     {
       "name": "vecna-eve-of-ruin.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/vecna-eve-of-ruin.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/vecna-eve-of-ruin.index.json"
     },
     {
       "name": "quests-from-the-infinite-staircase.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/quests-from-the-infinite-staircase.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/quests-from-the-infinite-staircase.index.json"
     },
     {
       "name": "adventurers-league.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/adventurers-league.index.json"
     },
     {
       "name": "dnd-beyond.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dnd-beyond.index.json"
     },
     {
       "name": "misc.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/misc.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/misc.index.json"
     },
     {
       "name": "extra-life.index.json",
       "type": "index",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/extra-life.index.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/extra-life.index.json"
     }
   ]
 }

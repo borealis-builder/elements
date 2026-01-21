@@ -154,7 +154,7 @@
     "update": {
       "file": {
         "name": "languages.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/guildmasters-guide-to-ravnica/languages.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/guildmasters-guide-to-ravnica/languages.json"
       },
       "version": "0.0.3"
     }

@@ -14,7 +14,7 @@
           "name": "url"
         },
         {
-          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/vecna-eve-of-ruin/VER.png",
+          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/vecna-eve-of-ruin/VER.png",
           "name": "image"
         },
         {
@@ -44,7 +44,7 @@
     "update": {
       "file": {
         "name": "source.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/vecna-eve-of-ruin/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/vecna-eve-of-ruin/source.json"
       },
       "version": "0.0.1"
     }

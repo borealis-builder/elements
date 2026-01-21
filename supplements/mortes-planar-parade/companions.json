@@ -409,7 +409,7 @@
     "update": {
       "file": {
         "name": "companions.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/mortes-planar-parade/companions.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/mortes-planar-parade/companions.json"
       },
       "version": "0.0.1"
     }

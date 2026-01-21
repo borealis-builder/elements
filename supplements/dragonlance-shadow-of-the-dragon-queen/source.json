@@ -14,7 +14,7 @@
           "name": "url"
         },
         {
-          "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/DSDQ.png",
+          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/DSDQ.png",
           "name": "image"
         },
         {
@@ -44,7 +44,7 @@
     "update": {
       "file": {
         "name": "source.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/source.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/source.json"
       },
       "version": "0.0.1"
     }

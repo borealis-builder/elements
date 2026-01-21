@@ -9,7 +9,7 @@
     "update": {
       "file": {
         "name": "rogue-mastermind.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-mastermind.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/xanathars-guide-to-everything/archetypes/rogue-mastermind.json"
       },
       "version": "0.1"
     }

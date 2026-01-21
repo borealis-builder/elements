@@ -376,7 +376,7 @@
     "update": {
       "file": {
         "name": "fighter-battle-master.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/core/players-handbook/archetypes/fighter-battle-master.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/players-handbook/archetypes/fighter-battle-master.json"
       },
       "version": "0.0.1"
     }

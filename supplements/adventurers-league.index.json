@@ -9,7 +9,7 @@
       "version": "0.0.3",
       "file": {
         "name": "adventurers-league.index.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league.index.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/adventurers-league.index.json"
       }
     }
   },
@@ -17,22 +17,22 @@
     {
       "name": "elemental-evil.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/elemental-evil.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/adventurers-league/elemental-evil.json"
     },
     {
       "name": "state-of-hillsfar.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/state-of-hillsfar.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/adventurers-league/state-of-hillsfar.json"
     },
     {
       "name": "curse-of-strahd.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/curse-of-strahd.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/adventurers-league/curse-of-strahd.json"
     },
     {
       "name": "dnd-celebration-2020.json",
       "type": "source",
-      "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/adventurers-league/dnd-celebration-2020.json"
+      "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/adventurers-league/dnd-celebration-2020.json"
     }
   ]
 }

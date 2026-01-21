@@ -15,7 +15,7 @@
             "name": "url"
           },
           {
-            "description": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/VNEE.png",
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dnd-beyond/VNEE.png",
             "name": "image"
           },
           {
@@ -92,7 +92,7 @@
     "update": {
       "file": {
         "name": "vecna-nest-of-the-eldritch-eye.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dnd-beyond/vecna-nest-of-the-eldritch-eye.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dnd-beyond/vecna-nest-of-the-eldritch-eye.json"
       },
       "version": "0.0.1"
     }

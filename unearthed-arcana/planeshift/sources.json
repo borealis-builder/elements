@@ -212,7 +212,7 @@
     "update": {
       "file": {
         "name": "sources.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/unearthed-arcana/planeshift/sources.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/unearthed-arcana/planeshift/sources.json"
       },
       "version": "0.0.3"
     }

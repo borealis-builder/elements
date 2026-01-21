@@ -170,7 +170,7 @@
     "update": {
       "file": {
         "name": "race-kender.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/race-kender.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/dragonlance-shadow-of-the-dragon-queen/race-kender.json"
       },
       "version": "0.0.1"
     }

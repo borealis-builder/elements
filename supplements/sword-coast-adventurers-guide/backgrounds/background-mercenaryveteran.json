@@ -198,7 +198,7 @@
     "update": {
       "file": {
         "name": "background-mercenaryveteran.json",
-        "url": "https://raw.githubusercontent.com/elements/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-mercenaryveteran.json"
+        "url": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sword-coast-adventurers-guide/backgrounds/background-mercenaryveteran.json"
       },
       "version": "0.1.4"
     }
