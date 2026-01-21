@@ -9,31 +9,31 @@
         "update": {
             "version": "0.0.1",
             "file": {
-                "name": "borealis.index",
-                "url": "https://raw.githubusercontent.com/borealis/elements/main/AuroraLegacy.index"
+                "name": "borealis.index.json",
+                "url": "https://raw.githubusercontent.com/borealis/elements/main/borealis.index.json"
             }
         }
     },
     "files": [
         {
             "type": "index",
-            "name": "core.index",
-            "url": "https://raw.githubusercontent.com/borealis/elements/main/core.index"
+            "name": "core.index.json",
+            "url": "https://raw.githubusercontent.com/borealis/elements/main/core.index.json"
         },
         {
             "type": "index",
-            "name": "supplements.index",
-            "url": "https://raw.githubusercontent.com/borealis/elements/main/supplements.index"
+            "name": "supplements.index.json",
+            "url": "https://raw.githubusercontent.com/borealis/elements/main/supplements.index.json"
         },
         {
             "type": "index",
-            "name": "unearthed-arcana.index",
-            "url": "https://raw.githubusercontent.com/borealis/elements/main/unearthed-arcana.index"
+            "name": "unearthed-arcana.index.json",
+            "url": "https://raw.githubusercontent.com/borealis/elements/main/unearthed-arcana.index.json"
         },
         {
             "type": "index",
-            "name": "collaborations.index",
-            "url": "https://raw.githubusercontent.com/borealis/elements/main/collaborations.index"
+            "name": "collaborations.index.json",
+            "url": "https://raw.githubusercontent.com/borealis/elements/main/collaborations.index.json"
         }
     ]
 }
