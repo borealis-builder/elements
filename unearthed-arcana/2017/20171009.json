@@ -1,45 +1,47 @@
 {
-  "element": {
-    "description": "<p>In time for the lengthening shadows of autumn, we present a collection of fiendish options for you to playtest: new subraces for tieflings, ways to customize diabolical cults, and demonic boons that wicked NPCs can receive from the denizens of the Abyss.</p>",
-    "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20171009",
-    "name": "Unearthed Arcana: Fiendish Options",
-    "setters": {
-      "set": [
-        {
-          "description": "UA20171009",
-          "name": "abbreviation"
-        },
-        {
-          "description": "http://dnd.wizards.com/articles/unearthed-arcana/fiendish-options",
-          "name": "url"
-        },
-        {
-          "abbreviation": "WOTC",
-          "description": "Wizards of the Coast",
-          "name": "author",
-          "url": "http://dnd.wizards.com"
-        },
-        {
-          "description": "true",
-          "name": "official"
-        },
-        {
-          "description": "true",
-          "name": "playtest"
-        },
-        {
-          "description": "The content from this source is not included.",
-          "name": "information"
-        },
-        {
-          "description": "20171009",
-          "name": "release"
-        }
-      ]
-    },
-    "source": "Core",
-    "type": "Source"
-  },
+  "element": [
+    {
+      "description": "<p>In time for the lengthening shadows of autumn, we present a collection of fiendish options for you to playtest: new subraces for tieflings, ways to customize diabolical cults, and demonic boons that wicked NPCs can receive from the denizens of the Abyss.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20171009",
+      "name": "Unearthed Arcana: Fiendish Options",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20171009",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/articles/unearthed-arcana/fiendish-options",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "The content from this source is not included.",
+            "name": "information"
+          },
+          {
+            "description": "20171009",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    }
+  ],
   "info": {
     "author": {
       "description": "Wizards of the Coast",

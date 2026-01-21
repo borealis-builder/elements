@@ -1,49 +1,51 @@
 {
-  "element": {
-    "description": "<p><strong>A menagerie of deadly monsters for the world's greatest roleplaying game.</strong></p> <p>The <i>Monster Manual</i> presents a horde of classic Dungeons &amp; Dragons creatures, including dragons, giants, mind flayers, and beholders—a monstrous feast for Dungeon Masters ready to challenge their players and populate their adventures.</p> <p>The monsters contained herein are culled from the D&amp;D game's illustrious history, with easy-to-use game statistics and thrilling stories to feed your imagination.</p>",
-    "id": "ID_WOTC_SOURCE_MONSTER_MANUAL",
-    "name": "Monster Manual",
-    "setters": {
-      "set": [
-        {
-          "description": "MM",
-          "name": "abbreviation"
-        },
-        {
-          "description": "http://dnd.wizards.com/products/tabletop-games/rpg-products/monster-manual",
-          "name": "url"
-        },
-        {
-          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/MM.png",
-          "name": "image"
-        },
-        {
-          "description": "https://media.wizards.com/2018/dnd/downloads/MM-Errata.pdf",
-          "name": "errata"
-        },
-        {
-          "abbreviation": "WOTC",
-          "description": "Wizards of the Coast",
-          "name": "author",
-          "url": "http://dnd.wizards.com"
-        },
-        {
-          "description": "true",
-          "name": "official"
-        },
-        {
-          "description": "true",
-          "name": "core"
-        },
-        {
-          "description": "20141209",
-          "name": "release"
-        }
-      ]
-    },
-    "source": "Core",
-    "type": "Source"
-  },
+  "element": [
+    {
+      "description": "<p><strong>A menagerie of deadly monsters for the world's greatest roleplaying game.</strong></p> <p>The <i>Monster Manual</i> presents a horde of classic Dungeons &amp; Dragons creatures, including dragons, giants, mind flayers, and beholders—a monstrous feast for Dungeon Masters ready to challenge their players and populate their adventures.</p> <p>The monsters contained herein are culled from the D&amp;D game's illustrious history, with easy-to-use game statistics and thrilling stories to feed your imagination.</p>",
+      "id": "ID_WOTC_SOURCE_MONSTER_MANUAL",
+      "name": "Monster Manual",
+      "setters": {
+        "set": [
+          {
+            "description": "MM",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/products/tabletop-games/rpg-products/monster-manual",
+            "name": "url"
+          },
+          {
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/core/monster-manual/MM.png",
+            "name": "image"
+          },
+          {
+            "description": "https://media.wizards.com/2018/dnd/downloads/MM-Errata.pdf",
+            "name": "errata"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "core"
+          },
+          {
+            "description": "20141209",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    }
+  ],
   "info": {
     "update": {
       "file": {

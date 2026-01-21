@@ -1,45 +1,47 @@
 {
-  "element": {
-    "description": "<p>Part of the <b><i>Planescape: Adventures in the Multiverse</i></b> box set</p> <p>A 96-page hardcover setting book — includes planar character options, details on the fantastic City of Doors, descriptions of the Outlands and the gate-towns that lead to the Outer Planes, and more.</p>",
-    "id": "ID_WOTC_SOURCE_SIGIL_AND_THE_OUTLANDS",
-    "name": "Sigil and the Outlands",
-    "setters": {
-      "set": [
-        {
-          "description": "SATO",
-          "name": "abbreviation"
-        },
-        {
-          "description": "https://dndstore.wizards.com/us/en/product/820944/planescape-adventures-in-the-multiverse-digital-plus-physical-bundle",
-          "name": "url"
-        },
-        {
-          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/SATO.png",
-          "name": "image"
-        },
-        {
-          "abbreviation": "WOTC",
-          "description": "Wizards of the Coast",
-          "name": "author",
-          "url": "http://dnd.wizards.com"
-        },
-        {
-          "description": "true",
-          "name": "official"
-        },
-        {
-          "description": "true",
-          "name": "supplement"
-        },
-        {
-          "description": "20231017",
-          "name": "release"
-        }
-      ]
-    },
-    "source": "Core",
-    "type": "Source"
-  },
+  "element": [
+    {
+      "description": "<p>Part of the <b><i>Planescape: Adventures in the Multiverse</i></b> box set</p> <p>A 96-page hardcover setting book — includes planar character options, details on the fantastic City of Doors, descriptions of the Outlands and the gate-towns that lead to the Outer Planes, and more.</p>",
+      "id": "ID_WOTC_SOURCE_SIGIL_AND_THE_OUTLANDS",
+      "name": "Sigil and the Outlands",
+      "setters": {
+        "set": [
+          {
+            "description": "SATO",
+            "name": "abbreviation"
+          },
+          {
+            "description": "https://dndstore.wizards.com/us/en/product/820944/planescape-adventures-in-the-multiverse-digital-plus-physical-bundle",
+            "name": "url"
+          },
+          {
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/sigil-and-the-outlands/SATO.png",
+            "name": "image"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "supplement"
+          },
+          {
+            "description": "20231017",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    }
+  ],
   "info": {
     "update": {
       "file": {

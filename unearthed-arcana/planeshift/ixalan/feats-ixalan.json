@@ -1,14 +1,16 @@
 {
-  "element": {
-    "description": "<p><i>Prerequisite: Ixalan Vampire</i></p> <p>As an action, you can transform the lower half of your body into an inky black vapor, allowing you to float through the air. While transformed, you have a flying speed of 30 feet. You can maintain this form for up to 10 minutes. Once you use this ability, you can't use it again until you finish a short or long rest.</p>",
-    "id": "ID_WOTC_PSI_FEAT_VAMPIRE_EXULTATION",
-    "name": "Vampire Exultation",
-    "prerequisite": "Ixalan Vampire",
-    "requirements": "ID_WOTC_PSI_VAMPIRE_SUBRACE_IXALAN",
-    "sheet": "Once per rest you can gain a flying speed of 30 ft for 10 minutes.",
-    "source": "Plane Shift: Ixalan",
-    "type": "Feat"
-  },
+  "element": [
+    {
+      "description": "<p><i>Prerequisite: Ixalan Vampire</i></p> <p>As an action, you can transform the lower half of your body into an inky black vapor, allowing you to float through the air. While transformed, you have a flying speed of 30 feet. You can maintain this form for up to 10 minutes. Once you use this ability, you can't use it again until you finish a short or long rest.</p>",
+      "id": "ID_WOTC_PSI_FEAT_VAMPIRE_EXULTATION",
+      "name": "Vampire Exultation",
+      "prerequisite": "Ixalan Vampire",
+      "requirements": "ID_WOTC_PSI_VAMPIRE_SUBRACE_IXALAN",
+      "sheet": "Once per rest you can gain a flying speed of 30 ft for 10 minutes.",
+      "source": "Plane Shift: Ixalan",
+      "type": "Feat"
+    }
+  ],
   "info": {
     "author": {
       "description": "Wizards of the Coast",

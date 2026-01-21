@@ -1,49 +1,51 @@
 {
-  "element": {
-    "description": "<p>Part of the <b><i>Spelljammer: Adventures in Space</i></b> box set</p> <p>A 64-page hardcover book for players and Dungeon Masters that presents the Astral Plane as a campaign setting and includes space-based character options, spells and magic items, deck plans and descriptions for spelljamming ships, and more.</p>",
-    "id": "ID_WOTC_SOURCE_ASTRAL_ADVENTURERS_GUIDE",
-    "name": "Astral Adventurer's Guide",
-    "setters": {
-      "set": [
-        {
-          "description": "AAG",
-          "name": "abbreviation"
-        },
-        {
-          "description": "https://dnd.wizards.com/products/spelljammer",
-          "name": "url"
-        },
-        {
-          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/astral-adventurers-guide/AAG.png",
-          "name": "image"
-        },
-        {
-          "abbreviation": "WOTC",
-          "description": "Wizards of the Coast",
-          "name": "author",
-          "url": "http://dnd.wizards.com"
-        },
-        {
-          "description": "true",
-          "name": "official"
-        },
-        {
-          "description": "true",
-          "name": "supplement"
-        },
-        {
-          "description": "20220816",
-          "name": "release"
-        },
-        {
-          "description": "https://media.wizards.com/2022/dnd/downloads/SJA-Errata.pdf",
-          "name": "errata"
-        }
-      ]
-    },
-    "source": "Core",
-    "type": "Source"
-  },
+  "element": [
+    {
+      "description": "<p>Part of the <b><i>Spelljammer: Adventures in Space</i></b> box set</p> <p>A 64-page hardcover book for players and Dungeon Masters that presents the Astral Plane as a campaign setting and includes space-based character options, spells and magic items, deck plans and descriptions for spelljamming ships, and more.</p>",
+      "id": "ID_WOTC_SOURCE_ASTRAL_ADVENTURERS_GUIDE",
+      "name": "Astral Adventurer's Guide",
+      "setters": {
+        "set": [
+          {
+            "description": "AAG",
+            "name": "abbreviation"
+          },
+          {
+            "description": "https://dnd.wizards.com/products/spelljammer",
+            "name": "url"
+          },
+          {
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/astral-adventurers-guide/AAG.png",
+            "name": "image"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "supplement"
+          },
+          {
+            "description": "20220816",
+            "name": "release"
+          },
+          {
+            "description": "https://media.wizards.com/2022/dnd/downloads/SJA-Errata.pdf",
+            "name": "errata"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    }
+  ],
   "info": {
     "update": {
       "file": {

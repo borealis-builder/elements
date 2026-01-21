@@ -1,45 +1,47 @@
 {
-  "element": {
-    "description": "<p>This month, we explore how to make a character who bears a dragonmark, a mystic sigil that appears on the skin. The mark is a source of magical power and enhances the bearer's ability to perform certain tasks. In the world of Eberron, each mark is tied to specific bloodlines. The families that carry these marks joined together to form the Dragonmarked Houses, powerful forces that dominate different industries. Even though these marks are associated with Eberron, you could explore using them in other worlds as well.</p>",
-    "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20180910",
-    "name": "Unearthed Arcana: Dragonmarks",
-    "setters": {
-      "set": [
-        {
-          "description": "UA20180910",
-          "name": "abbreviation"
-        },
-        {
-          "description": "http://dnd.wizards.com/articles/unearthed-arcana/dragonmarks",
-          "name": "url"
-        },
-        {
-          "abbreviation": "WOTC",
-          "description": "Wizards of the Coast",
-          "name": "author",
-          "url": "http://dnd.wizards.com"
-        },
-        {
-          "description": "true",
-          "name": "official"
-        },
-        {
-          "description": "true",
-          "name": "playtest"
-        },
-        {
-          "description": "The content from this source is not included.",
-          "name": "information"
-        },
-        {
-          "description": "20180910",
-          "name": "release"
-        }
-      ]
-    },
-    "source": "Core",
-    "type": "Source"
-  },
+  "element": [
+    {
+      "description": "<p>This month, we explore how to make a character who bears a dragonmark, a mystic sigil that appears on the skin. The mark is a source of magical power and enhances the bearer's ability to perform certain tasks. In the world of Eberron, each mark is tied to specific bloodlines. The families that carry these marks joined together to form the Dragonmarked Houses, powerful forces that dominate different industries. Even though these marks are associated with Eberron, you could explore using them in other worlds as well.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20180910",
+      "name": "Unearthed Arcana: Dragonmarks",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20180910",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/articles/unearthed-arcana/dragonmarks",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "The content from this source is not included.",
+            "name": "information"
+          },
+          {
+            "description": "20180910",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    }
+  ],
   "info": {
     "author": {
       "description": "Wizards of the Coast",

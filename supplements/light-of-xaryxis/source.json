@@ -1,53 +1,55 @@
 {
-  "element": {
-    "description": "<p>Part of the <b><i>Spelljammer: Adventures in Space</i></b> box set</p> <p>A 64-page hardcover adventure for Dungeon Masters that is set in the Astral Plane and designed for characters of levels 5–8.</p>",
-    "id": "ID_WOTC_SOURCE_LIGHT_OF_XARYXIS",
-    "name": "Light of Xaryxis",
-    "setters": {
-      "set": [
-        {
-          "description": "LOX",
-          "name": "abbreviation"
-        },
-        {
-          "description": "https://dnd.wizards.com/products/spelljammer",
-          "name": "url"
-        },
-        {
-          "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/light-of-xaryxis/LOX.png",
-          "name": "image"
-        },
-        {
-          "abbreviation": "WOTC",
-          "description": "Wizards of the Coast",
-          "name": "author",
-          "url": "http://dnd.wizards.com"
-        },
-        {
-          "description": "true",
-          "name": "official"
-        },
-        {
-          "description": "true",
-          "name": "supplement"
-        },
-        {
-          "description": "The content from this source is not included.",
-          "name": "information"
-        },
-        {
-          "description": "20220816",
-          "name": "release"
-        },
-        {
-          "description": "https://media.wizards.com/2022/dnd/downloads/SJA-Errata.pdf",
-          "name": "errata"
-        }
-      ]
-    },
-    "source": "Core",
-    "type": "Source"
-  },
+  "element": [
+    {
+      "description": "<p>Part of the <b><i>Spelljammer: Adventures in Space</i></b> box set</p> <p>A 64-page hardcover adventure for Dungeon Masters that is set in the Astral Plane and designed for characters of levels 5–8.</p>",
+      "id": "ID_WOTC_SOURCE_LIGHT_OF_XARYXIS",
+      "name": "Light of Xaryxis",
+      "setters": {
+        "set": [
+          {
+            "description": "LOX",
+            "name": "abbreviation"
+          },
+          {
+            "description": "https://dnd.wizards.com/products/spelljammer",
+            "name": "url"
+          },
+          {
+            "description": "https://raw.githubusercontent.com/borealis-builder/elements/main/supplements/light-of-xaryxis/LOX.png",
+            "name": "image"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "supplement"
+          },
+          {
+            "description": "The content from this source is not included.",
+            "name": "information"
+          },
+          {
+            "description": "20220816",
+            "name": "release"
+          },
+          {
+            "description": "https://media.wizards.com/2022/dnd/downloads/SJA-Errata.pdf",
+            "name": "errata"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    }
+  ],
   "info": {
     "update": {
       "file": {

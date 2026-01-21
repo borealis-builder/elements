@@ -1,45 +1,47 @@
 {
-  "element": {
-    "description": "<p>This month, Unearthed Arcana wanders into the wilderness, with new ways to approach outdoor exploration.</p>",
-    "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20180212",
-    "name": "Unearthed Arcana: Into the Wild",
-    "setters": {
-      "set": [
-        {
-          "description": "UA20180212",
-          "name": "abbreviation"
-        },
-        {
-          "description": "http://dnd.wizards.com/articles/unearthed-arcana/wild",
-          "name": "url"
-        },
-        {
-          "abbreviation": "WOTC",
-          "description": "Wizards of the Coast",
-          "name": "author",
-          "url": "http://dnd.wizards.com"
-        },
-        {
-          "description": "true",
-          "name": "official"
-        },
-        {
-          "description": "true",
-          "name": "playtest"
-        },
-        {
-          "description": "The content from this source is not included.",
-          "name": "information"
-        },
-        {
-          "description": "20180212",
-          "name": "release"
-        }
-      ]
-    },
-    "source": "Core",
-    "type": "Source"
-  },
+  "element": [
+    {
+      "description": "<p>This month, Unearthed Arcana wanders into the wilderness, with new ways to approach outdoor exploration.</p>",
+      "id": "ID_WOTC_SOURCE_UNEARTHED_ARCANA_20180212",
+      "name": "Unearthed Arcana: Into the Wild",
+      "setters": {
+        "set": [
+          {
+            "description": "UA20180212",
+            "name": "abbreviation"
+          },
+          {
+            "description": "http://dnd.wizards.com/articles/unearthed-arcana/wild",
+            "name": "url"
+          },
+          {
+            "abbreviation": "WOTC",
+            "description": "Wizards of the Coast",
+            "name": "author",
+            "url": "http://dnd.wizards.com"
+          },
+          {
+            "description": "true",
+            "name": "official"
+          },
+          {
+            "description": "true",
+            "name": "playtest"
+          },
+          {
+            "description": "The content from this source is not included.",
+            "name": "information"
+          },
+          {
+            "description": "20180212",
+            "name": "release"
+          }
+        ]
+      },
+      "source": "Core",
+      "type": "Source"
+    }
+  ],
   "info": {
     "author": {
       "description": "Wizards of the Coast",

@@ -1,13 +1,15 @@
 {
-  "element": {
-    "description": "<p>Using this infusion, you can replicate a Moodmark Paint.</p> <div class=\"reference\"> <div element=\"ID_WOTC_GGTR_MAGIC_ITEM_MOODMARK_PAINT\" /> </div>",
-    "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MOODMARK_PAINT",
-    "name": "Moodmark Paint",
-    "sheet": "Using this infusion, you can replicate a Moodmark Paint.",
-    "source": "Guildmasters' Guide to Ravnica",
-    "supports": "Replicate Magic Item Option",
-    "type": "Class Feature"
-  },
+  "element": [
+    {
+      "description": "<p>Using this infusion, you can replicate a Moodmark Paint.</p> <div class=\"reference\"> <div element=\"ID_WOTC_GGTR_MAGIC_ITEM_MOODMARK_PAINT\" /> </div>",
+      "id": "ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MOODMARK_PAINT",
+      "name": "Moodmark Paint",
+      "sheet": "Using this infusion, you can replicate a Moodmark Paint.",
+      "source": "Guildmasters' Guide to Ravnica",
+      "supports": "Replicate Magic Item Option",
+      "type": "Class Feature"
+    }
+  ],
   "info": {
     "update": {
       "file": {
