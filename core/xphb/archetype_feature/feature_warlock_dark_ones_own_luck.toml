@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_DARK_ONE'S_OWN_LUCK"
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_DARK_ONES_OWN_LUCK"
 name = "Dark One's Own Luck"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_one's_own_luck.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_ones_own_luck.toml"
 description = """
 You can call on your fiendish patron to alter fate in your favor. When you make
 an ability check or a saving throw, you can use this feature to add {@dice 1d10}

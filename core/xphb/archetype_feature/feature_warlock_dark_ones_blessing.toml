@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_DARK_ONE'S_BLESSING"
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_DARK_ONES_BLESSING"
 name = "Dark One's Blessing"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_one's_blessing.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_ones_blessing.toml"
 description = """
 When you reduce an enemy to 0 {@variantrule Hit Points|XPHB}, you gain {@variantrule Temporary Hit
 Points|XPHB} equal to your Charisma modifier plus your Warlock level (minimum of

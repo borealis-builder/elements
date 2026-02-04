@@ -1,7 +1,7 @@
-id = "ID_XPHB_CLASS_FEATURE_ROGUE_KNOCK_OUT_(COST:_6D6)"
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_KNOCK_OUT_"
 name = "Knock Out (Cost: 6d6)"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_knock_out_(cost:_6d6).toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_knock_out_.toml"
 description = """
 The target must succeed on a Constitution saving throw, or it has the {@condition
 Unconscious|XPHB} condition for 1 minute or until it takes any damage. The {@condition

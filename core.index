@@ -3,13 +3,13 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core.ind
 
 [[files]]
 type = "index"
-name = "Player's Handbook (2024)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb.index"
+name = "Dungeon Master's Guide (2024)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xdmg.index"
 
 [[files]]
 type = "index"
-name = "Dungeon Master's Guide (2024)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xdmg.index"
+name = "Player's Handbook (2024)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb.index"
 
 [[files]]
 type = "index"

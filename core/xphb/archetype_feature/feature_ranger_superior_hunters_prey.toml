@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_SUPERIOR_HUNTER'S_PREY"
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_SUPERIOR_HUNTERS_PREY"
 name = "Superior Hunter's Prey"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunter's_prey.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunters_prey.toml"
 description = """
 Once per turn when you deal damage to a creature marked by your Hunter's Mark,
 you can also deal that spell's extra damage to a different creature that you can

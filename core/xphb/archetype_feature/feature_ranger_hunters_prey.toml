@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_HUNTER'S_PREY"
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_HUNTERS_PREY"
 name = "Hunter's Prey"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunter's_prey.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunters_prey.toml"
 description = """
 You gain one of the following feature options of your choice. Whenever you
 finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB},

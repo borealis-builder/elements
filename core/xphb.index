@@ -719,7 +719,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Trickster's Transposition"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_trickster's_transposition.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_tricksters_transposition.toml"
 
 [[files]]
 type = "file"
@@ -749,7 +749,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "War God's Blessing"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_god's_blessing.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_gods_blessing.toml"
 
 [[files]]
 type = "file"
@@ -909,7 +909,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Land's Aid"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_land's_aid.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_lands_aid.toml"
 
 [[files]]
 type = "file"
@@ -919,12 +919,12 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Nature's Ward"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_nature's_ward.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_natures_ward.toml"
 
 [[files]]
 type = "file"
 name = "Nature's Sanctuary"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_nature's_sanctuary.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_natures_sanctuary.toml"
 
 [[files]]
 type = "file"
@@ -1329,7 +1329,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Psi-Powered Leap"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psi-powered_leap.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psi.toml"
 
 [[files]]
 type = "file"
@@ -1394,7 +1394,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Monk's Focus"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_monk's_focus.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_monks_focus.toml"
 
 [[files]]
 type = "file"
@@ -1479,7 +1479,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Self-Restoration"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_self-restoration.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_self.toml"
 
 [[files]]
 type = "file"
@@ -1604,7 +1604,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Physician's Touch"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_physician's_touch.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_physicians_touch.toml"
 
 [[files]]
 type = "file"
@@ -1709,7 +1709,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Paladin's Smite"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_paladin's_smite.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_paladins_smite.toml"
 
 [[files]]
 type = "file"
@@ -1829,7 +1829,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Nature's Wrath"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_nature's_wrath.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_natures_wrath.toml"
 
 [[files]]
 type = "file"
@@ -2039,7 +2039,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Nature's Veil"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_nature's_veil.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_natures_veil.toml"
 
 [[files]]
 type = "file"
@@ -2179,7 +2179,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Stalker's Flurry"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_stalker's_flurry.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_stalkers_flurry.toml"
 
 [[files]]
 type = "file"
@@ -2194,12 +2194,12 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Hunter's Lore"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunter's_lore.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunters_lore.toml"
 
 [[files]]
 type = "file"
 name = "Hunter's Prey"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunter's_prey.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunters_prey.toml"
 
 [[files]]
 type = "file"
@@ -2209,12 +2209,12 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Superior Hunter's Prey"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunter's_prey.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunters_prey.toml"
 
 [[files]]
 type = "file"
 name = "Superior Hunter's Defense"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunter's_defense.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunters_defense.toml"
 
 [[files]]
 type = "file"
@@ -2234,7 +2234,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Thieves' Cant"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_thieves'_cant.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_thieves_cant.toml"
 
 [[files]]
 type = "file"
@@ -2269,12 +2269,12 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Poison (Cost: 1d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_poison_(cost:_1d6).toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_poison_.toml"
 
 [[files]]
 type = "file"
 name = "Trip (Cost: 1d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_trip_(cost:_1d6).toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_trip_.toml"
 
 [[files]]
 type = "file"
@@ -2284,7 +2284,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Withdraw (Cost: 1d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_withdraw_(cost:_1d6).toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_withdraw_.toml"
 
 [[files]]
 type = "file"
@@ -2334,7 +2334,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Daze (Cost: 2d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_daze_(cost:_2d6).toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_daze_.toml"
 
 [[files]]
 type = "file"
@@ -2344,12 +2344,12 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Knock Out (Cost: 6d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_knock_out_(cost:_6d6).toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_knock_out_.toml"
 
 [[files]]
 type = "file"
 name = "Obscure (Cost: 3d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_obscure_(cost:_3d6).toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_obscure_.toml"
 
 [[files]]
 type = "file"
@@ -2439,7 +2439,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Assassin's Tools"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_assassin's_tools.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_assassins_tools.toml"
 
 [[files]]
 type = "file"
@@ -2479,7 +2479,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Psi-Bolstered Knack"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psi-bolstered_knack.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psi.toml"
 
 [[files]]
 type = "file"
@@ -2519,7 +2519,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Second-Story Work"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_second-story_work.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_second.toml"
 
 [[files]]
 type = "file"
@@ -2539,7 +2539,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Thief's Reflexes"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_thief's_reflexes.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_thiefs_reflexes.toml"
 
 [[files]]
 type = "file"
@@ -2974,7 +2974,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Dark One's Blessing"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_one's_blessing.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_ones_blessing.toml"
 
 [[files]]
 type = "file"
@@ -2984,7 +2984,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Dark One's Own Luck"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_one's_own_luck.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_ones_own_luck.toml"
 
 [[files]]
 type = "file"

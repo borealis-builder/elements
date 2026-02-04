@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_NATURE'S_WRATH"
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_NATURES_WRATH"
 name = "Nature's Wrath"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_nature's_wrath.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_natures_wrath.toml"
 description = """
 As a {@action Magic|XPHB} action, you can expend one use of your Channel
 Divinity to conjure spectral vines around nearby creatures. Each creature of

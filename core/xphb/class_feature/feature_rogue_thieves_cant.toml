@@ -1,7 +1,7 @@
-id = "ID_XPHB_CLASS_FEATURE_ROGUE_THIEVES'_CANT"
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_THIEVES_CANT"
 name = "Thieves' Cant"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_thieves'_cant.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_thieves_cant.toml"
 description = """
 You picked up various languages in the communities where you plied your roguish
 talents. You know Thieves' Cant and one other language of your choice, which you

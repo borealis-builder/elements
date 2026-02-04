@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_WAR_GOD'S_BLESSING"
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_WAR_GODS_BLESSING"
 name = "War God's Blessing"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_god's_blessing.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_gods_blessing.toml"
 description = """
 You can expend a use of your Channel Divinity to cast {@spell Shield of
 Faith|XPHB} or {@spell Spiritual Weapon|XPHB} rather than expending a spell

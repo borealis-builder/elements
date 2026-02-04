@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_HUNTER'S_LORE"
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_HUNTERS_LORE"
 name = "Hunter's Lore"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunter's_lore.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunters_lore.toml"
 description = """
 You can call on the forces of nature to reveal certain strengths and weaknesses
 of your prey. While a creature is marked by your Hunter's Mark, you know whether

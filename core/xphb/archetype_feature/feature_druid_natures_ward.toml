@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_NATURE'S_WARD"
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_NATURES_WARD"
 name = "Nature's Ward"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_nature's_ward.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_natures_ward.toml"
 description = """
 You are immune to the {@condition Poisoned|XPHB} condition, and you have {@variantrule
 Resistance|XPHB} to a damage type associated with your current land choice in

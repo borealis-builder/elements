@@ -1,7 +1,7 @@
-id = "ID_XPHB_CLASS_FEATURE_MONK_MONK'S_FOCUS"
+id = "ID_XPHB_CLASS_FEATURE_MONK_MONKS_FOCUS"
 name = "Monk's Focus"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_monk's_focus.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_monks_focus.toml"
 description = """
 Your focus and martial training allow you to harness a well of extraordinary
 energy within yourself. This energy is represented by Focus Points. Your Monk

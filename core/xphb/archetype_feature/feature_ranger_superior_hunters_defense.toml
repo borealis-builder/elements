@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_SUPERIOR_HUNTER'S_DEFENSE"
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE"
 name = "Superior Hunter's Defense"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunter's_defense.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunters_defense.toml"
 description = """
 When you take damage, you can take a {@variantrule Reaction|XPHB} to give
 yourself {@variantrule Resistance|XPHB} to that damage and any other damage of

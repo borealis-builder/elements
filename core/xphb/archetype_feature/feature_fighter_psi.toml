@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_PSI-POWERED_LEAP"
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_PSI"
 name = "Psi-Powered Leap"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psi-powered_leap.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psi.toml"
 description = """
 As a {@variantrule Bonus Action|XPHB}, you gain a {@variantrule Fly Speed|XPHB}
 equal to twice your {@variantrule Speed|XPHB} until the end of the current turn.

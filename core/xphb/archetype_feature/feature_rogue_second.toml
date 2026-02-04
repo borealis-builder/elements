@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_SECOND-STORY_WORK"
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_SECOND"
 name = "Second-Story Work"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_second-story_work.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_second.toml"
 description = """
 You've trained to get into especially hard-to-reach places, granting you these
 benefits.

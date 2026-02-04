@@ -1,7 +1,7 @@
-id = "ID_XPHB_CLASS_FEATURE_MONK_SELF-RESTORATION"
+id = "ID_XPHB_CLASS_FEATURE_MONK_SELF"
 name = "Self-Restoration"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_self-restoration.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_self.toml"
 description = """
 Through sheer force of will, you can remove one of the following conditions from
 yourself at the end of each of your turns: {@condition Charmed|XPHB}, {@condition

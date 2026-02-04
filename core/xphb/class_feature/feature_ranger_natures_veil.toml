@@ -1,7 +1,7 @@
-id = "ID_XPHB_CLASS_FEATURE_RANGER_NATURE'S_VEIL"
+id = "ID_XPHB_CLASS_FEATURE_RANGER_NATURES_VEIL"
 name = "Nature's Veil"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_nature's_veil.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_natures_veil.toml"
 description = """
 You invoke spirits of nature to magically hide yourself. As a {@variantrule Bonus
 Action|XPHB}, you can give yourself the {@condition Invisible|XPHB} condition

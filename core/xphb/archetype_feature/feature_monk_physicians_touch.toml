@@ -1,7 +1,7 @@
-id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_PHYSICIAN'S_TOUCH"
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_PHYSICIANS_TOUCH"
 name = "Physician's Touch"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_physician's_touch.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_physicians_touch.toml"
 description = """
 Your Hand of Harm and Hand of Healing improve, as detailed below.
 
