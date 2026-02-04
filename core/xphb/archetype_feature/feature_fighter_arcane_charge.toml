@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_ARCANE_CHARGE"
+name = "Arcane Charge"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_arcane_charge.toml"
+description = """
+When you use your Action Surge, you can teleport up to 30 feet to an unoccupied
+space you can see. You can teleport before or after the additional action."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

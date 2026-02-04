@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_SPELLS"
+name = "Celestial Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_celestial_spells.toml"
+description = """
+The magic of your patron ensures you always have certain spells ready; when you
+reach a Warlock level specified in the Celestial Spells table, you thereafter
+always have the listed spells prepared.
+
+**Celestial Spells**
+
+| Warlock Level | Spells |
+| --- | --- |
+| 3 | {@spell Aid|XPHB}, {@spell Cure Wounds|XPHB}, {@spell Guiding Bolt|XPHB}, {@spell Lesser Restoration|XPHB}, {@spell Light|XPHB}, {@spell Sacred Flame|XPHB} |
+| 5 | {@spell Daylight|XPHB}, {@spell Revivify|XPHB} |
+| 7 | {@spell Guardian of Faith|XPHB}, {@spell Wall of Fire|XPHB} |
+| 9 | {@spell Greater Restoration|XPHB}, {@spell Summon Celestial|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

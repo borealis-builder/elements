@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_CHAMPION"
+name = "Champion"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_champion.toml"
+description = """
+{@i Pursue Physical Excellence in Combat}
+
+A Champion focuses on the development of martial prowess in a relentless pursuit
+of victory. Champions combine rigorous training with physical excellence to deal
+devastating blows, withstand peril, and garner glory. Whether in athletic
+contests or bloody battle, Champions strive for the crown of the victor.
+
+TODO: Improved Critical|Fighter|XPHB|Champion|XPHB|3
+
+TODO: Remarkable Athlete|Fighter|XPHB|Champion|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

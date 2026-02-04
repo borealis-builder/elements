@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION"
+name = "Primal Champion"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_primal_champion.toml"
+description = """
+You embody primal power. Your Strength and Constitution scores increase by 4, to
+a maximum of 25."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

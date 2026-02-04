@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_WARLOCK_GREAT_OLD_ONE_PATRON"
+name = "Great Old One Patron"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/warlock_great_old_one_patron.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

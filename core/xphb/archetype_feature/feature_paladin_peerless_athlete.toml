@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_PEERLESS_ATHLETE"
+name = "Peerless Athlete"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_peerless_athlete.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you can expend one use of your Channel
+Divinity to augment your athleticism. For 1 hour, you have {@variantrule
+Advantage|XPHB} on Strength ({@skill Athletics|XPHB}) and Dexterity ({@skill
+Acrobatics|XPHB}) checks, and the distance of your Long and High Jumps increases
+by 10 feet (this extra distance costs movement as normal)."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

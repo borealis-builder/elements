@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_AVATAR_OF_BATTLE"
+name = "Avatar of Battle"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_avatar_of_battle.toml"
+description = """
+You gain {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing
+damage."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

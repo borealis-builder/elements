@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_CIRCLE_OF_THE_SEA"
+name = "Circle of the Sea"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_sea.toml"
+description = """
+{@i Become One with Tides and Storms}
+
+Druids of the Circle of the Sea draw on the tempestuous forces of oceans and
+storms. Some view themselves as embodiments of nature's wrath, seeking vengeance
+against those who despoil nature. Others seek mystical unity with nature by
+attuning themselves to the ebb and flow of the tides, following the rush of
+currents and waves and listening to the inscrutable whispers and roars of the
+winds.
+
+TODO: Circle of the Sea Spells|Druid|XPHB|Sea|XPHB|3
+
+TODO: Wrath of the Sea|Druid|XPHB|Sea|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_MINDLESS_RAGE"
+name = "Mindless Rage"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_mindless_rage.toml"
+description = """
+You have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition
+Frightened|XPHB} conditions while your Rage is active. If you're {@condition
+Charmed|XPHB} or {@condition Frightened|XPHB} when you enter your Rage, the
+condition ends on you."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

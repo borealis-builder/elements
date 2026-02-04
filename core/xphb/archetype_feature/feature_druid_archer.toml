@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_ARCHER"
+name = "Archer"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_archer.toml"
+description = """
+A constellation of an archer appears on you. When you activate this form and as
+a {@variantrule Bonus Action|XPHB} on your subsequent turns while it lasts, you
+can make a ranged spell attack, hurling a luminous arrow that targets one
+creature within 60 feet of yourself. On a hit, the attack deals Radiant damage
+equal to {@damage 1d8} plus your Wisdom modifier."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

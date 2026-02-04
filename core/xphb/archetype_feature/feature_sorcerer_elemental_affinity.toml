@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_ELEMENTAL_AFFINITY"
+name = "Elemental Affinity"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_elemental_affinity.toml"
+description = """
+Your draconic magic has an affinity with a damage type associated with dragons.
+Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.
+
+You have {@variantrule Resistance|XPHB} to that damage type, and when you cast a
+spell that deals damage of that type, you can add your Charisma modifier to one
+damage roll of that spell."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_WAR_DOMAIN_SPELLS"
+name = "War Domain Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_domain_spells.toml"
+description = """
+Your connection to this divine domain ensures you always have certain spells
+ready. When you reach a Cleric level specified in the War Domain Spells table,
+you thereafter always have the listed spells prepared.
+
+**War Domain Spells**
+
+| Cleric Level | Prepared Spells |
+| --- | --- |
+| 3rd | {@spell Guiding Bolt|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Shield of Faith|XPHB}, {@spell Spiritual Weapon|XPHB} |
+| 5th | {@spell Crusader's Mantle|XPHB}, {@spell Spirit Guardians|XPHB} |
+| 7th | {@spell Fire Shield|XPHB}, {@spell Freedom of Movement|XPHB} |
+| 9th | {@spell Hold Monster|XPHB}, {@spell Steel Wind Strike|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

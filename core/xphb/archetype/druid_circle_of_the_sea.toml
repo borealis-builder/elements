@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_DRUID_CIRCLE_OF_THE_SEA"
+name = "Circle of the Sea"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/druid_circle_of_the_sea.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

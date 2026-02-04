@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_AQUATIC_AFFINITY"
+name = "Aquatic Affinity"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_aquatic_affinity.toml"
+description = """
+The size of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} created
+by your Wrath of the Sea increases to 10 feet.
+
+In addition, you gain a {@variantrule Swim Speed|XPHB} equal to your {@variantrule
+Speed|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

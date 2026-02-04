@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_IMPROVED_DUPLICITY"
+name = "Improved Duplicity"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_improved_duplicity.toml"
+description = """
+The illusion of your Invoke Duplicity has grown more powerful in the following
+ways.
+
+### Shared Distraction
+
+When you and your allies make attack rolls against a creature within 5 feet of
+the illusion, the attack rolls have {@variantrule Advantage|XPHB}.
+
+### Healing Illusion
+
+When the illusion ends, you or a creature of your choice within 5 feet of it
+regains a number of {@variantrule Hit Points|XPHB} equal to your Cleric level."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

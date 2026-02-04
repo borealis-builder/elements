@@ -1,0 +1,17 @@
+id = "ID_XPHB_CLASS_FEATURE_DRUID_DRUIDIC"
+name = "Druidic"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_druidic.toml"
+description = """
+You know Druidic, the secret language of Druids. While learning this ancient
+tongue, you also unlocked the magic of communicating with animals; you always
+have the {@spell Speak with Animals|XPHB} spell prepared.
+
+You can use Druidic to leave hidden messages. You and others who know Druidic
+automatically spot such a message. Others spot the message's presence with a
+successful {@dc 15} Intelligence ({@skill Investigation|XPHB}) check but can't
+decipher it without magic."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

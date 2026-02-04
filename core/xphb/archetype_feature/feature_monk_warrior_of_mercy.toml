@@ -1,0 +1,20 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_WARRIOR_OF_MERCY"
+name = "Warrior of Mercy"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_warrior_of_mercy.toml"
+description = """
+{@i Manipulate Forces of Life and Death}
+
+Warriors of Mercy manipulate the life force of others. These Monks are wandering
+physicians, but they bring a swift end to their enemies. They often wear masks,
+presenting themselves as faceless bringers of life and death.
+
+TODO: Hand of Harm|Monk|XPHB|Mercy|XPHB|3
+
+TODO: Hand of Healing|Monk|XPHB|Mercy|XPHB|3
+
+TODO: Implements of Mercy|Monk|XPHB|Mercy|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

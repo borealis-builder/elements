@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_PRECISE_HUNTER"
+name = "Precise Hunter"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_precise_hunter.toml"
+description = """
+You have {@variantrule Advantage|XPHB} on attack rolls against the creature
+currently marked by your Hunter's Mark."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

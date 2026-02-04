@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_ROVING"
+name = "Roving"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_roving.toml"
+description = """
+Your {@variantrule Speed|XPHB} increases by 10 feet while you aren't wearing
+Heavy armor. You also have a {@variantrule Climb Speed|XPHB} and a {@variantrule Swim
+Speed|XPHB} equal to your {@variantrule Speed|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

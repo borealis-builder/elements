@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_LIGHT_DOMAIN_SPELLS"
+name = "Light Domain Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_light_domain_spells.toml"
+description = """
+Your connection to this divine domain ensures you always have certain spells
+ready. When you reach a Cleric level specified in the Light Domain Spells table,
+you thereafter always have the listed spells prepared.
+
+**Light Domain Spells**
+
+| Cleric Level | Prepared Spells |
+| --- | --- |
+| 3rd | {@spell Burning Hands|XPHB}, {@spell Faerie Fire|XPHB}, {@spell Scorching Ray|XPHB}, {@spell See Invisibility|XPHB} |
+| 5th | {@spell Daylight|XPHB}, {@spell Fireball|XPHB} |
+| 7th | {@spell Arcane Eye|XPHB}, {@spell Wall of Fire|XPHB} |
+| 9th | {@spell Flame Strike|XPHB}, {@spell Scrying|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

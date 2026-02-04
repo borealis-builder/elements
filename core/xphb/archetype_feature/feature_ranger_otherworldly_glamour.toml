@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_OTHERWORLDLY_GLAMOUR"
+name = "Otherworldly Glamour"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_otherworldly_glamour.toml"
+description = """
+Whenever you make a Charisma check, you gain a bonus to the check equal to your
+Wisdom modifier (minimum of +1).
+
+You also gain proficiency in one of these skills of your choice: {@skill
+Deception|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

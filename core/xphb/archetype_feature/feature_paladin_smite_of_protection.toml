@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_SMITE_OF_PROTECTION"
+name = "Smite of Protection"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_smite_of_protection.toml"
+description = """
+Your magical smite now radiates protective energy. Whenever you cast {@spell Divine
+Smite|XPHB}, you and your allies have {@variantrule Cover|XPHB|Half Cover} while
+in your Aura of Protection. The aura has this benefit until the start of your
+next turn."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

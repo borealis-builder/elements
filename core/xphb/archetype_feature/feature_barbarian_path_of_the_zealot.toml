@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_PATH_OF_THE_ZEALOT"
+name = "Path of the Zealot"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_path_of_the_zealot.toml"
+description = """
+{@i Rage in Ecstatic Union with a God}
+
+Barbarians who walk the Path of the Zealot receive boons from a god or pantheon.
+These Barbarians experience their Rage as an ecstatic episode of divine union
+that infuses them with power. They are often allies to the priests and other
+followers of their god or pantheon.
+
+TODO: Divine Fury|Barbarian|XPHB|Zealot|XPHB|3
+
+TODO: Warrior of the Gods|Barbarian|XPHB|Zealot|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

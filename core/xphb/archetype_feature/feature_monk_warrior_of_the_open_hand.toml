@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_WARRIOR_OF_THE_OPEN_HAND"
+name = "Warrior of the Open Hand"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_warrior_of_the_open_hand.toml"
+description = """
+{@i Master Unarmed Combat Techniques}
+
+Warriors of the Open Hand are masters of unarmed combat. They learn techniques
+to push and trip their opponents and manipulate their own energy to protect
+themselves from harm.
+
+TODO: Open Hand Technique|Monk|XPHB|Open Hand|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_RELENTLESS"
+name = "Relentless"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_relentless.toml"
+description = """
+Once per turn, when you use a maneuver, you can roll {@dice 1d8} and use the
+number rolled instead of expending a Superiority Die."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

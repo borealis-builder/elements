@@ -1,0 +1,23 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_SPELLS"
+name = "Oath of Glory Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_glory_spells.toml"
+description = """
+The magic of your oath ensures you always have certain spells ready; when you
+reach a Paladin level specified in the Oath of Glory Spells table, you
+thereafter always have the listed spells prepared.
+
+**Oath of Glory Spells**
+
+| Paladin Level | Spells |
+| --- | --- |
+| 3rd | {@spell Guiding Bolt|XPHB}, {@spell Heroism|XPHB} |
+| 5th | {@spell Enhance Ability|XPHB}, {@spell Magic Weapon|XPHB} |
+| 9th | {@spell Haste|XPHB}, {@spell Protection from Energy|XPHB} |
+| 13th | {@spell Compulsion|XPHB}, {@spell Freedom of Movement|XPHB} |
+| 17th | {@spell Legend Lore|XPHB}, {@spell Yolande's Regal Presence|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

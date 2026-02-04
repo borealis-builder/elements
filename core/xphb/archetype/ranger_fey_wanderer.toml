@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_RANGER_FEY_WANDERER"
+name = "Fey Wanderer"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/ranger_fey_wanderer.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

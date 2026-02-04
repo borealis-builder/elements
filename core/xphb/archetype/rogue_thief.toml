@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_ROGUE_THIEF"
+name = "Thief"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/rogue_thief.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

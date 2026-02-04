@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_PSYCHIC_SPELLS"
+name = "Psychic Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_psychic_spells.toml"
+description = """
+When you cast a Warlock spell that deals damage, you can change its damage type
+to Psychic. In addition, when you cast a Warlock spell that is an {@filter
+Enchantment|spells|class=Warlock|school=E} or {@filter
+Illusion|spells|class=Warlock|school=I}, you can do so without Verbal or Somatic
+components."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

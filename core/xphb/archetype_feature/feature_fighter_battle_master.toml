@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER"
+name = "Battle Master"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_battle_master.toml"
+description = """
+{@i Master Sophisticated Battle Maneuvers}
+
+Battle Masters are students of the art of battle, learning martial techniques
+passed down through generations. The most accomplished Battle Masters are
+well-rounded figures who combine their carefully honed combat skills with
+academic study in the fields of history, theory, and the arts.
+
+TODO: Combat Superiority|Fighter|XPHB|Battle Master|XPHB|3
+
+TODO: Student of War|Fighter|XPHB|Battle Master|XPHB|3
+
+TODO: Maneuver Options|Fighter|XPHB|Battle Master|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

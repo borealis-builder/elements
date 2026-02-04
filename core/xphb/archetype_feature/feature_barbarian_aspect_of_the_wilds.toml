@@ -1,0 +1,26 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_ASPECT_OF_THE_WILDS"
+name = "Aspect of the Wilds"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_aspect_of_the_wilds.toml"
+description = """
+You gain one of the following options of your choice. Whenever you finish a {@variantrule Long
+Rest|XPHB}, you can change your choice.
+
+### Owl
+
+You have {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense
+Darkvision|XPHB}, its range increases by 60 feet.
+
+### Panther
+
+You have a {@variantrule Climb Speed|XPHB} equal to your {@variantrule
+Speed|XPHB}.
+
+### Salmon
+
+You have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule
+Speed|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_PALADIN_RADIANT_STRIKES"
+name = "Radiant Strikes"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_radiant_strikes.toml"
+description = """
+Your strikes now carry supernatural power. When you hit a target with an attack
+roll using a Melee weapon or an {@variantrule Unarmed Strike|XPHB}, the target
+takes an extra {@damage 1d8} Radiant damage."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

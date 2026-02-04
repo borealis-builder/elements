@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_WARRIOR_OF_THE_ELEMENTS"
+name = "Warrior of the Elements"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_warrior_of_the_elements.toml"
+description = """
+{@i Wield Strikes and Bursts of Elemental Power}
+
+Warriors of the Elements tap into the power of the Elemental Planes. Harnessing
+their supernatural focus, these Monks momentarily tame the energy of the
+Elemental Chaos to empower themselves in and out of battle.
+
+TODO: Elemental Attunement|Monk|XPHB|Elements|XPHB|3
+
+TODO: Manipulate Elements|Monk|XPHB|Elements|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

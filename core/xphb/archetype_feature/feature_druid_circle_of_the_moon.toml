@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_CIRCLE_OF_THE_MOON"
+name = "Circle of the Moon"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_moon.toml"
+description = """
+{@i Adopt Animal Forms to Guard the Wilds}
+
+Druids of the Circle of the Moon draw on lunar magic to transform themselves.
+Their order gathers under the moon to share news and perform rituals.
+
+Changeable as the moon, a Druid of this circle might prowl as a great cat one
+night, soar over the treetops as an eagle the next day, and then crash through
+undergrowth as a bear to drive off a trespassing monster. The wild is in the
+Druid's blood.
+
+TODO: Circle of the Moon Spells|Druid|XPHB|Moon|XPHB|3
+
+TODO: Circle Forms|Druid|XPHB|Moon|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,14 @@
+id = "ID_XPHB_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE"
+name = "Fighting Style"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_fighting_style.toml"
+description = """
+You have honed your martial prowess and gain a {@filter Fighting Style
+feat|feats|category=FS} of your choice. {@feat Defense|XPHB} is recommended.
+
+Whenever you gain a Fighter level, you can replace the feat you chose with a
+different {@filter Fighting Style feat|feats|category=FS}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

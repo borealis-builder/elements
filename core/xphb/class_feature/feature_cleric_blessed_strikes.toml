@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_FEATURE_CLERIC_BLESSED_STRIKES"
+name = "Blessed Strikes"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_blessed_strikes.toml"
+description = """
+Divine power infuses you in battle. You gain one of the following options of
+your choice (if you get either option from a Cleric subclass in an older book,
+use only the option you choose for this feature).
+
+TODO: Divine Strike|Cleric|XPHB|7
+
+TODO: Potent Spellcasting|Cleric|XPHB|7"""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

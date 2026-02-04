@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_PHYSICIAN'S_TOUCH"
+name = "Physician's Touch"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_physician's_touch.toml"
+description = """
+Your Hand of Harm and Hand of Healing improve, as detailed below.
+
+### Hand of Harm
+
+When you use Hand of Harm on a creature, you can also give that creature the {@condition
+Poisoned|XPHB} condition until the end of your next turn.
+
+### Hand of Healing
+
+When you use Hand of Healing, you can also end one of the following conditions
+on the creature you heal: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, {@condition
+Paralyzed|XPHB}, {@condition Poisoned|XPHB}, or {@condition Stunned|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

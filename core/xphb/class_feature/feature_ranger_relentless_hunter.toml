@@ -1,0 +1,9 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_RELENTLESS_HUNTER"
+name = "Relentless Hunter"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_relentless_hunter.toml"
+description = "Taking damage can't break your {@status Concentration|XPHB} on Hunter's Mark."
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

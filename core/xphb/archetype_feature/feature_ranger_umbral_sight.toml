@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_UMBRAL_SIGHT"
+name = "Umbral Sight"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_umbral_sight.toml"
+description = """
+You gain {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense
+Darkvision|XPHB} when you gain this feature, its range increases by 60 feet.
+
+You are also adept at evading creatures that rely on {@sense Darkvision|XPHB}.
+While entirely in {@variantrule Darkness|XPHB}, you have the {@condition
+Invisible|XPHB} condition to any creature that relies on {@sense
+Darkvision|XPHB} to see you in that {@variantrule Darkness|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

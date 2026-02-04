@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_UNBREAKABLE_MAJESTY"
+name = "Unbreakable Majesty"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_unbreakable_majesty.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you can assume a magically majestic
+presence for 1 minute or until you have the {@condition Incapacitated|XPHB}
+condition. For the duration, whenever any creature hits you with an attack roll
+for the first time on a turn, the attacker must succeed on a Charisma saving
+throw against your spell save DC, or the attack misses instead, as the creature
+recoils from your majesty.
+
+Once you assume this majestic presence, you can't do so again until you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

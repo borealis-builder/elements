@@ -1,0 +1,9 @@
+id = "ID_XPHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT"
+name = "Fast Movement"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_fast_movement.toml"
+description = "Your speed increases by 10 feet while you aren't wearing Heavy armor."
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

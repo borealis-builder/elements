@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_STORMBORN"
+name = "Stormborn"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_stormborn.toml"
+description = """
+Your Wrath of the Sea confers two more benefits while active, as detailed below.
+
+### Flight
+
+You gain a {@variantrule Fly Speed|XPHB} equal to your {@variantrule
+Speed|XPHB}.
+
+### Resistance
+
+You have {@variantrule Resistance|XPHB} to Cold, Lightning, and Thunder damage."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

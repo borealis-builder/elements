@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_WARLOCK"
+name = "Warlock"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/warlock.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = ["cha"]
+hit_dice = "1d8"
+
+[multiclass]
+rules = []

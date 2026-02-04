@@ -1,0 +1,26 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_CIRCLE_FORMS"
+name = "Circle Forms"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_forms.toml"
+description = """
+You can channel lunar magic when you assume a Wild Shape form, granting you the
+benefits below.
+
+### Challenge Rating
+
+The maximum {@variantrule Challenge Rating|XPHB} for the form equals your Druid
+level divided by 3 (round down).
+
+### Armor Class
+
+Until you leave the form, your AC equals 13 plus your Wisdom modifier if that
+total is higher than the Beast's AC.
+
+### Temporary Hit Points
+
+You gain a number of {@variantrule Temporary Hit Points|XPHB} equal to three
+times your Druid level."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

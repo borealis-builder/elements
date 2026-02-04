@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_CIRCLE_OF_THE_STARS"
+name = "Circle of the Stars"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_stars.toml"
+description = """
+{@i Harness Secrets Hidden in Constellations}
+
+The Circle of the Stars has tracked heavenly patterns since time immemorial,
+discovering secrets hidden amid the constellations. By understanding these
+secrets, the Druids of this circle seek to harness the powers of the cosmos.
+
+TODO: Star Map|Druid|XPHB|Stars|XPHB|3
+
+TODO: Starry Form|Druid|XPHB|Stars|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

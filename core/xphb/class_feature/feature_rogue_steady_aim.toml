@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_STEADY_AIM"
+name = "Steady Aim"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_steady_aim.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you give yourself {@variantrule
+Advantage|XPHB} on your next attack roll on the current turn. You can use this
+feature only if you haven't moved during this turn, and after you use it, your {@variantrule
+Speed|XPHB} is 0 until the end of the current turn."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

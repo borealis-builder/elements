@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_THIEVES'_CANT"
+name = "Thieves' Cant"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_thieves'_cant.toml"
+description = """
+You picked up various languages in the communities where you plied your roguish
+talents. You know Thieves' Cant and one other language of your choice, which you
+choose from the language tables in {@book chapter 2|XPHB|2|Choose Languages}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

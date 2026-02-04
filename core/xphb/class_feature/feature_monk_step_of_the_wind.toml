@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_STEP_OF_THE_WIND"
+name = "Step of the Wind"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_step_of_the_wind.toml"
+description = """
+You can take the {@action Dash|XPHB} action as a {@variantrule Bonus
+Action|XPHB}. Alternatively, you can expend 1 Focus Point to take both the {@action
+Disengage|XPHB} and {@action Dash|XPHB} actions as a {@variantrule Bonus
+Action|XPHB}, and your jump distance is doubled for the turn."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

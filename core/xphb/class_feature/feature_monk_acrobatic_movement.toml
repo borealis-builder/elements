@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_ACROBATIC_MOVEMENT"
+name = "Acrobatic Movement"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_acrobatic_movement.toml"
+description = """
+While you aren't wearing armor or wielding a {@item Shield|XPHB}, you gain the
+ability to move along vertical surfaces and across liquids on your turn without
+falling during the movement."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

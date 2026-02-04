@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_FEATURE_SORCERER_SORCERY_INCARNATE"
+name = "Sorcery Incarnate"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_sorcery_incarnate.toml"
+description = """
+If you have no uses of Innate Sorcery left, you can use it if you spend 2
+Sorcery Points when you take the {@variantrule Bonus Action|XPHB} to activate
+it.
+
+In addition, while your Innate Sorcery feature is active, you can use up to two
+of your {@filter Metamagic options|optionalfeatures|feature type=MM} on each
+spell you cast."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

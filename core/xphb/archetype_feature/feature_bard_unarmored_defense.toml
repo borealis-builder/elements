@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_UNARMORED_DEFENSE"
+name = "Unarmored Defense"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_unarmored_defense.toml"
+description = """
+Your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity and
+Charisma modifiers."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

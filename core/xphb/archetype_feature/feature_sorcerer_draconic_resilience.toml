@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_DRACONIC_RESILIENCE"
+name = "Draconic Resilience"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_draconic_resilience.toml"
+description = """
+The magic in your body manifests physical traits of your draconic gift. Your {@variantrule Hit Points|XPHB|Hit
+Point} maximum increases by 3, and it increases by 1 whenever you gain another
+Sorcerer level.
+
+Parts of you are also covered by dragon-like scales. While you aren't wearing
+armor, your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity
+and Charisma modifiers."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

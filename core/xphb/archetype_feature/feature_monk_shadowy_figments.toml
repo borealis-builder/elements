@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_SHADOWY_FIGMENTS"
+name = "Shadowy Figments"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_shadowy_figments.toml"
+description = """
+You know the {@spell Minor Illusion|XPHB} spell. Wisdom is your spellcasting
+ability for it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

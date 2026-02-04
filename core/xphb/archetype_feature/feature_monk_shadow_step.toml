@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_SHADOW_STEP"
+name = "Shadow Step"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_shadow_step.toml"
+description = """
+While entirely within {@variantrule Dim Light|XPHB} or {@variantrule
+Darkness|XPHB}, you can use a {@variantrule Bonus Action|XPHB} to teleport up to
+60 feet to an unoccupied space you can see that is also in {@variantrule Dim
+Light|XPHB} or {@variantrule Darkness|XPHB}. You then have {@variantrule
+Advantage|XPHB} on the next melee attack you make before the end of the current
+turn."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

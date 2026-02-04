@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_DRUID_WARDEN"
+name = "Warden"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_warden.toml"
+description = """
+Trained for battle, you gain proficiency with {@filter Martial weapons|items|type=martial
+weapon} and training with {@filter Medium armor|items|type=Medium Armor}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

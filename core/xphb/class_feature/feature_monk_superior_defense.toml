@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_SUPERIOR_DEFENSE"
+name = "Superior Defense"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_superior_defense.toml"
+description = """
+At the start of your turn, you can expend 3 Focus Points to bolster yourself
+against harm for 1 minute or until you have the {@condition Incapacitated|XPHB}
+condition. During that time, you have {@variantrule Resistance|XPHB} to all
+damage except Force damage."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

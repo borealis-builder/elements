@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_HOMING_STRIKES"
+name = "Homing Strikes"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_homing_strikes.toml"
+description = """
+If you make an attack roll with your {@item Psychic Blade|XPHB} and miss the
+target, you can roll one Psionic Energy Die and add the number rolled to the
+attack roll. If this causes the attack to hit, the die is expended."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

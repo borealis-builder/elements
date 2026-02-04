@@ -1,0 +1,23 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_PSYCHIC_BLADES"
+name = "Psychic Blades"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psychic_blades.toml"
+description = """
+You can manifest shimmering blades of psychic energy. Whenever you take the {@action
+Attack|XPHB} action or make an {@action Opportunity Attack|XPHB}, you can
+manifest a {@item Psychic Blade|XPHB} in your free hand and make the attack with
+that blade. The magic blade has the following traits:
+
+TODO: Psychic Blade (item) from XPHB
+
+The blade vanishes immediately after it hits or misses its target, and it leaves
+no mark if it deals damage.
+
+After you attack with the blade on your turn, you can make a melee or ranged
+attack with a second psychic blade as a {@variantrule Bonus Action|XPHB} on the
+same turn if your other hand is free to create it. The damage die of this bonus
+attack is {@damage 1d4} instead of {@damage 1d6}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

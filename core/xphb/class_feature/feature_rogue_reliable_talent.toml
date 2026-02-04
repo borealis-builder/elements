@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_RELIABLE_TALENT"
+name = "Reliable Talent"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_reliable_talent.toml"
+description = """
+Whenever you make an ability check that uses one of your skill or tool
+proficiencies, you can treat a {@dice d20} roll of 9 or lower as a 10."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

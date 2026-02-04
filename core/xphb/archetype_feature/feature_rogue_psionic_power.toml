@@ -1,0 +1,42 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_PSIONIC_POWER"
+name = "Psionic Power"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psionic_power.toml"
+description = """
+You harbor a wellspring of psionic energy within yourself. It is represented by
+your Psionic Energy Dice, which fuel certain powers you have from this subclass.
+The Soulknife Energy Dice table shows the number of these dice you have when you
+reach certain Rogue levels, and the table shows the die size.
+
+**Soulknife Energy Dice**
+
+| Rogue Level | Die Size | Number |
+| --- | --- | --- |
+| 3 | {@dice D6} | 4 |
+| 5 | {@dice D8} | 6 |
+| 9 | {@dice D8} | 8 |
+| 11 | {@dice D10} | 8 |
+| 13 | {@dice D10} | 10 |
+| 17 | {@dice D12} | 12 |
+
+
+Any features in this subclass that use a Psionic Energy Die use only the dice
+from this subclass. Some of your powers expend a Psionic Energy Die, as
+specified in a power's description, and you can't use a power if it requires you
+to use a die when your Psionic Energy Dice are all expended.
+
+You regain one of your expended Psionic Energy Dice when you finish a {@variantrule Short
+Rest|XPHB}, and you regain all of them when you finish a {@variantrule Long
+Rest|XPHB}.
+
+TODO: Psi-Bolstered Knack|Rogue|XPHB|Soulknife|XPHB|3
+
+TODO: Psychic Whispers|Rogue|XPHB|Soulknife|XPHB|3
+
+The first time you use this power after each {@variantrule Long Rest|XPHB}, you
+don't expend the Psionic Energy Die. All other times you use the power, you
+expend the die."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

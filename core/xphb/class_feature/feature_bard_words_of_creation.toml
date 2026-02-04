@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_BARD_WORDS_OF_CREATION"
+name = "Words of Creation"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_words_of_creation.toml"
+description = """
+You have mastered two of the Words of Creation: the words of life and death. You
+therefore always have the {@spell Power Word Heal|XPHB} and {@spell Power Word
+Kill|XPHB} spells prepared. When you cast either spell, you can target a second
+creature with it if that creature is within 10 feet of the first target."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

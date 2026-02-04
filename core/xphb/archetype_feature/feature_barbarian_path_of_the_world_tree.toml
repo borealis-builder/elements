@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_PATH_OF_THE_WORLD_TREE"
+name = "Path of the World Tree"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_path_of_the_world_tree.toml"
+description = """
+{@i Trace the Roots and Branches of the Multiverse}
+
+Barbarians who follow the Path of the World Tree connect with the cosmic tree
+Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting
+them to each other and the Material Plane. These Barbarians draw on the tree's
+magic for vitality and as a means of dimensional travel.
+
+TODO: Vitality of the Tree|Barbarian|XPHB|World Tree|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR"
+name = "Disciplined Survivor"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_disciplined_survivor.toml"
+description = """
+Your physical and mental discipline grant you proficiency in all saving throws.
+
+Additionally, whenever you make a saving throw and fail, you can expend 1 Focus
+Point to reroll it, and you must use the new roll."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_WAR_GOD'S_BLESSING"
+name = "War God's Blessing"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_god's_blessing.toml"
+description = """
+You can expend a use of your Channel Divinity to cast {@spell Shield of
+Faith|XPHB} or {@spell Spiritual Weapon|XPHB} rather than expending a spell
+slot. When you cast either spell in this way, the spell doesn't require {@status
+Concentration|XPHB}. Instead the spell lasts for 1 minute, but it ends early if
+you cast that spell again, have the {@condition Incapacitated|XPHB} condition,
+or die."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

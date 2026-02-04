@@ -1,0 +1,23 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SPELLS"
+name = "Oath of Devotion Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_devotion_spells.toml"
+description = """
+The magic of your oath ensures you always have certain spells ready; when you
+reach a Paladin level specified in the Oath of Devotion Spells table, you
+thereafter always have the listed spells prepared.
+
+**Oath of Devotion Spells**
+
+| Paladin Level | Spells |
+| --- | --- |
+| 3rd | {@spell Protection from Evil And Good|XPHB}, {@spell Shield of Faith|XPHB} |
+| 5th | {@spell Aid|XPHB}, {@spell Zone of Truth|XPHB} |
+| 9th | {@spell Beacon of Hope|XPHB}, {@spell Dispel Magic|XPHB} |
+| 13th | {@spell Freedom of Movement|XPHB}, {@spell Guardian of Faith|XPHB} |
+| 17th | {@spell Commune|XPHB}, {@spell Flame Strike|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

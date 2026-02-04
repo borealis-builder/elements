@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_LUNAR_FORM"
+name = "Lunar Form"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_lunar_form.toml"
+description = """
+The power of the moon suffuses you, granting you the following benefits.
+
+### Improved Lunar Radiance
+
+Once per turn, you can deal an extra {@damage 2d10} Radiant damage to a target
+you hit with a Wild Shape form's attack.
+
+### Shared Moonlight
+
+Whenever you use Moonlight Step, you can also teleport one willing creature.
+That creature must be within 10 feet of you, and you teleport it to an
+unoccupied space you can see within 10 feet of your destination space."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_COLLEGE_OF_GLAMOUR"
+name = "College of Glamour"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_college_of_glamour.toml"
+description = """
+{@i Weave Beguiling Fey Magic}
+
+The College of Glamour traces its origins to the beguiling magic of the Feywild.
+Bards who study this magic weave threads of beauty and terror into their songs
+and stories, and the mightiest among them can cloak themselves in otherworldly
+majesty. Their performances stir up wistful longing for forgotten innocence,
+evoke unconscious memories of long-held fears, and tug at the emotions of even
+the most hard-hearted listeners.
+
+TODO: Beguiling Magic|Bard|XPHB|Glamour|XPHB|3
+
+TODO: Mantle of Inspiration|Bard|XPHB|Glamour|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,37 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SPELLS"
+name = "Clockwork Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_clockwork_spells.toml"
+description = """
+When you reach a Sorcerer level specified in the Clockwork Spells table, you
+thereafter always have the listed spells prepared.
+
+**Clockwork Spells**
+
+| Sorcerer Level | Spells |
+| --- | --- |
+| 3rd | {@spell Aid|XPHB}, {@spell Alarm|XPHB}, {@spell Lesser Restoration|XPHB}, {@spell Protection from Evil and Good|XPHB} |
+| 5th | {@spell Dispel Magic|XPHB}, {@spell Protection From Energy|XPHB} |
+| 7th | {@spell Freedom of Movement|XPHB}, {@spell Summon Construct|XPHB} |
+| 9th | {@spell Greater Restoration|XPHB}, {@spell Wall of Force|XPHB} |
+
+
+In addition, consult the Manifestations of Order table and choose or randomly
+determine a way your connection to order manifests while you are casting any of
+your Sorcerer spells.
+
+**Manifestations of Order**
+
+| {@dice 1d6} | Manifestation |
+| --- | --- |
+| 1 | Spectral cogwheels hover behind you. |
+| 2 | The hands of a clock spin in your eyes. |
+| 3 | Your skin glows with a brassy sheen. |
+| 4 | Floating equations and geometric objects overlay your body. |
+| 5 | Your {@variantrule Spellcasting Focus|XPHB} temporarily takes the form of a Tiny clockwork mechanism. |
+| 6 | The ticking of gears or ringing of a clock can be heard by you and those affected by your magic. |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

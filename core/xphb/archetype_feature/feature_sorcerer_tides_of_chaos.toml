@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_TIDES_OF_CHAOS"
+name = "Tides of Chaos"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_tides_of_chaos.toml"
+description = """
+You can manipulate chaos itself to give yourself {@variantrule Advantage|XPHB}
+on one {@variantrule D20 Test|XPHB} before you roll the {@dice d20}. Once you do
+so, you must cast a Sorcerer spell with a spell slot or finish a {@variantrule Long
+Rest|XPHB} before you can use this feature again.
+
+If you do cast a Sorcerer spell with a spell slot before you finish a {@variantrule Long
+Rest|XPHB}, you automatically roll on the {@table Wild Magic Surge|XPHB} table."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

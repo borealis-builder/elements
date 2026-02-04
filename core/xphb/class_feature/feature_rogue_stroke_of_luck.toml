@@ -1,0 +1,14 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_STROKE_OF_LUCK"
+name = "Stroke of Luck"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_stroke_of_luck.toml"
+description = """
+You have a marvelous knack for succeeding when you need to. If you fail a {@variantrule D20
+Test|XPHB}, you can turn the roll into a 20.
+
+Once you use this feature, you can't use it again until you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

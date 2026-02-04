@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY"
+name = "Wild Magic Sorcery"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_wild_magic_sorcery.toml"
+description = """
+{@i Unleash Chaotic Magic}
+
+Your innate magic stems from the forces of chaos that underlie the order of
+creation. You or an ancestor might have endured exposure to raw magic, perhaps
+through a planar portal leading to Limbo or the Elemental Planes. Perhaps you
+were blessed by a fey being or marked by a demon. Or your magic could be a fluke
+with no apparent cause. Whatever its source, this magic churns within you,
+waiting for any outlet.
+
+TODO: Wild Magic Surge|Sorcerer|XPHB|Wild Magic|XPHB|3
+
+TODO: Tides of Chaos|Sorcerer|XPHB|Wild Magic|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

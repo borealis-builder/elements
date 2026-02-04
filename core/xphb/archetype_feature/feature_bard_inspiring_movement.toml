@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_INSPIRING_MOVEMENT"
+name = "Inspiring Movement"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_inspiring_movement.toml"
+description = """
+When an enemy you can see ends its turn within 5 feet of you, you can take a {@variantrule
+Reaction|XPHB} and expend one use of your Bardic Inspiration to move up to half
+your {@variantrule Speed|XPHB}. Then one ally of your choice within 30 feet of
+you can also move up to half their {@variantrule Speed|XPHB} using their {@variantrule
+Reaction|XPHB}.
+
+None of this feature's movement provokes {@action Opportunity Attack|XPHB|Opportunity
+Attacks}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

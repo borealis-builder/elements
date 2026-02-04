@@ -1,0 +1,9 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_BONUS_PROFICIENCIES"
+name = "Bonus Proficiencies"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_bonus_proficiencies.toml"
+description = "You gain proficiency with three skills of your choice."
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

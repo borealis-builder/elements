@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING"
+name = "Magical Cunning"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_magical_cunning.toml"
+description = """
+You can perform an esoteric rite for 1 minute. At the end of it, you regain
+expended Pact Magic spell slots but no more than a number equal to half your
+maximum (round up). Once you use this feature, you can't do so again until you
+finish a {@variantrule Long Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

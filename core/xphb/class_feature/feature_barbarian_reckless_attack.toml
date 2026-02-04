@@ -1,0 +1,14 @@
+id = "ID_XPHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK"
+name = "Reckless Attack"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_reckless_attack.toml"
+description = """
+You can throw aside all concern for defense to attack with increased ferocity.
+When you make your first attack roll on your turn, you can decide to attack
+recklessly. Doing so gives you {@variantrule Advantage|XPHB} on attack rolls
+using Strength until the start of your next turn, but attack rolls against you
+have {@variantrule Advantage|XPHB} during that time."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

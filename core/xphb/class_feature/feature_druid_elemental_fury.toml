@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_FEATURE_DRUID_ELEMENTAL_FURY"
+name = "Elemental Fury"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_elemental_fury.toml"
+description = """
+The might of the elements flows through you. You gain one of the following
+options of your choice.
+
+Select 1:
+TODO: Potent Spellcasting|Druid|XPHB|7
+
+TODO: Primal Strike|Druid|XPHB|7"""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

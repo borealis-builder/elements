@@ -1,0 +1,15 @@
+id = "ID_XPHB_CLASS_FEATURE_CLERIC_DIVINE_ORDER"
+name = "Divine Order"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_divine_order.toml"
+description = """
+You have dedicated yourself to one of the following sacred roles of your choice.
+
+Select 1:
+TODO: Protector|Cleric|XPHB|1|XPHB
+
+TODO: Thaumaturge|Cleric|XPHB|1|XPHB"""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

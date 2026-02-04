@@ -1,0 +1,27 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_STEPS_OF_THE_FEY"
+name = "Steps of the Fey"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_steps_of_the_fey.toml"
+description = """
+Your patron grants you the ability to move between the boundaries of the planes.
+You can cast {@spell Misty Step|XPHB} without expending a spell slot a number of
+times equal to your Charisma modifier (minimum of once), and you regain all
+expended uses when you finish a {@variantrule Long Rest|XPHB}.
+
+In addition, whenever you cast that spell, you can choose one of the following
+additional effects.
+
+### Refreshing Step
+
+Immediately after you teleport, you or one creature you can see within 10 feet
+of yourself gains {@dice 1d10} {@variantrule Temporary Hit Points|XPHB}.
+
+### Taunting Step
+
+Creatures within 5 feet of the space you left must succeed on a Wisdom saving
+throw against your spell save DC or have {@variantrule Disadvantage|XPHB} on
+attack rolls against creatures other than you until the start of your next turn."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

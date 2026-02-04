@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_TELEKINETIC_THRUST"
+name = "Telekinetic Thrust"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_telekinetic_thrust.toml"
+description = """
+When you deal damage to a target with your Psionic Strike, you can force the
+target to make a Strength saving throw ({@dc 8} plus your Intelligence modifier
+and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, you
+can give the target the {@condition Prone|XPHB} condition or transport it up to
+10 feet horizontally."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

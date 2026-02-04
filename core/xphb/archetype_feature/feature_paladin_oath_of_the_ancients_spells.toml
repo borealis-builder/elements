@@ -1,0 +1,23 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_SPELLS"
+name = "Oath of the Ancients Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_the_ancients_spells.toml"
+description = """
+The magic of your oath ensures you always have certain spells ready; when you
+reach a Paladin level specified in the Oath of the Ancients Spells table, you
+thereafter always have the listed spells prepared.
+
+**Oath of the Ancients Spells**
+
+| Paladin Level | Spells |
+| --- | --- |
+| 3rd | {@spell Ensnaring Strike|XPHB}, {@spell Speak with Animals|XPHB} |
+| 5th | {@spell Misty Step|XPHB}, {@spell Moonbeam|XPHB} |
+| 9th | {@spell Plant Growth|XPHB}, {@spell Protection from Energy|XPHB} |
+| 13th | {@spell Ice Storm|XPHB}, {@spell Stoneskin|XPHB} |
+| 17th | {@spell Commune with Nature|XPHB}, {@spell Tree Stride|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

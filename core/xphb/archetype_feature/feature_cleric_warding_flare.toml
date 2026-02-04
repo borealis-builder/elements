@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_WARDING_FLARE"
+name = "Warding Flare"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_warding_flare.toml"
+description = """
+When a creature that you can see within 30 feet of yourself makes an attack
+roll, you can take a {@variantrule Reaction|XPHB} to impose {@variantrule
+Disadvantage|XPHB} on the attack roll, causing light to flare before it hits or
+misses.
+
+You can use this feature a number of times equal to your Wisdom modifier
+(minimum of once). You regain all expended uses when you finish a {@variantrule Long
+Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

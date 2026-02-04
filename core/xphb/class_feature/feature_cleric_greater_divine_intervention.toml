@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_CLERIC_GREATER_DIVINE_INTERVENTION"
+name = "Greater Divine Intervention"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_greater_divine_intervention.toml"
+description = """
+You can call on even more powerful divine intervention. When you use your Divine
+Intervention feature, you can choose {@spell Wish|XPHB} when you select a spell.
+If you do so, you can't use Divine Intervention again until you finish {@dice
+2d4} Long Rests."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

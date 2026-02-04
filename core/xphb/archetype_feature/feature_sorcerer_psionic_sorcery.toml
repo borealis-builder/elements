@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_PSIONIC_SORCERY"
+name = "Psionic Sorcery"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_psionic_sorcery.toml"
+description = """
+When you cast any level 1+ spell from your Psionic Spells feature, you can cast
+it by expending a spell slot as normal or by spending a number of Sorcery Points
+equal to the spell's level. If you cast the spell using Sorcery Points, it
+requires no Verbal or Somatic components, and it requires no Material components
+unless they are consumed by the spell or have a cost specified in it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_BARD"
+name = "Bard"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/bard.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = ["cha"]
+hit_dice = "1d8"
+
+[multiclass]
+rules = []

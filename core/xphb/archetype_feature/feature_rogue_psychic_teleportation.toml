@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_PSYCHIC_TELEPORTATION"
+name = "Psychic Teleportation"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psychic_teleportation.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you manifest a {@item Psychic
+Blade|XPHB}, expend one Psionic Energy Die and roll it, and throw the blade at
+an unoccupied space you can see up to a number of feet away equal to 10 times
+the number rolled. You then teleport to that space, and the blade vanishes."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

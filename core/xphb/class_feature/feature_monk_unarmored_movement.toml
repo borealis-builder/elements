@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT"
+name = "Unarmored Movement"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_unarmored_movement.toml"
+description = """
+Your speed increases by 10 feet while you aren't wearing armor or wielding a {@item
+Shield|XPHB}. This bonus increases when you reach certain Monk levels, as shown
+on the Monk Features table."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

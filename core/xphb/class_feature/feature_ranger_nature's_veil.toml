@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_NATURE'S_VEIL"
+name = "Nature's Veil"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_nature's_veil.toml"
+description = """
+You invoke spirits of nature to magically hide yourself. As a {@variantrule Bonus
+Action|XPHB}, you can give yourself the {@condition Invisible|XPHB} condition
+until the end of your next turn.
+
+You can use this feature a number of times equal to your Wisdom modifier
+(minimum of once), and you regain all expended uses when you finish a {@variantrule Long
+Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

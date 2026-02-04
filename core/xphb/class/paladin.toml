@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_PALADIN"
+name = "Paladin"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/paladin.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = [
+    "cha",
+    "str",
+]
+hit_dice = "1d10"
+
+[multiclass]
+rules = []

@@ -1,0 +1,24 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_MARTIAL_ARTS"
+name = "Martial Arts"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_martial_arts.toml"
+description = """
+Your practice of martial arts gives you mastery of combat styles that use your {@variantrule Unarmed
+Strike|XPHB} and Monk weapons, which are the following:
+
+- {@filter Simple Melee Weapons|items|type=simple weapon;melee weapon=sand}
+- {@filter Martial Melee Weapons that have the Light property|items|type=martial weapon;melee
+weapon=sand|property=light}
+
+You gain the following benefits while you are unarmed or wielding only Monk
+weapons and you aren't wearing armor or wielding a {@item Shield|XPHB}.
+
+TODO: Bonus Unarmed Strike|Monk|XPHB|1
+
+TODO: Martial Arts Die|Monk|XPHB|1
+
+TODO: Dexterous Attacks|Monk|XPHB|1"""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

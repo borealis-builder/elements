@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_RESTORE_BALANCE"
+name = "Restore Balance"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_restore_balance.toml"
+description = """
+Your connection to the plane of absolute order allows you to equalize chaotic
+moments. When a creature you can see within 60 feet of yourself is about to roll
+a {@dice d20} with {@variantrule Advantage|XPHB} or {@variantrule
+Disadvantage|XPHB}, you can take a {@variantrule Reaction|XPHB} to prevent the
+roll from being affected by {@variantrule Advantage|XPHB} and {@variantrule
+Disadvantage|XPHB}.
+
+You can use this feature a number of times equal to your Charisma modifier
+(minimum of once), and you regain all expended uses when you finish a {@variantrule Long
+Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

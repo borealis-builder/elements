@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_GUIDED_STRIKE"
+name = "Guided Strike"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_guided_strike.toml"
+description = """
+When you or a creature within 30 feet of you misses with an attack roll, you can
+expend one use of your Channel Divinity and give that roll a +10 bonus,
+potentially causing it to hit. When you use this feature to benefit another
+creature's attack roll, you must take a {@variantrule Reaction|XPHB} to do so."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

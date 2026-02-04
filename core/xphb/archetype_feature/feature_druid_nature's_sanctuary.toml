@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_NATURE'S_SANCTUARY"
+name = "Nature's Sanctuary"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_nature's_sanctuary.toml"
+description = """
+As a {@action Magic|XPHB} action, you can expend a use of your Wild Shape and
+cause spectral trees and vines to appear in a 15-foot {@variantrule Cube [Area of
+Effect]|XPHB|Cube} on the ground within 120 feet of yourself. They last there
+for 1 minute or until you have the {@condition Incapacitated|XPHB} condition or
+die. You and your allies have {@variantrule Cover|XPHB|Half Cover} while in that
+area, and your allies gain the current {@variantrule Resistance|XPHB} of your {@skill
+Nature|XPHB}'s Ward while there.
+
+As a {@variantrule Bonus Action|XPHB}, you can move the {@variantrule Cube [Area of
+Effect]|XPHB|Cube} up to 60 feet to ground within 120 feet of yourself."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

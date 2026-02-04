@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_MAGICAL_DISCOVERIES"
+name = "Magical Discoveries"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_magical_discoveries.toml"
+description = """
+You learn two spells of your choice. These spells can come from the {@filter
+Cleric|spells|class=Cleric}, {@filter Druid|spells|class=Druid}, or {@filter Wizard spell
+list|spells|class=Wizard} or any combination thereof (see a class's section for
+its spell list). A spell you choose must be a cantrip or a spell for which you
+have spell slots, as shown in the Bard Features table.
+
+You always have the chosen spells prepared, and whenever you gain a Bard level,
+you can replace one of the spells with another spell that meets these
+requirements."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_PATH_OF_THE_WILD_HEART"
+name = "Path of the Wild Heart"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_path_of_the_wild_heart.toml"
+description = """
+{@i Walk in Community with the Animal World}
+
+Barbarians who follow the Path of the Wild Heart view themselves as kin to
+animals. These Barbarians learn magical means to communicate with animals, and
+their Rage heightens their connection to animals as it fills them with
+supernatural might.
+
+TODO: Animal Speaker|Barbarian|XPHB|Wild Heart|XPHB|3
+
+TODO: Rage of the Wilds|Barbarian|XPHB|Wild Heart|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

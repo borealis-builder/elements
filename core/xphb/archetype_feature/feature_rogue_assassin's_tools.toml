@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_ASSASSIN'S_TOOLS"
+name = "Assassin's Tools"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_assassin's_tools.toml"
+description = """
+You gain a {@item Disguise Kit|XPHB} and a {@item Poisoner's Kit|XPHB}, and you
+have proficiency with them."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

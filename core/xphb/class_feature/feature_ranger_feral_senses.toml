@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_FERAL_SENSES"
+name = "Feral Senses"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_feral_senses.toml"
+description = """
+Your connection to the forces of nature grants you {@sense Blindsight|XPHB} with
+a range of 30 feet."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

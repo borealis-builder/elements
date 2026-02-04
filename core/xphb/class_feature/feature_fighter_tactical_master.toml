@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_FIGHTER_TACTICAL_MASTER"
+name = "Tactical Master"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_tactical_master.toml"
+description = """
+When you attack with a weapon whose mastery property you can use, you can
+replace that property with the {@itemMastery Push|XPHB}, {@itemMastery
+Sap|XPHB}, or {@itemMastery Slow|XPHB} property for that attack."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

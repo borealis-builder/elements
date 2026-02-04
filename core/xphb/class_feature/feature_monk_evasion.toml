@@ -1,0 +1,15 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_EVASION"
+name = "Evasion"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_evasion.toml"
+description = """
+When you're subjected to an effect that allows you to make a Dexterity saving
+throw to take only half damage, you instead take no damage if you succeed on the
+saving throw and only half damage if you fail.
+
+You don't benefit from this feature if you have the {@condition
+Incapacitated|XPHB} condition."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

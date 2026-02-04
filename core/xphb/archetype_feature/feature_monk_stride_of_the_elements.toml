@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_STRIDE_OF_THE_ELEMENTS"
+name = "Stride of the Elements"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_stride_of_the_elements.toml"
+description = """
+While your Elemental Attunement is active, you also have a {@variantrule Fly
+Speed|XPHB} and a {@variantrule Swim Speed|XPHB} equal to your {@variantrule
+Speed|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

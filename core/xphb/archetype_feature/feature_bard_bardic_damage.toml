@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_BARDIC_DAMAGE"
+name = "Bardic Damage"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_bardic_damage.toml"
+description = """
+You can use Dexterity instead of Strength for the attack rolls of your Unarmed
+Strikes. When you deal damage with an {@variantrule Unarmed Strike|XPHB}, you
+can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus
+your Dexterity modifier, instead of the strike's normal damage. This roll
+doesn't expend the die."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

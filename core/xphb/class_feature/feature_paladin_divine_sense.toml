@@ -1,0 +1,15 @@
+id = "ID_XPHB_CLASS_FEATURE_PALADIN_DIVINE_SENSE"
+name = "Divine Sense"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_divine_sense.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you can open your awareness to detect
+Celestials, Fiends, and Undead. For the next 10 minutes or until you have the {@condition
+Incapacitated|XPHB} condition, you know the location of any creature of those
+types within 60 feet of yourself, and you know its creature type. Within the
+same radius, you also detect the presence of any place or object that has been
+consecrated or desecrated, as with the {@spell Hallow|XPHB} spell."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

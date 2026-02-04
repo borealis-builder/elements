@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENSE"
+name = "Unarmored Defense"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_unarmored_defense.toml"
+description = """
+While you aren't wearing any armor, your base {@variantrule Armor Class|XPHB}
+equals 10 plus your Dexterity and Constitution modifiers. You can use a {@item
+Shield|XPHB} and still gain this benefit."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

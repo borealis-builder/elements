@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_DIVINER"
+name = "Diviner"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_diviner.toml"
+description = """
+{@i Learn the Secrets of the Multiverse}
+
+The counsel of a Diviner is sought by those who want a clearer understanding of
+the past, present, and future. As a Diviner, you strive to part the veils of
+space, time, and consciousness. You work to master spells of discernment, remote
+viewing, supernatural knowledge, and foresight.
+
+TODO: Divination Savant|Wizard|XPHB|Diviner|XPHB|3
+
+TODO: Portent|Wizard|XPHB|Diviner|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

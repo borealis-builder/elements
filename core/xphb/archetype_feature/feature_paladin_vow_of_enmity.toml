@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_VOW_OF_ENMITY"
+name = "Vow of Enmity"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_vow_of_enmity.toml"
+description = """
+When you take the {@action Attack|XPHB} action, you can expend one use of your
+Channel Divinity to utter a vow of enmity against a creature you can see within
+30 feet of yourself. You have {@variantrule Advantage|XPHB} on attack rolls
+against the creature for 1 minute or until you use this feature again.
+
+If the creature drops to 0 {@variantrule Hit Points|XPHB} before the vow ends,
+you can transfer the vow to a different creature within 30 feet of yourself (no
+action required)."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

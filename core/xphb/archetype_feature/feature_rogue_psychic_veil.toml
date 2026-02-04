@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_PSYCHIC_VEIL"
+name = "Psychic Veil"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psychic_veil.toml"
+description = """
+You can weave a veil of psychic static to mask yourself. As a {@action
+Magic|XPHB} action, you gain the {@condition Invisible|XPHB} condition for 1
+hour or until you dismiss this effect (no action required). This invisibility
+ends early immediately after you deal damage to a creature or you force a
+creature to make a saving throw.
+
+Once you use this feature, you can't do so again until you finish a {@variantrule Long
+Rest|XPHB} unless you expend a Psionic Energy Die (no action required) to
+restore your use of it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

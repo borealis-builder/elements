@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_MARTIAL_ARTS_DIE"
+name = "Martial Arts Die"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_martial_arts_die.toml"
+description = """
+You can roll {@damage 1d6} in place of the normal damage of your {@variantrule Unarmed
+Strike|XPHB} or Monk weapons. This die changes as you gain Monk levels, as shown
+in the Martial Arts column of the Monk Features table."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

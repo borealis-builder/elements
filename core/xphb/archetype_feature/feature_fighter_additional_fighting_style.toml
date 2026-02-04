@@ -1,0 +1,9 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_ADDITIONAL_FIGHTING_STYLE"
+name = "Additional Fighting Style"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_additional_fighting_style.toml"
+description = "You gain another {@filter Fighting Style feat|feats|category=FS} of your choice."
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

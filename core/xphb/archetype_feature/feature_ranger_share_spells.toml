@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_SHARE_SPELLS"
+name = "Share Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_share_spells.toml"
+description = """
+When you cast a spell targeting yourself, you can also affect your Primal
+Companion beast with the spell if the beast is within 30 feet of you."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

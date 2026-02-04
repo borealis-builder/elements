@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_RESILIENCE"
+name = "Celestial Resilience"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_celestial_resilience.toml"
+description = """
+You gain {@variantrule Temporary Hit Points|XPHB} whenever you use your Magical
+Cunning feature or finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long
+Rest|XPHB}. These {@variantrule Temporary Hit Points|XPHB} equal your Warlock
+level plus your Charisma modifier. Additionally, choose up to five creatures you
+can see when you gain the points. Those creatures each gain {@variantrule Temporary Hit
+Points|XPHB} equal to half your Warlock level plus your Charisma modifier."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

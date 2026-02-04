@@ -1,0 +1,17 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES"
+name = "Devious Strikes"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_devious_strikes.toml"
+description = """
+You've practiced new ways to use your Sneak Attack deviously. The following
+effects are now among your Cunning Strike options.
+
+TODO: Daze (Cost: 2d6)|Rogue|XPHB|14|XPHB
+
+TODO: Knock Out (Cost: 6d6)|Rogue|XPHB|14|XPHB
+
+TODO: Obscure (Cost: 3d6)|Rogue|XPHB|14|XPHB"""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

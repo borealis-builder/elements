@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_TELEKINETIC_MASTER"
+name = "Telekinetic Master"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_telekinetic_master.toml"
+description = """
+You always have the {@spell Telekinesis|XPHB} spell prepared. With this feature,
+you can cast it without a spell slot or components, and your spellcasting
+ability for it is Intelligence. On each of your turns while you maintain {@status
+Concentration|XPHB} on it, including the turn when you cast it, you can make one
+attack with a weapon as a {@variantrule Bonus Action|XPHB}.
+
+Once you cast the spell with this feature, you can't do so in this way again
+until you finish a {@variantrule Long Rest|XPHB} unless you expend a Psionic
+Energy Die (no action required) to restore your use of it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

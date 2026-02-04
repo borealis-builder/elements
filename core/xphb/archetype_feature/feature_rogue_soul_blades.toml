@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_SOUL_BLADES"
+name = "Soul Blades"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_soul_blades.toml"
+description = """
+You can now use the following powers with your Psychic Blades.
+
+TODO: Homing Strikes|Rogue|XPHB|Soulknife|XPHB|9
+
+TODO: Psychic Teleportation|Rogue|XPHB|Soulknife|XPHB|9"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

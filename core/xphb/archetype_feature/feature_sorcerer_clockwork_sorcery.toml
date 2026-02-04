@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY"
+name = "Clockwork Sorcery"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_clockwork_sorcery.toml"
+description = """
+{@i Channel Cosmic Forces of Order}
+
+The cosmic force of order has suffused you with magic. That power arises from
+Mechanus or a realm like it—a plane of existence shaped entirely by clockwork
+efficiency. You or someone from your lineage might have become entangled in the
+machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your
+ancestor even took part in the Great Modron March. Whatever its origin within
+you, the power of order can seem strange to others, but for you, it's part of a
+vast and glorious system.
+
+TODO: Clockwork Spells|Sorcerer|XPHB|Clockwork|XPHB|3
+
+TODO: Restore Balance|Sorcerer|XPHB|Clockwork|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

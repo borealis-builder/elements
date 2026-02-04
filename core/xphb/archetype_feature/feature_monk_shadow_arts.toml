@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_SHADOW_ARTS"
+name = "Shadow Arts"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_shadow_arts.toml"
+description = """
+You have learned to draw on the power of the Shadowfell, gaining the following
+benefits.
+
+TODO: Darkness|Monk|XPHB|Shadow|XPHB|3
+
+TODO: Darkvision|Monk|XPHB|Shadow|XPHB|3
+
+TODO: Shadowy Figments|Monk|XPHB|Shadow|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

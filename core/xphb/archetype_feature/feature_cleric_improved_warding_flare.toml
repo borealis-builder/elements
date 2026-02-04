@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_IMPROVED_WARDING_FLARE"
+name = "Improved Warding Flare"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_improved_warding_flare.toml"
+description = """
+You regain all expended uses of your Warding Flare when you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.
+
+In addition, whenever you use Warding Flare, you can give the target of the
+triggering attack a number of {@variantrule Temporary Hit Points|XPHB} equal to {@dice
+2d6} plus your Wisdom modifier."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

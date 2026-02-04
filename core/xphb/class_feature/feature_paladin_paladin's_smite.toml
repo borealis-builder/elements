@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_PALADIN_PALADIN'S_SMITE"
+name = "Paladin's Smite"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_paladin's_smite.toml"
+description = """
+You always have the {@spell Divine Smite|XPHB} spell prepared. In addition, you
+can cast it without expending a spell slot, but you must finish a {@variantrule Long
+Rest|XPHB} before you can cast it in this way again."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

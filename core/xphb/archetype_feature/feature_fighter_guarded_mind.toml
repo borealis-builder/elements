@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_GUARDED_MIND"
+name = "Guarded Mind"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_guarded_mind.toml"
+description = """
+You have {@variantrule Resistance|XPHB} to Psychic damage. Moreover, if you
+start your turn with the {@condition Charmed|XPHB} or {@condition
+Frightened|XPHB} condition, you can expend a Psionic Energy Die (no action
+required) and end every effect on yourself giving you those conditions."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

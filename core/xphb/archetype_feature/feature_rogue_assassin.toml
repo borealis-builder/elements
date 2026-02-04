@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_ASSASSIN"
+name = "Assassin"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_assassin.toml"
+description = """
+{@i Practice the Grim Art of Death}
+
+An Assassin's training focuses on using stealth, poison, and disguise to
+eliminate foes with deadly efficiency. While some Rogues who follow this path
+are hired killers, spies, or bounty hunters, the capabilities of this subclass
+are equally useful for adventurers facing a variety of monstrous enemies.
+
+TODO: Assassinate|Rogue|XPHB|Assassin|XPHB|3
+
+TODO: Assassin's Tools|Rogue|XPHB|Assassin|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

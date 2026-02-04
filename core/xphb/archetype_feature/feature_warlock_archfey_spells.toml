@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_SPELLS"
+name = "Archfey Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_archfey_spells.toml"
+description = """
+The magic of your patron ensures you always have certain spells ready; when you
+reach a Warlock level specified in the Archfey Spells table, you thereafter
+always have the listed spells prepared.
+
+**Archfey Spells**
+
+| Warlock Level | Spells |
+| --- | --- |
+| 3 | {@spell Calm Emotions|XPHB}, {@spell Faerie Fire|XPHB}, {@spell Misty Step|XPHB}, {@spell Phantasmal Force|XPHB}, {@spell Sleep|XPHB} |
+| 5 | {@spell Blink|XPHB}, {@spell Plant Growth|XPHB} |
+| 7 | {@spell Dominate Beast|XPHB}, {@spell Greater Invisibility|XPHB} |
+| 9 | {@spell Dominate Person|XPHB}, {@spell Seeming|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

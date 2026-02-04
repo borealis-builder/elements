@@ -1,0 +1,14 @@
+id = "ID_XPHB_CLASS_FEATURE_WIZARD_SCHOLAR"
+name = "Scholar"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_scholar.toml"
+description = """
+While studying magic, you also specialized in another field of study. Choose one
+of the following skills in which you have proficiency: {@skill Arcana|XPHB}, {@skill
+History|XPHB}, {@skill Investigation|XPHB}, {@skill Medicine|XPHB}, {@skill
+Nature|XPHB}, or {@skill Religion|XPHB}. You have {@variantrule Expertise|XPHB}
+in the chosen skill."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

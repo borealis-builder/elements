@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_TAMED_SURGE"
+name = "Tamed Surge"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_tamed_surge.toml"
+description = """
+Immediately after you cast a Sorcerer spell with a spell slot, you can create an
+effect of your choice from the {@table Wild Magic Surge|XPHB} table instead of
+rolling on that table. You can choose any effect in the table except for the
+final row, and if the chosen effect involves a roll, you must make it.
+
+Once you use this feature, you can't do so again until you finish a {@variantrule Long
+Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

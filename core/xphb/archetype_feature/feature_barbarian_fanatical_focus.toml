@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_FANATICAL_FOCUS"
+name = "Fanatical Focus"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_fanatical_focus.toml"
+description = """
+Once per active Rage, if you fail a saving throw, you can reroll it with a bonus
+equal to your Rage Damage bonus, and you must use the new roll."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

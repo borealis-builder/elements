@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_SPELL_RESISTANCE"
+name = "Spell Resistance"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_spell_resistance.toml"
+description = """
+You have {@variantrule Advantage|XPHB} on saving throws against spells, and you
+have {@variantrule Resistance|XPHB} to the damage of spells."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

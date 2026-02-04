@@ -1,0 +1,14 @@
+id = "ID_XPHB_CLASS_FEATURE_BARD_COUNTERCHARM"
+name = "Countercharm"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_countercharm.toml"
+description = """
+You can use musical notes or words of power to disrupt mind-influencing effects.
+If you or a creature within 30 feet of you fails a saving throw against an
+effect that applies the {@condition Charmed|XPHB} or {@condition
+Frightened|XPHB} condition, you can take a {@variantrule Reaction|XPHB} to cause
+the save to be rerolled, and the new roll has {@variantrule Advantage|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

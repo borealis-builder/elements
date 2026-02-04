@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_ANIMAL_SPEAKER"
+name = "Animal Speaker"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_animal_speaker.toml"
+description = """
+You can cast the {@spell Beast Sense|XPHB} and {@spell Speak with Animals|XPHB}
+spells but only as Rituals. Wisdom is your spellcasting ability for them."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

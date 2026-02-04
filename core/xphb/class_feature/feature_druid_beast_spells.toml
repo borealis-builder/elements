@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_DRUID_BEAST_SPELLS"
+name = "Beast Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_beast_spells.toml"
+description = """
+While using Wild Shape, you can cast spells in Beast form, except for any spell
+that has a Material component with a cost specified or that consumes its
+Material component."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_FIENDISH_RESILIENCE"
+name = "Fiendish Resilience"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_fiendish_resilience.toml"
+description = """
+Choose one damage type, other than Force, whenever you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You have {@variantrule
+Resistance|XPHB} to that damage type until you choose a different one with this
+feature."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

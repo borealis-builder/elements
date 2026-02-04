@@ -1,0 +1,26 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_THE_THIRD_EYE"
+name = "The Third Eye"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_the_third_eye.toml"
+description = """
+You can increase your powers of perception. As a {@variantrule Bonus
+Action|XPHB}, choose one of the following benefits, which lasts until you start
+a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You
+can't use this feature again until you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.
+
+### Darkvision
+
+You gain {@sense Darkvision|XPHB} with a range of 120 feet.
+
+### Greater Comprehension
+
+You can read any language.
+
+### See Invisibility
+
+You can cast {@spell See Invisibility|XPHB} without expending a spell slot."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

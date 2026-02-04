@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_BATTERING_ROOTS"
+name = "Battering Roots"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_battering_roots.toml"
+description = """
+During your turn, your reach is 10 feet greater with any {@filter Melee weapon that has the Heavy or Versatile property|items|type=melee
+weapon|property=heavy;versatile}, as tendrils of the World Tree extend from you.
+When you hit with such a weapon on your turn, you can activate the {@itemMastery
+Push|XPHB} or {@itemMastery Topple|XPHB} mastery property in addition to a
+different mastery property you're using with that weapon."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

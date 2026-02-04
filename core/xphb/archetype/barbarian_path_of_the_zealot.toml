@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_BARBARIAN_PATH_OF_THE_ZEALOT"
+name = "Path of the Zealot"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/barbarian_path_of_the_zealot.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

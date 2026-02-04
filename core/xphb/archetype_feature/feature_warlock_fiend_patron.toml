@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON"
+name = "Fiend Patron"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_fiend_patron.toml"
+description = """
+{@i Make a Deal with the Lower Planes}
+
+Your pact draws on the Lower Planes, the realms of perdition. You might forge a
+bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as
+Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially
+mighty. That patron's aims are evil—the corruption or destruction of all
+things, ultimately including you—and your path is defined by the extent to
+which you strive against those aims.
+
+TODO: Fiend Spells|Warlock|XPHB|Fiend|XPHB|3
+
+TODO: Dark One's Blessing|Warlock|XPHB|Fiend|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

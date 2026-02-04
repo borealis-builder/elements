@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_BARBARIAN"
+name = "Barbarian"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/barbarian.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = ["str"]
+hit_dice = "1d12"
+
+[multiclass]
+rules = []

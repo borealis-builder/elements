@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_CHALICE"
+name = "Chalice"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_chalice.toml"
+description = """
+A constellation of a life-giving goblet appears on you. Whenever you cast a
+spell using a spell slot that restores {@variantrule Hit Points|XPHB} to a
+creature, you or another creature within 30 feet of you can regain {@variantrule Hit
+Points|XPHB} equal to {@dice 1d8} plus your Wisdom modifier."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

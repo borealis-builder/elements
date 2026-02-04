@@ -1,0 +1,27 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_POWER_OF_THE_WILDS"
+name = "Power of the Wilds"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_power_of_the_wilds.toml"
+description = """
+Whenever you activate your Rage, you gain one of the following options of your
+choice.
+
+### Falcon
+
+While your Rage is active, you have a {@variantrule Fly Speed|XPHB} equal to
+your {@variantrule Speed|XPHB} if you aren't wearing any armor.
+
+### Lion
+
+While your Rage is active, any of your enemies within 5 feet of you have {@variantrule
+Disadvantage|XPHB} on attack rolls against targets other than you or another
+Barbarian who has this option active.
+
+### Ram
+
+While your Rage is active, you can cause a Large or smaller creature to have the {@condition
+Prone|XPHB} condition when you hit it with a melee attack."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

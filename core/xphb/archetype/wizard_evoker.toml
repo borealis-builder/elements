@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_WIZARD_EVOKER"
+name = "Evoker"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/wizard_evoker.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

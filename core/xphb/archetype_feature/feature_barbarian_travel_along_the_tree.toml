@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_TRAVEL_ALONG_THE_TREE"
+name = "Travel Along the Tree"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_travel_along_the_tree.toml"
+description = """
+When you activate your Rage and as a {@variantrule Bonus Action|XPHB} while your
+Rage is active, you can teleport up to 60 feet to an unoccupied space you can
+see.
+
+In addition, once per Rage, you can increase the range of that teleport to 150
+feet. When you do so, you can also bring up to six willing creatures who are
+within 10 feet of you. Each creature teleports to an unoccupied space of your
+choice within 10 feet of your destination space."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

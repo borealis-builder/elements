@@ -1,0 +1,20 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_GLORIOUS_DEFENSE"
+name = "Glorious Defense"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_glorious_defense.toml"
+description = """
+You can turn defense into a sudden strike. When you or another creature you can
+see within 10 feet of you is hit by an attack roll, you can take a {@variantrule
+Reaction|XPHB} to grant a bonus to the target's AC against that attack,
+potentially causing it to miss. The bonus equals your Charisma modifier (minimum
+of +1). If the attack misses, you can make one attack with a weapon against the
+attacker as part of this {@variantrule Reaction|XPHB} if the attacker is within
+your weapon's range.
+
+You can use this feature a number of times equal to your Charisma modifier
+(minimum of once), and you regain all expended uses when you finish a {@variantrule Long
+Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,20 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY"
+name = "Draconic Sorcery"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_draconic_sorcery.toml"
+description = """
+{@i Breathe the Magic of Dragons}
+
+Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon
+facing death bequeathed some of its magical power to you or your ancestor. You
+might have absorbed magic from a site infused with dragons' power. Or perhaps
+you handled a treasure taken from a dragon's hoard that was steeped in draconic
+power. Or you might have a dragon for an ancestor.
+
+TODO: Draconic Resilience|Sorcerer|XPHB|Draconic|XPHB|3
+
+TODO: Draconic Spells|Sorcerer|XPHB|Draconic|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

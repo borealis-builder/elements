@@ -1,0 +1,20 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_LAND'S_AID"
+name = "Land's Aid"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_land's_aid.toml"
+description = """
+As a {@action Magic|XPHB} action, you can expend a use of your Wild Shape and
+choose a point within 60 feet of yourself. Vitality-giving flowers and
+life-draining thorns appear for a moment in a 10-foot-radius {@variantrule Sphere [Area of
+Effect]|XPHB|Sphere} centered on that point. Each creature of your choice in the {@variantrule Sphere [Area of
+Effect]|XPHB|Sphere} must make a Constitution saving throw against your spell
+save DC, taking {@damage 2d6} Necrotic damage on a failed save or half as much
+damage on a successful one. One creature of your choice in that area regains {@dice
+2d6} {@variantrule Hit Points|XPHB}.
+
+The damage and healing increase by {@dice 1d6} when you reach Druid levels 10 ({@dice
+3d6}) and 14 ({@dice 4d6})."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

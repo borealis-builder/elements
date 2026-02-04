@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT"
+name = "Feral Instinct"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_feral_instinct.toml"
+description = """
+Your instincts are so honed that you have {@variantrule Advantage|XPHB} on {@variantrule
+Initiative|XPHB} rolls."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

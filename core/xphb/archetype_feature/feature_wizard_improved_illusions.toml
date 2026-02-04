@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_IMPROVED_ILLUSIONS"
+name = "Improved Illusions"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_improved_illusions.toml"
+description = """
+You can cast Illusion spells without providing Verbal components, and if an
+Illusion spell you cast has a range of 10+ feet, the range increases by 60 feet.
+
+You also know the {@spell Minor Illusion|XPHB} cantrip. If you already know it,
+you learn a different Wizard cantrip of your choice. The cantrip doesn't count
+against your number of cantrips known. You can create both a sound and an image
+with a single casting of {@spell Minor Illusion|XPHB}, and you can cast it as a {@variantrule Bonus
+Action|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

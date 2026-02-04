@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_BEND_LUCK"
+name = "Bend Luck"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_bend_luck.toml"
+description = """
+You have the ability to twist fate using your wild magic. Immediately after
+another creature you can see rolls the {@dice d20} for a {@variantrule D20
+Test|XPHB}, you can take a {@variantrule Reaction|XPHB} and spend 1 Sorcery
+Point to roll {@dice 1d4} and apply the number rolled as a bonus or penalty
+(your choice) to the {@dice d20} roll."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

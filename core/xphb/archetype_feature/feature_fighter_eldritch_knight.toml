@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT"
+name = "Eldritch Knight"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_eldritch_knight.toml"
+description = """
+{@i Support Combat Skills with Arcane Magic}
+
+Eldritch Knights combine the martial mastery common to all Fighters with a
+careful study of magic. Their spells both complement and extend their combat
+skills, providing additional protection to shore up their armor and also
+allowing them to engage many foes at once with explosive magic.
+
+TODO: Spellcasting|Fighter|XPHB|Eldritch Knight|XPHB|3
+
+TODO: War Bond|Fighter|XPHB|Eldritch Knight|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

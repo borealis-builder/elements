@@ -1,0 +1,26 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE"
+name = "Oath of Vengeance"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_vengeance.toml"
+description = """
+{@i Punish Evildoers at Any Cost}
+
+The Oath of Vengeance is a solemn commitment to punish those who have committed
+grievously evil acts. When evil armies slaughter helpless villagers, when a
+tyrant defies the will of the gods, when a thieves' guild grows too violent,
+when a dragon rampages through the countryside—at times like these, paladins
+arise and swear an Oath of Vengeance to set right what has gone wrong.
+
+These paladins share the following tenets:
+
+- Show the wicked no mercy.
+- Fight injustice and its causes.
+- Aid those harmed by injustice.
+
+TODO: Oath of Vengeance Spells|Paladin|XPHB|Vengeance|XPHB|3
+
+TODO: Vow of Enmity|Paladin|XPHB|Vengeance|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

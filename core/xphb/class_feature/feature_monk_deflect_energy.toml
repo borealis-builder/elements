@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_DEFLECT_ENERGY"
+name = "Deflect Energy"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_deflect_energy.toml"
+description = """
+You can now use your Deflect Attacks feature against attacks that deal any
+damage type, not just Bludgeoning, Piercing, or Slashing."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

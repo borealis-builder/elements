@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_BARD_COLLEGE_OF_VALOR"
+name = "College of Valor"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/bard_college_of_valor.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

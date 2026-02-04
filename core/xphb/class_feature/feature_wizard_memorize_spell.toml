@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL"
+name = "Memorize Spell"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_memorize_spell.toml"
+description = """
+Whenever you finish a {@variantrule Short Rest|XPHB}, you can study your
+spellbook and replace one of the level 1+ Wizard spells you have prepared for
+your Spellcasting feature with another level 1+ spell from the book."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

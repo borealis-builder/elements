@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_DRUID_CIRCLE_OF_THE_MOON"
+name = "Circle of the Moon"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/druid_circle_of_the_moon.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_PSYCHIC_WHISPERS"
+name = "Psychic Whispers"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psychic_whispers.toml"
+description = """
+You can establish telepathic communication between yourself and others. As a {@action
+Magic|XPHB} action, choose one or more creatures you can see, up to a number of
+creatures equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and
+then roll one Psionic Energy Die. For a number of hours equal to the number
+rolled, the chosen creatures can speak telepathically with you, and you can
+speak telepathically with them. To send or receive a message (no action
+required), you and the other creature must be within 1 mile of each other. A
+creature can end the telepathic connection at any time (no action required)."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

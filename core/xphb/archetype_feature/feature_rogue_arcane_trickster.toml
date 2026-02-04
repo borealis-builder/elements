@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER"
+name = "Arcane Trickster"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_arcane_trickster.toml"
+description = """
+{@i Enhance Stealth with Arcane Spells}
+
+Some Rogues enhance their fine-honed skills of stealth and agility with spells,
+learning magical tricks to aid them in their trade. Some Arcane Tricksters use
+their talents as pickpockets and burglars, while others are pranksters.
+
+TODO: Spellcasting|Rogue|XPHB|Arcane Trickster|XPHB|3
+
+TODO: Mage Hand Legerdemain|Rogue|XPHB|Arcane Trickster|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

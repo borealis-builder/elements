@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_BODY_AND_MIND"
+name = "Body and Mind"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_body_and_mind.toml"
+description = """
+You have developed your body and mind to new heights. Your Dexterity and Wisdom
+scores increase by 4, to a maximum of 25."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

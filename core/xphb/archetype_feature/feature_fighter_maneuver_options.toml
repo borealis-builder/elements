@@ -1,0 +1,51 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_MANEUVER_OPTIONS"
+name = "Maneuver Options"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_maneuver_options.toml"
+description = """
+The maneuvers are presented here in alphabetical order.
+
+Select 3:
+TODO: Ambush|XPHB
+
+TODO: Bait and Switch|XPHB
+
+TODO: Commander's Strike|XPHB
+
+TODO: Commanding Presence|XPHB
+
+TODO: Disarming Attack|XPHB
+
+TODO: Distracting Strike|XPHB
+
+TODO: Evasive Footwork|XPHB
+
+TODO: Feinting Attack|XPHB
+
+TODO: Goading Attack|XPHB
+
+TODO: Lunging Attack|XPHB
+
+TODO: Maneuvering Attack|XPHB
+
+TODO: Menacing Attack|XPHB
+
+TODO: Parry|XPHB
+
+TODO: Precision Attack|XPHB
+
+TODO: Pushing Attack|XPHB
+
+TODO: Rally|XPHB
+
+TODO: Riposte|XPHB
+
+TODO: Sweeping Attack|XPHB
+
+TODO: Tactical Assessment|XPHB
+
+TODO: Trip Attack|XPHB"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

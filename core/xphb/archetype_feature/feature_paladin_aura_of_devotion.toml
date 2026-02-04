@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION"
+name = "Aura of Devotion"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_aura_of_devotion.toml"
+description = """
+You and your allies have {@variantrule Immunity|XPHB} to the {@condition
+Charmed|XPHB} condition while in your Aura of Protection. If a {@condition
+Charmed|XPHB} ally enters the aura, that condition has no effect on that ally
+while there."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

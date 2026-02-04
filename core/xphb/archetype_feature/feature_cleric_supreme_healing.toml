@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_SUPREME_HEALING"
+name = "Supreme Healing"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_supreme_healing.toml"
+description = """
+When you would normally roll one or more dice to restore {@variantrule Hit
+Points|XPHB} to a creature with a spell or Channel Divinity, don't roll those
+dice for the healing; instead use the highest number possible for each die. For
+example, instead of restoring {@dice 2d6} {@variantrule Hit Points|XPHB} to a
+creature with a spell, you restore 12."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

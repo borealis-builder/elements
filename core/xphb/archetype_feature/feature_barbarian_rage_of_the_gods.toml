@@ -1,0 +1,32 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_RAGE_OF_THE_GODS"
+name = "Rage of the Gods"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_rage_of_the_gods.toml"
+description = """
+When you activate your Rage, you can assume the form of a divine warrior. This
+form lasts for 1 minute or until you drop to 0 {@variantrule Hit Points|XPHB}.
+Once you use this feature, you can't do so again until you finish a {@variantrule Long
+Rest|XPHB}.
+
+While in this form, you gain the benefits below.
+
+### Flight
+
+You have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB}
+and can hover.
+
+### Resistance
+
+You have {@variantrule Resistance|XPHB} to Necrotic, Psychic, and Radiant
+damage.
+
+### Revivification
+
+When a creature within 30 feet of you would drop to 0 {@variantrule Hit
+Points|XPHB}, you can take a {@variantrule Reaction|XPHB} to expend a use of
+your Rage to instead change the target's {@variantrule Hit Points|XPHB} to a
+number equal to your Barbarian level."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

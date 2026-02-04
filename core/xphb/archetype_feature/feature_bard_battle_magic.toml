@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_BATTLE_MAGIC"
+name = "Battle Magic"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_battle_magic.toml"
+description = """
+After you cast a spell that has a casting time of an action, you can make one
+attack with a weapon as a {@variantrule Bonus Action|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

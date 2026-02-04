@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_FULL_OF_STARS"
+name = "Full of Stars"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_full_of_stars.toml"
+description = """
+While in your Starry Form, you become partially incorporeal, giving you {@variantrule
+Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

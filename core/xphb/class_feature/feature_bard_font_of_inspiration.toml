@@ -1,0 +1,14 @@
+id = "ID_XPHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION"
+name = "Font of Inspiration"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_font_of_inspiration.toml"
+description = """
+You now regain all your expended uses of Bardic Inspiration when you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.
+
+In addition, you can expend a spell slot (no action required) to regain one
+expended use of Bardic Inspiration."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

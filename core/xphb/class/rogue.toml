@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_ROGUE"
+name = "Rogue"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/rogue.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = ["dex"]
+hit_dice = "1d8"
+
+[multiclass]
+rules = []

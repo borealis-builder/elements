@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_FIGHTER_TACTICAL_SHIFT"
+name = "Tactical Shift"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_tactical_shift.toml"
+description = """
+Whenever you activate your Second Wind with a {@variantrule Bonus Action|XPHB},
+you can move up to half your {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity
+Attacks}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

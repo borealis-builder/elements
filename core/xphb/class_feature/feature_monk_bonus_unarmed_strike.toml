@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_BONUS_UNARMED_STRIKE"
+name = "Bonus Unarmed Strike"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_bonus_unarmed_strike.toml"
+description = """
+You can make an {@variantrule Unarmed Strike|XPHB} as a {@variantrule Bonus
+Action|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

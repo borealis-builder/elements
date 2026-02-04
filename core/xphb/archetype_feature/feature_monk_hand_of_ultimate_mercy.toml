@@ -1,0 +1,20 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_HAND_OF_ULTIMATE_MERCY"
+name = "Hand of Ultimate Mercy"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_hand_of_ultimate_mercy.toml"
+description = """
+Your mastery of life energy opens the door to the ultimate mercy. As a {@action
+Magic|XPHB} action, you can touch the corpse of a creature that died within the
+past 24 hours and expend 5 Focus Points. The creature then returns to life with
+a number of {@variantrule Hit Points|XPHB} equal to {@dice 4d10} plus your
+Wisdom modifier. If the creature died with any of the following conditions, the
+creature revives with the conditions removed: {@condition Blinded|XPHB}, {@condition
+Deafened|XPHB}, {@condition Paralyzed|XPHB}, {@condition Poisoned|XPHB}, and {@condition
+Stunned|XPHB}.
+
+Once you use this feature, you can't use it again until you finish a {@variantrule Long
+Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_MAGE_HAND_LEGERDEMAIN"
+name = "Mage Hand Legerdemain"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_mage_hand_legerdemain.toml"
+description = """
+When you cast {@spell Mage Hand|XPHB}, you can cast it as a {@variantrule Bonus
+Action|XPHB}, and you can make the spectral hand {@condition Invisible|XPHB}.
+You can control the hand as a {@variantrule Bonus Action|XPHB}, and through it,
+you can make Dexterity ({@skill Sleight of Hand|XPHB}) checks."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,27 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_LIGHT_DOMAIN"
+name = "Light Domain"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_light_domain.toml"
+description = """
+{@i Bring Light to Banish Darkness}
+
+The Light Domain emphasizes the divine power to bring about blazing fire and
+revelation. Clerics who wield this power are enlightened souls infused with
+radiance and the power of their deities' discerning vision, charged with chasing
+away lies and burning away darkness.
+
+The Light Domain is associated with gods of truth, vigilance, beauty, insight,
+and renewal. Some of these gods are identified with the sun or as charioteers
+who guide the sun across the sky. Others are sentinels who pierce deception.
+Some are deities of beauty and artistry who teach that art is a vehicle for the
+soul's improvement.
+
+TODO: Light Domain Spells|Cleric|XPHB|Light|XPHB|3
+
+TODO: Radiance of the Dawn|Cleric|XPHB|Light|XPHB|3
+
+TODO: Warding Flare|Cleric|XPHB|Light|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

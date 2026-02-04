@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_DRUID_MAGICIAN"
+name = "Magician"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_magician.toml"
+description = """
+You know one extra cantrip from the {@filter Druid spell
+list|spells|class=Druid}. In addition, your mystical connection to nature gives
+you a bonus to your Intelligence ({@skill Arcana|XPHB} or {@skill Nature|XPHB})
+checks. The bonus equals your Wisdom modifier (minimum bonus of +1)."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

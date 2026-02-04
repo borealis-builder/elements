@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE"
+name = "Aura of Courage"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_aura_of_courage.toml"
+description = """
+You and your allies have {@variantrule Immunity|XPHB} to the {@condition
+Frightened|XPHB} condition while in your Aura of Protection. If a {@condition
+Frightened|XPHB} ally enters the aura, that condition has no effect on that ally
+while there."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

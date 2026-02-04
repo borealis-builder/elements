@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_DARKVISION"
+name = "Darkvision"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_darkvision.toml"
+description = """
+You gain {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense
+Darkvision|XPHB}, its range increases by 60 feet."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_WIZARD_WIZARD_SUBCLASS"
+name = "Wizard Subclass"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_wizard_subclass.toml"
+description = """
+You gain a Wizard subclass of your choice. A subclass is a specialization that
+grants you features at certain Wizard levels. For the rest of your career, you
+gain each of your subclass's features that are of your Wizard level or lower."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

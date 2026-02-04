@@ -1,0 +1,40 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_PSIONIC_POWER"
+name = "Psionic Power"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psionic_power.toml"
+description = """
+You harbor a wellspring of psionic energy within yourself. It is represented by
+your Psionic Energy Dice, which fuel powers you have from this subclass. The Psi
+Warrior Energy Dice table shows the die size and number of these dice you have
+when you reach certain Fighter levels.
+
+**Psi Warrior Energy Dice**
+
+| Fighter Level | Die Size | Number |
+| --- | --- | --- |
+| 3 | {@dice D6} | 4 |
+| 5 | {@dice D8} | 6 |
+| 9 | {@dice D8} | 8 |
+| 11 | {@dice D10} | 8 |
+| 13 | {@dice D10} | 10 |
+| 17 | {@dice D12} | 12 |
+
+
+Any features in this subclass that use a Psionic Energy Die use only the dice
+from this subclass. Some of your powers expend the Psionic Energy Die, as
+specified in a power's description, and you can't use a power if it requires you
+to use a die when all your Psionic Energy Dice are expended.
+
+You regain one of your expended Psionic Energy Dice when you finish a {@variantrule Short
+Rest|XPHB}, and you regain all of them when you finish a {@variantrule Long
+Rest|XPHB}.
+
+TODO: Protective Field|Fighter|XPHB|Psi Warrior|XPHB|3
+
+TODO: Psionic Strike|Fighter|XPHB|Psi Warrior|XPHB|3
+
+TODO: Telekinetic Movement|Fighter|XPHB|Psi Warrior|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

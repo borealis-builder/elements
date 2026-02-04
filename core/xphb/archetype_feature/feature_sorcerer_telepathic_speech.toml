@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_TELEPATHIC_SPEECH"
+name = "Telepathic Speech"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_telepathic_speech.toml"
+description = """
+You can form a telepathic connection between your mind and the mind of another.
+As a {@variantrule Bonus Action|XPHB}, choose one creature you can see within 30
+feet of yourself. You and the chosen creature can communicate telepathically
+with each other while the two of you are within a number of miles of each other
+equal to your Charisma modifier (minimum of 1 mile). To understand each other,
+you each must mentally use a language the other knows.
+
+The telepathic connection lasts for a number of minutes equal to your Sorcerer
+level. It ends early if you use this ability to form a connection with a
+different creature."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

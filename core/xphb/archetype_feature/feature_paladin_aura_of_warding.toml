@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_AURA_OF_WARDING"
+name = "Aura of Warding"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_aura_of_warding.toml"
+description = """
+Ancient magic lies so heavily upon you that it forms an eldritch ward, blunting
+energy from beyond the Material Plane; you and your allies have {@variantrule
+Resistance|XPHB} to Necrotic, Psychic, and Radiant damage while in your Aura of
+Protection."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

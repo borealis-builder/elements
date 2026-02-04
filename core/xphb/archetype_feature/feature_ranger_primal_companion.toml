@@ -1,0 +1,39 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_PRIMAL_COMPANION"
+name = "Primal Companion"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_primal_companion.toml"
+description = """
+You magically summon a primal beast, which draws strength from your bond with
+nature. Choose its stat block: {@creature Beast of the Land|XPHB}, {@creature Beast of the
+Sea|XPHB}, or {@creature Beast of the Sky|XPHB}. You also determine the kind of
+animal it is, choosing a kind appropriate for the stat block. Whatever beast you
+choose, it bears primal markings indicating its supernatural origin.
+
+The beast is Friendly to you and your allies and obeys your commands. It
+vanishes if you die.
+
+### The Beast in Combat
+
+In combat, the beast acts during your turn. It can move and use its {@variantrule
+Reaction|XPHB} on its own, but the only action it takes is the {@action
+Dodge|XPHB} action unless you take a {@variantrule Bonus Action|XPHB} to command
+it to take an action in its stat block or some other action. You can also
+sacrifice one of your attacks when you take the {@action Attack|XPHB} action to
+command the beast to take the Beast's Strike action. If you have the {@condition
+Incapacitated|XPHB} condition, the beast acts on its own and isn't limited to
+the {@action Dodge|XPHB} action.
+
+### Restoring or Replacing the Beast
+
+If the beast has died within the last hour, you can take a {@action Magic|XPHB}
+action to touch it and expend a spell slot. The beast returns to life after 1
+minute with all its {@variantrule Hit Points|XPHB} restored.
+
+Whenever you finish a {@variantrule Long Rest|XPHB}, you can summon a different
+primal beast, which appears in an unoccupied space within 5 feet of you. You
+choose its stat block and appearance. If you already have a beast from this
+feature, the old one vanishes when the new one appears."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

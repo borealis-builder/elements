@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_DISCIPLE_OF_LIFE"
+name = "Disciple of Life"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_disciple_of_life.toml"
+description = """
+When a spell you cast with a spell slot restores {@variantrule Hit Points|XPHB}
+to a creature, that creature regains additional {@variantrule Hit Points|XPHB}
+on the turn you cast the spell. The additional {@variantrule Hit Points|XPHB}
+equal 2 plus the spell slot's level."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

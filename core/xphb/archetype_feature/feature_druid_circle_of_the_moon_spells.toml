@@ -1,0 +1,24 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_CIRCLE_OF_THE_MOON_SPELLS"
+name = "Circle of the Moon Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_moon_spells.toml"
+description = """
+When you reach a Druid level specified in the Circle of the Moon Spells table,
+you thereafter always have the listed spells prepared.
+
+In addition, you can cast the spells from this feature while you're in a Wild
+Shape form.
+
+**Circle of the Moon Spells**
+
+| Druid Level | Prepared Spells |
+| --- | --- |
+| 3 | {@spell Cure Wounds|XPHB}, {@spell Moonbeam|XPHB}, {@spell Starry Wisp|XPHB} |
+| 5 | {@spell Conjure Animals|XPHB} |
+| 7 | {@spell Fount of Moonlight|XPHB} |
+| 9 | {@spell Mass Cure Wounds|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

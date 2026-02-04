@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SPELLS"
+name = "Draconic Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_draconic_spells.toml"
+description = """
+When you reach a Sorcerer level specified in the Draconic Spells table, you
+thereafter always have the listed spells prepared.
+
+**Draconic Spells**
+
+| Sorcerer Level | Spells |
+| --- | --- |
+| 3rd | {@spell Alter Self|XPHB}, {@spell Chromatic Orb|XPHB}, {@spell Command|XPHB}, {@spell Dragon's Breath|XPHB} |
+| 5th | {@spell Fear|XPHB}, {@spell Fly|XPHB} |
+| 7th | {@spell Arcane Eye|XPHB}, {@spell Charm Monster|XPHB} |
+| 9th | {@spell Legend Lore|XPHB}, {@spell Summon Dragon|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

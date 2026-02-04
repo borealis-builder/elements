@@ -1,0 +1,9 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_IMPROVED_COMBAT_SUPERIORITY"
+name = "Improved Combat Superiority"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_improved_combat_superiority.toml"
+description = "Your Superiority Die becomes a {@dice d10}."
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

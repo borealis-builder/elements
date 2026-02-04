@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_IMPROVED_SHADOW_STEP"
+name = "Improved Shadow Step"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_improved_shadow_step.toml"
+description = """
+You can draw on your Shadowfell connection to empower your teleportation. When
+you use your Shadow Step, you can expend 1 Focus Point to remove the requirement
+that you must start and end in {@variantrule Dim Light|XPHB} or {@variantrule
+Darkness|XPHB} for that use of the feature. As part of this {@variantrule Bonus
+Action|XPHB}, you can make an {@variantrule Unarmed Strike|XPHB} immediately
+after you teleport."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_HUNTER"
+name = "Hunter"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunter.toml"
+description = """
+{@i Protect Nature and People from Destruction}
+
+You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to
+protect nature and people everywhere from forces that would destroy them.
+
+TODO: Hunter's Prey|Ranger|XPHB|Hunter|XPHB|3
+
+TODO: Hunter's Lore|Ranger|XPHB|Hunter|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

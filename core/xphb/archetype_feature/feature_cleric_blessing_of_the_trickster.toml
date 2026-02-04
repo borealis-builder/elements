@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_BLESSING_OF_THE_TRICKSTER"
+name = "Blessing of the Trickster"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_blessing_of_the_trickster.toml"
+description = """
+As a {@action Magic|XPHB} action, you can choose yourself or a willing creature
+within 30 feet of yourself to have {@variantrule Advantage|XPHB} on Dexterity ({@skill
+Stealth|XPHB}) checks. This blessing lasts until you finish a {@variantrule Long
+Rest|XPHB} or you use this feature again."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

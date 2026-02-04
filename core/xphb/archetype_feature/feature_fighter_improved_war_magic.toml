@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_IMPROVED_WAR_MAGIC"
+name = "Improved War Magic"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_improved_war_magic.toml"
+description = """
+When you take the {@action Attack|XPHB} action on your turn, you can replace two
+of the attacks with a casting of one of your level 1 or level 2 Wizard spells
+that has a casting time of an action."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

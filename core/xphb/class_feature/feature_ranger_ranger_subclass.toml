@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_RANGER_SUBCLASS"
+name = "Ranger Subclass"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_ranger_subclass.toml"
+description = """
+You gain a Ranger subclass of your choice. A subclass is a specialization that
+grants you features at certain Ranger levels. For the rest of your career, you
+gain each of your subclass's features that are of your Ranger level or lower."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

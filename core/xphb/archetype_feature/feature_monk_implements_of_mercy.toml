@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_IMPLEMENTS_OF_MERCY"
+name = "Implements of Mercy"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_implements_of_mercy.toml"
+description = """
+You gain proficiency in the {@skill Insight|XPHB} and {@skill Medicine|XPHB}
+skills and proficiency with the {@item Herbalism Kit|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

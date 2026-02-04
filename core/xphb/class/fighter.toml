@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_FIGHTER"
+name = "Fighter"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/fighter.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = [
+    "dex",
+    "str",
+]
+hit_dice = "1d10"
+
+[multiclass]
+rules = []

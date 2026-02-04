@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_ROGUE_ASSASSIN"
+name = "Assassin"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/rogue_assassin.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

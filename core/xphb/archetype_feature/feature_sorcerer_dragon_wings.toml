@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_DRAGON_WINGS"
+name = "Dragon Wings"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_dragon_wings.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you can cause draconic wings to appear on
+your back. The wings last for 1 hour or until you dismiss them (no action
+required). For the duration, you have a {@variantrule Fly Speed|XPHB} of 60
+feet.
+
+Once you use this feature, you can't use it again until you finish a {@variantrule Long
+Rest|XPHB} unless you spend 3 Sorcery Points (no action required) to restore
+your use of it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

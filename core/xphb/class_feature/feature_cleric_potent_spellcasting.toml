@@ -1,0 +1,9 @@
+id = "ID_XPHB_CLASS_FEATURE_CLERIC_POTENT_SPELLCASTING"
+name = "Potent Spellcasting"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_potent_spellcasting.toml"
+description = "Add your Wisdom modifier to the damage you deal with any Cleric cantrip."
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

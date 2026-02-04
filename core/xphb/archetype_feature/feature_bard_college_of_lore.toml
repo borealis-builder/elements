@@ -1,0 +1,20 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_COLLEGE_OF_LORE"
+name = "College of Lore"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_college_of_lore.toml"
+description = """
+{@i Plumb the Depths of Magical Knowledge}
+
+Bards of the College of Lore collect spells and secrets from diverse sources,
+such as scholarly tomes, mystical rites, and peasant tales. The college's
+members gather in libraries and universities to share their lore with one
+another. They also meet at festivals or affairs of state, where they can expose
+corruption, unravel lies, and poke fun at self-important figures of authority.
+
+TODO: Bonus Proficiencies|Bard|XPHB|Lore|XPHB|3
+
+TODO: Cutting Words|Bard|XPHB|Lore|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

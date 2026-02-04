@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_MARTIAL_TRAINING"
+name = "Martial Training"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_martial_training.toml"
+description = """
+You gain proficiency with {@filter Martial weapons|items|type=martial weapon}
+and training with {@filter Medium armor|items|type=Medium Armor} and {@item
+Shield|XPHB|Shields}.
+
+In addition, you can use a Simple or Martial weapon as a {@variantrule Spellcasting
+Focus|XPHB} to cast spells from your {@filter Bard spell
+list|spells|class=Bard}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

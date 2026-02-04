@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_NATURE_SPEAKER"
+name = "Nature Speaker"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_nature_speaker.toml"
+description = """
+You can cast the {@spell Commune with Nature|XPHB} spell but only as a {@variantrule
+Ritual|XPHB}. Wisdom is your spellcasting ability for it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

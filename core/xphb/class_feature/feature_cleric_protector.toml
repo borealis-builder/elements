@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_CLERIC_PROTECTOR"
+name = "Protector"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_protector.toml"
+description = """
+Trained for battle, you gain proficiency with {@filter Martial weapons|items|type=martial
+weapon} and training with {@filter Heavy armor|items|type=Heavy Armor}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

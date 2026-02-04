@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_OCEANIC_GIFT"
+name = "Oceanic Gift"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_oceanic_gift.toml"
+description = """
+Instead of manifesting the {@variantrule Emanation [Area of
+Effect]|XPHB|Emanation} of Wrath of the Sea around yourself, you can manifest it
+around one willing creature within 60 feet of yourself. That creature gains all
+the benefits of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} and
+uses your spell save DC and Wisdom modifier for it.
+
+In addition, you can manifest the {@variantrule Emanation [Area of
+Effect]|XPHB|Emanation} around both the other creature and yourself if you
+expend two uses of your Wild Shape instead of one when manifesting it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

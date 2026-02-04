@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_HEROIC_WARRIOR"
+name = "Heroic Warrior"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_heroic_warrior.toml"
+description = """
+The thrill of battle drives you toward victory. During combat, you can give
+yourself {@variantrule Heroic Inspiration|XPHB} whenever you start your turn
+without it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_SLOW_FALL"
+name = "Slow Fall"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_slow_fall.toml"
+description = """
+You can take a {@variantrule Reaction|XPHB} when you fall to reduce any damage
+you take from the fall by an amount equal to five times your Monk level."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

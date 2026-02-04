@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_FIGHTER_ELDRITCH_KNIGHT"
+name = "Eldritch Knight"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/fighter_eldritch_knight.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

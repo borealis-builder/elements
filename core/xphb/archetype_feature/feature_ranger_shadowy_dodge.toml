@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_SHADOWY_DODGE"
+name = "Shadowy Dodge"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_shadowy_dodge.toml"
+description = """
+When a creature makes an attack roll against you, you can take a {@variantrule
+Reaction|XPHB} to impose {@variantrule Disadvantage|XPHB} on that roll. Whether
+the attack hits or misses, you can then teleport up to 30 feet to an unoccupied
+space you can see."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

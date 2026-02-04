@@ -1,0 +1,24 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_TIRELESS"
+name = "Tireless"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_tireless.toml"
+description = """
+Primal forces now help fuel you on your journeys, granting you the following
+benefits.
+
+### Temporary Hit Points
+
+As a {@action Magic|XPHB} action, you can give yourself a number of {@variantrule Temporary Hit
+Points|XPHB} equal to {@dice 1d8} plus your Wisdom modifier (minimum of 1). You
+can use this action a number of times equal to your Wisdom modifier (minimum of
+once), and you regain all expended uses when you finish a {@variantrule Long
+Rest|XPHB}.
+
+### Decrease Exhaustion
+
+Whenever you finish a {@variantrule Short Rest|XPHB}, your {@condition
+Exhaustion|XPHB} level, if any, decreases by 1."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

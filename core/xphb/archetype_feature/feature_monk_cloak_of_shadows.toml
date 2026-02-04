@@ -1,0 +1,28 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_CLOAK_OF_SHADOWS"
+name = "Cloak of Shadows"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_cloak_of_shadows.toml"
+description = """
+As a {@action Magic|XPHB} action while entirely within {@variantrule Dim
+Light|XPHB} or {@variantrule Darkness|XPHB}, you can expend 3 Focus Points to
+shroud yourself with shadows for 1 minute, until you have the {@condition
+Incapacitated|XPHB} condition, or until you end your turn in {@variantrule Bright
+Light|XPHB}. While shrouded by these shadows, you gain the following benefits.
+
+### Invisibility
+
+You have the {@condition Invisible|XPHB} condition.
+
+### Partially Incorporeal
+
+You can move through occupied spaces as if they were {@variantrule Difficult
+Terrain|XPHB}. If you end your turn in such a space, you are shunted to the last
+unoccupied space you were in.
+
+### Shadow Flurry
+
+You can use your Flurry of Blows without expending any Focus Points."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

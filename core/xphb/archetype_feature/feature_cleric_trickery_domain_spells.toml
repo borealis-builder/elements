@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_TRICKERY_DOMAIN_SPELLS"
+name = "Trickery Domain Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_trickery_domain_spells.toml"
+description = """
+Your connection to this divine domain ensures you always have certain spells
+ready. When you reach a Cleric level specified in the Trickery Domain Spells
+table, you thereafter always have the listed spells prepared.
+
+**Trickery Domain Spells**
+
+| Cleric Level | Prepared Spells |
+| --- | --- |
+| 3rd | {@spell Charm Person|XPHB}, {@spell Disguise Self|XPHB}, {@spell Invisibility|XPHB}, {@spell Pass without Trace|XPHB} |
+| 5th | {@spell Hypnotic Pattern|XPHB}, {@spell Nondetection|XPHB} |
+| 7th | {@spell Confusion|XPHB}, {@spell Dimension Door|XPHB} |
+| 9th | {@spell Dominate Person|XPHB}, {@spell Modify Memory|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

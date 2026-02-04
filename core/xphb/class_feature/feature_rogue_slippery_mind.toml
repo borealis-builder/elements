@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_SLIPPERY_MIND"
+name = "Slippery Mind"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_slippery_mind.toml"
+description = """
+Your cunning mind is exceptionally difficult to control. You gain proficiency in
+Wisdom and Charisma saving throws."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

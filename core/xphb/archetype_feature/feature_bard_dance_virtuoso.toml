@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_DANCE_VIRTUOSO"
+name = "Dance Virtuoso"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_dance_virtuoso.toml"
+description = """
+You have {@variantrule Advantage|XPHB} on any Charisma ({@skill
+Performance|XPHB}) check you make that involves you dancing."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

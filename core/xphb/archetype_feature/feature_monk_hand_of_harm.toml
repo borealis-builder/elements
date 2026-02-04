@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_HAND_OF_HARM"
+name = "Hand of Harm"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_hand_of_harm.toml"
+description = """
+Once per turn when you hit a creature with an {@variantrule Unarmed Strike|XPHB}
+and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage
+equal to one roll of your Martial Arts die plus your Wisdom modifier."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

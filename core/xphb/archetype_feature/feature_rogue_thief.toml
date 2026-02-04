@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_THIEF"
+name = "Thief"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_thief.toml"
+description = """
+{@i Hunt for Treasure as a Classic Adventurer}
+
+A mix of burglar, treasure hunter, and explorer, you are the epitome of an
+adventurer. In addition to improving your agility and stealth, you gain
+abilities useful for delving into ruins and getting maximum benefit from the
+magic items you find there.
+
+TODO: Fast Hands|Rogue|XPHB|Thief|XPHB|3
+
+TODO: Second-Story Work|Rogue|XPHB|Thief|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

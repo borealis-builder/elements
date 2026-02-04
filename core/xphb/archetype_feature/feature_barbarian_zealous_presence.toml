@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_ZEALOUS_PRESENCE"
+name = "Zealous Presence"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_zealous_presence.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you unleash a battle cry infused with
+divine energy. Up to ten other creatures of your choice within 60 feet of you
+gain {@variantrule Advantage|XPHB} on attack rolls and saving throws until the
+start of your next turn.
+
+Once you use this feature, you can't use it again until you finish a {@variantrule Long
+Rest|XPHB} unless you expend a use of your Rage (no action required) to restore
+your use of it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

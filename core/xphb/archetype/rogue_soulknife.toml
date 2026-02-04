@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_ROGUE_SOULKNIFE"
+name = "Soulknife"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/rogue_soulknife.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

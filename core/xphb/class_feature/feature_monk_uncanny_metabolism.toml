@@ -1,0 +1,15 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_UNCANNY_METABOLISM"
+name = "Uncanny Metabolism"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_uncanny_metabolism.toml"
+description = """
+When you roll {@variantrule Initiative|XPHB}, you can regain all expended Focus
+Points. When you do so, roll your Martial Arts die, and regain a number of {@variantrule Hit
+Points|XPHB} equal to your Monk level plus the number rolled.
+
+Once you use this feature, you can't use it again until you finish a {@variantrule Long
+Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

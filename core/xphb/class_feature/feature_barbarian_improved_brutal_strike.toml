@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_BARBARIAN_IMPROVED_BRUTAL_STRIKE"
+name = "Improved Brutal Strike"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_improved_brutal_strike.toml"
+description = """
+The extra damage of your Brutal Strike increases to {@damage 2d10}. In addition,
+you can use two different Brutal Strike effects whenever you use your Brutal
+Strike feature."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

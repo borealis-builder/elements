@@ -1,0 +1,24 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_COSMIC_OMEN"
+name = "Cosmic Omen"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_cosmic_omen.toml"
+description = """
+Whenever you finish a {@variantrule Long Rest|XPHB}, you can consult your Star
+Map for omens and roll a die. Until you finish your next {@variantrule Long
+Rest|XPHB}, you gain access to a special {@variantrule Reaction|XPHB} based on
+whether you rolled an even or an odd number on the die:
+
+- **Weal (even).** Whenever a creature you can see within 30 feet of you is about to make a {@variantrule D20
+Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to roll {@dice 1d6} and
+add the number rolled to the total.
+- **Woe (odd).** Whenever a creature you can see within 30 feet of you is about to make a {@variantrule D20
+Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to roll {@dice 1d6} and
+subtract the number rolled from the total.
+
+You can use this {@variantrule Reaction|XPHB} a number of times equal to your
+Wisdom modifier (minimum of once), and you regain all expended uses when you
+finish a {@variantrule Long Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

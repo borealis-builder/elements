@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_PERFECT_FOCUS"
+name = "Perfect Focus"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_perfect_focus.toml"
+description = """
+When you roll {@variantrule Initiative|XPHB} and don't use Uncanny Metabolism,
+you regain expended Focus Points until you have 4 if you have 3 or fewer."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER"
+name = "Beast Master"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_beast_master.toml"
+description = """
+{@i Bond with a Primal Beast}
+
+A Beast Master forms a mystical bond with a special animal, drawing on primal
+magic and a deep connection to the natural world.
+
+TODO: Primal Companion|Ranger|XPHB|Beast Master|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

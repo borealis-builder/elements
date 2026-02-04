@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_GREATER_PORTENT"
+name = "Greater Portent"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_greater_portent.toml"
+description = """
+The visions in your dreams intensify and paint a more accurate picture in your
+mind of what is to come. Roll three d20s for your Portent feature rather than
+two."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

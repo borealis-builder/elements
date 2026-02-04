@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_INFILTRATION_EXPERTISE"
+name = "Infiltration Expertise"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_infiltration_expertise.toml"
+description = """
+You are expert at the following techniques that aid your infiltrations.
+
+### Masterful Mimicry
+
+You can unerringly mimic another person's speech, handwriting, or both if you
+have spent at least 1 hour studying them.
+
+### Roving Aim
+
+Your {@variantrule Speed|XPHB} isn't reduced to 0 by using Steady Aim."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

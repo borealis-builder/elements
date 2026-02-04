@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_PALADIN_FIGHTING_STYLE"
+name = "Fighting Style"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_fighting_style.toml"
+description = """
+You gain a {@filter Fighting Style feat|feats|category=FS} of your choice.
+Instead of choosing one of those feats, you can choose the option below.
+
+TODO: Blessed Warrior|XPHB"""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

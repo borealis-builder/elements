@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_OBSCURE_(COST:_3D6)"
+name = "Obscure (Cost: 3d6)"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_obscure_(cost:_3d6).toml"
+description = """
+The target must succeed on a Dexterity saving throw, or it has the {@condition
+Blinded|XPHB} condition until the end of its next turn."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

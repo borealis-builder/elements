@@ -1,0 +1,28 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_ARCANE_WARD"
+name = "Arcane Ward"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_arcane_ward.toml"
+description = """
+You can weave magic around yourself for protection. When you cast an Abjuration
+spell with a spell slot, you can simultaneously use a strand of the spell's
+magic to create a magical ward on yourself that lasts until you finish a {@variantrule Long
+Rest|XPHB}. The ward has a {@variantrule Hit Points|XPHB|Hit Point} maximum
+equal to twice your Wizard level plus your Intelligence modifier. Whenever you
+take damage, the ward takes the damage instead, and if you have any Resistances
+or Vulnerabilities, apply them before reducing the ward's {@variantrule Hit
+Points|XPHB}. If the damage reduces the ward to 0 {@variantrule Hit
+Points|XPHB}, you take any remaining damage. While the ward has 0 {@variantrule Hit
+Points|XPHB}, it can't absorb damage, but its magic remains.
+
+Whenever you cast an Abjuration spell with a spell slot, the ward regains a
+number of {@variantrule Hit Points|XPHB} equal to twice the level of the spell
+slot. Alternatively, as a {@variantrule Bonus Action|XPHB}, you can expend a
+spell slot, and the ward regains a number of {@variantrule Hit Points|XPHB}
+equal to twice the level of the spell slot expended.
+
+Once you create the ward, you can't create it again until you finish a {@variantrule Long
+Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

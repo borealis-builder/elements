@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_SUPERIOR_HUNTER'S_DEFENSE"
+name = "Superior Hunter's Defense"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunter's_defense.toml"
+description = """
+When you take damage, you can take a {@variantrule Reaction|XPHB} to give
+yourself {@variantrule Resistance|XPHB} to that damage and any other damage of
+the same type until the end of the current turn."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

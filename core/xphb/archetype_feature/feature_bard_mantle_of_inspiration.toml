@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_MANTLE_OF_INSPIRATION"
+name = "Mantle of Inspiration"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_mantle_of_inspiration.toml"
+description = """
+You can weave fey magic into a song or dance to fill others with vigor. As a {@variantrule Bonus
+Action|XPHB}, you can expend a use of Bardic Inspiration, rolling a Bardic
+Inspiration die. When you do so, choose a number of other creatures within 60
+feet of yourself, up to a number equal to your Charisma modifier (minimum of one
+creature). Each of those creatures gains a number of {@variantrule Temporary Hit
+Points|XPHB} equal to two times the number rolled on the Bardic Inspiration die,
+and then each can use its {@variantrule Reaction|XPHB} to move up to its {@variantrule
+Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity
+Attacks}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

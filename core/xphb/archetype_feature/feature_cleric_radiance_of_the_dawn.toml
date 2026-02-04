@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_RADIANCE_OF_THE_DAWN"
+name = "Radiance of the Dawn"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_radiance_of_the_dawn.toml"
+description = """
+As a {@action Magic|XPHB} action, you present your {@item Holy Symbol|XPHB} and
+expend a use of your Channel Divinity to emit a flash of light in a 30-foot {@variantrule Emanation [Area of
+Effect]|XPHB|Emanation} originating from yourself. Any magical {@variantrule
+Darkness|XPHB}—such as that created by the {@spell Darkness|XPHB} spell—in
+that area is dispelled. Additionally, each creature of your choice in that area
+must make a Constitution saving throw, taking Radiant damage equal to {@dice
+2d10} plus your Cleric level on a failed save or half as much damage on a
+successful one."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

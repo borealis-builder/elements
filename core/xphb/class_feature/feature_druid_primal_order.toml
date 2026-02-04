@@ -1,0 +1,15 @@
+id = "ID_XPHB_CLASS_FEATURE_DRUID_PRIMAL_ORDER"
+name = "Primal Order"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_primal_order.toml"
+description = """
+You have dedicated yourself to one of the following sacred roles of your choice.
+
+Select 1:
+TODO: Magician|Druid|XPHB|1
+
+TODO: Warden|Druid|XPHB|1"""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

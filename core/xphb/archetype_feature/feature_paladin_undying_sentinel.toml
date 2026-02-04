@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_UNDYING_SENTINEL"
+name = "Undying Sentinel"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_undying_sentinel.toml"
+description = """
+When you are reduced to 0 {@variantrule Hit Points|XPHB} and not killed
+outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead,
+and you regain a number of {@variantrule Hit Points|XPHB} equal to three times
+your Paladin level. Once you use this feature, you can't do so again until you
+finish a {@variantrule Long Rest|XPHB}.
+
+Additionally, you can't be aged magically, and you cease visibly aging."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

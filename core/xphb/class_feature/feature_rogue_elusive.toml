@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_ELUSIVE"
+name = "Elusive"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_elusive.toml"
+description = """
+You're so evasive that attackers rarely gain the upper hand against you. No
+attack roll can have {@variantrule Advantage|XPHB} against you unless you have
+the {@condition Incapacitated|XPHB} condition."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_EXPERTISE"
+name = "Expertise"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_expertise.toml"
+description = """
+Choose two of your skill proficiencies with which you lack {@variantrule
+Expertise|XPHB}. You gain {@variantrule Expertise|XPHB} in those skills."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

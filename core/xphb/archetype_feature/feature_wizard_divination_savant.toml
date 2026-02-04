@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_SAVANT"
+name = "Divination Savant"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_divination_savant.toml"
+description = """
+Choose two {@filter Wizard spells from the Divination
+school|spells|level=0;1;2|class=Wizard|school=D}, each of which must be no
+higher than level 2, and add them to your spellbook for free.
+
+In addition, whenever you gain access to a new level of spell slots in this
+class, you can add one {@filter Wizard spell from the Divination
+school|spells|class=Wizard|school=D} to your spellbook for free. The chosen
+spell must be of a level for which you have spell slots."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

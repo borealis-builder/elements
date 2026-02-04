@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_BULWARK_OF_FORCE"
+name = "Bulwark of Force"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_bulwark_of_force.toml"
+description = """
+You can shield yourself and others with telekinetic force. As a {@variantrule Bonus
+Action|XPHB}, you can choose creatures, including yourself, within 30 feet of
+yourself, up to a number of creatures equal to your Intelligence modifier
+(minimum of one creature). Each of the chosen creatures has {@variantrule Cover|XPHB|Half
+Cover} for 1 minute or until you have the {@condition Incapacitated|XPHB}
+condition.
+
+Once you use this feature, you can't do so again until you finish a {@variantrule Long
+Rest|XPHB} unless you expend a Psionic Energy Die (no action required) to
+restore your use of it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

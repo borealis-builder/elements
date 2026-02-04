@@ -1,0 +1,26 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY"
+name = "Oath of Glory"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_glory.toml"
+description = """
+{@i Strive for the Heights of Heroism}
+
+Paladins who take the Oath of Glory believe they and their companions are
+destined to achieve glory through deeds of heroism. They train diligently and
+encourage their companions, so they're all ready when destiny calls.
+
+These paladins share the following tenets:
+
+- Endeavor to be known by your deeds.
+- Face hardships with courage.
+- Inspire others to strive for glory.
+
+TODO: Oath of Glory Spells|Paladin|XPHB|Glory|XPHB|3
+
+TODO: Inspiring Smite|Paladin|XPHB|Glory|XPHB|3
+
+TODO: Peerless Athlete|Paladin|XPHB|Glory|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

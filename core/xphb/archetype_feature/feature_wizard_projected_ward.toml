@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_PROJECTED_WARD"
+name = "Projected Ward"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_projected_ward.toml"
+description = """
+When a creature that you can see within 30 feet of yourself takes damage, you
+can take a {@variantrule Reaction|XPHB} to cause your Arcane Ward to absorb that
+damage. If this damage reduces the ward to 0 {@variantrule Hit Points|XPHB}, the
+warded creature takes any remaining damage. If that creature has any Resistances
+or Vulnerabilities, apply them before reducing the ward's {@variantrule Hit
+Points|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

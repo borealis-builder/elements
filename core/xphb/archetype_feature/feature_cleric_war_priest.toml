@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_WAR_PRIEST"
+name = "War Priest"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_priest.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you can make one attack with a weapon or
+an {@variantrule Unarmed Strike|XPHB}. You can use this {@variantrule Bonus
+Action|XPHB} a number of times equal to your Wisdom modifier (minimum of once).
+You regain all expended uses when you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

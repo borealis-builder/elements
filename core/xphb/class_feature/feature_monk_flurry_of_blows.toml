@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_FLURRY_OF_BLOWS"
+name = "Flurry of Blows"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_flurry_of_blows.toml"
+description = """
+You can expend 1 Focus Point to make two Unarmed Strikes as a {@variantrule Bonus
+Action|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

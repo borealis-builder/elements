@@ -1,0 +1,3262 @@
+name = "Player's Handbook (2024)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb.index"
+
+[[files]]
+type = "file"
+name = "Barbarian"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/barbarian.toml"
+
+[[files]]
+type = "file"
+name = "Rage"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_rage.toml"
+
+[[files]]
+type = "file"
+name = "Unarmored Defense"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_unarmored_defense.toml"
+
+[[files]]
+type = "file"
+name = "Weapon Mastery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_weapon_mastery.toml"
+
+[[files]]
+type = "file"
+name = "Danger Sense"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_danger_sense.toml"
+
+[[files]]
+type = "file"
+name = "Reckless Attack"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_reckless_attack.toml"
+
+[[files]]
+type = "file"
+name = "Barbarian Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_barbarian_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Primal Knowledge"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_primal_knowledge.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Extra Attack"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_extra_attack.toml"
+
+[[files]]
+type = "file"
+name = "Fast Movement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_fast_movement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Feral Instinct"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_feral_instinct.toml"
+
+[[files]]
+type = "file"
+name = "Instinctive Pounce"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_instinctive_pounce.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Brutal Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_brutal_strike.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Relentless Rage"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_relentless_rage.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Improved Brutal Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_improved_brutal_strike.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Persistent Rage"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_persistent_rage.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Improved Brutal Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_improved_brutal_strike.toml"
+
+[[files]]
+type = "file"
+name = "Indomitable Might"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_indomitable_might.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Primal Champion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_primal_champion.toml"
+
+[[files]]
+type = "file"
+name = "Path of the Berserker"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/barbarian_path_of_the_berserker.toml"
+
+[[files]]
+type = "file"
+name = "Path of the Wild Heart"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/barbarian_path_of_the_wild_heart.toml"
+
+[[files]]
+type = "file"
+name = "Path of the World Tree"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/barbarian_path_of_the_world_tree.toml"
+
+[[files]]
+type = "file"
+name = "Path of the Zealot"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/barbarian_path_of_the_zealot.toml"
+
+[[files]]
+type = "file"
+name = "Path of the Berserker"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_path_of_the_berserker.toml"
+
+[[files]]
+type = "file"
+name = "Frenzy"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_frenzy.toml"
+
+[[files]]
+type = "file"
+name = "Mindless Rage"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_mindless_rage.toml"
+
+[[files]]
+type = "file"
+name = "Retaliation"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_retaliation.toml"
+
+[[files]]
+type = "file"
+name = "Intimidating Presence"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_intimidating_presence.toml"
+
+[[files]]
+type = "file"
+name = "Path of the Wild Heart"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_path_of_the_wild_heart.toml"
+
+[[files]]
+type = "file"
+name = "Animal Speaker"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_animal_speaker.toml"
+
+[[files]]
+type = "file"
+name = "Rage of the Wilds"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_rage_of_the_wilds.toml"
+
+[[files]]
+type = "file"
+name = "Aspect of the Wilds"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_aspect_of_the_wilds.toml"
+
+[[files]]
+type = "file"
+name = "Nature Speaker"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_nature_speaker.toml"
+
+[[files]]
+type = "file"
+name = "Power of the Wilds"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_power_of_the_wilds.toml"
+
+[[files]]
+type = "file"
+name = "Path of the World Tree"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_path_of_the_world_tree.toml"
+
+[[files]]
+type = "file"
+name = "Vitality of the Tree"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_vitality_of_the_tree.toml"
+
+[[files]]
+type = "file"
+name = "Branches of the Tree"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_branches_of_the_tree.toml"
+
+[[files]]
+type = "file"
+name = "Battering Roots"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_battering_roots.toml"
+
+[[files]]
+type = "file"
+name = "Travel Along the Tree"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_travel_along_the_tree.toml"
+
+[[files]]
+type = "file"
+name = "Path of the Zealot"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_path_of_the_zealot.toml"
+
+[[files]]
+type = "file"
+name = "Divine Fury"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_divine_fury.toml"
+
+[[files]]
+type = "file"
+name = "Warrior of the Gods"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_warrior_of_the_gods.toml"
+
+[[files]]
+type = "file"
+name = "Fanatical Focus"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_fanatical_focus.toml"
+
+[[files]]
+type = "file"
+name = "Zealous Presence"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_zealous_presence.toml"
+
+[[files]]
+type = "file"
+name = "Rage of the Gods"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_rage_of_the_gods.toml"
+
+[[files]]
+type = "file"
+name = "Bard"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/bard.toml"
+
+[[files]]
+type = "file"
+name = "Bardic Inspiration"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_bardic_inspiration.toml"
+
+[[files]]
+type = "file"
+name = "Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Expertise"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_expertise.toml"
+
+[[files]]
+type = "file"
+name = "Jack of All Trades"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_jack_of_all_trades.toml"
+
+[[files]]
+type = "file"
+name = "Bard Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_bard_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Font of Inspiration"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_font_of_inspiration.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Countercharm"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_countercharm.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Expertise"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_expertise.toml"
+
+[[files]]
+type = "file"
+name = "Magical Secrets"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_magical_secrets.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Superior Inspiration"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_superior_inspiration.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Words of Creation"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_words_of_creation.toml"
+
+[[files]]
+type = "file"
+name = "College of Dance"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/bard_college_of_dance.toml"
+
+[[files]]
+type = "file"
+name = "College of Glamour"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/bard_college_of_glamour.toml"
+
+[[files]]
+type = "file"
+name = "College of Lore"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/bard_college_of_lore.toml"
+
+[[files]]
+type = "file"
+name = "College of Valor"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/bard_college_of_valor.toml"
+
+[[files]]
+type = "file"
+name = "College of Dance"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_college_of_dance.toml"
+
+[[files]]
+type = "file"
+name = "Agile Strikes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_agile_strikes.toml"
+
+[[files]]
+type = "file"
+name = "Bardic Damage"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_bardic_damage.toml"
+
+[[files]]
+type = "file"
+name = "Dance Virtuoso"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_dance_virtuoso.toml"
+
+[[files]]
+type = "file"
+name = "Dazzling Footwork"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_dazzling_footwork.toml"
+
+[[files]]
+type = "file"
+name = "Unarmored Defense"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_unarmored_defense.toml"
+
+[[files]]
+type = "file"
+name = "Inspiring Movement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_inspiring_movement.toml"
+
+[[files]]
+type = "file"
+name = "Tandem Footwork"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_tandem_footwork.toml"
+
+[[files]]
+type = "file"
+name = "Leading Evasion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_leading_evasion.toml"
+
+[[files]]
+type = "file"
+name = "College of Glamour"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_college_of_glamour.toml"
+
+[[files]]
+type = "file"
+name = "Beguiling Magic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_beguiling_magic.toml"
+
+[[files]]
+type = "file"
+name = "Mantle of Inspiration"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_mantle_of_inspiration.toml"
+
+[[files]]
+type = "file"
+name = "Mantle of Majesty"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_mantle_of_majesty.toml"
+
+[[files]]
+type = "file"
+name = "Unbreakable Majesty"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_unbreakable_majesty.toml"
+
+[[files]]
+type = "file"
+name = "College of Lore"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_college_of_lore.toml"
+
+[[files]]
+type = "file"
+name = "Bonus Proficiencies"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_bonus_proficiencies.toml"
+
+[[files]]
+type = "file"
+name = "Cutting Words"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_cutting_words.toml"
+
+[[files]]
+type = "file"
+name = "Magical Discoveries"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_magical_discoveries.toml"
+
+[[files]]
+type = "file"
+name = "Peerless Skill"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_peerless_skill.toml"
+
+[[files]]
+type = "file"
+name = "College of Valor"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_college_of_valor.toml"
+
+[[files]]
+type = "file"
+name = "Combat Inspiration"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_combat_inspiration.toml"
+
+[[files]]
+type = "file"
+name = "Martial Training"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_martial_training.toml"
+
+[[files]]
+type = "file"
+name = "Extra Attack"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_extra_attack.toml"
+
+[[files]]
+type = "file"
+name = "Battle Magic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_battle_magic.toml"
+
+[[files]]
+type = "file"
+name = "Cleric"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/cleric.toml"
+
+[[files]]
+type = "file"
+name = "Divine Order"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_divine_order.toml"
+
+[[files]]
+type = "file"
+name = "Protector"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_protector.toml"
+
+[[files]]
+type = "file"
+name = "Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Thaumaturge"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_thaumaturge.toml"
+
+[[files]]
+type = "file"
+name = "Channel Divinity"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_channel_divinity.toml"
+
+[[files]]
+type = "file"
+name = "Divine Spark"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_divine_spark.toml"
+
+[[files]]
+type = "file"
+name = "Turn Undead"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_turn_undead.toml"
+
+[[files]]
+type = "file"
+name = "Cleric Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_cleric_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Sear Undead"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_sear_undead.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Blessed Strikes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_blessed_strikes.toml"
+
+[[files]]
+type = "file"
+name = "Divine Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_divine_strike.toml"
+
+[[files]]
+type = "file"
+name = "Potent Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_potent_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Divine Intervention"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_divine_intervention.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Improved Blessed Strikes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_improved_blessed_strikes.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Greater Divine Intervention"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_greater_divine_intervention.toml"
+
+[[files]]
+type = "file"
+name = "Life Domain"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/cleric_life_domain.toml"
+
+[[files]]
+type = "file"
+name = "Light Domain"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/cleric_light_domain.toml"
+
+[[files]]
+type = "file"
+name = "Trickery Domain"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/cleric_trickery_domain.toml"
+
+[[files]]
+type = "file"
+name = "War Domain"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/cleric_war_domain.toml"
+
+[[files]]
+type = "file"
+name = "Life Domain"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_life_domain.toml"
+
+[[files]]
+type = "file"
+name = "Disciple of Life"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_disciple_of_life.toml"
+
+[[files]]
+type = "file"
+name = "Life Domain Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_life_domain_spells.toml"
+
+[[files]]
+type = "file"
+name = "Preserve Life"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_preserve_life.toml"
+
+[[files]]
+type = "file"
+name = "Blessed Healer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_blessed_healer.toml"
+
+[[files]]
+type = "file"
+name = "Supreme Healing"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_supreme_healing.toml"
+
+[[files]]
+type = "file"
+name = "Light Domain"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_light_domain.toml"
+
+[[files]]
+type = "file"
+name = "Light Domain Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_light_domain_spells.toml"
+
+[[files]]
+type = "file"
+name = "Radiance of the Dawn"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_radiance_of_the_dawn.toml"
+
+[[files]]
+type = "file"
+name = "Warding Flare"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_warding_flare.toml"
+
+[[files]]
+type = "file"
+name = "Improved Warding Flare"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_improved_warding_flare.toml"
+
+[[files]]
+type = "file"
+name = "Corona of Light"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_corona_of_light.toml"
+
+[[files]]
+type = "file"
+name = "Trickery Domain"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_trickery_domain.toml"
+
+[[files]]
+type = "file"
+name = "Blessing of the Trickster"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_blessing_of_the_trickster.toml"
+
+[[files]]
+type = "file"
+name = "Invoke Duplicity"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_invoke_duplicity.toml"
+
+[[files]]
+type = "file"
+name = "Trickery Domain Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_trickery_domain_spells.toml"
+
+[[files]]
+type = "file"
+name = "Trickster's Transposition"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_trickster's_transposition.toml"
+
+[[files]]
+type = "file"
+name = "Improved Duplicity"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_improved_duplicity.toml"
+
+[[files]]
+type = "file"
+name = "War Domain"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_domain.toml"
+
+[[files]]
+type = "file"
+name = "Guided Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_guided_strike.toml"
+
+[[files]]
+type = "file"
+name = "War Domain Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_domain_spells.toml"
+
+[[files]]
+type = "file"
+name = "War Priest"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_priest.toml"
+
+[[files]]
+type = "file"
+name = "War God's Blessing"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_war_god's_blessing.toml"
+
+[[files]]
+type = "file"
+name = "Avatar of Battle"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_avatar_of_battle.toml"
+
+[[files]]
+type = "file"
+name = "Druid"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/druid.toml"
+
+[[files]]
+type = "file"
+name = "Druidic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_druidic.toml"
+
+[[files]]
+type = "file"
+name = "Magician"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_magician.toml"
+
+[[files]]
+type = "file"
+name = "Primal Order"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_primal_order.toml"
+
+[[files]]
+type = "file"
+name = "Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Warden"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_warden.toml"
+
+[[files]]
+type = "file"
+name = "Wild Companion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_wild_companion.toml"
+
+[[files]]
+type = "file"
+name = "Wild Shape"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_wild_shape.toml"
+
+[[files]]
+type = "file"
+name = "Druid Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_druid_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Wild Resurgence"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_wild_resurgence.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Elemental Fury"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_elemental_fury.toml"
+
+[[files]]
+type = "file"
+name = "Potent Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_potent_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Primal Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_primal_strike.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Improved Elemental Fury"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_improved_elemental_fury.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Beast Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_beast_spells.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Archdruid"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/druid_archdruid.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Land"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/druid_circle_of_the_land.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Moon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/druid_circle_of_the_moon.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Sea"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/druid_circle_of_the_sea.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Stars"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/druid_circle_of_the_stars.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Land"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_land.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Land Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_land_spells.toml"
+
+[[files]]
+type = "file"
+name = "Land's Aid"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_land's_aid.toml"
+
+[[files]]
+type = "file"
+name = "Natural Recovery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_natural_recovery.toml"
+
+[[files]]
+type = "file"
+name = "Nature's Ward"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_nature's_ward.toml"
+
+[[files]]
+type = "file"
+name = "Nature's Sanctuary"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_nature's_sanctuary.toml"
+
+[[files]]
+type = "file"
+name = "Circle Forms"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_forms.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Moon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_moon.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Moon Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_moon_spells.toml"
+
+[[files]]
+type = "file"
+name = "Improved Circle Forms"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_improved_circle_forms.toml"
+
+[[files]]
+type = "file"
+name = "Moonlight Step"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_moonlight_step.toml"
+
+[[files]]
+type = "file"
+name = "Lunar Form"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_lunar_form.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Sea"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_sea.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Sea Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_sea_spells.toml"
+
+[[files]]
+type = "file"
+name = "Wrath of the Sea"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_wrath_of_the_sea.toml"
+
+[[files]]
+type = "file"
+name = "Aquatic Affinity"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_aquatic_affinity.toml"
+
+[[files]]
+type = "file"
+name = "Stormborn"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_stormborn.toml"
+
+[[files]]
+type = "file"
+name = "Oceanic Gift"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_oceanic_gift.toml"
+
+[[files]]
+type = "file"
+name = "Circle of the Stars"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_stars.toml"
+
+[[files]]
+type = "file"
+name = "Star Map"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_star_map.toml"
+
+[[files]]
+type = "file"
+name = "Starry Form"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_starry_form.toml"
+
+[[files]]
+type = "file"
+name = "Archer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_archer.toml"
+
+[[files]]
+type = "file"
+name = "Chalice"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_chalice.toml"
+
+[[files]]
+type = "file"
+name = "Dragon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_dragon.toml"
+
+[[files]]
+type = "file"
+name = "Cosmic Omen"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_cosmic_omen.toml"
+
+[[files]]
+type = "file"
+name = "Twinkling Constellations"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_twinkling_constellations.toml"
+
+[[files]]
+type = "file"
+name = "Full of Stars"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_full_of_stars.toml"
+
+[[files]]
+type = "file"
+name = "Fighter"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/fighter.toml"
+
+[[files]]
+type = "file"
+name = "Fighting Style"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_fighting_style.toml"
+
+[[files]]
+type = "file"
+name = "Second Wind"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_second_wind.toml"
+
+[[files]]
+type = "file"
+name = "Weapon Mastery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_weapon_mastery.toml"
+
+[[files]]
+type = "file"
+name = "Action Surge"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_action_surge.toml"
+
+[[files]]
+type = "file"
+name = "Tactical Mind"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_tactical_mind.toml"
+
+[[files]]
+type = "file"
+name = "Fighter Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_fighter_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Extra Attack"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_extra_attack.toml"
+
+[[files]]
+type = "file"
+name = "Tactical Shift"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_tactical_shift.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Indomitable"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_indomitable.toml"
+
+[[files]]
+type = "file"
+name = "Tactical Master"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_tactical_master.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Two Extra Attacks"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_two_extra_attacks.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Indomitable"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_indomitable.toml"
+
+[[files]]
+type = "file"
+name = "Studied Attacks"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_studied_attacks.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Action Surge"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_action_surge.toml"
+
+[[files]]
+type = "file"
+name = "Indomitable"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_indomitable.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Three Extra Attacks"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_three_extra_attacks.toml"
+
+[[files]]
+type = "file"
+name = "Battle Master"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/fighter_battle_master.toml"
+
+[[files]]
+type = "file"
+name = "Champion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/fighter_champion.toml"
+
+[[files]]
+type = "file"
+name = "Eldritch Knight"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/fighter_eldritch_knight.toml"
+
+[[files]]
+type = "file"
+name = "Psi Warrior"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/fighter_psi_warrior.toml"
+
+[[files]]
+type = "file"
+name = "Battle Master"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_battle_master.toml"
+
+[[files]]
+type = "file"
+name = "Combat Superiority"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_combat_superiority.toml"
+
+[[files]]
+type = "file"
+name = "Maneuver Options"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_maneuver_options.toml"
+
+[[files]]
+type = "file"
+name = "Student of War"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_student_of_war.toml"
+
+[[files]]
+type = "file"
+name = "Know Your Enemy"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_know_your_enemy.toml"
+
+[[files]]
+type = "file"
+name = "Improved Combat Superiority"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_improved_combat_superiority.toml"
+
+[[files]]
+type = "file"
+name = "Relentless"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_relentless.toml"
+
+[[files]]
+type = "file"
+name = "Ultimate Combat Superiority"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_ultimate_combat_superiority.toml"
+
+[[files]]
+type = "file"
+name = "Champion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_champion.toml"
+
+[[files]]
+type = "file"
+name = "Improved Critical"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_improved_critical.toml"
+
+[[files]]
+type = "file"
+name = "Remarkable Athlete"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_remarkable_athlete.toml"
+
+[[files]]
+type = "file"
+name = "Additional Fighting Style"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_additional_fighting_style.toml"
+
+[[files]]
+type = "file"
+name = "Heroic Warrior"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_heroic_warrior.toml"
+
+[[files]]
+type = "file"
+name = "Superior Critical"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_superior_critical.toml"
+
+[[files]]
+type = "file"
+name = "Survivor"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_survivor.toml"
+
+[[files]]
+type = "file"
+name = "Eldritch Knight"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_eldritch_knight.toml"
+
+[[files]]
+type = "file"
+name = "Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "War Bond"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_war_bond.toml"
+
+[[files]]
+type = "file"
+name = "War Magic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_war_magic.toml"
+
+[[files]]
+type = "file"
+name = "Eldritch Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_eldritch_strike.toml"
+
+[[files]]
+type = "file"
+name = "Arcane Charge"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_arcane_charge.toml"
+
+[[files]]
+type = "file"
+name = "Improved War Magic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_improved_war_magic.toml"
+
+[[files]]
+type = "file"
+name = "Psi Warrior"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psi_warrior.toml"
+
+[[files]]
+type = "file"
+name = "Psionic Power"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psionic_power.toml"
+
+[[files]]
+type = "file"
+name = "Protective Field"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_protective_field.toml"
+
+[[files]]
+type = "file"
+name = "Psionic Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psionic_strike.toml"
+
+[[files]]
+type = "file"
+name = "Telekinetic Movement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_telekinetic_movement.toml"
+
+[[files]]
+type = "file"
+name = "Psi-Powered Leap"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psi-powered_leap.toml"
+
+[[files]]
+type = "file"
+name = "Telekinetic Adept"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_telekinetic_adept.toml"
+
+[[files]]
+type = "file"
+name = "Telekinetic Thrust"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_telekinetic_thrust.toml"
+
+[[files]]
+type = "file"
+name = "Guarded Mind"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_guarded_mind.toml"
+
+[[files]]
+type = "file"
+name = "Bulwark of Force"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_bulwark_of_force.toml"
+
+[[files]]
+type = "file"
+name = "Telekinetic Master"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_telekinetic_master.toml"
+
+[[files]]
+type = "file"
+name = "Monk"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/monk.toml"
+
+[[files]]
+type = "file"
+name = "Bonus Unarmed Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_bonus_unarmed_strike.toml"
+
+[[files]]
+type = "file"
+name = "Dexterous Attacks"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_dexterous_attacks.toml"
+
+[[files]]
+type = "file"
+name = "Martial Arts"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_martial_arts.toml"
+
+[[files]]
+type = "file"
+name = "Martial Arts Die"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_martial_arts_die.toml"
+
+[[files]]
+type = "file"
+name = "Unarmored Defense"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_unarmored_defense.toml"
+
+[[files]]
+type = "file"
+name = "Flurry of Blows"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_flurry_of_blows.toml"
+
+[[files]]
+type = "file"
+name = "Monk's Focus"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_monk's_focus.toml"
+
+[[files]]
+type = "file"
+name = "Patient Defense"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_patient_defense.toml"
+
+[[files]]
+type = "file"
+name = "Step of the Wind"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_step_of_the_wind.toml"
+
+[[files]]
+type = "file"
+name = "Unarmored Movement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_unarmored_movement.toml"
+
+[[files]]
+type = "file"
+name = "Uncanny Metabolism"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_uncanny_metabolism.toml"
+
+[[files]]
+type = "file"
+name = "Deflect Attacks"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_deflect_attacks.toml"
+
+[[files]]
+type = "file"
+name = "Monk Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_monk_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Slow Fall"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_slow_fall.toml"
+
+[[files]]
+type = "file"
+name = "Extra Attack"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_extra_attack.toml"
+
+[[files]]
+type = "file"
+name = "Stunning Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_stunning_strike.toml"
+
+[[files]]
+type = "file"
+name = "Empowered Strikes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_empowered_strikes.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Evasion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_evasion.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Acrobatic Movement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_acrobatic_movement.toml"
+
+[[files]]
+type = "file"
+name = "Heightened Focus"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_heightened_focus.toml"
+
+[[files]]
+type = "file"
+name = "Self-Restoration"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_self-restoration.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Deflect Energy"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_deflect_energy.toml"
+
+[[files]]
+type = "file"
+name = "Disciplined Survivor"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_disciplined_survivor.toml"
+
+[[files]]
+type = "file"
+name = "Perfect Focus"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_perfect_focus.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Superior Defense"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_superior_defense.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Body and Mind"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_body_and_mind.toml"
+
+[[files]]
+type = "file"
+name = "Warrior of Mercy"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/monk_warrior_of_mercy.toml"
+
+[[files]]
+type = "file"
+name = "Warrior of Shadow"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/monk_warrior_of_shadow.toml"
+
+[[files]]
+type = "file"
+name = "Warrior of the Elements"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/monk_warrior_of_the_elements.toml"
+
+[[files]]
+type = "file"
+name = "Warrior of the Open Hand"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/monk_warrior_of_the_open_hand.toml"
+
+[[files]]
+type = "file"
+name = "Elemental Attunement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_elemental_attunement.toml"
+
+[[files]]
+type = "file"
+name = "Manipulate Elements"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_manipulate_elements.toml"
+
+[[files]]
+type = "file"
+name = "Warrior of the Elements"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_warrior_of_the_elements.toml"
+
+[[files]]
+type = "file"
+name = "Elemental Burst"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_elemental_burst.toml"
+
+[[files]]
+type = "file"
+name = "Stride of the Elements"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_stride_of_the_elements.toml"
+
+[[files]]
+type = "file"
+name = "Elemental Epitome"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_elemental_epitome.toml"
+
+[[files]]
+type = "file"
+name = "Warrior of Mercy"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_warrior_of_mercy.toml"
+
+[[files]]
+type = "file"
+name = "Hand of Harm"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_hand_of_harm.toml"
+
+[[files]]
+type = "file"
+name = "Hand of Healing"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_hand_of_healing.toml"
+
+[[files]]
+type = "file"
+name = "Implements of Mercy"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_implements_of_mercy.toml"
+
+[[files]]
+type = "file"
+name = "Physician's Touch"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_physician's_touch.toml"
+
+[[files]]
+type = "file"
+name = "Flurry of Healing and Harm"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_flurry_of_healing_and_harm.toml"
+
+[[files]]
+type = "file"
+name = "Hand of Ultimate Mercy"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_hand_of_ultimate_mercy.toml"
+
+[[files]]
+type = "file"
+name = "Open Hand Technique"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_open_hand_technique.toml"
+
+[[files]]
+type = "file"
+name = "Warrior of the Open Hand"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_warrior_of_the_open_hand.toml"
+
+[[files]]
+type = "file"
+name = "Wholeness of Body"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_wholeness_of_body.toml"
+
+[[files]]
+type = "file"
+name = "Fleet Step"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_fleet_step.toml"
+
+[[files]]
+type = "file"
+name = "Quivering Palm"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_quivering_palm.toml"
+
+[[files]]
+type = "file"
+name = "Shadow Arts"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_shadow_arts.toml"
+
+[[files]]
+type = "file"
+name = "Warrior of Shadow"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_warrior_of_shadow.toml"
+
+[[files]]
+type = "file"
+name = "Darkness"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_darkness.toml"
+
+[[files]]
+type = "file"
+name = "Darkvision"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_darkvision.toml"
+
+[[files]]
+type = "file"
+name = "Shadowy Figments"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_shadowy_figments.toml"
+
+[[files]]
+type = "file"
+name = "Shadow Step"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_shadow_step.toml"
+
+[[files]]
+type = "file"
+name = "Improved Shadow Step"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_improved_shadow_step.toml"
+
+[[files]]
+type = "file"
+name = "Cloak of Shadows"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_cloak_of_shadows.toml"
+
+[[files]]
+type = "file"
+name = "Paladin"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/paladin.toml"
+
+[[files]]
+type = "file"
+name = "Lay on Hands"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_lay_on_hands.toml"
+
+[[files]]
+type = "file"
+name = "Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Weapon Mastery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_weapon_mastery.toml"
+
+[[files]]
+type = "file"
+name = "Fighting Style"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_fighting_style.toml"
+
+[[files]]
+type = "file"
+name = "Paladin's Smite"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_paladin's_smite.toml"
+
+[[files]]
+type = "file"
+name = "Channel Divinity"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_channel_divinity.toml"
+
+[[files]]
+type = "file"
+name = "Divine Sense"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_divine_sense.toml"
+
+[[files]]
+type = "file"
+name = "Paladin Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_paladin_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Extra Attack"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_extra_attack.toml"
+
+[[files]]
+type = "file"
+name = "Faithful Steed"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_faithful_steed.toml"
+
+[[files]]
+type = "file"
+name = "Aura of Protection"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_aura_of_protection.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Abjure Foes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_abjure_foes.toml"
+
+[[files]]
+type = "file"
+name = "Aura of Courage"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_aura_of_courage.toml"
+
+[[files]]
+type = "file"
+name = "Radiant Strikes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_radiant_strikes.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Restoring Touch"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_restoring_touch.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Aura Expansion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_aura_expansion.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Oath of Devotion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/paladin_oath_of_devotion.toml"
+
+[[files]]
+type = "file"
+name = "Oath of Glory"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/paladin_oath_of_glory.toml"
+
+[[files]]
+type = "file"
+name = "Oath of the Ancients"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/paladin_oath_of_the_ancients.toml"
+
+[[files]]
+type = "file"
+name = "Oath of Vengeance"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/paladin_oath_of_vengeance.toml"
+
+[[files]]
+type = "file"
+name = "Nature's Wrath"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_nature's_wrath.toml"
+
+[[files]]
+type = "file"
+name = "Oath of the Ancients"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_the_ancients.toml"
+
+[[files]]
+type = "file"
+name = "Oath of the Ancients Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_the_ancients_spells.toml"
+
+[[files]]
+type = "file"
+name = "Aura of Warding"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_aura_of_warding.toml"
+
+[[files]]
+type = "file"
+name = "Undying Sentinel"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_undying_sentinel.toml"
+
+[[files]]
+type = "file"
+name = "Elder Champion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_elder_champion.toml"
+
+[[files]]
+type = "file"
+name = "Oath of Devotion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_devotion.toml"
+
+[[files]]
+type = "file"
+name = "Oath of Devotion Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_devotion_spells.toml"
+
+[[files]]
+type = "file"
+name = "Sacred Weapon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_sacred_weapon.toml"
+
+[[files]]
+type = "file"
+name = "Aura of Devotion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_aura_of_devotion.toml"
+
+[[files]]
+type = "file"
+name = "Smite of Protection"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_smite_of_protection.toml"
+
+[[files]]
+type = "file"
+name = "Holy Nimbus"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_holy_nimbus.toml"
+
+[[files]]
+type = "file"
+name = "Inspiring Smite"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_inspiring_smite.toml"
+
+[[files]]
+type = "file"
+name = "Oath of Glory"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_glory.toml"
+
+[[files]]
+type = "file"
+name = "Oath of Glory Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_glory_spells.toml"
+
+[[files]]
+type = "file"
+name = "Peerless Athlete"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_peerless_athlete.toml"
+
+[[files]]
+type = "file"
+name = "Aura of Alacrity"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_aura_of_alacrity.toml"
+
+[[files]]
+type = "file"
+name = "Glorious Defense"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_glorious_defense.toml"
+
+[[files]]
+type = "file"
+name = "Living Legend"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_living_legend.toml"
+
+[[files]]
+type = "file"
+name = "Oath of Vengeance"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_vengeance.toml"
+
+[[files]]
+type = "file"
+name = "Oath of Vengeance Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_vengeance_spells.toml"
+
+[[files]]
+type = "file"
+name = "Vow of Enmity"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_vow_of_enmity.toml"
+
+[[files]]
+type = "file"
+name = "Relentless Avenger"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_relentless_avenger.toml"
+
+[[files]]
+type = "file"
+name = "Soul of Vengeance"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_soul_of_vengeance.toml"
+
+[[files]]
+type = "file"
+name = "Avenging Angel"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_avenging_angel.toml"
+
+[[files]]
+type = "file"
+name = "Ranger"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/ranger.toml"
+
+[[files]]
+type = "file"
+name = "Favored Enemy"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_favored_enemy.toml"
+
+[[files]]
+type = "file"
+name = "Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Weapon Mastery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_weapon_mastery.toml"
+
+[[files]]
+type = "file"
+name = "Deft Explorer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_deft_explorer.toml"
+
+[[files]]
+type = "file"
+name = "Fighting Style"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_fighting_style.toml"
+
+[[files]]
+type = "file"
+name = "Ranger Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_ranger_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Extra Attack"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_extra_attack.toml"
+
+[[files]]
+type = "file"
+name = "Roving"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_roving.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Expertise"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_expertise.toml"
+
+[[files]]
+type = "file"
+name = "Tireless"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_tireless.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Relentless Hunter"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_relentless_hunter.toml"
+
+[[files]]
+type = "file"
+name = "Nature's Veil"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_nature's_veil.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Precise Hunter"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_precise_hunter.toml"
+
+[[files]]
+type = "file"
+name = "Feral Senses"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_feral_senses.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Foe Slayer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_foe_slayer.toml"
+
+[[files]]
+type = "file"
+name = "Beast Master"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/ranger_beast_master.toml"
+
+[[files]]
+type = "file"
+name = "Fey Wanderer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/ranger_fey_wanderer.toml"
+
+[[files]]
+type = "file"
+name = "Gloom Stalker"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/ranger_gloom_stalker.toml"
+
+[[files]]
+type = "file"
+name = "Hunter"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/ranger_hunter.toml"
+
+[[files]]
+type = "file"
+name = "Beast Master"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_beast_master.toml"
+
+[[files]]
+type = "file"
+name = "Primal Companion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_primal_companion.toml"
+
+[[files]]
+type = "file"
+name = "Exceptional Training"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_exceptional_training.toml"
+
+[[files]]
+type = "file"
+name = "Bestial Fury"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_bestial_fury.toml"
+
+[[files]]
+type = "file"
+name = "Share Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_share_spells.toml"
+
+[[files]]
+type = "file"
+name = "Fey Wanderer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_fey_wanderer.toml"
+
+[[files]]
+type = "file"
+name = "Dreadful Strikes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_dreadful_strikes.toml"
+
+[[files]]
+type = "file"
+name = "Fey Wanderer Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_fey_wanderer_spells.toml"
+
+[[files]]
+type = "file"
+name = "Otherworldly Glamour"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_otherworldly_glamour.toml"
+
+[[files]]
+type = "file"
+name = "Beguiling Twist"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_beguiling_twist.toml"
+
+[[files]]
+type = "file"
+name = "Fey Reinforcements"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_fey_reinforcements.toml"
+
+[[files]]
+type = "file"
+name = "Misty Wanderer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_misty_wanderer.toml"
+
+[[files]]
+type = "file"
+name = "Dread Ambusher"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_dread_ambusher.toml"
+
+[[files]]
+type = "file"
+name = "Gloom Stalker"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_gloom_stalker.toml"
+
+[[files]]
+type = "file"
+name = "Gloom Stalker Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_gloom_stalker_spells.toml"
+
+[[files]]
+type = "file"
+name = "Umbral Sight"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_umbral_sight.toml"
+
+[[files]]
+type = "file"
+name = "Iron Mind"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_iron_mind.toml"
+
+[[files]]
+type = "file"
+name = "Stalker's Flurry"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_stalker's_flurry.toml"
+
+[[files]]
+type = "file"
+name = "Shadowy Dodge"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_shadowy_dodge.toml"
+
+[[files]]
+type = "file"
+name = "Hunter"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunter.toml"
+
+[[files]]
+type = "file"
+name = "Hunter's Lore"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunter's_lore.toml"
+
+[[files]]
+type = "file"
+name = "Hunter's Prey"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_hunter's_prey.toml"
+
+[[files]]
+type = "file"
+name = "Defensive Tactics"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_defensive_tactics.toml"
+
+[[files]]
+type = "file"
+name = "Superior Hunter's Prey"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunter's_prey.toml"
+
+[[files]]
+type = "file"
+name = "Superior Hunter's Defense"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_superior_hunter's_defense.toml"
+
+[[files]]
+type = "file"
+name = "Rogue"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/rogue.toml"
+
+[[files]]
+type = "file"
+name = "Expertise"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_expertise.toml"
+
+[[files]]
+type = "file"
+name = "Sneak Attack"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_sneak_attack.toml"
+
+[[files]]
+type = "file"
+name = "Thieves' Cant"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_thieves'_cant.toml"
+
+[[files]]
+type = "file"
+name = "Weapon Mastery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_weapon_mastery.toml"
+
+[[files]]
+type = "file"
+name = "Cunning Action"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_cunning_action.toml"
+
+[[files]]
+type = "file"
+name = "Rogue Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_rogue_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Steady Aim"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_steady_aim.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Cunning Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_cunning_strike.toml"
+
+[[files]]
+type = "file"
+name = "Poison (Cost: 1d6)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_poison_(cost:_1d6).toml"
+
+[[files]]
+type = "file"
+name = "Trip (Cost: 1d6)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_trip_(cost:_1d6).toml"
+
+[[files]]
+type = "file"
+name = "Uncanny Dodge"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_uncanny_dodge.toml"
+
+[[files]]
+type = "file"
+name = "Withdraw (Cost: 1d6)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_withdraw_(cost:_1d6).toml"
+
+[[files]]
+type = "file"
+name = "Expertise"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_expertise.toml"
+
+[[files]]
+type = "file"
+name = "Evasion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_evasion.toml"
+
+[[files]]
+type = "file"
+name = "Reliable Talent"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_reliable_talent.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Improved Cunning Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_improved_cunning_strike.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Daze (Cost: 2d6)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_daze_(cost:_2d6).toml"
+
+[[files]]
+type = "file"
+name = "Devious Strikes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_devious_strikes.toml"
+
+[[files]]
+type = "file"
+name = "Knock Out (Cost: 6d6)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_knock_out_(cost:_6d6).toml"
+
+[[files]]
+type = "file"
+name = "Obscure (Cost: 3d6)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_obscure_(cost:_3d6).toml"
+
+[[files]]
+type = "file"
+name = "Slippery Mind"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_slippery_mind.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Elusive"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_elusive.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Stroke of Luck"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_stroke_of_luck.toml"
+
+[[files]]
+type = "file"
+name = "Arcane Trickster"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/rogue_arcane_trickster.toml"
+
+[[files]]
+type = "file"
+name = "Assassin"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/rogue_assassin.toml"
+
+[[files]]
+type = "file"
+name = "Soulknife"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/rogue_soulknife.toml"
+
+[[files]]
+type = "file"
+name = "Thief"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/rogue_thief.toml"
+
+[[files]]
+type = "file"
+name = "Arcane Trickster"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_arcane_trickster.toml"
+
+[[files]]
+type = "file"
+name = "Mage Hand Legerdemain"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_mage_hand_legerdemain.toml"
+
+[[files]]
+type = "file"
+name = "Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Magical Ambush"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_magical_ambush.toml"
+
+[[files]]
+type = "file"
+name = "Versatile Trickster"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_versatile_trickster.toml"
+
+[[files]]
+type = "file"
+name = "Spell Thief"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_spell_thief.toml"
+
+[[files]]
+type = "file"
+name = "Assassin"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_assassin.toml"
+
+[[files]]
+type = "file"
+name = "Assassin's Tools"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_assassin's_tools.toml"
+
+[[files]]
+type = "file"
+name = "Assassinate"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_assassinate.toml"
+
+[[files]]
+type = "file"
+name = "Infiltration Expertise"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_infiltration_expertise.toml"
+
+[[files]]
+type = "file"
+name = "Envenom Weapons"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_envenom_weapons.toml"
+
+[[files]]
+type = "file"
+name = "Death Strike"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_death_strike.toml"
+
+[[files]]
+type = "file"
+name = "Soulknife"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_soulknife.toml"
+
+[[files]]
+type = "file"
+name = "Psionic Power"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psionic_power.toml"
+
+[[files]]
+type = "file"
+name = "Psychic Blades"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psychic_blades.toml"
+
+[[files]]
+type = "file"
+name = "Psi-Bolstered Knack"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psi-bolstered_knack.toml"
+
+[[files]]
+type = "file"
+name = "Psychic Whispers"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psychic_whispers.toml"
+
+[[files]]
+type = "file"
+name = "Homing Strikes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_homing_strikes.toml"
+
+[[files]]
+type = "file"
+name = "Psychic Teleportation"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psychic_teleportation.toml"
+
+[[files]]
+type = "file"
+name = "Soul Blades"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_soul_blades.toml"
+
+[[files]]
+type = "file"
+name = "Psychic Veil"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_psychic_veil.toml"
+
+[[files]]
+type = "file"
+name = "Rend Mind"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_rend_mind.toml"
+
+[[files]]
+type = "file"
+name = "Fast Hands"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_fast_hands.toml"
+
+[[files]]
+type = "file"
+name = "Second-Story Work"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_second-story_work.toml"
+
+[[files]]
+type = "file"
+name = "Thief"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_thief.toml"
+
+[[files]]
+type = "file"
+name = "Supreme Sneak"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_supreme_sneak.toml"
+
+[[files]]
+type = "file"
+name = "Use Magic Device"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_use_magic_device.toml"
+
+[[files]]
+type = "file"
+name = "Thief's Reflexes"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_thief's_reflexes.toml"
+
+[[files]]
+type = "file"
+name = "Sorcerer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/sorcerer.toml"
+
+[[files]]
+type = "file"
+name = "Innate Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_innate_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Font of Magic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_font_of_magic.toml"
+
+[[files]]
+type = "file"
+name = "Metamagic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_metamagic.toml"
+
+[[files]]
+type = "file"
+name = "Metamagic Options"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_metamagic_options.toml"
+
+[[files]]
+type = "file"
+name = "Sorcerer Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_sorcerer_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Sorcerous Restoration"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_sorcerous_restoration.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Sorcery Incarnate"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_sorcery_incarnate.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Metamagic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_metamagic.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Metamagic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_metamagic.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Arcane Apotheosis"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_arcane_apotheosis.toml"
+
+[[files]]
+type = "file"
+name = "Aberrant Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/sorcerer_aberrant_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Clockwork Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/sorcerer_clockwork_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Draconic Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/sorcerer_draconic_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Wild Magic Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/sorcerer_wild_magic_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Aberrant Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_aberrant_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Psionic Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_psionic_spells.toml"
+
+[[files]]
+type = "file"
+name = "Telepathic Speech"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_telepathic_speech.toml"
+
+[[files]]
+type = "file"
+name = "Psionic Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_psionic_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Psychic Defenses"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_psychic_defenses.toml"
+
+[[files]]
+type = "file"
+name = "Revelation in Flesh"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_revelation_in_flesh.toml"
+
+[[files]]
+type = "file"
+name = "Warping Implosion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_warping_implosion.toml"
+
+[[files]]
+type = "file"
+name = "Clockwork Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_clockwork_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Clockwork Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_clockwork_spells.toml"
+
+[[files]]
+type = "file"
+name = "Restore Balance"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_restore_balance.toml"
+
+[[files]]
+type = "file"
+name = "Bastion of Law"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_bastion_of_law.toml"
+
+[[files]]
+type = "file"
+name = "Trance of Order"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_trance_of_order.toml"
+
+[[files]]
+type = "file"
+name = "Clockwork Cavalcade"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_clockwork_cavalcade.toml"
+
+[[files]]
+type = "file"
+name = "Draconic Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_draconic_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Draconic Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_draconic_spells.toml"
+
+[[files]]
+type = "file"
+name = "Draconic Resilience"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_draconic_resilience.toml"
+
+[[files]]
+type = "file"
+name = "Elemental Affinity"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_elemental_affinity.toml"
+
+[[files]]
+type = "file"
+name = "Dragon Wings"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_dragon_wings.toml"
+
+[[files]]
+type = "file"
+name = "Dragon Companion"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_dragon_companion.toml"
+
+[[files]]
+type = "file"
+name = "Wild Magic Sorcery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_wild_magic_sorcery.toml"
+
+[[files]]
+type = "file"
+name = "Tides of Chaos"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_tides_of_chaos.toml"
+
+[[files]]
+type = "file"
+name = "Wild Magic Surge"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_wild_magic_surge.toml"
+
+[[files]]
+type = "file"
+name = "Bend Luck"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_bend_luck.toml"
+
+[[files]]
+type = "file"
+name = "Controlled Chaos"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_controlled_chaos.toml"
+
+[[files]]
+type = "file"
+name = "Tamed Surge"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_tamed_surge.toml"
+
+[[files]]
+type = "file"
+name = "Warlock"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/warlock.toml"
+
+[[files]]
+type = "file"
+name = "Eldritch Invocation Options"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_eldritch_invocation_options.toml"
+
+[[files]]
+type = "file"
+name = "Eldritch Invocations"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_eldritch_invocations.toml"
+
+[[files]]
+type = "file"
+name = "Pact Magic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_pact_magic.toml"
+
+[[files]]
+type = "file"
+name = "Magical Cunning"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_magical_cunning.toml"
+
+[[files]]
+type = "file"
+name = "Warlock Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_warlock_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Contact Patron"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_contact_patron.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Mystic Arcanum"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_mystic_arcanum.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Mystic Arcanum"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_mystic_arcanum.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Mystic Arcanum"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_mystic_arcanum.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Mystic Arcanum"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_mystic_arcanum.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Eldritch Master"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_eldritch_master.toml"
+
+[[files]]
+type = "file"
+name = "Archfey Patron"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/warlock_archfey_patron.toml"
+
+[[files]]
+type = "file"
+name = "Celestial Patron"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/warlock_celestial_patron.toml"
+
+[[files]]
+type = "file"
+name = "Fiend Patron"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/warlock_fiend_patron.toml"
+
+[[files]]
+type = "file"
+name = "Great Old One Patron"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/warlock_great_old_one_patron.toml"
+
+[[files]]
+type = "file"
+name = "Archfey Patron"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_archfey_patron.toml"
+
+[[files]]
+type = "file"
+name = "Archfey Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_archfey_spells.toml"
+
+[[files]]
+type = "file"
+name = "Steps of the Fey"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_steps_of_the_fey.toml"
+
+[[files]]
+type = "file"
+name = "Misty Escape"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_misty_escape.toml"
+
+[[files]]
+type = "file"
+name = "Beguiling Defenses"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_beguiling_defenses.toml"
+
+[[files]]
+type = "file"
+name = "Bewitching Magic"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_bewitching_magic.toml"
+
+[[files]]
+type = "file"
+name = "Celestial Patron"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_celestial_patron.toml"
+
+[[files]]
+type = "file"
+name = "Celestial Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_celestial_spells.toml"
+
+[[files]]
+type = "file"
+name = "Healing Light"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_healing_light.toml"
+
+[[files]]
+type = "file"
+name = "Radiant Soul"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_radiant_soul.toml"
+
+[[files]]
+type = "file"
+name = "Celestial Resilience"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_celestial_resilience.toml"
+
+[[files]]
+type = "file"
+name = "Searing Vengeance"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_searing_vengeance.toml"
+
+[[files]]
+type = "file"
+name = "Fiend Patron"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_fiend_patron.toml"
+
+[[files]]
+type = "file"
+name = "Dark One's Blessing"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_one's_blessing.toml"
+
+[[files]]
+type = "file"
+name = "Fiend Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_fiend_spells.toml"
+
+[[files]]
+type = "file"
+name = "Dark One's Own Luck"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_dark_one's_own_luck.toml"
+
+[[files]]
+type = "file"
+name = "Fiendish Resilience"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_fiendish_resilience.toml"
+
+[[files]]
+type = "file"
+name = "Hurl Through Hell"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_hurl_through_hell.toml"
+
+[[files]]
+type = "file"
+name = "Great Old One Patron"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_great_old_one_patron.toml"
+
+[[files]]
+type = "file"
+name = "Awakened Mind"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_awakened_mind.toml"
+
+[[files]]
+type = "file"
+name = "Great Old One Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_great_old_one_spells.toml"
+
+[[files]]
+type = "file"
+name = "Psychic Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_psychic_spells.toml"
+
+[[files]]
+type = "file"
+name = "Clairvoyant Combatant"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_clairvoyant_combatant.toml"
+
+[[files]]
+type = "file"
+name = "Eldritch Hex"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_eldritch_hex.toml"
+
+[[files]]
+type = "file"
+name = "Thought Shield"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_thought_shield.toml"
+
+[[files]]
+type = "file"
+name = "Create Thrall"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_create_thrall.toml"
+
+[[files]]
+type = "file"
+name = "Wizard"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/wizard.toml"
+
+[[files]]
+type = "file"
+name = "Arcane Recovery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_arcane_recovery.toml"
+
+[[files]]
+type = "file"
+name = "Ritual Adept"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_ritual_adept.toml"
+
+[[files]]
+type = "file"
+name = "Spellcasting"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_spellcasting.toml"
+
+[[files]]
+type = "file"
+name = "Scholar"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_scholar.toml"
+
+[[files]]
+type = "file"
+name = "Wizard Subclass"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_wizard_subclass.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Memorize Spell"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_memorize_spell.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Subclass Feature"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_subclass_feature.toml"
+
+[[files]]
+type = "file"
+name = "Ability Score Improvement"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_ability_score_improvement.toml"
+
+[[files]]
+type = "file"
+name = "Spell Mastery"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_spell_mastery.toml"
+
+[[files]]
+type = "file"
+name = "Epic Boon"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_epic_boon.toml"
+
+[[files]]
+type = "file"
+name = "Signature Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_signature_spells.toml"
+
+[[files]]
+type = "file"
+name = "Abjurer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/wizard_abjurer.toml"
+
+[[files]]
+type = "file"
+name = "Diviner"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/wizard_diviner.toml"
+
+[[files]]
+type = "file"
+name = "Evoker"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/wizard_evoker.toml"
+
+[[files]]
+type = "file"
+name = "Illusionist"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/wizard_illusionist.toml"
+
+[[files]]
+type = "file"
+name = "Abjurer"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_abjurer.toml"
+
+[[files]]
+type = "file"
+name = "Abjuration Savant"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_abjuration_savant.toml"
+
+[[files]]
+type = "file"
+name = "Arcane Ward"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_arcane_ward.toml"
+
+[[files]]
+type = "file"
+name = "Projected Ward"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_projected_ward.toml"
+
+[[files]]
+type = "file"
+name = "Spell Breaker"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_spell_breaker.toml"
+
+[[files]]
+type = "file"
+name = "Spell Resistance"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_spell_resistance.toml"
+
+[[files]]
+type = "file"
+name = "Diviner"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_diviner.toml"
+
+[[files]]
+type = "file"
+name = "Divination Savant"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_divination_savant.toml"
+
+[[files]]
+type = "file"
+name = "Portent"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_portent.toml"
+
+[[files]]
+type = "file"
+name = "Expert Divination"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_expert_divination.toml"
+
+[[files]]
+type = "file"
+name = "The Third Eye"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_the_third_eye.toml"
+
+[[files]]
+type = "file"
+name = "Greater Portent"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_greater_portent.toml"
+
+[[files]]
+type = "file"
+name = "Evoker"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_evoker.toml"
+
+[[files]]
+type = "file"
+name = "Evocation Savant"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_evocation_savant.toml"
+
+[[files]]
+type = "file"
+name = "Potent Cantrip"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_potent_cantrip.toml"
+
+[[files]]
+type = "file"
+name = "Sculpt Spells"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_sculpt_spells.toml"
+
+[[files]]
+type = "file"
+name = "Empowered Evocation"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_empowered_evocation.toml"
+
+[[files]]
+type = "file"
+name = "Overchannel"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_overchannel.toml"
+
+[[files]]
+type = "file"
+name = "Illusionist"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_illusionist.toml"
+
+[[files]]
+type = "file"
+name = "Illusion Savant"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_illusion_savant.toml"
+
+[[files]]
+type = "file"
+name = "Improved Illusions"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_improved_illusions.toml"
+
+[[files]]
+type = "file"
+name = "Phantasmal Creatures"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_phantasmal_creatures.toml"
+
+[[files]]
+type = "file"
+name = "Illusory Self"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_illusory_self.toml"
+
+[[files]]
+type = "file"
+name = "Illusory Reality"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_illusory_reality.toml"

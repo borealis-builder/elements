@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE"
+name = "Soulknife"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_soulknife.toml"
+description = """
+{@i Strike Foes with Psionic Blades}
+
+A Soulknife strikes with the mind, cutting through barriers both physical and
+psychic. These Rogues discover psionic power within themselves and channel it to
+do their roguish work. As a Soulknife, your psionic abilities might have haunted
+you since childhood, revealing their full potential only as you experienced the
+stress of adventure. Or you might have sought out an order of psychic adepts and
+spent years learning how to manifest your power.
+
+TODO: Psionic Power|Rogue|XPHB|Soulknife|XPHB|3
+
+TODO: Psychic Blades|Rogue|XPHB|Soulknife|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

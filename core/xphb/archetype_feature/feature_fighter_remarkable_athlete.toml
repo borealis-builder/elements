@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_REMARKABLE_ATHLETE"
+name = "Remarkable Athlete"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_remarkable_athlete.toml"
+description = """
+Thanks to your athleticism, you have {@variantrule Advantage|XPHB} on {@variantrule
+Initiative|XPHB} rolls and Strength ({@skill Athletics|XPHB}) checks.
+
+In addition, immediately after you score a {@variantrule Critical Hit|XPHB}, you
+can move up to half your {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity
+Attacks}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

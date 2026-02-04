@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_THIEF'S_REFLEXES"
+name = "Thief's Reflexes"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_thief's_reflexes.toml"
+description = """
+You are adept at laying ambushes and quickly escaping danger. You can take two
+turns during the first round of any combat. You take your first turn at your
+normal {@variantrule Initiative|XPHB} and your second turn at your {@variantrule
+Initiative|XPHB} minus 10."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

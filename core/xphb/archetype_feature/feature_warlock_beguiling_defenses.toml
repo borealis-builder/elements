@@ -1,0 +1,20 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_BEGUILING_DEFENSES"
+name = "Beguiling Defenses"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_beguiling_defenses.toml"
+description = """
+Your patron teaches you how to guard your mind and body. You are immune to the {@condition
+Charmed|XPHB} condition.
+
+In addition, immediately after a creature you can see hits you with an attack
+roll, you can take a {@variantrule Reaction|XPHB} to reduce the damage you take
+by half (round down), and you can force the attacker to make a Wisdom saving
+throw against your spell save DC. On a failed save, the attacker takes Psychic
+damage equal to the damage you take. Once you use this {@variantrule
+Reaction|XPHB}, you can't use it again until you finish a {@variantrule Long
+Rest|XPHB} unless you expend a Pact Magic spell slot (no action required) to
+restore your use of it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

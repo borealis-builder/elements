@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_SPELLS"
+name = "Gloom Stalker Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_gloom_stalker_spells.toml"
+description = """
+When you reach a Ranger level specified in the Gloom Stalker Spells table, you
+thereafter always have the listed spells prepared.
+
+**Gloom Stalker Spells**
+
+| Ranger Level | Spells |
+| --- | --- |
+| 3rd | {@spell Disguise Self|XPHB} |
+| 5th | {@spell Rope Trick|XPHB} |
+| 9th | {@spell Fear|XPHB} |
+| 13th | {@spell Greater Invisibility|XPHB} |
+| 17th | {@spell Seeming|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

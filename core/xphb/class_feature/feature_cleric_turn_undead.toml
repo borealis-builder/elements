@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_FEATURE_CLERIC_TURN_UNDEAD"
+name = "Turn Undead"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_turn_undead.toml"
+description = """
+As a {@action Magic|XPHB} action, you present your {@item Holy Symbol|XPHB} and
+censure Undead creatures. Each Undead of your choice within 30 feet of you must
+make a Wisdom saving throw. If the creature fails its save, it has the {@condition
+Frightened|XPHB} and {@condition Incapacitated|XPHB} conditions for 1 minute.
+For that duration, it tries to move as far from you as it can on its turns. This
+effect ends early on the creature if it takes any damage, if you have the {@condition
+Incapacitated|XPHB} condition, or if you die."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

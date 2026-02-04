@@ -1,0 +1,67 @@
+id = "ID_XPHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATION_OPTIONS"
+name = "Eldritch Invocation Options"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_eldritch_invocation_options.toml"
+description = """
+Eldritch Invocation options appear in alphabetical order.
+
+Select 1:
+TODO: Agonizing Blast|XPHB
+
+TODO: Armor of Shadows|XPHB
+
+TODO: Ascendant Step|XPHB
+
+TODO: Devil's Sight|XPHB
+
+TODO: Devouring Blade|XPHB
+
+TODO: Eldritch Mind|XPHB
+
+TODO: Eldritch Smite|XPHB
+
+TODO: Eldritch Spear|XPHB
+
+TODO: Fiendish Vigor|XPHB
+
+TODO: Gaze of Two Minds|XPHB
+
+TODO: Gift of the Depths|XPHB
+
+TODO: Gift of the Protectors|XPHB
+
+TODO: Investment of the Chain Master|XPHB
+
+TODO: Lessons of the First Ones|XPHB
+
+TODO: Lifedrinker|XPHB
+
+TODO: Mask of Many Faces|XPHB
+
+TODO: Master of Myriad Forms|XPHB
+
+TODO: Misty Visions|XPHB
+
+TODO: One with Shadows|XPHB
+
+TODO: Otherworldly Leap|XPHB
+
+TODO: Pact of the Blade|XPHB
+
+TODO: Pact of the Chain|XPHB
+
+TODO: Pact of the Tome|XPHB
+
+TODO: Repelling Blast|XPHB
+
+TODO: Thirsting Blade|XPHB
+
+TODO: Visions of Distant Realms|XPHB
+
+TODO: Whispers of the Grave|XPHB
+
+TODO: Witch Sight|XPHB"""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

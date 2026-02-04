@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_AGILE_STRIKES"
+name = "Agile Strikes"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_agile_strikes.toml"
+description = """
+When you expend a use of your Bardic Inspiration as part of an action, a {@variantrule Bonus
+Action|XPHB}, or a {@variantrule Reaction|XPHB}, you can make one {@variantrule Unarmed
+Strike|XPHB} as part of that action, {@variantrule Bonus Action|XPHB}, or {@variantrule
+Reaction|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

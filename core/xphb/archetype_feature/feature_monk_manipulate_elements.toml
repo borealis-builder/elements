@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_MANIPULATE_ELEMENTS"
+name = "Manipulate Elements"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_manipulate_elements.toml"
+description = """
+You know the {@spell Elementalism|XPHB} spell. Wisdom is your spellcasting
+ability for it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

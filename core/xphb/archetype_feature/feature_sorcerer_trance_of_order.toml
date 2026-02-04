@@ -1,0 +1,18 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_TRANCE_OF_ORDER"
+name = "Trance of Order"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_trance_of_order.toml"
+description = """
+You gain the ability to align your consciousness with the endless calculations
+of Mechanus. As a {@variantrule Bonus Action|XPHB}, you can enter this state for
+1 minute. For the duration, attack rolls against you can't benefit from {@variantrule
+Advantage|XPHB}, and whenever you make a {@variantrule D20 Test|XPHB}, you can
+treat a roll of 9 or lower on the {@dice d20} as a 10.
+
+Once you use this feature, you can't use it again until you finish a {@variantrule Long
+Rest|XPHB} unless you spend 5 Sorcery Points (no action required) to restore
+your use of it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

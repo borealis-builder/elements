@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_STUNNING_STRIKE"
+name = "Stunning Strike"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_stunning_strike.toml"
+description = """
+Once per turn when you hit a creature with a Monk weapon or an {@variantrule Unarmed
+Strike|XPHB}, you can expend 1 Focus Point to attempt a stunning strike. The
+target must make a Constitution saving throw. On a failed save, the target has
+the {@condition Stunned|XPHB} condition until the start of your next turn. On a
+successful save, the target's {@variantrule Speed|XPHB} is halved until the
+start of your next turn, and the next attack roll made against the target before
+then has {@variantrule Advantage|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

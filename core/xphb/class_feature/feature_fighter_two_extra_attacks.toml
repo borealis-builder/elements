@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_FIGHTER_TWO_EXTRA_ATTACKS"
+name = "Two Extra Attacks"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_two_extra_attacks.toml"
+description = """
+You can attack three times instead of once whenever you take the {@action
+Attack|XPHB} action on your turn."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

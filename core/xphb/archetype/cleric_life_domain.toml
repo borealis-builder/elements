@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_CLERIC_LIFE_DOMAIN"
+name = "Life Domain"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/cleric_life_domain.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

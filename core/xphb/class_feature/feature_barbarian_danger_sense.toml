@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE"
+name = "Danger Sense"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_danger_sense.toml"
+description = """
+You gain an uncanny sense of when things aren't as they should be, giving you an
+edge when you dodge perils. You have {@variantrule Advantage|XPHB} on Dexterity
+saving throws unless you have the {@condition Incapacitated|XPHB} condition."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

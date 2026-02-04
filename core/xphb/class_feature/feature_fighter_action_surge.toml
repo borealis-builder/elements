@@ -1,0 +1,15 @@
+id = "ID_XPHB_CLASS_FEATURE_FIGHTER_ACTION_SURGE"
+name = "Action Surge"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_action_surge.toml"
+description = """
+You can push yourself beyond your normal limits for a moment. On your turn, you
+can take one additional action, except the {@action Magic|XPHB} action.
+
+Once you use this feature, you can't do so again until you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. Starting at level 17, you can
+use it twice before a rest but only once on a turn."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

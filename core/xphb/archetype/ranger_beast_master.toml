@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_RANGER_BEAST_MASTER"
+name = "Beast Master"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/ranger_beast_master.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

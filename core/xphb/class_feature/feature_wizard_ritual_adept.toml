@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_WIZARD_RITUAL_ADEPT"
+name = "Ritual Adept"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_ritual_adept.toml"
+description = """
+You can cast any spell as a {@variantrule Ritual|XPHB} if that spell has the {@variantrule
+Ritual|XPHB} tag and the spell is in your spellbook. You needn't have the spell
+prepared, but you must read from the book to cast a spell in this way."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

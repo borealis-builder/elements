@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_FIGHTER_PSI_WARRIOR"
+name = "Psi Warrior"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/fighter_psi_warrior.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

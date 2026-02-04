@@ -1,0 +1,20 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON"
+name = "Celestial Patron"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_celestial_patron.toml"
+description = """
+{@i Call on the Power of the Heavens}
+
+Your pact draws on the Upper Planes, the realms of everlasting bliss. You might
+enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another
+heavenly entity. Or you might call on numerous such beings as you pursue goals
+aligned with theirs. Your pact allows you to experience a hint of the holy light
+that illuminates the multiverse.
+
+TODO: Celestial Spells|Warlock|XPHB|Celestial|XPHB|3
+
+TODO: Healing Light|Warlock|XPHB|Celestial|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,9 @@
+id = "ID_XPHB_CLASS_FEATURE_WIZARD_SUBCLASS_FEATURE"
+name = "Subclass Feature"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_subclass_feature.toml"
+description = "You gain a feature from your Wizard Subclass."
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

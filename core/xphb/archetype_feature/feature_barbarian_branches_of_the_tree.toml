@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_BRANCHES_OF_THE_TREE"
+name = "Branches of the Tree"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_branches_of_the_tree.toml"
+description = """
+Whenever a creature you can see starts its turn within 30 feet of you while your
+Rage is active, you can take a {@variantrule Reaction|XPHB} to summon spectral
+branches of the World Tree around it. The target must succeed on a Strength
+saving throw ({@dc 8} plus your Strength modifier and {@variantrule Proficiency|XPHB|Proficiency
+Bonus}) or be teleported to an unoccupied space you can see within 5 feet of
+yourself or in the nearest unoccupied space you can see. After the target
+teleports, you can reduce its {@variantrule Speed|XPHB} to 0 until the end of
+the current turn."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

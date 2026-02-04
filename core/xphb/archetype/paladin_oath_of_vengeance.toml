@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_PALADIN_OATH_OF_VENGEANCE"
+name = "Oath of Vengeance"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/paladin_oath_of_vengeance.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

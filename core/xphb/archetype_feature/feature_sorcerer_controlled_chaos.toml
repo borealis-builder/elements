@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_CONTROLLED_CHAOS"
+name = "Controlled Chaos"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_controlled_chaos.toml"
+description = """
+You gain a modicum of control over the surges of your wild magic. Whenever you
+roll on the Wild Magic Surge table, you can roll twice and use either number."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_THOUGHT_SHIELD"
+name = "Thought Shield"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_thought_shield.toml"
+description = """
+Your thoughts can't be read by telepathy or other means unless you allow it. You
+also have {@variantrule Resistance|XPHB} to Psychic damage, and whenever a
+creature deals Psychic damage to you, that creature takes the same amount of
+damage that you take."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

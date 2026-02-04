@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_TANDEM_FOOTWORK"
+name = "Tandem Footwork"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_tandem_footwork.toml"
+description = """
+When you roll {@variantrule Initiative|XPHB}, you can expend one use of your
+Bardic Inspiration if you don't have the {@condition Incapacitated|XPHB}
+condition. When you do so, roll your Bardic Inspiration die; you and each ally
+within 30 feet of you who can see or hear you gains a bonus to {@variantrule
+Initiative|XPHB} equal to the number rolled."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

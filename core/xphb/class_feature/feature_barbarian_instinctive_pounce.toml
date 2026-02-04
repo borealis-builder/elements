@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE"
+name = "Instinctive Pounce"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_instinctive_pounce.toml"
+description = """
+As part of the {@variantrule Bonus Action|XPHB} you take to enter your Rage, you
+can move up to half your {@variantrule Speed|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

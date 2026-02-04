@@ -1,0 +1,24 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON"
+name = "Great Old One Patron"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_great_old_one_patron.toml"
+description = """
+{@i Unearth Forbidden Lore of Ineffable Beings}
+
+When you choose this subclass, you might bind yourself to an unspeakable being
+from the Far Realm or an elder god—a being such as Tharizdun, the Chained God;
+Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might
+invoke several entities without yoking yourself to one. The motives of these
+beings are incomprehensible, and the Great Old One might be indifferent to your
+existence. But the secrets you've learned nevertheless allow you to draw strange
+magic from it.
+
+TODO: Great Old One Spells|Warlock|XPHB|Great Old One|XPHB|3
+
+TODO: Awakened Mind|Warlock|XPHB|Great Old One|XPHB|3
+
+TODO: Psychic Spells|Warlock|XPHB|Great Old One|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

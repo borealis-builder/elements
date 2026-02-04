@@ -1,0 +1,26 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_OPEN_HAND_TECHNIQUE"
+name = "Open Hand Technique"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_open_hand_technique.toml"
+description = """
+Whenever you hit a creature with an attack granted by your Flurry of Blows, you
+can impose one of the following effects on that target.
+
+### Addle
+
+The target can't make {@action Opportunity Attack|XPHB|Opportunity Attacks}
+until the start of its next turn.
+
+### Push
+
+The target must succeed on a Strength saving throw or be pushed up to 15 feet
+away from you.
+
+### Topple
+
+The target must succeed on a Dexterity saving throw or have the {@condition
+Prone|XPHB} condition."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

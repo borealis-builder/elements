@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_PSIONIC_SPELLS"
+name = "Psionic Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_psionic_spells.toml"
+description = """
+When you reach a Sorcerer level specified in the Psionic Spells table, you
+thereafter always have the listed spells prepared.
+
+**Psionic Spells**
+
+| Sorcerer Level | Spells |
+| --- | --- |
+| 3rd | {@spell Arms of Hadar|XPHB}, {@spell Calm Emotions|XPHB}, {@spell Detect Thoughts|XPHB}, {@spell Dissonant Whispers|XPHB}, {@spell Mind Sliver|XPHB} |
+| 5th | {@spell Hunger of Hadar|XPHB}, {@spell Sending|XPHB} |
+| 7th | {@spell Evard's Black Tentacles|XPHB}, {@spell Summon Aberration|XPHB} |
+| 9th | {@spell Rary's Telepathic Bond|XPHB}, {@spell Telekinesis|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

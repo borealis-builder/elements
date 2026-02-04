@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_MAGICAL_AMBUSH"
+name = "Magical Ambush"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_magical_ambush.toml"
+description = """
+If you have the {@condition Invisible|XPHB} condition when you cast a spell on a
+creature, it has {@variantrule Disadvantage|XPHB} on any saving throw it makes
+against the spell on the same turn."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

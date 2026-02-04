@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_SACRED_WEAPON"
+name = "Sacred Weapon"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_sacred_weapon.toml"
+description = """
+When you take the {@action Attack|XPHB} action, you can expend one use of your
+Channel Divinity to imbue one Melee weapon that you are holding with positive
+energy. For 10 minutes or until you use this feature again, you add your
+Charisma modifier to attack rolls you make with that weapon (minimum bonus of
++1), and each time you hit with it, you cause it to deal its normal damage type
+or Radiant damage.
+
+The weapon also emits {@variantrule Bright Light|XPHB} in a 20-foot radius and {@variantrule Dim
+Light|XPHB} 20 feet beyond that.
+
+You can end this effect early (no action required). This effect also ends if you
+aren't carrying the weapon."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

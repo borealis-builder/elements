@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_RANGER_HUNTER"
+name = "Hunter"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/ranger_hunter.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

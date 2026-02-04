@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_COLLEGE_OF_VALOR"
+name = "College of Valor"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_college_of_valor.toml"
+description = """
+{@i Sing the Deeds of Ancient Heroes}
+
+Bards of the College of Valor are daring storytellers whose tales preserve the
+memory of the great heroes of the past. These Bards sing the deeds of the mighty
+in vaulted halls or to crowds gathered around great bonfires. They travel to
+witness great events firsthand and to ensure that the memory of these events
+doesn't pass away. With their songs, they inspire new generations to reach the
+same heights of accomplishment as the heroes of old.
+
+TODO: Combat Inspiration|Bard|XPHB|Valor|XPHB|3
+
+TODO: Martial Training|Bard|XPHB|Valor|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

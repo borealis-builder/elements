@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_MONK_WARRIOR_OF_SHADOW"
+name = "Warrior of Shadow"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/monk_warrior_of_shadow.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

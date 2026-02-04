@@ -1,0 +1,14 @@
+id = "ID_XPHB_CLASS_FEATURE_PALADIN_FAITHFUL_STEED"
+name = "Faithful Steed"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_faithful_steed.toml"
+description = """
+You can call on the aid of an otherworldly steed. You always have the {@spell Find
+Steed|XPHB} spell prepared.
+
+You can also cast the spell once without expending a spell slot, and you regain
+the ability to do so when you finish a {@variantrule Long Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_EXTRA_ATTACK"
+name = "Extra Attack"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_extra_attack.toml"
+description = """
+You can attack twice instead of once whenever you take the {@action Attack|XPHB}
+action on your turn."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

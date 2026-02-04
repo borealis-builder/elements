@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_RETALIATION"
+name = "Retaliation"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_retaliation.toml"
+description = """
+When you take damage from a creature that is within 5 feet of you, you can take
+a {@variantrule Reaction|XPHB} to make one melee attack against that creature,
+using a weapon or an {@variantrule Unarmed Strike|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

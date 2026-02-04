@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER"
+name = "Gloom Stalker"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_gloom_stalker.toml"
+description = """
+{@i Draw on Shadow Magic to Fight Your Foes}
+
+Gloom Stalkers are at home in the darkest places, wielding magic drawn from the
+Shadowfell to combat enemies that lurk in darkness.
+
+TODO: Dread Ambusher|Ranger|XPHB|Gloom Stalker|XPHB|3
+
+TODO: Gloom Stalker Spells|Ranger|XPHB|Gloom Stalker|XPHB|3
+
+TODO: Umbral Sight|Ranger|XPHB|Gloom Stalker|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

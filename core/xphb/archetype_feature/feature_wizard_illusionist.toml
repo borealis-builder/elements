@@ -1,0 +1,17 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_ILLUSIONIST"
+name = "Illusionist"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_illusionist.toml"
+description = """
+{@i Weave Subtle Spells of Deception}
+
+You specialize in magic that dazzles the senses and tricks the mind, and the
+illusions you craft make the impossible seem real.
+
+TODO: Illusion Savant|Wizard|XPHB|Illusionist|XPHB|3
+
+TODO: Improved Illusions|Wizard|XPHB|Illusionist|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

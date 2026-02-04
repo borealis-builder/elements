@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_SOUL_OF_VENGEANCE"
+name = "Soul of Vengeance"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_soul_of_vengeance.toml"
+description = """
+Immediately after a creature under the effect of your Vow of Enmity hits or
+misses with an attack roll, you can take a {@variantrule Reaction|XPHB} to make
+a melee attack against that creature if it's within range."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

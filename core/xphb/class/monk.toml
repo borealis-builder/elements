@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_MONK"
+name = "Monk"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/monk.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = [
+    "dex",
+    "wis",
+]
+hit_dice = "1d8"
+
+[multiclass]
+rules = []

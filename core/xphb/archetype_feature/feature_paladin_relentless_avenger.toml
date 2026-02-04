@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_RELENTLESS_AVENGER"
+name = "Relentless Avenger"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_relentless_avenger.toml"
+description = """
+Your supernatural focus helps you close off a foe's retreat. When you hit a
+creature with an {@action Opportunity Attack|XPHB}, you can reduce the
+creature's {@variantrule Speed|XPHB} to 0 until the end of the current turn. You
+can then move up to half your {@variantrule Speed|XPHB} as part of the same {@variantrule
+Reaction|XPHB}. This movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity
+Attacks}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

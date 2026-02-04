@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_WAR_MAGIC"
+name = "War Magic"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_war_magic.toml"
+description = """
+When you take the {@action Attack|XPHB} action on your turn, you can replace one
+of the attacks with a casting of one of your Wizard cantrips that has a casting
+time of an action."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

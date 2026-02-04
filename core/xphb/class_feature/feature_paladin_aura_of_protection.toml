@@ -1,0 +1,18 @@
+id = "ID_XPHB_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION"
+name = "Aura of Protection"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_aura_of_protection.toml"
+description = """
+You radiate a protective, unseeable aura in a 10-foot {@variantrule Emanation [Area of
+Effect]|XPHB|Emanation} that originates from you. The aura is inactive while you
+have the {@condition Incapacitated|XPHB} condition.
+
+You and your allies in the aura gain a bonus to saving throws equal to your
+Charisma modifier (minimum bonus of +1).
+
+If another Paladin is present, a creature can benefit from only one Aura of
+Protection at a time; the creature chooses which aura while in them."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

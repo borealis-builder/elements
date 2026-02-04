@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_FOE_SLAYER"
+name = "Foe Slayer"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_foe_slayer.toml"
+description = """
+The damage die of your Hunter's Mark is a {@damage d10} rather than a {@damage
+d6}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_MISTY_WANDERER"
+name = "Misty Wanderer"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_misty_wanderer.toml"
+description = """
+You can cast {@spell Misty Step|XPHB} without expending a spell slot. You can do
+so a number of times equal to your Wisdom modifier (minimum of once), and you
+regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.
+
+In addition, whenever you cast {@spell Misty Step|XPHB}, you can bring along one
+willing creature you can see within 5 feet of yourself. That creature teleports
+to an unoccupied space of your choice within 5 feet of your destination space."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

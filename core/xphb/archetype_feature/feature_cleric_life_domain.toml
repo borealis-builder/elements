@@ -1,0 +1,26 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_LIFE_DOMAIN"
+name = "Life Domain"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_life_domain.toml"
+description = """
+{@i Soothe the Hurts of the World}
+
+The Life Domain focuses on the positive energy that helps sustain all life in
+the multiverse. Clerics who tap into this domain are masters of healing, using
+that life force to cure many hurts.
+
+Existence itself relies on the positive energy associated with this domain, so a
+Cleric of almost any religious tradition might choose it. This domain is
+particularly associated with agricultural deities, gods of healing or endurance,
+and gods of home and community. Religious orders of healing also seek the magic
+of this domain.
+
+TODO: Life Domain Spells|Cleric|XPHB|Life|XPHB|3
+
+TODO: Disciple of Life|Cleric|XPHB|Life|XPHB|3
+
+TODO: Preserve Life|Cleric|XPHB|Life|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

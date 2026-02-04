@@ -1,0 +1,26 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS"
+name = "Oath of the Ancients"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_the_ancients.toml"
+description = """
+{@i Preserve Life and Light in the World}
+
+The Oath of the Ancients is as old as the first elves. Paladins who swear this
+oath cherish the light; they love the beautiful and life-giving things of the
+world more than any principles of honor, courage, and justice. They often adorn
+their armor and clothing with images of growing things—leaves, antlers, or
+flowers—to reflect their commitment to preserving life and light.
+
+These paladins share the following tenets:
+
+- Kindle the light of hope.
+- Shelter life.
+- Delight in art and laughter.
+
+TODO: Oath of the Ancients Spells|Paladin|XPHB|Ancients|XPHB|3
+
+TODO: Nature's Wrath|Paladin|XPHB|Ancients|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

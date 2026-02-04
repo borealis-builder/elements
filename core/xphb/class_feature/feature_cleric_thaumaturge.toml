@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_FEATURE_CLERIC_THAUMATURGE"
+name = "Thaumaturge"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_thaumaturge.toml"
+description = """
+You know one extra cantrip from the {@filter Cleric spell
+list|spells|class=Cleric}. In addition, your mystical connection to the divine
+gives you a bonus to your Intelligence ({@skill Arcana|XPHB} or {@skill
+Religion|XPHB}) checks. The bonus equals your Wisdom modifier (minimum of +1)."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

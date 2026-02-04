@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_WIZARD"
+name = "Wizard"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/wizard.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = ["int"]
+hit_dice = "1d6"
+
+[multiclass]
+rules = []

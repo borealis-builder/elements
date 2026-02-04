@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_SPELL_BREAKER"
+name = "Spell Breaker"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_spell_breaker.toml"
+description = """
+You always have the {@spell Counterspell|XPHB} and {@spell Dispel Magic|XPHB}
+spells prepared. In addition, you can cast {@spell Dispel Magic|XPHB} as a {@variantrule Bonus
+Action|XPHB}, and you can add your {@variantrule Proficiency|XPHB|Proficiency
+Bonus} to its ability check.
+
+When you cast either spell with a spell slot, that slot isn't expended if the
+spell fails to stop a spell."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

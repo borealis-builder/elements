@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_DRAGON"
+name = "Dragon"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_dragon.toml"
+description = """
+A constellation of a wise dragon appears on you. When you make an Intelligence
+or a Wisdom check or a Constitution saving throw to maintain {@status
+Concentration|XPHB}, you can treat a roll of 9 or lower on the {@dice d20} as a
+10."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

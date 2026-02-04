@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_MONK_EMPOWERED_STRIKES"
+name = "Empowered Strikes"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/monk_empowered_strikes.toml"
+description = """
+Whenever you deal damage with your {@variantrule Unarmed Strike|XPHB}, it can
+deal your choice of Force damage or its normal damage type."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

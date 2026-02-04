@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT"
+name = "Indomitable Might"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/barbarian_indomitable_might.toml"
+description = """
+If your total for a Strength check or Strength saving throw is less than your
+Strength score, you can use that score in place of the total."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

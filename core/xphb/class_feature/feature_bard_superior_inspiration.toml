@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION"
+name = "Superior Inspiration"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_superior_inspiration.toml"
+description = """
+When you roll {@variantrule Initiative|XPHB}, you regain expended uses of Bardic
+Inspiration until you have two if you have fewer than that."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

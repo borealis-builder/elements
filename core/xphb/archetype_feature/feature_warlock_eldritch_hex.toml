@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_ELDRITCH_HEX"
+name = "Eldritch Hex"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_eldritch_hex.toml"
+description = """
+Your alien patron grants you a powerful curse. You always have the {@spell
+Hex|XPHB} spell prepared. When you cast {@spell Hex|XPHB} and choose an ability,
+the target also has {@variantrule Disadvantage|XPHB} on saving throws of the
+chosen ability for the duration of the spell."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

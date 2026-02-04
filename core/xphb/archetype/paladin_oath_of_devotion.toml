@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_PALADIN_OATH_OF_DEVOTION"
+name = "Oath of Devotion"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/paladin_oath_of_devotion.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_PATH_OF_THE_BERSERKER"
+name = "Path of the Berserker"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_path_of_the_berserker.toml"
+description = """
+{@i Channel Rage into Violent Fury}
+
+Barbarians who walk the Path of the Berserker direct their Rage primarily toward
+violence. Their path is one of untrammeled fury, and they thrill in the chaos of
+battle as they allow their Rage to seize and empower them.
+
+TODO: Frenzy|Barbarian|XPHB|Berserker|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

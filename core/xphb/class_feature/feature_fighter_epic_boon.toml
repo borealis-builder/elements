@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_FIGHTER_EPIC_BOON"
+name = "Epic Boon"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_epic_boon.toml"
+description = """
+You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools
+feat|feats.html} of your choice for which you qualify. {@feat Boon of Combat
+Prowess|XPHB} is recommended."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

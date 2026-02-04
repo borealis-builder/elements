@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_FIGHTER_FIGHTER_SUBCLASS"
+name = "Fighter Subclass"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_fighter_subclass.toml"
+description = """
+You gain a Fighter subclass of your choice. A subclass is a specialization that
+grants you features at certain Fighter levels. For the rest of your career, you
+gain each of your subclass's features that are of your Fighter level or lower."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_HEALING_LIGHT"
+name = "Healing Light"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_healing_light.toml"
+description = """
+You gain the ability to channel celestial energy to heal wounds. You have a pool
+of d6s to fuel this healing. The number of dice in the pool equals 1 plus your
+Warlock level.
+
+As a {@variantrule Bonus Action|XPHB}, you can heal yourself or one creature you
+can see within 60 feet of yourself, expending dice from the pool. The maximum
+number of dice you can expend at once equals your Charisma modifier (minimum of
+one die). Roll the dice you expend, and restore a number of {@variantrule Hit
+Points|XPHB} equal to the roll's total. Your pool regains all expended dice when
+you finish a {@variantrule Long Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_SORCERER_ARCANE_APOTHEOSIS"
+name = "Arcane Apotheosis"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/sorcerer_arcane_apotheosis.toml"
+description = """
+While your Innate Sorcery feature is active, you can use one Metamagic option on
+each of your turns without spending Sorcery Points on it."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

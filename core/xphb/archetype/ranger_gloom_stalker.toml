@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_RANGER_GLOOM_STALKER"
+name = "Gloom Stalker"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/ranger_gloom_stalker.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

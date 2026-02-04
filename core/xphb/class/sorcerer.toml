@@ -1,0 +1,13 @@
+id = "ID_XPHB_CLASS_SORCERER"
+name = "Sorcerer"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/sorcerer.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = ["cha"]
+hit_dice = "1d6"
+
+[multiclass]
+rules = []

@@ -1,0 +1,9 @@
+id = "ID_XPHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM"
+name = "Mystic Arcanum"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/warlock_mystic_arcanum.toml"
+description = "You gain a level 9 Warlock Spell of your choice."
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

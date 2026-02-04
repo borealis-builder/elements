@@ -1,0 +1,17 @@
+name = "core"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core.index"
+
+[[files]]
+type = "index"
+name = "Player's Handbook (2024)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb.index"
+
+[[files]]
+type = "index"
+name = "Dungeon Master's Guide (2024)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xdmg.index"
+
+[[files]]
+type = "index"
+name = "Monster Manual (2025)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xmm.index"

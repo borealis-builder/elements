@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_HAND_OF_HEALING"
+name = "Hand of Healing"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_hand_of_healing.toml"
+description = """
+As a {@action Magic|XPHB} action, you can expend 1 Focus Point to touch a
+creature and restore a number of {@variantrule Hit Points|XPHB} equal to a roll
+of your Martial Arts die plus your Wisdom modifier. When you use your Flurry of
+Blows, you can replace one of the Unarmed Strikes with a use of this feature
+without expending a Focus Point for the healing."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

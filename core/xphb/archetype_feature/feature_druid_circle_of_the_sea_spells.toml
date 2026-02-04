@@ -1,0 +1,21 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_CIRCLE_OF_THE_SEA_SPELLS"
+name = "Circle of the Sea Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_circle_of_the_sea_spells.toml"
+description = """
+When you reach a Druid level specified in the Circle of the Sea Spells table,
+you thereafter always have the listed spells prepared.
+
+**Circle of the Sea Spells**
+
+| Druid Level | Prepared Spells |
+| --- | --- |
+| 3rd | {@spell Fog Cloud|XPHB}, {@spell Gust of Wind|XPHB}, {@spell Ray of Frost|XPHB}, {@spell Shatter|XPHB}, {@spell Thunderwave|XPHB} |
+| 5th | {@spell Lightning Bolt|XPHB}, {@spell Water Breathing|XPHB} |
+| 7th | {@spell Control Water|XPHB}, {@spell Ice Storm|XPHB} |
+| 9th | {@spell Conjure Elemental|XPHB}, {@spell Hold Monster|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

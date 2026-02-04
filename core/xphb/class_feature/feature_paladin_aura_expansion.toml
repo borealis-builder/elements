@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_PALADIN_AURA_EXPANSION"
+name = "Aura Expansion"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/paladin_aura_expansion.toml"
+description = """
+Your Aura of Protection is now a 30-foot {@variantrule Emanation [Area of
+Effect]|XPHB|Emanation}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

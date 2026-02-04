@@ -1,0 +1,15 @@
+id = "ID_XPHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS"
+name = "Signature Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/wizard_signature_spells.toml"
+description = """
+Choose two level 3 spells in your spellbook as your signature spells. You always
+have these spells prepared, and you can cast each of them once at level 3
+without expending a spell slot. When you do so, you can't cast them in this way
+again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long
+Rest|XPHB}. To cast either spell at a higher level, you must expend a spell
+slot."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

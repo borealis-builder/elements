@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_SPELLS"
+name = "Great Old One Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/warlock_great_old_one_spells.toml"
+description = """
+The magic of your patron ensures you always have certain spells ready; when you
+reach a Warlock level specified in the Great Old One Spells table, you
+thereafter always have the listed spells prepared.
+
+**Great Old One Spells**
+
+| Warlock Level | Spells |
+| --- | --- |
+| 3 | {@spell Detect Thoughts|XPHB}, {@spell Dissonant Whispers|XPHB}, {@spell Phantasmal Force|XPHB}, {@spell Tasha's Hideous Laughter|XPHB} |
+| 5 | {@spell Clairvoyance|XPHB}, {@spell Hunger of Hadar|XPHB} |
+| 7 | {@spell Confusion|XPHB}, {@spell Summon Aberration|XPHB} |
+| 9 | {@spell Modify Memory|XPHB}, {@spell Telekinesis|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,14 @@
+id = "ID_XPHB_CLASS_FEATURE_FIGHTER_TACTICAL_MIND"
+name = "Tactical Mind"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_tactical_mind.toml"
+description = """
+You have a mind for tactics on and off the battlefield. When you fail an ability
+check, you can expend a use of your Second Wind to push yourself toward success.
+Rather than regaining {@variantrule Hit Points|XPHB}, you roll {@dice 1d10} and
+add the number rolled to the ability check, potentially turning it into a
+success. If the check still fails, this use of Second Wind isn't expended."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

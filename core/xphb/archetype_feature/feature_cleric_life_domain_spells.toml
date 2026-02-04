@@ -1,0 +1,22 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_CLERIC_LIFE_DOMAIN_SPELLS"
+name = "Life Domain Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/cleric_life_domain_spells.toml"
+description = """
+Your connection to this divine domain ensures you always have certain spells
+ready. When you reach a Cleric level specified in the Life Domain Spells table,
+you thereafter always have the listed spells prepared.
+
+**Life Domain Spells**
+
+| Cleric Level | Prepared Spells |
+| --- | --- |
+| 3rd | {@spell Aid|XPHB}, {@spell Bless|XPHB}, {@spell Cure Wounds|XPHB}, {@spell Lesser Restoration|XPHB} |
+| 5th | {@spell Mass Healing Word|XPHB}, {@spell Revivify|XPHB} |
+| 7th | {@spell Aura of Life|XPHB}, {@spell Death Ward|XPHB} |
+| 9th | {@spell Greater Restoration|XPHB}, {@spell Mass Cure Wounds|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

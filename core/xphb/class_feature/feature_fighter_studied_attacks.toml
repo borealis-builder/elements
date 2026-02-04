@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_FIGHTER_STUDIED_ATTACKS"
+name = "Studied Attacks"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/fighter_studied_attacks.toml"
+description = """
+You study your opponents and learn from each attack you make. If you make an
+attack roll against a creature and miss, you have {@variantrule Advantage|XPHB}
+on your next attack roll against that creature before the end of your next turn."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

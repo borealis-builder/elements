@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_WARRIOR_OF_THE_GODS"
+name = "Warrior of the Gods"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_warrior_of_the_gods.toml"
+description = """
+A divine entity helps ensure you can continue the fight. You have a pool of four
+d12s that you can spend to heal yourself. As a {@variantrule Bonus Action|XPHB},
+you can expend dice from the pool, roll them, and regain a number of {@variantrule Hit
+Points|XPHB} equal to the roll's total.
+
+Your pool regains all expended dice when you finish a {@variantrule Long
+Rest|XPHB}.
+
+The pool's maximum number of dice increases by one when you reach Barbarian
+levels 6 (5 dice), 12 (6 dice), and 17 (7 dice)."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

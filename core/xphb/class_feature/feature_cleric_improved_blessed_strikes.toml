@@ -1,0 +1,21 @@
+id = "ID_XPHB_CLASS_FEATURE_CLERIC_IMPROVED_BLESSED_STRIKES"
+name = "Improved Blessed Strikes"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/cleric_improved_blessed_strikes.toml"
+description = """
+The option you chose for Blessed Strikes grows more powerful.
+
+### Divine Strike
+
+The extra damage of your Divine Strike increases to {@damage 2d8}.
+
+### Potent Spellcasting
+
+When you cast a Cleric cantrip and deal damage to a creature with it, you can
+give vitality to yourself or another creature within 60 feet of yourself,
+granting a number of {@variantrule Temporary Hit Points|XPHB} equal to twice
+your Wisdom modifier."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

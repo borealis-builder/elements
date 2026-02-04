@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_SORCERER_PSYCHIC_DEFENSES"
+name = "Psychic Defenses"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/sorcerer_psychic_defenses.toml"
+description = """
+You have {@variantrule Resistance|XPHB} to Psychic damage, and you have {@variantrule
+Advantage|XPHB} on saving throws to avoid or end the {@condition Charmed|XPHB}
+or {@condition Frightened|XPHB} condition."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

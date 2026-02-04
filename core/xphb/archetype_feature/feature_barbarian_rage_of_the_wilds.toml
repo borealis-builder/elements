@@ -1,0 +1,28 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARBARIAN_RAGE_OF_THE_WILDS"
+name = "Rage of the Wilds"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/barbarian_rage_of_the_wilds.toml"
+description = """
+Your Rage taps into the primal power of animals. Whenever you activate your
+Rage, you gain one of the following options of your choice.
+
+### Bear
+
+While your Rage is active, you have {@variantrule Resistance|XPHB} to every
+damage type except Force, Necrotic, Psychic, and Radiant.
+
+### Eagle
+
+When you activate your Rage, you can take the {@action Disengage|XPHB} and {@action
+Dash|XPHB} actions as part of that {@variantrule Bonus Action|XPHB}. While your
+Rage is active, you can take a {@variantrule Bonus Action|XPHB} to take both of
+those actions.
+
+### Wolf
+
+While your Rage is active, your allies have {@variantrule Advantage|XPHB} on
+attack rolls against any enemy of yours within 5 feet of you."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,20 @@
+id = "ID_XPHB_CLASS_FEATURE_RANGER_DEFT_EXPLORER"
+name = "Deft Explorer"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/ranger_deft_explorer.toml"
+description = """
+Thanks to your travels, you gain the following benefits.
+
+### Expertise
+
+Choose one of your skill proficiencies with which you lack {@variantrule
+Expertise|XPHB}. You gain {@variantrule Expertise|XPHB} in that skill.
+
+### Languages
+
+You know two languages of your choice from the language tables in {@book chapter 2|XPHB|2|Choose
+Languages}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

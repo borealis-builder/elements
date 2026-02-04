@@ -1,0 +1,13 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_WIZARD_EXPERT_DIVINATION"
+name = "Expert Divination"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_expert_divination.toml"
+description = """
+Casting Divination spells comes so easily to you that it expends only a fraction
+of your spellcasting efforts. When you cast a Divination spell using a level 2+
+spell slot, you regain one expended spell slot. The slot you regain must be of a
+level lower than the slot you expended and can't be higher than level 5."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_IMPROVED_CUNNING_STRIKE"
+name = "Improved Cunning Strike"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_improved_cunning_strike.toml"
+description = """
+You can use up to two Cunning Strike effects when you deal Sneak Attack damage,
+paying the die cost for each effect."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

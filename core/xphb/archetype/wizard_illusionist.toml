@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_WIZARD_ILLUSIONIST"
+name = "Illusionist"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/wizard_illusionist.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

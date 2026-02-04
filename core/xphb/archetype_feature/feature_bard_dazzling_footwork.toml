@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_BARD_DAZZLING_FOOTWORK"
+name = "Dazzling Footwork"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/bard_dazzling_footwork.toml"
+description = """
+While you aren't wearing armor or wielding a {@item Shield|XPHB}, you gain the
+following benefits.
+
+TODO: Dance Virtuoso|Bard|XPHB|Dance|XPHB|3
+
+TODO: Unarmored Defense|Bard|XPHB|Dance|XPHB|3
+
+TODO: Agile Strikes|Bard|XPHB|Dance|XPHB|3
+
+TODO: Bardic Damage|Bard|XPHB|Dance|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

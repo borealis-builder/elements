@@ -1,0 +1,11 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_SUPERIOR_CRITICAL"
+name = "Superior Critical"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_superior_critical.toml"
+description = """
+Your attack rolls with weapons and Unarmed Strikes can now score a {@variantrule Critical
+Hit|XPHB} on a roll of 18–20 on the {@dice d20}."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

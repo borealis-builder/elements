@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_BARD_EXPERTISE"
+name = "Expertise"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_expertise.toml"
+description = """
+You gain {@variantrule Expertise|XPHB} in two of your Skill Proficiencies of
+your choice."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

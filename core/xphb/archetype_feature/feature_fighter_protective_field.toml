@@ -1,0 +1,14 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_PROTECTIVE_FIELD"
+name = "Protective Field"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_protective_field.toml"
+description = """
+When you or another creature you can see within 30 feet of you takes damage, you
+can take a {@variantrule Reaction|XPHB} to expend one Psionic Energy Die, roll
+the die, and reduce the damage taken by the number rolled plus your Intelligence
+modifier (minimum reduction of 1), as you create a momentary shield of
+telekinetic force."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

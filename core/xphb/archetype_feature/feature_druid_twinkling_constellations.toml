@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_TWINKLING_CONSTELLATIONS"
+name = "Twinkling Constellations"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_twinkling_constellations.toml"
+description = """
+The constellations of your Starry Form improve. The {@damage 1d8} of the Archer
+and the Chalice becomes {@damage 2d8}, and while the Dragon is active, you have
+a {@variantrule Fly Speed|XPHB} of 20 feet and can hover.
+
+Moreover, at the start of each of your turns while in your Starry Form, you can
+change which constellation glimmers on your body."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

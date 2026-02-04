@@ -1,0 +1,28 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_DREAD_AMBUSHER"
+name = "Dread Ambusher"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_dread_ambusher.toml"
+description = """
+You have mastered the art of creating fearsome ambushes, granting you the
+following benefits.
+
+### Ambusher's Leap
+
+At the start of your first turn of each combat, your {@variantrule Speed|XPHB}
+increases by 10 feet until the end of that turn.
+
+### Dreadful Strike
+
+When you attack a creature and hit it with a weapon, you can deal an extra {@damage
+2d6} Psychic damage. You can use this benefit only once per turn, you can use it
+a number of times equal to your Wisdom modifier (minimum of once), and you
+regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.
+
+### Initiative Bonus
+
+When you roll {@variantrule Initiative|XPHB}, you can add your Wisdom modifier
+to the roll."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

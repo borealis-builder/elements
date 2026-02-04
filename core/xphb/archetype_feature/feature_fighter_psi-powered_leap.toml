@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_PSI-POWERED_LEAP"
+name = "Psi-Powered Leap"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_psi-powered_leap.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you gain a {@variantrule Fly Speed|XPHB}
+equal to twice your {@variantrule Speed|XPHB} until the end of the current turn.
+Once you take this {@variantrule Bonus Action|XPHB}, you can't do so again until
+you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long
+Rest|XPHB} unless you expend a Psionic Energy Die (no action required) to
+restore your use of it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

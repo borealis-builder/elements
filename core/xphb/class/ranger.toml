@@ -1,0 +1,16 @@
+id = "ID_XPHB_CLASS_RANGER"
+name = "Ranger"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class/ranger.toml"
+supports = []
+keywords = []
+rules = []
+kind = "class"
+primary_ability = [
+    "wis",
+    "dex",
+]
+hit_dice = "1d10"
+
+[multiclass]
+rules = []

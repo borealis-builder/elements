@@ -1,0 +1,12 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_ROGUE_VERSATILE_TRICKSTER"
+name = "Versatile Trickster"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/rogue_versatile_trickster.toml"
+description = """
+You gain the ability to distract targets with your {@spell Mage Hand|XPHB}. When
+you use the Trip option of your Cunning Strike on a creature, you can also use
+that option on another creature within 5 feet of the spectral hand."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

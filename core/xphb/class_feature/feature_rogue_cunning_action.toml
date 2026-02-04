@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_CUNNING_ACTION"
+name = "Cunning Action"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_cunning_action.toml"
+description = """
+Your quick thinking and agility allow you to move and act quickly. On your turn,
+you can take one of the following actions as a {@variantrule Bonus Action|XPHB}: {@action
+Dash|XPHB}, {@action Disengage|XPHB}, or {@action Hide|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

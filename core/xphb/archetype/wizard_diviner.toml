@@ -1,0 +1,8 @@
+id = "ID_XPHB_ARCHETYPE_WIZARD_DIVINER"
+name = "Diviner"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype/wizard_diviner.toml"
+supports = []
+keywords = []
+rules = []
+kind = "archetype"

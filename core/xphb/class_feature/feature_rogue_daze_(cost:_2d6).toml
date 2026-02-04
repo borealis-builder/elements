@@ -1,0 +1,12 @@
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_DAZE_(COST:_2D6)"
+name = "Daze (Cost: 2d6)"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_daze_(cost:_2d6).toml"
+description = """
+The target must succeed on a Constitution saving throw, or on its next turn, it
+can do only one of the following: move or take an action or a {@variantrule Bonus
+Action|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

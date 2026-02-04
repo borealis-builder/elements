@@ -1,0 +1,19 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_FIGHTER_TELEKINETIC_MOVEMENT"
+name = "Telekinetic Movement"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/fighter_telekinetic_movement.toml"
+description = """
+You can move an object or a creature with your mind. As a {@action Magic|XPHB}
+action, choose one target you can see within 30 feet of yourself; the target
+must be a loose object that is Large or smaller or one willing creature other
+than you. You transport the target up to 30 feet to an unoccupied space you can
+see. Alternatively, if the target is a Tiny object, you can transport it to or
+from your hand.
+
+Once you take this action, you can't do so again until you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} unless you expend a Psionic
+Energy Die (no action required) to restore your use of it."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_EXCEPTIONAL_TRAINING"
+name = "Exceptional Training"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_exceptional_training.toml"
+description = """
+When you take a {@variantrule Bonus Action|XPHB} to command your Primal
+Companion beast to take an action, you can also command it to take the {@action
+Dash|XPHB}, {@action Disengage|XPHB}, {@action Dodge|XPHB}, or {@action
+Help|XPHB} action using its {@variantrule Bonus Action|XPHB}.
+
+In addition, whenever it hits with an attack roll and deals damage, it can deal
+your choice of Force damage or its normal damage type."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

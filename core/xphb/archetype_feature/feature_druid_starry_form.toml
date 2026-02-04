@@ -1,0 +1,28 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_DRUID_STARRY_FORM"
+name = "Starry Form"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/druid_starry_form.toml"
+description = """
+As a {@variantrule Bonus Action|XPHB}, you can expend a use of your Wild Shape
+feature to take on a starry form rather than shape-shifting.
+
+While in your starry form, you retain your game statistics, but your body
+becomes luminous, your joints glimmer like stars, and glowing lines connect them
+as on a star chart. This form sheds {@variantrule Bright Light|XPHB} in a
+10-foot radius and {@variantrule Dim Light|XPHB} for an additional 10 feet. The
+form lasts for 10 minutes. It ends early if you dismiss it (no action required),
+have the {@condition Incapacitated|XPHB} condition, or use this feature again.
+
+Whenever you assume your starry form, choose which of the following
+constellations glimmers on your body; your choice gives you certain benefits
+while in the form.
+
+TODO: Archer|Druid|XPHB|Stars|XPHB|3
+
+TODO: Chalice|Druid|XPHB|Stars|XPHB|3
+
+TODO: Dragon|Druid|XPHB|Stars|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

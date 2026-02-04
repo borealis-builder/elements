@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_RANGER_BESTIAL_FURY"
+name = "Bestial Fury"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/ranger_bestial_fury.toml"
+description = """
+When you command your Primal Companion beast to take the Beast's Strike action,
+the beast can use it twice.
+
+In addition, the first time each turn it hits a creature under the effect of
+your {@spell Hunter's Mark|XPHB} spell, the beast deals extra Force damage equal
+to the bonus damage of that spell."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

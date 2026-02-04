@@ -1,0 +1,15 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_NATURE'S_WRATH"
+name = "Nature's Wrath"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_nature's_wrath.toml"
+description = """
+As a {@action Magic|XPHB} action, you can expend one use of your Channel
+Divinity to conjure spectral vines around nearby creatures. Each creature of
+your choice that you can see within 15 feet of yourself must succeed on a
+Strength saving throw or have the {@condition Restrained|XPHB} condition for 1
+minute. A {@condition Restrained|XPHB} creature repeats the save at the end of
+each of its turns, ending the effect on itself on a success."""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

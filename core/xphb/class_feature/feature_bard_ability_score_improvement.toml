@@ -1,0 +1,11 @@
+id = "ID_XPHB_CLASS_FEATURE_BARD_ABILITY_SCORE_IMPROVEMENT"
+name = "Ability Score Improvement"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/bard_ability_score_improvement.toml"
+description = """
+You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools
+feat|feats.html} of your choice for which you qualify."""
+supports = []
+keywords = []
+rules = []
+kind = "class_feature"

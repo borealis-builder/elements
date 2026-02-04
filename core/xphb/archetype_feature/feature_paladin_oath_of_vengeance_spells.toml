@@ -1,0 +1,23 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_SPELLS"
+name = "Oath of Vengeance Spells"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/paladin_oath_of_vengeance_spells.toml"
+description = """
+The magic of your oath ensures you always have certain spells ready; when you
+reach a Paladin level specified in the Oath of Vengeance Spells table, you
+thereafter always have the listed spells prepared.
+
+**Oath of Vengeance Spells**
+
+| Paladin Level | Spells |
+| --- | --- |
+| 3rd | {@spell Bane|XPHB}, {@spell Hunter's Mark|XPHB} |
+| 5th | {@spell Hold Person|XPHB}, {@spell Misty Step|XPHB} |
+| 9th | {@spell Haste|XPHB}, {@spell Protection from Energy|XPHB} |
+| 13th | {@spell Banishment|XPHB}, {@spell Dimension Door|XPHB} |
+| 17th | {@spell Hold Monster|XPHB}, {@spell Scrying|XPHB} |
+"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"

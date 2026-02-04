@@ -1,0 +1,16 @@
+id = "ID_XPHB_ARCHETYPE_FEATURE_MONK_WARRIOR_OF_SHADOW"
+name = "Warrior of Shadow"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/monk_warrior_of_shadow.toml"
+description = """
+{@i Harness Shadow Power for Stealth and Subterfuge}
+
+Warriors of Shadow practice stealth and subterfuge, harnessing the power of the
+Shadowfell. They are at home in darkness, able to draw gloom around themselves
+to hide, leap from shadow to shadow, and take on a wraithlike form.
+
+TODO: Shadow Arts|Monk|XPHB|Shadow|XPHB|3"""
+supports = []
+keywords = []
+rules = []
+kind = "archetype_feature"
