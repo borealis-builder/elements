@@ -7,8 +7,8 @@ keywords = []
 rules = []
 kind = "class"
 primary_ability = [
-    "cha",
     "str",
+    "cha",
 ]
 hit_dice = "1d10"
 

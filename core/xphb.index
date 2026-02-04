@@ -2269,12 +2269,12 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Poison (Cost: 1d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_poison_.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_poison.toml"
 
 [[files]]
 type = "file"
 name = "Trip (Cost: 1d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_trip_.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_trip.toml"
 
 [[files]]
 type = "file"
@@ -2284,7 +2284,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Withdraw (Cost: 1d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_withdraw_.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_withdraw.toml"
 
 [[files]]
 type = "file"
@@ -2334,7 +2334,7 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Daze (Cost: 2d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_daze_.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_daze.toml"
 
 [[files]]
 type = "file"
@@ -2344,12 +2344,12 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 [[files]]
 type = "file"
 name = "Knock Out (Cost: 6d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_knock_out_.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_knock_out.toml"
 
 [[files]]
 type = "file"
 name = "Obscure (Cost: 3d6)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_obscure_.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_obscure.toml"
 
 [[files]]
 type = "file"

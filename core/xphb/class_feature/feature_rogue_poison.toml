@@ -1,7 +1,7 @@
-id = "ID_XPHB_CLASS_FEATURE_ROGUE_POISON_"
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_POISON"
 name = "Poison (Cost: 1d6)"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_poison_.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_poison.toml"
 description = """
 You add a toxin to your strike, forcing the target to make a Constitution saving
 throw. On a failed save, the target has the {@condition Poisoned|XPHB} condition

@@ -1,7 +1,7 @@
-id = "ID_XPHB_CLASS_FEATURE_ROGUE_TRIP_"
+id = "ID_XPHB_CLASS_FEATURE_ROGUE_TRIP"
 name = "Trip (Cost: 1d6)"
 source = "XPHB"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_trip_.toml"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/class_feature/rogue_trip.toml"
 description = """
 If the target is Large or smaller, it must succeed on a Dexterity saving throw
 or have the {@condition Prone|XPHB} condition."""
