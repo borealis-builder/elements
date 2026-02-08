@@ -9,5 +9,9 @@ kind = "class"
 primary_ability = ["dex"]
 hit_dice = "1d8"
 
-[multiclass]
-rules = []
+[[multiclass_grants]]
+
+[multiclass_grants.attributes]
+type = "proficiency"
+id = "ID_PROFICIENCY_ARMOR_LIGHT"
+required_level = 1

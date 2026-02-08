@@ -11,6 +11,4 @@ primary_ability = [
     "dex",
 ]
 hit_dice = "1d8"
-
-[multiclass]
-rules = []
+multiclass_grants = []

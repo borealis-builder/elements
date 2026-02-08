@@ -12,5 +12,23 @@ primary_ability = [
 ]
 hit_dice = "1d10"
 
-[multiclass]
-rules = []
+[[multiclass_grants]]
+
+[multiclass_grants.attributes]
+type = "proficiency"
+id = "ID_PROFICIENCY_ARMOR_LIGHT"
+required_level = 1
+
+[[multiclass_grants]]
+
+[multiclass_grants.attributes]
+type = "proficiency"
+id = "ID_PROFICIENCY_ARMOR_MEDIUM"
+required_level = 1
+
+[[multiclass_grants]]
+
+[multiclass_grants.attributes]
+type = "proficiency"
+id = "ID_PROFICIENCY_ARMOR_SHIELD"
+required_level = 1

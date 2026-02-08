@@ -1,3 +1,4 @@
+id = "core"
 name = "core"
 url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core.index"
 

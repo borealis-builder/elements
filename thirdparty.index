@@ -1,3 +1,4 @@
+id = "thirdparty"
 name = "thirdparty"
 url = "https://raw.githubusercontent.com/borealis-builder/elements/main/thirdparty.index"
 files = []

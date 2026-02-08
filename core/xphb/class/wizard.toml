@@ -8,6 +8,4 @@ rules = []
 kind = "class"
 primary_ability = ["int"]
 hit_dice = "1d6"
-
-[multiclass]
-rules = []
+multiclass_grants = []

@@ -1,3 +1,4 @@
+id = "xmm"
 name = "Monster Manual (2025)"
 url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xmm.index"
 files = []
