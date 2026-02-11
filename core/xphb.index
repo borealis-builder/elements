@@ -4565,3 +4565,73 @@ id = "wizard_illusory_reality"
 name = "Illusory Reality"
 url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/archetype_feature/wizard_illusory_reality.toml"
 provides = ["ID_XPHB_ARCHETYPE_FEATURE_WIZARD_ILLUSORY_REALITY"]
+
+[[files]]
+type = "file"
+id = "aasimar"
+name = "Aasimar"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/aasimar.toml"
+provides = ["ID_XPHB_RACE_AASIMAR"]
+
+[[files]]
+type = "file"
+id = "dragonborn"
+name = "Dragonborn"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/dragonborn.toml"
+provides = ["ID_XPHB_RACE_DRAGONBORN"]
+
+[[files]]
+type = "file"
+id = "dwarf"
+name = "Dwarf"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/dwarf.toml"
+provides = ["ID_XPHB_RACE_DWARF"]
+
+[[files]]
+type = "file"
+id = "elf"
+name = "Elf"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/elf.toml"
+provides = ["ID_XPHB_RACE_ELF"]
+
+[[files]]
+type = "file"
+id = "gnome"
+name = "Gnome"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/gnome.toml"
+provides = ["ID_XPHB_RACE_GNOME"]
+
+[[files]]
+type = "file"
+id = "goliath"
+name = "Goliath"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/goliath.toml"
+provides = ["ID_XPHB_RACE_GOLIATH"]
+
+[[files]]
+type = "file"
+id = "halfling"
+name = "Halfling"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/halfling.toml"
+provides = ["ID_XPHB_RACE_HALFLING"]
+
+[[files]]
+type = "file"
+id = "human"
+name = "Human"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/human.toml"
+provides = ["ID_XPHB_RACE_HUMAN"]
+
+[[files]]
+type = "file"
+id = "orc"
+name = "Orc"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/orc.toml"
+provides = ["ID_XPHB_RACE_ORC"]
+
+[[files]]
+type = "file"
+id = "tiefling"
+name = "Tiefling"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/tiefling.toml"
+provides = ["ID_XPHB_RACE_TIEFLING"]

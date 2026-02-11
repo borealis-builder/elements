@@ -1,0 +1,23 @@
+id = "ID_XPHB_RACE_HUMAN"
+name = "Human"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/human.toml"
+description = """
+### Resourceful
+
+You gain {@variantrule Heroic Inspiration|XPHB} whenever you finish a {@variantrule Long
+Rest|XPHB}.
+
+### Skillful
+
+You gain proficiency in one skill of your choice.
+
+### Versatile
+
+You gain an {@filter Origin feat|feats|category=o} of your choice."""
+supports = []
+keywords = []
+rules = []
+kind = "race"
+male_names = []
+female_names = []

@@ -1,0 +1,31 @@
+id = "ID_XPHB_RACE_ORC"
+name = "Orc"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/orc.toml"
+description = """
+### Adrenaline Rush
+
+You can take the {@action Dash|XPHB} action as a {@variantrule Bonus
+Action|XPHB}. When you do so, you gain a number of {@variantrule Temporary Hit
+Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.
+
+You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency
+Bonus}, and you regain all expended uses when you finish a {@variantrule Short
+Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.
+
+### Darkvision
+
+You have {@sense Darkvision|XPHB} with a range of 120 feet.
+
+### Relentless Endurance
+
+When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed
+outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead.
+Once you use this trait, you can't do so again until you finish a {@variantrule Long
+Rest|XPHB}."""
+supports = []
+keywords = []
+rules = []
+kind = "race"
+male_names = []
+female_names = []

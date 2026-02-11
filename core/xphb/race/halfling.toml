@@ -1,0 +1,30 @@
+id = "ID_XPHB_RACE_HALFLING"
+name = "Halfling"
+source = "XPHB"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xphb/race/halfling.toml"
+description = """
+### Brave
+
+You have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end
+the {@condition Frightened|XPHB} condition.
+
+### Halfling Nimbleness
+
+You can move through the space of any creature that is a size larger than you,
+but you can't stop in the same space.
+
+### Luck
+
+When you roll a 1 on the {@dice d20} of a {@variantrule D20 Test|XPHB}, you can
+reroll the die, and you must use the new roll.
+
+### Naturally Stealthy
+
+You can take the {@action Hide|XPHB} action even when you are obscured only by a
+creature that is at least one size larger than you."""
+supports = []
+keywords = []
+rules = []
+kind = "race"
+male_names = []
+female_names = []

@@ -7,8 +7,8 @@ keywords = []
 rules = []
 kind = "class"
 primary_ability = [
-    "wis",
     "dex",
+    "wis",
 ]
 hit_dice = "1d8"
 multiclass_grants = []

@@ -10,12 +10,12 @@ url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xph
 
 [[files]]
 type = "index"
-id = "xmm"
-name = "Monster Manual (2025)"
-url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xmm.index"
-
-[[files]]
-type = "index"
 id = "xdmg"
 name = "Dungeon Master's Guide (2024)"
 url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xdmg.index"
+
+[[files]]
+type = "index"
+id = "xmm"
+name = "Monster Manual (2025)"
+url = "https://raw.githubusercontent.com/borealis-builder/elements/main/core/xmm.index"
